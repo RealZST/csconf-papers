@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from csconf import http, render, store, venues as venues_mod
+from csconf import fallback, http, render, store, venues as venues_mod
 from csconf.dblp import parse_toc
 from csconf.models import Paper
 from csconf.rounds import filter_by_rounds
@@ -32,6 +32,29 @@ def _note_for(config: Dict[str, Any], year: int, volume: Optional[int]) -> Optio
     if not template:
         return None
     return template.format(vol=volume, year=year)
+
+
+def merge_sources(
+    web_papers: List[Paper], dblp_papers: List[Paper]
+) -> List[Paper]:
+    """dblp 优先。同一篇论文的 web 记录被 dblp 记录替换而非叠加。"""
+    merged = {p.merge_key(): p for p in web_papers}
+    for paper in dblp_papers:
+        merged[paper.merge_key()] = paper
+    return list(merged.values())
+
+
+def _fetch_fallback(
+    config: Dict[str, Any], venue: str, year: int, fetcher
+) -> List[Paper]:
+    """DBLP 尚未编目时改抓官网。官网结构变了或页面不在，不该拖垮整届同步：
+    这是补数据的兜底，失败就当没有，格子留破折号。"""
+    url = config["fallback_url"].format(year=year, yy="{:02d}".format(year % 100))
+    try:
+        html = fetcher.get(url)
+    except http.HttpError:
+        return []
+    return fallback.parse_for(venue, html, year)
 
 
 def sync_venue_year(
@@ -74,6 +97,14 @@ def sync_venue_year(
 
     source_keys = [f.toc_key for f in fetches]
     status = venues_mod.status_of(venues, venue, year)
+
+    if not papers and status == "pending" and config.get("fallback_url"):
+        # 会已经开完、官网早已挂出录用名单，DBLP 还没编目。先用官网顶上，
+        # 等 DBLP 补上后再由 dblp 记录替换（merge_sources 里 dblp 优先）。
+        papers = merge_sources(
+            web_papers=_fetch_fallback(config, venue, year, fetcher),
+            dblp_papers=papers,
+        )
 
     if not papers:
         # indexed 却零篇 = DBLP 改了 TOC key，该届会安静消失，必须炸。

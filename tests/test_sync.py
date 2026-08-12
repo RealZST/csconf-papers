@@ -216,6 +216,81 @@ def test_missing_toc_is_treated_as_no_data_for_pending_venue(tmp_path):
     assert not (tmp_path / "data" / "2026" / "OSDI.json").exists()
 
 
+def test_pending_venue_falls_back_to_official_site(tmp_path):
+    """DBLP 未编目而官网已挂出名单时，从官网补齐，README 才不会留破折号。"""
+    venues = {
+        "OSDI": {
+            "type": "conf",
+            "key": "conf/osdi/osdi{year}",
+            "fallback_url": "https://www.usenix.org/conference/osdi{yy}/technical-sessions",
+            "status": {2026: "pending"},
+        }
+    }
+    fetcher = StubFetcher(
+        {
+            "https://dblp.org/db/conf/osdi/osdi2026.xml": "<bht></bht>",
+            "https://www.usenix.org/conference/osdi26/technical-sessions": (
+                FIXTURES / "usenix-osdi-2026-accepted.html"
+            ).read_text(encoding="utf-8"),
+        }
+    )
+
+    result = sync_venue_year(
+        root=tmp_path, venues=venues, venue="OSDI", year=2026,
+        fetcher=fetcher, updated="2026-08-12",
+    )
+
+    assert result.paper_count == 5
+    assert {p.source for p in result.papers} == {"osdi-web"}
+    assert (tmp_path / "data" / "2026" / "OSDI.json").exists()
+    assert (tmp_path / "papers" / "2026" / "OSDI.md").exists()
+
+
+def test_fallback_failure_leaves_venue_empty_instead_of_aborting(tmp_path):
+    """官网也拿不到时安静留空——兜底抓取失败不该让这届同步算失败。"""
+    from csconf.http import NotFound
+
+    venues = {
+        "OSDI": {
+            "type": "conf",
+            "key": "conf/osdi/osdi{year}",
+            "fallback_url": "https://www.usenix.org/conference/osdi{yy}/technical-sessions",
+            "status": {2026: "pending"},
+        }
+    }
+
+    class FallbackNotFoundFetcher:
+        def get(self, url):
+            if url.startswith("https://dblp.org/"):
+                return "<bht></bht>"
+            raise NotFound("{} 不存在".format(url), 404)
+
+    result = sync_venue_year(
+        root=tmp_path, venues=venues, venue="OSDI", year=2026,
+        fetcher=FallbackNotFoundFetcher(), updated="2026-08-12",
+    )
+
+    assert result.paper_count == 0
+    assert not (tmp_path / "data" / "2026" / "OSDI.json").exists()
+
+
+def test_dblp_records_replace_web_records_without_duplicates():
+    """DBLP 编目后接管官网记录：按归一化标题匹配，是替换不是叠加。
+    这条规则优先于只增不减。"""
+    from csconf.models import Paper
+    from csconf.sync import merge_sources
+
+    web = [Paper(title="LithOS: An OS for ML on GPUs", authors=[], venue="OSDI",
+                 year=2026, source="osdi-web")]
+    dblp = [Paper(title="LithOS: An OS for ML on GPUs.", authors=[], venue="OSDI",
+                  year=2026, source="dblp")]
+
+    merged = merge_sources(web_papers=web, dblp_papers=dblp)
+
+    assert len(merged) == 1
+    assert merged[0].source == "dblp"
+
+
 def test_missing_toc_on_indexed_venue_still_raises_drift(tmp_path):
     """indexed 的会议 TOC 变 404 = DBLP 改了 key，必须炸而不是静默跳过。"""
     from csconf.http import NotFound
