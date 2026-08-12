@@ -12,7 +12,7 @@ from csconf.rounds import filter_by_rounds
 
 
 class MappingDrift(Exception):
-    """status 标为 indexed 的 venue-year 返回了 0 篇，多半是 DBLP 改了 key。"""
+    """A venue-year marked `indexed` came back empty — usually a changed DBLP key."""
 
 
 @dataclass
@@ -38,7 +38,7 @@ def _note_for(config: Dict[str, Any], year: int, volume: Optional[int]) -> Optio
 def merge_sources(
     web_papers: List[Paper], dblp_papers: List[Paper]
 ) -> List[Paper]:
-    """dblp 优先。同一篇论文的 web 记录被 dblp 记录替换而非叠加。"""
+    """DBLP wins. A web record for the same paper is replaced, not appended."""
     merged = {p.merge_key(): p for p in web_papers}
     for paper in dblp_papers:
         merged[paper.merge_key()] = paper
@@ -48,22 +48,27 @@ def merge_sources(
 def _fetch_fallback(
     config: Dict[str, Any], venue: str, year: int, fetcher
 ) -> List[Paper]:
-    """DBLP 尚未编目时改抓官网。官网结构变了或页面不在，不该拖垮整届同步：
-    这是补数据的兜底，失败就当没有，格子留破折号。"""
+    """Scrape the conference site while DBLP has not indexed the edition yet.
+
+    A changed page structure or a missing page must not take the whole sync
+    down: this is a stopgap, so a failure just means no data and an em dash.
+    """
     url = config["fallback_url"].format(year=year, yy="{:02d}".format(year % 100))
     try:
         html = fetcher.get(url)
     except (http.HttpError, http.RateLimited) as exc:
-        # 说出来。静默返回空列表时，日志里只剩 "0 papers"，分不清是
-        # 「这届还没公布」还是「被站点拦了」——实测 USENIX 在反复请求后
-        # 会开始拒绝，而这两种情况需要完全不同的处理。
-        print("  fallback {} {} 失败: {}".format(venue, year, exc), file=sys.stderr)
+        # Say so. Returning an empty list silently leaves only "0 papers" in
+        # the log, which cannot be told apart from "this edition is not out
+        # yet" — and USENIX does start refusing after repeated requests. The
+        # two cases call for completely different responses.
+        print("  fallback {} {} failed: {}".format(venue, year, exc), file=sys.stderr)
         return []
 
     papers = fallback.parse_for(venue, html, year)
     if not papers:
         print(
-            "  fallback {} {} 取到页面但解析出 0 篇，站点结构可能已变: {}".format(
+            "  fallback {} {} fetched the page but parsed 0 papers; the site "
+            "structure may have changed: {}".format(
                 venue, year, url
             ),
             file=sys.stderr,
@@ -95,14 +100,15 @@ def sync_venue_year(
         try:
             xml_text = fetcher.get(http.toc_url(fetch.toc_key))
         except http.NotFound:
-            # TOC 尚不存在。对 pending 的会议这是正常状态（OSDI/ATC 2026 开完会
-            # 但 DBLP 还没编目）；对 indexed 的会议则会在下面因零篇而触发
-            # MappingDrift，正是想要的行为。
+            # The TOC does not exist yet. For a pending venue that is normal
+            # (the conference has happened, DBLP has not caught up). For an
+            # indexed one it falls through to MappingDrift below, as intended.
             continue
         parsed = parse_toc(xml_text, venue=venue, year=year)
 
         if config["type"] == "journal_rounds":
-            # 按 (卷, 期) 对匹配，卷号取自论文自身字段，不需要传 fetch.volume
+            # Matched on (volume, issue) taken from the papers themselves, so
+            # the caller's volume is not needed here.
             parsed = filter_by_rounds(parsed, rounds=config["rounds"][year])
         if config["type"] == "journal_volume":
             note = _note_for(config, year, fetch.volume)
@@ -113,25 +119,29 @@ def sync_venue_year(
     status = venues_mod.status_of(venues, venue, year)
 
     if not papers and status == "pending" and config.get("fallback_url"):
-        # 会已经开完、官网早已挂出录用名单，DBLP 还没编目。先用官网顶上，
-        # 等 DBLP 补上后再由 dblp 记录替换（merge_sources 里 dblp 优先）。
+        # The conference is over and the site has published the list, but DBLP
+        # has not indexed it. Use the site for now; DBLP records take over once
+        # they appear (merge_sources gives DBLP priority).
         papers = merge_sources(
             web_papers=_fetch_fallback(config, venue, year, fetcher),
             dblp_papers=papers,
         )
 
     if not papers:
-        # indexed 却零篇 = DBLP 改了 TOC key，该届会安静消失，必须炸。
+        # Indexed but empty means the DBLP key changed. That edition would
+        # silently vanish, so this has to be loud.
         if status == "indexed":
             raise MappingDrift(
-                "{} {} 标为 indexed 却返回 0 篇，检查 venues.yaml 中的 TOC key".format(
+                "{} {} is marked indexed but returned 0 papers; check the TOC "
+                "key in venues.yaml".format(
                     venue, year
                 )
             )
-        # pending（尚未编目）与 partial（收录中但暂时还没有）在零篇时语义相同：
-        # 数据还不存在。此时落文件会写出一个 0 篇的 JSON，README 随之显示
-        # [0](papers/2026/OSDI.md)，把「还没有」渲染成「确实零篇」，正好毁掉
-        # render_readme 里 — 与 0 的区分。什么都不写，格子留破折号。
+        # At zero papers, pending (not indexed yet) and partial (indexed but
+        # nothing there yet) mean the same thing: the data does not exist.
+        # Writing the file would produce a 0-paper JSON, and the README would
+        # render [0](papers/2026/OSDI.md) — turning "not yet" into "genuinely
+        # none" and destroying the em-dash-versus-0 distinction. Write nothing.
         return SyncResult(
             venue=venue, year=year, papers=[], note=None, source_keys=source_keys
         )

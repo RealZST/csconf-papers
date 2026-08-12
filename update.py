@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""csconf-papers: 从 DBLP 同步顶会录用论文列表。"""
+"""csconf-papers: sync accepted-paper lists for top venues from DBLP."""
 from __future__ import annotations
 
 import argparse
@@ -11,7 +11,7 @@ from pathlib import Path
 
 import requests
 
-from csconf import http, render, store, venues as venues_mod
+from csconf import enrich, http, pdf, render, store, venues as venues_mod
 from csconf.models import Paper
 from csconf.sync import MappingDrift, sync_venue_year
 
@@ -20,12 +20,14 @@ YEARS = [2025, 2026]
 
 
 def counts_on_disk() -> dict:
-    """README 的计数一律取自磁盘上的 JSON，而不是本次同步的返回值。
+    """README counts always come from the JSON on disk, never from this run.
 
-    抓取失败是常态——官网兜底尤其如此，USENIX 在反复请求后会开始拦截。
-    若计数来自同步结果，一次失败就会让 README 少掉一格，而对应的 JSON
-    还完好地躺在磁盘上：文件说 136 篇，矩阵说没有数据。以磁盘为准则
-    两者不可能矛盾，抓取失败只是意味着这一轮没有更新。
+    Failed fetches are normal, especially for the conference-site fallback:
+    USENIX starts blocking after repeated requests. If the counts came from the
+    sync results, one failure would empty a README cell while the matching JSON
+    still sat on disk intact — the file saying 136 papers and the matrix saying
+    no data. Reading from disk makes that contradiction impossible; a failed
+    fetch simply means no update this round.
     """
     counts = {}
     for path in sorted((ROOT / "data").glob("*/*.json")):
@@ -36,10 +38,11 @@ def counts_on_disk() -> dict:
 
 
 def cmd_render(args: argparse.Namespace) -> int:
-    """从已存 JSON 重新生成 Markdown 与 README，完全不联网。
+    """Regenerate Markdown and README from stored JSON, fully offline.
 
-    改渲染逻辑不该需要重新从 DBLP 拉两千篇论文——那要十几分钟，还平白
-    给一个已经限流严重的第三方服务加压。
+    Changing rendering should not mean pulling two thousand papers from DBLP
+    again: that takes well over ten minutes and loads a third-party service
+    that already rate-limits us hard.
     """
     venues = venues_mod.load_venues(str(ROOT / "venues.yaml"))
 
@@ -62,6 +65,90 @@ def cmd_render(args: argparse.Namespace) -> int:
     (ROOT / "README.md").write_text(
         render.render_readme(list(venues), YEARS, counts_on_disk(), updated),
         encoding="utf-8",
+    )
+    return 0
+
+
+def cmd_enrich(args: argparse.Namespace) -> int:
+    """Give every paper a link to read it by, and a PDF link where one exists.
+
+    Editions DBLP has not indexed are scraped from the conference site, which
+    carries titles and authors only — the SIGOPS SOSP accepted page has no
+    links in it at all. Those titles are matched against Semantic Scholar,
+    usually landing on the authors' own arXiv preprint. PDF URLs are then
+    derived from whatever link each paper has.
+
+    This always returns 0. Filling in links is a bonus, and finding none must
+    not turn CI red, or the sync failures that do matter drown in the noise.
+    """
+    today = args.today or dt.date.today().isoformat()
+    # Semantic Scholar's anonymous quota is shared by every caller on the
+    # internet, so throttle harder here than for DBLP.
+    matcher = http.Fetcher(session=enrich.build_session(), throttle_seconds=3.0)
+    # HEAD checks go to the publishers themselves, which are far less touchy.
+    checker = http.Fetcher(session=requests.Session(), throttle_seconds=1.0)
+
+    link_cache = store.load_link_cache(ROOT)
+    pdf_cache = store.load_pdf_cache(ROOT)
+    lookup_budget, verify_budget = args.budget, args.pdf_budget
+
+    totals = {"found": 0, "queried": 0, "filled": 0, "checked": 0}
+    for path in sorted((ROOT / "data").glob("*/*.json")):
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        meta = payload["meta"]
+        papers = [Paper.from_dict(item) for item in payload["papers"]]
+        before = [(p.url, p.pdf_url) for p in papers]
+
+        papers, link_cache, link_stats = enrich.enrich_papers(
+            papers, cache=link_cache, fetcher=matcher, today=today, budget=lookup_budget
+        )
+        lookup_budget -= link_stats["queried"]
+
+        papers, pdf_cache, pdf_stats = pdf.fill_pdfs(
+            papers, cache=pdf_cache, head=checker.head_is_pdf, budget=verify_budget
+        )
+        verify_budget -= pdf_stats["checked"]
+
+        totals["found"] += link_stats["found"]
+        totals["queried"] += link_stats["queried"]
+        totals["filled"] += pdf_stats["filled"]
+        totals["checked"] += pdf_stats["checked"]
+
+        if [(p.url, p.pdf_url) for p in papers] != before:
+            store.rewrite_papers(ROOT, meta["venue"], meta["year"], papers)
+            markdown = render.render_venue_year(
+                meta["venue"], meta["year"], papers, meta.get("note"), meta["updated"]
+            )
+            md_path = ROOT / "papers" / str(meta["year"]) / "{}.md".format(meta["venue"])
+            md_path.write_text(markdown, encoding="utf-8")
+
+        print(
+            "{} {}: +{} links, +{} pdfs".format(
+                meta["venue"], meta["year"], link_stats["found"], pdf_stats["filled"]
+            )
+        )
+        # Save after every venue: a run that dies halfway should not throw away
+        # the lookups it already paid for.
+        store.write_link_cache(ROOT, link_cache)
+        store.write_pdf_cache(ROOT, pdf_cache)
+
+        if link_stats["budget_exhausted"] or pdf_stats["budget_exhausted"]:
+            # Keep going rather than break. Spending the request budget must not
+            # stop the derivations that need no request at all: the first real
+            # run stopped here and left VLDB 2026's 135 papers without PDF
+            # links, every one of which was free to derive.
+            print(
+                "  {} {}: request budget spent; later venues keep their free "
+                "derivations and the rest waits for the next run".format(
+                    meta["venue"], meta["year"]
+                ),
+                file=sys.stderr,
+            )
+
+    print(
+        "total: +{} links ({} queries), +{} pdfs ({} checks)".format(
+            totals["found"], totals["queried"], totals["filled"], totals["checked"]
+        )
     )
     return 0
 
@@ -96,7 +183,7 @@ def cmd_sync(args: argparse.Namespace) -> int:
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
 
     if failures:
-        print("\n{} 个 venue-year 失败：".format(len(failures)), file=sys.stderr)
+        print("\n{} venue-years failed:".format(len(failures)), file=sys.stderr)
         for line in failures:
             print("  - " + line, file=sys.stderr)
         return 1
@@ -107,20 +194,39 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
 
-    sync = sub.add_parser("sync", help="从 DBLP 同步论文列表")
+    sync = sub.add_parser("sync", help="sync paper lists from DBLP")
     sync.add_argument(
         "--allow-shrink",
         action="store_true",
-        help="放行条数下降。仅在 venues.yaml 配置变更导致的正当缩减时使用，CI 不得带此参数。",
+        help="allow the paper count to drop. Only for a legitimate shrink "
+        "caused by a venues.yaml change; CI must never pass this.",
     )
-    sync.add_argument("--today", help="覆盖 updated 日期，便于可复现的测试运行")
+    sync.add_argument("--today", help="override the updated date, for reproducible runs")
     sync.set_defaults(func=cmd_sync)
 
     render_parser = sub.add_parser(
-        "render", help="从已存 JSON 重新生成 Markdown 与 README，不联网"
+        "render", help="regenerate Markdown and README from stored JSON, offline"
     )
-    render_parser.add_argument("--today", help="覆盖 updated 日期")
+    render_parser.add_argument("--today", help="override the updated date")
     render_parser.set_defaults(func=cmd_render)
+
+    enrich_parser = sub.add_parser(
+        "enrich", help="fill in missing source links and PDF links"
+    )
+    enrich_parser.add_argument(
+        "--budget",
+        type=int,
+        default=enrich.DEFAULT_BUDGET,
+        help="how many title lookups to make this run; the rest wait",
+    )
+    enrich_parser.add_argument(
+        "--pdf-budget",
+        type=int,
+        default=pdf.DEFAULT_VERIFY_BUDGET,
+        help="how many derived PDF URLs to verify this run; the rest wait",
+    )
+    enrich_parser.add_argument("--today", help="override the cache check date")
+    enrich_parser.set_defaults(func=cmd_enrich)
 
     args = parser.parse_args()
     return args.func(args)

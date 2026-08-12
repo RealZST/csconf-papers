@@ -10,7 +10,7 @@ FIXTURES = Path(__file__).parent / "fixtures"
 
 @pytest.fixture
 def venues():
-    """按仓库根解析，测试不依赖 pytest 的启动目录。"""
+    """Resolved from the repo root so the tests do not depend on pytest's cwd."""
     return load_venues(str(REPO_ROOT / "venues.yaml"))
 
 
@@ -21,7 +21,7 @@ def test_conference_expands_to_single_toc_key(venues):
 
 
 def test_atc_uses_usenix_key_not_atc(venues):
-    """ATC 在 DBLP 里的 key 是 usenix{year}，写成 atc{year} 会拿到空结果。"""
+    """ATC's DBLP key is usenix{year}; writing atc{year} returns nothing at all."""
     fetches = expand(venues, "ATC", 2025, volume_lookup=None)
 
     assert fetches == [Fetch(toc_key="conf/usenix/usenix2025", volume=None)]
@@ -34,7 +34,7 @@ def test_journal_volume_maps_year_to_volume(venues):
 
 
 def test_journal_rounds_expands_to_distinct_volumes(venues):
-    """SIGMOD 2026 的四个 round 落在 vol 3 与 vol 4，去重后只抓两卷。"""
+    """SIGMOD 2026's four rounds fall in volumes 3 and 4, so only two are fetched."""
     fetches = expand(venues, "SIGMOD", 2026, volume_lookup=None)
 
     assert fetches == [

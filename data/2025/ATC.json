@@ -57,6 +57,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/gupta",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-gupta.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1-17",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/GuptaIYBPKK25"
@@ -113,6 +116,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/chang",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-chang.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "19-37",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ChangZ0XSSBW25"
@@ -154,6 +160,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/barcelona-pons",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-barcelona-pons.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "39-56",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/PonsALMK25"
@@ -275,6 +284,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/hu-junhao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-hu-junhao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "57-72",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/HuXLHCXLMZWDDRL25"
@@ -311,6 +323,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/yao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-yao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "73-88",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/YaoHOM25"
@@ -362,6 +377,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wang-yuke",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wang-yuke.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "89-103",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/WangF0HG0025"
@@ -418,6 +436,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/huang-kezhao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-huang-kezhao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "105-121",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/HuangZZ0LH0Z25"
@@ -464,6 +485,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wang-tuowei",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wang-tuowei.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "123-141",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/WangCLC0Z25"
@@ -500,6 +524,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhao-hairui",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhao-hairui.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "143-159",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ZhaoT0C25"
@@ -546,6 +573,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/feng",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-feng.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "161-177",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/FengCWPLY25"
@@ -607,6 +637,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/liao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-liao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "179-198",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/LiaoTWZ00ML025"
@@ -678,6 +711,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/yang-yifan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-yang-yifan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "199-215",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/00090ZSXWE0ZYX25"
@@ -754,6 +790,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhao-yuankang",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhao-yuankang.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "217-232",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ZhaoYL0LZPPG00X25"
@@ -845,6 +884,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/li-zhaoyi",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-li-zhaoyi.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "233-247",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Li00L0LZZSLS00025"
@@ -871,6 +913,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/awamoto",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-awamoto.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "249-262",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/AwamotoH25"
@@ -917,6 +962,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/fan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-fan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "263-272",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/FanRXGSL25"
@@ -958,6 +1006,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/chen-le",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-chen-le.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "273-289",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ChenW0X025"
@@ -1019,6 +1070,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/yelam",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-yelam.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "291-306",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/YelamWGYSXNSK25"
@@ -1100,6 +1154,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/peng-yuke",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-peng-yuke.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "307-323",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/PengTZLCJXWXZLY25"
@@ -1171,6 +1228,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/jia",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-jia.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "325-342",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/JiaQCLBPLFJX025"
@@ -1247,6 +1307,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/peng-yajuan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-peng-yajuan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "343-363",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/PengWZHXWBJY00D25"
@@ -1308,6 +1371,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/hu-jinbin",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-hu-jinbin.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "365-380",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/HuLLWLY00025"
@@ -1364,6 +1430,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/gan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-gan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "381-398",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/GanPLLGW0X25"
@@ -1420,6 +1489,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wang-zihao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wang-zihao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "399-415",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Wang0X0LFM025"
@@ -1461,6 +1533,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wang-yaoyu",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wang-yaoyu.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "417-432",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/WangGXCT25"
@@ -1497,6 +1572,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/jha",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-jha.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "433-448",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/JhaPAB25"
@@ -1553,6 +1631,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/lamprou",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-lamprou.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "449-464",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/LamprouWKZ0KLV25"
@@ -1614,6 +1695,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wang-jiahao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wang-jiahao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "465-482",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/WangHWSZF0Y025"
@@ -1650,6 +1734,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wei",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wei.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "483-496",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/WeiZ0025"
@@ -1686,6 +1773,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/qiu",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-qiu.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "497-511",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/QiuYGZ25"
@@ -1727,6 +1817,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhang-qingyang",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhang-qingyang.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "513-529",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Zhang0PTX25"
@@ -1773,6 +1866,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/pan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-pan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "531-545",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Pan0LDKX25"
@@ -1814,6 +1910,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/hwang",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-hwang.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "547-562",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Hwang0KES25"
@@ -1870,6 +1969,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/tian",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-tian.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "563-585",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/TianQT0WZZ025"
@@ -1911,6 +2013,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/gao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-gao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "587-595",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Gao0ZLS25"
@@ -1982,6 +2087,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/yu",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-yu.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "597-612",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/YuWCYLL0CNYD25"
@@ -2043,6 +2151,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/li-suyi-toppings",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-li-suyi-toppings.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "613-629",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/0002LWYWCSY025"
@@ -2079,6 +2190,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhang-qihao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhang-qihao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "631-646",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ZhangZSZ25"
@@ -2130,6 +2244,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wu-ruofan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wu-ruofan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "647-663",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/WuZ0LPZ025"
@@ -2186,6 +2303,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/huang-yuzhou",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-huang-yuzhou.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "665-678",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/HuangJHC0Z0Z25"
@@ -2217,6 +2337,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/kong",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-kong.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "679-698",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Kong0H25"
@@ -2258,6 +2381,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/xia",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-xia.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "699-714",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/XiaWY0C25"
@@ -2319,6 +2445,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "715-730",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/WanH00Z0ZL025"
@@ -2385,6 +2514,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wu-tianyuan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wu-tianyuan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "731-747",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Wu0YYWDYWQZ25"
@@ -2411,6 +2543,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/duan-shaohua",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-duan-shaohua.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "749-764",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/DuanC25"
@@ -2457,6 +2592,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/rovelli",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-rovelli.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "765-788",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/RovelliCBPJE25"
@@ -2488,6 +2626,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/basak",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-basak.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "789-813",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/BasakPB25"
@@ -2544,6 +2685,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wang-liying",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wang-liying.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "815-831",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Wang0ZLZWLX25"
@@ -2630,6 +2774,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/xu",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-xu.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "833-850",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/XuZCHZZLLLMDCZM25"
@@ -2656,6 +2803,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/hu-liekun",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-hu-liekun.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "851-866",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/HuL25"
@@ -2687,6 +2837,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/yuan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-yuan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "867-887",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/YuanRW25"
@@ -2733,6 +2886,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhang-jiajian",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhang-jiajian.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "889-904",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Zhang000CP25"
@@ -2834,6 +2990,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/shan-jixi",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-shan-jixi.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "905-922",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ShanHGMHCWSS0XR25"
@@ -2880,6 +3039,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/huang-rongji",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-huang-rongji.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "923-942",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/HuangWY0XL25"
@@ -2931,6 +3093,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/lu",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-lu.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "943-958",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/LuLZDL0025"
@@ -2957,6 +3122,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/grant",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-grant.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "959-972",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/GrantS25"
@@ -2993,6 +3161,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/manakkal",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-manakkal.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "973-985",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ManakkalDP025"
@@ -3029,6 +3200,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zur",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zur.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "987-1002",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ZurKBS25"
@@ -3090,6 +3264,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhang-shulai",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhang-shulai.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1003-1019",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ZhangX00CWLXG25"
@@ -3161,6 +3338,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/meng",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-meng.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1021-1036",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/MengZCWLYYYZKX25"
@@ -3252,6 +3432,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/li-suyi-katz",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-li-suyi-katz.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1037-1052",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/0002YJLADLCLYLY25"
@@ -3313,6 +3496,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhang-junyi",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhang-junyi.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1053-1069",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ZhangMWNL0L0025"
@@ -3349,6 +3535,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/he-jiaao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-he-jiaao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1071-1087",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/He0HZ25"
@@ -3385,6 +3574,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/chen-tiancheng",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-chen-tiancheng.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1089-1108",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ChenKHH25"
@@ -3421,6 +3613,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wu-jiangchang",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wu-jiangchang.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1109-1125",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/WuYSZ25"
@@ -3462,6 +3657,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/dong",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-dong.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1127-1142",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Dong0ZCC25"
@@ -3508,6 +3706,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/tang",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-tang.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1143-1159",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/TangW0H0M25"
@@ -3534,6 +3735,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/yang-zao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-yang-zao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1161-1179",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/YangN25"
@@ -3575,6 +3779,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/yin",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-yin.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1181-1196",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/YinSATY25"
@@ -3616,6 +3823,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/ji",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-ji.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1197-1212",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/JiKOKK25"
@@ -3692,6 +3902,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/liu-ruili",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-liu-ruili.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1213-1222",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/LiuMZHSLXL0RC025"
@@ -3748,6 +3961,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wu-puqing",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wu-puqing.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1223-1241",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/WuXZZWLRC25"
@@ -3794,6 +4010,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/huang-hongjing",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-huang-hongjing.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1243-1260",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Huang0CSQW25"
@@ -3865,6 +4084,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhang-xu",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhang-xu.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1261-1279",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Zhang0HZCSZ0B0W25"
@@ -3916,6 +4138,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/yang-jingyuan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-yang-jingyuan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1281-1296",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/YangWW0L0025"
@@ -3957,6 +4182,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/luo",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-luo.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1297-1318",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Luo00PF25"
@@ -4013,6 +4241,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/weinhold",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-weinhold.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1319-1326",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/WeinholdSMDTSFR25"
@@ -4054,6 +4285,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wu-zhiyong",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wu-zhiyong.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1327-1341",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/00100FD025"
@@ -4095,6 +4329,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/liu-jiacheng",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-liu-jiacheng.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1343-1358",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/0001ZXH025"
@@ -4121,6 +4358,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/patel",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-patel.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1359-1369",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/PatelA25"
@@ -4182,6 +4422,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/ding",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-ding.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1371-1386",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/DingLLYWWWTX25"
@@ -4313,6 +4556,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhou",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhou.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1387-1408",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ZhouWW000DCW0ZW25"
@@ -4354,6 +4600,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/chen-yuanliang",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-chen-yuanliang.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1409-1424",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ChenMZY025"
@@ -4390,6 +4639,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/xie",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-xie.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1425-1440",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/XieGWX25"
@@ -4426,6 +4678,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhang-yunmo",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhang-yunmo.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1441-1450",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ZhangQ0X25"
@@ -4472,6 +4727,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/guo",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-guo.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1451-1465",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/GuoSH0P025"
@@ -4508,6 +4766,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/landsberg",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-landsberg.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1467-1479",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/LandsbergG0L25"
@@ -4549,6 +4810,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/bartolomeo",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-bartolomeo.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1481-1500",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/BartolomeoAKOM25"
@@ -4600,6 +4864,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/kim",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-kim.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1501-1517",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/KimPNHKLL25"
@@ -4651,6 +4918,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/lian",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-lian.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1519-1534",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/LianJKTBRZ25"
@@ -4707,6 +4977,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhao-jianjun",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhao-jianjun.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1535-1551",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/0003L0LMDL025"
@@ -4743,6 +5016,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/chen-chao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-chen-chao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1553-1568",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/0022HQ025"
@@ -4779,6 +5055,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/li-wentong",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-li-wentong.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1569-1584",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/0002CM025"
@@ -4815,6 +5094,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zheng",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zheng.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1585-1604",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/ZhengX0025"
@@ -4851,6 +5133,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/gong",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-gong.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1605-1624",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/GongTAK25"
@@ -4887,6 +5172,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/schreiber",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-schreiber.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1625-1638",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/SchreiberLZS25"
@@ -4928,6 +5216,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/he-yongjun",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-he-yongjun.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1639-1655",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/0004YLKA25"
@@ -4964,6 +5255,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/wang-jiali",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-wang-jiali.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1657-1675",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/WangWH025"
@@ -4995,6 +5289,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/zhan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-zhan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1677-1691",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/Zhan0025"
@@ -5061,6 +5358,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/atc25/presentation/duan-guanglin",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/atc25-duan-guanglin.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1693-1712",
       "source": "dblp",
       "dblp_paper_key": "conf/usenix/DuanHZ00MK00X25"

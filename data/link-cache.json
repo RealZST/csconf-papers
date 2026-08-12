@@ -1,0 +1,105 @@
+{
+  "a few gpus a whole lotta scale faithful llm training emulation with crystalllm": {
+    "checked": "2026-08-12",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2605.15617"
+  },
+  "ahead of time analysis of shell program effects": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "anchor mitigating shallow disruptions with decoupled memory": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "batched in back characterizing and optimizing offline llm inference in production with acdc": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "beyond utilization energy conscious gpu sharing for inference serving": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "borges a low latency distributed shared log on a cxl memory ssd hybrid": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "bug finding and proofs for platform configurations and hardware based on reference manuals": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "cardamom a multi gpu framework for tb scale encrypted inference": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "cohort decentralized pir": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "compositional verification of cluster control planes": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "computation is fast use threadlet": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "ddb source level interactive debugging for distributed applications": {
+    "checked": "2026-08-12",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2607.06107"
+  },
+  "democratizing moe llm decoding via barrier free expert parallelism": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "diflow a system for micro serving text to image diffusion workflows": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "disco distributed and scalable oblivious joins and oblivious primitives": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "disk based lsms an unexpectedly good index for partly coherent cxl memory": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "efficient gpu multitasking with morphable kernels": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "flux unleashing linux as a high performance application kernel": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "gaze rearchitecting log structured filesystem for garbage collection on zoned namespace flash storage": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "guiding agentic gpu kernel optimization with data flow invariants": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "i3dp neuro symbolic inductive invariant inference for distributed protocols": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "information and control in agent native filesystems": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "it s the kernel s fault custom page fault handling with bpf_fault": {
+    "checked": "2026-08-12",
+    "url": null
+  },
+  "llm 42 enabling determinism in llm inference with verified speculation": {
+    "checked": "2026-08-12",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2601.17768"
+  },
+  "rpcshield defending microservices against cascading failures": {
+    "checked": "2026-08-12",
+    "url": null
+  }
+}

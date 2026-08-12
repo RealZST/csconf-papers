@@ -8,16 +8,19 @@ from csconf.models import Paper
 def filter_by_rounds(
     papers: Sequence[Paper], rounds: Sequence[Sequence[int]]
 ) -> List[Paper]:
-    """保留属于该届会议的 (卷, 期)。
+    """Keep the (volume, issue) pairs that belong to this edition.
 
-    rounds 是 [[卷, 期], ...]，来自官方会议站点——一届 SIGMOD 横跨两卷四期。
-    匹配用论文自身的 volume/issue 字段而非调用方声明的卷号：否则把 vol 3 的
-    论文误标成 vol 4 时，会把 vol 3 里同期号的论文当成 vol 4 的收进来。
-    这也让本函数可以一次接收多卷的论文。
+    rounds is [[volume, issue], ...] taken from the official conference site —
+    one SIGMOD edition spans two volumes and four issues. Matching uses the
+    volume/issue on the papers themselves rather than a volume the caller
+    declares: mislabelling volume 3 papers as volume 4 would otherwise pull in
+    every volume 3 paper that happens to share an issue number. It also lets
+    this function take papers from several volumes at once.
 
-    PODS 的期不出现在 SIGMOD 的 rounds 中，因此无需任何 track 判别逻辑。
-    rounds 来自 YAML 是整数，Paper.volume/issue 解析自 XML 是字符串，
-    两侧统一转成字符串再比——弄错的话会静默返回空列表。
+    PODS issues never appear in SIGMOD's rounds, so no track logic is needed.
+    rounds comes from YAML as integers while Paper.volume/issue is parsed from
+    XML as strings; both sides are stringified before comparing, because
+    getting that wrong returns an empty list without a word.
     """
     wanted = {(str(vol), str(issue)) for vol, issue in rounds}
     return [p for p in papers if (p.volume, p.issue) in wanted]

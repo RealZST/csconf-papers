@@ -57,6 +57,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/huang-yibo",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-huang-yibo.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "109-128",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/0006CNSCTW25"
@@ -98,6 +101,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/shen-weihai",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-shen-weihai.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "129-152",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ShenC0A025"
@@ -154,6 +160,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/mohoney",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-mohoney.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "153-169",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/MohoneySTCPIRV25"
@@ -180,6 +189,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/guo",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-guo.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "171-186",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/GuoL25"
@@ -226,6 +238,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/lyerly",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-lyerly.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "187-204",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/LyerlyPDRBH25"
@@ -267,6 +282,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/zhang-tony",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-zhang-tony.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "1-17",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ZhangSCKP25"
@@ -333,6 +351,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/lou",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-lou.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "19-38",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/LouPHYDJK0N025"
@@ -389,6 +410,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/frank",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-frank.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "39-56",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/FrankMTYXC0K25"
@@ -435,6 +459,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/wang-xiaoyang",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-wang-xiaoyang.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "57-74",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/Wang0WZLX25"
@@ -531,6 +558,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/wang-yun",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-wang-yun.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "75-89",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/WangCJTLWHXPGLW25"
@@ -627,6 +657,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/ren",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-ren.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "91-108",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/RenL0HLXLSLT0WZ25"
@@ -683,6 +716,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/guan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-guan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "205-220",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/GuanF0RRY0A25"
@@ -749,6 +785,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/wu-mengdi",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-wu-mengdi.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "21-38",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/WuCLSJAVMPJ25"
@@ -830,6 +869,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/dong",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-dong.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "239-255",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/DongBHGXXS00Z0025"
@@ -886,6 +928,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/he",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-he.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "257-273",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/HeH0MXM0M25"
@@ -937,6 +982,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/zhang-dingyan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-zhang-dingyan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "275-293",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ZhangWLWS0025"
@@ -963,6 +1011,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/jeong",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-jeong.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "295-311",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/Jeong025"
@@ -1009,6 +1060,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/jiang",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-jiang.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "313-329",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/JiangZXLXH25"
@@ -1035,6 +1089,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/huang-songlin",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-huang-songlin.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "331-355",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/HuangW25"
@@ -1071,6 +1128,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/park-sujin",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-park-sujin.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "357-373",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ParkGCK25"
@@ -1097,6 +1157,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/wang-weitao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-wang-weitao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "375-392",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/WangN25"
@@ -1128,6 +1191,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/xu",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-xu.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "393-409",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/XuYY25"
@@ -1169,6 +1235,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/tao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-tao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "411-428",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/TaoZNYG25"
@@ -1205,6 +1274,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/giortamis",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-giortamis.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "429-447",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/GiortamisRTB25"
@@ -1251,6 +1323,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/sun",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-sun.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "449-464",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/SunZSCJ025"
@@ -1297,6 +1372,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/bhat",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-bhat.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "465-481",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/BhatHLHGA25"
@@ -1393,6 +1471,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/lin-jinkun",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-lin-jinkun.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "483-498",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/LinJSZYWWSSJLWL25"
@@ -1494,6 +1575,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/chai-xiaohu",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-chai-xiaohu.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "199-218",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ChaiZHTBSSXSYGY25"
@@ -1555,6 +1639,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/domingo",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-domingo.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "519-535",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/DomingoB0LPDMKM25"
@@ -1601,6 +1688,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/wang-zhuang",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-wang-zhuang.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "537-556",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/WangXXWSN25"
@@ -1652,6 +1742,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/zheng-yusheng",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-zheng-yusheng.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "557-574",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ZhengY0HL0Q25"
@@ -1698,6 +1791,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/li",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-li.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "575-593",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/0006SLB0025"
@@ -1744,6 +1840,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/schuermann",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-schuermann.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "595-613",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/SchuermannTPPML25"
@@ -1775,6 +1874,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/zhang-tianren",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-zhang-tianren.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "615-632",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ZhangG025"
@@ -1806,6 +1908,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/yedidia",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-yedidia.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "633-649",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/YedidiaRM25"
@@ -1837,6 +1942,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/pismenny",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-pismenny.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "651-669",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/Pismenny0T25"
@@ -1878,6 +1986,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/shen-weihang",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-shen-weihang.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "671-692",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ShenHL0025"
@@ -1929,6 +2040,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/wu-yuanpei",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-wu-yuanpei.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "693-710",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/WuXXYFZ025"
@@ -1995,6 +2109,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/chai-siyuan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-chai-siyuan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "711-729",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/Chai00WCS00TX25"
@@ -2031,6 +2148,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/liu",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-liu.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "731-747",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/LiuHXL25"
@@ -2117,6 +2237,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/zhu-kan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-zhu-kan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "749-765",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ZhuGZZZGX0KLWWK25"
@@ -2193,6 +2316,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/cheng",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-cheng.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "767-783",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ChengW0XMXWMC0025"
@@ -2269,6 +2395,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/wang-zheng",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-wang-zheng.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "785-801",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/0075CXPGC0LHCH025"
@@ -2305,6 +2434,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/park-yeonhong",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-park-yeonhong.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "803-819",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ParkHKL25"
@@ -2346,6 +2478,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/gao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-gao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "821-838",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/GaoSY0H25"
@@ -2397,6 +2532,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/leblanc",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-leblanc.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "839-857",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/LeBlancLHHTZC25"
@@ -2448,6 +2586,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/pan",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-pan.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "859-878",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/PanXZZH0W25"
@@ -2484,6 +2625,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/cui",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-cui.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "879-895",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/CuiWCS25"
@@ -2540,6 +2684,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/athlur",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-athlur.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "897-914",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/AthlurKKMRMRG25"
@@ -2576,6 +2723,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/zhu-jinhao",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-zhu-jinhao.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "915-938",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/ZhuPZP25"
@@ -2607,6 +2757,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/soleimani",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-soleimani.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "939-955",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/SoleimaniJK25"
@@ -2668,6 +2821,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/adam",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-adam.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "957-978",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/AdamZZRHJCKS25"
@@ -2734,6 +2890,9 @@
       "issue": null,
       "doi": null,
       "url": "https://www.usenix.org/conference/osdi25/presentation/miemietz",
+      "url_source": null,
+      "pdf_url": "https://www.usenix.org/system/files/osdi25-miemietz.pdf",
+      "pdf_source": "usenix-derived",
       "pages": "979-996",
       "source": "dblp",
       "dblp_paper_key": "conf/osdi/MiemietzRHWEKKL25"

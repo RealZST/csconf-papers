@@ -2,17 +2,46 @@ from __future__ import annotations
 
 import re
 from typing import Dict, List, Optional, Sequence, Tuple
+from urllib.parse import urlparse
 
+from csconf import pdf as pdf_mod
 from csconf.models import Paper
 
-# DBLP 给重名作者加四位消歧后缀，如 "Song Yu 0004"。实测 12518 个作者条目里
-# 22.8% 带后缀，在给人读的列表里纯属噪音。JSON 保留 DBLP 规范形式，且带后缀的
-# 条目全部都有 pid，因此显示时剥掉不丢任何身份信息。
+# DBLP disambiguates identical names with a four-digit suffix, as in "Song Yu
+# 0004". It is on 22.8% of the 12518 author entries here and is pure noise in a
+# list meant for people. The JSON keeps DBLP's canonical form, and every
+# suffixed entry also carries a pid, so dropping it loses no identity.
 _DBLP_DISAMBIGUATION = re.compile(r"\s+\d{4}$")
 
 
 def display_name(name: str) -> str:
     return _DBLP_DISAMBIGUATION.sub("", name)
+
+
+def _render_links(paper: Paper) -> str:
+    """Title carries the main link, followed by a provenance marker and the PDF.
+
+    With no source link at all, fall back to a Scholar search URL: even for a
+    paper that turns up nowhere else, that address takes a reader where they
+    need to go. It is constructed, never fetched.
+    """
+    url = paper.url or pdf_mod.scholar_search_url(paper.title)
+    parts = ["[{}]({})".format(paper.title, url)]
+
+    # For links that are not the publisher's own page, show where they land so
+    # readers can judge for themselves. Looking identical to an official DBLP
+    # link is the dishonest option.
+    if paper.url_source or not paper.url:
+        parts.append(urlparse(url).netloc)
+
+    if paper.pdf_url:
+        # Anyone can construct a dl.acm.org URL, but a paper that is not open
+        # access asks for a subscription behind it. Labelling that the same as
+        # free full text baits the click.
+        label = "PDF (ACM)" if paper.pdf_source == "publisher-doi" else "PDF"
+        parts.append("[{}]({})".format(label, paper.pdf_url))
+
+    return " · ".join(parts)
 
 
 def render_venue_year(
@@ -30,11 +59,8 @@ def render_venue_year(
         lines.append("")
 
     for paper in sorted(papers, key=lambda p: p.title.lower()):
-        title = (
-            "[{}]({})".format(paper.title, paper.url) if paper.url else paper.title
-        )
+        lines.append("- {}".format(_render_links(paper)))
         authors = ", ".join(display_name(a.name) for a in paper.authors)
-        lines.append("- {}".format(title))
         if authors:
             lines.append("  {}".format(authors))
 
@@ -55,6 +81,20 @@ def render_readme(
         "",
         "Data lives in `data/{year}/{VENUE}.json`; "
         "human-readable listings in `papers/{year}/{VENUE}.md`.",
+        "",
+        "Paper links come from DBLP where available. For editions DBLP has not "
+        "indexed yet, the list is scraped from the conference site — which "
+        "carries no links — and missing links are matched by title against "
+        "Semantic Scholar, usually resolving to an arXiv preprint. Those are "
+        "marked with their host in the listings and with `url_source` in the JSON. "
+        "A paper with no link anywhere falls back to a Google Scholar search URL.",
+        "",
+        "PDF links are derived from the link each paper already has: PVLDB "
+        "points at a PDF directly, a USENIX presentation URL yields the file "
+        "under `/system/files/` (checked with a HEAD request before it is "
+        "published), and an ACM DOI builds a `dl.acm.org` address. The last "
+        "kind is labelled `PDF (ACM)` because it needs a subscription unless "
+        "the paper is open access.",
         "",
         "Last updated: {}".format(updated),
         "",
