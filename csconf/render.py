@@ -1,8 +1,18 @@
 from __future__ import annotations
 
+import re
 from typing import Dict, List, Optional, Sequence, Tuple
 
 from csconf.models import Paper
+
+# DBLP 给重名作者加四位消歧后缀，如 "Song Yu 0004"。实测 12518 个作者条目里
+# 22.8% 带后缀，在给人读的列表里纯属噪音。JSON 保留 DBLP 规范形式，且带后缀的
+# 条目全部都有 pid，因此显示时剥掉不丢任何身份信息。
+_DBLP_DISAMBIGUATION = re.compile(r"\s+\d{4}$")
+
+
+def display_name(name: str) -> str:
+    return _DBLP_DISAMBIGUATION.sub("", name)
 
 
 def render_venue_year(
@@ -23,7 +33,7 @@ def render_venue_year(
         title = (
             "[{}]({})".format(paper.title, paper.url) if paper.url else paper.title
         )
-        authors = ", ".join(a.name for a in paper.authors)
+        authors = ", ".join(display_name(a.name) for a in paper.authors)
         lines.append("- {}".format(title))
         if authors:
             lines.append("  {}".format(authors))

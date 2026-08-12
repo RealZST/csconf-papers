@@ -74,3 +74,30 @@ def test_readme_empty_cell_is_dash_not_zero():
     cells = [cell.strip() for cell in row.strip("|").split("|")]
 
     assert cells == ["2026", "—"]
+
+
+def test_dblp_disambiguation_suffix_stripped_from_display():
+    """DBLP 给重名作者加四位后缀（"Song Yu 0004"）。实测 12518 个作者条目里
+    22.8% 带后缀，在人读的列表里是噪音；带后缀的条目全部都有 pid，因此显示时
+    剥掉不丢身份，JSON 里仍保留 DBLP 规范形式。"""
+    paper = Paper(
+        title="T",
+        authors=[Author(name="Song Yu 0004", pid="1/2"), Author(name="Jianliang Xu")],
+        venue="VLDB",
+        year=2026,
+    )
+
+    markdown = render_venue_year("VLDB", 2026, [paper], None, "2026-08-12")
+
+    assert "Song Yu, Jianliang Xu" in markdown
+    assert "0004" not in markdown
+
+
+def test_year_like_trailing_number_in_title_is_untouched():
+    """只剥作者名末尾的四位数，标题里的年份/数字不受影响。"""
+    from csconf.render import display_name
+
+    assert display_name("Chenhao Ma 0001") == "Chenhao Ma"
+    assert display_name("Jianliang Xu") == "Jianliang Xu"
+    # 不是消歧后缀的四位数不该被吃掉
+    assert display_name("Deep Learning 2020 Team") == "Deep Learning 2020 Team"

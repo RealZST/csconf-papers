@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import json
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -11,10 +12,44 @@ from pathlib import Path
 import requests
 
 from csconf import http, render, store, venues as venues_mod
+from csconf.models import Paper
 from csconf.sync import MappingDrift, sync_venue_year
 
 ROOT = Path(__file__).parent
 YEARS = [2025, 2026]
+
+
+def cmd_render(args: argparse.Namespace) -> int:
+    """从已存 JSON 重新生成 Markdown 与 README，完全不联网。
+
+    改渲染逻辑不该需要重新从 DBLP 拉两千篇论文——那要十几分钟，还平白
+    给一个已经限流严重的第三方服务加压。
+    """
+    venues = venues_mod.load_venues(str(ROOT / "venues.yaml"))
+    counts = {}
+
+    for path in sorted((ROOT / "data").glob("*/*.json")):
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        meta = payload["meta"]
+        papers = [Paper.from_dict(item) for item in payload["papers"]]
+        updated = args.today or meta["updated"]
+
+        markdown = render.render_venue_year(
+            meta["venue"], meta["year"], papers, meta.get("note"), updated
+        )
+        md_path = ROOT / "papers" / str(meta["year"]) / "{}.md".format(meta["venue"])
+        md_path.parent.mkdir(parents=True, exist_ok=True)
+        md_path.write_text(markdown, encoding="utf-8")
+
+        if papers:
+            counts[(meta["venue"], meta["year"])] = len(papers)
+        print("{} {}: {} papers".format(meta["venue"], meta["year"], len(papers)))
+
+    updated = args.today or dt.date.today().isoformat()
+    (ROOT / "README.md").write_text(
+        render.render_readme(list(venues), YEARS, counts, updated), encoding="utf-8"
+    )
+    return 0
 
 
 def cmd_sync(args: argparse.Namespace) -> int:
@@ -69,6 +104,12 @@ def main() -> int:
     )
     sync.add_argument("--today", help="覆盖 updated 日期，便于可复现的测试运行")
     sync.set_defaults(func=cmd_sync)
+
+    render_parser = sub.add_parser(
+        "render", help="从已存 JSON 重新生成 Markdown 与 README，不联网"
+    )
+    render_parser.add_argument("--today", help="覆盖 updated 日期")
+    render_parser.set_defaults(func=cmd_render)
 
     args = parser.parse_args()
     return args.func(args)
