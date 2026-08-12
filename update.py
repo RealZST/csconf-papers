@@ -19,6 +19,22 @@ ROOT = Path(__file__).parent
 YEARS = [2025, 2026]
 
 
+def counts_on_disk() -> dict:
+    """README 的计数一律取自磁盘上的 JSON，而不是本次同步的返回值。
+
+    抓取失败是常态——官网兜底尤其如此，USENIX 在反复请求后会开始拦截。
+    若计数来自同步结果，一次失败就会让 README 少掉一格，而对应的 JSON
+    还完好地躺在磁盘上：文件说 136 篇，矩阵说没有数据。以磁盘为准则
+    两者不可能矛盾，抓取失败只是意味着这一轮没有更新。
+    """
+    counts = {}
+    for path in sorted((ROOT / "data").glob("*/*.json")):
+        meta = json.loads(path.read_text(encoding="utf-8"))["meta"]
+        if meta["paper_count"]:
+            counts[(meta["venue"], meta["year"])] = meta["paper_count"]
+    return counts
+
+
 def cmd_render(args: argparse.Namespace) -> int:
     """从已存 JSON 重新生成 Markdown 与 README，完全不联网。
 
@@ -26,7 +42,6 @@ def cmd_render(args: argparse.Namespace) -> int:
     给一个已经限流严重的第三方服务加压。
     """
     venues = venues_mod.load_venues(str(ROOT / "venues.yaml"))
-    counts = {}
 
     for path in sorted((ROOT / "data").glob("*/*.json")):
         payload = json.loads(path.read_text(encoding="utf-8"))
@@ -41,13 +56,12 @@ def cmd_render(args: argparse.Namespace) -> int:
         md_path.parent.mkdir(parents=True, exist_ok=True)
         md_path.write_text(markdown, encoding="utf-8")
 
-        if papers:
-            counts[(meta["venue"], meta["year"])] = len(papers)
         print("{} {}: {} papers".format(meta["venue"], meta["year"], len(papers)))
 
     updated = args.today or dt.date.today().isoformat()
     (ROOT / "README.md").write_text(
-        render.render_readme(list(venues), YEARS, counts, updated), encoding="utf-8"
+        render.render_readme(list(venues), YEARS, counts_on_disk(), updated),
+        encoding="utf-8",
     )
     return 0
 
@@ -57,7 +71,6 @@ def cmd_sync(args: argparse.Namespace) -> int:
     fetcher = http.Fetcher(session=requests.Session())
     updated = args.today or dt.date.today().isoformat()
 
-    counts = {}
     failures = []
     for venue in venues:
         for year in YEARS:
@@ -68,8 +81,6 @@ def cmd_sync(args: argparse.Namespace) -> int:
                     root=ROOT, venues=venues, venue=venue, year=year,
                     fetcher=fetcher, updated=updated, allow_shrink=args.allow_shrink,
                 )
-                if result.paper_count:
-                    counts[(venue, year)] = result.paper_count
                 print("{} {}: {} papers".format(venue, year, result.paper_count))
             except (
                 MappingDrift,
@@ -81,7 +92,7 @@ def cmd_sync(args: argparse.Namespace) -> int:
                 failures.append("{} {}: {}".format(venue, year, exc))
                 print("FAIL {} {}: {}".format(venue, year, exc), file=sys.stderr)
 
-    readme = render.render_readme(list(venues), YEARS, counts, updated)
+    readme = render.render_readme(list(venues), YEARS, counts_on_disk(), updated)
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
 
     if failures:

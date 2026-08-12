@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -52,9 +53,22 @@ def _fetch_fallback(
     url = config["fallback_url"].format(year=year, yy="{:02d}".format(year % 100))
     try:
         html = fetcher.get(url)
-    except http.HttpError:
+    except (http.HttpError, http.RateLimited) as exc:
+        # 说出来。静默返回空列表时，日志里只剩 "0 papers"，分不清是
+        # 「这届还没公布」还是「被站点拦了」——实测 USENIX 在反复请求后
+        # 会开始拒绝，而这两种情况需要完全不同的处理。
+        print("  fallback {} {} 失败: {}".format(venue, year, exc), file=sys.stderr)
         return []
-    return fallback.parse_for(venue, html, year)
+
+    papers = fallback.parse_for(venue, html, year)
+    if not papers:
+        print(
+            "  fallback {} {} 取到页面但解析出 0 篇，站点结构可能已变: {}".format(
+                venue, year, url
+            ),
+            file=sys.stderr,
+        )
+    return papers
 
 
 def sync_venue_year(
