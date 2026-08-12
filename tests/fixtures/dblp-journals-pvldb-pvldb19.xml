@@ -1,0 +1,2631 @@
+<bht key="db/journals/pvldb/pvldb19.bht" title="Proceedings of the VLDB Endowment, Volume 19">
+<h1><ref href="db/journals/pvldb/index.html">Proceedings of the VLDB Endowment</ref>, Volume 19</h1>
+<h2>Volume 19, Number 1, September 2025</h2>
+<dblpcites><r style="ee"><article key="journals/pvldb/DiaoX25" mdate="2026-02-04">
+<author pid="d/YanleiDiao">Yanlei Diao</author>
+<author pid="33/1903">Xiaokui Xiao</author>
+<title>Front Matter.</title>
+<year>2025</year>
+<month>September</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>1</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/FrontMatterVol19No1.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DiaoX25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhangZGWLZCM25" mdate="2026-02-05">
+<author pid="91/195-5">Chi Zhang 0005</author>
+<author pid="191/7655">Shihao Zhang</author>
+<author pid="217/2344">Yunfei Gu</author>
+<author pid="55/8165">Chentao Wu</author>
+<author pid="17/2703-2">Jie Li 0002</author>
+<author pid="45/47">Qin Zhang</author>
+<author pid="38/7674">Xusheng Chen</author>
+<author pid="80/485">Jie Meng</author>
+<title>FlatStor: An Efficient Embedded-Index Based Columnar Data Layout for Multimodal Data Workloads.</title>
+<pages>1-14</pages>
+<year>2025</year>
+<month>September</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>1</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1-zhang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhangZGWLZCM25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/PanBST25" mdate="2026-02-04">
+<author pid="327/6686">Yunjie Pan</author>
+<author pid="274/7071">Omkar Bhalerao</author>
+<author pid="60/4210">C. Seshadhri 0001</author>
+<author pid="161/3279">Nishil Talati</author>
+<title>TIMEST: Temporal Information Motif Estimator Using Sampling Trees.</title>
+<pages>15-28</pages>
+<year>2025</year>
+<month>September</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>1</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p15-pan.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#PanBST25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/HorchidanZBC25" mdate="2026-02-04">
+<author pid="289/3171">Sonia Horchidan</author>
+<author pid="426/0940">Fabian Zeiher</author>
+<author pid="39/6674">Henrik Bostr&#246;m</author>
+<author pid="90/7704">Paris Carbone</author>
+<title>ConANN: Conformal Approximate Nearest Neighbor Search.</title>
+<pages>29-42</pages>
+<year>2025</year>
+<month>September</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>1</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p29-horchidan.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#HorchidanZBC25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ShiZWZL25" mdate="2026-02-05">
+<author pid="395/1603">Xuri Shi</author>
+<author pid="55/957-6">Kai Zhang 0006</author>
+<author pid="w/XiaoyangSeanWang">X. Sean Wang</author>
+<author pid="37/4356-1">Xiaodong Zhang 0001</author>
+<author pid="41/6729">Rubao Lee</author>
+<title>RayDB: Building Databases with Ray Tracing Cores.</title>
+<pages>43-55</pages>
+<year>2025</year>
+<month>September</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>1</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p43-shi.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ShiZWZL25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/CaoCZFAWGY25" mdate="2026-02-05">
+<author pid="418/3593">Mingyi Cao</author>
+<author pid="361/7386">Chunyu Cao</author>
+<author pid="66/2444-1">Yanfeng Zhang 0001</author>
+<author pid="46/9963">Zhenbo Fu</author>
+<author pid="327/9175">Xin Ai 0006</author>
+<author pid="260/4305">Qiange Wang</author>
+<author pid="15/4208-2">Yu Gu 0002</author>
+<author pid="49/6363">Ge Yu 0001</author>
+<title>NeutronCloud: Resource-Aware Distributed GNN Training in Fluctuating Cloud Environments.</title>
+<pages>56-69</pages>
+<year>2025</year>
+<month>September</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>1</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p56-cao.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#CaoCZFAWGY25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ErmshausSL25" mdate="2026-02-04">
+<author pid="305/0471">Arik Ermshaus</author>
+<author pid="89/11002-1">Patrick Sch&#228;fer 0001</author>
+<author pid="l/UlfLeser">Ulf Leser</author>
+<title>CLaP - State Detection from Time Series.</title>
+<pages>70-83</pages>
+<year>2025</year>
+<month>September</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>1</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p70-ermshaus.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ErmshausSL25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+</dblpcites>
+
+
+<h2>Volume 19, Number 2, October 2025</h2>
+<dblpcites><r style="ee"><article key="journals/pvldb/DiaoX25a" mdate="2026-02-04">
+<author pid="d/YanleiDiao">Yanlei Diao</author>
+<author pid="33/1903">Xiaokui Xiao</author>
+<title>Front Matter.</title>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/FrontMatterVol19No2.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DiaoX25a</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/JinZK25" mdate="2026-02-04">
+<author pid="376/6776">Tengjun Jin</author>
+<author pid="146/0939-3">Yuxuan Zhu 0003</author>
+<author pid="40/6300">Daniel Kang 0001</author>
+<title>ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines.</title>
+<pages>84-98</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p84-jin.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#JinZK25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/dHondtKPP25" mdate="2026-02-05">
+<author pid="252/7565">Jens E. d'Hondt</author>
+<author pid="424/7990">Teun Kortekaas</author>
+<author pid="p/OdysseasPapapetrou">Odysseas Papapetrou</author>
+<author pid="p/ThemisPalpanas">Themis Palpanas</author>
+<title>MS-Index: Fast Top-k Subsequence Search for Multivariate Time Series under Euclidean Distance.</title>
+<pages>99-112</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p99-d%27hondt.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#dHondtKPP25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/DongCWL25" mdate="2026-02-04">
+<author pid="99/10801">Wentao Dong</author>
+<author pid="25/7045">Yang Cao</author>
+<author pid="18/2771">Cong Wang</author>
+<author pid="50/3431">Wei-Bin Lee</author>
+<title>Doppio: Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy.</title>
+<pages>113-126</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p113-dong.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DongCWL25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhouJFLHHC25" mdate="2026-08-05">
+<author pid="331/8455">Yingli Zhou</author>
+<author pid="425/1606">Yige Jiang</author>
+<author pid="76/1735">Yixiang Fang</author>
+<author pid="178/4881-2">Wensheng Luo 0002</author>
+<author pid="245/8929">Yongmin Hu</author>
+<author pid="328/7021">Yingqian Hu</author>
+<author pid="10/217-8">Cheng Chen 0008</author>
+<title>Effective Durable Community Search in Large Temporal Graph.</title>
+<pages>127-140</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p127-zhou.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhouJFLHHC25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WuCCIS25" mdate="2026-02-04">
+<author pid="156/8281">Bowen Wu</author>
+<author pid="42/3805">Wei Cui</author>
+<author pid="c/CarloCurino">Carlo Curino</author>
+<author pid="49/10034">Matteo Interlandi</author>
+<author pid="08/2832">Rathijit Sen</author>
+<title>Terabyte-Scale Analytics in the Blink of an Eye.</title>
+<pages>141-155</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p141-sen.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WuCCIS25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/BanelasSG25" mdate="2026-02-04">
+<author pid="372/9666">Dimitrios Banelas</author>
+<author pid="s/ASimitsis">Alkis Simitsis</author>
+<author pid="17/1242">Nikos Giatrakos</author>
+<title>APEROL: Adaptive Parallel Edge-to-Cloud Runtime Optimization for Layered Workflow Execution.</title>
+<pages>156-169</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p156-giatrakos.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#BanelasSG25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LiuLHTLJ25" mdate="2026-02-04">
+<author pid="197/6068-1">Hengyu Liu 0001</author>
+<author pid="85/11154-5">Tianyi Li 0005</author>
+<author pid="297/7931">Yuqiang He</author>
+<author pid="t/KristianTorp">Kristian Torp</author>
+<author pid="210/8903">Yushuai Li</author>
+<author pid="j/ChristianSJensen">Christian S. Jensen</author>
+<title>MH-GIN: Multi-scale Heterogeneous Graph-based Imputation Network for AIS Data.</title>
+<pages>170-182</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p170-li.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LiuLHTLJ25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhuYYCYLLZ25" mdate="2026-02-27">
+<author pid="161/6197">Jiaxu Zhu</author>
+<author pid="358/1241">Jiayu Yuan</author>
+<author pid="227/0101">Kaiwen Yang</author>
+<author pid="63/424">Xiaobao Chen</author>
+<author pid="146/2482">Shihuan Yu</author>
+<author pid="426/0914">Hongchang Lv</author>
+<author pid="87/660-161">Yan Li 0161</author>
+<author pid="152/4895">Bolong Zheng</author>
+<title>An Experimental Evaluation of Hybrid Querying on Vectors.</title>
+<pages>183-195</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p183-zheng.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhuYYCYLLZ25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/BodensohnBVSB25" mdate="2026-02-04">
+<author pid="315/4523">Jan-Micha Bodensohn</author>
+<author pid="389/5075">Ulf Brackmann</author>
+<author pid="318/9125">Liane Vogel</author>
+<author pid="216/4944">Anupam Sanghi</author>
+<author pid="45/1559">Carsten Binnig</author>
+<title>Unveiling Challenges for LLMs in Enterprise Data Engineering.</title>
+<pages>196-209</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p196-bodensohn.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#BodensohnBVSB25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChaudharyLFSPKZBM25" mdate="2026-08-03">
+<author pid="65/10043-2">Ankit Chaudhary 0002</author>
+<author pid="198/7920">Felix Lang</author>
+<author pid="426/0761">Danila Ferents</author>
+<author pid="349/0770">Nils L. Schubert</author>
+<author pid="51/1618">Varun Pandey</author>
+<author pid="167/2751">Jeyhun Karimov</author>
+<author pid="142/9136">Steffen Zeuch</author>
+<author pid="54/5149">Kaustubh Beedkar</author>
+<author pid="m/VMarkl">Volker Markl</author>
+<title>Incremental Stream Query Deployment under Continuous Infrastructure Changes in the Cloud-Edge Continuum.</title>
+<pages>210-223</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p210-chaudhary.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChaudharyLFSPKZBM25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChandramouliZHZMRG25" mdate="2026-02-04">
+<author pid="01/2861">Badrish Chandramouli</author>
+<author pid="158/9045">Vasileios Zois</author>
+<author pid="06/8160">Ted Hart</author>
+<author pid="194/3943">Tal Zaccai</author>
+<author pid="131/4096">Lukas M. Maas</author>
+<author pid="426/1292">Yoganand Rajasekaran</author>
+<author pid="130/2894">Darren Gehring</author>
+<title>Garnet: A Next-Generation Cache-Store for Accelerating Applications and Services.</title>
+<pages>224-237</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p224-chandramouli.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChandramouliZHZMRG25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LeeL25" mdate="2026-03-06">
+<author pid="426/1753">Seoyong Lee</author>
+<author pid="62/757-1">Jinho Lee 0001</author>
+<title>AGIS: Fast Approximate Graph Pattern Mining with Structure-Informed Sampling.</title>
+<pages>238-251</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p238-lee.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LeeL25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/AlgarniGLC25" mdate="2026-02-04">
+<author pid="384/5572">Shatha Algarni</author>
+<author pid="09/3012">Boris Glavic</author>
+<author pid="180/8454">Seokki Lee</author>
+<author pid="54/4551">Adriane Chapman</author>
+<title>Efficient Query Repair for Aggregate Constraints.</title>
+<pages>252-264</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p252-algarni.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#AlgarniGLC25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/KangCDS25" mdate="2026-02-05">
+<author pid="339/7333">Dakai Kang</author>
+<author pid="39/9851-3">Junchao Chen 0003</author>
+<author pid="32/3610">Anh Dinh</author>
+<author pid="56/7016">Mohammad Sadoghi</author>
+<title>FairDAG: Consensus Fairness over Multi-Proposer Causal Design.</title>
+<pages>265-278</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p265-kang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#KangCDS25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/MiorV25" mdate="2026-02-04">
+<author pid="20/9709">Michael Mior</author>
+<author pid="310/1703">Juan Cruz Viotti</author>
+<title>Blaze: Compiling JSON Schema for 10x Faster Validation.</title>
+<pages>279-291</pages>
+<year>2025</year>
+<month>October</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>2</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p279-viotti.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#MiorV25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+</dblpcites>
+
+
+<h2>Volume 19, Number 3, November 2025</h2>
+<dblpcites><r style="ee"><article key="journals/pvldb/DiaoX25b" mdate="2026-04-17">
+<author pid="d/YanleiDiao">Yanlei Diao</author>
+<author pid="33/1903">Xiaokui Xiao</author>
+<title>Front Matter.</title>
+<year>2025</year>
+<month>November</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/FrontMatterVol19No3.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DiaoX25b</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LiWMGFL25" mdate="2026-04-17">
+<author pid="153/2952">Jiahui Li</author>
+<author pid="397/1136">Tongwang Wu</author>
+<author pid="268/1340">Yuren Mao</author>
+<author pid="80/2651">Yunjun Gao</author>
+<author pid="405/6904">Yajie Feng</author>
+<author pid="405/5976">Huaizhong Liu</author>
+<title>SQL-Factory: A Multi-Agent Framework for High-Quality and Large-Scale SQL Generation.</title>
+<year>2025</year>
+<month>November</month>
+<pages>292-305</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p292-gao.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LiWMGFL25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/KozarCZM25" mdate="2026-08-03">
+<author pid="379/7016">Anastasiia Kozar</author>
+<author pid="65/10043-2">Ankit Chaudhary 0002</author>
+<author pid="142/9136">Steffen Zeuch</author>
+<author pid="m/VMarkl">Volker Markl</author>
+<title>Meerkat: Scalable, Network-Aware Failure Recovery for the Internet of Things.</title>
+<year>2025</year>
+<month>November</month>
+<pages>306-319</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p306-kozar.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#KozarCZM25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/HuangSLCCIDS25" mdate="2026-04-17">
+<author pid="287/9765">Zezhou Huang</author>
+<author pid="410/1075">Krystian Sakowski</author>
+<author pid="249/8363">Hans Lehnert</author>
+<author pid="42/3805">Wei Cui</author>
+<author pid="c/CarloCurino">Carlo Curino</author>
+<author pid="49/10034">Matteo Interlandi</author>
+<author pid="82/5967">Marius Dumitru</author>
+<author pid="08/2832">Rathijit Sen</author>
+<title>GPU Acceleration of SQL Analytics on Compressed Data.</title>
+<year>2025</year>
+<month>November</month>
+<pages>320-333</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p320-sen.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#HuangSLCCIDS25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhouLYS25" mdate="2026-04-17">
+<author pid="255/9363">Xinjing Zhou</author>
+<author pid="10/11150">Viktor Leis</author>
+<author pid="126/6015">Xiangyao Yu</author>
+<author pid="s/MichaelStonebraker">Michael Stonebraker</author>
+<title>Tux: Efficient Drop-in Networking for Database Systems.</title>
+<year>2025</year>
+<month>November</month>
+<pages>334-347</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p334-zhou.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhouLYS25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/SchonbergerTM25" mdate="2026-04-17">
+<author pid="315/9085">Manuel Sch&#246;nberger</author>
+<author pid="85/9079">Immanuel Trummer</author>
+<author pid="74/694">Wolfgang Mauerer</author>
+<title>Hybrid Mixed Integer Linear Programming for Large-Scale Join Order Optimisation.</title>
+<year>2025</year>
+<month>November</month>
+<pages>348-360</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p348-schonberger.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#SchonbergerTM25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhaoYRFFK25" mdate="2026-04-17">
+<author pid="307/7991">Hangdong Zhao</author>
+<author pid="37/10961">Zhenghong Yu</author>
+<author pid="381/6141">Srinag Rao</author>
+<author pid="397/7234">Simon Frisk</author>
+<author pid="156/3546">Zhiwei Fan</author>
+<author pid="49/8316">Paraschos Koutris</author>
+<title>FlowLog: Efficient and Extensible Datalog via Incrementality.</title>
+<year>2025</year>
+<month>November</month>
+<pages>361-374</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p361-zhao.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhaoYRFFK25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WuJLP25" mdate="2026-04-17">
+<author pid="219/1649">Qianhao Wu</author>
+<author pid="259/0226">Jiazhi Jiang</author>
+<author pid="433/3779">Guihui Ling</author>
+<author pid="217/2646">Yue Pang</author>
+<title>Resilience-Aware Elastic Scaling for Cloud-Native Online DL Training on Multi-Tenant GPU Clusters.</title>
+<year>2025</year>
+<month>November</month>
+<pages>375-387</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p375-jiang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WuJLP25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ShahLP25" mdate="2026-04-17">
+<author pid="271/4486">Raunak Shah</author>
+<author pid="282/6349">Zhaoheng Li</author>
+<author pid="79/583">Yongjoo Park</author>
+<title>QStore: Quantization-Aware Compressed Model Storage.</title>
+<year>2025</year>
+<month>November</month>
+<pages>388-398</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p388-li.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ShahLP25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChenZCXZRJWCW25" mdate="2026-04-18">
+<author pid="79/5815-29">Yue Chen 0029</author>
+<author pid="55/957-6">Kai Zhang 0006</author>
+<author pid="263/7066">Sipeng Chen</author>
+<author pid="25/2157">Shihai Xiao</author>
+<author pid="292/5854">Xiaomin Zou</author>
+<author pid="18/4751">Ren Ren</author>
+<author pid="35/3128">Yinan Jing</author>
+<author pid="w/XiaoyangSeanWang">X. Sean Wang</author>
+<author pid="57/3332">Li Cao</author>
+<author pid="135/9629">Mingxiang Wan</author>
+<title>RED-ANNS: A RDMA-Enabled Distributed Framework for Graph-Based Approximate Nearest Neighbor Search.</title>
+<year>2025</year>
+<month>November</month>
+<pages>399-412</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p399-chen.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChenZCXZRJWCW25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhaoMC25" mdate="2026-04-18">
+<author pid="48/76-31">Yue Zhao 0031</author>
+<author pid="243/0860">Songsong Mo</author>
+<author pid="33/3180">Gao Cong</author>
+<title>TATA: An Efficient Framework for Task Transfer in Query Plan Representation.</title>
+<year>2025</year>
+<month>November</month>
+<pages>413-425</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p413-zhao.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhaoMC25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LinQZPCTL25" mdate="2026-04-17">
+<author pid="225/7491">Xiaotian Lin</author>
+<author pid="256/3999">Yanlin Qi</author>
+<author pid="359/8583">Yizhang Zhu</author>
+<author pid="p/ThemisPalpanas">Themis Palpanas</author>
+<author pid="181/5689">Chengliang Chai</author>
+<author pid="27/104-1">Nan Tang 0001</author>
+<author pid="185/9921">Yuyu Luo</author>
+<title>LEAD: Iterative Data Selection for Efficient LLM Instruction Tuning.</title>
+<year>2025</year>
+<month>November</month>
+<pages>426-439</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p426-luo.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LinQZPCTL25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/BaunsgaardB25" mdate="2026-04-17">
+<author pid="258/9938">Sebastian Baunsgaard</author>
+<author pid="75/887">Matthias Boehm 0001</author>
+<title>Morphing-based Compression for Data-centric ML Pipelines.</title>
+<year>2025</year>
+<month>November</month>
+<pages>440-454</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p440-baunsgaard.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#BaunsgaardB25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/XianGZW25" mdate="2026-04-17">
+<author pid="400/5660">Haoming Xian</author>
+<author pid="123/1816">Qintian Guo</author>
+<author pid="29/4190">Jun Zhang</author>
+<author pid="131/6529-1">Sibo Wang 0001</author>
+<title>Optimal Approximate Matrix Multiplication over Sliding Windows.</title>
+<year>2025</year>
+<month>November</month>
+<pages>455-467</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p455-guo.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#XianGZW25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZouZYZZGHYW25" mdate="2026-08-06">
+<author pid="433/3457">Ziqi Zou</author>
+<author pid="55/2270-98">Hao Zhang 0098</author>
+<author pid="241/9457">Jiaxin Yao</author>
+<author pid="169/1501">Kangfei Zhao</author>
+<author pid="68/1980-2">Zhiwei Zhang 0002</author>
+<author pid="143/0374">Sen Gao</author>
+<author pid="247/5442">Jingpeng Hao</author>
+<author pid="33/6315-1">Ye Yuan 0001</author>
+<author pid="64/146">Guoren Wang</author>
+<title>Aquila: A High-Concurrency System for Incremental Graph Query.</title>
+<year>2025</year>
+<month>November</month>
+<pages>468-480</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p468-zhao.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZouZYZZGHYW25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/HuWPZYCZXY25" mdate="2026-04-17">
+<author pid="370/2446">Zirui Hu</author>
+<author pid="305/0139">Siyang Weng</author>
+<author pid="141/5423">Zhicheng Pan</author>
+<author pid="13/5366-2">Rong Zhang 0002</author>
+<author pid="74/10221">Chengcheng Yang</author>
+<author pid="19/3952-1">Peng Cai 0001</author>
+<author pid="32/3943-1">Xuan Zhou 0001</author>
+<author pid="29/4131">Quanqing Xu</author>
+<author pid="328/5894">Chuanhui Yang</author>
+<title>Vodka: Rethink Benchmarking Philosophy in HTAP Systems.</title>
+<year>2025</year>
+<month>November</month>
+<pages>481-494</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p481-hu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#HuWPZYCZXY25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/YuLGXLZSZLY25" mdate="2026-07-27">
+<author pid="388/5247-4">Song Yu 0004</author>
+<author pid="386/4817">Shengyuan Lin</author>
+<author pid="207/7446-1">Shufeng Gong 0001</author>
+<author pid="160/9925">Yongqing Xie</author>
+<author pid="01/4595">Ruicheng Liu</author>
+<author pid="162/7898">Yijie Zhou</author>
+<author pid="01/3254-1">Ji Sun 0001</author>
+<author pid="66/2444-1">Yanfeng Zhang 0001</author>
+<author pid="l/GuoliangLi">Guoliang Li 0001</author>
+<author pid="49/6363">Ge Yu 0001</author>
+<title>A Topology-Aware Localized Update Strategy for Graph-Based ANN Index.</title>
+<year>2025</year>
+<month>November</month>
+<pages>495-508</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p495-yu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#YuLGXLZSZLY25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/GlaunecLM25" mdate="2026-04-17">
+<author pid="321/5834">Alexis Le Glaunec</author>
+<author pid="371/4251">Angela W. Li</author>
+<author pid="48/6846">Konstantinos Mamouras</author>
+<title>Streaming Validation of JSON Documents Against Schemas.</title>
+<year>2025</year>
+<month>November</month>
+<pages>509-522</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p509-mamouras.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#GlaunecLM25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/XueM25" mdate="2026-04-17">
+<author pid="407/8013">Daniel Xue</author>
+<author pid="175/1473">Ryan Marcus</author>
+<title>Global Hash Tables Strike Back! An Analysis of Parallel GROUP BY Aggregation.</title>
+<year>2025</year>
+<month>November</month>
+<pages>523-535</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>3</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p523-marcus.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#XueM25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+</dblpcites>
+
+
+<h2>Volume 19, Number 4, December 2025</h2>
+<dblpcites><r style="ee"><article key="journals/pvldb/DiaoX25c" mdate="2026-04-17">
+<author pid="d/YanleiDiao">Yanlei Diao</author>
+<author pid="33/1903">Xiaokui Xiao</author>
+<title>Front Matter.</title>
+<year>2025</year>
+<month>December</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/FrontMatterVol19No4.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DiaoX25c</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WuZS25" mdate="2026-04-17">
+<author pid="203/4948">Kefei Wu</author>
+<author pid="93/4303">Baihua Zheng</author>
+<author pid="63/6566-8">Weiwei Sun 0008</author>
+<title>PILOT-C: Physics-Informed Low-Distortion Optimal Trajectory Compression.</title>
+<year>2025</year>
+<month>December</month>
+<pages>536-548</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p536-wu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WuZS25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChenAQCVY25" mdate="2026-04-17">
+<author pid="231/9535">Qinghan Chen</author>
+<author pid="433/2798">Muhammad Haekal Muhyidin Al-Araby</author>
+<author pid="346/2188">Ziyue Qiu</author>
+<author pid="371/4090">Zhuofan Chen</author>
+<author pid="40/7113">Rashmi Vinayak</author>
+<author pid="183/0795">Juncheng Yang</author>
+<title>Demystifying and Improving Lazy Promotion in Cache Eviction.</title>
+<year>2025</year>
+<month>December</month>
+<pages>549-562</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p549-yang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChenAQCVY25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/CaiLWCP25" mdate="2026-04-17">
+<author pid="226/7836">Zhiheng Cai</author>
+<author pid="147/8363-3">Si Liu 0003</author>
+<author pid="80/11360">Hengfeng Wei</author>
+<author pid="142/2150-3">Yuxing Chen 0003</author>
+<author pid="224/6370">Anqun Pan</author>
+<title>Fast Verification of Strong Database Isolation.</title>
+<year>2025</year>
+<month>December</month>
+<pages>563-575</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p563-wei.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#CaiLWCP25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChenLZZMWFM25" mdate="2026-07-30">
+<author pid="239/8968-1">Jingbang Chen 0001</author>
+<author pid="408/0180">Weinuo Li</author>
+<author pid="331/8455">Yingli Zhou</author>
+<author pid="368/3857">Hangrui Zhou</author>
+<author pid="354/8741">Qiuyang Mang</author>
+<author pid="71/4716-1">Can Wang 0001</author>
+<author pid="76/1735">Yixiang Fang</author>
+<author pid="251/5251">Chenhao Ma 0001</author>
+<title>Scalable Approximate Biclique Counting over Large Bipartite Graphs.</title>
+<year>2025</year>
+<month>December</month>
+<pages>576-588</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p576-chen.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChenLZZMWFM25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WangBBRR25" mdate="2026-04-17">
+<author pid="47/6959">Yifan Wang</author>
+<author pid="126/2209">Debabrota Basu</author>
+<author pid="08/6004">Pierre Bourhis</author>
+<author pid="52/2030">Romain Rouvoy</author>
+<author pid="349/7758">Patrick Royer</author>
+<title>DOT: Dynamic Knob Selection and Online Sampling for Automated Database Tuning.</title>
+<year>2025</year>
+<month>December</month>
+<pages>589-602</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p589-wang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WangBBRR25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChockchowwatTLKP25" mdate="2026-04-17">
+<author pid="218/6145">Supawit Chockchowwat</author>
+<author pid="375/9934">Sumay Thakurdesai</author>
+<author pid="282/6349">Zhaoheng Li</author>
+<author pid="243/6203">Matthew Krafczyk</author>
+<author pid="79/583">Yongjoo Park</author>
+<title>Chipmink: Efficient Delta Identification for Massive Object Graphs.</title>
+<year>2025</year>
+<month>December</month>
+<pages>603-616</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p603-chockchowwat.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChockchowwatTLKP25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/YangXLWW25" mdate="2026-05-20">
+<author pid="197/8171-4">Mingyu Yang 0004</author>
+<author pid="342/2975">Wenxuan Xia</author>
+<author pid="60/8180-1">Wentao Li 0001</author>
+<author pid="w/RaymondChiWingWong">Raymond Chi-Wing Wong</author>
+<author pid="w/WeiWang11">Wei Wang 0011</author>
+<title>Elastic Index Selection for Label-Hybrid AKNN Search.</title>
+<year>2025</year>
+<month>December</month>
+<pages>617-630</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p617-yang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#YangXLWW25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/YanDZW25" mdate="2026-04-18">
+<author pid="35/3947-2">Ning Yan 0002</author>
+<author pid="76/6449">Sheng Di</author>
+<author pid="72/2621">Kai Zhao</author>
+<author pid="124/2262-1">Lipeng Wan 0001</author>
+<title>Eureka: Enabling Fine-Grained Access and Range Queries on Compressed Scientific Data via Data-Index Co-Compression.</title>
+<year>2025</year>
+<month>December</month>
+<pages>631-643</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p631-wan.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#YanDZW25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/OuyangLWZYL25" mdate="2026-04-17">
+<author pid="219/5745">Dian Ouyang</author>
+<author pid="330/8209">Jiajie Lin</author>
+<author pid="433/3047">Li Wentao</author>
+<author pid="21/3626">Fan Zhang</author>
+<author pid="393/7196">Jianye Yang</author>
+<author pid="69/7449">Xi Luo</author>
+<title>TRIM: An Efficient Framework for Exact Eccentricity Computation on Large-Scale Graphs.</title>
+<year>2025</year>
+<month>December</month>
+<pages>644-656</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p644-zhang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#OuyangLWZYL25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LaskowskiPHPN25" mdate="2026-04-17">
+<author pid="298/1312">Lukas Laskowski</author>
+<author pid="54/7390">Fabian Panse</author>
+<author pid="166/4106">Michael Hladik</author>
+<author pid="207/3686">Jan Portisch</author>
+<author pid="n/FelixNaumann">Felix Naumann</author>
+<title>Schuyler: Self-Supervised Clustering of Tables in Relational Databases.</title>
+<year>2025</year>
+<month>December</month>
+<pages>657-669</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p657-laskowski.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LaskowskiPHPN25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/JacksonGH25" mdate="2026-04-17">
+<author pid="01/5646">David Jackson</author>
+<author pid="g/PTGroth">Paul Groth</author>
+<author pid="181/7644">Hazar Harmouch</author>
+<title>Fault Lines: Benchmarking the Impact of Label Data Quality on ML Robustness and Fairness.</title>
+<year>2025</year>
+<month>December</month>
+<pages>670-683</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p670-jackson.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#JacksonGH25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhaMLWHLZCCP25" mdate="2026-04-18">
+<author pid="432/1187">Hantian Zha</author>
+<author pid="24/5931-6">Teng Ma 0006</author>
+<author pid="256/1745">Baotong Lu</author>
+<author pid="433/2875">Yuansen Wang</author>
+<author pid="224/0751">Dongbiao He</author>
+<author pid="352/6769">Yuanhui Luo</author>
+<author pid="16/2420">Dafang Zhang</author>
+<author pid="42/3363">Yunpeng Chai</author>
+<author pid="142/2150-3">Yuxing Chen 0003</author>
+<author pid="224/6370">Anqun Pan</author>
+<title>Shard: A Scalable and Resize-optimized Hash Index on Disaggregated Memory.</title>
+<year>2025</year>
+<month>December</month>
+<pages>684-697</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p684-zha.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhaMLWHLZCCP25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChenHYZZL25" mdate="2026-04-17">
+<author pid="308/6931">Liuyi Chen</author>
+<author pid="189/5885">Yuchen Hu</author>
+<author pid="73/908-1">Zhengyi Yang 0001</author>
+<author pid="66/5686-1">Xu Zhou 0001</author>
+<author pid="98/5684-1">Wenjie Zhang 0001</author>
+<author pid="l/KenliLi">Kenli Li 0001</author>
+<title>Efficient Partition-based Approaches for Diversified Top-k Subgraph Matching.</title>
+<year>2025</year>
+<month>December</month>
+<pages>698-712</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p698-yang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChenHYZZL25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WuLWXYCSTLLC25" mdate="2026-04-17">
+<author pid="25/7019-18">Yifan Wu 0018</author>
+<author pid="116/8661">Yuhan Li</author>
+<author pid="33/4679">Zhenhua Wang</author>
+<author pid="169/3419">Zhongle Xie</author>
+<author pid="119/6899">Dingyu Yang</author>
+<author pid="47/6529-5">Ke Chen 0005</author>
+<author pid="21/5967">Lidan Shou</author>
+<author pid="43/2474-16">Bo Tang 0016</author>
+<author pid="84/7019">Liang Lin</author>
+<author pid="55/2893-3">Huan Li 0003</author>
+<author pid="67/6383-1">Gang Chen 0001</author>
+<title>SafeLoad: Efficient Admission Control Framework for Identifying Memory-Overloading Queries in Cloud Data Warehouses.</title>
+<year>2025</year>
+<month>December</month>
+<pages>713-725</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p713-li.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WuLWXYCSTLLC25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WengSZLLT25" mdate="2026-04-17">
+<author pid="06/8348">Tongfeng Weng</author>
+<author pid="70/5884-2">Mo Sha 0002</author>
+<author pid="66/5686-1">Xu Zhou 0001</author>
+<author pid="80/199">Jingjing Lu</author>
+<author pid="l/KenliLi">Kenli Li 0001</author>
+<author pid="t/KianLeeTan">Kian-Lee Tan</author>
+<title>Efficient Temporal Edge-Core Maintenance in Streaming Graphs.</title>
+<year>2025</year>
+<month>December</month>
+<pages>726-739</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p726-tan.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WengSZLLT25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WangCLQXL25" mdate="2026-04-28">
+<author pid="40/3934-4">Dong Wang 0004</author>
+<author pid="180/6142">Ningning Cui</author>
+<author pid="l/JianxinLi">Jianxin Li 0001</author>
+<author pid="41/1074-1">Jianzhong Qi 0001</author>
+<author pid="x/JianliangXu">Jianliang Xu</author>
+<author pid="65/4062">Hui Lu</author>
+<title>A Workload-Aware Encrypted Index for Efficient Privacy-Preserving Range Queries.</title>
+<year>2025</year>
+<month>December</month>
+<pages>740-752</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p740-li.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WangCLQXL25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChenT25" mdate="2026-05-20">
+<author pid="24/1431-3">Xiaolong Chen 0003</author>
+<author pid="83/663-4">Jing Tang 0004</author>
+<title>Augmenting Social Influence of Uncertain Seeds via Probabilistic Link Insertion.</title>
+<year>2025</year>
+<month>December</month>
+<pages>753-766</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p753-chen.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChenT25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/BerensT25" mdate="2026-04-17">
+<author pid="195/7316">Maximilian Berens</author>
+<author pid="t/JensTeubner">Jens Teubner</author>
+<title>Index Intersection for High-Dimensional Range Queries.</title>
+<year>2025</year>
+<month>December</month>
+<pages>767-779</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p767-berens.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#BerensT25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LiuHWMS25" mdate="2026-04-29">
+<author pid="381/9540">Xunpeng Liu</author>
+<author pid="130/5419-1">Qun Huang 0001</author>
+<author pid="192/7228">Yaojing Wang</author>
+<author pid="44/8491">Lihua Miao</author>
+<author pid="01/6072-5">Chen Sun 0005</author>
+<title>CounterSnake: A lossless and generalized compression framework for diverse sketches.</title>
+<year>2025</year>
+<month>December</month>
+<pages>780-793</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>4</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p780-liu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LiuHWMS25</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+</dblpcites>
+
+
+<h2>Volume 19, Number 5, January 2026</h2>
+<dblpcites><r style="ee"><article key="journals/pvldb/DiaoX26" mdate="2026-04-17">
+<author pid="d/YanleiDiao">Yanlei Diao</author>
+<author pid="33/1903">Xiaokui Xiao</author>
+<title>Front Matter.</title>
+<year>2026</year>
+<month>January</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/FrontMatterVol19No5.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DiaoX26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/HuangCWWW26" mdate="2026-04-18">
+<author pid="81/6685-39">Wei Huang 0039</author>
+<author pid="251/3329">Anda Cheng</author>
+<author pid="136/1775">Yinggui Wang</author>
+<author pid="181/2817-251">Lei Wang 0251</author>
+<author pid="64/5099-2">Tao Wei 0002</author>
+<title>LLM-AutoDP: Automatic Data Processing via LLM Agents for Model Fine-tuning.</title>
+<year>2026</year>
+<month>January</month>
+<pages>794-807</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p794-cheng.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#HuangCWWW26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhuZSWWJNLP26" mdate="2026-04-28">
+<author pid="123/9258">Shengkun Zhu</author>
+<author pid="57/10341">Jinshan Zeng</author>
+<author pid="75/5247-3">Yuan Sun 0003</author>
+<author pid="85/1868-7">Sheng Wang 0007</author>
+<author pid="71/3182">Yiming Wang</author>
+<author pid="394/6315">Yushuai Ji</author>
+<author pid="80/5755">Feiping Nie 0001</author>
+<author pid="50/3993-1">Xiaodong Li 0001</author>
+<author pid="40/1233-1">Zhiyong Peng 0001</author>
+<title>Highly-Efficient Large-Scale k-means with Individual Fairness.</title>
+<year>2026</year>
+<month>January</month>
+<pages>808-821</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p808-zhu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhuZSWWJNLP26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhangDWOWWCFF26" mdate="2026-04-18">
+<author pid="356/8198">Jianshun Zhang</author>
+<author pid="154/0106">Xun Deng</author>
+<author pid="35/5625-1">Fang Wang 0001</author>
+<author pid="121/1424">Jiaxin Ou</author>
+<author pid="17/221">Yi Wang</author>
+<author pid="181/2812">Hao Wang</author>
+<author pid="20/1036-1">Jianjun Chen 0001</author>
+<author pid="86/9628-2">Peng Fang 0002</author>
+<author pid="48/5939-1">Dan Feng 0001</author>
+<title>Terark-DS: A High-Performance and Storage-Efficient Key-Value Separation Storage Engine on Disaggregated Storage.</title>
+<year>2026</year>
+<month>January</month>
+<pages>822-835</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p822-zhang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhangDWOWWCFF26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhouWZZJ26" mdate="2026-04-18">
+<author pid="97/97">Jian Zhou</author>
+<author pid="281/1819">Luna Wang</author>
+<author pid="320/2037">Shuaihua Zhao</author>
+<author pid="98/10416-2">Chen Zhong 0002</author>
+<author pid="08/237-1">Song Jiang 0001</author>
+<title>LiBox: A Learned Index as an Array to Minimize Last-Mile Search.</title>
+<year>2026</year>
+<month>January</month>
+<pages>836-848</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p836-jiang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhouWZZJ26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LvLYXCJ26" mdate="2026-04-18">
+<author pid="426/5044">Chuanyi Lv</author>
+<author pid="55/2893-3">Huan Li 0003</author>
+<author pid="119/6899">Dingyu Yang</author>
+<author pid="433/4051">Zhonele Xie</author>
+<author pid="69/157-1">Lu Chen 0001</author>
+<author pid="j/ChristianSJensen">Christian S. Jensen</author>
+<title>DeXOR: Enabling XOR in Decimal Space for Streaming Lossless Compression of Floating-point Data.</title>
+<year>2026</year>
+<month>January</month>
+<pages>849-861</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p849-li.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LvLYXCJ26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WuXLZZ26" mdate="2026-04-17">
+<author pid="206/6067">Danni Wu</author>
+<author pid="87/6559-2">Yuanyuan Xu 0002</author>
+<author pid="l/LinXuemin">Xuemin Lin 0001</author>
+<author pid="98/5684-1">Wenjie Zhang 0001</author>
+<author pid="13/6769-1">Ying Zhang 0001</author>
+<title>Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation.</title>
+<year>2026</year>
+<month>January</month>
+<pages>862-875</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p862-xu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WuXLZZ26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/KoutroumanisKKMV26" mdate="2026-04-17">
+<author pid="236/7441">Nikolaos Koutroumanis</author>
+<author pid="433/2478">Petros Karampas</author>
+<author pid="63/5523-1">Alexandros Karakasidis 0001</author>
+<author pid="34/6253">Nikos Mamoulis</author>
+<author pid="13/1242">Panos Vassiliadis</author>
+<title>Scalable Grid-based Computation of Kendall's Tau Correlation.</title>
+<year>2026</year>
+<month>January</month>
+<pages>876-888</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p876-koutroumanis.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#KoutroumanisKKMV26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChenGYM26" mdate="2026-04-17">
+<author pid="142/3636">Pengyu Chen</author>
+<author pid="216/3002">Zizheng Guo</author>
+<author pid="62/1791">Jianwei Yang</author>
+<author pid="147/8405">Dongjing Miao</author>
+<title>Towards Efficient Random-Order Enumeration for Join Queries.</title>
+<year>2026</year>
+<month>January</month>
+<pages>889-901</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p889-miao.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChenGYM26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/KossmannWTTCM26" mdate="2026-04-17">
+<author pid="243/2511">Ferdinand Kossmann</author>
+<author pid="279/2962">Ziniu Wu</author>
+<author pid="302/4195">Alex Turk</author>
+<author pid="t/NesimeTatbul">Nesime Tatbul</author>
+<author pid="17/6060-4">Lei Cao 0004</author>
+<author pid="m/SamuelMadden">Samuel Madden 0001</author>
+<title>Ken: An Execution Engine for Unstructured Database Systems.</title>
+<year>2026</year>
+<month>January</month>
+<pages>902-916</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p902-kossmann.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#KossmannWTTCM26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/HermannLVW26" mdate="2026-07-28">
+<author pid="05/1398-2">Stefan Hermann 0002</author>
+<author pid="295/9136">Hans-Peter Lehmann</author>
+<author pid="237/9641">Giorgio Vinciguerra</author>
+<author pid="139/7331">Stefan Walzer</author>
+<title>Learned Static Function Data Structures.</title>
+<year>2026</year>
+<month>January</month>
+<pages>917-930</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p917-vinciguerra.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#HermannLVW26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/JinCZK26" mdate="2026-04-17">
+<author pid="376/6776">Tengjun Jin</author>
+<author pid="80/6443">Yoojin Choi</author>
+<author pid="146/0939-3">Yuxuan Zhu 0003</author>
+<author pid="40/6300">Daniel Kang 0001</author>
+<title>Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards.</title>
+<year>2026</year>
+<month>January</month>
+<pages>931-944</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p931-jin.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#JinCZK26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/NakamoriK26" mdate="2026-04-17">
+<author pid="322/8142">Tatsuhiro Nakamori</author>
+<author pid="49/5221">Hideyuki Kawashima</author>
+<title>Libra: One-Shot Parameter Sensitivity Estimation for Transfer Learning in Database Performance Prediction.</title>
+<year>2026</year>
+<month>January</month>
+<pages>945-957</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p945-nakamori.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#NakamoriK26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LiuXL26" mdate="2026-04-17">
+<author pid="40/6926-1">Junfeng Liu 0001</author>
+<author pid="350/5781">Haoxuan Xie</author>
+<author pid="117/5965">Siqiang Luo</author>
+<title>ArceKV: Towards Workload-driven LSM-compactions for Key-Value Store Under Dynamic Workloads.</title>
+<year>2026</year>
+<month>January</month>
+<pages>958-972</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p958-liu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LiuXL26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WeiGLHJM26" mdate="2026-04-17">
+<author pid="295/2010">Zixin Wei</author>
+<author pid="360/1191">Yucan Guo</author>
+<author pid="79/572-3">Jinyang Li 0003</author>
+<author pid="57/10423-2">Xiaolin Han 0002</author>
+<author pid="00/1728">Xiaolong Jin</author>
+<author pid="251/5251">Chenhao Ma 0001</author>
+<title>Revisiting Task-Oriented Dataset Search in the Era of Large Language Models: Challenges, Benchmark, and Solution.</title>
+<year>2026</year>
+<month>January</month>
+<pages>973-986</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p973-wei.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WeiGLHJM26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/YuSWZ26" mdate="2026-04-17">
+<author pid="381/7284">Cong Yu</author>
+<author pid="23/4850">Tuo Shi</author>
+<author pid="61/267">Matthias Weidlich 0001</author>
+<author pid="94/4810-19">Bo Zhao 0019</author>
+<title>SHARP: Shared State Reduction for Efficient Matching of Sequential Patterns.</title>
+<year>2026</year>
+<month>January</month>
+<pages>987-1000</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p987-shi.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#YuSWZ26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/HouPCTLO26" mdate="2026-04-18">
+<author pid="368/5120">Shizheng Hou</author>
+<author pid="219/7854">Wenqi Pei</author>
+<author pid="135/5622">Nuo Chen</author>
+<author pid="134/3046">Quang-Trung Ta</author>
+<author pid="86/241-13">Peng Lu 0013</author>
+<author pid="o/BengChinOoi">Beng Chin Ooi</author>
+<title>NL2SQLBench: A Modular Benchmarking Framework for LLM-Enabled NL2SQL Solutions.</title>
+<year>2026</year>
+<month>January</month>
+<pages>1001-1015</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1001-hou.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#HouPCTLO26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChenZLZZLLLJCDYJCZLYYY26" mdate="2026-04-20">
+<author pid="221/0592">Yaoqi Chen</author>
+<author pid="81/9931">Jinkai Zhang</author>
+<author pid="256/1745">Baotong Lu</author>
+<author pid="291/4798">Qianxi Zhang</author>
+<author pid="358/2374">Chengruidong Zhang</author>
+<author pid="72/2590">Jing Liu</author>
+<author pid="320/2375">Jingjia Luo</author>
+<author pid="15/1777">Di Liu</author>
+<author pid="204/2497">Huiqiang Jiang</author>
+<author pid="66/6320-9">Qi Chen 0009</author>
+<author pid="163/0574">Bailu Ding</author>
+<author pid="07/2626-2">Xiao Yan 0002</author>
+<author pid="185/1521-1">Jiawei Jiang 0001</author>
+<author pid="65/4423-67">Chen Chen 0067</author>
+<author pid="153/5382">Mingxing Zhang</author>
+<author pid="16/6465-1">Cheng Li 0001</author>
+<author pid="91/9064-1">Yuqing Yang 0001</author>
+<author pid="29/3081-24">Fan Yang 0024</author>
+<author pid="89/1482-4">Mao Yang 0004</author>
+<title>RetroInfer: A Vector Storage Engine for Scalable Long-Context LLM Inference.</title>
+<year>2026</year>
+<month>January</month>
+<pages>1016-1031</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1016-lu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChenZLZZLLLJCDYJCZLYYY26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/DehghankarSA26" mdate="2026-04-17">
+<author pid="341/3995">Mohsen Dehghankar</author>
+<author pid="151/3111">Stavros Sintos</author>
+<author pid="04/7892">Abolfazl Asudeh</author>
+<title>On Fair Epsilon Net and Geometric Hitting Set.</title>
+<year>2026</year>
+<month>January</month>
+<pages>1032-1045</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1032-dehghankar.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DehghankarSA26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/MaHULCLJ26" mdate="2026-04-17">
+<author pid="178/6910">Xinyue Ma</author>
+<author pid="279/5565">Heelim Hong</author>
+<author pid="205/6864">Taegeon Um</author>
+<author pid="330/8179">Jongseop Lee</author>
+<author pid="426/9790">Seoyeong Choy</author>
+<author pid="163/1527">Woo-Yeon Lee</author>
+<author pid="09/2790">Myeongjae Jeon</author>
+<title>ORBITFLOW: SLO-Aware Long-Context LLM Serving with Fine-Grained KV Cache Reconfiguration.</title>
+<year>2026</year>
+<month>January</month>
+<pages>1046-1059</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1046-ma.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#MaHULCLJ26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/RussoLSVCKM26" mdate="2026-04-17">
+<author pid="126/0229">Matthew Russo</author>
+<author pid="147/1343">Chunwei Liu</author>
+<author pid="318/6147">Sivaprasad Sudhir</author>
+<author pid="249/4023">Gerardo Vitagliano</author>
+<author pid="82/231">Michael J. Cafarella</author>
+<author pid="26/6037">Tim Kraska</author>
+<author pid="m/SamuelMadden">Samuel Madden 0001</author>
+<title>Abacus: A Cost-Based Optimizer for Semantic Operator Systems.</title>
+<year>2026</year>
+<month>January</month>
+<pages>1060-1073</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1060-russo.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#RussoLSVCKM26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/PengYXSSCC26" mdate="2026-07-27">
+<author pid="09/11240">Yuchen Peng</author>
+<author pid="119/6899">Dingyu Yang</author>
+<author pid="169/3419">Zhongle Xie</author>
+<author pid="01/3254-1">Ji Sun 0001</author>
+<author pid="21/5967">Lidan Shou</author>
+<author pid="47/6529-5">Ke Chen 0005</author>
+<author pid="67/6383-1">Gang Chen 0001</author>
+<title>SVFusion: A CPU-GPU Co-Processing Architecture for Large-Scale Real-Time Vector Search.</title>
+<year>2026</year>
+<month>January</month>
+<pages>1074-1087</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>5</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1074-yang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#PengYXSSCC26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+</dblpcites>
+
+
+<h2>Volume 19, Number 6, February 2026</h2>
+<dblpcites><r style="ee"><article key="journals/pvldb/DiaoX26a" mdate="2026-06-09">
+<author pid="d/YanleiDiao">Yanlei Diao</author>
+<author pid="33/1903">Xiaokui Xiao</author>
+<title>Front Matter.</title>
+<year>2026</year>
+<month>February</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/FrontMatterVol19No6.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DiaoX26a</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/YeMDZ26" mdate="2026-06-09">
+<author pid="33/826-3">Chen Ye 0003</author>
+<author pid="69/9915">Shujie Ma</author>
+<author pid="36/623">Guojun Dai</author>
+<author pid="188/2018">Hengtong Zhang</author>
+<title>LIO: A lightweight and interpretable query optimizer based on an evolutionary forest.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1088-1100</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1088-ye.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#YeMDZ26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/TangXDYBPJ26" mdate="2026-06-09">
+<author pid="86/2476">Yuxin Tang</author>
+<author pid="340/5412">Zhiyuan Xin</author>
+<author pid="175/8954">Zhimin Ding</author>
+<author pid="36/1787">Xinyu Yao</author>
+<author pid="174/6685">Daniel Bourgeois</author>
+<author pid="208/1839">Tirthak Patel</author>
+<author pid="j/ChrisJermaine">Chris Jermaine</author>
+<title>Automated Tensor-Relational Decomposition for Large-Scale Sparse Tensor Computation.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1101-1114</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1101-tang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#TangXDYBPJ26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/MahinCT26" mdate="2026-06-09">
+<author pid="201/6647">Mehnaz Tabassum Mahin</author>
+<author pid="31/3455">Michael J. Carey 0001</author>
+<author pid="t/VassilisJTsotras">Vassilis J. Tsotras</author>
+<title>Sample-based Distinct Cardinality Estimation for Multiple Attributes in Multi-Dataset Queries.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1115-1127</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1115-mahin.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#MahinCT26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/RenLL26" mdate="2026-06-09">
+<author pid="252/6063">Yanjing Ren</author>
+<author pid="92/7728-1">Jingwei Li 0001</author>
+<author pid="71/1097">Patrick Lee</author>
+<title>SACK: Shielding Dynamic Attribute-based Access Control in Persistent Key-Value Stores.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1128-1141</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1128-ren.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#RenLL26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/DingZZSXLD26" mdate="2026-08-06">
+<author pid="241/9972">Zhenghao Ding</author>
+<author pid="04/4189-2">Xinyi Zhang 0002</author>
+<author pid="94/3019-34">Chao Zhang 0034</author>
+<author pid="41/622">Yishen Sun</author>
+<author pid="30/495">Kai Xu</author>
+<author pid="98/6613-15">Wei Lu 0015</author>
+<author pid="47/3542-1">Xiaoyong Du 0001</author>
+<title>Breaking the Isolation-Freshness Trade-off: Joint Adaptive Storage Optimization for HTAP Systems.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1142-1155</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1142-ding.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DingZZSXLD26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChenZNLH26" mdate="2026-06-09">
+<author pid="57/4238">Shuyu Chen</author>
+<author pid="251/5365">Mingxun Zhou</author>
+<author pid="279/7311">Haoyu Niu</author>
+<author pid="330/5132">Guopeng Lin</author>
+<author pid="42/179">Weili Han</author>
+<title>Bifrost: A Much Simpler Secure Two-Party Data Join Protocol for Secure Data Analytics.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1156-1169</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1156-han.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChenZNLH26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/OuyangWWZLL26" mdate="2026-06-09">
+<author pid="219/5745">Dian Ouyang</author>
+<author pid="55/9804">Yikun Wang</author>
+<author pid="92/8453-1">Dong Wen 0001</author>
+<author pid="98/5684-1">Wenjie Zhang 0001</author>
+<author pid="89/5332">Yaping Liu</author>
+<author pid="l/LinXuemin">Xuemin Lin 0001</author>
+<title>Efficient Temporal Subgraph Management: A New Interval Index.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1170-1183</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1170-wen.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#OuyangWWZLL26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhangSSLC26" mdate="2026-06-10">
+<author pid="76/1584-101">Xin Zhang 0101</author>
+<author pid="74/2905">Yanyan Shen</author>
+<author pid="131/2926">Yingxia Shao</author>
+<author pid="118/0004-2">Haoyang Li 0002</author>
+<author pid="c/LeiChen0002">Lei Chen 0002</author>
+<title>Efficient GNN Training on Giant Graphs with Collective Batching and Scheduling.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1184-1197</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1184-zhang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhangSSLC26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WustJS26" mdate="2026-06-09">
+<author pid="437/5086">Celine W&#252;st</author>
+<author pid="237/8586">Zu-Ming Jiang</author>
+<author pid="s/ZhendongSu">Zhendong Su 0001</author>
+<title>Dinkel: State-Aware and Granular Framework for Validating Graph Databases.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1198-1211</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1198-jiang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WustJS26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/SpinrathBE26" mdate="2026-06-09">
+<author pid="165/4128">Christopher Spinrath</author>
+<author pid="b/ABonifati">Angela Bonifati</author>
+<author pid="91/3803">Rachid Echahed</author>
+<title>Repairing Property Graphs under PG-Constraints.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1212-1225</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1212-spinrath.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#SpinrathBE26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhouWMF26" mdate="2026-06-09">
+<author pid="331/8455">Yingli Zhou</author>
+<author pid="187/3950">Huizhong Wang</author>
+<author pid="251/5251">Chenhao Ma 0001</author>
+<author pid="76/1735">Yixiang Fang</author>
+<title>A Semantics-aware Approach for Graph Edit Distance Estimation over Knowledge Graphs.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1226-1239</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1226-zhou.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhouWMF26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/YangJLW26" mdate="2026-06-09">
+<author pid="197/8171">Mingyu Yang</author>
+<author pid="431/0074">Liuchang Jing</author>
+<author pid="60/8180">Wentao Li</author>
+<author pid="35/7092">Wei Wang</author>
+<title>Quantization Meets Projection: A Happy Marriage for Approximate k-Nearest Neighbor Search.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1240-1249</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1240-yang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#YangJLW26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LeeHTH26" mdate="2026-06-09">
+<author pid="60/10355">Taesung Lee</author>
+<author pid="344/3180">Jaehyun Ha</author>
+<author pid="10/6711">Byungchul Tak</author>
+<author pid="62/2450">Wook-Shin Han</author>
+<title>TurboLynx: Schemaless Graph Engine Strikes Back for General-Purpose Analytics.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1250-1263</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1250-han.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LeeHTH26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ShenZCWYWYWC26" mdate="2026-06-09">
+<author pid="289/6630">Chaoyuan Shen</author>
+<author pid="91/195">Chi Zhang</author>
+<author pid="181/5689">Chengliang Chai</author>
+<author pid="115/7106">Jiacheng Wang</author>
+<author pid="41/10427">Jia Yuan</author>
+<author pid="29/3814">Yuping Wang</author>
+<author pid="33/6315-1">Ye Yuan 0001</author>
+<author pid="64/146">Guoren Wang</author>
+<author pid="17/6060-4">Lei Cao 0004</author>
+<title>BRIEF: Bi-level Coreset Selection for Efficient Instruction Tuning in LLMs.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1264-1277</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1264-chai.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ShenZCWYWYWC26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/QiaoBZ26" mdate="2026-06-09">
+<author pid="257/5648">Yiming Qiao</author>
+<author pid="b/PeterABoncz">Peter Boncz</author>
+<author pid="13/8730">Huanchen Zhang</author>
+<title>Robust Predicate Transfer with Dynamic Execution.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1278-1290</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1278-qiao.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#QiaoBZ26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/DaviranLR26" mdate="2026-06-09">
+<author pid="414/9811">Mohammadreza Daviran</author>
+<author pid="144/5882">Brian Lin</author>
+<author pid="r/DRafiei">Davood Rafiei</author>
+<title>SQL-Exchange: Transforming SQL Queries Across Domains.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1291-1304</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1291-daviran.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DaviranLR26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/TolovskiHDR26" mdate="2026-06-09">
+<author pid="246/2021">Ilin Tolovski</author>
+<author pid="333/8184">Philipp Hildebrandt</author>
+<author pid="d/KhuzaimaDaudjee">Khuzaima Daudjee</author>
+<author pid="10/760">Tilmann Rabl</author>
+<title>TPCx-AI under the Microscope: A Benchmarking Debt Analysis.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1305-1318</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1305-tolovski.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#TolovskiHDR26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhouSZZXZLW26" mdate="2026-06-09">
+<author pid="69/5011-53">Wei Zhou 0053</author>
+<author pid="88/619-6">Peng Sun 0006</author>
+<author pid="247/8418">Xuanhe Zhou</author>
+<author pid="414/7607">Qianglei Zang</author>
+<author pid="17/3075">Ji Xu</author>
+<author pid="88/2750">Tieying Zhang</author>
+<author pid="l/GuoliangLi">Guoliang Li 0001</author>
+<author pid="07/6378-6">Fan Wu 0006</author>
+<title>DBAIOps: A Reasoning LLM-Enhanced Database Operation and Maintenance System using Knowledge Graphs.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1319-1331</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1319-zhou.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhouSZZXZLW26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/MundraKSA26" mdate="2026-06-09">
+<author pid="255/9302">Pranay Mundra</author>
+<author pid="190/0084">Daniel Kocher</author>
+<author pid="437/5334">Martin Schaeler</author>
+<author pid="76/3961">Nikolaus Augsten</author>
+<title>SeDA: Bridging the Gap between Efficient Syntactic and Precise Semantic Search of Similar Passages in Large Text Corpora.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1332-1344</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1332-mundra.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#MundraKSA26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/HuangZDLXL26" mdate="2026-06-10">
+<author pid="88/2275">Yang Huang</author>
+<author pid="66/5686-1">Xu Zhou 0001</author>
+<author pid="57/4533-4">Yan Ding 0004</author>
+<author pid="53/4481-2">Qing Liu 0002</author>
+<author pid="433/1830">Haoxian Xu</author>
+<author pid="l/KenliLi">Kenli Li 0001</author>
+<title>Anchored Maximum Communities over Large Directed Graphs.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1345-1357</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1345-huang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#HuangZDLXL26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhangCHHLWSWZLLD26" mdate="2026-06-10">
+<author pid="04/4189-2">Xinyi Zhang 0002</author>
+<author pid="183/1310">Tiantian Chen</author>
+<author pid="356/0518">Zhentao Han</author>
+<author pid="329/0189">Zhaoyan Hong</author>
+<author pid="98/6613-15">Wei Lu 0015</author>
+<author pid="85/1868-11">Sheng Wang 0011</author>
+<author pid="432/8662">Mo Sha 0005</author>
+<author pid="215/4163">Anni Wang</author>
+<author pid="127/3950">Yakun Zhang</author>
+<author pid="58/6609-7">Shuang Liu 0007</author>
+<author pid="l/FeifeiLi">Feifei Li 0001</author>
+<author pid="47/3542-1">Xiaoyong Du 0001</author>
+<title>Why Database Manuals Are Not Enough: Efficient and Reliable Configuration Tuning for DBMSs via Code-Driven LLM Agents.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1358-1371</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1358-zhang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhangCHHLWSWZLLD26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/GinterL26" mdate="2026-06-09">
+<author pid="437/4973">Pascal Ginter</author>
+<author pid="10/11150">Viktor Leis</author>
+<title>Active Data Lakes: Regaining Physical Data Independence Without Losing Interoperability.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1372-1385</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1372-ginter.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#GinterL26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/DengFLXFZZJZD26" mdate="2026-06-10">
+<author pid="74/322">Chao Deng</author>
+<author pid="78/4413">Ju Fan</author>
+<author pid="185/9921">Yuyu Luo</author>
+<author pid="395/7167">Qinliang Xue</author>
+<author pid="363/7401">Meihao Fan</author>
+<author pid="03/7346">Yuxin Zhang</author>
+<author pid="83/5342">Min Zhang</author>
+<author pid="79/11513">Xiaofeng Jia</author>
+<author pid="05/3499-1">Jing Zhang 0001</author>
+<author pid="47/3542-1">Xiaoyong Du 0001</author>
+<title>TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1386-1399</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1386-fan.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DengFLXFZZJZD26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/EggerALMK26" mdate="2026-06-09">
+<author pid="375/0148">Maximilian K. Egger</author>
+<author pid="437/5779">Mehdi Allali</author>
+<author pid="139/1128">Matteo Lissandrini</author>
+<author pid="135/7623">Davide Mottin</author>
+<author pid="08/5342">Panagiotis Karras</author>
+<title>Structural Normalization of Property Graphs.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1400-1412</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1400-egger.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#EggerALMK26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WengYHZPYZCHP26" mdate="2026-06-10">
+<author pid="305/0139">Siyang Weng</author>
+<author pid="57/5473">Hongyu Yang</author>
+<author pid="370/2446">Zirui Hu</author>
+<author pid="13/5366-2">Rong Zhang 0002</author>
+<author pid="141/5423">Zhicheng Pan</author>
+<author pid="74/10221">Chengcheng Yang</author>
+<author pid="32/3943-1">Xuan Zhou 0001</author>
+<author pid="142/2150-3">Yuxing Chen 0003</author>
+<author pid="245/9899">Xiaolong He</author>
+<author pid="224/6370">Anqun Pan</author>
+<title>Pisco: An Isolation Bug Case Reduction and Deduplication Framework.</title>
+<year>2026</year>
+<month>February</month>
+<pages>1413-1426</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>6</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1413-weng.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WengYHZPYZCHP26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+</dblpcites>
+
+
+<h2>Volume 19, Number 7, March 2026</h2>
+<dblpcites><r style="ee"><article key="journals/pvldb/DiaoX26b" mdate="2026-06-09">
+<author pid="d/YanleiDiao">Yanlei Diao</author>
+<author pid="33/1903">Xiaokui Xiao</author>
+<title>Front Matter.</title>
+<year>2026</year>
+<month>March</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/FrontMatterVol19No7.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DiaoX26b</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/KontaxakisSANS26" mdate="2026-06-09">
+<author pid="261/2671">Antonios Kontaxakis</author>
+<author pid="19/4428">Dimitris Sacharidis</author>
+<author pid="88/2053">Alberto Abell&#243;</author>
+<author pid="160/1064">Sergi Nadal</author>
+<author pid="s/ASimitsis">Alkis Simitsis</author>
+<title>CAPS: Cost-Aware ML Pipeline Selection.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1427-1440</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1427-kontaxakis.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#KontaxakisSANS26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/RajanRABCILMPCG26" mdate="2026-06-09">
+<author pid="20/5220">Kaushik Rajan</author>
+<author pid="332/1579">Sampath Rajendra</author>
+<author pid="415/9960">Momin Al-Ghosien</author>
+<author pid="b/NicolasBruno">Nicolas Bruno</author>
+<author pid="c/CarloCurino">Carlo Curino</author>
+<author pid="49/10034">Matteo Interlandi</author>
+<author pid="49/612-9">Yinan Li 0009</author>
+<author pid="131/4096">Lukas M. Maas</author>
+<author pid="416/0006">Craig Peeper</author>
+<author pid="c/SurajitChaudhuri">Surajit Chaudhuri</author>
+<author pid="g/JohannesGehrke">Johannes Gehrke</author>
+<title>Scalable GPU Acceleration of Scalar Functions in Analytical Databases: Compilation, Benchmarking, and Optimization.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1441-1454</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1441-rajan.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#RajanRABCILMPCG26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LuoXY26" mdate="2026-06-09">
+<author pid="303/0338">Qiyao Luo</author>
+<author pid="29/4131">Quanqing Xu</author>
+<author pid="328/5894">Chuanhui Yang</author>
+<title>Secure Multi-Party Sampling over Joins.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1455-1468</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1455-luo.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LuoXY26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LeeZL26" mdate="2026-06-09">
+<author pid="237/0836">Bohyun Lee</author>
+<author pid="146/6632">Tobias Ziegler 0001</author>
+<author pid="10/11150">Viktor Leis</author>
+<title>How to Write to SSDs.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1469-1483</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1469-lee.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LeeZL26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LiGYWW26" mdate="2026-06-09">
+<author pid="14/1395">Liang Li</author>
+<author pid="207/7446-1">Shufeng Gong 0001</author>
+<author pid="193/7926">Yanan Yang</author>
+<author pid="414/0488">Yiduo Wang</author>
+<author pid="181/2833">Jie Wu</author>
+<title>I/O Optimizations in Graph-Based Disk-Resident Approximate Nearest Neighbor Search: A Design Space Exploration.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1484-1498</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1484-li.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LiGYWW26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhaoDWC26" mdate="2026-06-09">
+<author pid="278/3800">Haoru Zhao</author>
+<author pid="10/1570-2">Mingkai Dong 0002</author>
+<author pid="330/8203">Fangnuo Wu</author>
+<author pid="31/6601-1">Haibo Chen 0001</author>
+<title>SIDLE: Tree-structure Aware Indexes for CXL-based Heterogeneous Memory.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1499-1515</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1499-zhao.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhaoDWC26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LiuGFG26" mdate="2026-06-09">
+<author pid="74/7037">Liu Liu</author>
+<author pid="350/5932">Shenghao Gong</author>
+<author pid="241/7962">Ziquan Fang</author>
+<author pid="80/2651">Yunjun Gao</author>
+<title>Scarf: Self-Adaptive Tuning via Multi-Objective Reinforcement Learning for Apache Flink.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1516-1529</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1516-gao.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LiuGFG26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/HanZT26" mdate="2026-06-09">
+<author pid="239/8701">Jiabao Han</author>
+<author pid="185/1009-1">Mengxuan Zhang 0001</author>
+<author pid="66/974">Goce Trajcevski</author>
+<title>JHQ: Johnson-Lindenstrauss Enhanced Hierarchical Quantization for High-Dimensional Approximate Nearest Neighbor Search.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1530-1543</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1530-han.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#HanZT26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/VassiliouK26" mdate="2026-06-09">
+<author pid="297/6192">Giannis Vassiliou</author>
+<author pid="24/279">Haridimos Kondylakis</author>
+<title>Love-at-First-Sight: First Answers Without the Awkward Silence in Big Knowledge Graphs.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1544-1557</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1544-kondylakis.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#VassiliouK26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/GuerraBalboaSAS26" mdate="2026-06-09">
+<author pid="344/4169">Patricia Guerra-Balboa</author>
+<author pid="390/4335">Annika Sauer</author>
+<author pid="248/5342">H&#233;ber Hwang Arcolezi</author>
+<author pid="69/2809">Thorsten Strufe</author>
+<title>Understanding Disclosure Risk in Differential Privacy with Applications to Noise Calibration and Auditing.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1558-1571</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1558-guerra-balboa.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#GuerraBalboaSAS26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/YangSZGL26" mdate="2026-06-09">
+<author pid="331/3396">Linglin Yang</author>
+<author pid="276/3372">Xunbin Su</author>
+<author pid="81/3390-1">Lei Zou 0001</author>
+<author pid="220/8642">Xiangyang Gou</author>
+<author pid="260/0406">Yinnian Lin</author>
+<title>CEMR: An Effective Subgraph Matching Algorithm with Redundant Extension Elimination.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1572-1585</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1572-yang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#YangSZGL26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WuLZWYZXZ26" mdate="2026-06-09">
+<author pid="56/1428">Yang Wu</author>
+<author pid="129/8153">Tongliang Li</author>
+<author pid="247/8418">Xuanhe Zhou</author>
+<author pid="06/2952">Jianying Wang</author>
+<author pid="295/3640">Xinjun Yang</author>
+<author pid="72/1077">Wenchao Zhou</author>
+<author pid="x/ChunxiaoXing">Chunxiao Xing</author>
+<author pid="66/4615-2">Yong Zhang 0002</author>
+<title>AQD: Online Adaptive Query Dispatcher for HTAP Databases.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1586-1599</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1586-wu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WuLZWYZXZ26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhangQPD26" mdate="2026-06-09">
+<author pid="70/6340">Yuheng Zhang</author>
+<author pid="93/9883">Miao Qiao</author>
+<author pid="323/2277">Zhencan Peng</author>
+<author pid="71/8700-1">Dong Deng 0001</author>
+<title>Near-Duplicate Text Alignment under Weighted Jaccard Similarity.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1600-1613</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1600-deng.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhangQPD26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/HuangWCZWSWC26" mdate="2026-06-10">
+<author pid="07/2158">Wenjie Huang</author>
+<author pid="06/2293-76">Rui Wang 0076</author>
+<author pid="74/837">Jing Cao</author>
+<author pid="245/8743">Tongya Zheng</author>
+<author pid="68/1277-1">Xinyu Wang 0001</author>
+<author pid="71/5333">Mingli Song</author>
+<author pid="30/1186">Sai Wu</author>
+<author pid="07/4182-0001">Chun Chen 0001</author>
+<title>FlareDTDG: Harnessing Temporal Recency for Scalable Discrete-Time Dynamic Graph Training.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1614-1627</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1614-wang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#HuangWCZWSWC26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/HuLLWL26" mdate="2026-06-10">
+<author pid="266/7372">Ruilin Hu</author>
+<author pid="185/9921">Yuyu Luo</author>
+<author pid="l/GuoliangLi">Guoliang Li 0001</author>
+<author pid="437/5437">Shuangqiao Wu</author>
+<author pid="19/1045">Yun Luo</author>
+<title>OpenSQL: Data-Efficient Text-to-SQL for Open-Source LLMs via Synthesized Intermediate Supervision.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1628-1642</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1628-li.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#HuLLWL26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/RissakiFGK26" mdate="2026-06-09">
+<author pid="282/1363">Agapi Rissaki</author>
+<author pid="176/5524">Ilias Fountalis</author>
+<author pid="36/5673">Wolfgang Gatterbauer</author>
+<author pid="74/3195">Benny Kimelfeld</author>
+<title>Database Views as Explanations for Relational Deep Learning.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1643-1658</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1643-rissaki.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#RissakiFGK26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/YuZZYZH26" mdate="2026-06-10">
+<author pid="67/1014">Tao Yu</author>
+<author pid="66/5132-4">Zhijie Zhang 0004</author>
+<author pid="10/5927">Weiguo Zheng</author>
+<author pid="y/JXuYu">Jeffrey Xu Yu</author>
+<author pid="43/3182">Qiang Zhou</author>
+<author pid="62/6933">Chuntao Hong</author>
+<title>Characterizing Parallel Subgraph Matching Performance: A Systematic Study of Interactions, Scalability, and Enumeration.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1659-1673</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1659-yu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#YuZZYZH26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/PanSZPDYZZX26" mdate="2026-06-09">
+<author pid="141/5423">Zhicheng Pan</author>
+<author pid="126/6348">Wenwen Sun</author>
+<author pid="328/6179">Yuanjia Zhang</author>
+<author pid="437/5259">Terence Purcell</author>
+<author pid="03/1299">Yu Dong</author>
+<author pid="74/10221">Chengcheng Yang</author>
+<author pid="13/5366-2">Rong Zhang 0002</author>
+<author pid="32/3943-1">Xuan Zhou 0001</author>
+<author pid="x/JianliangXu">Jianliang Xu</author>
+<title>OBELISK: Efficient Offline Query Planning with Bayesian Optimization-Informed Language Model Reasoning.</title>
+<year>2026</year>
+<month>March</month>
+<pages>1674-1687</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>7</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1674-pan.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#PanSZPDYZZX26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+</dblpcites>
+
+
+<h2>Volume 19, Number 8, April 2026</h2>
+<dblpcites><r style="ee"><article key="journals/pvldb/DiaoX26c" mdate="2026-07-13">
+<author pid="d/YanleiDiao">Yanlei Diao</author>
+<author pid="33/1903">Xiaokui Xiao</author>
+<title>Front Matter.</title>
+<year>2026</year>
+<month>April</month>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/FrontMatterVol19No8.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DiaoX26c</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/YangLLLW26" mdate="2026-07-13">
+<author pid="249/9678">Yichun Yang</author>
+<author pid="241/0215">Longlong Lin</author>
+<author pid="37/548-1">Rong-Hua Li 0001</author>
+<author pid="317/0863">Meihao Liao</author>
+<author pid="64/146">Guoren Wang</author>
+<title>Theoretically and Practically Efficient Resistance Distance Computation on Large Graphs.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1688-1700</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1688-yang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#YangLLLW26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/DuLWZS26" mdate="2026-07-13">
+<author pid="222/7868">Yuxuan Du</author>
+<author pid="318/9469">Xuchuan Luo</author>
+<author pid="10/5630">Xin Wang</author>
+<author pid="27/6390">Yangfan Zhou</author>
+<author pid="301/8957">Jiacheng Shen</author>
+<title>CIDER: Boosting Memory-Disaggregated Key-Value Stores with Pessimistic Synchronization.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1701-1714</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1701-du.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#DuLWZS26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/WangTGJZKXZ26" mdate="2026-07-13">
+<author pid="284/3282-1">Mengzhao Wang 0001</author>
+<author pid="251/1805">Boyu Tan</author>
+<author pid="80/2651">Yunjun Gao</author>
+<author pid="98/4156">Hai Jin 0001</author>
+<author pid="57/7071">Yingfeng Zhang</author>
+<author pid="194/2946">Xiangyu Ke</author>
+<author pid="48/2710">Xiaoliang Xu</author>
+<author pid="94/1593-2">Yifan Zhu 0002</author>
+<title>Balancing the Blend: An Experimental Analysis of Trade-offs in Hybrid Search.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1715-1730</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1715-gao.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#WangTGJZKXZ26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/AkkasDA26" mdate="2026-07-13">
+<author pid="252/7008">Selahattin Akkas</author>
+<author pid="115/5236">Aditya Devarakonda</author>
+<author pid="79/8436">Ariful Azad</author>
+<title>Scalable GNN Explanations with Distributed Shapley Values.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1731-1739</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1731-azad.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#AkkasDA26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChenSCHHG26" mdate="2026-07-13">
+<author pid="28/778">Weitian Chen</author>
+<author pid="131/9481">Shixuan Sun</author>
+<author pid="10/217-8">Cheng Chen 0008</author>
+<author pid="245/8929">Yongmin Hu</author>
+<author pid="328/7021">Yingqian Hu</author>
+<author pid="99/6797">Minyi Guo</author>
+<title>gMatch: Fine-Grained and Hardware-Efficient Subgraph Matching on GPUs.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1740-1753</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1740-sun.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChenSCHHG26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LaoZOCRVCOGHJKSKT26" mdate="2026-07-13">
+<author pid="360/0992">Jiale Lao</author>
+<author pid="276/5735">Andreas Zimmerer</author>
+<author pid="295/3570">Olga Ovcharenko</author>
+<author pid="254/2751">Tianji Cong</author>
+<author pid="126/0229">Matthew Russo</author>
+<author pid="249/4023">Gerardo Vitagliano</author>
+<author pid="83/11448">Michael Cochez</author>
+<author pid="o/FatmaOzcan">Fatma &#214;zcan 0001</author>
+<author pid="55/4176">Gautam Gupta</author>
+<author pid="68/3297">Thibaud Hottelier</author>
+<author pid="j/HVJagadish">H. V. Jagadish</author>
+<author pid="420/6337">Kris Kissel</author>
+<author pid="118/7229">Sebastian Schelter</author>
+<author pid="167/6469">Andreas Kipf</author>
+<author pid="85/9079">Immanuel Trummer</author>
+<title>SemBench: A Benchmark for Semantic Query Processing Engines.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1754-1767</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1754-trummer.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LaoZOCRVCOGHJKSKT26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/XuDGPM26" mdate="2026-07-13">
+<author pid="50/7024">Zhongwei Xu</author>
+<author pid="150/1489">Siyuan Dong</author>
+<author pid="294/5212">Haotian Gong</author>
+<author pid="440/7070">Donna Pham</author>
+<author pid="74/3608">Lin Ma</author>
+<title>LakeHelm: Zero-Shot Lakehouse Advisor for Joint Engine-Format Selection and Configuration.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1768-1781</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1768-xu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#XuDGPM26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/KarapiperisABV26" mdate="2026-07-13">
+<author pid="132/9541">Dimitrios Karapiperis</author>
+<author pid="19/49">Leonidas Akritidis</author>
+<author pid="21/1146">Panayiotis Bozanis</author>
+<author pid="94/1028">Vassilios S. Verykios</author>
+<title>ALER: An Active Learning Hybrid System for Efficient Entity Resolution.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1782-1790</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1782-karapiperis.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#KarapiperisABV26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ZhaoWCH26" mdate="2026-07-13">
+<author pid="427/3628">Bide Zhao</author>
+<author pid="66/7776">Zhiyi Wang</author>
+<author pid="47/179">Lijun Chang</author>
+<author pid="98/5766">Xin Huang</author>
+<title>FB*: A Compact Index for Efficient and Exact Density-based Clustering.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1791-1803</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1791-chang.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ZhaoWCH26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/GuptaLLLK26" mdate="2026-07-13">
+<author pid="66/6170-6">Vishal Gupta 0006</author>
+<author pid="440/7072">Martin Sanchez Lopez</author>
+<author pid="416/7416">Victor Laforet</author>
+<author pid="133/3713">Jean-Pierre Lozi</author>
+<author pid="145/0912">Sanidhya Kashyap</author>
+<title>Operation-aware Hybrid Locking for Modern In-Memory Indexes.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1804-1817</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1804-gupta.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#GuptaLLLK26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/LiuB26" mdate="2026-07-13">
+<author pid="185/5792">Guanli Liu</author>
+<author pid="36/10568">Renata Borovica-Gajic</author>
+<title>Toward Drift-Aware Database Benchmarking.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1818-1825</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1818-liu.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#LiuB26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/FengCOY26" mdate="2026-07-13">
+<author pid="295/3173">Weiqi Feng</author>
+<author pid="294/0551">Xinle Cao</author>
+<author pid="55/3477">Adam O'Neill</author>
+<author pid="328/5894">Chuanhui Yang</author>
+<title>Enabling Index-free Adjacency in Oblivious Graph Processing with Delayed Duplications.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1826-1839</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1826-cao.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#FengCOY26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+<r style="ee"><article key="journals/pvldb/ChaoCGK26" mdate="2026-07-13">
+<author pid="223/3198">Daren Chao</author>
+<author pid="224/8653">Kaiwen Chen</author>
+<author pid="244/1368">Naiqing Guan</author>
+<author pid="k/NickKoudas">Nick Koudas</author>
+<title>Relational Deep Dive: Error-Aware Queries Over Unstructured Data.</title>
+<year>2026</year>
+<month>April</month>
+<pages>1840-1853</pages>
+<volume>19</volume>
+<journal>Proc. VLDB Endow.</journal>
+<number>8</number>
+<ee type="oa">https://www.vldb.org/pvldb/vol19/p1840-koudas.pdf</ee>
+<url>db/journals/pvldb/pvldb19.html#ChaoCGK26</url>
+<stream>streams/journals/pvldb</stream>
+</article>
+</r>
+</dblpcites>
+
+
+</bht>
+

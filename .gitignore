@@ -1,0 +1,7 @@
+# 设计文档与计划，不进公开仓库
+docs/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/

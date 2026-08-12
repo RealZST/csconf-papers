@@ -1,0 +1,403 @@
+<bht key="db/journals/pacmmod/pacmmod3.bht" title="Proceedings of the ACM on Management of Data, Volume 3">
+<h1><ref href="db/journals/pacmmod/index.html">Proceedings of the ACM on Management of Data</ref>, Volume 3</h1>
+<h2>Volume 3, Number 1, February 2025</h2>
+<h3><ref href="db/conf/sigmod/index.html">SIGMOD</ref> Conference 2025</h3>
+<dblpcites><r style="ee"><article key="journals/pacmmod/AbouziedHA25" mdate="2025-04-08">
+<author orcid="0000-0003-4273-2536" pid="57/7259">Azza Abouzied</author>
+<author orcid="0000-0002-7712-4306" pid="h/JosephMHellerstein">Joseph M. Hellerstein</author>
+<author orcid="0000-0002-0215-9539" pid="a/DivyakantAgrawal">Divyakant Agrawal</author>
+<title>PACMMOD V3, N1 (SIGMOD), February 2025: Editorial.</title>
+<pages>1:1-1:2</pages>
+<year>2025</year>
+<month>February</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>1</number>
+<ee>https://doi.org/10.1145/3709651</ee>
+<url>db/journals/pacmmod/pacmmod3.html#AbouziedHA25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/GiannakourisT25" mdate="2025-04-08">
+<author orcid="0000-0003-1486-5040" pid="176/4997">Victor Giannakouris</author>
+<author orcid="0000-0002-7203-2349" pid="85/9079">Immanuel Trummer</author>
+<title>&#955;-Tune: Harnessing Large Language Models for Automated Database System Tuning.</title>
+<pages>2:1-2:26</pages>
+<year>2025</year>
+<month>February</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>1</number>
+<ee>https://doi.org/10.1145/3709652</ee>
+<url>db/journals/pacmmod/pacmmod3.html#GiannakourisT25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/LaignerZLGZ25" mdate="2025-04-08">
+<author orcid="0000-0003-2771-7477" pid="214/5831">Rodrigo Laigner</author>
+<author orcid="0009-0001-8493-5254" pid="372/3619">Zhexiang Zhang</author>
+<author orcid="0000-0001-9423-2600" pid="40/6142">Yijian Liu</author>
+<author orcid="0009-0004-0875-7320" pid="372/4457">Leonardo Freitas Gomes</author>
+<author orcid="0000-0002-7578-8117" pid="z/YongluanZhou">Yongluan Zhou</author>
+<title>Online Marketplace: A Benchmark for Data Management in Microservices.</title>
+<pages>3:1-3:26</pages>
+<year>2025</year>
+<month>February</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>1</number>
+<ee>https://doi.org/10.1145/3709653</ee>
+<url>db/journals/pacmmod/pacmmod3.html#LaignerZLGZ25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/ZhangZC25" mdate="2025-04-08">
+<author orcid="0009-0009-5412-4192" pid="381/7693">Chenghan Zhang</author>
+<author orcid="0000-0002-3422-8017" pid="14/10147-1">Yuanyuan Zhu 0001</author>
+<author orcid="0000-0002-6830-3900" pid="47/179">Lijun Chang</author>
+<title>A Local Search Approach to Efficient (<i>k,p</i>)-Core Maintenance.</title>
+<pages>4:1-4:26</pages>
+<year>2025</year>
+<month>February</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>1</number>
+<ee>https://doi.org/10.1145/3709654</ee>
+<url>db/journals/pacmmod/pacmmod3.html#ZhangZC25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r></dblpcites>
+
+
+<h2>Volume 3, Number 2, May 2025</h2>
+<h3><ref href="db/conf/pods/index.html">PODS</ref> 2025</h3>
+<dblpcites><r style="ee"><article key="journals/pacmmod/CarmeliGKK25" mdate="2025-08-09">
+<author orcid="0000-0003-0673-5510" pid="179/2145">Nofar Carmeli</author>
+<author orcid="0000-0002-8967-2473" pid="g/FlorisGeerts">Floris Geerts</author>
+<author orcid="0000-0001-8155-8070" pid="29/7117-2">Ahmet Kara 0002</author>
+<author orcid="0000-0002-7156-1572" pid="74/3195">Benny Kimelfeld</author>
+<title>PACMMOD, V3, N2 (PODS), May 2025 Editorial.</title>
+<pages>87:1-87:4</pages>
+<year>2025</year>
+<month>May</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>2</number>
+<ee>https://doi.org/10.1145/3725224</ee>
+<url>db/journals/pacmmod/pacmmod3.html#CarmeliGKK25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/MengelV25" mdate="2025-08-09">
+<author orcid="0000-0003-1386-8784" pid="79/9794">Stefan Mengel</author>
+<author orcid="0000-0003-2422-9435" pid="330/3326">Harry Vinall-Smeeth</author>
+<title>A Lower Bound on Unambiguous Context Free Grammars via Communication Complexity.</title>
+<pages>88:1-88:19</pages>
+<year>2025</year>
+<month>May</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>2</number>
+<ee>https://doi.org/10.1145/3725225</ee>
+<url>db/journals/pacmmod/pacmmod3.html#MengelV25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/GerlachKSSZ25" mdate="2025-08-09">
+<author orcid="0009-0002-9114-5856" pid="411/0690">Luisa Gerlach</author>
+<author orcid="0000-0003-3548-2807" pid="150/7582">Tobias K&#246;ppl</author>
+<author orcid="0000-0002-1960-6171" pid="s/StefanieScherzinger">Stefanie Scherzinger</author>
+<author orcid="0000-0001-5705-1675" pid="s/NicoleSchweikardt">Nicole Schweikardt</author>
+<author orcid="0000-0003-0603-5637" pid="368/6890">Ren&#233; Zander</author>
+<title>A Quantum-Leap into Schema Matching: Beyond 1-to-1 Matchings.</title>
+<pages>89:1-89:24</pages>
+<year>2025</year>
+<month>May</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>2</number>
+<ee>https://doi.org/10.1145/3725226</ee>
+<url>db/journals/pacmmod/pacmmod3.html#GerlachKSSZ25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/EsmailpourGRS25" mdate="2025-08-09">
+<author orcid="0009-0000-3798-9578" pid="387/9974">Aryan Esmailpour</author>
+<author orcid="0000-0003-2529-4036" pid="136/7969">Sainyam Galhotra</author>
+<author orcid="0009-0009-6610-4404" pid="248/2458">Rahul Raychaudhury</author>
+<author orcid="0000-0002-2114-8886" pid="151/3111">Stavros Sintos</author>
+<title>A Theoretical Framework for Distribution-Aware Dataset Search.</title>
+<pages>90:1-90:26</pages>
+<year>2025</year>
+<month>May</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>2</number>
+<ee>https://doi.org/10.1145/3725227</ee>
+<url>db/journals/pacmmod/pacmmod3.html#EsmailpourGRS25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r></dblpcites>
+
+
+<h2>Volume 3, Number 3, June 2025</h2>
+<h3><ref href="db/conf/sigmod/index.html">SIGMOD</ref> Conference 2025</h3>
+<dblpcites><r style="ee"><article key="journals/pacmmod/AbouziedHA25a" mdate="2025-08-09">
+<author orcid="0000-0003-4273-2536" pid="57/7259">Azza Abouzied</author>
+<author orcid="0000-0002-7712-4306" pid="h/JosephMHellerstein">Joseph M. Hellerstein</author>
+<author orcid="0000-0002-0215-9539" pid="a/DivyakantAgrawal">Divyakant Agrawal</author>
+<title>PACMMOD V3, N3 (SIGMOD), June 2025: Editorial.</title>
+<pages>118:1-118:2</pages>
+<year>2025</year>
+<month>June</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>3</number>
+<ee>https://doi.org/10.1145/3725255</ee>
+<url>db/journals/pacmmod/pacmmod3.html#AbouziedHA25a</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/BarbosaGPSCJF25" mdate="2025-08-09">
+<author orcid="0009-0004-4291-5070" pid="411/0875">Juliana Silva Barbosa</author>
+<author orcid="0000-0002-5541-6906" pid="405/8844">Ulhas Gondhali</author>
+<author orcid="0000-0002-0708-2833" pid="405/8954">Gohar Petrossian</author>
+<author orcid="0009-0002-4173-5380" pid="200/0186">Kinshuk Sharma</author>
+<author orcid="0000-0002-3331-6082" pid="61/9376">Sunandan Chakraborty</author>
+<author orcid="0000-0002-3807-8060" pid="122/3063">Jennifer Jacquet</author>
+<author orcid="0000-0003-3915-7075" pid="f/JulianaFreire">Juliana Freire</author>
+<title>A Cost-Effective LLM-based Approach to Identify Wildlife Trafficking in Online Marketplaces.</title>
+<pages>119:1-119:23</pages>
+<year>2025</year>
+<month>June</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>3</number>
+<ee>https://doi.org/10.1145/3725256</ee>
+<url>db/journals/pacmmod/pacmmod3.html#BarbosaGPSCJF25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/WangLYHY25" mdate="2025-08-21">
+<author orcid="0009-0004-2255-5944" pid="235/8968">Taiyi Wang</author>
+<author orcid="0000-0002-4566-6178" pid="62/1052">Liang Liang</author>
+<author orcid="0000-0001-6456-9077" pid="25/5712-44">Guang Yang 0044</author>
+<author orcid="0000-0002-7470-2123" pid="h/ThomasHeinis">Thomas Heinis</author>
+<author orcid="0000-0002-5552-4536" pid="12/6940">Eiko Yoneki</author>
+<title>A New Paradigm in Tuning Learned Indexes: A Reinforcement Learning Enhanced Approach.</title>
+<pages>120:1-120:26</pages>
+<year>2025</year>
+<month>June</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>3</number>
+<ee>https://doi.org/10.1145/3725257</ee>
+<url>db/journals/pacmmod/pacmmod3.html#WangLYHY25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/dHondtLYPP25" mdate="2025-08-09">
+<author orcid="0000-0001-9069-0591" pid="252/7565">Jens E. d'Hondt</author>
+<author orcid="0009-0003-7698-5336" pid="157/8603">Haojun Li</author>
+<author orcid="0009-0003-8289-3462" pid="29/3081-80">Fan Yang 0080</author>
+<author orcid="0000-0003-0045-1648" pid="p/OdysseasPapapetrou">Odysseas Papapetrou</author>
+<author orcid="0000-0002-7592-748X" pid="163/0545">John Paparrizos</author>
+<title>A Structured Study of Multivariate Time-Series Distance Measures.</title>
+<pages>121:1-121:29</pages>
+<year>2025</year>
+<month>June</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>3</number>
+<ee>https://doi.org/10.1145/3725258</ee>
+<url>db/journals/pacmmod/pacmmod3.html#dHondtLYPP25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r></dblpcites>
+
+
+<h2>Volume 3, Number 4, September 2025</h2>
+<h3><ref href="db/conf/sigmod/index.html">SIGMOD</ref> Conference 2026</h3>
+<dblpcites><r style="ee"><article key="journals/pacmmod/Binnig0A25" mdate="2025-11-09">
+<author orcid="0000-0002-2744-7836" pid="45/1559">Carsten Binnig</author>
+<author orcid="0009-0002-8300-7891" pid="77/4620">Sudeepa Roy 0001</author>
+<author orcid="0000-0002-0215-9539" pid="a/DivyakantAgrawal">Divyakant Agrawal</author>
+<title>PACMMOD V3, N4 (SIGMOD), September 2025: Editorial.</title>
+<pages>237:1-237:2</pages>
+<year>2025</year>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>4</number>
+<ee>https://doi.org/10.1145/3749155</ee>
+<url>db/journals/pacmmod/pacmmod3.html#Binnig0A25</url>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/Liao0ZLL25" mdate="2025-11-09">
+<author orcid="0000-0003-3176-4401" pid="274/2346">Ningyi Liao</author>
+<author orcid="0000-0002-0839-5460" pid="203/9503-1">Haoyu Liu 0001</author>
+<author orcid="0000-0002-5176-6378" pid="219/4427">Zulun Zhu</author>
+<author orcid="0000-0001-8197-0903" pid="117/5965">Siqiang Luo</author>
+<author orcid="0000-0002-9775-4241" pid="l/LVSLakshmanan">Laks V. S. Lakshmanan</author>
+<title>A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness.</title>
+<pages>238:1-238:29</pages>
+<year>2025</year>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>4</number>
+<ee>https://doi.org/10.1145/3749156</ee>
+<url>db/journals/pacmmod/pacmmod3.html#Liao0ZLL25</url>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/0007WLC025" mdate="2025-11-09">
+<author orcid="0009-0001-0857-4573" pid="46/7691-7">Zhicheng Li 0007</author>
+<author orcid="0000-0002-1434-837X" pid="84/7882">Pinghui Wang</author>
+<author orcid="0009-0000-4761-0410" pid="418/3542">Zeli Lin</author>
+<author orcid="0009-0007-9718-9354" pid="418/3586">Bichun Chen</author>
+<author orcid="0009-0002-8727-4946" pid="191/6545-4">Dongdong Xie 0004</author>
+<title>A Fast, Mergeable, and LDP Compatible Sketch for Counting the Number of Distinct Values in Fully Dynamic Tables.</title>
+<pages>239:1-239:27</pages>
+<year>2025</year>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>4</number>
+<ee>https://doi.org/10.1145/3749157</ee>
+<url>db/journals/pacmmod/pacmmod3.html#0007WLC025</url>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/0001L0025" mdate="2025-11-09">
+<author orcid="0000-0002-0346-3006" pid="277/1357-1">Yihao Zheng 0001</author>
+<author orcid="0000-0003-2921-2827" pid="89/9935">Jinfei Liu</author>
+<author orcid="0000-0003-3441-6277" pid="20/6179-1">Kui Ren 0001</author>
+<author orcid="0000-0001-7354-0428" pid="39/3530-1">Li Xiong 0001</author>
+<title>B<sup>2</sup>Mark: A Blind and Buyer-Traceable Watermarking Scheme for Tabular Datasets.</title>
+<pages>240:1-240:26</pages>
+<year>2025</year>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>4</number>
+<ee>https://doi.org/10.1145/3749158</ee>
+<url>db/journals/pacmmod/pacmmod3.html#0001L0025</url>
+</article>
+</r></dblpcites>
+
+
+<h2>Volume 3, Number 5, November 2025</h2>
+<h3><ref href="db/conf/pods/index.html">PODS</ref> 2026</h3>
+<dblpcites><r style="ee"><article key="journals/pacmmod/GeertsWY25" mdate="2026-02-03">
+<author orcid="0000-0002-8967-2473" pid="g/FlorisGeerts">Floris Geerts</author>
+<author orcid="0000-0002-7856-2527" pid="37/4826">Yilei Wang</author>
+<author orcid="0000-0002-2178-3716" pid="43/1219-1">Ke Yi 0001</author>
+<title>PACMMOD V3, N5 (PODS), November 2025 Editorial.</title>
+<pages>272:1-272:3</pages>
+<year>2025</year>
+<month>November</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>5</number>
+<ee>https://doi.org/10.1145/3767708</ee>
+<url>db/journals/pacmmod/pacmmod3.html#GeertsWY25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/GusainRS25" mdate="2026-02-03">
+<author orcid="0000-0002-0250-9682" pid="330/5078">Rachana Gusain</author>
+<author orcid="0000-0001-5984-0934" pid="46/8409">Saladi Rahul</author>
+<author orcid="0009-0005-2420-5371" pid="217/3188-1">Aditya Subramanian 0001</author>
+<title>A Bouquet of Results on Maximum Range Sum: General Techniques and Hardness Reductions.</title>
+<pages>273:1-273:21</pages>
+<year>2025</year>
+<month>November</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>5</number>
+<ee>https://doi.org/10.1145/3767709</ee>
+<url>db/journals/pacmmod/pacmmod3.html#GusainRS25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/KhamisCKRT25" mdate="2025-12-24">
+<author orcid="0000-0003-3894-6494" pid="144/7839">Mahmoud Abo Khamis</author>
+<author orcid="0009-0006-9734-3457" pid="344/9558">Jesse Comer</author>
+<author orcid="0000-0002-8407-8563" pid="k/PGKolaitis">Phokion G. Kolaitis</author>
+<author orcid="0009-0002-8300-7891" pid="77/4620">Sudeepa Roy 0001</author>
+<author orcid="0009-0008-6847-7274" pid="t/ValTannen">Val Tannen</author>
+<title>A Unifying Algorithm for Hierarchical Queries.</title>
+<pages>274:1-274:22</pages>
+<year>2025</year>
+<month>November</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>5</number>
+<ee>https://doi.org/10.1145/3767710</ee>
+<url>db/journals/pacmmod/pacmmod3.html#KhamisCKRT25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/MarcinkowskiO25" mdate="2026-02-03">
+<author orcid="0000-0001-6539-6788" pid="37/6028">Jerzy Marcinkowski</author>
+<author orcid="0000-0002-8021-1638" pid="195/6032">Piotr Ostropolski-Nalewaja</author>
+<title>Bag Semantics Query Containment: The CQ vs. UCQ Case and Other Stories.</title>
+<pages>275:1-275:24</pages>
+<year>2025</year>
+<month>November</month>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>5</number>
+<ee>https://doi.org/10.1145/3767711</ee>
+<url>db/journals/pacmmod/pacmmod3.html#MarcinkowskiO25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r></dblpcites>
+
+
+<h2>Volume 3, Number 6, 2025</h2>
+<h3><ref href="db/conf/sigmod/index.html">SIGMOD</ref> Conference 2025</h3>
+<dblpcites><r style="ee"><article key="journals/pacmmod/BinnigRAB25" mdate="2026-08-05">
+<author orcid="0000-0002-2744-7836" pid="45/1559">Carsten Binnig</author>
+<author orcid="0009-0002-8300-7891" pid="77/4620">Sudeepa Roy 0001</author>
+<author orcid="0000-0002-0215-9539" pid="a/DivyakantAgrawal">Divy Agrawal</author>
+<author orcid="0000-0002-9582-869X" pid="b/ABonifati">Angela Bonifati</author>
+<title>PACMMOD V3, N6 (SIGMOD), December 2025: Editorial.</title>
+<pages>285:1-285:2</pages>
+<year>2025</year>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>6</number>
+<ee>https://doi.org/10.1145/3769750</ee>
+<url>db/journals/pacmmod/pacmmod3.html#BinnigRAB25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/GenossarDSG25" mdate="2026-08-05">
+<author orcid="0000-0002-4798-2422" pid="329/4673">Bar Genossar</author>
+<author orcid="0000-0002-5639-8009" pid="85/3357">Sagi Dalyot</author>
+<author orcid="0000-0001-8803-8481" pid="200/9072">Roee Shraga</author>
+<author orcid="0000-0002-7028-661X" pid="g/AvigdorGal">Avigdor Gal</author>
+<title>3dSAGER: Geospatial Entity Resolution over 3D Objects.</title>
+<pages>286:1-286:28</pages>
+<year>2025</year>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>6</number>
+<ee>https://doi.org/10.1145/3769751</ee>
+<url>db/journals/pacmmod/pacmmod3.html#GenossarDSG25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/ChenSXD25" mdate="2026-08-05">
+<author orcid="0000-0002-8686-359X" pid="226/0535">Xinghe Chen</author>
+<author orcid="0000-0002-8277-1807" pid="76/7695">Dajun Sun</author>
+<author orcid="0000-0001-8989-9662" pid="29/4131">Quanqing Xu</author>
+<author orcid="0000-0002-0394-4125" pid="92/748-7">Wei Dong 0007</author>
+<title>A General Framework for Per-record Differential Privacy.</title>
+<pages>287:1-287:27</pages>
+<year>2025</year>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>6</number>
+<ee>https://doi.org/10.1145/3769752</ee>
+<url>db/journals/pacmmod/pacmmod3.html#ChenSXD25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r><r style="ee"><article key="journals/pacmmod/SongWY25" mdate="2026-08-05">
+<author orcid="0009-0007-5629-0720" pid="341/4393">Ziwen Song</author>
+<author orcid="0000-0002-2694-1023" pid="13/1898-15">Bin Wang 0015</author>
+<author orcid="0000-0002-6184-4771" pid="86/2859-1">Xiaochun Yang 0001</author>
+<title>Accelerating High-Dimensional ANN Search via Skipping Redundant Distance Computations.</title>
+<pages>288:1-288:29</pages>
+<year>2025</year>
+<volume>3</volume>
+<journal>Proc. ACM Manag. Data</journal>
+<number>6</number>
+<ee>https://doi.org/10.1145/3769753</ee>
+<url>db/journals/pacmmod/pacmmod3.html#SongWY25</url>
+<stream>streams/journals/pacmmod</stream>
+</article>
+</r></dblpcites>
+
+
+</bht>
+

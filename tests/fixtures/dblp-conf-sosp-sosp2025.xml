@@ -1,0 +1,1223 @@
+<bht key="db/conf/sosp/sosp2025.bht" title="SOSP 2025"> 
+<h1>31st <ref href="db/conf/sosp/index.html">SOSP</ref> 2025:
+Seoul, Korea</h1> <dblpcites><r><proceedings key="conf/sosp/2025" mdate="2025-10-02">
+<editor pid="89/5039">Youjip Won</editor>
+<editor pid="94/8239">Youngjin Kwon</editor>
+<editor pid="230/9043-4">Ding Yuan 0004</editor>
+<editor pid="89/4883">Rebecca Isaacs</editor>
+<title>Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles, SOSP 2025, Lotte Hotel World, Seoul, Republic of Korea, October 13-16, 2025</title>
+<booktitle>SOSP</booktitle>
+<publisher>ACM</publisher>
+<year>2025</year>
+<isbn>979-8-4007-1870-0</isbn>
+<ee>https://doi.org/10.1145/3731569</ee>
+<url>db/conf/sosp/sosp2025.html</url>
+</proceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/CoppockZSKYSSM025" mdate="2025-10-15">
+<author orcid="0000-0002-7101-6961" pid="405/6876">Patrick H. Coppock</author>
+<author orcid="0009-0008-3190-3129" pid="200/8344">Brian Zhang</author>
+<author orcid="0009-0001-0570-183X" pid="372/4787">Eliot H. Solomon</author>
+<author orcid="0009-0005-9732-3360" pid="377/3418">Vasilis Kypriotis</author>
+<author orcid="0009-0006-5702-7687" pid="203/0896">Leon Yang</author>
+<author orcid="0009-0001-8347-8207" pid="24/7446">Bikash Sharma</author>
+<author orcid="0009-0000-0945-4429" pid="150/5905">Dan Schatzberg</author>
+<author orcid="0000-0003-4076-5684" pid="65/4120">Todd C. Mowry</author>
+<author orcid="0000-0002-0289-5499" pid="191/7793-2">Dimitrios Skarlatos 0002</author>
+<title>LithOS: An Operating System for Efficient Machine Learning on GPUs.</title>
+<pages>1-17</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764818</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#CoppockZSKYSSM025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/KresselLO25" mdate="2025-10-15">
+<author orcid="0000-0003-1569-6584" pid="350/2163">John Alistair Kressel</author>
+<author orcid="0000-0001-9547-7458" pid="279/6840">Hugo Lefeuvre</author>
+<author orcid="0000-0001-7781-1299" pid="97/9808">Pierre Olivier</author>
+<title>&#956;Fork: Supporting POSIX fork Within a Single-Address-Space OS.</title>
+<pages>18-35</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764809</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#KresselLO25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/SchuermannCGLLP25" mdate="2026-03-09">
+<author orcid="0000-0002-1429-7808" pid="359/0002">Leon Schuermann</author>
+<author orcid="0000-0002-3110-6823" pid="21/10522">Brad Campbell</author>
+<author orcid="0000-0001-8035-9248" pid="150/5917">Branden Ghena</author>
+<author pid="91/2665">Philip Alexander Levis</author>
+<author orcid="0000-0003-1479-8917" pid="68/8881">Amit Levy 0001</author>
+<author orcid="0000-0001-7720-6267" pid="86/11187">Pat Pannuto</author>
+<title>Tock: From Research To Securing 10 Million Computers.</title>
+<pages>36-49</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764828</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#SchuermannCGLLP25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ChoeWBL25" mdate="2025-10-15">
+<author orcid="0000-0002-7799-9946" pid="278/4119">Wonkyo Choe</author>
+<author orcid="0009-0002-6029-5317" pid="320/5450">Rongxiang Wang</author>
+<author orcid="0000-0002-1003-3637" pid="295/8247">Afsara Benazir</author>
+<author orcid="0009-0000-0081-6411" pid="02/9170">Felix Xiaozhu Lin</author>
+<title>Proto: A Guided Journey through Modern OS Construction.</title>
+<pages>50-66</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764811</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ChoeWBL25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/AmarCCFLLLMNSTW25" mdate="2025-10-15">
+<author orcid="0009-0006-2679-6504" pid="362/8827">Saar Amar</author>
+<author orcid="0009-0008-9204-7047" pid="52/4103">Tony Chen</author>
+<author orcid="0000-0001-6060-0153" pid="85/1618">David Chisnall</author>
+<author orcid="0009-0002-9698-1503" pid="18/10309">Nathaniel Wesley Filardo</author>
+<author orcid="0000-0002-3490-3473" pid="14/2363">Ben Laurie</author>
+<author orcid="0000-0001-9547-7458" pid="279/6840">Hugo Lefeuvre</author>
+<author orcid="0009-0007-2071-6750" pid="38/3692">Kunyan Liu</author>
+<author orcid="0000-0002-2806-495X" pid="m/SimonWMoore">Simon W. Moore</author>
+<author orcid="0000-0002-6095-6405" pid="416/7052">Robert Norton-Wright</author>
+<author orcid="0000-0002-2165-4658" pid="s/MargoISeltzer">Margo I. Seltzer</author>
+<author orcid="0009-0004-2055-8092" pid="362/8820">Yucong Tao</author>
+<author orcid="0000-0001-8139-8783" pid="70/2118">Robert N. M. Watson</author>
+<author orcid="0000-0002-8047-899X" pid="209/9036">Hongyan Xia</author>
+<title>CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices.</title>
+<pages>67-84</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764844</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#AmarCCFLLLMNSTW25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/CastesCKRFBB25" mdate="2025-10-14">
+<author orcid="0009-0008-7021-158X" pid="326/0034">Charly Castes</author>
+<author orcid="0009-0007-3785-0366" pid="130/2471">Fran&#231;ois Costa</author>
+<author orcid="0009-0006-1507-5787" pid="309/7800">Neelu S. Kalani</author>
+<author orcid="0000-0002-8298-1126" pid="r/TimothyRoscoe">Timothy Roscoe</author>
+<author orcid="0000-0002-6557-684X" pid="15/3253">Nate Foster</author>
+<author orcid="0000-0002-8468-8409" pid="145/1652">Thomas Bourgeat</author>
+<author orcid="0000-0001-7237-6929" pid="b/EBugnion">Edouard Bugnion</author>
+<title>The Design and Implementation of a Virtual Firmware Monitor.</title>
+<pages>85-100</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764826</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#CastesCKRFBB25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ZhongBZS0PPFC25" mdate="2025-10-15">
+<author orcid="0009-0006-4653-902X" pid="274/9693">Yuhong Zhong</author>
+<author orcid="0000-0002-3911-1512" pid="142/2630">Daniel S. Berger</author>
+<author orcid="0000-0003-1004-6398" pid="184/7426">Pantea Zardoshti</author>
+<author orcid="0000-0002-3613-3556" pid="181/4926">Enrique Saurez</author>
+<author orcid="0000-0003-0791-5281" pid="35/9256-1">Jacob Nelson 0001</author>
+<author orcid="0000-0001-6093-5711" pid="03/6105">Dan R. K. Ports</author>
+<author orcid="0000-0002-2273-3796" pid="238/0573">Antonis Psistakis</author>
+<author orcid="0000-0002-5761-3516" pid="170/3621">Joshua Fried</author>
+<author orcid="0009-0007-4046-2022" pid="35/10805">Asaf Cidon</author>
+<title>Oasis: Pooling PCIe Devices Over CXL to Boost Utilization.</title>
+<pages>101-119</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764812</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ZhongBZS0PPFC25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/LeePMK25" mdate="2025-10-14">
+<author orcid="0000-0002-5224-8599" pid="129/9942">SeungSeob Lee</author>
+<author orcid="0009-0009-6471-2932" pid="416/7772">Jachym Putta</author>
+<author orcid="0000-0001-7738-2498" pid="289/6042">Ziming Mao</author>
+<author orcid="0000-0002-2199-6391" pid="162/1936">Anurag Khandelwal</author>
+<title>Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems.</title>
+<pages>120-135</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764805</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#LeePMK25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/PanLURLBKK25" mdate="2025-10-15">
+<author orcid="0000-0002-7113-5362" pid="313/3086">Yueyang Pan</author>
+<author orcid="0009-0005-2049-0988" pid="324/1508">Yash Lala</author>
+<author orcid="0009-0001-6253-6164" pid="358/2667">Musa Unal</author>
+<author orcid="0009-0007-2538-2411" pid="262/6158">Yujie Ren</author>
+<author orcid="0000-0002-5224-8599" pid="129/9942">SeungSeob Lee</author>
+<author orcid="0000-0003-2742-2679" pid="78/4478">Abhishek Bhattacharjee</author>
+<author orcid="0000-0002-2199-6391" pid="162/1936">Anurag Khandelwal</author>
+<author orcid="0000-0002-9534-8565" pid="145/0912">Sanidhya Kashyap</author>
+<title>Scalable Far Memory: Balancing Faults and Evictions.</title>
+<pages>136-152</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764842</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#PanLURLBKK25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/PolyakovSSYDKSL25" mdate="2025-10-15">
+<author orcid="0000-0001-6759-1448" pid="191/3084">Artem Y. Polyakov</author>
+<author orcid="0000-0002-1636-7531" pid="314/7077">Gal Shalom</author>
+<author orcid="0009-0000-9016-1438" pid="274/0859">Asaf Schwartz</author>
+<author orcid="0009-0003-9000-2797" pid="290/4014">Aviad Yehezkel</author>
+<author orcid="0009-0008-6873-4461" pid="416/7459">Omri Ben David</author>
+<author orcid="0009-0002-4243-7553" pid="298/5408">Omri Kahalon</author>
+<author orcid="0009-0003-2069-0336" pid="72/8357">Ariel Shahar</author>
+<author orcid="0009-0003-2661-7906" pid="17/179">Liran Liss</author>
+<title>Device-Assisted Live Migration of RDMA Devices.</title>
+<pages>153-168</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764795</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#PolyakovSSYDKSL25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/HuHWY25" mdate="2025-10-15">
+<author orcid="0000-0001-6253-4233" pid="351/5999">Junliang Hu</author>
+<author orcid="0009-0003-1498-7053" pid="162/1366">Zhisheng Hu</author>
+<author orcid="0000-0002-6367-0517" pid="90/597">Chun-Feng Wu</author>
+<author orcid="0000-0002-4029-757X" pid="123/7774">Ming-Chang Yang</author>
+<title>Demeter: A Scalable and Elastic Tiered Memory Solution for Virtualized Cloud via Guest Delegation.</title>
+<pages>169-185</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764801</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#HuHWY25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/WanLSWZSWWWLYZJ25" mdate="2026-04-28">
+<author orcid="0009-0008-5902-1611" pid="315/5731">Borui Wan</author>
+<author orcid="0009-0005-2551-7879" pid="327/4574">Gaohong Liu</author>
+<author orcid="0009-0008-7576-6162" pid="379/6912">Zuquan Song</author>
+<author pid="125/8189-39">Jun Wang 0039</author>
+<author pid="02/6428">Yun Zhang</author>
+<author orcid="0000-0003-3395-3994" pid="72/9556">Guangming Sheng</author>
+<author orcid="0009-0008-4249-4092" pid="22/2874">Shuguang Wang</author>
+<author pid="405/2945">Houmin Wei</author>
+<author orcid="0009-0007-5553-2601" pid="124/4850">Chenyuan Wang</author>
+<author pid="416/7938">Weiqiang Lou</author>
+<author pid="13/1520">Xi Yang</author>
+<author pid="349/0889">Mofan Zhang</author>
+<author pid="49/10844">Kaihua Jiang</author>
+<author pid="66/8697">Cheng Ren</author>
+<author pid="413/3184">Xiaoyun Zhi</author>
+<author pid="329/8443">Menghan Yu</author>
+<author pid="31/10858">Zhe Nan</author>
+<author pid="239/3356">Zhuolin Zheng</author>
+<author pid="248/7884">Baoquan Zhong</author>
+<author pid="90/9593">Qinlong Wang</author>
+<author pid="79/6142">Huan Yu</author>
+<author pid="246/8003">Jinxin Chi</author>
+<author pid="91/4884-17">Wang Zhang 0017</author>
+<author pid="116/8661">Yuhan Li</author>
+<author pid="416/6962">Zixian Du</author>
+<author pid="325/6667">Sida Zhao</author>
+<author pid="67/5744">Yongqiang Zhang</author>
+<author orcid="0009-0008-8094-8112" pid="416/7680">Jingzhe Tang</author>
+<author pid="302/4620">Zherui Liu</author>
+<author pid="34/3772-1">Chuan Wu 0001</author>
+<author pid="195/5934">Yanghua Peng</author>
+<author pid="142/1829">Haibin Lin</author>
+<author pid="167/7982">Wencong Xiao</author>
+<author pid="76/1820-86">Xin Liu 0086</author>
+<author pid="09/5014">Liang Xiang</author>
+<title>Robust LLM Training Infrastructure at ByteDance.</title>
+<pages>186-203</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764838</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#WanLSWZSWWWLYZJ25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/StratiZMP0CB0DK25" mdate="2025-12-07">
+<author orcid="0000-0003-3364-2109" pid="241/0509">Foteini Strati</author>
+<author orcid="0009-0007-0843-6457" pid="179/6539-4">Zhendong Zhang 0004</author>
+<author orcid="0009-0002-5767-8325" pid="405/6460">George Manos</author>
+<author orcid="0000-0002-1810-353X" pid="405/6356">Ixeia S&#225;nchez P&#233;riz</author>
+<author orcid="0000-0003-1034-7502" pid="169/3407-4">Qinghao Hu 0004</author>
+<author orcid="0009-0002-8071-2552" pid="249/5035">Tiancheng Chen</author>
+<author orcid="0000-0003-1320-8006" pid="333/3868">Berk Buzcu</author>
+<author orcid="0000-0002-4186-7618" pid="80/806-3">Song Han 0003</author>
+<author orcid="0000-0002-9187-8497" pid="133/3648">Pamela Delgado</author>
+<author orcid="0000-0001-8559-0529" pid="140/2247">Ana Klimovic</author>
+<title>Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters.</title>
+<pages>204-220</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764839</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#StratiZMP0CB0DK25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/0002CT00025" mdate="2025-10-15">
+<author orcid="0009-0006-5714-3872" pid="128/5650-2">Chenyu Jiang 0002</author>
+<author orcid="0000-0002-0199-4866" pid="213/7670">Zhenkun Cai</author>
+<author orcid="0009-0005-8593-0382" pid="32/5495">Ye Tian</author>
+<author orcid="0000-0003-3543-2324" pid="06/180-1">Zhen Jia 0001</author>
+<author orcid="0000-0001-8165-840X" pid="17/1701-3">Yida Wang 0003</author>
+<author orcid="0000-0002-3144-4398" pid="34/3772-1">Chuan Wu 0001</author>
+<title>DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism.</title>
+<pages>221-236</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764849</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#0002CT00025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/LuM00Z0025" mdate="2025-10-15">
+<author orcid="0009-0004-6360-7392" pid="403/6307">Yunchi Lu</author>
+<author orcid="0000-0002-2395-9965" pid="06/11190">Youshan Miao</author>
+<author orcid="0000-0002-1420-5125" pid="70/1533-5">Cheng Tan 0005</author>
+<author orcid="0000-0001-6315-0848" pid="29/1726-5">Peng Huang 0005</author>
+<author orcid="0009-0002-7755-6624" pid="67/4972">Yi Zhu</author>
+<author orcid="0000-0003-4875-2132" pid="56/5624-1">Xian Zhang 0001</author>
+<author orcid="0000-0002-0378-060X" pid="29/3081-24">Fan Yang 0024</author>
+<title>TrainVerify: Equivalence-Based Verification for Distributed LLM Training.</title>
+<pages>237-253</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764850</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#LuM00Z0025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/DengZWZZJXWSLBW25" mdate="2026-07-26">
+<author orcid="0000-0003-4072-7696" pid="312/9316">Yangtao Deng</author>
+<author pid="97/8704">Lei Zhang</author>
+<author pid="90/9593">Qinlong Wang</author>
+<author pid="413/3184">Xiaoyun Zhi</author>
+<author pid="156/0581">Xinlei Zhang</author>
+<author pid="123/1783">Zhuo Jiang</author>
+<author pid="117/0635">Haohan Xu</author>
+<author pid="181/2817">Lei Wang</author>
+<author orcid="0009-0008-7576-6162" pid="379/6912">Zuquan Song</author>
+<author orcid="0009-0005-2551-7879" pid="327/4574">Gaohong Liu</author>
+<author pid="39/6825">Yang Bai</author>
+<author pid="22/2874">Shuguang Wang</author>
+<author pid="167/7982">Wencong Xiao</author>
+<author pid="184/0340">Jianxi Ye</author>
+<author pid="89/6345">Minlan Yu</author>
+<author pid="01/5265-1">Hong Xu 0001</author>
+<title>Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training.</title>
+<pages>254-269</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764848</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#DengZWZZJXWSLBW25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/HuZLGLKH25" mdate="2025-10-17">
+<author orcid="0009-0003-8096-7077" pid="238/5443">Yigong Hu</author>
+<author orcid="0009-0008-0535-4760" pid="05/5025">Zeyin Zhang</author>
+<author orcid="0009-0003-4887-6386" pid="78/2495">Yicheng Liu</author>
+<author orcid="0009-0009-8292-7232" pid="279/3815">Yile Gu</author>
+<author orcid="0009-0006-1751-478X" pid="416/7713">Shuangyu Lei</author>
+<author orcid="0000-0001-6122-8998" pid="31/11029">Baris Kasikci</author>
+<author orcid="0000-0001-6315-0848" pid="29/1726-5">Peng Huang 0005</author>
+<title>Mitigating Application Resource Overload with Targeted Task Cancellation.</title>
+<pages>270-285</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764835</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#HuZLGLKH25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/LiuZLXQDL0CD0W25" mdate="2026-03-05">
+<author orcid="0009-0005-8591-0402" pid="302/1095">Chenxiao Liu</author>
+<author orcid="0009-0007-1076-2091" pid="359/9119">Zhenting Zhu</author>
+<author orcid="0009-0000-1191-8675" pid="16/4289">Quanxi Li</author>
+<author orcid="0009-0005-6111-7901" pid="337/8028">Yanwen Xia</author>
+<author orcid="0009-0003-3651-6973" pid="200/8215-2">Yifan Qiao 0002</author>
+<author orcid="0009-0007-8472-6157" pid="212/7412">Xiangyun Deng</author>
+<author orcid="0000-0002-6214-5390" pid="96/8005">Youyou Lu</author>
+<author orcid="0000-0002-6731-216X" pid="x/TaoXie">Tao Xie 0001</author>
+<author orcid="0000-0002-2491-7679" pid="97/2112">Huimin Cui</author>
+<author orcid="0000-0002-7603-4210" pid="44/11216">Zidong Du</author>
+<author orcid="0000-0003-4737-2146" pid="90/8705">Harry Xu 0001</author>
+<author orcid="0000-0002-1451-3101" pid="52/3121-5">Chenxi Wang 0005</author>
+<title>Orthrus: Efficient and Timely Detection of Silent User Data Corruption in the Cloud with Resource-Adaptive Computation Validation.</title>
+<pages>286-304</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764832</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#LiuZLXQDL0CD0W25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/JingMCCHQCH25" mdate="2025-10-17">
+<author orcid="0009-0009-8938-447X" pid="284/5039">Yuzhuo Jing</author>
+<author orcid="0009-0000-4893-9461" pid="348/7425">Yuqi Mai</author>
+<author orcid="0009-0001-0258-6952" pid="416/7008">Angting Cai</author>
+<author orcid="0009-0005-7370-9816" pid="49/6574">Yi Chen</author>
+<author orcid="0009-0002-4990-2606" pid="317/4230">Wanning He</author>
+<author orcid="0000-0001-9918-8047" pid="351/4299">Xiaoyang Qian</author>
+<author orcid="0000-0002-5951-4183" pid="c/PeterMChen">Peter M. Chen</author>
+<author orcid="0000-0001-6315-0848" pid="29/1726-5">Peng Huang 0005</author>
+<title>Optimistic Recovery for High-Availability Software via Partial Process State Preservation.</title>
+<pages>305-321</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764858</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#JingMCCHQCH25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/SubramanyaDSG25" mdate="2025-10-15">
+<author orcid="0009-0001-8013-461X" pid="237/0890">Suhas Jayaram Subramanya</author>
+<author orcid="0009-0007-2941-592X" pid="227/4804">Don Kurian Dennis</author>
+<author orcid="0000-0002-6404-2395" pid="120/0921">Virginia Smith</author>
+<author orcid="0000-0002-3065-7316" pid="g/GregoryRGanger">Gregory R. Ganger</author>
+<title>COpter: Efficient Large-Scale Resource-Allocation via Continual Optimization.</title>
+<pages>322-340</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764846</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#SubramanyaDSG25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/0002KGIBC25" mdate="2025-10-15">
+<author orcid="0009-0006-6907-7489" pid="182/6469-2">Jiacheng Ma 0002</author>
+<author orcid="0009-0003-2098-3067" pid="326/9252">Jonas Kaufmann</author>
+<author orcid="0009-0004-2452-6266" pid="416/7309">Emilien Guandalino</author>
+<author orcid="0009-0008-5599-8636" pid="238/8014">Rishabh R. Iyer</author>
+<author orcid="0000-0002-8468-8409" pid="145/1652">Thomas Bourgeat</author>
+<author orcid="0009-0002-8107-6535" pid="c/GeorgeCandea">George Candea</author>
+<title>Fast End-to-End Performance Simulation of Accelerated Hardware-Software Stacks.</title>
+<pages>341-358</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764825</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#0002KGIBC25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ChenFFWZXX025" mdate="2025-10-15">
+<author orcid="0009-0002-6562-5485" pid="19/576">Le Chen</author>
+<author orcid="0000-0002-1146-8552" pid="320/6665">Dahu Feng</author>
+<author orcid="0009-0006-5957-3024" pid="299/3243">Erhu Feng</author>
+<author orcid="0009-0004-0673-8193" pid="152/9307">Yingrui Wang</author>
+<author orcid="0000-0002-2320-0326" pid="81/1620">Rong Zhao</author>
+<author orcid="0000-0001-6558-5298" pid="01/615">Yubin Xia</author>
+<author orcid="0000-0003-0882-6520" pid="248/8928">Pinjie Xu</author>
+<author orcid="0000-0002-9720-0361" pid="31/6601-1">Haibo Chen 0001</author>
+<title>Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference.</title>
+<pages>359-374</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764808</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ChenFFWZXX025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/YuGSTSZK0LC25" mdate="2025-10-17">
+<author orcid="0009-0009-6477-755X" pid="67/3150">Yifan Yu</author>
+<author orcid="0000-0003-2697-9950" pid="89/8500-2">Yu Gan 0002</author>
+<author pid="129/8262">Nikhil Sarda</author>
+<author orcid="0000-0001-6157-1980" pid="178/4784">Lillian Tsai</author>
+<author orcid="0000-0002-0467-4956" pid="178/3627">Jiaming Shen</author>
+<author orcid="0000-0003-2051-7616" pid="142/3202">Yanqi Zhou</author>
+<author orcid="0000-0002-9505-9528" pid="k/AKrishnamurthy">Arvind Krishnamurthy</author>
+<author orcid="0009-0005-0472-107X" pid="179/2330">Fan Lai 0001</author>
+<author orcid="0009-0008-7786-8541" pid="l/HenryMLevy">Hank Levy</author>
+<author orcid="0000-0002-0460-9900" pid="c/DavidECuller">David E. Culler</author>
+<title>IC-Cache: Efficient Large Language Model Serving via In-context Caching.</title>
+<pages>375-398</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764829</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#YuGSTSZK0LC25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/DuWZCLSCYLQSJ25" mdate="2026-04-01">
+<author orcid="0000-0002-3964-4079" pid="264/3619">Kuntai Du</author>
+<author orcid="0009-0005-9535-5350" pid="64/4732-16">Bowen Wang 0016</author>
+<author orcid="0000-0001-9045-9269" pid="94/4084-1">Chen Zhang 0001</author>
+<author orcid="0009-0005-1754-6880" pid="05/1764">Yiming Cheng</author>
+<author orcid="0009-0003-6223-4160" pid="47/3805">Qing Lan</author>
+<author orcid="0009-0000-2001-677X" pid="220/3982">Hejian Sang</author>
+<author orcid="0009-0006-3924-6886" pid="226/4171">Yihua Cheng</author>
+<author orcid="0000-0002-8588-4356" pid="71/10222">Jiayi Yao</author>
+<author orcid="0009-0004-4968-1027" pid="232/8368">Xiaoxuan Liu</author>
+<author orcid="0009-0003-3651-6973" pid="200/8215-2">Yifan Qiao 0002</author>
+<author orcid="0000-0002-5373-0088" pid="s/IonStoica">Ion Stoica</author>
+<author orcid="0000-0002-6877-1683" pid="49/8398">Junchen Jiang</author>
+<title>PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications.</title>
+<pages>399-414</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764834</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#DuWZCLSCYLQSJ25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/GimML025" mdate="2025-10-14">
+<author orcid="0000-0002-7581-9526" pid="322/6944">In Gim</author>
+<author orcid="0000-0002-1868-4856" pid="38/3367">Zhiyao Ma</author>
+<author orcid="0000-0002-5224-8599" pid="129/9942">SeungSeob Lee</author>
+<author orcid="0000-0003-0840-167X" pid="27/2552-1">Lin Zhong 0001</author>
+<title>Pie: A Programmable Serving System for Emerging LLM Applications.</title>
+<pages>415-430</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764814</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#GimML025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ZhangHZLC25" mdate="2025-10-17">
+<author orcid="0000-0003-0130-1502" pid="166/0079">Yanqi Zhang</author>
+<author orcid="0009-0008-6246-4253" pid="120/1114">Yuwei Hu</author>
+<author orcid="0009-0003-1305-901X" pid="394/6173">Runyuan Zhao</author>
+<author orcid="0000-0001-7466-0384" pid="l/JohnCSLui">John C. S. Lui</author>
+<author orcid="0000-0002-9720-0361" pid="31/6601-1">Haibo Chen 0001</author>
+<title>DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction.</title>
+<pages>431-445</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764810</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ZhangHZLC25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ZhangDLKMWLYLLZ25" mdate="2025-10-15">
+<author orcid="0000-0001-9045-9269" pid="94/4084-1">Chen Zhang 0001</author>
+<author orcid="0000-0002-3964-4079" pid="264/3619">Kuntai Du</author>
+<author orcid="0009-0009-0825-6178" pid="57/1180">Shu Liu</author>
+<author orcid="0009-0008-8870-4892" pid="177/2702">Woosuk Kwon</author>
+<author orcid="0009-0007-4427-0036" pid="232/2059">Xiangxi Mo</author>
+<author orcid="0009-0008-9290-8978" pid="90/6339">Yufeng Wang</author>
+<author orcid="0009-0004-4968-1027" pid="232/8368">Xiaoxuan Liu</author>
+<author orcid="0000-0002-1955-3743" pid="238/1508">Kaichao You</author>
+<author orcid="0009-0004-1534-9106" pid="96/9986-1">Zhuohan Li 0001</author>
+<author orcid="0000-0002-5412-9120" pid="74/9023">Mingsheng Long</author>
+<author orcid="0000-0002-7656-6428" pid="72/7413">Jidong Zhai</author>
+<author orcid="0000-0003-2921-956X" pid="61/8262">Joseph Gonzalez 0001</author>
+<author orcid="0000-0002-5373-0088" pid="s/IonStoica">Ion Stoica</author>
+<title>Jenga: Effective Memory Management for Serving LLM with Heterogeneity.</title>
+<pages>446-461</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764823</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ZhangDLKMWLYLLZ25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ZussmanZCCFPC25" mdate="2025-10-15">
+<author orcid="0000-0003-3087-8511" pid="323/3216">Tal Zussman</author>
+<author orcid="0009-0000-2364-3891" pid="330/8223">Ioannis Zarkadas</author>
+<author orcid="0009-0004-5850-5068" pid="364/2624">Jeremy Carin</author>
+<author orcid="0009-0003-8641-0579" pid="64/5140">Andrew Cheng</author>
+<author orcid="0009-0005-0150-1055" pid="17/3453">Hubertus Franke</author>
+<author orcid="0009-0006-9013-3078" pid="159/6308">Jonas Pfefferle</author>
+<author orcid="0009-0007-4046-2022" pid="35/10805">Asaf Cidon</author>
+<title>cache_ext: Customizing the Page Cache with eBPF.</title>
+<pages>462-478</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764820</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ZussmanZCCFPC25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/0004YZLMZLWWZ25" mdate="2025-11-04">
+<author orcid="0009-0007-7449-5105" pid="269/5667-4">Chuandong Li 0004</author>
+<author orcid="0009-0003-1514-8833" pid="136/5469-4">Ran Yi 0004</author>
+<author orcid="0009-0006-1563-9415" pid="275/8471">Zonghao Zhang</author>
+<author orcid="0000-0003-2485-4038" pid="72/2590-74">Jing Liu 0074</author>
+<author orcid="0000-0001-6225-5357" pid="19/10203">Changwoo Min</author>
+<author orcid="0000-0002-6299-4683" pid="84/6889-48">Jie Zhang 0048</author>
+<author orcid="0000-0002-7903-0717" pid="70/4037">Yingwei Luo</author>
+<author orcid="0000-0002-6951-1613" pid="29/4241-1">Xiaolin Wang 0001</author>
+<author orcid="0000-0002-0429-4371" pid="88/5294-3">Zhenlin Wang 0003</author>
+<author orcid="0009-0003-8620-1064" pid="223/6823">Diyu Zhou</author>
+<title>Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack.</title>
+<pages>479-495</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764816</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#0004YZLMZLWWZ25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ZhouXSHMS25" mdate="2025-10-15">
+<author orcid="0009-0008-5807-4156" pid="99/8844">Yanbo Zhou</author>
+<author orcid="0000-0002-6654-4364" pid="83/10695">Erci Xu</author>
+<author orcid="0009-0004-1065-5956" pid="416/7505">Anisa Su</author>
+<author orcid="0009-0005-1032-3510" pid="37/2067">Jim Harris</author>
+<author orcid="0009-0005-1626-4179" pid="60/2779">Adam Manzanares</author>
+<author orcid="0000-0002-5896-1037" pid="97/3886">Steven Swanson</author>
+<title>Sleeping with One Eye Open: Fast, Sustainable Storage with Sandman.</title>
+<pages>496-511</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764804</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ZhouXSHMS25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/SollezaLSTSCCTZ25" mdate="2025-10-15">
+<author orcid="0009-0008-0416-1203" pid="239/9803">Franco Solleza</author>
+<author orcid="0009-0006-3740-3905" pid="139/4127">Shihang Li</author>
+<author orcid="0009-0005-3956-6938" pid="385/1361">William Sun</author>
+<author orcid="0009-0004-8227-3770" pid="144/5697">Richard Tang</author>
+<author orcid="0000-0002-5066-6332" pid="49/7988">Malte Schwarzkopf</author>
+<author orcid="0000-0002-8544-0982" pid="147/4971">Andrew Crotty</author>
+<author orcid="0000-0003-0935-051X" pid="22/148">David Cohen</author>
+<author orcid="0000-0002-0416-7022" pid="t/NesimeTatbul">Nesime Tatbul</author>
+<author orcid="0009-0004-4677-5562" pid="z/SBZdonik">Stan Zdonik</author>
+<title>Loom: Efficient Capture and Querying of High-Frequency Telemetry.</title>
+<pages>512-528</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764853</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#SollezaLSTSCCTZ25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/Suri-PayerGACAC25" mdate="2025-10-15">
+<author orcid="0000-0003-3948-6725" pid="232/8132">Florian Suri-Payer</author>
+<author orcid="0009-0008-2175-2611" pid="182/4795">Neil Giridharan</author>
+<author orcid="0009-0006-1098-4906" pid="357/5558">Liam Arzola</author>
+<author orcid="0000-0001-9001-2387" pid="259/1807">Shir Cohen</author>
+<author orcid="0000-0002-9857-5528" pid="a/LAlvisi">Lorenzo Alvisi</author>
+<author orcid="0000-0002-3567-801X" pid="161/0113">Natacha Crooks</author>
+<title>Pesto: Cooking up High Performance BFT Queries.</title>
+<pages>529-554</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764799</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#Suri-PayerGACAC25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/GengMSP25" mdate="2025-10-17">
+<author orcid="0000-0002-6574-8349" pid="171/1013">Jinkun Geng</author>
+<author orcid="0000-0001-8244-2109" pid="98/7677-1">Shuai Mu 0001</author>
+<author orcid="0000-0001-5025-4234" pid="123/2342">Anirudh Sivaraman</author>
+<author orcid="0009-0006-3106-8720" pid="48/1750">Balaji Prabhakar</author>
+<title>Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks.</title>
+<pages>555-571</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764854</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#GengMSP25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/SilvestreP25" mdate="2025-10-15">
+<author orcid="0000-0002-3598-0198" pid="295/3646">Pedro F. Silvestre</author>
+<author orcid="0000-0002-6963-5640" pid="45/4887">Peter R. Pietzuch</author>
+<title>Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs.</title>
+<pages>572-588</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764840</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#SilvestreP25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/YeLLLHKH25" mdate="2025-10-15">
+<author orcid="0009-0008-7673-1279" pid="271/5952">Juncheol Ye</author>
+<author orcid="0009-0008-5570-9814" pid="402/7663">Seungkook Lee</author>
+<author orcid="0000-0002-9872-6234" pid="187/0217">Hwijoon Lim</author>
+<author orcid="0009-0008-0986-213X" pid="387/8348">Jihyuk Lee</author>
+<author orcid="0009-0002-8526-404X" pid="351/3363">Uitaek Hong</author>
+<author orcid="0000-0001-5602-2397" pid="94/8239">Youngjin Kwon</author>
+<author orcid="0000-0001-6922-7244" pid="12/5388">Dongsu Han</author>
+<title>SAND: A New Programming Abstraction for Video-based Deep Learning.</title>
+<pages>589-605</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764847</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#YeLLLHKH25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/Ray0GDFANJ25" mdate="2025-10-15">
+<author orcid="0000-0003-0265-2144" pid="324/5356">Siddhant Ray</author>
+<author orcid="0000-0002-6973-3259" pid="74/9957-3">Rui Pan 0003</author>
+<author orcid="0009-0005-1076-6549" pid="393/3421">Zhuohan Gu</author>
+<author orcid="0000-0002-3964-4079" pid="264/3619">Kuntai Du</author>
+<author orcid="0000-0003-3346-5165" pid="384/7274">Shaoting Feng</author>
+<author orcid="0000-0002-7479-1664" pid="08/5351">Ganesh Ananthanarayanan</author>
+<author orcid="0000-0001-7002-5033" pid="123/3350-1">Ravi Netravali</author>
+<author orcid="0000-0002-6877-1683" pid="49/8398">Junchen Jiang</author>
+<title>METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation.</title>
+<pages>606-622</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764855</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#Ray0GDFANJ25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/HuMPLF0W25" mdate="2025-10-15">
+<author orcid="0009-0005-8500-6173" pid="359/5899">Zhengding Hu</author>
+<author orcid="0009-0009-3288-6858" pid="412/8128">Vibha Murthy</author>
+<author orcid="0000-0002-6759-2616" pid="294/8391">Zaifeng Pan</author>
+<author orcid="0000-0003-0098-0670" pid="153/4284">Wanlu Li</author>
+<author orcid="0009-0008-0660-0003" pid="122/9321">Xiaoyi Fang</author>
+<author orcid="0000-0002-8716-5793" pid="127/9591">Yufei Ding 0001</author>
+<author orcid="0000-0003-1634-8549" pid="85/4549">Yuke Wang</author>
+<title>HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows.</title>
+<pages>623-638</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764806</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#HuMPLF0W25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/RamhorstKHDLA25" mdate="2025-10-15">
+<author orcid="0000-0002-0026-1281" pid="354/7439">Benjamin Ramhorst</author>
+<author orcid="0009-0002-3984-3948" pid="236/6636">Dario Korolija</author>
+<author orcid="0009-0000-9231-0089" pid="351/7240">Maximilian Jakob Heer</author>
+<author orcid="0000-0002-6706-0353" pid="201/4785">Jonas Dann</author>
+<author orcid="0009-0006-3531-0561" pid="196/0922">Luhao Liu</author>
+<author orcid="0000-0002-4396-6695" pid="a/GustavoAlonso">Gustavo Alonso</author>
+<title>Coyote v2: Raising the Level of Abstraction for Data Center FPGAs.</title>
+<pages>639-654</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764845</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#RamhorstKHDLA25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/YangZXLZ25" mdate="2025-10-17">
+<author orcid="0000-0002-7976-5086" pid="311/4986">Chenyuan Yang</author>
+<author orcid="0009-0008-0718-3088" pid="267/3344">Zijie Zhao</author>
+<author orcid="0009-0008-3905-3456" pid="366/3990">Zichen Xie</author>
+<author orcid="0000-0003-0084-1718" pid="12/10840">Haoyu Li</author>
+<author orcid="0000-0001-5175-2702" pid="27/7057-1">Lingming Zhang 0001</author>
+<title>KNighter: Transforming Static Analysis with LLM-Synthesized Checkers.</title>
+<pages>655-669</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764827</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#YangZXLZ25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/00100FD025" mdate="2025-10-15">
+<author orcid="0000-0003-1908-5043" pid="24/968-10">Zhiyong Wu 0010</author>
+<author orcid="0000-0003-1046-0337" pid="51/239-6">Jie Liang 0006</author>
+<author orcid="0000-0001-9759-878X" pid="337/0812">Jingzhou Fu</author>
+<author orcid="0009-0009-1233-2479" pid="408/8709">Wenqian Deng</author>
+<author orcid="0000-0003-0955-503X" pid="21/4633-1">Yu Jiang 0001</author>
+<title>Fawkes: Finding Data Durability Bugs in DBMSs via Recovered Data State Verification.</title>
+<pages>670-684</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764841</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#00100FD025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/MemarianSKPS25" mdate="2025-10-15">
+<author orcid="0000-0003-3723-636X" pid="28/10810">Kayvan Memarian</author>
+<author orcid="0009-0000-8431-9577" pid="202/8946">Ben Simner</author>
+<author orcid="0009-0001-4506-6236" pid="167/0508">David Kaloper-Mersinjak</author>
+<author orcid="0009-0005-0005-7618" pid="366/7427">Thibaut P&#233;rami</author>
+<author orcid="0000-0001-9352-1013" pid="74/185">Peter Sewell</author>
+<title>Ghost in the Android Shell: Pragmatic Test-oracle Specification of a Production Hypervisor.</title>
+<pages>685-700</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764817</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#MemarianSKPS25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/0004DBP0K25" mdate="2025-10-15">
+<author orcid="0009-0008-9207-2285" pid="188/5629-4">Tao Lyu 0004</author>
+<author orcid="0009-0004-7496-9639" pid="351/5984">Kumar Kartikeya Dwivedi</author>
+<author orcid="0000-0002-8468-8409" pid="145/1652">Thomas Bourgeat</author>
+<author orcid="0000-0001-5054-7547" pid="31/1273">Mathias Payer</author>
+<author orcid="0009-0001-6364-4837" pid="75/4287-1">Meng Xu 0001</author>
+<author orcid="0000-0002-9534-8565" pid="145/0912">Sanidhya Kashyap</author>
+<title>eBPF Misbehavior Detection: Fuzzing with a Specification-Based Oracle.</title>
+<pages>701-718</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764797</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#0004DBP0K25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/HuZXKYJW025" mdate="2025-10-15">
+<author orcid="0009-0009-9559-9995" pid="216/1169">Yage Hu</author>
+<author orcid="0000-0002-2081-7830" pid="43/2368">Wen Zhang</author>
+<author orcid="0009-0003-1446-2329" pid="409/0670">Botang Xiao</author>
+<author orcid="0009-0003-1889-7143" pid="346/1212">Qingchen Kong</author>
+<author orcid="0009-0007-1970-0620" pid="337/6744">Boyang Yi</author>
+<author orcid="0009-0002-8579-9191" pid="416/7985">Suxin Ji</author>
+<author orcid="0009-0006-9575-4359" pid="416/7346">Songlan Wang</author>
+<author orcid="0000-0003-0840-4846" pid="33/9876-1">Wenwen Wang 0001</author>
+<title>WASIT: Deep and Continuous Differential Testing of WebAssembly System Interface Implementations.</title>
+<pages>719-735</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764819</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#HuZXKYJW025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/Sun025" mdate="2025-10-14">
+<author orcid="0000-0003-2095-092X" pid="82/2248-21">Hao Sun 0021</author>
+<author orcid="0000-0002-2970-1391" pid="s/ZhendongSu">Zhendong Su 0001</author>
+<title>Prove It to the Kernel: Precise Extension Analysis via Proof-Guided Abstraction Refinement.</title>
+<pages>736-751</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764796</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#Sun025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/Chen0ZNB25" mdate="2025-10-15">
+<author orcid="0009-0009-4001-9105" pid="39/4697">Xiangdong Chen</author>
+<author orcid="0000-0001-7789-8005" pid="02/9552-4">Zhaofeng Li 0004</author>
+<author orcid="0009-0001-0450-1297" pid="39/9312">Jerry Zhang</author>
+<author orcid="0000-0001-6274-9242" pid="241/7497">Vikram Narayanan</author>
+<author orcid="0000-0001-8769-8373" pid="28/7551">Anton Burtsev</author>
+<title>Atmosphere: Practical Verified Kernels with Rust and Verus.</title>
+<pages>752-767</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764821</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#Chen0ZNB25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ZhangZJC025" mdate="2025-10-15">
+<author orcid="0009-0008-3138-3901" pid="157/0770">Zihao Zhang</author>
+<author orcid="0000-0003-2871-3785" pid="86/6614">Ti Zhou</author>
+<author orcid="0000-0002-5434-5018" pid="320/8316">Christa Jenkins</author>
+<author orcid="0000-0002-1356-6279" pid="53/7986">Omar Chowdhury</author>
+<author orcid="0000-0001-8244-2109" pid="98/7677-1">Shuai Mu 0001</author>
+<title>AutoMan: Facilitating Verified Distributed Systems Development Through Automatic Code Generation and Manual Optimizations.</title>
+<pages>768-785</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764822</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ZhangZJC025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/Rindisbacher0LP25" mdate="2025-10-15">
+<author orcid="0009-0004-7723-5032" pid="416/7957">Vivien Rindisbacher</author>
+<author orcid="0000-0002-1784-4512" pid="246/5332-1">Evan Johnson 0001</author>
+<author orcid="0009-0003-6838-3714" pid="99/7399">Nico Lehmann</author>
+<author orcid="0009-0002-0569-3806" pid="411/1695">Tyler Potyondy</author>
+<author orcid="0000-0001-7720-6267" pid="86/11187">Pat Pannuto</author>
+<author orcid="0000-0001-6617-8029" pid="s/StefanSavage">Stefan Savage</author>
+<author orcid="0000-0002-7041-7464" pid="91/6118">Deian Stefan</author>
+<author orcid="0000-0002-1802-9421" pid="47/4244">Ranjit Jhala</author>
+<title>TickTock: Verified Isolation in a Production Embedded OS.</title>
+<pages>786-801</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764856</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#Rindisbacher0LP25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/BaumBM0KVL25" mdate="2025-10-15">
+<author orcid="0009-0003-7311-1705" pid="376/0257">Eli Baum</author>
+<author orcid="0000-0003-0627-5091" pid="375/9639">Sam Buxbaum</author>
+<author orcid="0009-0000-4928-6386" pid="416/1399">Nitin Mathai</author>
+<author orcid="0009-0005-0040-9134" pid="81/7083-1">Muhammad Faisal 0001</author>
+<author orcid="0000-0001-8219-4862" pid="132/6943">Vasiliki Kalavri</author>
+<author orcid="0000-0002-7460-3272" pid="59/6288">Mayank Varia</author>
+<author orcid="0000-0003-4692-3022" pid="95/9170">John Liagouris</author>
+<title>ORQ: Complex Analytics on Private Data with Strong Security Guarantees.</title>
+<pages>802-833</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764833</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#BaumBM0KVL25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/Merino0RAMTRZAT25" mdate="2025-10-15">
+<author orcid="0000-0003-0694-5489" pid="271/9265">Louis-Henri Merino</author>
+<author orcid="0000-0002-4284-6720" pid="121/4885-2">Simone Colombo 0002</author>
+<author orcid="0000-0002-8379-471X" pid="232/9075">Rene Reyes</author>
+<author orcid="0000-0002-0330-8823" pid="214/1970">Alaleh Azhir</author>
+<author orcid="0000-0002-5208-6622" pid="37/3017">Shailesh Mishra</author>
+<author orcid="0009-0005-6611-2544" pid="214/9930">Pasindu Tennage</author>
+<author orcid="0009-0002-7118-8752" pid="362/6170">Mohammad Amin Raeisi</author>
+<author orcid="0009-0001-6096-0834" pid="258/3134">Haoqian Zhang</author>
+<author orcid="0009-0000-1290-9121" pid="53/3895">Jeff R. Allen</author>
+<author orcid="0000-0002-5008-1107" pid="93/3619">Bernhard Tellenbach</author>
+<author orcid="0000-0002-7791-8149" pid="17/7673">Vero Estrada-Gali&#241;anes</author>
+<author orcid="0000-0002-0528-3033" pid="f/BryanFord">Bryan Ford</author>
+<title>TRIP: Coercion-resistant Registration for E-Voting with Verifiability and Usability in Votegral.</title>
+<pages>834-874</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764837</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#Merino0RAMTRZAT25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/QiuPZWBSZSGA25" mdate="2025-10-15">
+<author orcid="0009-0002-9546-8599" pid="346/2188">Ziyue Qiu</author>
+<author orcid="0009-0005-7057-2455" pid="31/2348">Hojin Park</author>
+<author orcid="0009-0009-0479-7452" pid="69/5882">Jing Zhao</author>
+<author orcid="0009-0009-5054-8510" pid="51/10068">Yu-Kai Wang</author>
+<author orcid="0000-0003-1767-8515" pid="342/3827">Arnav Balyan</author>
+<author orcid="0009-0002-4941-9075" pid="43/33">Gurmeet Singh</author>
+<author orcid="0009-0003-2385-122X" pid="85/528">Yangjun Zhang</author>
+<author orcid="0009-0004-4693-4666" pid="416/7252">Suqiang (Jack) Song</author>
+<author orcid="0000-0002-3065-7316" pid="g/GregoryRGanger">Gregory R. Ganger</author>
+<author orcid="0000-0002-7328-1857" pid="20/11514">George Amvrosiadis</author>
+<title>Moirai: Optimizing Placement of Data and Compute in Hybrid Clouds.</title>
+<pages>875-891</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764802</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#QiuPZWBSZSGA25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/DiXGSLCZQHGHLWY25" mdate="2026-08-05">
+<author orcid="0000-0002-8002-3469" pid="187/7310">Bang Di</author>
+<author orcid="0009-0004-0308-9028" pid="11/1627">Yun Xu</author>
+<author orcid="0009-0002-0280-2966" pid="170/2419">Kaijie Guo</author>
+<author orcid="0009-0009-3447-5577" pid="223/3172">Yibin Shen</author>
+<author orcid="0009-0008-9734-418X" pid="34/2997">Yu Li</author>
+<author orcid="0009-0003-0134-3478" pid="416/7274">Sanchuan Cheng</author>
+<author orcid="0009-0001-4476-6505" pid="31/6916">Hao Zheng</author>
+<author orcid="0009-0005-9937-0320" pid="139/4013">Fudong Qiu</author>
+<author orcid="0000-0002-3643-1668" pid="205/6979">Xiaokang Hu</author>
+<author orcid="0009-0007-6398-0340" pid="416/7410">Naixuan Guan</author>
+<author orcid="0009-0006-4814-4283" pid="187/1597">Dongdong Huang</author>
+<author orcid="0009-0009-0450-8470" pid="258/2028">Jinhu Li</author>
+<author orcid="0009-0003-7577-0325" pid="67/6649-4">Yi Wang 0004</author>
+<author orcid="0009-0006-8398-6056" pid="80/10763">Yifang Yang</author>
+<author orcid="0009-0009-3060-698X" pid="414/6882">Jintao Li</author>
+<author orcid="0009-0007-9613-2276" pid="52/8989">Hang Yang</author>
+<author orcid="0009-0001-8040-8545" pid="35/3221">Chen Liang</author>
+<author orcid="0000-0002-5194-5288" pid="291/5892">Yilong Lv</author>
+<author orcid="0009-0001-3720-0570" pid="281/1680">Zikang Chen</author>
+<author orcid="0009-0009-5419-3868" pid="120/8680">Zhenwei Lu</author>
+<author orcid="0009-0002-6972-3859" pid="96/1890">Xiaohan Ma</author>
+<author orcid="0000-0001-7417-5469" pid="64/2146">Jiesheng Wu</author>
+<title>Tai Chi: A General High-Efficiency Scheduling Framework for SmartNICs in Hyperscale Clouds.</title>
+<pages>892-906</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764851</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#DiXGSLCZQHGHLWY25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ZhangA25" mdate="2025-10-15">
+<author orcid="0000-0002-3750-5809" pid="126/5240">Yuxuan Zhang</author>
+<author orcid="0000-0002-3798-5590" pid="132/8480">Sebastian Angel</author>
+<title>Quilt: Resource-aware Merging of Serverless Workflows.</title>
+<pages>907-927</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764830</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ZhangA25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/LiCJ0H00CYCXZLX25" mdate="2026-06-17">
+<author orcid="0009-0001-5933-7367" pid="150/5524">Jiahao Li</author>
+<author orcid="0009-0007-0578-9759" pid="19/10130">Biao Cao</author>
+<author orcid="0009-0002-4522-5046" pid="416/7384">Jielong Jian</author>
+<author orcid="0000-0001-7064-6120" pid="16/6465-1">Cheng Li 0001</author>
+<author orcid="0009-0006-7284-1185" pid="48/7844">Sen Han</author>
+<author orcid="0000-0002-8787-0134" pid="221/2416-2">Yiduo Wang 0002</author>
+<author orcid="0000-0001-5105-8171" pid="55/1787-11">Yufei Wu 0011</author>
+<author orcid="0000-0002-8368-1109" pid="91/6670-1">Kang Chen 0001</author>
+<author orcid="0009-0006-1191-1282" pid="365/5158">Zhihui Yin</author>
+<author orcid="0009-0007-9116-8456" pid="132/3388">Qiushi Chen</author>
+<author orcid="0009-0005-0738-4443" pid="416/7920">Jiwei Xiong</author>
+<author orcid="0009-0006-7007-199X" pid="23/3168-20">Jie Zhao 0020</author>
+<author orcid="0009-0004-0083-562X" pid="221/2879">Fengyuan Liu</author>
+<author orcid="0009-0008-3648-324X" pid="71/2898">Yan Xing</author>
+<author orcid="0009-0007-2168-683X" pid="27/9712">Liguo Duan</author>
+<author orcid="0009-0003-4737-486X" pid="49/1749-29">Miao Yu 0029</author>
+<author orcid="0009-0004-4191-5263" pid="29/2149">Ran Zheng</author>
+<author orcid="0000-0001-8451-0881" pid="25/3972-1">Feng Wu 0001</author>
+<author orcid="0009-0002-1248-1123" pid="27/8202">Xianjun Meng</author>
+<title>Mantle: Efficient Hierarchical Metadata Management for Cloud Object Storage Services.</title>
+<pages>928-943</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764824</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#LiCJ0H00CYCXZLX25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/KuchlerLZCGSTKN25" mdate="2025-10-15">
+<author orcid="0009-0002-8091-0313" pid="355/0627">Tom Kuchler</author>
+<author orcid="0009-0003-9904-7879" pid="336/7223">Pinghe Li</author>
+<author orcid="0000-0001-5428-6604" pid="22/8903">Yazhuo Zhang</author>
+<author orcid="0009-0000-1373-8395" pid="270/8316">Lazar Cvetkovic</author>
+<author orcid="0009-0003-2266-9434" pid="407/7156">Boris Goranov</author>
+<author orcid="0009-0004-2776-0381" pid="407/7332">Tobias Stocker</author>
+<author orcid="0009-0003-6418-8225" pid="388/0664">Leon Thomm</author>
+<author orcid="0009-0009-1516-5936" pid="407/6784">Simone Kalbermatter</author>
+<author orcid="0009-0005-4544-9148" pid="407/6964">Tim Notter</author>
+<author orcid="0000-0002-9303-452X" pid="181/5922">Andrea Lattuada 0001</author>
+<author orcid="0000-0001-8559-0529" pid="140/2247">Ana Klimovic</author>
+<title>Unlocking True Elasticity for the Cloud-Native Era with Dandelion.</title>
+<pages>944-961</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764803</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#KuchlerLZCGSTKN25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/KaashoekGLLL25" mdate="2026-03-09">
+<author orcid="0000-0003-0436-0671" pid="159/3686">Nicolaas Kaashoek</author>
+<author orcid="0009-0008-7878-9992" pid="374/8991">Oleg Aleksandrovich Golev</author>
+<author orcid="0009-0005-3595-2866" pid="416/7396">Austin T. Li</author>
+<author orcid="0000-0003-1479-8917" pid="68/8881">Amit Levy 0001</author>
+<author orcid="0000-0002-4870-0490" pid="21/1059">Wyatt Lloyd</author>
+<title>Running Consistent Applications Closer to Users with Radical for Lower Latency.</title>
+<pages>962-978</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764831</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#KaashoekGLLL25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/0005ZXX025" mdate="2026-06-29">
+<author orcid="0000-0001-8883-5392" pid="90/6996-5">Shaobo Li 0005</author>
+<author orcid="0009-0006-6195-2269" pid="359/0805">Yirui Eric Zhou</author>
+<author orcid="0009-0002-0363-9486" pid="229/0374">Yuqi Xue</author>
+<author orcid="0009-0006-9653-3283" pid="89/3127-20">Yuan Xu 0020</author>
+<author orcid="0000-0002-1125-671X" pid="51/494-6">Jian Huang 0006</author>
+<title>Managing Scalable Direct Storage Accesses for GPUs with GoFS.</title>
+<pages>979-995</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764857</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#0005ZXX025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/WeiHSH0H0025" mdate="2025-10-15">
+<author orcid="0000-0003-4983-6047" pid="168/9037">Xingda Wei</author>
+<author orcid="0009-0005-2251-4146" pid="190/4367">Zhuobin Huang</author>
+<author orcid="0009-0004-0083-6964" pid="378/5144">Tianle Sun</author>
+<author orcid="0009-0007-8042-0863" pid="378/1462">Yingyi Hao</author>
+<author orcid="0000-0002-6115-8130" pid="22/6904-1">Rong Chen 0001</author>
+<author orcid="0009-0008-1536-7485" pid="286/1961">Mingcong Han</author>
+<author orcid="0000-0002-8112-8481" pid="197/6723-1">Jinyu Gu 0001</author>
+<author orcid="0000-0002-9720-0361" pid="31/6601-1">Haibo Chen 0001</author>
+<title>PhoenixOS: Concurrent OS-level GPU Checkpoint and Restore with Validated Speculation.</title>
+<pages>996-1013</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764813</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#WeiHSH0H0025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ChenXZTWDCYLQZO25" mdate="2025-10-15">
+<author orcid="0000-0001-5110-0413" pid="27/5646">Hongtao Chen</author>
+<author orcid="0000-0003-0173-1027" pid="258/0997">Weiyu Xie</author>
+<author orcid="0009-0004-2857-3713" pid="203/4018">Boxin Zhang</author>
+<author orcid="0009-0006-3300-9425" pid="384/1736">Jingqi Tang</author>
+<author orcid="0009-0001-8030-5976" pid="34/5354">Jiahao Wang</author>
+<author orcid="0009-0007-3175-1607" pid="45/2761">Jianwei Dong</author>
+<author orcid="0000-0003-3526-3241" pid="126/1575">Shaoyuan Chen</author>
+<author orcid="0009-0000-5797-2108" pid="272/8641">Ziwei Yuan</author>
+<author orcid="0009-0002-8554-0411" pid="37/3102">Chen Lin</author>
+<author orcid="0009-0003-4422-9368" pid="297/1341">Chengyu Qiu</author>
+<author orcid="0009-0006-6716-5709" pid="268/5892">Yuening Zhu</author>
+<author orcid="0009-0006-6762-8056" pid="416/7541">Qingliang Ou</author>
+<author orcid="0009-0008-8097-0846" pid="144/7470">Jiaqi Liao</author>
+<author orcid="0009-0000-4975-4856" pid="406/2933">Xianglin Chen</author>
+<author orcid="0009-0007-8050-6288" pid="203/1934">Zhiyuan Ai</author>
+<author orcid="0000-0002-6651-7032" pid="38/880">Yongwei Wu 0001</author>
+<author orcid="0000-0001-7518-0753" pid="153/5382">Mingxing Zhang</author>
+<title>KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models.</title>
+<pages>1014-1029</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764843</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ChenXZTWDCYLQZO25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/Xiang0QYZYZL0025" mdate="2026-05-20">
+<author orcid="0009-0001-1942-9902" pid="262/4802">Yuxing Xiang</author>
+<author orcid="0000-0001-5713-7225" pid="181/2710-24">Xue Li 0024</author>
+<author orcid="0000-0001-9882-9279" pid="77/2062-21">Kun Qian 0021</author>
+<author orcid="0009-0006-9397-9458" pid="147/1628">Yufan Yang</author>
+<author orcid="0009-0002-7175-0784" pid="18/7753">Diwen Zhu</author>
+<author orcid="0009-0006-5641-2452" pid="53/5676">Wenyuan Yu</author>
+<author orcid="0000-0003-4352-7497" pid="23/7560">Ennan Zhai</author>
+<author orcid="0000-0002-7908-8484" pid="08/2161">Xuanzhe Liu</author>
+<author orcid="0000-0001-8741-5847" pid="68/3340-8">Xin Jin 0008</author>
+<author orcid="0000-0001-6851-1366" pid="84/2644-1">Jingren Zhou 0001</author>
+<title>Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market.</title>
+<pages>1030-1045</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764815</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#Xiang0QYZYZL0025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/GuanQPJF0WL0A25" mdate="2025-10-17">
+<author orcid="0009-0005-7433-2627" pid="54/7820-3">Yue Guan 0003</author>
+<author orcid="0009-0004-1182-6737" pid="416/7472">Xinwei Qiang</author>
+<author orcid="0000-0002-6759-2616" pid="294/8391">Zaifeng Pan</author>
+<author orcid="0009-0004-1126-7445" pid="416/7975">Daniels Johnson</author>
+<author orcid="0000-0001-5600-026X" pid="125/2460">Yuanwei Fang</author>
+<author orcid="0000-0002-7977-3182" pid="163/1781-1">Keren Zhou 0001</author>
+<author orcid="0000-0003-1634-8549" pid="85/4549">Yuke Wang</author>
+<author orcid="0000-0003-0098-0670" pid="153/4284">Wanlu Li</author>
+<author orcid="0000-0002-8716-5793" pid="127/9591">Yufei Ding 0001</author>
+<author orcid="0009-0003-5855-6861" pid="53/5368">Adnan Aziz</author>
+<title>Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling.</title>
+<pages>1046-1061</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764798</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#GuanQPJF0WL0A25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/HeD0ZY0JX025" mdate="2026-02-12">
+<author orcid="0009-0005-9024-7588" pid="402/6276">Jingkai He</author>
+<author orcid="0009-0005-5434-0435" pid="162/9073">Yunpeng Dong</author>
+<author orcid="0000-0002-7945-8430" pid="48/331-3">Dong Du 0003</author>
+<author orcid="0009-0003-2655-2911" pid="251/1762">Mo Zou</author>
+<author orcid="0000-0001-9893-6939" pid="291/6342">Zhitai Yu</author>
+<author orcid="0000-0003-2678-9225" pid="162/7779-1">Yuxin Ren 0001</author>
+<author orcid="0009-0003-8246-4713" pid="25/6775-4">Ning Jia 0004</author>
+<author orcid="0000-0001-6558-5298" pid="01/615">Yubin Xia</author>
+<author orcid="0000-0002-9720-0361" pid="31/6601-1">Haibo Chen 0001</author>
+<title>How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service.</title>
+<pages>1062-1081</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764800</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#HeD0ZY0JX025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ZhangXZTWHWXW0H25" mdate="2026-07-21">
+<author orcid="0000-0002-9268-6278" pid="215/8338-3">Junyang Zhang 0003</author>
+<author orcid="0009-0006-2175-0750" pid="416/6913">Xiangcan Xu</author>
+<author orcid="0000-0002-5978-8934" pid="299/3244">Yonghao Zou</author>
+<author orcid="0009-0004-0449-6581" pid="24/5105">Zhe Tang</author>
+<author orcid="0009-0004-3543-499X" pid="284/4096-1">Xinyi Wan 0001</author>
+<author orcid="0009-0000-5256-2863" pid="93/5846">Kang Hu</author>
+<author orcid="0009-0009-9901-0279" pid="12/9626-26">Siyuan Wang 0026</author>
+<author orcid="0009-0000-5563-7701" pid="81/4590">Wenbo Xu</author>
+<author orcid="0000-0002-2418-7987" pid="18/5410-17">Di Wang 0017</author>
+<author orcid="0000-0002-1180-9433" pid="175/3324-23">Hao Chen 0023</author>
+<author orcid="0009-0002-5659-1471" pid="74/2101-5">Lin Huang 0005</author>
+<author orcid="0009-0007-9580-5395" pid="08/6611">Shoumeng Yan</author>
+<author orcid="0009-0007-1266-4815" pid="02/4293">Yuval Tamir</author>
+<author orcid="0000-0002-7903-0717" pid="70/4037">Yingwei Luo</author>
+<author orcid="0000-0002-6951-1613" pid="29/4241-1">Xiaolin Wang 0001</author>
+<author orcid="0009-0009-0642-6006" pid="80/5548">Huashan Yu</author>
+<author orcid="0000-0002-0429-4371" pid="88/5294-3">Zhenlin Wang 0003</author>
+<author orcid="0009-0005-1248-4078" pid="53/7761">Hongliang Tian</author>
+<author orcid="0009-0003-8620-1064" pid="223/6823">Diyu Zhou</author>
+<title>CortenMM: Efficient Memory Management with Strong Correctness Guarantees.</title>
+<pages>1082-1098</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764836</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ZhangXZTWHWXW0H25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/ChenSSH025" mdate="2025-10-15">
+<author orcid="0000-0003-4171-4299" pid="203/1564">Youmin Chen</author>
+<author orcid="0000-0002-7362-2789" pid="60/3690">Jiwu Shu</author>
+<author orcid="0000-0001-8364-3674" pid="74/2905">Yanyan Shen</author>
+<author orcid="0000-0002-1531-7962" pid="93/4039">Linpeng Huang</author>
+<author orcid="0000-0003-2380-3976" pid="14/2036">Hong Mei 0001</author>
+<title>Rearchitecting the Thread Model of In-Memory Key-Value Stores with &#956;TPS.</title>
+<pages>1099-1114</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764794</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#ChenSSH025</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/LaforetKILL25" mdate="2025-10-15">
+<author orcid="0009-0006-0487-6271" pid="416/7416">Victor Laforet</author>
+<author orcid="0000-0002-9534-8565" pid="145/0912">Sanidhya Kashyap</author>
+<author orcid="0000-0003-0382-6820" pid="145/2121">Calin Iorgulescu</author>
+<author orcid="0000-0002-1684-1264" pid="l/JuliaLLawall">Julia Lawall</author>
+<author orcid="0009-0002-2876-8292" pid="133/3713">Jean-Pierre Lozi</author>
+<title>FlexGuard: Fast Mutual Exclusion Independent of Subscription.</title>
+<pages>1115-1130</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764852</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#LaforetKILL25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/KimKK25" mdate="2025-10-15">
+<author orcid="0000-0003-4257-5294" pid="188/9656">Tae Woo Kim</author>
+<author orcid="0000-0001-5602-2397" pid="94/8239">Youngjin Kwon</author>
+<author orcid="0000-0002-2115-0871" pid="130/9065">Jeehoon Kang</author>
+<title>Scalable Address Spaces using Concurrent Interval Skiplist.</title>
+<pages>1131-1148</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3764807</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#KimKK25</url>
+</inproceedings>
+</r>
+<r style="ee"><inproceedings key="conf/sosp/JeonPKKZK25" mdate="2025-10-15">
+<author orcid="0009-0004-1770-7376" pid="416/7254">Jonguk Jeon</author>
+<author orcid="0009-0001-0869-5607" pid="314/6049">Subeen Park</author>
+<author orcid="0000-0002-9534-8565" pid="145/0912">Sanidhya Kashyap</author>
+<author orcid="0000-0003-4009-8586" pid="82/9936">Sudarsun Kannan</author>
+<author orcid="0009-0003-8620-1064" pid="223/6823">Diyu Zhou</author>
+<author orcid="0000-0002-2115-0871" pid="130/9065">Jeehoon Kang</author>
+<title>Analyzing and Enhancing ArckFS: An Anecdotal Example of Benefits of Artifact Evaluation.</title>
+<pages>1149-1157</pages>
+<year>2025</year>
+<booktitle>SOSP</booktitle>
+<ee>https://doi.org/10.1145/3731569.3768291</ee>
+<crossref>conf/sosp/2025</crossref>
+<url>db/conf/sosp/sosp2025.html#JeonPKKZK25</url>
+</inproceedings>
+</r>
+</dblpcites>
+</bht>
+
