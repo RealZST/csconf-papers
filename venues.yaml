@@ -1,0 +1,49 @@
+SOSP:
+  type: conf
+  key: "conf/sosp/sosp{year}"
+  fallback_url: "https://www.sigops.org/s/conferences/sosp/{year}/accepted.html"
+  status: {2025: indexed, 2026: pending}
+
+OSDI:
+  type: conf
+  key: "conf/osdi/osdi{year}"
+  fallback_url: "https://www.usenix.org/conference/osdi{yy}/technical-sessions"
+  status: {2025: indexed, 2026: pending}
+
+ATC:
+  type: conf
+  key: "conf/usenix/usenix{year}"
+  fallback_url: "https://www.usenix.org/conference/atc{yy}/technical-sessions"
+  status: {2025: indexed, 2026: pending}
+
+NSDI:
+  type: conf
+  key: "conf/nsdi/nsdi{year}"
+  status: {2025: indexed, 2026: indexed}
+
+EuroSys:
+  type: conf
+  key: "conf/eurosys/eurosys{year}"
+  status: {2025: indexed, 2026: indexed}
+
+ASPLOS:
+  type: conf
+  key: "conf/asplos/asplos{year}-{vol}"
+  volumes: auto
+  index: "conf/asplos"
+  status: {2025: indexed, 2026: partial}
+
+SIGMOD:
+  type: journal_rounds
+  key: "journals/pacmmod/pacmmod{vol}"
+  rounds:
+    2026: [[3, 4], [3, 6], [4, 1], [4, 3]]
+  official_url: "https://{year}.sigmod.org/sigmod_papers.shtml"
+  status: {2026: partial}
+
+VLDB:
+  type: journal_volume
+  key: "journals/pvldb/pvldb{vol}"
+  vol_for_year: {2025: 18, 2026: 19}
+  note_template: "本文件为 PVLDB vol {vol} 全卷。VLDB {year} 研究 track 实际由本卷截止日前接收的论文加上一卷的 rollover 组成，DBLP 元数据无法区分。"
+  status: {2025: indexed, 2026: partial}
