@@ -1,0 +1,5069 @@
+{
+  "meta": {
+    "venue": "ATC",
+    "year": 2025,
+    "source_keys": [
+      "conf/usenix/usenix2025"
+    ],
+    "paper_count": 100,
+    "note": null,
+    "updated": "2026-08-12"
+  },
+  "papers": [
+    {
+      "title": "Fast ACS: Low-Latency File-Based Ordered Message Delivery at Scale",
+      "authors": [
+        {
+          "name": "Sushant Kumar Gupta",
+          "pid": "411/1712",
+          "orcid": null
+        },
+        {
+          "name": "Anil Raghunath Iyer",
+          "pid": "411/1694",
+          "orcid": null
+        },
+        {
+          "name": "Chang Yu",
+          "pid": "27/5089",
+          "orcid": null
+        },
+        {
+          "name": "Neel Bagora",
+          "pid": "411/1688",
+          "orcid": null
+        },
+        {
+          "name": "Olivier Pomerleau",
+          "pid": "411/1731",
+          "orcid": null
+        },
+        {
+          "name": "Vivek Kumar",
+          "pid": "82/2381",
+          "orcid": null
+        },
+        {
+          "name": "Prunthaban Kanthakumar",
+          "pid": "411/1733",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/gupta",
+      "pages": "1-17",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/GuptaIYBPKK25"
+    },
+    {
+      "title": "Poby: SmartNIC-accelerated Image Provisioning for Coldstart in Clouds",
+      "authors": [
+        {
+          "name": "Zihao Chang",
+          "pid": "243/0235",
+          "orcid": null
+        },
+        {
+          "name": "Jiaqi Zhu",
+          "pid": "23/5224",
+          "orcid": null
+        },
+        {
+          "name": "Haifeng Sun 0004",
+          "pid": "00/11044-4",
+          "orcid": null
+        },
+        {
+          "name": "Yunlong Xie",
+          "pid": "83/3090",
+          "orcid": null
+        },
+        {
+          "name": "Kan Shi",
+          "pid": "80/7134",
+          "orcid": null
+        },
+        {
+          "name": "Ninghui Sun",
+          "pid": "23/6324",
+          "orcid": null
+        },
+        {
+          "name": "Yungang Bao",
+          "pid": "08/6937",
+          "orcid": null
+        },
+        {
+          "name": "Sa Wang",
+          "pid": "42/8496",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/chang",
+      "pages": "19-37",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ChangZ0XSSBW25"
+    },
+    {
+      "title": "Burst Computing: Quick, Sudden, Massively Parallel Processing on Serverless Resources",
+      "authors": [
+        {
+          "name": "Daniel Barcelona Pons",
+          "pid": "224/0273",
+          "orcid": null
+        },
+        {
+          "name": "Aitor Arjona",
+          "pid": "267/5356",
+          "orcid": null
+        },
+        {
+          "name": "Pedro García López",
+          "pid": "63/4811",
+          "orcid": null
+        },
+        {
+          "name": "Enrique Molina-Giménez",
+          "pid": "383/6386",
+          "orcid": null
+        },
+        {
+          "name": "Stepan Klymonchuk",
+          "pid": "383/7341",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/barcelona-pons",
+      "pages": "39-56",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/PonsALMK25"
+    },
+    {
+      "title": "DEEPSERVE: Serverless Large Language Model Serving at Scale",
+      "authors": [
+        {
+          "name": "Junhao Hu",
+          "pid": "05/3941",
+          "orcid": null
+        },
+        {
+          "name": "Jiang Xu",
+          "pid": "20/4396",
+          "orcid": null
+        },
+        {
+          "name": "Zhixia Liu",
+          "pid": "66/8587",
+          "orcid": null
+        },
+        {
+          "name": "Yulong He",
+          "pid": "118/5374",
+          "orcid": null
+        },
+        {
+          "name": "Yuetao Chen",
+          "pid": "341/2529",
+          "orcid": null
+        },
+        {
+          "name": "Hao Xu",
+          "pid": "43/6008",
+          "orcid": null
+        },
+        {
+          "name": "Jiang Liu",
+          "pid": "23/108",
+          "orcid": null
+        },
+        {
+          "name": "Jie Meng",
+          "pid": "80/485",
+          "orcid": null
+        },
+        {
+          "name": "Baoquan Zhang",
+          "pid": "160/1111",
+          "orcid": null
+        },
+        {
+          "name": "Shining Wan",
+          "pid": "398/1662",
+          "orcid": null
+        },
+        {
+          "name": "Gengyuan Dan",
+          "pid": "160/6290",
+          "orcid": null
+        },
+        {
+          "name": "Zhiyu Dong",
+          "pid": "371/1664",
+          "orcid": null
+        },
+        {
+          "name": "Zhihao Ren",
+          "pid": "235/2198",
+          "orcid": null
+        },
+        {
+          "name": "Changhong Liu",
+          "pid": "37/3900",
+          "orcid": null
+        },
+        {
+          "name": "Tao Xie",
+          "pid": "181/2328",
+          "orcid": null
+        },
+        {
+          "name": "Dayun Lin",
+          "pid": "398/1391",
+          "orcid": null
+        },
+        {
+          "name": "Qin Zhang",
+          "pid": "45/47",
+          "orcid": null
+        },
+        {
+          "name": "Yue Yu",
+          "pid": "55/2008",
+          "orcid": null
+        },
+        {
+          "name": "Hao Feng",
+          "pid": "46/4184",
+          "orcid": null
+        },
+        {
+          "name": "Xusheng Chen",
+          "pid": "38/7674",
+          "orcid": null
+        },
+        {
+          "name": "Yizhou Shan",
+          "pid": "206/4531",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/hu-junhao",
+      "pages": "57-72",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/HuXLHCXLMZWDDRL25"
+    },
+    {
+      "title": "Cosmic: Cost-Effective Support for Cloud-Assisted 3D Printing",
+      "authors": [
+        {
+          "name": "Yuan Yao",
+          "pid": "25/4120",
+          "orcid": null
+        },
+        {
+          "name": "Chuan He",
+          "pid": "76/4276",
+          "orcid": null
+        },
+        {
+          "name": "Chinedum Emmanuel Okwudire",
+          "pid": "236/7923",
+          "orcid": null
+        },
+        {
+          "name": "Harsha V. Madhyastha",
+          "pid": "45/2026",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/yao",
+      "pages": "73-88",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/YaoHOM25"
+    },
+    {
+      "title": "GMI-DRL: Empowering Multi-GPU DRL with Adaptive-Grained Parallelism",
+      "authors": [
+        {
+          "name": "Yuke Wang",
+          "pid": "85/4549",
+          "orcid": null
+        },
+        {
+          "name": "Boyuan Feng",
+          "pid": "227/2946",
+          "orcid": null
+        },
+        {
+          "name": "Zheng Wang 0075",
+          "pid": "181/2834-75",
+          "orcid": null
+        },
+        {
+          "name": "Guyue Huang",
+          "pid": "270/0405",
+          "orcid": null
+        },
+        {
+          "name": "Tony Tong Geng",
+          "pid": "188/5531",
+          "orcid": null
+        },
+        {
+          "name": "Ang Li 0006",
+          "pid": "33/2805-6",
+          "orcid": null
+        },
+        {
+          "name": "Yufei Ding 0001",
+          "pid": "127/9591",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wang-yuke",
+      "pages": "89-103",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/WangF0HG0025"
+    },
+    {
+      "title": "mTuner: Accelerating Parameter-Efficient Fine-Tuning on Multi-GPU Servers with Elastic Tensor",
+      "authors": [
+        {
+          "name": "Kezhao Huang",
+          "pid": "264/1773",
+          "orcid": null
+        },
+        {
+          "name": "Siqi Zhu",
+          "pid": "133/4059",
+          "orcid": null
+        },
+        {
+          "name": "Mingshu Zhai",
+          "pid": "275/3272",
+          "orcid": null
+        },
+        {
+          "name": "Liyan Zheng 0001",
+          "pid": "254/2588-1",
+          "orcid": null
+        },
+        {
+          "name": "Kinman Lei",
+          "pid": "380/6574",
+          "orcid": null
+        },
+        {
+          "name": "Jiaao He",
+          "pid": "249/2660",
+          "orcid": null
+        },
+        {
+          "name": "Yuyang Jin 0001",
+          "pid": "259/5264-1",
+          "orcid": null
+        },
+        {
+          "name": "Jidong Zhai",
+          "pid": "72/7413",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/huang-kezhao",
+      "pages": "105-121",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/HuangZZ0LH0Z25"
+    },
+    {
+      "title": "JENGA: Enhancing LLM Long-Context Fine-tuning with Contextual Token Sparsity",
+      "authors": [
+        {
+          "name": "Tuowei Wang",
+          "pid": "326/0527",
+          "orcid": null
+        },
+        {
+          "name": "Xingyu Chen",
+          "pid": "59/7651",
+          "orcid": null
+        },
+        {
+          "name": "Kun Li 0016",
+          "pid": "75/1458-16",
+          "orcid": null
+        },
+        {
+          "name": "Ting Cao 0003",
+          "pid": "03/8334-3",
+          "orcid": null
+        },
+        {
+          "name": "Ju Ren 0001",
+          "pid": "00/468-1",
+          "orcid": null
+        },
+        {
+          "name": "Yaoxue Zhang",
+          "pid": "99/4094",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wang-tuowei",
+      "pages": "123-141",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/WangCLC0Z25"
+    },
+    {
+      "title": "FlexPipe: Maximizing Training Efficiency for Transformer-based Models with Variable-Length Inputs",
+      "authors": [
+        {
+          "name": "Hairui Zhao 0002",
+          "pid": "313/3426-2",
+          "orcid": null
+        },
+        {
+          "name": "Qi Tian",
+          "pid": "78/1467",
+          "orcid": null
+        },
+        {
+          "name": "Hongliang Li 0003",
+          "pid": "91/1905-3",
+          "orcid": null
+        },
+        {
+          "name": "Zizhong Chen",
+          "pid": "66/5474",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhao-hairui",
+      "pages": "143-159",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ZhaoT0C25"
+    },
+    {
+      "title": "Optimus: Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation",
+      "authors": [
+        {
+          "name": "Weiqi Feng",
+          "pid": "295/3173",
+          "orcid": null
+        },
+        {
+          "name": "Yangrui Chen",
+          "pid": "217/6675",
+          "orcid": null
+        },
+        {
+          "name": "Shaoyu Wang",
+          "pid": "17/764",
+          "orcid": null
+        },
+        {
+          "name": "Yanghua Peng",
+          "pid": "195/5934",
+          "orcid": null
+        },
+        {
+          "name": "Haibin Lin",
+          "pid": "142/1829",
+          "orcid": null
+        },
+        {
+          "name": "Minlan Yu",
+          "pid": "89/6345",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/feng",
+      "pages": "161-177",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/FengCWPLY25"
+    },
+    {
+      "title": "Towards Optimal Rack-scale μs-level CPU Scheduling through In-Network Workload Shaping",
+      "authors": [
+        {
+          "name": "Xudong Liao",
+          "pid": "296/4029",
+          "orcid": null
+        },
+        {
+          "name": "Han Tian",
+          "pid": "198/1274",
+          "orcid": null
+        },
+        {
+          "name": "Xinchen Wan",
+          "pid": "272/9234",
+          "orcid": null
+        },
+        {
+          "name": "Chaoliang Zeng",
+          "pid": "257/6290",
+          "orcid": null
+        },
+        {
+          "name": "Hao Wang 0116",
+          "pid": "181/2812-116",
+          "orcid": null
+        },
+        {
+          "name": "Junxue Zhang 0001",
+          "pid": "155/4434",
+          "orcid": null
+        },
+        {
+          "name": "Mengyu Ma",
+          "pid": "186/9073",
+          "orcid": null
+        },
+        {
+          "name": "Guyue Liu",
+          "pid": "151/5134",
+          "orcid": null
+        },
+        {
+          "name": "Kai Chen 0005",
+          "pid": "c/KaiChen5",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/liao",
+      "pages": "179-198",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/LiaoTWZ00ML025"
+    },
+    {
+      "title": "TGW: Operating an Efficient and Resilient Cloud Gateway at Scale",
+      "authors": [
+        {
+          "name": "Yifan Yang 0009",
+          "pid": "83/89-9",
+          "orcid": null
+        },
+        {
+          "name": "Lin He 0004",
+          "pid": "73/2845-4",
+          "orcid": null
+        },
+        {
+          "name": "Jiasheng Zhou",
+          "pid": "228/8807",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoyi Shi",
+          "pid": "233/9346",
+          "orcid": null
+        },
+        {
+          "name": "Yichi Xu",
+          "pid": "213/7878",
+          "orcid": null
+        },
+        {
+          "name": "Shicheng Wang",
+          "pid": "65/7762",
+          "orcid": null
+        },
+        {
+          "name": "Jinlong E",
+          "pid": "138/3922",
+          "orcid": null
+        },
+        {
+          "name": "Ying Liu 0024",
+          "pid": "91/112-24",
+          "orcid": null
+        },
+        {
+          "name": "Junwei Zhang",
+          "pid": "09/4697",
+          "orcid": null
+        },
+        {
+          "name": "Zhuang Yuan",
+          "pid": "221/9598",
+          "orcid": null
+        },
+        {
+          "name": "Hengyang Xu",
+          "pid": "355/8878",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/yang-yifan",
+      "pages": "199-215",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/00090ZSXWE0ZYX25"
+    },
+    {
+      "title": "MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering",
+      "authors": [
+        {
+          "name": "Yuankang Zhao",
+          "pid": "362/4466",
+          "orcid": null
+        },
+        {
+          "name": "Furong Yang",
+          "pid": "274/8692",
+          "orcid": null
+        },
+        {
+          "name": "Gerui Lv",
+          "pid": "323/0079",
+          "orcid": null
+        },
+        {
+          "name": "Qinghua Wu 0004",
+          "pid": "48/86-4",
+          "orcid": null
+        },
+        {
+          "name": "Yanmei Liu",
+          "pid": "33/4737",
+          "orcid": null
+        },
+        {
+          "name": "Jiuhai Zhang",
+          "pid": "299/2213",
+          "orcid": null
+        },
+        {
+          "name": "Yutang Peng",
+          "pid": "411/1680",
+          "orcid": null
+        },
+        {
+          "name": "Feng Peng",
+          "pid": "84/4785",
+          "orcid": null
+        },
+        {
+          "name": "Hongyu Guo",
+          "pid": "08/3722",
+          "orcid": null
+        },
+        {
+          "name": "Ying Chen 0011",
+          "pid": "21/5521-11",
+          "orcid": null
+        },
+        {
+          "name": "Zhenyu Li 0001",
+          "pid": "58/5750-1",
+          "orcid": null
+        },
+        {
+          "name": "Gaogang Xie",
+          "pid": "01/2888",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhao-yuankang",
+      "pages": "217-232",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ZhaoYL0LZPPG00X25"
+    },
+    {
+      "title": "Accelerating Distributed Graph Learning by Using Collaborative In-Network Multicast and Aggregation",
+      "authors": [
+        {
+          "name": "Zhaoyi Li",
+          "pid": "78/2545",
+          "orcid": null
+        },
+        {
+          "name": "Jiawei Huang 0001",
+          "pid": "13/4208-1",
+          "orcid": null
+        },
+        {
+          "name": "Yijun Li 0002",
+          "pid": "52/6049-2",
+          "orcid": null
+        },
+        {
+          "name": "Jingling Liu",
+          "pid": "160/7597",
+          "orcid": null
+        },
+        {
+          "name": "Junxue Zhang 0001",
+          "pid": "155/4434",
+          "orcid": null
+        },
+        {
+          "name": "Hui Li 0120",
+          "pid": "66/3387-120",
+          "orcid": null
+        },
+        {
+          "name": "Xiaojun Zhu",
+          "pid": "142/5229",
+          "orcid": null
+        },
+        {
+          "name": "Shengwen Zhou",
+          "pid": "324/0015",
+          "orcid": null
+        },
+        {
+          "name": "Jing Shao",
+          "pid": "91/5981",
+          "orcid": null
+        },
+        {
+          "name": "Xiaojuan Lu",
+          "pid": "228/1164",
+          "orcid": null
+        },
+        {
+          "name": "Qichen Su",
+          "pid": "275/7173",
+          "orcid": null
+        },
+        {
+          "name": "Jianxin Wang 0001",
+          "pid": "75/2669-1",
+          "orcid": null
+        },
+        {
+          "name": "Chee Wei Tan 0001",
+          "pid": "04/3030",
+          "orcid": null
+        },
+        {
+          "name": "Yong Cui 0001",
+          "pid": "91/2346-1",
+          "orcid": null
+        },
+        {
+          "name": "Kai Chen 0005",
+          "pid": "c/KaiChen5",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/li-zhaoyi",
+      "pages": "233-247",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Li00L0LZZSLS00025"
+    },
+    {
+      "title": "Opening Up Kernel-Bypass TCP Stacks",
+      "authors": [
+        {
+          "name": "Shinichi Awamoto",
+          "pid": "223/9063",
+          "orcid": null
+        },
+        {
+          "name": "Michio Honda",
+          "pid": "05/4354",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/awamoto",
+      "pages": "249-262",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/AwamotoH25"
+    },
+    {
+      "title": "GPREEMPT: GPU Preemptive Scheduling Made General and Efficient",
+      "authors": [
+        {
+          "name": "Ruwen Fan",
+          "pid": "391/5524",
+          "orcid": null
+        },
+        {
+          "name": "Tingxu Ren",
+          "pid": "411/1719",
+          "orcid": null
+        },
+        {
+          "name": "Minhui Xie",
+          "pid": "06/5769",
+          "orcid": null
+        },
+        {
+          "name": "Shiwei Gao",
+          "pid": "154/4277",
+          "orcid": null
+        },
+        {
+          "name": "Jiwu Shu",
+          "pid": "60/3690",
+          "orcid": null
+        },
+        {
+          "name": "Youyou Lu",
+          "pid": "96/8005",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/fan",
+      "pages": "263-272",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/FanRXGSL25"
+    },
+    {
+      "title": "μEFI: A Microkernel-Style UEFI with Isolation and Transparency",
+      "authors": [
+        {
+          "name": "Le Chen",
+          "pid": "19/576",
+          "orcid": null
+        },
+        {
+          "name": "Yiyang Wu",
+          "pid": "357/2762",
+          "orcid": null
+        },
+        {
+          "name": "Jinyu Gu 0001",
+          "pid": "197/6723-1",
+          "orcid": null
+        },
+        {
+          "name": "Yubin Xia",
+          "pid": "01/615",
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "pid": "31/6601-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/chen-le",
+      "pages": "273-289",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ChenW0X025"
+    },
+    {
+      "title": "PageFlex: Flexible and Efficient User-space Delegation of Linux Paging Policies with eBPF",
+      "authors": [
+        {
+          "name": "Anil Yelam",
+          "pid": "271/9629",
+          "orcid": null
+        },
+        {
+          "name": "Kan Wu",
+          "pid": "20/1552",
+          "orcid": null
+        },
+        {
+          "name": "Zhiyuan Guo",
+          "pid": "26/10808",
+          "orcid": null
+        },
+        {
+          "name": "Suli Yang",
+          "pid": "141/9196",
+          "orcid": null
+        },
+        {
+          "name": "Rajath Shashidhara",
+          "pid": "284/1438",
+          "orcid": null
+        },
+        {
+          "name": "Wei Xu",
+          "pid": "32/1213",
+          "orcid": null
+        },
+        {
+          "name": "Stanko Novakovic",
+          "pid": "142/3209",
+          "orcid": null
+        },
+        {
+          "name": "Alex C. Snoeren",
+          "pid": "s/AlexCSnoeren",
+          "orcid": null
+        },
+        {
+          "name": "Kimberly Keeton",
+          "pid": "k/KimberlyKeeton",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/yelam",
+      "pages": "291-306",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/YelamWGYSXNSK25"
+    },
+    {
+      "title": "ASTERINAS: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB",
+      "authors": [
+        {
+          "name": "Yuke Peng",
+          "pid": "384/2574",
+          "orcid": null
+        },
+        {
+          "name": "Hongliang Tian",
+          "pid": "53/7761",
+          "orcid": null
+        },
+        {
+          "name": "Junyang Zhang 0003",
+          "pid": "215/8338-3",
+          "orcid": null
+        },
+        {
+          "name": "Ruihan Li",
+          "pid": "177/8235",
+          "orcid": null
+        },
+        {
+          "name": "Chengjun Chen",
+          "pid": "74/8612",
+          "orcid": null
+        },
+        {
+          "name": "Jianfeng Jiang",
+          "pid": "05/9709",
+          "orcid": null
+        },
+        {
+          "name": "Jinyi Xian",
+          "pid": "384/2850",
+          "orcid": null
+        },
+        {
+          "name": "Xiaolin Wang 0001",
+          "pid": "29/4241-1",
+          "orcid": null
+        },
+        {
+          "name": "Chenren Xu",
+          "pid": "94/8865",
+          "orcid": null
+        },
+        {
+          "name": "Diyu Zhou",
+          "pid": "223/6823",
+          "orcid": null
+        },
+        {
+          "name": "Yingwei Luo",
+          "pid": "70/4037",
+          "orcid": null
+        },
+        {
+          "name": "Shoumeng Yan",
+          "pid": "08/6611",
+          "orcid": null
+        },
+        {
+          "name": "Yinqian Zhang",
+          "pid": "77/3503",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/peng-yuke",
+      "pages": "307-323",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/PengTZLCJXWXZLY25"
+    },
+    {
+      "title": "Rex: Closing the language-verifier gap with safe and usable kernel extensions",
+      "authors": [
+        {
+          "name": "Jinghao Jia",
+          "pid": "340/8967",
+          "orcid": null
+        },
+        {
+          "name": "Ruowen Qin",
+          "pid": "400/6961",
+          "orcid": null
+        },
+        {
+          "name": "Milo Craun",
+          "pid": "354/6618",
+          "orcid": null
+        },
+        {
+          "name": "Egor Lukiyanov",
+          "pid": "400/5436",
+          "orcid": null
+        },
+        {
+          "name": "Ayush Bansal",
+          "pid": "146/4329",
+          "orcid": null
+        },
+        {
+          "name": "Minh Phan",
+          "pid": "48/3091",
+          "orcid": null
+        },
+        {
+          "name": "Michael V. Le",
+          "pid": "290/7624",
+          "orcid": null
+        },
+        {
+          "name": "Hubertus Franke",
+          "pid": "17/3453",
+          "orcid": null
+        },
+        {
+          "name": "Hani Jamjoom",
+          "pid": "45/1350",
+          "orcid": null
+        },
+        {
+          "name": "Tianyin Xu",
+          "pid": "90/7566",
+          "orcid": null
+        },
+        {
+          "name": "Dan Williams 0001",
+          "pid": "96/2005",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/jia",
+      "pages": "325-342",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/JiaQCLBPLFJX025"
+    },
+    {
+      "title": "Barre: Empowering Simplified and Versatile Programmable Congestion Control in High-Speed AI Clusters",
+      "authors": [
+        {
+          "name": "Yajuan Peng",
+          "pid": "373/3892",
+          "orcid": null
+        },
+        {
+          "name": "Haoran Wei",
+          "pid": "183/9682",
+          "orcid": null
+        },
+        {
+          "name": "Xiaolong Zhong",
+          "pid": "275/3904",
+          "orcid": null
+        },
+        {
+          "name": "Junkai Huang",
+          "pid": "99/2767",
+          "orcid": null
+        },
+        {
+          "name": "Haohan Xu",
+          "pid": "117/0635",
+          "orcid": null
+        },
+        {
+          "name": "Zicheng Wang",
+          "pid": "24/10098",
+          "orcid": null
+        },
+        {
+          "name": "Yang Bai",
+          "pid": "39/6825",
+          "orcid": null
+        },
+        {
+          "name": "Zhuo Jiang",
+          "pid": "123/1783",
+          "orcid": null
+        },
+        {
+          "name": "Jianxi Ye",
+          "pid": "184/0340",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoliang Wang 0001",
+          "pid": "02/3450-1",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoming Fu 0001",
+          "pid": "33/4231",
+          "orcid": null
+        },
+        {
+          "name": "Huichen Dai",
+          "pid": "78/7704",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/peng-yajuan",
+      "pages": "343-363",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/PengWZHXWBJY00D25"
+    },
+    {
+      "title": "FLB: Fine-grained Load Balancing for Lossless Datacenter Networks",
+      "authors": [
+        {
+          "name": "Jinbin Hu 0001",
+          "pid": "116/0938-1",
+          "orcid": null
+        },
+        {
+          "name": "Wenxue Li 0004",
+          "pid": "12/8919-4",
+          "orcid": null
+        },
+        {
+          "name": "Xiangzhou Liu",
+          "pid": "353/0942",
+          "orcid": null
+        },
+        {
+          "name": "Junfeng Wang",
+          "pid": "15/885",
+          "orcid": null
+        },
+        {
+          "name": "Bowen Liu 0002",
+          "pid": "41/1201-2",
+          "orcid": null
+        },
+        {
+          "name": "Ping Yin",
+          "pid": "26/6924",
+          "orcid": null
+        },
+        {
+          "name": "Jianxin Wang 0001",
+          "pid": "75/2669-1",
+          "orcid": null
+        },
+        {
+          "name": "Jiawei Huang 0001",
+          "pid": "13/4208-1",
+          "orcid": null
+        },
+        {
+          "name": "Kai Chen 0005",
+          "pid": "c/KaiChen5",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/hu-jinbin",
+      "pages": "365-380",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/HuLLWLY00025"
+    },
+    {
+      "title": "SNARY: A High-Performance and Generic SmartNIC-accelerated Retrieval System",
+      "authors": [
+        {
+          "name": "Qiaoyin Gan",
+          "pid": "398/8689",
+          "orcid": null
+        },
+        {
+          "name": "Heng Pan",
+          "pid": "78/4696",
+          "orcid": null
+        },
+        {
+          "name": "Luyang Li",
+          "pid": "22/6735",
+          "orcid": null
+        },
+        {
+          "name": "Kai Lv",
+          "pid": "191/2440",
+          "orcid": null
+        },
+        {
+          "name": "Hongtao Guan",
+          "pid": "73/10888",
+          "orcid": null
+        },
+        {
+          "name": "Zhaohua Wang",
+          "pid": "78/4994",
+          "orcid": null
+        },
+        {
+          "name": "Zhenyu Li 0001",
+          "pid": "58/5750-1",
+          "orcid": null
+        },
+        {
+          "name": "Gaogang Xie",
+          "pid": "01/2888",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/gan",
+      "pages": "381-398",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/GanPLLGW0X25"
+    },
+    {
+      "title": "Minos : A Lightweight and Dynamic Defense against Traffic Analysis in Programmable Data Planes",
+      "authors": [
+        {
+          "name": "Zihao Wang",
+          "pid": "148/9655",
+          "orcid": null
+        },
+        {
+          "name": "Qing Li 0006",
+          "pid": "181/2689-6",
+          "orcid": null
+        },
+        {
+          "name": "Guorui Xie",
+          "pid": "270/6072",
+          "orcid": null
+        },
+        {
+          "name": "Dan Zhao 0003",
+          "pid": "10/3489-3",
+          "orcid": null
+        },
+        {
+          "name": "Kejun Li",
+          "pid": "63/11364",
+          "orcid": null
+        },
+        {
+          "name": "Zhuochen Fan",
+          "pid": "235/9564",
+          "orcid": null
+        },
+        {
+          "name": "Lianbo Ma 0004",
+          "pid": "144/0830-4",
+          "orcid": null
+        },
+        {
+          "name": "Yong Jiang 0001",
+          "pid": "74/1552-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wang-zihao",
+      "pages": "399-415",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Wang0X0LFM025"
+    },
+    {
+      "title": "GeneralSparse: Bridging the Gap in SpMM for Pruned Large Language Model Inference on GPUs",
+      "authors": [
+        {
+          "name": "Yaoyu Wang",
+          "pid": "144/7658",
+          "orcid": null
+        },
+        {
+          "name": "Xiao Guo",
+          "pid": "50/7558",
+          "orcid": null
+        },
+        {
+          "name": "Junmin Xiao",
+          "pid": "135/9326",
+          "orcid": null
+        },
+        {
+          "name": "De Chen",
+          "pid": "08/4951",
+          "orcid": null
+        },
+        {
+          "name": "Guangming Tan",
+          "pid": "80/2272",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wang-yaoyu",
+      "pages": "417-432",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/WangGXCT25"
+    },
+    {
+      "title": "HyCache: Hybrid Caching for Accelerating DNN Input Preprocessing Pipelines",
+      "authors": [
+        {
+          "name": "Keshav Vinayak Jha",
+          "pid": "411/1683",
+          "orcid": null
+        },
+        {
+          "name": "Shweta Pandey 0001",
+          "pid": "247/2529-1",
+          "orcid": null
+        },
+        {
+          "name": "Murali Annavaram",
+          "pid": "02/5812",
+          "orcid": null
+        },
+        {
+          "name": "Arkaprava Basu",
+          "pid": "12/6041",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/jha",
+      "pages": "433-448",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/JhaPAB25"
+    },
+    {
+      "title": "The Koala Benchmarks for the Shell: Characterization and Implications",
+      "authors": [
+        {
+          "name": "Evangelos Lamprou",
+          "pid": "250/9896",
+          "orcid": null
+        },
+        {
+          "name": "Ethan Williams",
+          "pid": "265/2151",
+          "orcid": null
+        },
+        {
+          "name": "Georgios Kaoukis",
+          "pid": "411/1721",
+          "orcid": null
+        },
+        {
+          "name": "Zhuoxuan Zhang",
+          "pid": "276/0474",
+          "orcid": null
+        },
+        {
+          "name": "Michael Greenberg 0002",
+          "pid": "06/4387",
+          "orcid": null
+        },
+        {
+          "name": "Konstantinos Kallas",
+          "pid": "238/2969",
+          "orcid": null
+        },
+        {
+          "name": "Lukas Lazarek",
+          "pid": "210/6401",
+          "orcid": null
+        },
+        {
+          "name": "Nikos Vasilakis",
+          "pid": "70/2619",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/lamprou",
+      "pages": "449-464",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/LamprouWKZ0KLV25"
+    },
+    {
+      "title": "KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider",
+      "authors": [
+        {
+          "name": "Jiahao Wang",
+          "pid": "34/5354",
+          "orcid": null
+        },
+        {
+          "name": "Jinbo Han",
+          "pid": "384/2844",
+          "orcid": null
+        },
+        {
+          "name": "Xingda Wei",
+          "pid": "168/9037",
+          "orcid": null
+        },
+        {
+          "name": "Sijie Shen",
+          "pid": "202/7006",
+          "orcid": null
+        },
+        {
+          "name": "Dingyan Zhang",
+          "pid": "273/0057",
+          "orcid": null
+        },
+        {
+          "name": "Chenguang Fang",
+          "pid": "251/9554",
+          "orcid": null
+        },
+        {
+          "name": "Rong Chen 0001",
+          "pid": "22/6904-1",
+          "orcid": null
+        },
+        {
+          "name": "Wenyuan Yu",
+          "pid": "53/5676",
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "pid": "31/6601-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wang-jiahao",
+      "pages": "465-482",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/WangHWSZF0Y025"
+    },
+    {
+      "title": "LogCrisp: Fast Aggregated Analysis on Large-scale Compressed Logs by Enabling Two-Phase Pattern Extraction and Vectorized Queries",
+      "authors": [
+        {
+          "name": "Junyu Wei",
+          "pid": "175/4997",
+          "orcid": null
+        },
+        {
+          "name": "Guangyan Zhang",
+          "pid": "90/371",
+          "orcid": null
+        },
+        {
+          "name": "Junchao Chen 0005",
+          "pid": "39/9851-5",
+          "orcid": null
+        },
+        {
+          "name": "Qi Zhou 0001",
+          "pid": "15/3785-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wei",
+      "pages": "483-496",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/WeiZ0025"
+    },
+    {
+      "title": "HotRAP: Hot Record Retention and Promotion for LSM-trees with Tiered Storage",
+      "authors": [
+        {
+          "name": "Jiansheng Qiu",
+          "pid": "351/5903",
+          "orcid": null
+        },
+        {
+          "name": "Fangzhou Yuan",
+          "pid": "367/7339",
+          "orcid": null
+        },
+        {
+          "name": "Mingyu Gao 0001",
+          "pid": "61/7672-1",
+          "orcid": null
+        },
+        {
+          "name": "Huanchen Zhang",
+          "pid": "13/8730",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/qiu",
+      "pages": "497-511",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/QiuYGZ25"
+    },
+    {
+      "title": "Mitigating Resource Usage Dependency in Sorting-based KV Stores on Hybrid Storage Devices via Operation Decoupling",
+      "authors": [
+        {
+          "name": "Qingyang Zhang",
+          "pid": "157/9827",
+          "orcid": null
+        },
+        {
+          "name": "Yongkun Li 0001",
+          "pid": "89/6978-1",
+          "orcid": null
+        },
+        {
+          "name": "Yubiao Pan",
+          "pid": "27/10459",
+          "orcid": null
+        },
+        {
+          "name": "Haoting Tang",
+          "pid": "411/1734",
+          "orcid": null
+        },
+        {
+          "name": "Yinlong Xu 0001",
+          "pid": "40/689-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhang-qingyang",
+      "pages": "513-529",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Zhang0PTX25"
+    },
+    {
+      "title": "SolFS: An Operation-Log Versioning File System for Hash-free Efficient Mobile Cloud Backup",
+      "authors": [
+        {
+          "name": "Riwei Pan",
+          "pid": "234/1664",
+          "orcid": null
+        },
+        {
+          "name": "Yu Liang 0004",
+          "pid": "65/1700-4",
+          "orcid": null
+        },
+        {
+          "name": "Lei Li 0067",
+          "pid": "13/7007-67",
+          "orcid": null
+        },
+        {
+          "name": "Hongchao Du",
+          "pid": "257/1447",
+          "orcid": null
+        },
+        {
+          "name": "Tei-Wei Kuo",
+          "pid": "07/3181",
+          "orcid": null
+        },
+        {
+          "name": "Chun Jason Xue",
+          "pid": "x/ChunJasonXue",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/pan",
+      "pages": "531-545",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Pan0LDKX25"
+    },
+    {
+      "title": "Z-LFS: A Zoned Namespace-tailored Log-structured File System for Commodity Small-zone ZNS SSDs",
+      "authors": [
+        {
+          "name": "Inhwi Hwang",
+          "pid": "291/3468",
+          "orcid": null
+        },
+        {
+          "name": "Sangjin Lee 0003",
+          "pid": "98/4041-3",
+          "orcid": null
+        },
+        {
+          "name": "Sunggon Kim",
+          "pid": "83/3168",
+          "orcid": null
+        },
+        {
+          "name": "Hyeonsang Eom",
+          "pid": "54/1476",
+          "orcid": null
+        },
+        {
+          "name": "Yongseok Son",
+          "pid": "137/0873",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/hwang",
+      "pages": "547-562",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Hwang0KES25"
+    },
+    {
+      "title": "CLONE: Customizing LLMs for Efficient Latency-Aware Inference at the Edge",
+      "authors": [
+        {
+          "name": "Chunlin Tian",
+          "pid": "194/2903",
+          "orcid": null
+        },
+        {
+          "name": "Xinpeng Qin",
+          "pid": "39/10132",
+          "orcid": null
+        },
+        {
+          "name": "Kahou Tam",
+          "pid": "349/7780",
+          "orcid": null
+        },
+        {
+          "name": "Li Li 0064",
+          "pid": "53/2189-64",
+          "orcid": null
+        },
+        {
+          "name": "Zijian Wang",
+          "pid": "03/4540",
+          "orcid": null
+        },
+        {
+          "name": "Yuanzhe Zhao",
+          "pid": "125/7813",
+          "orcid": null
+        },
+        {
+          "name": "Minglei Zhang",
+          "pid": "205/8019",
+          "orcid": null
+        },
+        {
+          "name": "Chengzhong Xu 0001",
+          "pid": "181/2765-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/tian",
+      "pages": "563-585",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/TianQT0WZZ025"
+    },
+    {
+      "title": "Weaver: Efficient Multi-LLM Serving with Attention Offloading",
+      "authors": [
+        {
+          "name": "Shiwei Gao",
+          "pid": "154/4277",
+          "orcid": null
+        },
+        {
+          "name": "Qing Wang 0031",
+          "pid": "97/6505-31",
+          "orcid": null
+        },
+        {
+          "name": "Shaoxun Zeng",
+          "pid": "351/5891",
+          "orcid": null
+        },
+        {
+          "name": "Youyou Lu",
+          "pid": "96/8005",
+          "orcid": null
+        },
+        {
+          "name": "Jiwu Shu",
+          "pid": "60/3690",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/gao",
+      "pages": "587-595",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Gao0ZLS25"
+    },
+    {
+      "title": "Torpor: GPU-Enabled Serverless Computing for Low-Latency, Resource-Efficient Inference",
+      "authors": [
+        {
+          "name": "Minchen Yu",
+          "pid": "227/0752",
+          "orcid": null
+        },
+        {
+          "name": "Ao Wang",
+          "pid": "87/3443",
+          "orcid": null
+        },
+        {
+          "name": "Dong Chen",
+          "pid": "44/3371",
+          "orcid": null
+        },
+        {
+          "name": "Haoxuan Yu",
+          "pid": "310/2360",
+          "orcid": null
+        },
+        {
+          "name": "Xiaonan Luo",
+          "pid": "24/7032",
+          "orcid": null
+        },
+        {
+          "name": "Zhuohao Li",
+          "pid": "319/2785",
+          "orcid": null
+        },
+        {
+          "name": "Wei Wang 0030",
+          "pid": "35/7092-30",
+          "orcid": null
+        },
+        {
+          "name": "Ruichuan Chen",
+          "pid": "03/2050",
+          "orcid": null
+        },
+        {
+          "name": "Dapeng Nie",
+          "pid": "348/9652",
+          "orcid": null
+        },
+        {
+          "name": "Haoran Yang",
+          "pid": "241/5752",
+          "orcid": null
+        },
+        {
+          "name": "Yu Ding",
+          "pid": "77/6871",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/yu",
+      "pages": "597-612",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/YuWCYLL0CNYD25"
+    },
+    {
+      "title": "Toppings: CPU-Assisted, Rank-Aware Adapter Serving for LLM Inference",
+      "authors": [
+        {
+          "name": "Suyi Li 0002",
+          "pid": "98/7732-2",
+          "orcid": null
+        },
+        {
+          "name": "Hanfeng Lu",
+          "pid": "367/3844",
+          "orcid": null
+        },
+        {
+          "name": "Tianyuan Wu",
+          "pid": "313/2867",
+          "orcid": null
+        },
+        {
+          "name": "Minchen Yu",
+          "pid": "227/0752",
+          "orcid": null
+        },
+        {
+          "name": "Qizhen Weng 0001",
+          "pid": "222/1610-1",
+          "orcid": null
+        },
+        {
+          "name": "Xusheng Chen",
+          "pid": "38/7674",
+          "orcid": null
+        },
+        {
+          "name": "Yizhou Shan",
+          "pid": "206/4531",
+          "orcid": null
+        },
+        {
+          "name": "Binhang Yuan",
+          "pid": "141/0690",
+          "orcid": null
+        },
+        {
+          "name": "Wei Wang 0030",
+          "pid": "35/7092-30",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/li-suyi-toppings",
+      "pages": "613-629",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/0002LWYWCSY025"
+    },
+    {
+      "title": "QFactory: Accelerating Quantized Large Language Model Serving with Qtile Graphs",
+      "authors": [
+        {
+          "name": "Qihao Zhang",
+          "pid": "250/3878",
+          "orcid": null
+        },
+        {
+          "name": "Mingshu Zhai",
+          "pid": "275/3272",
+          "orcid": null
+        },
+        {
+          "name": "Rui Sun",
+          "pid": "01/3595",
+          "orcid": null
+        },
+        {
+          "name": "Jidong Zhai",
+          "pid": "72/7413",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhang-qihao",
+      "pages": "631-646",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ZhangZSZ25"
+    },
+    {
+      "title": "PluS: Highly Efficient and Expandable ML Compiler with Pluggable Graph Schedules",
+      "authors": [
+        {
+          "name": "Ruofan Wu",
+          "pid": "182/7027",
+          "orcid": null
+        },
+        {
+          "name": "Zhen Zheng",
+          "pid": "115/5528",
+          "orcid": null
+        },
+        {
+          "name": "Feng Zhang 0007",
+          "pid": "48/1294-7",
+          "orcid": null
+        },
+        {
+          "name": "Chuanjie Liu",
+          "pid": "268/7848",
+          "orcid": null
+        },
+        {
+          "name": "Zaifeng Pan",
+          "pid": "294/8391",
+          "orcid": null
+        },
+        {
+          "name": "Jidong Zhai",
+          "pid": "72/7413",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoyong Du 0001",
+          "pid": "47/3542-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wu-ruofan",
+      "pages": "647-663",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/WuZ0LPZ025"
+    },
+    {
+      "title": "Obscura: Concealing Recomputation Overhead in Training of Large Language Models with Bubble-filling Pipeline Transformation",
+      "authors": [
+        {
+          "name": "Yuzhou Huang",
+          "pid": "267/2203",
+          "orcid": null
+        },
+        {
+          "name": "Yapeng Jiang",
+          "pid": "411/1716",
+          "orcid": null
+        },
+        {
+          "name": "Zicong Hong",
+          "pid": "239/5523",
+          "orcid": null
+        },
+        {
+          "name": "Wuhui Chen",
+          "pid": "02/8379",
+          "orcid": null
+        },
+        {
+          "name": "Bin Wang 0034",
+          "pid": "13/1898-34",
+          "orcid": null
+        },
+        {
+          "name": "Weixi Zhu",
+          "pid": "91/9792",
+          "orcid": null
+        },
+        {
+          "name": "Yue Yu 0001",
+          "pid": "55/2008-1",
+          "orcid": null
+        },
+        {
+          "name": "Zibin Zheng",
+          "pid": "z/ZibinZheng",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/huang-yuzhou",
+      "pages": "665-678",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/HuangJHC0Z0Z25"
+    },
+    {
+      "title": "PPipe: Efficient Video Analytics Serving on Heterogeneous GPU Clusters via Pool-Based Pipeline Parallelism",
+      "authors": [
+        {
+          "name": "Z. Jonny Kong",
+          "pid": "317/2694",
+          "orcid": null
+        },
+        {
+          "name": "Qiang Xu 0006",
+          "pid": "43/1230-6",
+          "orcid": null
+        },
+        {
+          "name": "Y. Charlie Hu",
+          "pid": "93/89",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/kong",
+      "pages": "679-698",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Kong0H25"
+    },
+    {
+      "title": "Voltrix: Sparse Matrix-Matrix Multiplication on Tensor Cores with Asynchronous and Balanced Kernel Optimization",
+      "authors": [
+        {
+          "name": "Yaqi Xia",
+          "pid": "290/7945",
+          "orcid": null
+        },
+        {
+          "name": "Weihu Wang",
+          "pid": "49/5821",
+          "orcid": null
+        },
+        {
+          "name": "Donglin Yang",
+          "pid": "224/2405",
+          "orcid": null
+        },
+        {
+          "name": "Xiaobo Zhou 0002",
+          "pid": "13/6395-2",
+          "orcid": null
+        },
+        {
+          "name": "Dazhao Cheng",
+          "pid": "140/9578",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/xia",
+      "pages": "699-714",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/XiaWY0C25"
+    },
+    {
+      "title": "NetKeeper: Enhancing Network Resilience with Autonomous Network Configuration Update on Traffic Patterns and Anomalies",
+      "authors": [
+        {
+          "name": "Zhaoyang Wan",
+          "pid": "34/8092",
+          "orcid": null
+        },
+        {
+          "name": "Rongxin Han",
+          "pid": "337/7485",
+          "orcid": null
+        },
+        {
+          "name": "Haifeng Sun 0001",
+          "pid": "00/11044-1",
+          "orcid": null
+        },
+        {
+          "name": "Qi Qi 0001",
+          "pid": "80/6406-1",
+          "orcid": null
+        },
+        {
+          "name": "Zirui Zhuang",
+          "pid": "235/7014",
+          "orcid": null
+        },
+        {
+          "name": "Bo He 0003",
+          "pid": "04/2868-3",
+          "orcid": null
+        },
+        {
+          "name": "Liang Zhang",
+          "pid": "50/6759",
+          "orcid": null
+        },
+        {
+          "name": "Jianxin Liao",
+          "pid": "60/4951",
+          "orcid": null
+        },
+        {
+          "name": "Jingyu Wang 0001",
+          "pid": "37/2749-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wan",
+      "pages": "715-730",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/WanH00Z0ZL025"
+    },
+    {
+      "title": "GREYHOUND: Hunting Fail-Slows in Hybrid-Parallel Training at Scale",
+      "authors": [
+        {
+          "name": "Tianyuan Wu",
+          "pid": "313/2867",
+          "orcid": null
+        },
+        {
+          "name": "Wei Wang 0030",
+          "pid": "35/7092-30",
+          "orcid": null
+        },
+        {
+          "name": "Yinghao Yu",
+          "pid": "147/5299",
+          "orcid": null
+        },
+        {
+          "name": "Siran Yang",
+          "pid": "284/0883",
+          "orcid": null
+        },
+        {
+          "name": "Wenchao Wu",
+          "pid": "159/1364",
+          "orcid": null
+        },
+        {
+          "name": "Qinkai Duan",
+          "pid": "378/1459",
+          "orcid": null
+        },
+        {
+          "name": "Guodong Yang",
+          "pid": "58/7626",
+          "orcid": null
+        },
+        {
+          "name": "Jiamang Wang",
+          "pid": "290/7284",
+          "orcid": null
+        },
+        {
+          "name": "Lin Qu",
+          "pid": "67/2906",
+          "orcid": null
+        },
+        {
+          "name": "Liping Zhang 0013",
+          "pid": "48/6735-13",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wu-tianyuan",
+      "pages": "731-747",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Wu0YYWDYWQZ25"
+    },
+    {
+      "title": "Crash Consistency in Block-Level Caching Systems: An Open CAS Case Study",
+      "authors": [
+        {
+          "name": "Shaohua Duan",
+          "pid": "164/0525",
+          "orcid": null
+        },
+        {
+          "name": "Youmin Chen",
+          "pid": "203/1564",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/duan-shaohua",
+      "pages": "749-764",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/DuanC25"
+    },
+    {
+      "title": "FiDe: Reliable and Fast Crash Failure Detection to Boost Datacenter Coordination",
+      "authors": [
+        {
+          "name": "Davide Rovelli",
+          "pid": "321/4216",
+          "orcid": null
+        },
+        {
+          "name": "Pavel Chuprikov",
+          "pid": "167/4287",
+          "orcid": null
+        },
+        {
+          "name": "Philipp Berdesinski",
+          "pid": "411/1703",
+          "orcid": null
+        },
+        {
+          "name": "Ali Pahlevan",
+          "pid": "179/3130",
+          "orcid": null
+        },
+        {
+          "name": "Patrick Jahnke",
+          "pid": "177/6589",
+          "orcid": null
+        },
+        {
+          "name": "Patrick Eugster",
+          "pid": "14/4443",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/rovelli",
+      "pages": "765-788",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/RovelliCBPJE25"
+    },
+    {
+      "title": "LEOCraft: Towards Designing Performant LEO Networks",
+      "authors": [
+        {
+          "name": "Suvam Basak",
+          "pid": "327/3925",
+          "orcid": null
+        },
+        {
+          "name": "Amitangshu Pal",
+          "pid": "59/7987",
+          "orcid": null
+        },
+        {
+          "name": "Debopam Bhattacherjee",
+          "pid": "203/1819",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/basak",
+      "pages": "789-813",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/BasakPB25"
+    },
+    {
+      "title": "Emulating Space Computing Networks with RHONE",
+      "authors": [
+        {
+          "name": "Liying Wang 0011",
+          "pid": "75/3190-11",
+          "orcid": null
+        },
+        {
+          "name": "Qing Li 0028",
+          "pid": "181/2689-28",
+          "orcid": null
+        },
+        {
+          "name": "Yuhan Zhou",
+          "pid": "122/5092",
+          "orcid": null
+        },
+        {
+          "name": "Zhaofeng Luo",
+          "pid": "358/9561",
+          "orcid": null
+        },
+        {
+          "name": "Donghao Zhang",
+          "pid": "157/0280",
+          "orcid": null
+        },
+        {
+          "name": "Shangguang Wang",
+          "pid": "73/8637",
+          "orcid": null
+        },
+        {
+          "name": "Xuanzhe Liu",
+          "pid": "08/2161",
+          "orcid": null
+        },
+        {
+          "name": "Chenren Xu",
+          "pid": "94/8865",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wang-liying",
+      "pages": "815-831",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Wang0ZLZWLX25"
+    },
+    {
+      "title": "Roaming Free in the VR World with MP2",
+      "authors": [
+        {
+          "name": "Yifei Xu",
+          "pid": "11/504",
+          "orcid": null
+        },
+        {
+          "name": "Xumiao Zhang",
+          "pid": "207/1740",
+          "orcid": null
+        },
+        {
+          "name": "Yuning Chen",
+          "pid": "149/9332",
+          "orcid": null
+        },
+        {
+          "name": "Pan Hu",
+          "pid": "96/3740",
+          "orcid": null
+        },
+        {
+          "name": "Xuan Zeng 0002",
+          "pid": "58/5418-2",
+          "orcid": null
+        },
+        {
+          "name": "Zhilong Zheng",
+          "pid": "116/8571",
+          "orcid": null
+        },
+        {
+          "name": "Xianshang Lin",
+          "pid": "224/2312",
+          "orcid": null
+        },
+        {
+          "name": "Yanmei Liu",
+          "pid": "33/4737",
+          "orcid": null
+        },
+        {
+          "name": "Songwu Lu",
+          "pid": "55/758",
+          "orcid": null
+        },
+        {
+          "name": "Z. Morley Mao",
+          "pid": "91/584",
+          "orcid": null
+        },
+        {
+          "name": "Wan Du",
+          "pid": "28/9430",
+          "orcid": null
+        },
+        {
+          "name": "Dennis Cai",
+          "pid": "130/8438",
+          "orcid": null
+        },
+        {
+          "name": "Ennan Zhai",
+          "pid": "23/7560",
+          "orcid": null
+        },
+        {
+          "name": "Yunfei Ma",
+          "pid": "80/7673",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/xu",
+      "pages": "833-850",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/XuZCHZZLLLMDCZM25"
+    },
+    {
+      "title": "STORM: a Multipath QUIC Scheduler for Quick Streaming Media Transport under Unstable Mobile Networks",
+      "authors": [
+        {
+          "name": "Liekun Hu",
+          "pid": "411/1707",
+          "orcid": null
+        },
+        {
+          "name": "Changlong Li",
+          "pid": "148/6622",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/hu-liekun",
+      "pages": "851-866",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/HuL25"
+    },
+    {
+      "title": "Internet Connection Splitting: What's Old is New Again",
+      "authors": [
+        {
+          "name": "Gina Yuan",
+          "pid": "228/6090",
+          "orcid": null
+        },
+        {
+          "name": "Thea Rossman",
+          "pid": "322/4216",
+          "orcid": null
+        },
+        {
+          "name": "Keith Winstein",
+          "pid": "38/11404",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/yuan",
+      "pages": "867-887",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/YuanRW25"
+    },
+    {
+      "title": "WIC: Hiding Producer-Consumer Synchronization Delays with Warp-Level Interrupt-based GPU Communications",
+      "authors": [
+        {
+          "name": "Jiajian Zhang",
+          "pid": "227/0259",
+          "orcid": null
+        },
+        {
+          "name": "Fangyu Wu 0001",
+          "pid": "200/7639-1",
+          "orcid": null
+        },
+        {
+          "name": "Hai Jiang 0003",
+          "pid": "15/5983-3",
+          "orcid": null
+        },
+        {
+          "name": "Qiufeng Wang 0001",
+          "pid": "86/7443-1",
+          "orcid": null
+        },
+        {
+          "name": "Genlang Chen",
+          "pid": "172/2689",
+          "orcid": null
+        },
+        {
+          "name": "Chaoyi Pang",
+          "pid": "60/987",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhang-jiajian",
+      "pages": "889-904",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Zhang000CP25"
+    },
+    {
+      "title": "Primus: Unified Training System for Large-Scale Deep Learning Recommendation Models",
+      "authors": [
+        {
+          "name": "Jixi Shan",
+          "pid": "130/9997",
+          "orcid": null
+        },
+        {
+          "name": "Xiuqi Huang",
+          "pid": "239/4443",
+          "orcid": null
+        },
+        {
+          "name": "Yang Guo",
+          "pid": "73/1810",
+          "orcid": null
+        },
+        {
+          "name": "Hongyue Mao",
+          "pid": "234/5239",
+          "orcid": null
+        },
+        {
+          "name": "Ho-Pang Hsu",
+          "pid": "175/3384",
+          "orcid": null
+        },
+        {
+          "name": "Hang Cheng",
+          "pid": "10/726",
+          "orcid": null
+        },
+        {
+          "name": "Can Wang",
+          "pid": "71/4716",
+          "orcid": null
+        },
+        {
+          "name": "Jun Song",
+          "pid": "60/5360",
+          "orcid": null
+        },
+        {
+          "name": "Rui Shi",
+          "pid": "66/4466",
+          "orcid": null
+        },
+        {
+          "name": "Xiaofeng Gao 0001",
+          "pid": "95/6947-1",
+          "orcid": null
+        },
+        {
+          "name": "Jingwei Xu",
+          "pid": "148/9997",
+          "orcid": null
+        },
+        {
+          "name": "Shiru Ren",
+          "pid": "172/5411",
+          "orcid": null
+        },
+        {
+          "name": "Jiaxiao Zheng",
+          "pid": "137/0235",
+          "orcid": null
+        },
+        {
+          "name": "Hua Huang",
+          "pid": "70/5618",
+          "orcid": null
+        },
+        {
+          "name": "Lele Yu",
+          "pid": "135/5193",
+          "orcid": null
+        },
+        {
+          "name": "Peng Xu",
+          "pid": "84/586",
+          "orcid": null
+        },
+        {
+          "name": "Guihai Chen",
+          "pid": "51/1742",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/shan-jixi",
+      "pages": "905-922",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ShanHGMHCWSS0XR25"
+    },
+    {
+      "title": "Chitu: Avoiding Unnecessary Fallback in Byzantine Consensus",
+      "authors": [
+        {
+          "name": "Rongji Huang",
+          "pid": "411/1691",
+          "orcid": null
+        },
+        {
+          "name": "Xiangzhe Wang",
+          "pid": "361/4980",
+          "orcid": null
+        },
+        {
+          "name": "Xiaofeng Yan",
+          "pid": "225/1882",
+          "orcid": null
+        },
+        {
+          "name": "Lei Fan 0002",
+          "pid": "40/759-2",
+          "orcid": null
+        },
+        {
+          "name": "Guangtao Xue",
+          "pid": "79/1810",
+          "orcid": null
+        },
+        {
+          "name": "Shengyun Liu",
+          "pid": "52/9705",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/huang-rongji",
+      "pages": "923-942",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/HuangWY0XL25"
+    },
+    {
+      "title": "Fast Distributed Transactions for RDMA-based Disaggregated Memory",
+      "authors": [
+        {
+          "name": "Haodi Lu",
+          "pid": "303/7317",
+          "orcid": null
+        },
+        {
+          "name": "Haikun Liu",
+          "pid": "43/849",
+          "orcid": null
+        },
+        {
+          "name": "Yujian Zhang",
+          "pid": "122/5632",
+          "orcid": null
+        },
+        {
+          "name": "Zhuohui Duan",
+          "pid": "218/1139",
+          "orcid": null
+        },
+        {
+          "name": "Xiaofei Liao",
+          "pid": "56/4402",
+          "orcid": null
+        },
+        {
+          "name": "Hai Jin 0001",
+          "pid": "98/4156",
+          "orcid": null
+        },
+        {
+          "name": "Yu Zhang 0027",
+          "pid": "50/671-27",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/lu",
+      "pages": "943-958",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/LuLZDL0025"
+    },
+    {
+      "title": "Cuckoo for Clients: Disaggregated Cuckoo Hashing",
+      "authors": [
+        {
+          "name": "Stewart Grant",
+          "pid": "222/5867",
+          "orcid": null
+        },
+        {
+          "name": "Alex C. Snoeren",
+          "pid": "s/AlexCSnoeren",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/grant",
+      "pages": "959-972",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/GrantS25"
+    },
+    {
+      "title": "LITESHIELD: Secure Containers via Lightweight, Composable Userspace μKernel Services",
+      "authors": [
+        {
+          "name": "Kaesi Manakkal",
+          "pid": "411/1720",
+          "orcid": null
+        },
+        {
+          "name": "Nathan Daughety",
+          "pid": "310/4617",
+          "orcid": null
+        },
+        {
+          "name": "Marcus Pendleton",
+          "pid": "175/1742",
+          "orcid": null
+        },
+        {
+          "name": "Hui Lu 0001",
+          "pid": "65/4062-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/manakkal",
+      "pages": "973-985",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ManakkalDP025"
+    },
+    {
+      "title": "Accelerating Nested Virtualization with HyperTurtle",
+      "authors": [
+        {
+          "name": "Ori Ben Zur",
+          "pid": "349/9106",
+          "orcid": null
+        },
+        {
+          "name": "Jakob Krebs",
+          "pid": "411/1710",
+          "orcid": null
+        },
+        {
+          "name": "Shai Aviram Bergman",
+          "pid": "184/8323",
+          "orcid": null
+        },
+        {
+          "name": "Mark Silberstein",
+          "pid": "94/2996",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zur",
+      "pages": "987-1002",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ZurKBS25"
+    },
+    {
+      "title": "Efficient Performance-Aware GPU Sharing with Compatibility and Isolation through Kernel Space Interception",
+      "authors": [
+        {
+          "name": "Shulai Zhang",
+          "pid": "251/9029",
+          "orcid": null
+        },
+        {
+          "name": "Ao Xu",
+          "pid": "144/1660",
+          "orcid": null
+        },
+        {
+          "name": "Quan Chen 0002",
+          "pid": "40/3858-2",
+          "orcid": null
+        },
+        {
+          "name": "Han Zhao 0005",
+          "pid": "03/3520-5",
+          "orcid": null
+        },
+        {
+          "name": "Weihao Cui",
+          "pid": "243/1639",
+          "orcid": null
+        },
+        {
+          "name": "Zhen Wang",
+          "pid": "78/6727",
+          "orcid": null
+        },
+        {
+          "name": "Yan Li",
+          "pid": "87/660",
+          "orcid": null
+        },
+        {
+          "name": "Limin Xiao 0001",
+          "pid": "31/5990-1",
+          "orcid": null
+        },
+        {
+          "name": "Minyi Guo",
+          "pid": "99/6797",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhang-shulai",
+      "pages": "1003-1019",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ZhangX00CWLXG25"
+    },
+    {
+      "title": "AnchorNet: Bridging Live and Collaborative Streaming with a Unified Architecture",
+      "authors": [
+        {
+          "name": "Tong Meng",
+          "pid": "117/3361",
+          "orcid": null
+        },
+        {
+          "name": "Wei Zhang",
+          "pid": "10/4661",
+          "orcid": null
+        },
+        {
+          "name": "Dong Chen",
+          "pid": "44/3371",
+          "orcid": null
+        },
+        {
+          "name": "Zhen Wang",
+          "pid": "78/6727",
+          "orcid": null
+        },
+        {
+          "name": "Quanqing Li",
+          "pid": "140/0979",
+          "orcid": null
+        },
+        {
+          "name": "Changqing Yan",
+          "pid": "135/9206",
+          "orcid": null
+        },
+        {
+          "name": "Wei Yang",
+          "pid": "03/1094",
+          "orcid": null
+        },
+        {
+          "name": "Chao Yuan",
+          "pid": "22/6365",
+          "orcid": null
+        },
+        {
+          "name": "Le Zhang",
+          "pid": "03/4043",
+          "orcid": null
+        },
+        {
+          "name": "Jianxin Kuang",
+          "pid": "411/1711",
+          "orcid": null
+        },
+        {
+          "name": "Jianlin Xu",
+          "pid": "191/7144",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/meng",
+      "pages": "1021-1036",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/MengZCWLYYYZKX25"
+    },
+    {
+      "title": "Katz: Efficient Workflow Serving for Diffusion Models with Many Adapters",
+      "authors": [
+        {
+          "name": "Suyi Li 0002",
+          "pid": "98/7732-2",
+          "orcid": null
+        },
+        {
+          "name": "Lingyun Yang",
+          "pid": "16/1292",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoxiao Jiang",
+          "pid": "142/9120",
+          "orcid": null
+        },
+        {
+          "name": "Hanfeng Lu",
+          "pid": "367/3844",
+          "orcid": null
+        },
+        {
+          "name": "Dakai An",
+          "pid": "389/2594",
+          "orcid": null
+        },
+        {
+          "name": "Zhipeng Di",
+          "pid": "314/6383",
+          "orcid": null
+        },
+        {
+          "name": "Weiyi Lu",
+          "pid": "162/2445",
+          "orcid": null
+        },
+        {
+          "name": "Jiawei Chen",
+          "pid": "03/1390",
+          "orcid": null
+        },
+        {
+          "name": "Kan Liu",
+          "pid": "40/6799",
+          "orcid": null
+        },
+        {
+          "name": "Yinghao Yu",
+          "pid": "147/5299",
+          "orcid": null
+        },
+        {
+          "name": "Tao Lan",
+          "pid": "277/0401",
+          "orcid": null
+        },
+        {
+          "name": "Guodong Yang",
+          "pid": "58/7626",
+          "orcid": null
+        },
+        {
+          "name": "Lin Qu",
+          "pid": "67/2906",
+          "orcid": null
+        },
+        {
+          "name": "Liping Zhang 0013",
+          "pid": "48/6735-13",
+          "orcid": null
+        },
+        {
+          "name": "Wei Wang 0030",
+          "pid": "35/7092-30",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/li-suyi-katz",
+      "pages": "1037-1052",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/0002YJLADLCLYLY25"
+    },
+    {
+      "title": "PopFetcher: Towards Accelerated Mixture-of-Experts Training Via Popularity Based Expert-Wise Prefetch",
+      "authors": [
+        {
+          "name": "Junyi Zhang",
+          "pid": "00/1627",
+          "orcid": null
+        },
+        {
+          "name": "Chuanhu Ma",
+          "pid": "401/6125",
+          "orcid": null
+        },
+        {
+          "name": "Xiong Wang 0006",
+          "pid": "89/4432-6",
+          "orcid": null
+        },
+        {
+          "name": "Yuntao Nie",
+          "pid": "411/1689",
+          "orcid": null
+        },
+        {
+          "name": "Yuqing Li 0001",
+          "pid": "73/3521-1",
+          "orcid": null
+        },
+        {
+          "name": "Yuedong Xu 0001",
+          "pid": "26/340",
+          "orcid": null
+        },
+        {
+          "name": "Xiaofei Liao",
+          "pid": "56/4402",
+          "orcid": null
+        },
+        {
+          "name": "Bo Li 0001",
+          "pid": "50/3402-1",
+          "orcid": null
+        },
+        {
+          "name": "Hai Jin 0001",
+          "pid": "98/4156",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhang-junyi",
+      "pages": "1053-1069",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ZhangMWNL0L0025"
+    },
+    {
+      "title": "HypeReca: Distributed Heterogeneous In-Memory Embedding Database for Training Recommender Models",
+      "authors": [
+        {
+          "name": "Jiaao He",
+          "pid": "249/2660",
+          "orcid": null
+        },
+        {
+          "name": "Shengqi Chen 0001",
+          "pid": "156/3418",
+          "orcid": null
+        },
+        {
+          "name": "Kezhao Huang",
+          "pid": "264/1773",
+          "orcid": null
+        },
+        {
+          "name": "Jidong Zhai",
+          "pid": "72/7413",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/he-jiaao",
+      "pages": "1071-1087",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/He0HZ25"
+    },
+    {
+      "title": "CrossPipe: Towards Optimal Pipeline Schedules for Cross-Datacenter Training",
+      "authors": [
+        {
+          "name": "Tiancheng Chen",
+          "pid": "249/5035",
+          "orcid": null
+        },
+        {
+          "name": "Ales Kubicek",
+          "pid": "348/5541",
+          "orcid": null
+        },
+        {
+          "name": "Langwen Huang",
+          "pid": "323/5105",
+          "orcid": null
+        },
+        {
+          "name": "Torsten Hoefler",
+          "pid": "16/3869",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/chen-tiancheng",
+      "pages": "1089-1108",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ChenKHH25"
+    },
+    {
+      "title": "Unveiling Compiler Faults via Attribute-Guided Compilation Space Exploration",
+      "authors": [
+        {
+          "name": "Jiangchang Wu",
+          "pid": "348/0991",
+          "orcid": null
+        },
+        {
+          "name": "Yibiao Yang",
+          "pid": "138/0251",
+          "orcid": null
+        },
+        {
+          "name": "Maolin Sun",
+          "pid": "233/2019",
+          "orcid": null
+        },
+        {
+          "name": "Yuming Zhou",
+          "pid": "06/3406",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wu-jiangchang",
+      "pages": "1109-1125",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/WuYSZ25"
+    },
+    {
+      "title": "Understanding and Detecting Fail-Slow Hardware Failure Bugs in Cloud Systems",
+      "authors": [
+        {
+          "name": "Gen Dong",
+          "pid": "399/1951",
+          "orcid": null
+        },
+        {
+          "name": "Yu Hua 0001",
+          "pid": "52/3115-1",
+          "orcid": null
+        },
+        {
+          "name": "Yongle Zhang 0007",
+          "pid": "120/1722-7",
+          "orcid": null
+        },
+        {
+          "name": "Zhangyu Chen",
+          "pid": "241/5080",
+          "orcid": null
+        },
+        {
+          "name": "Menglei Chen",
+          "pid": "215/7193",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/dong",
+      "pages": "1127-1142",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Dong0ZCC25"
+    },
+    {
+      "title": "Converos: Practical Model Checking for Verifying Rust OS Kernel Concurrency",
+      "authors": [
+        {
+          "name": "Ruize Tang",
+          "pid": "373/4608",
+          "orcid": null
+        },
+        {
+          "name": "Minghua Wang",
+          "pid": "50/8713",
+          "orcid": null
+        },
+        {
+          "name": "Xudong Sun 0013",
+          "pid": "283/7782",
+          "orcid": null
+        },
+        {
+          "name": "Lin Huang 0005",
+          "pid": "74/2101-5",
+          "orcid": null
+        },
+        {
+          "name": "Yu Huang 0002",
+          "pid": "h/YuHuang2",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoxing Ma",
+          "pid": "67/3058",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/tang",
+      "pages": "1143-1159",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/TangW0H0M25"
+    },
+    {
+      "title": "Bin2Wrong: a Unified Fuzzing Framework for Uncovering Semantic Errors in Binary-to-C Decompilers",
+      "authors": [
+        {
+          "name": "Zao Yang",
+          "pid": "12/2346",
+          "orcid": null
+        },
+        {
+          "name": "Stefan Nagy",
+          "pid": "168/9038",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/yang-zao",
+      "pages": "1161-1179",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/YangN25"
+    },
+    {
+      "title": "HEC: Equivalence Verification Checking for Code Transformation via Equality Saturation",
+      "authors": [
+        {
+          "name": "Jiaqi Yin",
+          "pid": "215/4055",
+          "orcid": null
+        },
+        {
+          "name": "Zhan Song",
+          "pid": "53/1204",
+          "orcid": null
+        },
+        {
+          "name": "Nicolas Bohm Agostini",
+          "pid": "248/4986",
+          "orcid": null
+        },
+        {
+          "name": "Antonino Tumeo",
+          "pid": "53/3654",
+          "orcid": null
+        },
+        {
+          "name": "Cunxi Yu",
+          "pid": "163/3654",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/yin",
+      "pages": "1181-1196",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/YinSATY25"
+    },
+    {
+      "title": "Para-ksm: Parallelized Memory Deduplication with Data Streaming Accelerator",
+      "authors": [
+        {
+          "name": "Houxiang Ji",
+          "pid": "205/7183",
+          "orcid": null
+        },
+        {
+          "name": "Minho Kim",
+          "pid": "77/2354",
+          "orcid": null
+        },
+        {
+          "name": "Seonmu Oh",
+          "pid": "398/7972",
+          "orcid": null
+        },
+        {
+          "name": "Daehoon Kim 0001",
+          "pid": "97/7677-1",
+          "orcid": null
+        },
+        {
+          "name": "Nam Sung Kim",
+          "pid": "18/1402",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/ji",
+      "pages": "1197-1212",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/JiKOKK25"
+    },
+    {
+      "title": "DSA-2LM: A CPU-Free Tiered Memory Architecture with Intel DSA",
+      "authors": [
+        {
+          "name": "Ruili Liu",
+          "pid": "265/6055",
+          "orcid": null
+        },
+        {
+          "name": "Teng Ma 0006",
+          "pid": "24/5931-6",
+          "orcid": null
+        },
+        {
+          "name": "Mingxing Zhang",
+          "pid": "153/5382",
+          "orcid": null
+        },
+        {
+          "name": "Jialiang Huang",
+          "pid": "51/957",
+          "orcid": null
+        },
+        {
+          "name": "Yingdi Shan",
+          "pid": "304/2509",
+          "orcid": null
+        },
+        {
+          "name": "Zheng Liu 0022",
+          "pid": "06/3580-22",
+          "orcid": null
+        },
+        {
+          "name": "Lingfeng Xiang",
+          "pid": "317/2549",
+          "orcid": null
+        },
+        {
+          "name": "Zhen Lin",
+          "pid": "26/346",
+          "orcid": null
+        },
+        {
+          "name": "Hui Lu 0001",
+          "pid": "65/4062-1",
+          "orcid": null
+        },
+        {
+          "name": "Jia Rao",
+          "pid": "38/618",
+          "orcid": null
+        },
+        {
+          "name": "Kang Chen 0001",
+          "pid": "91/6670-1",
+          "orcid": null
+        },
+        {
+          "name": "Yongwei Wu 0001",
+          "pid": "38/880",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/liu-ruili",
+      "pages": "1213-1222",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/LiuMZHSLXL0RC025"
+    },
+    {
+      "title": "Turbocharge ANNS on Real Processing-in-Memory by Enabling Fine-Grained Per-PIM-Core Scheduling",
+      "authors": [
+        {
+          "name": "Puqing Wu",
+          "pid": "393/6198",
+          "orcid": null
+        },
+        {
+          "name": "Minhui Xie",
+          "pid": "06/5769",
+          "orcid": null
+        },
+        {
+          "name": "Enrui Zhao",
+          "pid": "363/2562",
+          "orcid": null
+        },
+        {
+          "name": "Dafang Zhang",
+          "pid": "16/2420",
+          "orcid": null
+        },
+        {
+          "name": "Jing Wang",
+          "pid": "02/736",
+          "orcid": null
+        },
+        {
+          "name": "Xiao Liang",
+          "pid": "06/4676",
+          "orcid": null
+        },
+        {
+          "name": "Kai Ren",
+          "pid": "01/7592",
+          "orcid": null
+        },
+        {
+          "name": "Yunpeng Chai",
+          "pid": "42/3363",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wu-puqing",
+      "pages": "1223-1241",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/WuXZZWLRC25"
+    },
+    {
+      "title": "SwCC: Software-Programmable and Per-Packet Congestion Control in RDMA Engine",
+      "authors": [
+        {
+          "name": "Hongjing Huang",
+          "pid": "264/9834",
+          "orcid": null
+        },
+        {
+          "name": "Jie Zhang 0081",
+          "pid": "84/6889-81",
+          "orcid": null
+        },
+        {
+          "name": "Xuzheng Chen",
+          "pid": "367/9362",
+          "orcid": null
+        },
+        {
+          "name": "Ziyu Song",
+          "pid": "337/3000",
+          "orcid": null
+        },
+        {
+          "name": "Jiajun Qin",
+          "pid": "127/0562",
+          "orcid": null
+        },
+        {
+          "name": "Zeke Wang",
+          "pid": "233/6269",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/huang-hongjing",
+      "pages": "1243-1260",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Huang0CSQW25"
+    },
+    {
+      "title": "DRack: A CXL-Disaggregated Rack Architecture to Boost Inter-Rack Communication",
+      "authors": [
+        {
+          "name": "Xu Zhang 0033",
+          "pid": "98/5660-33",
+          "orcid": null
+        },
+        {
+          "name": "Ke Liu 0004",
+          "pid": "32/2948-4",
+          "orcid": null
+        },
+        {
+          "name": "Yuan Hui 0001",
+          "pid": "427/1373",
+          "orcid": null
+        },
+        {
+          "name": "Xiaolong Zheng",
+          "pid": "98/3341",
+          "orcid": null
+        },
+        {
+          "name": "Yisong Chang",
+          "pid": "61/10513",
+          "orcid": null
+        },
+        {
+          "name": "Yizhou Shan",
+          "pid": "206/4531",
+          "orcid": null
+        },
+        {
+          "name": "Guanghui Zhang",
+          "pid": "66/5976",
+          "orcid": null
+        },
+        {
+          "name": "Ke Zhang 0017",
+          "pid": "20/4152-17",
+          "orcid": null
+        },
+        {
+          "name": "Yungang Bao",
+          "pid": "08/6937",
+          "orcid": null
+        },
+        {
+          "name": "Mingyu Chen 0001",
+          "pid": "62/5558",
+          "orcid": null
+        },
+        {
+          "name": "Chenxi Wang 0005",
+          "pid": "52/3121-5",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhang-xu",
+      "pages": "1261-1279",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Zhang0HZCSZ0B0W25"
+    },
+    {
+      "title": "ShieldReduce: Fine-Grained Shielded Data Reduction",
+      "authors": [
+        {
+          "name": "Jingyuan Yang 0018",
+          "pid": "411/1699",
+          "orcid": null
+        },
+        {
+          "name": "Jun Wu 0001",
+          "pid": "20/3894-1",
+          "orcid": null
+        },
+        {
+          "name": "Ruilin Wu",
+          "pid": "186/0938",
+          "orcid": null
+        },
+        {
+          "name": "Jingwei Li 0001",
+          "pid": "92/7728-1",
+          "orcid": null
+        },
+        {
+          "name": "Patrick P. C. Lee",
+          "pid": "25/4018",
+          "orcid": null
+        },
+        {
+          "name": "Xiong Li 0002",
+          "pid": "63/6031-2",
+          "orcid": null
+        },
+        {
+          "name": "Xiaosong Zhang 0001",
+          "pid": "26/3075-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/yang-jingyuan",
+      "pages": "1281-1296",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/YangWW0L0025"
+    },
+    {
+      "title": "MemoryTrap: Booby Trapping Memory to Counter Memory Disclosure Attacks with Hardware Support",
+      "authors": [
+        {
+          "name": "Chenke Luo",
+          "pid": "204/8454",
+          "orcid": "0000-0002-3991-2651"
+        },
+        {
+          "name": "Jiang Ming 0002",
+          "pid": "09/6585-2",
+          "orcid": null
+        },
+        {
+          "name": "Dongpeng Xu 0001",
+          "pid": "158/2764",
+          "orcid": null
+        },
+        {
+          "name": "Guojun Peng",
+          "pid": "30/4066",
+          "orcid": null
+        },
+        {
+          "name": "Jianming Fu",
+          "pid": "44/2489",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/luo",
+      "pages": "1297-1318",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Luo00PF25"
+    },
+    {
+      "title": "Separate but Together: Integrating Remote Attestation into TLS",
+      "authors": [
+        {
+          "name": "Carsten Weinhold",
+          "pid": "01/2772",
+          "orcid": null
+        },
+        {
+          "name": "Muhammad Usama Sardar",
+          "pid": "180/8569",
+          "orcid": null
+        },
+        {
+          "name": "Ionut Mihalcea",
+          "pid": "333/9872",
+          "orcid": null
+        },
+        {
+          "name": "Yogesh Deshpande",
+          "pid": "07/5115",
+          "orcid": null
+        },
+        {
+          "name": "Hannes Tschofenig",
+          "pid": "97/4804",
+          "orcid": null
+        },
+        {
+          "name": "Yaron Sheffer",
+          "pid": "71/1125",
+          "orcid": null
+        },
+        {
+          "name": "Thomas Fossati",
+          "pid": "141/5967",
+          "orcid": null
+        },
+        {
+          "name": "Michael Roitzsch",
+          "pid": "18/2206",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/weinhold",
+      "pages": "1319-1326",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/WeinholdSMDTSFR25"
+    },
+    {
+      "title": "DDLumos: Understanding and Detecting Atomic DDL Bugs in DBMSs",
+      "authors": [
+        {
+          "name": "Zhiyong Wu 0010",
+          "pid": "24/968-10",
+          "orcid": null
+        },
+        {
+          "name": "Jie Liang 0006",
+          "pid": "51/239-6",
+          "orcid": null
+        },
+        {
+          "name": "Jingzhou Fu",
+          "pid": "337/0812",
+          "orcid": null
+        },
+        {
+          "name": "Wenqian Deng",
+          "pid": "408/8709",
+          "orcid": null
+        },
+        {
+          "name": "Yu Jiang 0001",
+          "pid": "21/4633-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wu-zhiyong",
+      "pages": "1327-1341",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/00100FD025"
+    },
+    {
+      "title": "SpaceExit: Enabling Efficient Adaptive Computing in Space with Early Exits",
+      "authors": [
+        {
+          "name": "Jiacheng Liu 0001",
+          "pid": "202/3902-1",
+          "orcid": null
+        },
+        {
+          "name": "Xiaozhi Zhu",
+          "pid": "270/8413",
+          "orcid": null
+        },
+        {
+          "name": "Tongqiao Xu",
+          "pid": "360/2370",
+          "orcid": null
+        },
+        {
+          "name": "Xiaofeng Hou",
+          "pid": "184/8262",
+          "orcid": null
+        },
+        {
+          "name": "Chao Li 0009",
+          "pid": "66/190-9",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/liu-jiacheng",
+      "pages": "1343-1358",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/0001ZXH025"
+    },
+    {
+      "title": "XRT: An Accelerator-Aware Runtime for Accelerated Chip Multiprocessors",
+      "authors": [
+        {
+          "name": "Neel Patel",
+          "pid": "204/6190",
+          "orcid": null
+        },
+        {
+          "name": "Mohammad Alian",
+          "pid": "181/8776",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/patel",
+      "pages": "1359-1369",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/PatelA25"
+    },
+    {
+      "title": "DShuffle: DPU-Optimized Shuffle Framework for Large-scale Data Processing",
+      "authors": [
+        {
+          "name": "Chen Ding 0012",
+          "pid": "83/2822-12",
+          "orcid": null
+        },
+        {
+          "name": "Sicen Li",
+          "pid": "304/4910",
+          "orcid": null
+        },
+        {
+          "name": "Kai Lu 0002",
+          "pid": "31/6932-2",
+          "orcid": null
+        },
+        {
+          "name": "Ting Yao 0001",
+          "pid": "84/8277-1",
+          "orcid": null
+        },
+        {
+          "name": "Daohui Wang",
+          "pid": "332/1457",
+          "orcid": null
+        },
+        {
+          "name": "Huatao Wu",
+          "pid": "362/4234",
+          "orcid": null
+        },
+        {
+          "name": "Jiguang Wan 0001",
+          "pid": "91/8380-1",
+          "orcid": null
+        },
+        {
+          "name": "Zhihu Tan",
+          "pid": "70/6545",
+          "orcid": null
+        },
+        {
+          "name": "Changsheng Xie 0001",
+          "pid": "54/2020-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/ding",
+      "pages": "1371-1386",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/DingLLYWWWTX25"
+    },
+    {
+      "title": "Accelerating Model Training on Ascend Chips: An Industrial System for Profiling, Analysis and Optimization",
+      "authors": [
+        {
+          "name": "Yuhang Zhou",
+          "pid": "158/9202",
+          "orcid": null
+        },
+        {
+          "name": "Zibo Wang",
+          "pid": "133/7314",
+          "orcid": null
+        },
+        {
+          "name": "Zhibin Wang 0002",
+          "pid": "67/1237-2",
+          "orcid": null
+        },
+        {
+          "name": "Ruyi Zhang 0005",
+          "pid": "216/2683-5",
+          "orcid": null
+        },
+        {
+          "name": "Chen Tian 0001",
+          "pid": "94/1247-1",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoliang Wang 0001",
+          "pid": "02/3450-1",
+          "orcid": null
+        },
+        {
+          "name": "Wanchun Dou",
+          "pid": "57/5595",
+          "orcid": null
+        },
+        {
+          "name": "Guihai Chen",
+          "pid": "51/1742",
+          "orcid": null
+        },
+        {
+          "name": "Bingqiang Wang",
+          "pid": "41/3365",
+          "orcid": null
+        },
+        {
+          "name": "Yonghong Tian 0001",
+          "pid": "86/5857",
+          "orcid": null
+        },
+        {
+          "name": "Yan Zhang 0002",
+          "pid": "04/3348-2",
+          "orcid": null
+        },
+        {
+          "name": "Hui Wang 0030",
+          "pid": "39/721-30",
+          "orcid": null
+        },
+        {
+          "name": "Fuchun Wei",
+          "pid": "397/9820",
+          "orcid": null
+        },
+        {
+          "name": "Boquan Sun",
+          "pid": "411/1723",
+          "orcid": null
+        },
+        {
+          "name": "Jingyi Zhang",
+          "pid": "15/91",
+          "orcid": null
+        },
+        {
+          "name": "Bin She",
+          "pid": "144/4392",
+          "orcid": null
+        },
+        {
+          "name": "Teng Su",
+          "pid": "118/8937",
+          "orcid": null
+        },
+        {
+          "name": "Yifan Yao",
+          "pid": "289/5598",
+          "orcid": null
+        },
+        {
+          "name": "Chunsheng Li",
+          "pid": "20/4750",
+          "orcid": null
+        },
+        {
+          "name": "Ziyang Zhang",
+          "pid": "174/3198",
+          "orcid": null
+        },
+        {
+          "name": "Yaoyuan Wang",
+          "pid": "242/8119",
+          "orcid": null
+        },
+        {
+          "name": "Bin Zhou",
+          "pid": "66/3973",
+          "orcid": null
+        },
+        {
+          "name": "Guyue Liu",
+          "pid": "151/5134",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhou",
+      "pages": "1387-1408",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ZhouWW000DCW0ZW25"
+    },
+    {
+      "title": "CAFault: Enhance Fault Injection Technique in Practical Distributed Systems via Abundant Fault-Dependent Configurations",
+      "authors": [
+        {
+          "name": "Yuanliang Chen",
+          "pid": "217/3726",
+          "orcid": null
+        },
+        {
+          "name": "Fuchen Ma",
+          "pid": "237/8603",
+          "orcid": null
+        },
+        {
+          "name": "Yuanhang Zhou",
+          "pid": "247/8463",
+          "orcid": null
+        },
+        {
+          "name": "Zhen Yan",
+          "pid": "18/8175",
+          "orcid": null
+        },
+        {
+          "name": "Yu Jiang 0001",
+          "pid": "21/4633-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/chen-yuanliang",
+      "pages": "1409-1424",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ChenMZY025"
+    },
+    {
+      "title": "Revealing Floating-Point Accumulation Orders in Software/Hardware Implementations",
+      "authors": [
+        {
+          "name": "Peichen Xie",
+          "pid": "230/8387",
+          "orcid": null
+        },
+        {
+          "name": "Yanjie Gao",
+          "pid": "153/6867",
+          "orcid": null
+        },
+        {
+          "name": "Yang Wang",
+          "pid": "181/2842",
+          "orcid": null
+        },
+        {
+          "name": "Jilong Xue",
+          "pid": "06/10336",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/xie",
+      "pages": "1425-1440",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/XieGWX25"
+    },
+    {
+      "title": "Inferring Likely Counting-related Atomicity Program Properties for Persistent Memory",
+      "authors": [
+        {
+          "name": "Yunmo Zhang",
+          "pid": "334/2127",
+          "orcid": null
+        },
+        {
+          "name": "Junqiao Qiu",
+          "pid": "185/0237",
+          "orcid": null
+        },
+        {
+          "name": "Hong Xu 0001",
+          "pid": "01/5265-1",
+          "orcid": null
+        },
+        {
+          "name": "Chun Jason Xue",
+          "pid": "x/ChunJasonXue",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhang-yunmo",
+      "pages": "1441-1450",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ZhangQ0X25"
+    },
+    {
+      "title": "Optimizing Input Minimization in Kernel Fuzzing",
+      "authors": [
+        {
+          "name": "Hui Guo",
+          "pid": "70/2221",
+          "orcid": null
+        },
+        {
+          "name": "Hao Sun 0021",
+          "pid": "82/2248-21",
+          "orcid": null
+        },
+        {
+          "name": "Shan Huang",
+          "pid": "06/4186",
+          "orcid": null
+        },
+        {
+          "name": "Ting Su 0001",
+          "pid": "42/6896-1",
+          "orcid": null
+        },
+        {
+          "name": "Geguang Pu",
+          "pid": "33/1678",
+          "orcid": null
+        },
+        {
+          "name": "Shaohua Li 0002",
+          "pid": "83/1926-2",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/guo",
+      "pages": "1451-1465",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/GuoSH0P025"
+    },
+    {
+      "title": "IRHash: Efficient Multi-Language Compiler Caching by IR-Level Hashing",
+      "authors": [
+        {
+          "name": "Tobias Landsberg",
+          "pid": "325/7925",
+          "orcid": null
+        },
+        {
+          "name": "Johannes Grunenberg",
+          "pid": "411/1705",
+          "orcid": null
+        },
+        {
+          "name": "Christian Dietrich 0001",
+          "pid": "30/5956-1",
+          "orcid": null
+        },
+        {
+          "name": "Daniel Lohmann",
+          "pid": "57/863",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/landsberg",
+      "pages": "1467-1479",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/LandsbergG0L25"
+    },
+    {
+      "title": "On-Demand Container Partitioning for Distributed ML",
+      "authors": [
+        {
+          "name": "Giovanni Bartolomeo",
+          "pid": "00/1804",
+          "orcid": null
+        },
+        {
+          "name": "Navidreza Asadi",
+          "pid": "331/3285",
+          "orcid": null
+        },
+        {
+          "name": "Wolfgang Kellerer",
+          "pid": "32/3203",
+          "orcid": null
+        },
+        {
+          "name": "Jörg Ott",
+          "pid": "57/6706",
+          "orcid": null
+        },
+        {
+          "name": "Nitinder Mohan",
+          "pid": "164/5721",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/bartolomeo",
+      "pages": "1481-1500",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/BartolomeoAKOM25"
+    },
+    {
+      "title": "PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search",
+      "authors": [
+        {
+          "name": "Sukjin Kim",
+          "pid": "01/9050",
+          "orcid": null
+        },
+        {
+          "name": "Seongyeon Park",
+          "pid": "324/7219",
+          "orcid": null
+        },
+        {
+          "name": "Si Ung Noh",
+          "pid": "375/1855",
+          "orcid": null
+        },
+        {
+          "name": "Junguk Hong",
+          "pid": "368/9899",
+          "orcid": null
+        },
+        {
+          "name": "Taehee Kwon 0002",
+          "pid": "23/2640-2",
+          "orcid": null
+        },
+        {
+          "name": "Hunseong Lim",
+          "pid": "387/5656",
+          "orcid": null
+        },
+        {
+          "name": "Jinho Lee 0001",
+          "pid": "62/757-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/kim",
+      "pages": "1501-1517",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/KimPNHKLL25"
+    },
+    {
+      "title": "Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism",
+      "authors": [
+        {
+          "name": "Xinyu Lian",
+          "pid": "205/4276",
+          "orcid": null
+        },
+        {
+          "name": "Sam Ade Jacobs",
+          "pid": "79/10956",
+          "orcid": null
+        },
+        {
+          "name": "Lev Kurilenko",
+          "pid": "354/6442",
+          "orcid": null
+        },
+        {
+          "name": "Masahiro Tanaka",
+          "pid": "02/3804",
+          "orcid": null
+        },
+        {
+          "name": "Stas Bekman",
+          "pid": "66/9418",
+          "orcid": null
+        },
+        {
+          "name": "Olatunji Ruwase",
+          "pid": "72/2838",
+          "orcid": null
+        },
+        {
+          "name": "Minjia Zhang",
+          "pid": "58/9033",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/lian",
+      "pages": "1519-1534",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/LianJKTBRZ25"
+    },
+    {
+      "title": "Towards High-Performance Transactional Stateful Serverless Workflows with Affinity-Aware Leasing",
+      "authors": [
+        {
+          "name": "Jianjun Zhao 0003",
+          "pid": "71/6948-3",
+          "orcid": null
+        },
+        {
+          "name": "Haikun Liu",
+          "pid": "43/849",
+          "orcid": null
+        },
+        {
+          "name": "Shuhao Zhang 0001",
+          "pid": "135/4657",
+          "orcid": null
+        },
+        {
+          "name": "Haodi Lu",
+          "pid": "303/7317",
+          "orcid": null
+        },
+        {
+          "name": "Yancan Mao",
+          "pid": "295/3462",
+          "orcid": null
+        },
+        {
+          "name": "Zhuohui Duan",
+          "pid": "218/1139",
+          "orcid": null
+        },
+        {
+          "name": "Xiaofei Liao",
+          "pid": "56/4402",
+          "orcid": null
+        },
+        {
+          "name": "Hai Jin 0001",
+          "pid": "98/4156",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhao-jianjun",
+      "pages": "1535-1551",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/0003L0LMDL025"
+    },
+    {
+      "title": "Swift: Fast Performance Tuning with GAN-Generated Configurations",
+      "authors": [
+        {
+          "name": "Chao Chen 0022",
+          "pid": "66/3019-22",
+          "orcid": null
+        },
+        {
+          "name": "Shixin Huang",
+          "pid": "116/8655",
+          "orcid": null
+        },
+        {
+          "name": "Xuehai Qian",
+          "pid": "42/5189",
+          "orcid": null
+        },
+        {
+          "name": "Zhibin Yu 0001",
+          "pid": "70/8170-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/chen-chao",
+      "pages": "1553-1568",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/0022HQ025"
+    },
+    {
+      "title": "PMR: Fast Application Response via Parallel Memory Reclaim on Mobile Devices",
+      "authors": [
+        {
+          "name": "Wentong Li 0002",
+          "pid": "86/5922-2",
+          "orcid": null
+        },
+        {
+          "name": "Li-Pin Chang",
+          "pid": "78/2863",
+          "orcid": null
+        },
+        {
+          "name": "Yu Mao",
+          "pid": "59/5119",
+          "orcid": null
+        },
+        {
+          "name": "Liang Shi 0001",
+          "pid": "09/6041-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/li-wentong",
+      "pages": "1569-1584",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/0002CM025"
+    },
+    {
+      "title": "SAVE: Software-Implemented Fault Tolerance for Model Inference against GPU Memory Bit Flips",
+      "authors": [
+        {
+          "name": "Wenxin Zheng",
+          "pid": "03/1691",
+          "orcid": null
+        },
+        {
+          "name": "Bin Xu",
+          "pid": "69/7024",
+          "orcid": null
+        },
+        {
+          "name": "Jinyu Gu 0001",
+          "pid": "197/6723-1",
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "pid": "31/6601-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zheng",
+      "pages": "1585-1604",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/ZhengX0025"
+    },
+    {
+      "title": "Identifying and Analyzing Pitfalls in GNN Systems",
+      "authors": [
+        {
+          "name": "Yidong Gong",
+          "pid": "367/9235",
+          "orcid": null
+        },
+        {
+          "name": "Arnab Kanti Tarafder",
+          "pid": "272/7724",
+          "orcid": null
+        },
+        {
+          "name": "Saima Afrin",
+          "pid": "367/9210",
+          "orcid": null
+        },
+        {
+          "name": "Pradeep Kumar",
+          "pid": "02/3108",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/gong",
+      "pages": "1605-1624",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/GongTAK25"
+    },
+    {
+      "title": "Bluetooth Low Energy Security Testing with Combinatorial Methods",
+      "authors": [
+        {
+          "name": "Dominik-Philip Schreiber",
+          "pid": "314/3941",
+          "orcid": null
+        },
+        {
+          "name": "Manuel Leithner",
+          "pid": "86/9489",
+          "orcid": null
+        },
+        {
+          "name": "Jovan Zivanovic",
+          "pid": "242/2010",
+          "orcid": null
+        },
+        {
+          "name": "Dimitris E. Simos",
+          "pid": "30/520",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/schreiber",
+      "pages": "1625-1638",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/SchreiberLZS25"
+    },
+    {
+      "title": "Resource Multiplexing in Tuning and Serving Large Language Models",
+      "authors": [
+        {
+          "name": "Yongjun He 0004",
+          "pid": "48/1117-4",
+          "orcid": null
+        },
+        {
+          "name": "Haofeng Yang",
+          "pid": "352/9147",
+          "orcid": null
+        },
+        {
+          "name": "Yao Lu 0028",
+          "pid": "26/5662-28",
+          "orcid": null
+        },
+        {
+          "name": "Ana Klimovic",
+          "pid": "140/2247",
+          "orcid": null
+        },
+        {
+          "name": "Gustavo Alonso",
+          "pid": "a/GustavoAlonso",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/he-yongjun",
+      "pages": "1639-1655",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/0004YLKA25"
+    },
+    {
+      "title": "Colocating ML Inference and Training with Fast GPU Memory Handover",
+      "authors": [
+        {
+          "name": "Jiali Wang",
+          "pid": "92/5314",
+          "orcid": null
+        },
+        {
+          "name": "Yankui Wang",
+          "pid": "411/1698",
+          "orcid": null
+        },
+        {
+          "name": "Mingcong Han",
+          "pid": "286/1961",
+          "orcid": null
+        },
+        {
+          "name": "Rong Chen 0001",
+          "pid": "22/6904-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/wang-jiali",
+      "pages": "1657-1675",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/WangWH025"
+    },
+    {
+      "title": "AssyLLM: Efficient Federated Fine-tuning of LLMs via Assembling Pre-trained Blocks",
+      "authors": [
+        {
+          "name": "Shichen Zhan",
+          "pid": "387/3022",
+          "orcid": null
+        },
+        {
+          "name": "Li Li 0064",
+          "pid": "53/2189-64",
+          "orcid": null
+        },
+        {
+          "name": "Chengzhong Xu 0001",
+          "pid": "181/2765-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/zhan",
+      "pages": "1677-1691",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/Zhan0025"
+    },
+    {
+      "title": "Learning-Enhanced High-Throughput Pattern Matching Based on Programmable Data Plane",
+      "authors": [
+        {
+          "name": "Guanglin Duan",
+          "pid": "322/9737",
+          "orcid": null
+        },
+        {
+          "name": "Yucheng Huang",
+          "pid": "242/5173",
+          "orcid": null
+        },
+        {
+          "name": "Zhengxin Zhang",
+          "pid": "189/3709",
+          "orcid": null
+        },
+        {
+          "name": "Qing Li 0006",
+          "pid": "181/2689-6",
+          "orcid": null
+        },
+        {
+          "name": "Dan Zhao 0003",
+          "pid": "10/3489-3",
+          "orcid": null
+        },
+        {
+          "name": "Zili Meng",
+          "pid": "198/8304",
+          "orcid": null
+        },
+        {
+          "name": "Dirk Kutscher",
+          "pid": "04/5077",
+          "orcid": null
+        },
+        {
+          "name": "Ruoyu Li 0003",
+          "pid": "08/10026-3",
+          "orcid": null
+        },
+        {
+          "name": "Yong Jiang 0001",
+          "pid": "74/1552-1",
+          "orcid": null
+        },
+        {
+          "name": "Mingwei Xu 0001",
+          "pid": "18/6055-1",
+          "orcid": null
+        }
+      ],
+      "venue": "ATC",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/atc25/presentation/duan-guanglin",
+      "pages": "1693-1712",
+      "source": "dblp",
+      "dblp_paper_key": "conf/usenix/DuanHZ00MK00X25"
+    }
+  ]
+}
