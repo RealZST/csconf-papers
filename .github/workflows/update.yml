@@ -2,7 +2,8 @@ name: Update paper lists
 
 on:
   schedule:
-    # 每月 1 日 03:00 UTC。录用名单以月为单位变化，更频繁只会白白撞 DBLP 的限流。
+    # 03:00 UTC on the 1st. Accepted lists change on the scale of months, so
+    # anything more frequent just walks into DBLP's rate limiting for nothing.
     - cron: "0 3 1 * *"
   workflow_dispatch:
 
@@ -10,7 +11,8 @@ permissions:
   contents: write
   issues: write
 
-# DBLP 对并发请求很敏感，两轮同步撞在一起只会互相拖慢并触发限流。
+# DBLP is sensitive to concurrent requests; two overlapping syncs only slow each
+# other down and trigger rate limiting.
 concurrency:
   group: update-paper-lists
   cancel-in-progress: false
@@ -18,7 +20,8 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    # 实测：DBLP 退避叠加节流后单轮可达十几分钟，默认 6 小时太宽、10 分钟太紧。
+    # A run takes well over ten minutes once DBLP backoff stacks on throttling.
+    # The 6-hour default is far too loose and 10 minutes is too tight.
     timeout-minutes: 45
 
     steps:
@@ -30,18 +33,37 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # 测试全部离线跑 fixture，不碰网络，所以放在同步之前当门禁。
+      # The tests run entirely offline against fixtures, so they make a cheap
+      # gate in front of the sync.
       - name: Run tests
         run: python -m pytest
 
-      # 绝不加 --allow-shrink：篇数下降必须由人确认一次，否则一个半截响应
-      # 就能悄悄抹掉一整届的论文。
+      # Never pass --allow-shrink here: a drop in paper count has to be
+      # confirmed by a person, or one truncated response quietly wipes out a
+      # whole edition.
       - name: Sync from DBLP
         id: sync
         run: python update.py sync
         continue-on-error: true
 
-      # 即使部分 venue 失败也提交已成功的部分——下一轮会把缺的补上。
+      # Editions DBLP has not indexed are scraped from the conference site,
+      # which carries titles and authors but no links. Missing links are matched
+      # by title against Semantic Scholar, usually landing on the authors' own
+      # arXiv preprint, and PDF URLs are derived from the links we have.
+      # No continue-on-error: this step always exits 0 on its own, because a
+      # link it could not find is not a failure.
+      - name: Fill in missing paper links
+        run: python update.py enrich
+        env:
+          # Optional. Semantic Scholar's anonymous quota is shared with every
+          # other caller on the internet and a full run sits at 429 for most of
+          # its length; a free key lifts that. An unset secret is an empty
+          # string, which the code treats as "no key" — the step still works,
+          # just slower.
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+
+      # Commit whatever succeeded even if some venues failed; the next run
+      # picks up the rest.
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"

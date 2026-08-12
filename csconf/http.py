@@ -7,11 +7,11 @@ import requests
 
 
 class RateLimited(Exception):
-    """重试耗尽后 DBLP 仍在拒绝服务。"""
+    """The server is still refusing after the retries are spent."""
 
 
 class HttpError(Exception):
-    """不可重试的失败响应。"""
+    """A failure response that is not worth retrying."""
 
     def __init__(self, message: str, status_code: int):
         super().__init__(message)
@@ -19,23 +19,25 @@ class HttpError(Exception):
 
 
 class NotFound(HttpError):
-    """TOC 不存在。对尚未编目的会议来说这是正常状态，不是故障。"""
+    """The TOC does not exist. For an unindexed edition that is normal, not a fault."""
 
 
-# DBLP 在过载或限流时会返回 503 而不只是 429——实测首次全量同步时
-# 8 个失败里 6 个是 503。两者都是暂时性的服务端拒绝，都该退避重试。
+# Under load DBLP answers with 503, not only 429 — six of the eight failures in
+# the first full sync were 503. Both are transient server-side refusals and both
+# deserve a backoff and a retry.
 RETRY_STATUSES = (429, 503)
 
-# 压力之下 DBLP 还会直接把连接挂住，表现为读超时而非任何状态码。
-# 这类传输层故障同样是暂时的：不重试的话，一次超时就会让整轮同步崩在半路，
-# 已经成功的会议全部白跑。
+# Under pressure DBLP also just hangs the connection, which surfaces as a read
+# timeout rather than any status code. Those transport failures are transient
+# too: without a retry a single timeout kills the run halfway through and throws
+# away every venue that already succeeded.
 TRANSIENT_EXCEPTIONS = (requests.Timeout, requests.ConnectionError)
 
 
 class Fetcher:
-    """带节流与退避的取数层。
+    """Fetching with throttling and backoff.
 
-    sleep 与 session 注入是为了让测试完全离线且不真的等待。
+    sleep and session are injected so the tests stay offline and never wait.
     """
 
     def __init__(
@@ -55,6 +57,30 @@ class Fetcher:
         self.timeout = timeout
         self._made_request = False
 
+    def head_is_pdf(self, url: str) -> bool:
+        """Report whether the URL actually serves a PDF.
+
+        A derived URL is a guess, so it has to be checked before it goes into a
+        public listing. Checking the status code alone is not enough: usenix.org
+        answers a missing file with an HTML error page, which would otherwise
+        count as a hit. Any failure here means "no PDF" rather than an error —
+        a missing PDF link must never break the run.
+        """
+        if self._made_request and self.throttle_seconds:
+            self.sleep(self.throttle_seconds)
+        self._made_request = True
+
+        try:
+            response = self.session.head(
+                url, timeout=self.timeout, allow_redirects=True
+            )
+        except Exception:
+            return False
+
+        if response.status_code != 200:
+            return False
+        return "pdf" in response.headers.get("content-type", "").lower()
+
     def get(self, url: str) -> str:
         if self._made_request and self.throttle_seconds:
             self.sleep(self.throttle_seconds)
@@ -69,22 +95,22 @@ class Fetcher:
                     self.sleep(backoff)
                     backoff *= 2
                     continue
-                raise RateLimited("{} 连续超时/连接失败".format(url)) from exc
+                raise RateLimited("{} kept timing out or failing to connect".format(url)) from exc
 
             if response.status_code == 200:
                 return response.text
             if response.status_code == 404:
-                raise NotFound("{} 不存在".format(url), 404)
+                raise NotFound("{} does not exist".format(url), 404)
             if response.status_code not in RETRY_STATUSES:
                 raise HttpError(
-                    "{} 返回 {}".format(url, response.status_code), response.status_code
+                    "{} returned {}".format(url, response.status_code), response.status_code
                 )
             if attempt < self.max_retries - 1:
                 self.sleep(backoff)
                 backoff *= 2
 
         raise RateLimited(
-            "{} 连续 {} 次被拒绝（429/503）".format(url, self.max_retries)
+            "{} was refused {} times in a row (429/503)".format(url, self.max_retries)
         )
 
 

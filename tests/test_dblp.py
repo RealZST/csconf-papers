@@ -37,7 +37,8 @@ def test_conference_paper_fields_are_parsed():
 
 
 def test_conference_toc_asserts_exactly_one_proceedings_entry():
-    """前言条目数不为 1 意味着对 DBLP 结构的假设失效，必须炸而不是静默。"""
+    """Anything but exactly one front-matter record breaks an assumption about
+    DBLP's structure, and that has to be loud rather than silent."""
     from csconf.dblp import count_proceedings_entries
 
     assert count_proceedings_entries(_read("dblp-conf-sosp-sosp2025.xml")) == 1
@@ -54,7 +55,7 @@ def test_journal_paper_keeps_volume_issue_and_month():
     papers = parse_toc(_read("dblp-journals-pvldb-pvldb19.xml"), venue="VLDB", year=2026)
     first_issue = [p for p in papers if p.issue == "1"]
 
-    assert first_issue, "vol 19 N1 应有论文"
+    assert first_issue, "vol 19 N1 should contain papers"
     sample = first_issue[0]
     assert sample.year == 2026
     assert sample.published_year == 2025
@@ -63,7 +64,8 @@ def test_journal_paper_keeps_volume_issue_and_month():
 
 
 def test_pacmmod_editorial_variants_all_dropped():
-    """三种实测格式：带冒号 / PACMMOD 后带逗号 / 缺冒号，必须全部识别。"""
+    """Three observed shapes — with a colon, with a comma after PACMMOD, and
+    without a colon — all have to be recognised."""
     papers = parse_toc(
         _read("dblp-journals-pacmmod-pacmmod3-trimmed.xml"), venue="SIGMOD", year=2026
     )
@@ -82,7 +84,7 @@ def test_is_non_paper_covers_each_editorial_format():
 
 
 def test_non_doi_ee_leaves_doi_null_but_keeps_url():
-    """PVLDB 的 Front Matter 用 PDF 直链；正文论文中也存在非 DOI 的 ee。"""
+    """PVLDB front matter links a PDF directly, and body papers carry non-DOI ee too."""
     papers = parse_toc(_read("dblp-journals-pvldb-pvldb19.xml"), venue="VLDB", year=2026)
     for paper in papers:
         if paper.url and not paper.url.startswith("https://doi.org/"):
@@ -90,9 +92,10 @@ def test_non_doi_ee_leaves_doi_null_but_keeps_url():
 
 
 def test_titles_with_nested_markup_are_not_truncated():
-    """DBLP 标题里会出现 <i>/<sub>/<sup> 排版标签。用 .text 取值会在第一个
-    子标签处截断——"B<sub>2</sub>Mark: ..." 变成 "B"。实测 PACMMOD vol 3
-    的 380 条记录中 12 条（3.2%）受影响，条数断言完全察觉不到。"""
+    """DBLP titles contain typesetting tags such as <i>/<sub>/<sup>. Reading
+    .text truncates at the first child tag, turning "B<sub>2</sub>Mark: ..."
+    into "B". Twelve of the 380 records in PACMMOD volume 3 (3.2%) are
+    affected, and no record-count assertion would ever notice."""
     papers = parse_toc(
         _read("dblp-journals-pacmmod-pacmmod3-trimmed.xml"), venue="SIGMOD", year=2026
     )
@@ -100,6 +103,6 @@ def test_titles_with_nested_markup_are_not_truncated():
 
     assert "B2Mark: A Blind and Buyer-Traceable Watermarking Scheme for Tabular Datasets" in titles
     assert "A Local Search Approach to Efficient (k,p)-Core Maintenance" in titles
-    # 截断后的残片不得出现
+    # None of the truncated fragments may survive
     assert "B" not in titles
     assert not any(t.endswith(" (") for t in titles)

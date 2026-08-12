@@ -33,18 +33,20 @@ def test_note_is_rendered_when_present():
         venue="VLDB",
         year=2026,
         papers=[_paper("X", ["A"])],
-        note="本文件为 PVLDB vol 19 全卷。",
+        note="All of PVLDB vol 19.",
         updated="2026-08-12",
     )
 
-    assert "本文件为 PVLDB vol 19 全卷。" in markdown
+    assert "All of PVLDB vol 19." in markdown
 
 
-def test_paper_without_doi_renders_as_plain_text():
+def test_paper_without_a_link_is_no_longer_left_as_plain_text():
+    """The old behaviour was plain text. Falling back to a Scholar search URL
+    saves the reader from copying a bare title into a search box for an address
+    we can build ourselves."""
     markdown = render_venue_year("SOSP", 2025, [_paper("NoDoi", ["A"])], None, "2026-08-12")
 
-    assert "NoDoi" in markdown
-    assert "[NoDoi](" not in markdown
+    assert "[NoDoi](https://scholar.google.com/scholar?q=NoDoi)" in markdown
 
 
 def test_readme_matrix_has_year_rows_and_venue_columns():
@@ -58,15 +60,16 @@ def test_readme_matrix_has_year_rows_and_venue_columns():
     rows = [line for line in readme.splitlines() if line.startswith("|")]
 
     assert rows[0] == "| Year | SOSP | VLDB |"
-    # 整行比对：只断言子串的话，"| 2026 | — |" 会因为是下一行的前缀而巧合通过，
-    # 并没有真验到空格子。
+    # Compare whole rows: as a substring, "| 2026 | — |" would pass by accident
+    # because it prefixes the next row, testing nothing about the empty cell.
     assert rows[2] == "| 2025 | [66](papers/2025/SOSP.md) | — |"
     assert rows[3] == "| 2026 | — | [135](papers/2026/VLDB.md) |"
 
 
 def test_readme_empty_cell_is_dash_not_zero():
-    """没有数据的格子留破折号。写 0 会和「确实收录了零篇」混淆——
-    OSDI/ATC 2026 正处在 DBLP 尚未编目的状态，两者含义完全不同。"""
+    """A cell with no data gets an em dash. Writing 0 would be confused with
+    "this edition really accepted nothing" — OSDI/ATC 2026 are simply not
+    indexed by DBLP yet, which means something entirely different."""
     readme = render_readme(
         venues=["OSDI"], years=[2026], counts={}, updated="2026-08-12"
     )
@@ -77,9 +80,10 @@ def test_readme_empty_cell_is_dash_not_zero():
 
 
 def test_dblp_disambiguation_suffix_stripped_from_display():
-    """DBLP 给重名作者加四位后缀（"Song Yu 0004"）。实测 12518 个作者条目里
-    22.8% 带后缀，在人读的列表里是噪音；带后缀的条目全部都有 pid，因此显示时
-    剥掉不丢身份，JSON 里仍保留 DBLP 规范形式。"""
+    """DBLP appends a four-digit suffix to duplicate names ("Song Yu 0004").
+    It is on 22.8% of the 12518 author entries here and is noise in a list for
+    people; every suffixed entry also has a pid, so dropping it for display
+    loses no identity and the JSON keeps DBLP's canonical form."""
     paper = Paper(
         title="T",
         authors=[Author(name="Song Yu 0004", pid="1/2"), Author(name="Jianliang Xu")],
@@ -94,10 +98,87 @@ def test_dblp_disambiguation_suffix_stripped_from_display():
 
 
 def test_year_like_trailing_number_in_title_is_untouched():
-    """只剥作者名末尾的四位数，标题里的年份/数字不受影响。"""
+    """Only a trailing four-digit group on a name is stripped; years and numbers
+    elsewhere are untouched."""
     from csconf.render import display_name
 
     assert display_name("Chenhao Ma 0001") == "Chenhao Ma"
     assert display_name("Jianliang Xu") == "Jianliang Xu"
-    # 不是消歧后缀的四位数不该被吃掉
+    # Four digits that are not a disambiguation suffix must survive
     assert display_name("Deep Learning 2020 Team") == "Deep Learning 2020 Team"
+
+
+def test_matched_links_are_marked_with_their_host():
+    """A link matched by title is not an official page, so where it lands has to
+    be visible at a glance. Sitting among official DBLP links and looking
+    identical to them is the dishonest option."""
+    papers = [
+        Paper(
+            title="Matched Paper", authors=[], venue="SOSP", year=2026,
+            url="https://arxiv.org/abs/2605.15617", url_source="semanticscholar",
+        ),
+        Paper(
+            title="Official Paper", authors=[], venue="SOSP", year=2026,
+            url="https://www.usenix.org/conference/osdi26/presentation/x",
+        ),
+    ]
+
+    out = render_venue_year("SOSP", 2026, papers, None, "2026-08-12")
+
+    assert "- [Matched Paper](https://arxiv.org/abs/2605.15617) · arxiv.org" in out
+    assert (
+        "- [Official Paper](https://www.usenix.org/conference/osdi26/presentation/x)\n"
+        in out
+    )
+
+
+def test_readme_states_where_links_come_from():
+    out = render_readme(["SOSP"], [2026], {("SOSP", 2026): 1}, "2026-08-12")
+
+    assert "Semantic Scholar" in out
+
+
+def test_pdf_link_is_rendered_next_to_the_title():
+    papers = [
+        Paper(
+            title="Open Paper", authors=[], venue="OSDI", year=2026,
+            url="https://www.usenix.org/conference/osdi26/presentation/yu-shan",
+            pdf_url="https://www.usenix.org/system/files/osdi26-yu-shan.pdf",
+            pdf_source="usenix-derived",
+        ),
+    ]
+
+    out = render_venue_year("OSDI", 2026, papers, None, "2026-08-12")
+
+    assert (
+        "- [Open Paper](https://www.usenix.org/conference/osdi26/presentation/yu-shan)"
+        " · [PDF](https://www.usenix.org/system/files/osdi26-yu-shan.pdf)" in out
+    )
+
+
+def test_publisher_pdf_is_labelled_because_it_may_need_a_subscription():
+    """Anyone can construct a dl.acm.org URL, but a paper that is not open
+    access asks for a subscription. Labelling that identically to free full
+    text baits the click."""
+    papers = [
+        Paper(
+            title="Paywalled", authors=[], venue="SOSP", year=2025,
+            url="https://doi.org/10.1145/1", doi="10.1145/1",
+            pdf_url="https://dl.acm.org/doi/pdf/10.1145/1", pdf_source="publisher-doi",
+        ),
+    ]
+
+    out = render_venue_year("SOSP", 2025, papers, None, "2026-08-12")
+
+    assert "· [PDF (ACM)](https://dl.acm.org/doi/pdf/10.1145/1)" in out
+
+
+def test_paper_without_any_link_falls_back_to_a_scholar_search():
+    """Even a paper that turns up nowhere else deserves an address that takes a
+    reader to it."""
+    papers = [Paper(title="No Links At All", authors=[], venue="SOSP", year=2026)]
+
+    out = render_venue_year("SOSP", 2026, papers, None, "2026-08-12")
+
+    assert "[No Links At All](https://scholar.google.com/scholar?q=" in out
+    assert "· scholar.google.com" in out

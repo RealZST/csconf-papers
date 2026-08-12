@@ -20,7 +20,8 @@ def test_paper_serializes_with_all_schema_fields():
         {"name": "Patrick H. Coppock", "pid": "405/6876", "orcid": "0000-0002-7101-6961"}
     ]
     assert data["source"] == "dblp"
-    # 会议类记录这些字段必须存在且为 None，下游依赖字段齐整
+    # These must be present and None for conference records; downstream code
+    # relies on a uniform shape
     for absent in ("published_month", "volume", "issue"):
         assert absent in data and data[absent] is None
 

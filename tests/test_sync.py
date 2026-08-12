@@ -8,7 +8,7 @@ FIXTURES = Path(__file__).parent / "fixtures"
 
 
 class StubFetcher:
-    """按 URL 返回预置内容，记录调用顺序。"""
+    """Returns canned content per URL and records the order of calls."""
 
     def __init__(self, mapping):
         self.mapping = mapping
@@ -76,7 +76,7 @@ def test_sync_vldb_fills_note_from_template(tmp_path):
             "type": "journal_volume",
             "key": "journals/pvldb/pvldb{vol}",
             "vol_for_year": {2026: 19},
-            "note_template": "本文件为 PVLDB vol {vol} 全卷（VLDB {year}）。",
+            "note_template": "All of PVLDB vol {vol} (VLDB {year}).",
             "status": {2026: "partial"},
         }
     }
@@ -94,11 +94,11 @@ def test_sync_vldb_fills_note_from_template(tmp_path):
     )
 
     assert result.paper_count == 135
-    assert result.note == "本文件为 PVLDB vol 19 全卷（VLDB 2026）。"
+    assert result.note == "All of PVLDB vol 19 (VLDB 2026)."
 
 
 def test_indexed_venue_with_zero_papers_raises(tmp_path):
-    """status: indexed 却拿到 0 篇，说明 DBLP 改了 key，必须炸。"""
+    """Indexed but zero papers means the DBLP key changed, and that must be loud."""
     venues = {
         "NSDI": {"type": "conf", "key": "conf/nsdi/nsdi{year}", "status": {2025: "indexed"}}
     }
@@ -112,7 +112,8 @@ def test_indexed_venue_with_zero_papers_raises(tmp_path):
 
 
 def test_pending_venue_with_zero_papers_writes_nothing(tmp_path):
-    """尚未编目的会议不能落 0 篇文件，否则 README 会把「未编目」显示成「零篇」。"""
+    """An unindexed edition must not write a 0-paper file, or the README renders
+    "not indexed yet" as "genuinely zero papers"."""
     venues = {
         "OSDI": {"type": "conf", "key": "conf/osdi/osdi{year}", "status": {2026: "pending"}}
     }
@@ -129,7 +130,7 @@ def test_pending_venue_with_zero_papers_writes_nothing(tmp_path):
 
 
 def test_asplos_fetches_index_then_each_volume(tmp_path):
-    """多卷会议：先抓索引页发现卷号，再逐卷抓 TOC。"""
+    """Multi-volume venue: fetch the index to discover volumes, then each TOC."""
     venues = {
         "ASPLOS": {
             "type": "conf",
@@ -165,11 +166,13 @@ def test_asplos_fetches_index_then_each_volume(tmp_path):
 
 
 def test_partial_venue_with_zero_papers_also_writes_nothing(tmp_path):
-    """partial（收录中但暂时还没有）与 pending 在零篇时语义相同：数据还不存在。
+    """At zero papers, partial (indexed but nothing yet) means the same as
+    pending: the data does not exist.
 
-    早期实现只对 pending 提前返回，于是 partial 零篇会落一个 0 篇的 JSON，
-    而 update.py 又因 paper_count 为假不给它 README 格子——文件存在、矩阵却
-    显示破折号，两边不一致。
+    An earlier version returned early for pending only, so a partial with zero
+    papers wrote a 0-paper JSON while update.py, seeing a falsy paper_count,
+    left its README cell empty — the file existing and the matrix showing an em
+    dash, disagreeing with each other.
     """
     venues = {
         "SIGMOD": {
@@ -179,7 +182,7 @@ def test_partial_venue_with_zero_papers_also_writes_nothing(tmp_path):
             "status": {2026: "partial"},
         }
     }
-    # 返回一份没有任何 N4 论文的卷，过滤后必然为空
+    # A volume with no N4 papers at all, so filtering necessarily empties it
     fetcher = StubFetcher(
         {"https://dblp.org/db/journals/pacmmod/pacmmod3.xml": "<bht></bht>"}
     )
@@ -195,13 +198,13 @@ def test_partial_venue_with_zero_papers_also_writes_nothing(tmp_path):
 
 
 def test_missing_toc_is_treated_as_no_data_for_pending_venue(tmp_path):
-    """OSDI/ATC 2026 已开完会但 DBLP 尚未编目，其 TOC 返回 404。
-    对 pending 的会议这是正常状态，不该算作失败。"""
+    """OSDI/ATC 2026 happened but DBLP has not indexed them, so their TOCs 404.
+    For a pending venue that is the normal state and not a failure."""
     from csconf.http import NotFound
 
     class NotFoundFetcher:
         def get(self, url):
-            raise NotFound("{} 不存在".format(url), 404)
+            raise NotFound("{} does not exist".format(url), 404)
 
     venues = {
         "OSDI": {"type": "conf", "key": "conf/osdi/osdi{year}", "status": {2026: "pending"}}
@@ -217,7 +220,8 @@ def test_missing_toc_is_treated_as_no_data_for_pending_venue(tmp_path):
 
 
 def test_pending_venue_falls_back_to_official_site(tmp_path):
-    """DBLP 未编目而官网已挂出名单时，从官网补齐，README 才不会留破折号。"""
+    """When DBLP has not indexed but the site has published, fill from the site so
+    the README cell is not an em dash."""
     venues = {
         "OSDI": {
             "type": "conf",
@@ -247,7 +251,8 @@ def test_pending_venue_falls_back_to_official_site(tmp_path):
 
 
 def test_fallback_failure_leaves_venue_empty_instead_of_aborting(tmp_path):
-    """官网也拿不到时安静留空——兜底抓取失败不该让这届同步算失败。"""
+    """When the site cannot be reached either, stay quiet: a failed fallback must
+    not mark the edition as failed."""
     from csconf.http import NotFound
 
     venues = {
@@ -263,7 +268,7 @@ def test_fallback_failure_leaves_venue_empty_instead_of_aborting(tmp_path):
         def get(self, url):
             if url.startswith("https://dblp.org/"):
                 return "<bht></bht>"
-            raise NotFound("{} 不存在".format(url), 404)
+            raise NotFound("{} does not exist".format(url), 404)
 
     result = sync_venue_year(
         root=tmp_path, venues=venues, venue="OSDI", year=2026,
@@ -275,8 +280,9 @@ def test_fallback_failure_leaves_venue_empty_instead_of_aborting(tmp_path):
 
 
 def test_dblp_records_replace_web_records_without_duplicates():
-    """DBLP 编目后接管官网记录：按归一化标题匹配，是替换不是叠加。
-    这条规则优先于只增不减。"""
+    """Once DBLP indexes an edition its records take over the site ones: matched
+    on the normalised title and replaced, not appended. This outranks the
+    grow-only rule."""
     from csconf.models import Paper
     from csconf.sync import merge_sources
 
@@ -292,12 +298,13 @@ def test_dblp_records_replace_web_records_without_duplicates():
 
 
 def test_missing_toc_on_indexed_venue_still_raises_drift(tmp_path):
-    """indexed 的会议 TOC 变 404 = DBLP 改了 key，必须炸而不是静默跳过。"""
+    """An indexed venue whose TOC 404s means the DBLP key changed; that has to be
+    loud, not silently skipped."""
     from csconf.http import NotFound
 
     class NotFoundFetcher:
         def get(self, url):
-            raise NotFound("{} 不存在".format(url), 404)
+            raise NotFound("{} does not exist".format(url), 404)
 
     venues = {
         "NSDI": {"type": "conf", "key": "conf/nsdi/nsdi{year}", "status": {2025: "indexed"}}

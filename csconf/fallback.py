@@ -8,11 +8,12 @@ from urllib.parse import urljoin
 from csconf.dblp import _clean_title
 from csconf.models import Author, Paper
 
-# USENIX 的每篇论文是一个 <article>，但页面里还嵌着 speaker 的 <article>，
-# 且 keynote 那块的闭合标签被嵌套吃掉了——因此按开标签切块而不是配对闭合。
+# Each USENIX paper is an <article>, but speaker blocks are <article> too and
+# the keynote block swallows its own closing tag through nesting. Split on the
+# opening tag rather than trying to match closing ones.
 _ARTICLE_SPLIT = re.compile(r"<article\b")
-# 页面里的 href 是站内相对路径（/conference/osdi26/presentation/...），
-# 存进 JSON 得补成绝对地址，否则 Markdown 里的链接点不开。
+# The hrefs on the page are site-relative (/conference/osdi26/presentation/...)
+# and have to be absolute in the JSON, or the Markdown links do not resolve.
 _USENIX_BASE = "https://www.usenix.org/"
 _USENIX_HEADING = re.compile(
     r"<h2>\s*<a\s+href=\"([^\"]*)\"[^>]*>(.*?)</a>\s*</h2>", re.DOTALL
@@ -30,30 +31,31 @@ _PAREN_GROUP = re.compile(r"\([^()]*\)")
 _TAG = re.compile(r"<[^>]+>")
 _SPACE = re.compile(r"\s+")
 
-# 逗号、分号与独立的 "and" 都是作者分隔符。Oxford comma（", and "）会切出
-# 一个空片段，由调用方丢弃。
+# Commas, semicolons and a standalone "and" all separate authors. An Oxford
+# comma (", and ") yields an empty piece, which the caller drops.
 _NAME_SEPARATOR = re.compile(r"\s*(?:,|;|\band\b)\s*")
 
 
 def _text_of(fragment: str) -> str:
-    """去标签 → 解实体 → 归一空白。
+    """Strip tags, decode entities, normalise whitespace.
 
-    解实体必不可少：merge_key 只做小写与去标点，不认识 &amp;，
-    漏掉这一步会让同一篇论文的官网记录与日后的 DBLP 记录匹配不上。
+    Decoding is not optional: merge_key only lowercases and strips punctuation,
+    so it does not know &amp;. Skipping this step would keep a paper's web
+    record from matching the DBLP record that shows up later.
     """
     return _SPACE.sub(" ", unescape(_TAG.sub("", fragment))).strip()
 
 
 def _strip_affiliations(text: str) -> str:
-    """剥掉内联的单位，反复剥到没有括号为止。
+    """Strip inline affiliations, repeatedly, until no parentheses are left.
 
-    _PAREN_GROUP 只匹配最内层（模式里排除了括号本身），所以嵌套的单位
-    需要多轮才能剥净——实测 SOSP 2026 有
-    "Ming-Chang Yang (The Chinese University of Hong Kong (CUHK))" 和
-    "Ke Zhou (Wuhan National Laboratory for Optoelectronics (WNLO) of
-    Huazhong University of Science and Technology (HUST))"。只跑一遍会留下
-    "(The Chinese University of Hong Kong ," 这样的残片，再按逗号一切
-    就变成了假作者名。
+    _PAREN_GROUP only matches the innermost group (the pattern excludes
+    parentheses), so nested affiliations need several passes. SOSP 2026 really
+    contains "Ming-Chang Yang (The Chinese University of Hong Kong (CUHK))" and
+    "Ke Zhou (Wuhan National Laboratory for Optoelectronics (WNLO) of Huazhong
+    University of Science and Technology (HUST))". A single pass leaves shards
+    like "(The Chinese University of Hong Kong ," which then split on the comma
+    into authors who do not exist.
     """
     previous = None
     while previous != text:
@@ -91,10 +93,11 @@ def _make_paper(
 
 
 def parse_usenix_sessions(html: str, venue: str, year: int) -> List[Paper]:
-    """解析 USENIX technical-sessions 页面。
+    """Parse a USENIX technical-sessions page.
 
-    keynote 与 speaker 块混在同样的 <article> 结构里，靠 /presentation/<slug>
-    的 slug 区分：真论文的 slug 是作者名，keynote 的就叫 keynote。
+    Keynote and speaker blocks share the same <article> structure, so they are
+    told apart by the /presentation/<slug> slug: a real paper's slug is an
+    author name, the keynote's is literally "keynote".
     """
     papers: List[Paper] = []
 
@@ -115,7 +118,8 @@ def parse_usenix_sessions(html: str, venue: str, year: int) -> List[Paper]:
         authors: List[Author] = []
         match = _USENIX_AUTHORS.search(chunk)
         if match:
-            # 单位包在 <em> 里，整块删掉后剩下的就是纯人名序列。
+            # Affiliations sit inside <em>; drop those blocks and what remains
+            # is a plain sequence of names.
             authors = _split_names(_text_of(_EM_BLOCK.sub(",", match.group(1))))
 
         papers.append(
@@ -126,7 +130,7 @@ def parse_usenix_sessions(html: str, venue: str, year: int) -> List[Paper]:
 
 
 def parse_sigops_accepted(html: str, venue: str, year: int) -> List[Paper]:
-    """解析 SIGOPS accepted-papers 页面（<ul class="paperlist"> 下的 <li>）。"""
+    """Parse a SIGOPS accepted-papers page (<li> under <ul class="paperlist">)."""
     papers: List[Paper] = []
 
     for item in _SIGOPS_ITEM.findall(html):
@@ -141,8 +145,9 @@ def parse_sigops_accepted(html: str, venue: str, year: int) -> List[Paper]:
         authors: List[Author] = []
         authors_match = _SIGOPS_AUTHORS.search(item)
         if authors_match:
-            # 单位内联在括号里且自身含逗号（"(University of California,
-            # Los Angeles)"），必须先剥括号再按逗号切，否则会切出假作者。
+            # Affiliations are inline and contain commas of their own
+            # ("(University of California, Los Angeles)"), so parentheses have
+            # to come off before splitting or the split invents authors.
             text = _text_of(authors_match.group(1))
             authors = _split_names(_strip_affiliations(text))
 

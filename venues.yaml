@@ -10,11 +10,13 @@ OSDI:
   fallback_url: "https://www.usenix.org/conference/osdi{yy}/technical-sessions"
   status: {2025: indexed, 2026: pending}
 
-# USENIX ATC 在 2025 年办完第 50 届后停办，ACM SIGOPS 应社区请愿接手续办。
-# 因此 2026 没有 USENIX ATC：conf/usenix/usenix2026 这个 key 永远不会出现
-# （usenix.org/conference/atc26 实测 301 重定向到 atc25），ATC 停办后的投稿量
-# 被 OSDI 吸收——OSDI '26 官网列出约 136 篇，而 OSDI '25 只有 53 篇。
-# 只保留 2025；SIGOPS 续办的那个是另一个 venue，需要单独查 DBLP key 后再加。
+# USENIX retired ATC after its 50th edition in 2025; ACM SIGOPS picked it up
+# after a community petition. So there is no USENIX ATC 2026 and the key
+# conf/usenix/usenix2026 will never exist (usenix.org/conference/atc26 redirects
+# to atc25 with a 301). The submissions ATC used to absorb went to OSDI, which
+# is why OSDI '26 lists about 136 papers against OSDI '25's 53.
+# Only 2025 is kept here. The SIGOPS successor is a separate venue and needs its
+# own DBLP key looked up before it can be added.
 ATC:
   type: conf
   key: "conf/usenix/usenix{year}"
@@ -49,5 +51,5 @@ VLDB:
   type: journal_volume
   key: "journals/pvldb/pvldb{vol}"
   vol_for_year: {2025: 18, 2026: 19}
-  note_template: "本文件为 PVLDB vol {vol} 全卷。VLDB {year} 研究 track 实际由本卷截止日前接收的论文加上一卷的 rollover 组成，DBLP 元数据无法区分。"
+  note_template: "This file is all of PVLDB vol {vol}. The VLDB {year} research track is really the papers accepted before this volume's cutoff plus rollovers from the previous volume, a distinction DBLP metadata does not record."
   status: {2025: indexed, 2026: partial}

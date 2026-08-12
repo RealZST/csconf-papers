@@ -23,9 +23,11 @@ def test_usenix_extracts_papers_and_drops_keynote():
 
 
 def test_usenix_keeps_presentation_url():
-    """标题上的 href 本来就要读出来做 keynote 过滤，顺手留下就是论文主页。
-    丢掉的话 OSDI 2026 这类走官网兜底的会议整届没有链接，而同一个会 2025
-    走 DBLP 时每篇都有——同一份列表里两种形态。"""
+    """The href on the title is already read to filter out the keynote, and
+    keeping it gives the paper's own page. Dropping it leaves a whole edition
+    without links whenever the site fallback is used (OSDI 2026), while the
+    same conference has one per paper for 2025 via DBLP — two shapes in one
+    listing."""
     papers = parse_usenix_sessions(
         _read("usenix-osdi-2026-accepted.html"), venue="OSDI", year=2026
     )
@@ -51,8 +53,9 @@ def test_sigops_extracts_titles_and_authors():
 
 
 def test_affiliation_commas_do_not_become_authors():
-    """单位内联且含逗号：必须先剥 (...) 再按逗号切，否则
-    "(University of California, Los Angeles)" 会被切成两个假作者。"""
+    """Affiliations are inline and contain commas, so parentheses have to come
+    off before splitting or "(University of California, Los Angeles)" becomes
+    two authors who do not exist."""
     papers = parse_sigops_accepted(
         _read("sigops-sosp-2026-accepted.html"), venue="SOSP", year=2026
     )
@@ -63,8 +66,8 @@ def test_affiliation_commas_do_not_become_authors():
 
 
 def test_entities_are_decoded_so_merge_key_matches_dblp():
-    """merge_key 不认识 &amp;。不解码的话，同一篇论文的 web 版与 dblp 版
-    匹配不上，产生重复条目。"""
+    """merge_key does not know &amp;. Without decoding, a paper's web record
+    never matches its DBLP record and the entry is duplicated."""
     from csconf.models import Paper
 
     html = (
@@ -89,11 +92,11 @@ def test_trailing_period_stripped_to_match_dblp_titles():
 
 
 def test_nested_affiliation_parentheses_fully_stripped():
-    """单位里还能再嵌括号。实测 SOSP 2026 有
-    "(The Chinese University of Hong Kong (CUHK))" 和
+    """Affiliations nest parentheses of their own. SOSP 2026 contains
+    "(The Chinese University of Hong Kong (CUHK))" and
     "(Wuhan National Laboratory for Optoelectronics (WNLO) of Huazhong
-    University of Science and Technology (HUST))"。
-    只剥一层会留下残片，再按逗号切就变成假作者名。
+    University of Science and Technology (HUST))".
+    Stripping one level leaves shards that split into authors who do not exist.
     """
     html = (
         '<ul class="paperlist"><li><b>P</b><br /><em>'

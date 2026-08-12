@@ -34,6 +34,15 @@ class Paper:
     issue: Optional[str] = None
     doi: Optional[str] = None
     url: Optional[str] = None
+    # Set when the link was not in the source data but matched in afterwards.
+    # In a public dataset, "the official page" and "a preprint a third party
+    # matched to this title" must not look identical.
+    url_source: Optional[str] = None
+    pdf_url: Optional[str] = None
+    # The PDF URL is usually derived from url/doi. Where it came from decides
+    # whether it needs verifying and whether it is actually free to read —
+    # the publisher-doi ones need a subscription unless the paper is open.
+    pdf_source: Optional[str] = None
     pages: Optional[str] = None
     source: str = "dblp"
     dblp_paper_key: Optional[str] = None
@@ -50,6 +59,9 @@ class Paper:
             "issue": self.issue,
             "doi": self.doi,
             "url": self.url,
+            "url_source": self.url_source,
+            "pdf_url": self.pdf_url,
+            "pdf_source": self.pdf_source,
             "pages": self.pages,
             "source": self.source,
             "dblp_paper_key": self.dblp_paper_key,
@@ -57,7 +69,7 @@ class Paper:
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "Paper":
-        """从已存 JSON 还原，使重新渲染不必回头再抓一遍 DBLP。"""
+        """Restore from stored JSON so re-rendering never has to refetch DBLP."""
         return cls(
             title=data["title"],
             authors=[Author.from_dict(a) for a in data.get("authors", [])],
@@ -69,13 +81,19 @@ class Paper:
             issue=data.get("issue"),
             doi=data.get("doi"),
             url=data.get("url"),
+            url_source=data.get("url_source"),
+            pdf_url=data.get("pdf_url"),
+            pdf_source=data.get("pdf_source"),
             pages=data.get("pages"),
             source=data.get("source", "dblp"),
             dblp_paper_key=data.get("dblp_paper_key"),
         )
 
     def merge_key(self) -> str:
-        """跨数据源合并用的键。DBLP 标题以句点结尾而官网标题不带，
-        标点与空白差异也常见，因此归一化后再比。"""
+        """Key for merging across sources.
+
+        DBLP titles end in a period and site titles do not, and punctuation and
+        whitespace differ freely, so compare normalised forms.
+        """
         lowered = self.title.lower()
         return _SPACE.sub(" ", _PUNCT.sub(" ", lowered)).strip()

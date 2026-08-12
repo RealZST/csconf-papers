@@ -5,7 +5,7 @@ from csconf.rounds import filter_by_rounds
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
-# SIGMOD 2026 的四轮，来自官方会议站点：一届横跨 vol 3 与 vol 4
+# SIGMOD 2026's four rounds, from the official site: one edition spans vol 3 and vol 4
 SIGMOD_2026_ROUNDS = [[3, 4], [3, 6], [4, 1], [4, 3]]
 
 
@@ -21,12 +21,12 @@ def test_keeps_only_issues_listed_in_rounds():
     kept = filter_by_rounds(_pacmmod_vol3(), SIGMOD_2026_ROUNDS)
 
     assert {p.issue for p in kept} == {"4", "6"}
-    assert kept, "vol 3 的 N4/N6 应有论文留下"
+    assert kept, "vol 3 N4/N6 should keep papers"
 
 
 def test_excludes_pods_issues_without_track_logic():
-    """PODS 的期（vol 3 的 N2、N5）不在 SIGMOD 的 round 列表里，
-    因此天然被排除，不需要任何 track 过滤逻辑。"""
+    """PODS issues (vol 3 N2 and N5) are not in SIGMOD's round list, so they
+    fall out on their own and no track-filtering logic is needed."""
     kept = filter_by_rounds(_pacmmod_vol3(), SIGMOD_2026_ROUNDS)
 
     assert "2" not in {p.issue for p in kept}
@@ -34,10 +34,11 @@ def test_excludes_pods_issues_without_track_logic():
 
 
 def test_issue_number_alone_does_not_match_across_volumes():
-    """只给 vol 4 的期，vol 3 的论文一篇都不该留下。
+    """Given only volume 4's issues, no volume 3 paper may survive.
 
-    早期实现只比期号、卷号取自调用方传参，于是 vol 3 的 N1/N3 会被
-    当成 vol 4 的 N1/N3 收进来——一届 SIGMOD 会混入另一届的论文。
+    An earlier version compared issue numbers only and took the volume from
+    the caller, so volume 3's N1/N3 were collected as volume 4's N1/N3 — one
+    SIGMOD edition contaminated with another's papers.
     """
     kept = filter_by_rounds(_pacmmod_vol3(), [[4, 1], [4, 3]])
 
@@ -45,7 +46,8 @@ def test_issue_number_alone_does_not_match_across_volumes():
 
 
 def test_matches_across_multiple_volumes_in_one_call():
-    """按 (卷, 期) 对匹配，因此可以一次传入多卷的论文。"""
+    """Matching on (volume, issue) pairs, so papers from several volumes can
+    be passed in at once."""
     papers = _pacmmod_vol3()
     kept = filter_by_rounds(papers, SIGMOD_2026_ROUNDS)
 

@@ -62,6 +62,9 @@
       "issue": "1",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1-zhang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1-zhang.pdf",
+      "pdf_source": "source",
       "pages": "1-14",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhangZGWLZCM25"
@@ -98,6 +101,9 @@
       "issue": "1",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p15-pan.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p15-pan.pdf",
+      "pdf_source": "source",
       "pages": "15-28",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/PanBST25"
@@ -134,6 +140,9 @@
       "issue": "1",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p29-horchidan.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p29-horchidan.pdf",
+      "pdf_source": "source",
       "pages": "29-42",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HorchidanZBC25"
@@ -175,6 +184,9 @@
       "issue": "1",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p43-shi.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p43-shi.pdf",
+      "pdf_source": "source",
       "pages": "43-55",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ShiZWZL25"
@@ -231,6 +243,9 @@
       "issue": "1",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p56-cao.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p56-cao.pdf",
+      "pdf_source": "source",
       "pages": "56-69",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/CaoCZFAWGY25"
@@ -262,6 +277,9 @@
       "issue": "1",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p70-ermshaus.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p70-ermshaus.pdf",
+      "pdf_source": "source",
       "pages": "70-83",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ErmshausSL25"
@@ -293,6 +311,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p84-jin.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p84-jin.pdf",
+      "pdf_source": "source",
       "pages": "84-98",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/JinZK25"
@@ -329,6 +350,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p99-d%27hondt.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p99-d%27hondt.pdf",
+      "pdf_source": "source",
       "pages": "99-112",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/dHondtKPP25"
@@ -365,6 +389,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p113-dong.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p113-dong.pdf",
+      "pdf_source": "source",
       "pages": "113-126",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DongCWL25"
@@ -416,6 +443,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p127-zhou.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p127-zhou.pdf",
+      "pdf_source": "source",
       "pages": "127-140",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhouJFLHHC25"
@@ -457,6 +487,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p141-sen.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p141-sen.pdf",
+      "pdf_source": "source",
       "pages": "141-155",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuCCIS25"
@@ -488,6 +521,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p156-giatrakos.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p156-giatrakos.pdf",
+      "pdf_source": "source",
       "pages": "156-169",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/BanelasSG25"
@@ -534,6 +570,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p170-li.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p170-li.pdf",
+      "pdf_source": "source",
       "pages": "170-182",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiuLHTLJ25"
@@ -590,6 +629,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p183-zheng.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p183-zheng.pdf",
+      "pdf_source": "source",
       "pages": "183-195",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhuYYCYLLZ25"
@@ -631,6 +673,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p196-bodensohn.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p196-bodensohn.pdf",
+      "pdf_source": "source",
       "pages": "196-209",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/BodensohnBVSB25"
@@ -692,6 +737,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p210-chaudhary.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p210-chaudhary.pdf",
+      "pdf_source": "source",
       "pages": "210-223",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChaudharyLFSPKZBM25"
@@ -743,6 +791,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p224-chandramouli.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p224-chandramouli.pdf",
+      "pdf_source": "source",
       "pages": "224-237",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChandramouliZHZMRG25"
@@ -769,6 +820,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p238-lee.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p238-lee.pdf",
+      "pdf_source": "source",
       "pages": "238-251",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LeeL25"
@@ -805,6 +859,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p252-algarni.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p252-algarni.pdf",
+      "pdf_source": "source",
       "pages": "252-264",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/AlgarniGLC25"
@@ -841,6 +898,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p265-kang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p265-kang.pdf",
+      "pdf_source": "source",
       "pages": "265-278",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KangCDS25"
@@ -867,6 +927,9 @@
       "issue": "2",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p279-viotti.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p279-viotti.pdf",
+      "pdf_source": "source",
       "pages": "279-291",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/MiorV25"
@@ -913,6 +976,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p292-gao.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p292-gao.pdf",
+      "pdf_source": "source",
       "pages": "292-305",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiWMGFL25"
@@ -949,6 +1015,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p306-kozar.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p306-kozar.pdf",
+      "pdf_source": "source",
       "pages": "306-319",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KozarCZM25"
@@ -1005,6 +1074,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p320-sen.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p320-sen.pdf",
+      "pdf_source": "source",
       "pages": "320-333",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuangSLCCIDS25"
@@ -1041,6 +1113,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p334-zhou.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p334-zhou.pdf",
+      "pdf_source": "source",
       "pages": "334-347",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhouLYS25"
@@ -1072,6 +1147,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p348-schonberger.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p348-schonberger.pdf",
+      "pdf_source": "source",
       "pages": "348-360",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/SchonbergerTM25"
@@ -1118,6 +1196,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p361-zhao.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p361-zhao.pdf",
+      "pdf_source": "source",
       "pages": "361-374",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhaoYRFFK25"
@@ -1154,6 +1235,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p375-jiang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p375-jiang.pdf",
+      "pdf_source": "source",
       "pages": "375-387",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuJLP25"
@@ -1185,6 +1269,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p388-li.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p388-li.pdf",
+      "pdf_source": "source",
       "pages": "388-398",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ShahLP25"
@@ -1251,6 +1338,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p399-chen.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p399-chen.pdf",
+      "pdf_source": "source",
       "pages": "399-412",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenZCXZRJWCW25"
@@ -1282,6 +1372,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p413-zhao.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p413-zhao.pdf",
+      "pdf_source": "source",
       "pages": "413-425",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhaoMC25"
@@ -1333,6 +1426,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p426-luo.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p426-luo.pdf",
+      "pdf_source": "source",
       "pages": "426-439",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LinQZPCTL25"
@@ -1359,6 +1455,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p440-baunsgaard.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p440-baunsgaard.pdf",
+      "pdf_source": "source",
       "pages": "440-454",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/BaunsgaardB25"
@@ -1395,6 +1494,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p455-guo.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p455-guo.pdf",
+      "pdf_source": "source",
       "pages": "455-467",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/XianGZW25"
@@ -1456,6 +1558,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p468-zhao.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p468-zhao.pdf",
+      "pdf_source": "source",
       "pages": "468-480",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZouZYZZGHYW25"
@@ -1517,6 +1622,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p481-hu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p481-hu.pdf",
+      "pdf_source": "source",
       "pages": "481-494",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuWPZYCZXY25"
@@ -1583,6 +1691,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p495-yu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p495-yu.pdf",
+      "pdf_source": "source",
       "pages": "495-508",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YuLGXLZSZLY25"
@@ -1614,6 +1725,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p509-mamouras.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p509-mamouras.pdf",
+      "pdf_source": "source",
       "pages": "509-522",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/GlaunecLM25"
@@ -1640,6 +1754,9 @@
       "issue": "3",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p523-marcus.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p523-marcus.pdf",
+      "pdf_source": "source",
       "pages": "523-535",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/XueM25"
@@ -1671,6 +1788,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p536-wu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p536-wu.pdf",
+      "pdf_source": "source",
       "pages": "536-548",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuZS25"
@@ -1717,6 +1837,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p549-yang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p549-yang.pdf",
+      "pdf_source": "source",
       "pages": "549-562",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenAQCVY25"
@@ -1758,6 +1881,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p563-wei.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p563-wei.pdf",
+      "pdf_source": "source",
       "pages": "563-575",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/CaiLWCP25"
@@ -1814,6 +1940,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p576-chen.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p576-chen.pdf",
+      "pdf_source": "source",
       "pages": "576-588",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenLZZMWFM25"
@@ -1855,6 +1984,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p589-wang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p589-wang.pdf",
+      "pdf_source": "source",
       "pages": "589-602",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WangBBRR25"
@@ -1896,6 +2028,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p603-chockchowwat.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p603-chockchowwat.pdf",
+      "pdf_source": "source",
       "pages": "603-616",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChockchowwatTLKP25"
@@ -1937,6 +2072,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p617-yang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p617-yang.pdf",
+      "pdf_source": "source",
       "pages": "617-630",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YangXLWW25"
@@ -1973,6 +2111,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p631-wan.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p631-wan.pdf",
+      "pdf_source": "source",
       "pages": "631-643",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YanDZW25"
@@ -2019,6 +2160,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p644-zhang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p644-zhang.pdf",
+      "pdf_source": "source",
       "pages": "644-656",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/OuyangLWZYL25"
@@ -2060,6 +2204,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p657-laskowski.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p657-laskowski.pdf",
+      "pdf_source": "source",
       "pages": "657-669",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LaskowskiPHPN25"
@@ -2091,6 +2238,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p670-jackson.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p670-jackson.pdf",
+      "pdf_source": "source",
       "pages": "670-683",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/JacksonGH25"
@@ -2157,6 +2307,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p684-zha.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p684-zha.pdf",
+      "pdf_source": "source",
       "pages": "684-697",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhaMLWHLZCCP25"
@@ -2203,6 +2356,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p698-yang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p698-yang.pdf",
+      "pdf_source": "source",
       "pages": "698-712",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenHYZZL25"
@@ -2274,6 +2430,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p713-li.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p713-li.pdf",
+      "pdf_source": "source",
       "pages": "713-725",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuLWXYCSTLLC25"
@@ -2320,6 +2479,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p726-tan.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p726-tan.pdf",
+      "pdf_source": "source",
       "pages": "726-739",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WengSZLLT25"
@@ -2366,6 +2528,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p740-li.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p740-li.pdf",
+      "pdf_source": "source",
       "pages": "740-752",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WangCLQXL25"
@@ -2392,6 +2557,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p753-chen.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p753-chen.pdf",
+      "pdf_source": "source",
       "pages": "753-766",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenT25"
@@ -2418,6 +2586,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p767-berens.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p767-berens.pdf",
+      "pdf_source": "source",
       "pages": "767-779",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/BerensT25"
@@ -2459,6 +2630,9 @@
       "issue": "4",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p780-liu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p780-liu.pdf",
+      "pdf_source": "source",
       "pages": "780-793",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiuHWMS25"
@@ -2500,6 +2674,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p794-cheng.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p794-cheng.pdf",
+      "pdf_source": "source",
       "pages": "794-807",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuangCWWW26"
@@ -2561,6 +2738,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p808-zhu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p808-zhu.pdf",
+      "pdf_source": "source",
       "pages": "808-821",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhuZSWWJNLP26"
@@ -2622,6 +2802,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p822-zhang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p822-zhang.pdf",
+      "pdf_source": "source",
       "pages": "822-835",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhangDWOWWCFF26"
@@ -2663,6 +2846,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p836-jiang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p836-jiang.pdf",
+      "pdf_source": "source",
       "pages": "836-848",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhouWZZJ26"
@@ -2709,6 +2895,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p849-li.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p849-li.pdf",
+      "pdf_source": "source",
       "pages": "849-861",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LvLYXCJ26"
@@ -2750,6 +2939,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p862-xu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p862-xu.pdf",
+      "pdf_source": "source",
       "pages": "862-875",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuXLZZ26"
@@ -2791,6 +2983,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p876-koutroumanis.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p876-koutroumanis.pdf",
+      "pdf_source": "source",
       "pages": "876-888",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KoutroumanisKKMV26"
@@ -2827,6 +3022,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p889-miao.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p889-miao.pdf",
+      "pdf_source": "source",
       "pages": "889-901",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenGYM26"
@@ -2873,6 +3071,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p902-kossmann.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p902-kossmann.pdf",
+      "pdf_source": "source",
       "pages": "902-916",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KossmannWTTCM26"
@@ -2909,6 +3110,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p917-vinciguerra.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p917-vinciguerra.pdf",
+      "pdf_source": "source",
       "pages": "917-930",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HermannLVW26"
@@ -2945,6 +3149,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p931-jin.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p931-jin.pdf",
+      "pdf_source": "source",
       "pages": "931-944",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/JinCZK26"
@@ -2971,6 +3178,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p945-nakamori.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p945-nakamori.pdf",
+      "pdf_source": "source",
       "pages": "945-957",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/NakamoriK26"
@@ -3002,6 +3212,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p958-liu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p958-liu.pdf",
+      "pdf_source": "source",
       "pages": "958-972",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiuXL26"
@@ -3048,6 +3261,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p973-wei.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p973-wei.pdf",
+      "pdf_source": "source",
       "pages": "973-986",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WeiGLHJM26"
@@ -3084,6 +3300,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p987-shi.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p987-shi.pdf",
+      "pdf_source": "source",
       "pages": "987-1000",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YuSWZ26"
@@ -3130,6 +3349,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1001-hou.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1001-hou.pdf",
+      "pdf_source": "source",
       "pages": "1001-1015",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HouPCTLO26"
@@ -3241,6 +3463,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1016-lu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1016-lu.pdf",
+      "pdf_source": "source",
       "pages": "1016-1031",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenZLZZLLLJCDYJCZLYYY26"
@@ -3272,6 +3497,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1032-dehghankar.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1032-dehghankar.pdf",
+      "pdf_source": "source",
       "pages": "1032-1045",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DehghankarSA26"
@@ -3323,6 +3551,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1046-ma.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1046-ma.pdf",
+      "pdf_source": "source",
       "pages": "1046-1059",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/MaHULCLJ26"
@@ -3374,6 +3605,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1060-russo.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1060-russo.pdf",
+      "pdf_source": "source",
       "pages": "1060-1073",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/RussoLSVCKM26"
@@ -3425,6 +3659,9 @@
       "issue": "5",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1074-yang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1074-yang.pdf",
+      "pdf_source": "source",
       "pages": "1074-1087",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/PengYXSSCC26"
@@ -3461,6 +3698,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1088-ye.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1088-ye.pdf",
+      "pdf_source": "source",
       "pages": "1088-1100",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YeMDZ26"
@@ -3512,6 +3752,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1101-tang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1101-tang.pdf",
+      "pdf_source": "source",
       "pages": "1101-1114",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/TangXDYBPJ26"
@@ -3543,6 +3786,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1115-mahin.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1115-mahin.pdf",
+      "pdf_source": "source",
       "pages": "1115-1127",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/MahinCT26"
@@ -3574,6 +3820,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1128-ren.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1128-ren.pdf",
+      "pdf_source": "source",
       "pages": "1128-1141",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/RenLL26"
@@ -3625,6 +3874,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1142-ding.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1142-ding.pdf",
+      "pdf_source": "source",
       "pages": "1142-1155",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DingZZSXLD26"
@@ -3666,6 +3918,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1156-han.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1156-han.pdf",
+      "pdf_source": "source",
       "pages": "1156-1169",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenZNLH26"
@@ -3712,6 +3967,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1170-wen.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1170-wen.pdf",
+      "pdf_source": "source",
       "pages": "1170-1183",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/OuyangWWZLL26"
@@ -3753,6 +4011,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1184-zhang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1184-zhang.pdf",
+      "pdf_source": "source",
       "pages": "1184-1197",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhangSSLC26"
@@ -3784,6 +4045,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1198-jiang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1198-jiang.pdf",
+      "pdf_source": "source",
       "pages": "1198-1211",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WustJS26"
@@ -3815,6 +4079,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1212-spinrath.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1212-spinrath.pdf",
+      "pdf_source": "source",
       "pages": "1212-1225",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/SpinrathBE26"
@@ -3851,6 +4118,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1226-zhou.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1226-zhou.pdf",
+      "pdf_source": "source",
       "pages": "1226-1239",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhouWMF26"
@@ -3887,6 +4157,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1240-yang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1240-yang.pdf",
+      "pdf_source": "source",
       "pages": "1240-1249",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YangJLW26"
@@ -3923,6 +4196,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1250-han.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1250-han.pdf",
+      "pdf_source": "source",
       "pages": "1250-1263",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LeeHTH26"
@@ -3984,6 +4260,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1264-chai.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1264-chai.pdf",
+      "pdf_source": "source",
       "pages": "1264-1277",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ShenZCWYWYWC26"
@@ -4015,6 +4294,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1278-qiao.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1278-qiao.pdf",
+      "pdf_source": "source",
       "pages": "1278-1290",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/QiaoBZ26"
@@ -4046,6 +4328,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1291-daviran.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1291-daviran.pdf",
+      "pdf_source": "source",
       "pages": "1291-1304",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DaviranLR26"
@@ -4082,6 +4367,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1305-tolovski.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1305-tolovski.pdf",
+      "pdf_source": "source",
       "pages": "1305-1318",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/TolovskiHDR26"
@@ -4138,6 +4426,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1319-zhou.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1319-zhou.pdf",
+      "pdf_source": "source",
       "pages": "1319-1331",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhouSZZXZLW26"
@@ -4174,6 +4465,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1332-mundra.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1332-mundra.pdf",
+      "pdf_source": "source",
       "pages": "1332-1344",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/MundraKSA26"
@@ -4220,6 +4514,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1345-huang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1345-huang.pdf",
+      "pdf_source": "source",
       "pages": "1345-1357",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuangZDLXL26"
@@ -4296,6 +4593,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1358-zhang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1358-zhang.pdf",
+      "pdf_source": "source",
       "pages": "1358-1371",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhangCHHLWSWZLLD26"
@@ -4322,6 +4622,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1372-ginter.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1372-ginter.pdf",
+      "pdf_source": "source",
       "pages": "1372-1385",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/GinterL26"
@@ -4388,6 +4691,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1386-fan.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1386-fan.pdf",
+      "pdf_source": "source",
       "pages": "1386-1399",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DengFLXFZZJZD26"
@@ -4429,6 +4735,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1400-egger.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1400-egger.pdf",
+      "pdf_source": "source",
       "pages": "1400-1412",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/EggerALMK26"
@@ -4495,6 +4804,9 @@
       "issue": "6",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1413-weng.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1413-weng.pdf",
+      "pdf_source": "source",
       "pages": "1413-1426",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WengYHZPYZCHP26"
@@ -4536,6 +4848,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1427-kontaxakis.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1427-kontaxakis.pdf",
+      "pdf_source": "source",
       "pages": "1427-1440",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KontaxakisSANS26"
@@ -4607,6 +4922,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1441-rajan.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1441-rajan.pdf",
+      "pdf_source": "source",
       "pages": "1441-1454",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/RajanRABCILMPCG26"
@@ -4638,6 +4956,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1455-luo.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1455-luo.pdf",
+      "pdf_source": "source",
       "pages": "1455-1468",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LuoXY26"
@@ -4669,6 +4990,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
+      "pdf_source": "source",
       "pages": "1469-1483",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LeeZL26"
@@ -4710,6 +5034,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1484-li.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1484-li.pdf",
+      "pdf_source": "source",
       "pages": "1484-1498",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiGYWW26"
@@ -4746,6 +5073,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1499-zhao.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1499-zhao.pdf",
+      "pdf_source": "source",
       "pages": "1499-1515",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhaoDWC26"
@@ -4782,6 +5112,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1516-gao.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1516-gao.pdf",
+      "pdf_source": "source",
       "pages": "1516-1529",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiuGFG26"
@@ -4813,6 +5146,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1530-han.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1530-han.pdf",
+      "pdf_source": "source",
       "pages": "1530-1543",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HanZT26"
@@ -4839,6 +5175,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1544-kondylakis.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1544-kondylakis.pdf",
+      "pdf_source": "source",
       "pages": "1544-1557",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/VassiliouK26"
@@ -4875,6 +5214,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1558-guerra-balboa.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1558-guerra-balboa.pdf",
+      "pdf_source": "source",
       "pages": "1558-1571",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/GuerraBalboaSAS26"
@@ -4916,6 +5258,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1572-yang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1572-yang.pdf",
+      "pdf_source": "source",
       "pages": "1572-1585",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YangSZGL26"
@@ -4972,6 +5317,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1586-wu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1586-wu.pdf",
+      "pdf_source": "source",
       "pages": "1586-1599",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuLZWYZXZ26"
@@ -5008,6 +5356,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1600-deng.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1600-deng.pdf",
+      "pdf_source": "source",
       "pages": "1600-1613",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhangQPD26"
@@ -5064,6 +5415,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1614-wang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1614-wang.pdf",
+      "pdf_source": "source",
       "pages": "1614-1627",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuangWCZWSWC26"
@@ -5105,6 +5459,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1628-li.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1628-li.pdf",
+      "pdf_source": "source",
       "pages": "1628-1642",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuLLWL26"
@@ -5141,6 +5498,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1643-rissaki.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1643-rissaki.pdf",
+      "pdf_source": "source",
       "pages": "1643-1658",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/RissakiFGK26"
@@ -5187,6 +5547,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1659-yu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1659-yu.pdf",
+      "pdf_source": "source",
       "pages": "1659-1673",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YuZZYZH26"
@@ -5248,6 +5611,9 @@
       "issue": "7",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1674-pan.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1674-pan.pdf",
+      "pdf_source": "source",
       "pages": "1674-1687",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/PanSZPDYZZX26"
@@ -5289,6 +5655,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1688-yang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1688-yang.pdf",
+      "pdf_source": "source",
       "pages": "1688-1700",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YangLLLW26"
@@ -5330,6 +5699,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1701-du.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1701-du.pdf",
+      "pdf_source": "source",
       "pages": "1701-1714",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DuLWZS26"
@@ -5386,6 +5758,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1715-gao.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1715-gao.pdf",
+      "pdf_source": "source",
       "pages": "1715-1730",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WangTGJZKXZ26"
@@ -5417,6 +5792,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1731-azad.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1731-azad.pdf",
+      "pdf_source": "source",
       "pages": "1731-1739",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/AkkasDA26"
@@ -5463,6 +5841,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1740-sun.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1740-sun.pdf",
+      "pdf_source": "source",
       "pages": "1740-1753",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenSCHHG26"
@@ -5554,6 +5935,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1754-trummer.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1754-trummer.pdf",
+      "pdf_source": "source",
       "pages": "1754-1767",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LaoZOCRVCOGHJKSKT26"
@@ -5595,6 +5979,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1768-xu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1768-xu.pdf",
+      "pdf_source": "source",
       "pages": "1768-1781",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/XuDGPM26"
@@ -5631,6 +6018,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1782-karapiperis.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1782-karapiperis.pdf",
+      "pdf_source": "source",
       "pages": "1782-1790",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KarapiperisABV26"
@@ -5667,6 +6057,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1791-chang.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1791-chang.pdf",
+      "pdf_source": "source",
       "pages": "1791-1803",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhaoWCH26"
@@ -5708,6 +6101,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1804-gupta.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1804-gupta.pdf",
+      "pdf_source": "source",
       "pages": "1804-1817",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/GuptaLLLK26"
@@ -5734,6 +6130,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1818-liu.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1818-liu.pdf",
+      "pdf_source": "source",
       "pages": "1818-1825",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiuB26"
@@ -5770,6 +6169,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1826-cao.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1826-cao.pdf",
+      "pdf_source": "source",
       "pages": "1826-1839",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/FengCOY26"
@@ -5806,6 +6208,9 @@
       "issue": "8",
       "doi": null,
       "url": "https://www.vldb.org/pvldb/vol19/p1840-koudas.pdf",
+      "url_source": null,
+      "pdf_url": "https://www.vldb.org/pvldb/vol19/p1840-koudas.pdf",
+      "pdf_source": "source",
       "pages": "1840-1853",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChaoCGK26"
