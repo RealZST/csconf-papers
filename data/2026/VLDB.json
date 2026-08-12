@@ -1,0 +1,5814 @@
+{
+  "meta": {
+    "venue": "VLDB",
+    "year": 2026,
+    "source_keys": [
+      "journals/pvldb/pvldb19"
+    ],
+    "paper_count": 135,
+    "note": "本文件为 PVLDB vol 19 全卷。VLDB 2026 研究 track 实际由本卷截止日前接收的论文加上一卷的 rollover 组成，DBLP 元数据无法区分。",
+    "updated": "2026-08-12"
+  },
+  "papers": [
+    {
+      "title": "FlatStor: An Efficient Embedded-Index Based Columnar Data Layout for Multimodal Data Workloads",
+      "authors": [
+        {
+          "name": "Chi Zhang 0005",
+          "pid": "91/195-5",
+          "orcid": null
+        },
+        {
+          "name": "Shihao Zhang",
+          "pid": "191/7655",
+          "orcid": null
+        },
+        {
+          "name": "Yunfei Gu",
+          "pid": "217/2344",
+          "orcid": null
+        },
+        {
+          "name": "Chentao Wu",
+          "pid": "55/8165",
+          "orcid": null
+        },
+        {
+          "name": "Jie Li 0002",
+          "pid": "17/2703-2",
+          "orcid": null
+        },
+        {
+          "name": "Qin Zhang",
+          "pid": "45/47",
+          "orcid": null
+        },
+        {
+          "name": "Xusheng Chen",
+          "pid": "38/7674",
+          "orcid": null
+        },
+        {
+          "name": "Jie Meng",
+          "pid": "80/485",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "September",
+      "volume": "19",
+      "issue": "1",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1-zhang.pdf",
+      "pages": "1-14",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhangZGWLZCM25"
+    },
+    {
+      "title": "TIMEST: Temporal Information Motif Estimator Using Sampling Trees",
+      "authors": [
+        {
+          "name": "Yunjie Pan",
+          "pid": "327/6686",
+          "orcid": null
+        },
+        {
+          "name": "Omkar Bhalerao",
+          "pid": "274/7071",
+          "orcid": null
+        },
+        {
+          "name": "C. Seshadhri 0001",
+          "pid": "60/4210",
+          "orcid": null
+        },
+        {
+          "name": "Nishil Talati",
+          "pid": "161/3279",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "September",
+      "volume": "19",
+      "issue": "1",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p15-pan.pdf",
+      "pages": "15-28",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/PanBST25"
+    },
+    {
+      "title": "ConANN: Conformal Approximate Nearest Neighbor Search",
+      "authors": [
+        {
+          "name": "Sonia Horchidan",
+          "pid": "289/3171",
+          "orcid": null
+        },
+        {
+          "name": "Fabian Zeiher",
+          "pid": "426/0940",
+          "orcid": null
+        },
+        {
+          "name": "Henrik Boström",
+          "pid": "39/6674",
+          "orcid": null
+        },
+        {
+          "name": "Paris Carbone",
+          "pid": "90/7704",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "September",
+      "volume": "19",
+      "issue": "1",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p29-horchidan.pdf",
+      "pages": "29-42",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/HorchidanZBC25"
+    },
+    {
+      "title": "RayDB: Building Databases with Ray Tracing Cores",
+      "authors": [
+        {
+          "name": "Xuri Shi",
+          "pid": "395/1603",
+          "orcid": null
+        },
+        {
+          "name": "Kai Zhang 0006",
+          "pid": "55/957-6",
+          "orcid": null
+        },
+        {
+          "name": "X. Sean Wang",
+          "pid": "w/XiaoyangSeanWang",
+          "orcid": null
+        },
+        {
+          "name": "Xiaodong Zhang 0001",
+          "pid": "37/4356-1",
+          "orcid": null
+        },
+        {
+          "name": "Rubao Lee",
+          "pid": "41/6729",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "September",
+      "volume": "19",
+      "issue": "1",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p43-shi.pdf",
+      "pages": "43-55",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ShiZWZL25"
+    },
+    {
+      "title": "NeutronCloud: Resource-Aware Distributed GNN Training in Fluctuating Cloud Environments",
+      "authors": [
+        {
+          "name": "Mingyi Cao",
+          "pid": "418/3593",
+          "orcid": null
+        },
+        {
+          "name": "Chunyu Cao",
+          "pid": "361/7386",
+          "orcid": null
+        },
+        {
+          "name": "Yanfeng Zhang 0001",
+          "pid": "66/2444-1",
+          "orcid": null
+        },
+        {
+          "name": "Zhenbo Fu",
+          "pid": "46/9963",
+          "orcid": null
+        },
+        {
+          "name": "Xin Ai 0006",
+          "pid": "327/9175",
+          "orcid": null
+        },
+        {
+          "name": "Qiange Wang",
+          "pid": "260/4305",
+          "orcid": null
+        },
+        {
+          "name": "Yu Gu 0002",
+          "pid": "15/4208-2",
+          "orcid": null
+        },
+        {
+          "name": "Ge Yu 0001",
+          "pid": "49/6363",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "September",
+      "volume": "19",
+      "issue": "1",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p56-cao.pdf",
+      "pages": "56-69",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/CaoCZFAWGY25"
+    },
+    {
+      "title": "CLaP - State Detection from Time Series",
+      "authors": [
+        {
+          "name": "Arik Ermshaus",
+          "pid": "305/0471",
+          "orcid": null
+        },
+        {
+          "name": "Patrick Schäfer 0001",
+          "pid": "89/11002-1",
+          "orcid": null
+        },
+        {
+          "name": "Ulf Leser",
+          "pid": "l/UlfLeser",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "September",
+      "volume": "19",
+      "issue": "1",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p70-ermshaus.pdf",
+      "pages": "70-83",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ErmshausSL25"
+    },
+    {
+      "title": "ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines",
+      "authors": [
+        {
+          "name": "Tengjun Jin",
+          "pid": "376/6776",
+          "orcid": null
+        },
+        {
+          "name": "Yuxuan Zhu 0003",
+          "pid": "146/0939-3",
+          "orcid": null
+        },
+        {
+          "name": "Daniel Kang 0001",
+          "pid": "40/6300",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p84-jin.pdf",
+      "pages": "84-98",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/JinZK25"
+    },
+    {
+      "title": "MS-Index: Fast Top-k Subsequence Search for Multivariate Time Series under Euclidean Distance",
+      "authors": [
+        {
+          "name": "Jens E. d'Hondt",
+          "pid": "252/7565",
+          "orcid": null
+        },
+        {
+          "name": "Teun Kortekaas",
+          "pid": "424/7990",
+          "orcid": null
+        },
+        {
+          "name": "Odysseas Papapetrou",
+          "pid": "p/OdysseasPapapetrou",
+          "orcid": null
+        },
+        {
+          "name": "Themis Palpanas",
+          "pid": "p/ThemisPalpanas",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p99-d%27hondt.pdf",
+      "pages": "99-112",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/dHondtKPP25"
+    },
+    {
+      "title": "Doppio: Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy",
+      "authors": [
+        {
+          "name": "Wentao Dong",
+          "pid": "99/10801",
+          "orcid": null
+        },
+        {
+          "name": "Yang Cao",
+          "pid": "25/7045",
+          "orcid": null
+        },
+        {
+          "name": "Cong Wang",
+          "pid": "18/2771",
+          "orcid": null
+        },
+        {
+          "name": "Wei-Bin Lee",
+          "pid": "50/3431",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p113-dong.pdf",
+      "pages": "113-126",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/DongCWL25"
+    },
+    {
+      "title": "Effective Durable Community Search in Large Temporal Graph",
+      "authors": [
+        {
+          "name": "Yingli Zhou",
+          "pid": "331/8455",
+          "orcid": null
+        },
+        {
+          "name": "Yige Jiang",
+          "pid": "425/1606",
+          "orcid": null
+        },
+        {
+          "name": "Yixiang Fang",
+          "pid": "76/1735",
+          "orcid": null
+        },
+        {
+          "name": "Wensheng Luo 0002",
+          "pid": "178/4881-2",
+          "orcid": null
+        },
+        {
+          "name": "Yongmin Hu",
+          "pid": "245/8929",
+          "orcid": null
+        },
+        {
+          "name": "Yingqian Hu",
+          "pid": "328/7021",
+          "orcid": null
+        },
+        {
+          "name": "Cheng Chen 0008",
+          "pid": "10/217-8",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p127-zhou.pdf",
+      "pages": "127-140",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhouJFLHHC25"
+    },
+    {
+      "title": "Terabyte-Scale Analytics in the Blink of an Eye",
+      "authors": [
+        {
+          "name": "Bowen Wu",
+          "pid": "156/8281",
+          "orcid": null
+        },
+        {
+          "name": "Wei Cui",
+          "pid": "42/3805",
+          "orcid": null
+        },
+        {
+          "name": "Carlo Curino",
+          "pid": "c/CarloCurino",
+          "orcid": null
+        },
+        {
+          "name": "Matteo Interlandi",
+          "pid": "49/10034",
+          "orcid": null
+        },
+        {
+          "name": "Rathijit Sen",
+          "pid": "08/2832",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p141-sen.pdf",
+      "pages": "141-155",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WuCCIS25"
+    },
+    {
+      "title": "APEROL: Adaptive Parallel Edge-to-Cloud Runtime Optimization for Layered Workflow Execution",
+      "authors": [
+        {
+          "name": "Dimitrios Banelas",
+          "pid": "372/9666",
+          "orcid": null
+        },
+        {
+          "name": "Alkis Simitsis",
+          "pid": "s/ASimitsis",
+          "orcid": null
+        },
+        {
+          "name": "Nikos Giatrakos",
+          "pid": "17/1242",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p156-giatrakos.pdf",
+      "pages": "156-169",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/BanelasSG25"
+    },
+    {
+      "title": "MH-GIN: Multi-scale Heterogeneous Graph-based Imputation Network for AIS Data",
+      "authors": [
+        {
+          "name": "Hengyu Liu 0001",
+          "pid": "197/6068-1",
+          "orcid": null
+        },
+        {
+          "name": "Tianyi Li 0005",
+          "pid": "85/11154-5",
+          "orcid": null
+        },
+        {
+          "name": "Yuqiang He",
+          "pid": "297/7931",
+          "orcid": null
+        },
+        {
+          "name": "Kristian Torp",
+          "pid": "t/KristianTorp",
+          "orcid": null
+        },
+        {
+          "name": "Yushuai Li",
+          "pid": "210/8903",
+          "orcid": null
+        },
+        {
+          "name": "Christian S. Jensen",
+          "pid": "j/ChristianSJensen",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p170-li.pdf",
+      "pages": "170-182",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LiuLHTLJ25"
+    },
+    {
+      "title": "An Experimental Evaluation of Hybrid Querying on Vectors",
+      "authors": [
+        {
+          "name": "Jiaxu Zhu",
+          "pid": "161/6197",
+          "orcid": null
+        },
+        {
+          "name": "Jiayu Yuan",
+          "pid": "358/1241",
+          "orcid": null
+        },
+        {
+          "name": "Kaiwen Yang",
+          "pid": "227/0101",
+          "orcid": null
+        },
+        {
+          "name": "Xiaobao Chen",
+          "pid": "63/424",
+          "orcid": null
+        },
+        {
+          "name": "Shihuan Yu",
+          "pid": "146/2482",
+          "orcid": null
+        },
+        {
+          "name": "Hongchang Lv",
+          "pid": "426/0914",
+          "orcid": null
+        },
+        {
+          "name": "Yan Li 0161",
+          "pid": "87/660-161",
+          "orcid": null
+        },
+        {
+          "name": "Bolong Zheng",
+          "pid": "152/4895",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p183-zheng.pdf",
+      "pages": "183-195",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhuYYCYLLZ25"
+    },
+    {
+      "title": "Unveiling Challenges for LLMs in Enterprise Data Engineering",
+      "authors": [
+        {
+          "name": "Jan-Micha Bodensohn",
+          "pid": "315/4523",
+          "orcid": null
+        },
+        {
+          "name": "Ulf Brackmann",
+          "pid": "389/5075",
+          "orcid": null
+        },
+        {
+          "name": "Liane Vogel",
+          "pid": "318/9125",
+          "orcid": null
+        },
+        {
+          "name": "Anupam Sanghi",
+          "pid": "216/4944",
+          "orcid": null
+        },
+        {
+          "name": "Carsten Binnig",
+          "pid": "45/1559",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p196-bodensohn.pdf",
+      "pages": "196-209",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/BodensohnBVSB25"
+    },
+    {
+      "title": "Incremental Stream Query Deployment under Continuous Infrastructure Changes in the Cloud-Edge Continuum",
+      "authors": [
+        {
+          "name": "Ankit Chaudhary 0002",
+          "pid": "65/10043-2",
+          "orcid": null
+        },
+        {
+          "name": "Felix Lang",
+          "pid": "198/7920",
+          "orcid": null
+        },
+        {
+          "name": "Danila Ferents",
+          "pid": "426/0761",
+          "orcid": null
+        },
+        {
+          "name": "Nils L. Schubert",
+          "pid": "349/0770",
+          "orcid": null
+        },
+        {
+          "name": "Varun Pandey",
+          "pid": "51/1618",
+          "orcid": null
+        },
+        {
+          "name": "Jeyhun Karimov",
+          "pid": "167/2751",
+          "orcid": null
+        },
+        {
+          "name": "Steffen Zeuch",
+          "pid": "142/9136",
+          "orcid": null
+        },
+        {
+          "name": "Kaustubh Beedkar",
+          "pid": "54/5149",
+          "orcid": null
+        },
+        {
+          "name": "Volker Markl",
+          "pid": "m/VMarkl",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p210-chaudhary.pdf",
+      "pages": "210-223",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChaudharyLFSPKZBM25"
+    },
+    {
+      "title": "Garnet: A Next-Generation Cache-Store for Accelerating Applications and Services",
+      "authors": [
+        {
+          "name": "Badrish Chandramouli",
+          "pid": "01/2861",
+          "orcid": null
+        },
+        {
+          "name": "Vasileios Zois",
+          "pid": "158/9045",
+          "orcid": null
+        },
+        {
+          "name": "Ted Hart",
+          "pid": "06/8160",
+          "orcid": null
+        },
+        {
+          "name": "Tal Zaccai",
+          "pid": "194/3943",
+          "orcid": null
+        },
+        {
+          "name": "Lukas M. Maas",
+          "pid": "131/4096",
+          "orcid": null
+        },
+        {
+          "name": "Yoganand Rajasekaran",
+          "pid": "426/1292",
+          "orcid": null
+        },
+        {
+          "name": "Darren Gehring",
+          "pid": "130/2894",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p224-chandramouli.pdf",
+      "pages": "224-237",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChandramouliZHZMRG25"
+    },
+    {
+      "title": "AGIS: Fast Approximate Graph Pattern Mining with Structure-Informed Sampling",
+      "authors": [
+        {
+          "name": "Seoyong Lee",
+          "pid": "426/1753",
+          "orcid": null
+        },
+        {
+          "name": "Jinho Lee 0001",
+          "pid": "62/757-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p238-lee.pdf",
+      "pages": "238-251",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LeeL25"
+    },
+    {
+      "title": "Efficient Query Repair for Aggregate Constraints",
+      "authors": [
+        {
+          "name": "Shatha Algarni",
+          "pid": "384/5572",
+          "orcid": null
+        },
+        {
+          "name": "Boris Glavic",
+          "pid": "09/3012",
+          "orcid": null
+        },
+        {
+          "name": "Seokki Lee",
+          "pid": "180/8454",
+          "orcid": null
+        },
+        {
+          "name": "Adriane Chapman",
+          "pid": "54/4551",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p252-algarni.pdf",
+      "pages": "252-264",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/AlgarniGLC25"
+    },
+    {
+      "title": "FairDAG: Consensus Fairness over Multi-Proposer Causal Design",
+      "authors": [
+        {
+          "name": "Dakai Kang",
+          "pid": "339/7333",
+          "orcid": null
+        },
+        {
+          "name": "Junchao Chen 0003",
+          "pid": "39/9851-3",
+          "orcid": null
+        },
+        {
+          "name": "Anh Dinh",
+          "pid": "32/3610",
+          "orcid": null
+        },
+        {
+          "name": "Mohammad Sadoghi",
+          "pid": "56/7016",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p265-kang.pdf",
+      "pages": "265-278",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/KangCDS25"
+    },
+    {
+      "title": "Blaze: Compiling JSON Schema for 10x Faster Validation",
+      "authors": [
+        {
+          "name": "Michael Mior",
+          "pid": "20/9709",
+          "orcid": null
+        },
+        {
+          "name": "Juan Cruz Viotti",
+          "pid": "310/1703",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "October",
+      "volume": "19",
+      "issue": "2",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p279-viotti.pdf",
+      "pages": "279-291",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/MiorV25"
+    },
+    {
+      "title": "SQL-Factory: A Multi-Agent Framework for High-Quality and Large-Scale SQL Generation",
+      "authors": [
+        {
+          "name": "Jiahui Li",
+          "pid": "153/2952",
+          "orcid": null
+        },
+        {
+          "name": "Tongwang Wu",
+          "pid": "397/1136",
+          "orcid": null
+        },
+        {
+          "name": "Yuren Mao",
+          "pid": "268/1340",
+          "orcid": null
+        },
+        {
+          "name": "Yunjun Gao",
+          "pid": "80/2651",
+          "orcid": null
+        },
+        {
+          "name": "Yajie Feng",
+          "pid": "405/6904",
+          "orcid": null
+        },
+        {
+          "name": "Huaizhong Liu",
+          "pid": "405/5976",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p292-gao.pdf",
+      "pages": "292-305",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LiWMGFL25"
+    },
+    {
+      "title": "Meerkat: Scalable, Network-Aware Failure Recovery for the Internet of Things",
+      "authors": [
+        {
+          "name": "Anastasiia Kozar",
+          "pid": "379/7016",
+          "orcid": null
+        },
+        {
+          "name": "Ankit Chaudhary 0002",
+          "pid": "65/10043-2",
+          "orcid": null
+        },
+        {
+          "name": "Steffen Zeuch",
+          "pid": "142/9136",
+          "orcid": null
+        },
+        {
+          "name": "Volker Markl",
+          "pid": "m/VMarkl",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p306-kozar.pdf",
+      "pages": "306-319",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/KozarCZM25"
+    },
+    {
+      "title": "GPU Acceleration of SQL Analytics on Compressed Data",
+      "authors": [
+        {
+          "name": "Zezhou Huang",
+          "pid": "287/9765",
+          "orcid": null
+        },
+        {
+          "name": "Krystian Sakowski",
+          "pid": "410/1075",
+          "orcid": null
+        },
+        {
+          "name": "Hans Lehnert",
+          "pid": "249/8363",
+          "orcid": null
+        },
+        {
+          "name": "Wei Cui",
+          "pid": "42/3805",
+          "orcid": null
+        },
+        {
+          "name": "Carlo Curino",
+          "pid": "c/CarloCurino",
+          "orcid": null
+        },
+        {
+          "name": "Matteo Interlandi",
+          "pid": "49/10034",
+          "orcid": null
+        },
+        {
+          "name": "Marius Dumitru",
+          "pid": "82/5967",
+          "orcid": null
+        },
+        {
+          "name": "Rathijit Sen",
+          "pid": "08/2832",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p320-sen.pdf",
+      "pages": "320-333",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/HuangSLCCIDS25"
+    },
+    {
+      "title": "Tux: Efficient Drop-in Networking for Database Systems",
+      "authors": [
+        {
+          "name": "Xinjing Zhou",
+          "pid": "255/9363",
+          "orcid": null
+        },
+        {
+          "name": "Viktor Leis",
+          "pid": "10/11150",
+          "orcid": null
+        },
+        {
+          "name": "Xiangyao Yu",
+          "pid": "126/6015",
+          "orcid": null
+        },
+        {
+          "name": "Michael Stonebraker",
+          "pid": "s/MichaelStonebraker",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p334-zhou.pdf",
+      "pages": "334-347",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhouLYS25"
+    },
+    {
+      "title": "Hybrid Mixed Integer Linear Programming for Large-Scale Join Order Optimisation",
+      "authors": [
+        {
+          "name": "Manuel Schönberger",
+          "pid": "315/9085",
+          "orcid": null
+        },
+        {
+          "name": "Immanuel Trummer",
+          "pid": "85/9079",
+          "orcid": null
+        },
+        {
+          "name": "Wolfgang Mauerer",
+          "pid": "74/694",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p348-schonberger.pdf",
+      "pages": "348-360",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/SchonbergerTM25"
+    },
+    {
+      "title": "FlowLog: Efficient and Extensible Datalog via Incrementality",
+      "authors": [
+        {
+          "name": "Hangdong Zhao",
+          "pid": "307/7991",
+          "orcid": null
+        },
+        {
+          "name": "Zhenghong Yu",
+          "pid": "37/10961",
+          "orcid": null
+        },
+        {
+          "name": "Srinag Rao",
+          "pid": "381/6141",
+          "orcid": null
+        },
+        {
+          "name": "Simon Frisk",
+          "pid": "397/7234",
+          "orcid": null
+        },
+        {
+          "name": "Zhiwei Fan",
+          "pid": "156/3546",
+          "orcid": null
+        },
+        {
+          "name": "Paraschos Koutris",
+          "pid": "49/8316",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p361-zhao.pdf",
+      "pages": "361-374",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhaoYRFFK25"
+    },
+    {
+      "title": "Resilience-Aware Elastic Scaling for Cloud-Native Online DL Training on Multi-Tenant GPU Clusters",
+      "authors": [
+        {
+          "name": "Qianhao Wu",
+          "pid": "219/1649",
+          "orcid": null
+        },
+        {
+          "name": "Jiazhi Jiang",
+          "pid": "259/0226",
+          "orcid": null
+        },
+        {
+          "name": "Guihui Ling",
+          "pid": "433/3779",
+          "orcid": null
+        },
+        {
+          "name": "Yue Pang",
+          "pid": "217/2646",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p375-jiang.pdf",
+      "pages": "375-387",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WuJLP25"
+    },
+    {
+      "title": "QStore: Quantization-Aware Compressed Model Storage",
+      "authors": [
+        {
+          "name": "Raunak Shah",
+          "pid": "271/4486",
+          "orcid": null
+        },
+        {
+          "name": "Zhaoheng Li",
+          "pid": "282/6349",
+          "orcid": null
+        },
+        {
+          "name": "Yongjoo Park",
+          "pid": "79/583",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p388-li.pdf",
+      "pages": "388-398",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ShahLP25"
+    },
+    {
+      "title": "RED-ANNS: A RDMA-Enabled Distributed Framework for Graph-Based Approximate Nearest Neighbor Search",
+      "authors": [
+        {
+          "name": "Yue Chen 0029",
+          "pid": "79/5815-29",
+          "orcid": null
+        },
+        {
+          "name": "Kai Zhang 0006",
+          "pid": "55/957-6",
+          "orcid": null
+        },
+        {
+          "name": "Sipeng Chen",
+          "pid": "263/7066",
+          "orcid": null
+        },
+        {
+          "name": "Shihai Xiao",
+          "pid": "25/2157",
+          "orcid": null
+        },
+        {
+          "name": "Xiaomin Zou",
+          "pid": "292/5854",
+          "orcid": null
+        },
+        {
+          "name": "Ren Ren",
+          "pid": "18/4751",
+          "orcid": null
+        },
+        {
+          "name": "Yinan Jing",
+          "pid": "35/3128",
+          "orcid": null
+        },
+        {
+          "name": "X. Sean Wang",
+          "pid": "w/XiaoyangSeanWang",
+          "orcid": null
+        },
+        {
+          "name": "Li Cao",
+          "pid": "57/3332",
+          "orcid": null
+        },
+        {
+          "name": "Mingxiang Wan",
+          "pid": "135/9629",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p399-chen.pdf",
+      "pages": "399-412",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChenZCXZRJWCW25"
+    },
+    {
+      "title": "TATA: An Efficient Framework for Task Transfer in Query Plan Representation",
+      "authors": [
+        {
+          "name": "Yue Zhao 0031",
+          "pid": "48/76-31",
+          "orcid": null
+        },
+        {
+          "name": "Songsong Mo",
+          "pid": "243/0860",
+          "orcid": null
+        },
+        {
+          "name": "Gao Cong",
+          "pid": "33/3180",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p413-zhao.pdf",
+      "pages": "413-425",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhaoMC25"
+    },
+    {
+      "title": "LEAD: Iterative Data Selection for Efficient LLM Instruction Tuning",
+      "authors": [
+        {
+          "name": "Xiaotian Lin",
+          "pid": "225/7491",
+          "orcid": null
+        },
+        {
+          "name": "Yanlin Qi",
+          "pid": "256/3999",
+          "orcid": null
+        },
+        {
+          "name": "Yizhang Zhu",
+          "pid": "359/8583",
+          "orcid": null
+        },
+        {
+          "name": "Themis Palpanas",
+          "pid": "p/ThemisPalpanas",
+          "orcid": null
+        },
+        {
+          "name": "Chengliang Chai",
+          "pid": "181/5689",
+          "orcid": null
+        },
+        {
+          "name": "Nan Tang 0001",
+          "pid": "27/104-1",
+          "orcid": null
+        },
+        {
+          "name": "Yuyu Luo",
+          "pid": "185/9921",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p426-luo.pdf",
+      "pages": "426-439",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LinQZPCTL25"
+    },
+    {
+      "title": "Morphing-based Compression for Data-centric ML Pipelines",
+      "authors": [
+        {
+          "name": "Sebastian Baunsgaard",
+          "pid": "258/9938",
+          "orcid": null
+        },
+        {
+          "name": "Matthias Boehm 0001",
+          "pid": "75/887",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p440-baunsgaard.pdf",
+      "pages": "440-454",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/BaunsgaardB25"
+    },
+    {
+      "title": "Optimal Approximate Matrix Multiplication over Sliding Windows",
+      "authors": [
+        {
+          "name": "Haoming Xian",
+          "pid": "400/5660",
+          "orcid": null
+        },
+        {
+          "name": "Qintian Guo",
+          "pid": "123/1816",
+          "orcid": null
+        },
+        {
+          "name": "Jun Zhang",
+          "pid": "29/4190",
+          "orcid": null
+        },
+        {
+          "name": "Sibo Wang 0001",
+          "pid": "131/6529-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p455-guo.pdf",
+      "pages": "455-467",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/XianGZW25"
+    },
+    {
+      "title": "Aquila: A High-Concurrency System for Incremental Graph Query",
+      "authors": [
+        {
+          "name": "Ziqi Zou",
+          "pid": "433/3457",
+          "orcid": null
+        },
+        {
+          "name": "Hao Zhang 0098",
+          "pid": "55/2270-98",
+          "orcid": null
+        },
+        {
+          "name": "Jiaxin Yao",
+          "pid": "241/9457",
+          "orcid": null
+        },
+        {
+          "name": "Kangfei Zhao",
+          "pid": "169/1501",
+          "orcid": null
+        },
+        {
+          "name": "Zhiwei Zhang 0002",
+          "pid": "68/1980-2",
+          "orcid": null
+        },
+        {
+          "name": "Sen Gao",
+          "pid": "143/0374",
+          "orcid": null
+        },
+        {
+          "name": "Jingpeng Hao",
+          "pid": "247/5442",
+          "orcid": null
+        },
+        {
+          "name": "Ye Yuan 0001",
+          "pid": "33/6315-1",
+          "orcid": null
+        },
+        {
+          "name": "Guoren Wang",
+          "pid": "64/146",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p468-zhao.pdf",
+      "pages": "468-480",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZouZYZZGHYW25"
+    },
+    {
+      "title": "Vodka: Rethink Benchmarking Philosophy in HTAP Systems",
+      "authors": [
+        {
+          "name": "Zirui Hu",
+          "pid": "370/2446",
+          "orcid": null
+        },
+        {
+          "name": "Siyang Weng",
+          "pid": "305/0139",
+          "orcid": null
+        },
+        {
+          "name": "Zhicheng Pan",
+          "pid": "141/5423",
+          "orcid": null
+        },
+        {
+          "name": "Rong Zhang 0002",
+          "pid": "13/5366-2",
+          "orcid": null
+        },
+        {
+          "name": "Chengcheng Yang",
+          "pid": "74/10221",
+          "orcid": null
+        },
+        {
+          "name": "Peng Cai 0001",
+          "pid": "19/3952-1",
+          "orcid": null
+        },
+        {
+          "name": "Xuan Zhou 0001",
+          "pid": "32/3943-1",
+          "orcid": null
+        },
+        {
+          "name": "Quanqing Xu",
+          "pid": "29/4131",
+          "orcid": null
+        },
+        {
+          "name": "Chuanhui Yang",
+          "pid": "328/5894",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p481-hu.pdf",
+      "pages": "481-494",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/HuWPZYCZXY25"
+    },
+    {
+      "title": "A Topology-Aware Localized Update Strategy for Graph-Based ANN Index",
+      "authors": [
+        {
+          "name": "Song Yu 0004",
+          "pid": "388/5247-4",
+          "orcid": null
+        },
+        {
+          "name": "Shengyuan Lin",
+          "pid": "386/4817",
+          "orcid": null
+        },
+        {
+          "name": "Shufeng Gong 0001",
+          "pid": "207/7446-1",
+          "orcid": null
+        },
+        {
+          "name": "Yongqing Xie",
+          "pid": "160/9925",
+          "orcid": null
+        },
+        {
+          "name": "Ruicheng Liu",
+          "pid": "01/4595",
+          "orcid": null
+        },
+        {
+          "name": "Yijie Zhou",
+          "pid": "162/7898",
+          "orcid": null
+        },
+        {
+          "name": "Ji Sun 0001",
+          "pid": "01/3254-1",
+          "orcid": null
+        },
+        {
+          "name": "Yanfeng Zhang 0001",
+          "pid": "66/2444-1",
+          "orcid": null
+        },
+        {
+          "name": "Guoliang Li 0001",
+          "pid": "l/GuoliangLi",
+          "orcid": null
+        },
+        {
+          "name": "Ge Yu 0001",
+          "pid": "49/6363",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p495-yu.pdf",
+      "pages": "495-508",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/YuLGXLZSZLY25"
+    },
+    {
+      "title": "Streaming Validation of JSON Documents Against Schemas",
+      "authors": [
+        {
+          "name": "Alexis Le Glaunec",
+          "pid": "321/5834",
+          "orcid": null
+        },
+        {
+          "name": "Angela W. Li",
+          "pid": "371/4251",
+          "orcid": null
+        },
+        {
+          "name": "Konstantinos Mamouras",
+          "pid": "48/6846",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p509-mamouras.pdf",
+      "pages": "509-522",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/GlaunecLM25"
+    },
+    {
+      "title": "Global Hash Tables Strike Back! An Analysis of Parallel GROUP BY Aggregation",
+      "authors": [
+        {
+          "name": "Daniel Xue",
+          "pid": "407/8013",
+          "orcid": null
+        },
+        {
+          "name": "Ryan Marcus",
+          "pid": "175/1473",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "November",
+      "volume": "19",
+      "issue": "3",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p523-marcus.pdf",
+      "pages": "523-535",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/XueM25"
+    },
+    {
+      "title": "PILOT-C: Physics-Informed Low-Distortion Optimal Trajectory Compression",
+      "authors": [
+        {
+          "name": "Kefei Wu",
+          "pid": "203/4948",
+          "orcid": null
+        },
+        {
+          "name": "Baihua Zheng",
+          "pid": "93/4303",
+          "orcid": null
+        },
+        {
+          "name": "Weiwei Sun 0008",
+          "pid": "63/6566-8",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p536-wu.pdf",
+      "pages": "536-548",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WuZS25"
+    },
+    {
+      "title": "Demystifying and Improving Lazy Promotion in Cache Eviction",
+      "authors": [
+        {
+          "name": "Qinghan Chen",
+          "pid": "231/9535",
+          "orcid": null
+        },
+        {
+          "name": "Muhammad Haekal Muhyidin Al-Araby",
+          "pid": "433/2798",
+          "orcid": null
+        },
+        {
+          "name": "Ziyue Qiu",
+          "pid": "346/2188",
+          "orcid": null
+        },
+        {
+          "name": "Zhuofan Chen",
+          "pid": "371/4090",
+          "orcid": null
+        },
+        {
+          "name": "Rashmi Vinayak",
+          "pid": "40/7113",
+          "orcid": null
+        },
+        {
+          "name": "Juncheng Yang",
+          "pid": "183/0795",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p549-yang.pdf",
+      "pages": "549-562",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChenAQCVY25"
+    },
+    {
+      "title": "Fast Verification of Strong Database Isolation",
+      "authors": [
+        {
+          "name": "Zhiheng Cai",
+          "pid": "226/7836",
+          "orcid": null
+        },
+        {
+          "name": "Si Liu 0003",
+          "pid": "147/8363-3",
+          "orcid": null
+        },
+        {
+          "name": "Hengfeng Wei",
+          "pid": "80/11360",
+          "orcid": null
+        },
+        {
+          "name": "Yuxing Chen 0003",
+          "pid": "142/2150-3",
+          "orcid": null
+        },
+        {
+          "name": "Anqun Pan",
+          "pid": "224/6370",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p563-wei.pdf",
+      "pages": "563-575",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/CaiLWCP25"
+    },
+    {
+      "title": "Scalable Approximate Biclique Counting over Large Bipartite Graphs",
+      "authors": [
+        {
+          "name": "Jingbang Chen 0001",
+          "pid": "239/8968-1",
+          "orcid": null
+        },
+        {
+          "name": "Weinuo Li",
+          "pid": "408/0180",
+          "orcid": null
+        },
+        {
+          "name": "Yingli Zhou",
+          "pid": "331/8455",
+          "orcid": null
+        },
+        {
+          "name": "Hangrui Zhou",
+          "pid": "368/3857",
+          "orcid": null
+        },
+        {
+          "name": "Qiuyang Mang",
+          "pid": "354/8741",
+          "orcid": null
+        },
+        {
+          "name": "Can Wang 0001",
+          "pid": "71/4716-1",
+          "orcid": null
+        },
+        {
+          "name": "Yixiang Fang",
+          "pid": "76/1735",
+          "orcid": null
+        },
+        {
+          "name": "Chenhao Ma 0001",
+          "pid": "251/5251",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p576-chen.pdf",
+      "pages": "576-588",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChenLZZMWFM25"
+    },
+    {
+      "title": "DOT: Dynamic Knob Selection and Online Sampling for Automated Database Tuning",
+      "authors": [
+        {
+          "name": "Yifan Wang",
+          "pid": "47/6959",
+          "orcid": null
+        },
+        {
+          "name": "Debabrota Basu",
+          "pid": "126/2209",
+          "orcid": null
+        },
+        {
+          "name": "Pierre Bourhis",
+          "pid": "08/6004",
+          "orcid": null
+        },
+        {
+          "name": "Romain Rouvoy",
+          "pid": "52/2030",
+          "orcid": null
+        },
+        {
+          "name": "Patrick Royer",
+          "pid": "349/7758",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p589-wang.pdf",
+      "pages": "589-602",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WangBBRR25"
+    },
+    {
+      "title": "Chipmink: Efficient Delta Identification for Massive Object Graphs",
+      "authors": [
+        {
+          "name": "Supawit Chockchowwat",
+          "pid": "218/6145",
+          "orcid": null
+        },
+        {
+          "name": "Sumay Thakurdesai",
+          "pid": "375/9934",
+          "orcid": null
+        },
+        {
+          "name": "Zhaoheng Li",
+          "pid": "282/6349",
+          "orcid": null
+        },
+        {
+          "name": "Matthew Krafczyk",
+          "pid": "243/6203",
+          "orcid": null
+        },
+        {
+          "name": "Yongjoo Park",
+          "pid": "79/583",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p603-chockchowwat.pdf",
+      "pages": "603-616",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChockchowwatTLKP25"
+    },
+    {
+      "title": "Elastic Index Selection for Label-Hybrid AKNN Search",
+      "authors": [
+        {
+          "name": "Mingyu Yang 0004",
+          "pid": "197/8171-4",
+          "orcid": null
+        },
+        {
+          "name": "Wenxuan Xia",
+          "pid": "342/2975",
+          "orcid": null
+        },
+        {
+          "name": "Wentao Li 0001",
+          "pid": "60/8180-1",
+          "orcid": null
+        },
+        {
+          "name": "Raymond Chi-Wing Wong",
+          "pid": "w/RaymondChiWingWong",
+          "orcid": null
+        },
+        {
+          "name": "Wei Wang 0011",
+          "pid": "w/WeiWang11",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p617-yang.pdf",
+      "pages": "617-630",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/YangXLWW25"
+    },
+    {
+      "title": "Eureka: Enabling Fine-Grained Access and Range Queries on Compressed Scientific Data via Data-Index Co-Compression",
+      "authors": [
+        {
+          "name": "Ning Yan 0002",
+          "pid": "35/3947-2",
+          "orcid": null
+        },
+        {
+          "name": "Sheng Di",
+          "pid": "76/6449",
+          "orcid": null
+        },
+        {
+          "name": "Kai Zhao",
+          "pid": "72/2621",
+          "orcid": null
+        },
+        {
+          "name": "Lipeng Wan 0001",
+          "pid": "124/2262-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p631-wan.pdf",
+      "pages": "631-643",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/YanDZW25"
+    },
+    {
+      "title": "TRIM: An Efficient Framework for Exact Eccentricity Computation on Large-Scale Graphs",
+      "authors": [
+        {
+          "name": "Dian Ouyang",
+          "pid": "219/5745",
+          "orcid": null
+        },
+        {
+          "name": "Jiajie Lin",
+          "pid": "330/8209",
+          "orcid": null
+        },
+        {
+          "name": "Li Wentao",
+          "pid": "433/3047",
+          "orcid": null
+        },
+        {
+          "name": "Fan Zhang",
+          "pid": "21/3626",
+          "orcid": null
+        },
+        {
+          "name": "Jianye Yang",
+          "pid": "393/7196",
+          "orcid": null
+        },
+        {
+          "name": "Xi Luo",
+          "pid": "69/7449",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p644-zhang.pdf",
+      "pages": "644-656",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/OuyangLWZYL25"
+    },
+    {
+      "title": "Schuyler: Self-Supervised Clustering of Tables in Relational Databases",
+      "authors": [
+        {
+          "name": "Lukas Laskowski",
+          "pid": "298/1312",
+          "orcid": null
+        },
+        {
+          "name": "Fabian Panse",
+          "pid": "54/7390",
+          "orcid": null
+        },
+        {
+          "name": "Michael Hladik",
+          "pid": "166/4106",
+          "orcid": null
+        },
+        {
+          "name": "Jan Portisch",
+          "pid": "207/3686",
+          "orcid": null
+        },
+        {
+          "name": "Felix Naumann",
+          "pid": "n/FelixNaumann",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p657-laskowski.pdf",
+      "pages": "657-669",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LaskowskiPHPN25"
+    },
+    {
+      "title": "Fault Lines: Benchmarking the Impact of Label Data Quality on ML Robustness and Fairness",
+      "authors": [
+        {
+          "name": "David Jackson",
+          "pid": "01/5646",
+          "orcid": null
+        },
+        {
+          "name": "Paul Groth",
+          "pid": "g/PTGroth",
+          "orcid": null
+        },
+        {
+          "name": "Hazar Harmouch",
+          "pid": "181/7644",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p670-jackson.pdf",
+      "pages": "670-683",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/JacksonGH25"
+    },
+    {
+      "title": "Shard: A Scalable and Resize-optimized Hash Index on Disaggregated Memory",
+      "authors": [
+        {
+          "name": "Hantian Zha",
+          "pid": "432/1187",
+          "orcid": null
+        },
+        {
+          "name": "Teng Ma 0006",
+          "pid": "24/5931-6",
+          "orcid": null
+        },
+        {
+          "name": "Baotong Lu",
+          "pid": "256/1745",
+          "orcid": null
+        },
+        {
+          "name": "Yuansen Wang",
+          "pid": "433/2875",
+          "orcid": null
+        },
+        {
+          "name": "Dongbiao He",
+          "pid": "224/0751",
+          "orcid": null
+        },
+        {
+          "name": "Yuanhui Luo",
+          "pid": "352/6769",
+          "orcid": null
+        },
+        {
+          "name": "Dafang Zhang",
+          "pid": "16/2420",
+          "orcid": null
+        },
+        {
+          "name": "Yunpeng Chai",
+          "pid": "42/3363",
+          "orcid": null
+        },
+        {
+          "name": "Yuxing Chen 0003",
+          "pid": "142/2150-3",
+          "orcid": null
+        },
+        {
+          "name": "Anqun Pan",
+          "pid": "224/6370",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p684-zha.pdf",
+      "pages": "684-697",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhaMLWHLZCCP25"
+    },
+    {
+      "title": "Efficient Partition-based Approaches for Diversified Top-k Subgraph Matching",
+      "authors": [
+        {
+          "name": "Liuyi Chen",
+          "pid": "308/6931",
+          "orcid": null
+        },
+        {
+          "name": "Yuchen Hu",
+          "pid": "189/5885",
+          "orcid": null
+        },
+        {
+          "name": "Zhengyi Yang 0001",
+          "pid": "73/908-1",
+          "orcid": null
+        },
+        {
+          "name": "Xu Zhou 0001",
+          "pid": "66/5686-1",
+          "orcid": null
+        },
+        {
+          "name": "Wenjie Zhang 0001",
+          "pid": "98/5684-1",
+          "orcid": null
+        },
+        {
+          "name": "Kenli Li 0001",
+          "pid": "l/KenliLi",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p698-yang.pdf",
+      "pages": "698-712",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChenHYZZL25"
+    },
+    {
+      "title": "SafeLoad: Efficient Admission Control Framework for Identifying Memory-Overloading Queries in Cloud Data Warehouses",
+      "authors": [
+        {
+          "name": "Yifan Wu 0018",
+          "pid": "25/7019-18",
+          "orcid": null
+        },
+        {
+          "name": "Yuhan Li",
+          "pid": "116/8661",
+          "orcid": null
+        },
+        {
+          "name": "Zhenhua Wang",
+          "pid": "33/4679",
+          "orcid": null
+        },
+        {
+          "name": "Zhongle Xie",
+          "pid": "169/3419",
+          "orcid": null
+        },
+        {
+          "name": "Dingyu Yang",
+          "pid": "119/6899",
+          "orcid": null
+        },
+        {
+          "name": "Ke Chen 0005",
+          "pid": "47/6529-5",
+          "orcid": null
+        },
+        {
+          "name": "Lidan Shou",
+          "pid": "21/5967",
+          "orcid": null
+        },
+        {
+          "name": "Bo Tang 0016",
+          "pid": "43/2474-16",
+          "orcid": null
+        },
+        {
+          "name": "Liang Lin",
+          "pid": "84/7019",
+          "orcid": null
+        },
+        {
+          "name": "Huan Li 0003",
+          "pid": "55/2893-3",
+          "orcid": null
+        },
+        {
+          "name": "Gang Chen 0001",
+          "pid": "67/6383-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p713-li.pdf",
+      "pages": "713-725",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WuLWXYCSTLLC25"
+    },
+    {
+      "title": "Efficient Temporal Edge-Core Maintenance in Streaming Graphs",
+      "authors": [
+        {
+          "name": "Tongfeng Weng",
+          "pid": "06/8348",
+          "orcid": null
+        },
+        {
+          "name": "Mo Sha 0002",
+          "pid": "70/5884-2",
+          "orcid": null
+        },
+        {
+          "name": "Xu Zhou 0001",
+          "pid": "66/5686-1",
+          "orcid": null
+        },
+        {
+          "name": "Jingjing Lu",
+          "pid": "80/199",
+          "orcid": null
+        },
+        {
+          "name": "Kenli Li 0001",
+          "pid": "l/KenliLi",
+          "orcid": null
+        },
+        {
+          "name": "Kian-Lee Tan",
+          "pid": "t/KianLeeTan",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p726-tan.pdf",
+      "pages": "726-739",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WengSZLLT25"
+    },
+    {
+      "title": "A Workload-Aware Encrypted Index for Efficient Privacy-Preserving Range Queries",
+      "authors": [
+        {
+          "name": "Dong Wang 0004",
+          "pid": "40/3934-4",
+          "orcid": null
+        },
+        {
+          "name": "Ningning Cui",
+          "pid": "180/6142",
+          "orcid": null
+        },
+        {
+          "name": "Jianxin Li 0001",
+          "pid": "l/JianxinLi",
+          "orcid": null
+        },
+        {
+          "name": "Jianzhong Qi 0001",
+          "pid": "41/1074-1",
+          "orcid": null
+        },
+        {
+          "name": "Jianliang Xu",
+          "pid": "x/JianliangXu",
+          "orcid": null
+        },
+        {
+          "name": "Hui Lu",
+          "pid": "65/4062",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p740-li.pdf",
+      "pages": "740-752",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WangCLQXL25"
+    },
+    {
+      "title": "Augmenting Social Influence of Uncertain Seeds via Probabilistic Link Insertion",
+      "authors": [
+        {
+          "name": "Xiaolong Chen 0003",
+          "pid": "24/1431-3",
+          "orcid": null
+        },
+        {
+          "name": "Jing Tang 0004",
+          "pid": "83/663-4",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p753-chen.pdf",
+      "pages": "753-766",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChenT25"
+    },
+    {
+      "title": "Index Intersection for High-Dimensional Range Queries",
+      "authors": [
+        {
+          "name": "Maximilian Berens",
+          "pid": "195/7316",
+          "orcid": null
+        },
+        {
+          "name": "Jens Teubner",
+          "pid": "t/JensTeubner",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p767-berens.pdf",
+      "pages": "767-779",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/BerensT25"
+    },
+    {
+      "title": "CounterSnake: A lossless and generalized compression framework for diverse sketches",
+      "authors": [
+        {
+          "name": "Xunpeng Liu",
+          "pid": "381/9540",
+          "orcid": null
+        },
+        {
+          "name": "Qun Huang 0001",
+          "pid": "130/5419-1",
+          "orcid": null
+        },
+        {
+          "name": "Yaojing Wang",
+          "pid": "192/7228",
+          "orcid": null
+        },
+        {
+          "name": "Lihua Miao",
+          "pid": "44/8491",
+          "orcid": null
+        },
+        {
+          "name": "Chen Sun 0005",
+          "pid": "01/6072-5",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2025,
+      "published_month": "December",
+      "volume": "19",
+      "issue": "4",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p780-liu.pdf",
+      "pages": "780-793",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LiuHWMS25"
+    },
+    {
+      "title": "LLM-AutoDP: Automatic Data Processing via LLM Agents for Model Fine-tuning",
+      "authors": [
+        {
+          "name": "Wei Huang 0039",
+          "pid": "81/6685-39",
+          "orcid": null
+        },
+        {
+          "name": "Anda Cheng",
+          "pid": "251/3329",
+          "orcid": null
+        },
+        {
+          "name": "Yinggui Wang",
+          "pid": "136/1775",
+          "orcid": null
+        },
+        {
+          "name": "Lei Wang 0251",
+          "pid": "181/2817-251",
+          "orcid": null
+        },
+        {
+          "name": "Tao Wei 0002",
+          "pid": "64/5099-2",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p794-cheng.pdf",
+      "pages": "794-807",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/HuangCWWW26"
+    },
+    {
+      "title": "Highly-Efficient Large-Scale k-means with Individual Fairness",
+      "authors": [
+        {
+          "name": "Shengkun Zhu",
+          "pid": "123/9258",
+          "orcid": null
+        },
+        {
+          "name": "Jinshan Zeng",
+          "pid": "57/10341",
+          "orcid": null
+        },
+        {
+          "name": "Yuan Sun 0003",
+          "pid": "75/5247-3",
+          "orcid": null
+        },
+        {
+          "name": "Sheng Wang 0007",
+          "pid": "85/1868-7",
+          "orcid": null
+        },
+        {
+          "name": "Yiming Wang",
+          "pid": "71/3182",
+          "orcid": null
+        },
+        {
+          "name": "Yushuai Ji",
+          "pid": "394/6315",
+          "orcid": null
+        },
+        {
+          "name": "Feiping Nie 0001",
+          "pid": "80/5755",
+          "orcid": null
+        },
+        {
+          "name": "Xiaodong Li 0001",
+          "pid": "50/3993-1",
+          "orcid": null
+        },
+        {
+          "name": "Zhiyong Peng 0001",
+          "pid": "40/1233-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p808-zhu.pdf",
+      "pages": "808-821",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhuZSWWJNLP26"
+    },
+    {
+      "title": "Terark-DS: A High-Performance and Storage-Efficient Key-Value Separation Storage Engine on Disaggregated Storage",
+      "authors": [
+        {
+          "name": "Jianshun Zhang",
+          "pid": "356/8198",
+          "orcid": null
+        },
+        {
+          "name": "Xun Deng",
+          "pid": "154/0106",
+          "orcid": null
+        },
+        {
+          "name": "Fang Wang 0001",
+          "pid": "35/5625-1",
+          "orcid": null
+        },
+        {
+          "name": "Jiaxin Ou",
+          "pid": "121/1424",
+          "orcid": null
+        },
+        {
+          "name": "Yi Wang",
+          "pid": "17/221",
+          "orcid": null
+        },
+        {
+          "name": "Hao Wang",
+          "pid": "181/2812",
+          "orcid": null
+        },
+        {
+          "name": "Jianjun Chen 0001",
+          "pid": "20/1036-1",
+          "orcid": null
+        },
+        {
+          "name": "Peng Fang 0002",
+          "pid": "86/9628-2",
+          "orcid": null
+        },
+        {
+          "name": "Dan Feng 0001",
+          "pid": "48/5939-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p822-zhang.pdf",
+      "pages": "822-835",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhangDWOWWCFF26"
+    },
+    {
+      "title": "LiBox: A Learned Index as an Array to Minimize Last-Mile Search",
+      "authors": [
+        {
+          "name": "Jian Zhou",
+          "pid": "97/97",
+          "orcid": null
+        },
+        {
+          "name": "Luna Wang",
+          "pid": "281/1819",
+          "orcid": null
+        },
+        {
+          "name": "Shuaihua Zhao",
+          "pid": "320/2037",
+          "orcid": null
+        },
+        {
+          "name": "Chen Zhong 0002",
+          "pid": "98/10416-2",
+          "orcid": null
+        },
+        {
+          "name": "Song Jiang 0001",
+          "pid": "08/237-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p836-jiang.pdf",
+      "pages": "836-848",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhouWZZJ26"
+    },
+    {
+      "title": "DeXOR: Enabling XOR in Decimal Space for Streaming Lossless Compression of Floating-point Data",
+      "authors": [
+        {
+          "name": "Chuanyi Lv",
+          "pid": "426/5044",
+          "orcid": null
+        },
+        {
+          "name": "Huan Li 0003",
+          "pid": "55/2893-3",
+          "orcid": null
+        },
+        {
+          "name": "Dingyu Yang",
+          "pid": "119/6899",
+          "orcid": null
+        },
+        {
+          "name": "Zhonele Xie",
+          "pid": "433/4051",
+          "orcid": null
+        },
+        {
+          "name": "Lu Chen 0001",
+          "pid": "69/157-1",
+          "orcid": null
+        },
+        {
+          "name": "Christian S. Jensen",
+          "pid": "j/ChristianSJensen",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p849-li.pdf",
+      "pages": "849-861",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LvLYXCJ26"
+    },
+    {
+      "title": "Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation",
+      "authors": [
+        {
+          "name": "Danni Wu",
+          "pid": "206/6067",
+          "orcid": null
+        },
+        {
+          "name": "Yuanyuan Xu 0002",
+          "pid": "87/6559-2",
+          "orcid": null
+        },
+        {
+          "name": "Xuemin Lin 0001",
+          "pid": "l/LinXuemin",
+          "orcid": null
+        },
+        {
+          "name": "Wenjie Zhang 0001",
+          "pid": "98/5684-1",
+          "orcid": null
+        },
+        {
+          "name": "Ying Zhang 0001",
+          "pid": "13/6769-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p862-xu.pdf",
+      "pages": "862-875",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WuXLZZ26"
+    },
+    {
+      "title": "Scalable Grid-based Computation of Kendall's Tau Correlation",
+      "authors": [
+        {
+          "name": "Nikolaos Koutroumanis",
+          "pid": "236/7441",
+          "orcid": null
+        },
+        {
+          "name": "Petros Karampas",
+          "pid": "433/2478",
+          "orcid": null
+        },
+        {
+          "name": "Alexandros Karakasidis 0001",
+          "pid": "63/5523-1",
+          "orcid": null
+        },
+        {
+          "name": "Nikos Mamoulis",
+          "pid": "34/6253",
+          "orcid": null
+        },
+        {
+          "name": "Panos Vassiliadis",
+          "pid": "13/1242",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p876-koutroumanis.pdf",
+      "pages": "876-888",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/KoutroumanisKKMV26"
+    },
+    {
+      "title": "Towards Efficient Random-Order Enumeration for Join Queries",
+      "authors": [
+        {
+          "name": "Pengyu Chen",
+          "pid": "142/3636",
+          "orcid": null
+        },
+        {
+          "name": "Zizheng Guo",
+          "pid": "216/3002",
+          "orcid": null
+        },
+        {
+          "name": "Jianwei Yang",
+          "pid": "62/1791",
+          "orcid": null
+        },
+        {
+          "name": "Dongjing Miao",
+          "pid": "147/8405",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p889-miao.pdf",
+      "pages": "889-901",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChenGYM26"
+    },
+    {
+      "title": "Ken: An Execution Engine for Unstructured Database Systems",
+      "authors": [
+        {
+          "name": "Ferdinand Kossmann",
+          "pid": "243/2511",
+          "orcid": null
+        },
+        {
+          "name": "Ziniu Wu",
+          "pid": "279/2962",
+          "orcid": null
+        },
+        {
+          "name": "Alex Turk",
+          "pid": "302/4195",
+          "orcid": null
+        },
+        {
+          "name": "Nesime Tatbul",
+          "pid": "t/NesimeTatbul",
+          "orcid": null
+        },
+        {
+          "name": "Lei Cao 0004",
+          "pid": "17/6060-4",
+          "orcid": null
+        },
+        {
+          "name": "Samuel Madden 0001",
+          "pid": "m/SamuelMadden",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p902-kossmann.pdf",
+      "pages": "902-916",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/KossmannWTTCM26"
+    },
+    {
+      "title": "Learned Static Function Data Structures",
+      "authors": [
+        {
+          "name": "Stefan Hermann 0002",
+          "pid": "05/1398-2",
+          "orcid": null
+        },
+        {
+          "name": "Hans-Peter Lehmann",
+          "pid": "295/9136",
+          "orcid": null
+        },
+        {
+          "name": "Giorgio Vinciguerra",
+          "pid": "237/9641",
+          "orcid": null
+        },
+        {
+          "name": "Stefan Walzer",
+          "pid": "139/7331",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p917-vinciguerra.pdf",
+      "pages": "917-930",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/HermannLVW26"
+    },
+    {
+      "title": "Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards",
+      "authors": [
+        {
+          "name": "Tengjun Jin",
+          "pid": "376/6776",
+          "orcid": null
+        },
+        {
+          "name": "Yoojin Choi",
+          "pid": "80/6443",
+          "orcid": null
+        },
+        {
+          "name": "Yuxuan Zhu 0003",
+          "pid": "146/0939-3",
+          "orcid": null
+        },
+        {
+          "name": "Daniel Kang 0001",
+          "pid": "40/6300",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p931-jin.pdf",
+      "pages": "931-944",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/JinCZK26"
+    },
+    {
+      "title": "Libra: One-Shot Parameter Sensitivity Estimation for Transfer Learning in Database Performance Prediction",
+      "authors": [
+        {
+          "name": "Tatsuhiro Nakamori",
+          "pid": "322/8142",
+          "orcid": null
+        },
+        {
+          "name": "Hideyuki Kawashima",
+          "pid": "49/5221",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p945-nakamori.pdf",
+      "pages": "945-957",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/NakamoriK26"
+    },
+    {
+      "title": "ArceKV: Towards Workload-driven LSM-compactions for Key-Value Store Under Dynamic Workloads",
+      "authors": [
+        {
+          "name": "Junfeng Liu 0001",
+          "pid": "40/6926-1",
+          "orcid": null
+        },
+        {
+          "name": "Haoxuan Xie",
+          "pid": "350/5781",
+          "orcid": null
+        },
+        {
+          "name": "Siqiang Luo",
+          "pid": "117/5965",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p958-liu.pdf",
+      "pages": "958-972",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LiuXL26"
+    },
+    {
+      "title": "Revisiting Task-Oriented Dataset Search in the Era of Large Language Models: Challenges, Benchmark, and Solution",
+      "authors": [
+        {
+          "name": "Zixin Wei",
+          "pid": "295/2010",
+          "orcid": null
+        },
+        {
+          "name": "Yucan Guo",
+          "pid": "360/1191",
+          "orcid": null
+        },
+        {
+          "name": "Jinyang Li 0003",
+          "pid": "79/572-3",
+          "orcid": null
+        },
+        {
+          "name": "Xiaolin Han 0002",
+          "pid": "57/10423-2",
+          "orcid": null
+        },
+        {
+          "name": "Xiaolong Jin",
+          "pid": "00/1728",
+          "orcid": null
+        },
+        {
+          "name": "Chenhao Ma 0001",
+          "pid": "251/5251",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p973-wei.pdf",
+      "pages": "973-986",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WeiGLHJM26"
+    },
+    {
+      "title": "SHARP: Shared State Reduction for Efficient Matching of Sequential Patterns",
+      "authors": [
+        {
+          "name": "Cong Yu",
+          "pid": "381/7284",
+          "orcid": null
+        },
+        {
+          "name": "Tuo Shi",
+          "pid": "23/4850",
+          "orcid": null
+        },
+        {
+          "name": "Matthias Weidlich 0001",
+          "pid": "61/267",
+          "orcid": null
+        },
+        {
+          "name": "Bo Zhao 0019",
+          "pid": "94/4810-19",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p987-shi.pdf",
+      "pages": "987-1000",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/YuSWZ26"
+    },
+    {
+      "title": "NL2SQLBench: A Modular Benchmarking Framework for LLM-Enabled NL2SQL Solutions",
+      "authors": [
+        {
+          "name": "Shizheng Hou",
+          "pid": "368/5120",
+          "orcid": null
+        },
+        {
+          "name": "Wenqi Pei",
+          "pid": "219/7854",
+          "orcid": null
+        },
+        {
+          "name": "Nuo Chen",
+          "pid": "135/5622",
+          "orcid": null
+        },
+        {
+          "name": "Quang-Trung Ta",
+          "pid": "134/3046",
+          "orcid": null
+        },
+        {
+          "name": "Peng Lu 0013",
+          "pid": "86/241-13",
+          "orcid": null
+        },
+        {
+          "name": "Beng Chin Ooi",
+          "pid": "o/BengChinOoi",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1001-hou.pdf",
+      "pages": "1001-1015",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/HouPCTLO26"
+    },
+    {
+      "title": "RetroInfer: A Vector Storage Engine for Scalable Long-Context LLM Inference",
+      "authors": [
+        {
+          "name": "Yaoqi Chen",
+          "pid": "221/0592",
+          "orcid": null
+        },
+        {
+          "name": "Jinkai Zhang",
+          "pid": "81/9931",
+          "orcid": null
+        },
+        {
+          "name": "Baotong Lu",
+          "pid": "256/1745",
+          "orcid": null
+        },
+        {
+          "name": "Qianxi Zhang",
+          "pid": "291/4798",
+          "orcid": null
+        },
+        {
+          "name": "Chengruidong Zhang",
+          "pid": "358/2374",
+          "orcid": null
+        },
+        {
+          "name": "Jing Liu",
+          "pid": "72/2590",
+          "orcid": null
+        },
+        {
+          "name": "Jingjia Luo",
+          "pid": "320/2375",
+          "orcid": null
+        },
+        {
+          "name": "Di Liu",
+          "pid": "15/1777",
+          "orcid": null
+        },
+        {
+          "name": "Huiqiang Jiang",
+          "pid": "204/2497",
+          "orcid": null
+        },
+        {
+          "name": "Qi Chen 0009",
+          "pid": "66/6320-9",
+          "orcid": null
+        },
+        {
+          "name": "Bailu Ding",
+          "pid": "163/0574",
+          "orcid": null
+        },
+        {
+          "name": "Xiao Yan 0002",
+          "pid": "07/2626-2",
+          "orcid": null
+        },
+        {
+          "name": "Jiawei Jiang 0001",
+          "pid": "185/1521-1",
+          "orcid": null
+        },
+        {
+          "name": "Chen Chen 0067",
+          "pid": "65/4423-67",
+          "orcid": null
+        },
+        {
+          "name": "Mingxing Zhang",
+          "pid": "153/5382",
+          "orcid": null
+        },
+        {
+          "name": "Cheng Li 0001",
+          "pid": "16/6465-1",
+          "orcid": null
+        },
+        {
+          "name": "Yuqing Yang 0001",
+          "pid": "91/9064-1",
+          "orcid": null
+        },
+        {
+          "name": "Fan Yang 0024",
+          "pid": "29/3081-24",
+          "orcid": null
+        },
+        {
+          "name": "Mao Yang 0004",
+          "pid": "89/1482-4",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1016-lu.pdf",
+      "pages": "1016-1031",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChenZLZZLLLJCDYJCZLYYY26"
+    },
+    {
+      "title": "On Fair Epsilon Net and Geometric Hitting Set",
+      "authors": [
+        {
+          "name": "Mohsen Dehghankar",
+          "pid": "341/3995",
+          "orcid": null
+        },
+        {
+          "name": "Stavros Sintos",
+          "pid": "151/3111",
+          "orcid": null
+        },
+        {
+          "name": "Abolfazl Asudeh",
+          "pid": "04/7892",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1032-dehghankar.pdf",
+      "pages": "1032-1045",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/DehghankarSA26"
+    },
+    {
+      "title": "ORBITFLOW: SLO-Aware Long-Context LLM Serving with Fine-Grained KV Cache Reconfiguration",
+      "authors": [
+        {
+          "name": "Xinyue Ma",
+          "pid": "178/6910",
+          "orcid": null
+        },
+        {
+          "name": "Heelim Hong",
+          "pid": "279/5565",
+          "orcid": null
+        },
+        {
+          "name": "Taegeon Um",
+          "pid": "205/6864",
+          "orcid": null
+        },
+        {
+          "name": "Jongseop Lee",
+          "pid": "330/8179",
+          "orcid": null
+        },
+        {
+          "name": "Seoyeong Choy",
+          "pid": "426/9790",
+          "orcid": null
+        },
+        {
+          "name": "Woo-Yeon Lee",
+          "pid": "163/1527",
+          "orcid": null
+        },
+        {
+          "name": "Myeongjae Jeon",
+          "pid": "09/2790",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1046-ma.pdf",
+      "pages": "1046-1059",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/MaHULCLJ26"
+    },
+    {
+      "title": "Abacus: A Cost-Based Optimizer for Semantic Operator Systems",
+      "authors": [
+        {
+          "name": "Matthew Russo",
+          "pid": "126/0229",
+          "orcid": null
+        },
+        {
+          "name": "Chunwei Liu",
+          "pid": "147/1343",
+          "orcid": null
+        },
+        {
+          "name": "Sivaprasad Sudhir",
+          "pid": "318/6147",
+          "orcid": null
+        },
+        {
+          "name": "Gerardo Vitagliano",
+          "pid": "249/4023",
+          "orcid": null
+        },
+        {
+          "name": "Michael J. Cafarella",
+          "pid": "82/231",
+          "orcid": null
+        },
+        {
+          "name": "Tim Kraska",
+          "pid": "26/6037",
+          "orcid": null
+        },
+        {
+          "name": "Samuel Madden 0001",
+          "pid": "m/SamuelMadden",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1060-russo.pdf",
+      "pages": "1060-1073",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/RussoLSVCKM26"
+    },
+    {
+      "title": "SVFusion: A CPU-GPU Co-Processing Architecture for Large-Scale Real-Time Vector Search",
+      "authors": [
+        {
+          "name": "Yuchen Peng",
+          "pid": "09/11240",
+          "orcid": null
+        },
+        {
+          "name": "Dingyu Yang",
+          "pid": "119/6899",
+          "orcid": null
+        },
+        {
+          "name": "Zhongle Xie",
+          "pid": "169/3419",
+          "orcid": null
+        },
+        {
+          "name": "Ji Sun 0001",
+          "pid": "01/3254-1",
+          "orcid": null
+        },
+        {
+          "name": "Lidan Shou",
+          "pid": "21/5967",
+          "orcid": null
+        },
+        {
+          "name": "Ke Chen 0005",
+          "pid": "47/6529-5",
+          "orcid": null
+        },
+        {
+          "name": "Gang Chen 0001",
+          "pid": "67/6383-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "January",
+      "volume": "19",
+      "issue": "5",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1074-yang.pdf",
+      "pages": "1074-1087",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/PengYXSSCC26"
+    },
+    {
+      "title": "LIO: A lightweight and interpretable query optimizer based on an evolutionary forest",
+      "authors": [
+        {
+          "name": "Chen Ye 0003",
+          "pid": "33/826-3",
+          "orcid": null
+        },
+        {
+          "name": "Shujie Ma",
+          "pid": "69/9915",
+          "orcid": null
+        },
+        {
+          "name": "Guojun Dai",
+          "pid": "36/623",
+          "orcid": null
+        },
+        {
+          "name": "Hengtong Zhang",
+          "pid": "188/2018",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1088-ye.pdf",
+      "pages": "1088-1100",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/YeMDZ26"
+    },
+    {
+      "title": "Automated Tensor-Relational Decomposition for Large-Scale Sparse Tensor Computation",
+      "authors": [
+        {
+          "name": "Yuxin Tang",
+          "pid": "86/2476",
+          "orcid": null
+        },
+        {
+          "name": "Zhiyuan Xin",
+          "pid": "340/5412",
+          "orcid": null
+        },
+        {
+          "name": "Zhimin Ding",
+          "pid": "175/8954",
+          "orcid": null
+        },
+        {
+          "name": "Xinyu Yao",
+          "pid": "36/1787",
+          "orcid": null
+        },
+        {
+          "name": "Daniel Bourgeois",
+          "pid": "174/6685",
+          "orcid": null
+        },
+        {
+          "name": "Tirthak Patel",
+          "pid": "208/1839",
+          "orcid": null
+        },
+        {
+          "name": "Chris Jermaine",
+          "pid": "j/ChrisJermaine",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1101-tang.pdf",
+      "pages": "1101-1114",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/TangXDYBPJ26"
+    },
+    {
+      "title": "Sample-based Distinct Cardinality Estimation for Multiple Attributes in Multi-Dataset Queries",
+      "authors": [
+        {
+          "name": "Mehnaz Tabassum Mahin",
+          "pid": "201/6647",
+          "orcid": null
+        },
+        {
+          "name": "Michael J. Carey 0001",
+          "pid": "31/3455",
+          "orcid": null
+        },
+        {
+          "name": "Vassilis J. Tsotras",
+          "pid": "t/VassilisJTsotras",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1115-mahin.pdf",
+      "pages": "1115-1127",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/MahinCT26"
+    },
+    {
+      "title": "SACK: Shielding Dynamic Attribute-based Access Control in Persistent Key-Value Stores",
+      "authors": [
+        {
+          "name": "Yanjing Ren",
+          "pid": "252/6063",
+          "orcid": null
+        },
+        {
+          "name": "Jingwei Li 0001",
+          "pid": "92/7728-1",
+          "orcid": null
+        },
+        {
+          "name": "Patrick Lee",
+          "pid": "71/1097",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1128-ren.pdf",
+      "pages": "1128-1141",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/RenLL26"
+    },
+    {
+      "title": "Breaking the Isolation-Freshness Trade-off: Joint Adaptive Storage Optimization for HTAP Systems",
+      "authors": [
+        {
+          "name": "Zhenghao Ding",
+          "pid": "241/9972",
+          "orcid": null
+        },
+        {
+          "name": "Xinyi Zhang 0002",
+          "pid": "04/4189-2",
+          "orcid": null
+        },
+        {
+          "name": "Chao Zhang 0034",
+          "pid": "94/3019-34",
+          "orcid": null
+        },
+        {
+          "name": "Yishen Sun",
+          "pid": "41/622",
+          "orcid": null
+        },
+        {
+          "name": "Kai Xu",
+          "pid": "30/495",
+          "orcid": null
+        },
+        {
+          "name": "Wei Lu 0015",
+          "pid": "98/6613-15",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoyong Du 0001",
+          "pid": "47/3542-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1142-ding.pdf",
+      "pages": "1142-1155",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/DingZZSXLD26"
+    },
+    {
+      "title": "Bifrost: A Much Simpler Secure Two-Party Data Join Protocol for Secure Data Analytics",
+      "authors": [
+        {
+          "name": "Shuyu Chen",
+          "pid": "57/4238",
+          "orcid": null
+        },
+        {
+          "name": "Mingxun Zhou",
+          "pid": "251/5365",
+          "orcid": null
+        },
+        {
+          "name": "Haoyu Niu",
+          "pid": "279/7311",
+          "orcid": null
+        },
+        {
+          "name": "Guopeng Lin",
+          "pid": "330/5132",
+          "orcid": null
+        },
+        {
+          "name": "Weili Han",
+          "pid": "42/179",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1156-han.pdf",
+      "pages": "1156-1169",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChenZNLH26"
+    },
+    {
+      "title": "Efficient Temporal Subgraph Management: A New Interval Index",
+      "authors": [
+        {
+          "name": "Dian Ouyang",
+          "pid": "219/5745",
+          "orcid": null
+        },
+        {
+          "name": "Yikun Wang",
+          "pid": "55/9804",
+          "orcid": null
+        },
+        {
+          "name": "Dong Wen 0001",
+          "pid": "92/8453-1",
+          "orcid": null
+        },
+        {
+          "name": "Wenjie Zhang 0001",
+          "pid": "98/5684-1",
+          "orcid": null
+        },
+        {
+          "name": "Yaping Liu",
+          "pid": "89/5332",
+          "orcid": null
+        },
+        {
+          "name": "Xuemin Lin 0001",
+          "pid": "l/LinXuemin",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1170-wen.pdf",
+      "pages": "1170-1183",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/OuyangWWZLL26"
+    },
+    {
+      "title": "Efficient GNN Training on Giant Graphs with Collective Batching and Scheduling",
+      "authors": [
+        {
+          "name": "Xin Zhang 0101",
+          "pid": "76/1584-101",
+          "orcid": null
+        },
+        {
+          "name": "Yanyan Shen",
+          "pid": "74/2905",
+          "orcid": null
+        },
+        {
+          "name": "Yingxia Shao",
+          "pid": "131/2926",
+          "orcid": null
+        },
+        {
+          "name": "Haoyang Li 0002",
+          "pid": "118/0004-2",
+          "orcid": null
+        },
+        {
+          "name": "Lei Chen 0002",
+          "pid": "c/LeiChen0002",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1184-zhang.pdf",
+      "pages": "1184-1197",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhangSSLC26"
+    },
+    {
+      "title": "Dinkel: State-Aware and Granular Framework for Validating Graph Databases",
+      "authors": [
+        {
+          "name": "Celine Wüst",
+          "pid": "437/5086",
+          "orcid": null
+        },
+        {
+          "name": "Zu-Ming Jiang",
+          "pid": "237/8586",
+          "orcid": null
+        },
+        {
+          "name": "Zhendong Su 0001",
+          "pid": "s/ZhendongSu",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1198-jiang.pdf",
+      "pages": "1198-1211",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WustJS26"
+    },
+    {
+      "title": "Repairing Property Graphs under PG-Constraints",
+      "authors": [
+        {
+          "name": "Christopher Spinrath",
+          "pid": "165/4128",
+          "orcid": null
+        },
+        {
+          "name": "Angela Bonifati",
+          "pid": "b/ABonifati",
+          "orcid": null
+        },
+        {
+          "name": "Rachid Echahed",
+          "pid": "91/3803",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1212-spinrath.pdf",
+      "pages": "1212-1225",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/SpinrathBE26"
+    },
+    {
+      "title": "A Semantics-aware Approach for Graph Edit Distance Estimation over Knowledge Graphs",
+      "authors": [
+        {
+          "name": "Yingli Zhou",
+          "pid": "331/8455",
+          "orcid": null
+        },
+        {
+          "name": "Huizhong Wang",
+          "pid": "187/3950",
+          "orcid": null
+        },
+        {
+          "name": "Chenhao Ma 0001",
+          "pid": "251/5251",
+          "orcid": null
+        },
+        {
+          "name": "Yixiang Fang",
+          "pid": "76/1735",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1226-zhou.pdf",
+      "pages": "1226-1239",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhouWMF26"
+    },
+    {
+      "title": "Quantization Meets Projection: A Happy Marriage for Approximate k-Nearest Neighbor Search",
+      "authors": [
+        {
+          "name": "Mingyu Yang",
+          "pid": "197/8171",
+          "orcid": null
+        },
+        {
+          "name": "Liuchang Jing",
+          "pid": "431/0074",
+          "orcid": null
+        },
+        {
+          "name": "Wentao Li",
+          "pid": "60/8180",
+          "orcid": null
+        },
+        {
+          "name": "Wei Wang",
+          "pid": "35/7092",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1240-yang.pdf",
+      "pages": "1240-1249",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/YangJLW26"
+    },
+    {
+      "title": "TurboLynx: Schemaless Graph Engine Strikes Back for General-Purpose Analytics",
+      "authors": [
+        {
+          "name": "Taesung Lee",
+          "pid": "60/10355",
+          "orcid": null
+        },
+        {
+          "name": "Jaehyun Ha",
+          "pid": "344/3180",
+          "orcid": null
+        },
+        {
+          "name": "Byungchul Tak",
+          "pid": "10/6711",
+          "orcid": null
+        },
+        {
+          "name": "Wook-Shin Han",
+          "pid": "62/2450",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1250-han.pdf",
+      "pages": "1250-1263",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LeeHTH26"
+    },
+    {
+      "title": "BRIEF: Bi-level Coreset Selection for Efficient Instruction Tuning in LLMs",
+      "authors": [
+        {
+          "name": "Chaoyuan Shen",
+          "pid": "289/6630",
+          "orcid": null
+        },
+        {
+          "name": "Chi Zhang",
+          "pid": "91/195",
+          "orcid": null
+        },
+        {
+          "name": "Chengliang Chai",
+          "pid": "181/5689",
+          "orcid": null
+        },
+        {
+          "name": "Jiacheng Wang",
+          "pid": "115/7106",
+          "orcid": null
+        },
+        {
+          "name": "Jia Yuan",
+          "pid": "41/10427",
+          "orcid": null
+        },
+        {
+          "name": "Yuping Wang",
+          "pid": "29/3814",
+          "orcid": null
+        },
+        {
+          "name": "Ye Yuan 0001",
+          "pid": "33/6315-1",
+          "orcid": null
+        },
+        {
+          "name": "Guoren Wang",
+          "pid": "64/146",
+          "orcid": null
+        },
+        {
+          "name": "Lei Cao 0004",
+          "pid": "17/6060-4",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1264-chai.pdf",
+      "pages": "1264-1277",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ShenZCWYWYWC26"
+    },
+    {
+      "title": "Robust Predicate Transfer with Dynamic Execution",
+      "authors": [
+        {
+          "name": "Yiming Qiao",
+          "pid": "257/5648",
+          "orcid": null
+        },
+        {
+          "name": "Peter Boncz",
+          "pid": "b/PeterABoncz",
+          "orcid": null
+        },
+        {
+          "name": "Huanchen Zhang",
+          "pid": "13/8730",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1278-qiao.pdf",
+      "pages": "1278-1290",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/QiaoBZ26"
+    },
+    {
+      "title": "SQL-Exchange: Transforming SQL Queries Across Domains",
+      "authors": [
+        {
+          "name": "Mohammadreza Daviran",
+          "pid": "414/9811",
+          "orcid": null
+        },
+        {
+          "name": "Brian Lin",
+          "pid": "144/5882",
+          "orcid": null
+        },
+        {
+          "name": "Davood Rafiei",
+          "pid": "r/DRafiei",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1291-daviran.pdf",
+      "pages": "1291-1304",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/DaviranLR26"
+    },
+    {
+      "title": "TPCx-AI under the Microscope: A Benchmarking Debt Analysis",
+      "authors": [
+        {
+          "name": "Ilin Tolovski",
+          "pid": "246/2021",
+          "orcid": null
+        },
+        {
+          "name": "Philipp Hildebrandt",
+          "pid": "333/8184",
+          "orcid": null
+        },
+        {
+          "name": "Khuzaima Daudjee",
+          "pid": "d/KhuzaimaDaudjee",
+          "orcid": null
+        },
+        {
+          "name": "Tilmann Rabl",
+          "pid": "10/760",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1305-tolovski.pdf",
+      "pages": "1305-1318",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/TolovskiHDR26"
+    },
+    {
+      "title": "DBAIOps: A Reasoning LLM-Enhanced Database Operation and Maintenance System using Knowledge Graphs",
+      "authors": [
+        {
+          "name": "Wei Zhou 0053",
+          "pid": "69/5011-53",
+          "orcid": null
+        },
+        {
+          "name": "Peng Sun 0006",
+          "pid": "88/619-6",
+          "orcid": null
+        },
+        {
+          "name": "Xuanhe Zhou",
+          "pid": "247/8418",
+          "orcid": null
+        },
+        {
+          "name": "Qianglei Zang",
+          "pid": "414/7607",
+          "orcid": null
+        },
+        {
+          "name": "Ji Xu",
+          "pid": "17/3075",
+          "orcid": null
+        },
+        {
+          "name": "Tieying Zhang",
+          "pid": "88/2750",
+          "orcid": null
+        },
+        {
+          "name": "Guoliang Li 0001",
+          "pid": "l/GuoliangLi",
+          "orcid": null
+        },
+        {
+          "name": "Fan Wu 0006",
+          "pid": "07/6378-6",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1319-zhou.pdf",
+      "pages": "1319-1331",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhouSZZXZLW26"
+    },
+    {
+      "title": "SeDA: Bridging the Gap between Efficient Syntactic and Precise Semantic Search of Similar Passages in Large Text Corpora",
+      "authors": [
+        {
+          "name": "Pranay Mundra",
+          "pid": "255/9302",
+          "orcid": null
+        },
+        {
+          "name": "Daniel Kocher",
+          "pid": "190/0084",
+          "orcid": null
+        },
+        {
+          "name": "Martin Schaeler",
+          "pid": "437/5334",
+          "orcid": null
+        },
+        {
+          "name": "Nikolaus Augsten",
+          "pid": "76/3961",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1332-mundra.pdf",
+      "pages": "1332-1344",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/MundraKSA26"
+    },
+    {
+      "title": "Anchored Maximum Communities over Large Directed Graphs",
+      "authors": [
+        {
+          "name": "Yang Huang",
+          "pid": "88/2275",
+          "orcid": null
+        },
+        {
+          "name": "Xu Zhou 0001",
+          "pid": "66/5686-1",
+          "orcid": null
+        },
+        {
+          "name": "Yan Ding 0004",
+          "pid": "57/4533-4",
+          "orcid": null
+        },
+        {
+          "name": "Qing Liu 0002",
+          "pid": "53/4481-2",
+          "orcid": null
+        },
+        {
+          "name": "Haoxian Xu",
+          "pid": "433/1830",
+          "orcid": null
+        },
+        {
+          "name": "Kenli Li 0001",
+          "pid": "l/KenliLi",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1345-huang.pdf",
+      "pages": "1345-1357",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/HuangZDLXL26"
+    },
+    {
+      "title": "Why Database Manuals Are Not Enough: Efficient and Reliable Configuration Tuning for DBMSs via Code-Driven LLM Agents",
+      "authors": [
+        {
+          "name": "Xinyi Zhang 0002",
+          "pid": "04/4189-2",
+          "orcid": null
+        },
+        {
+          "name": "Tiantian Chen",
+          "pid": "183/1310",
+          "orcid": null
+        },
+        {
+          "name": "Zhentao Han",
+          "pid": "356/0518",
+          "orcid": null
+        },
+        {
+          "name": "Zhaoyan Hong",
+          "pid": "329/0189",
+          "orcid": null
+        },
+        {
+          "name": "Wei Lu 0015",
+          "pid": "98/6613-15",
+          "orcid": null
+        },
+        {
+          "name": "Sheng Wang 0011",
+          "pid": "85/1868-11",
+          "orcid": null
+        },
+        {
+          "name": "Mo Sha 0005",
+          "pid": "432/8662",
+          "orcid": null
+        },
+        {
+          "name": "Anni Wang",
+          "pid": "215/4163",
+          "orcid": null
+        },
+        {
+          "name": "Yakun Zhang",
+          "pid": "127/3950",
+          "orcid": null
+        },
+        {
+          "name": "Shuang Liu 0007",
+          "pid": "58/6609-7",
+          "orcid": null
+        },
+        {
+          "name": "Feifei Li 0001",
+          "pid": "l/FeifeiLi",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoyong Du 0001",
+          "pid": "47/3542-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1358-zhang.pdf",
+      "pages": "1358-1371",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhangCHHLWSWZLLD26"
+    },
+    {
+      "title": "Active Data Lakes: Regaining Physical Data Independence Without Losing Interoperability",
+      "authors": [
+        {
+          "name": "Pascal Ginter",
+          "pid": "437/4973",
+          "orcid": null
+        },
+        {
+          "name": "Viktor Leis",
+          "pid": "10/11150",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1372-ginter.pdf",
+      "pages": "1372-1385",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/GinterL26"
+    },
+    {
+      "title": "TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries",
+      "authors": [
+        {
+          "name": "Chao Deng",
+          "pid": "74/322",
+          "orcid": null
+        },
+        {
+          "name": "Ju Fan",
+          "pid": "78/4413",
+          "orcid": null
+        },
+        {
+          "name": "Yuyu Luo",
+          "pid": "185/9921",
+          "orcid": null
+        },
+        {
+          "name": "Qinliang Xue",
+          "pid": "395/7167",
+          "orcid": null
+        },
+        {
+          "name": "Meihao Fan",
+          "pid": "363/7401",
+          "orcid": null
+        },
+        {
+          "name": "Yuxin Zhang",
+          "pid": "03/7346",
+          "orcid": null
+        },
+        {
+          "name": "Min Zhang",
+          "pid": "83/5342",
+          "orcid": null
+        },
+        {
+          "name": "Xiaofeng Jia",
+          "pid": "79/11513",
+          "orcid": null
+        },
+        {
+          "name": "Jing Zhang 0001",
+          "pid": "05/3499-1",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoyong Du 0001",
+          "pid": "47/3542-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1386-fan.pdf",
+      "pages": "1386-1399",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/DengFLXFZZJZD26"
+    },
+    {
+      "title": "Structural Normalization of Property Graphs",
+      "authors": [
+        {
+          "name": "Maximilian K. Egger",
+          "pid": "375/0148",
+          "orcid": null
+        },
+        {
+          "name": "Mehdi Allali",
+          "pid": "437/5779",
+          "orcid": null
+        },
+        {
+          "name": "Matteo Lissandrini",
+          "pid": "139/1128",
+          "orcid": null
+        },
+        {
+          "name": "Davide Mottin",
+          "pid": "135/7623",
+          "orcid": null
+        },
+        {
+          "name": "Panagiotis Karras",
+          "pid": "08/5342",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1400-egger.pdf",
+      "pages": "1400-1412",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/EggerALMK26"
+    },
+    {
+      "title": "Pisco: An Isolation Bug Case Reduction and Deduplication Framework",
+      "authors": [
+        {
+          "name": "Siyang Weng",
+          "pid": "305/0139",
+          "orcid": null
+        },
+        {
+          "name": "Hongyu Yang",
+          "pid": "57/5473",
+          "orcid": null
+        },
+        {
+          "name": "Zirui Hu",
+          "pid": "370/2446",
+          "orcid": null
+        },
+        {
+          "name": "Rong Zhang 0002",
+          "pid": "13/5366-2",
+          "orcid": null
+        },
+        {
+          "name": "Zhicheng Pan",
+          "pid": "141/5423",
+          "orcid": null
+        },
+        {
+          "name": "Chengcheng Yang",
+          "pid": "74/10221",
+          "orcid": null
+        },
+        {
+          "name": "Xuan Zhou 0001",
+          "pid": "32/3943-1",
+          "orcid": null
+        },
+        {
+          "name": "Yuxing Chen 0003",
+          "pid": "142/2150-3",
+          "orcid": null
+        },
+        {
+          "name": "Xiaolong He",
+          "pid": "245/9899",
+          "orcid": null
+        },
+        {
+          "name": "Anqun Pan",
+          "pid": "224/6370",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "February",
+      "volume": "19",
+      "issue": "6",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1413-weng.pdf",
+      "pages": "1413-1426",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WengYHZPYZCHP26"
+    },
+    {
+      "title": "CAPS: Cost-Aware ML Pipeline Selection",
+      "authors": [
+        {
+          "name": "Antonios Kontaxakis",
+          "pid": "261/2671",
+          "orcid": null
+        },
+        {
+          "name": "Dimitris Sacharidis",
+          "pid": "19/4428",
+          "orcid": null
+        },
+        {
+          "name": "Alberto Abelló",
+          "pid": "88/2053",
+          "orcid": null
+        },
+        {
+          "name": "Sergi Nadal",
+          "pid": "160/1064",
+          "orcid": null
+        },
+        {
+          "name": "Alkis Simitsis",
+          "pid": "s/ASimitsis",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1427-kontaxakis.pdf",
+      "pages": "1427-1440",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/KontaxakisSANS26"
+    },
+    {
+      "title": "Scalable GPU Acceleration of Scalar Functions in Analytical Databases: Compilation, Benchmarking, and Optimization",
+      "authors": [
+        {
+          "name": "Kaushik Rajan",
+          "pid": "20/5220",
+          "orcid": null
+        },
+        {
+          "name": "Sampath Rajendra",
+          "pid": "332/1579",
+          "orcid": null
+        },
+        {
+          "name": "Momin Al-Ghosien",
+          "pid": "415/9960",
+          "orcid": null
+        },
+        {
+          "name": "Nicolas Bruno",
+          "pid": "b/NicolasBruno",
+          "orcid": null
+        },
+        {
+          "name": "Carlo Curino",
+          "pid": "c/CarloCurino",
+          "orcid": null
+        },
+        {
+          "name": "Matteo Interlandi",
+          "pid": "49/10034",
+          "orcid": null
+        },
+        {
+          "name": "Yinan Li 0009",
+          "pid": "49/612-9",
+          "orcid": null
+        },
+        {
+          "name": "Lukas M. Maas",
+          "pid": "131/4096",
+          "orcid": null
+        },
+        {
+          "name": "Craig Peeper",
+          "pid": "416/0006",
+          "orcid": null
+        },
+        {
+          "name": "Surajit Chaudhuri",
+          "pid": "c/SurajitChaudhuri",
+          "orcid": null
+        },
+        {
+          "name": "Johannes Gehrke",
+          "pid": "g/JohannesGehrke",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1441-rajan.pdf",
+      "pages": "1441-1454",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/RajanRABCILMPCG26"
+    },
+    {
+      "title": "Secure Multi-Party Sampling over Joins",
+      "authors": [
+        {
+          "name": "Qiyao Luo",
+          "pid": "303/0338",
+          "orcid": null
+        },
+        {
+          "name": "Quanqing Xu",
+          "pid": "29/4131",
+          "orcid": null
+        },
+        {
+          "name": "Chuanhui Yang",
+          "pid": "328/5894",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1455-luo.pdf",
+      "pages": "1455-1468",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LuoXY26"
+    },
+    {
+      "title": "How to Write to SSDs",
+      "authors": [
+        {
+          "name": "Bohyun Lee",
+          "pid": "237/0836",
+          "orcid": null
+        },
+        {
+          "name": "Tobias Ziegler 0001",
+          "pid": "146/6632",
+          "orcid": null
+        },
+        {
+          "name": "Viktor Leis",
+          "pid": "10/11150",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
+      "pages": "1469-1483",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LeeZL26"
+    },
+    {
+      "title": "I/O Optimizations in Graph-Based Disk-Resident Approximate Nearest Neighbor Search: A Design Space Exploration",
+      "authors": [
+        {
+          "name": "Liang Li",
+          "pid": "14/1395",
+          "orcid": null
+        },
+        {
+          "name": "Shufeng Gong 0001",
+          "pid": "207/7446-1",
+          "orcid": null
+        },
+        {
+          "name": "Yanan Yang",
+          "pid": "193/7926",
+          "orcid": null
+        },
+        {
+          "name": "Yiduo Wang",
+          "pid": "414/0488",
+          "orcid": null
+        },
+        {
+          "name": "Jie Wu",
+          "pid": "181/2833",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1484-li.pdf",
+      "pages": "1484-1498",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LiGYWW26"
+    },
+    {
+      "title": "SIDLE: Tree-structure Aware Indexes for CXL-based Heterogeneous Memory",
+      "authors": [
+        {
+          "name": "Haoru Zhao",
+          "pid": "278/3800",
+          "orcid": null
+        },
+        {
+          "name": "Mingkai Dong 0002",
+          "pid": "10/1570-2",
+          "orcid": null
+        },
+        {
+          "name": "Fangnuo Wu",
+          "pid": "330/8203",
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "pid": "31/6601-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1499-zhao.pdf",
+      "pages": "1499-1515",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhaoDWC26"
+    },
+    {
+      "title": "Scarf: Self-Adaptive Tuning via Multi-Objective Reinforcement Learning for Apache Flink",
+      "authors": [
+        {
+          "name": "Liu Liu",
+          "pid": "74/7037",
+          "orcid": null
+        },
+        {
+          "name": "Shenghao Gong",
+          "pid": "350/5932",
+          "orcid": null
+        },
+        {
+          "name": "Ziquan Fang",
+          "pid": "241/7962",
+          "orcid": null
+        },
+        {
+          "name": "Yunjun Gao",
+          "pid": "80/2651",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1516-gao.pdf",
+      "pages": "1516-1529",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LiuGFG26"
+    },
+    {
+      "title": "JHQ: Johnson-Lindenstrauss Enhanced Hierarchical Quantization for High-Dimensional Approximate Nearest Neighbor Search",
+      "authors": [
+        {
+          "name": "Jiabao Han",
+          "pid": "239/8701",
+          "orcid": null
+        },
+        {
+          "name": "Mengxuan Zhang 0001",
+          "pid": "185/1009-1",
+          "orcid": null
+        },
+        {
+          "name": "Goce Trajcevski",
+          "pid": "66/974",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1530-han.pdf",
+      "pages": "1530-1543",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/HanZT26"
+    },
+    {
+      "title": "Love-at-First-Sight: First Answers Without the Awkward Silence in Big Knowledge Graphs",
+      "authors": [
+        {
+          "name": "Giannis Vassiliou",
+          "pid": "297/6192",
+          "orcid": null
+        },
+        {
+          "name": "Haridimos Kondylakis",
+          "pid": "24/279",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1544-kondylakis.pdf",
+      "pages": "1544-1557",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/VassiliouK26"
+    },
+    {
+      "title": "Understanding Disclosure Risk in Differential Privacy with Applications to Noise Calibration and Auditing",
+      "authors": [
+        {
+          "name": "Patricia Guerra-Balboa",
+          "pid": "344/4169",
+          "orcid": null
+        },
+        {
+          "name": "Annika Sauer",
+          "pid": "390/4335",
+          "orcid": null
+        },
+        {
+          "name": "Héber Hwang Arcolezi",
+          "pid": "248/5342",
+          "orcid": null
+        },
+        {
+          "name": "Thorsten Strufe",
+          "pid": "69/2809",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1558-guerra-balboa.pdf",
+      "pages": "1558-1571",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/GuerraBalboaSAS26"
+    },
+    {
+      "title": "CEMR: An Effective Subgraph Matching Algorithm with Redundant Extension Elimination",
+      "authors": [
+        {
+          "name": "Linglin Yang",
+          "pid": "331/3396",
+          "orcid": null
+        },
+        {
+          "name": "Xunbin Su",
+          "pid": "276/3372",
+          "orcid": null
+        },
+        {
+          "name": "Lei Zou 0001",
+          "pid": "81/3390-1",
+          "orcid": null
+        },
+        {
+          "name": "Xiangyang Gou",
+          "pid": "220/8642",
+          "orcid": null
+        },
+        {
+          "name": "Yinnian Lin",
+          "pid": "260/0406",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1572-yang.pdf",
+      "pages": "1572-1585",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/YangSZGL26"
+    },
+    {
+      "title": "AQD: Online Adaptive Query Dispatcher for HTAP Databases",
+      "authors": [
+        {
+          "name": "Yang Wu",
+          "pid": "56/1428",
+          "orcid": null
+        },
+        {
+          "name": "Tongliang Li",
+          "pid": "129/8153",
+          "orcid": null
+        },
+        {
+          "name": "Xuanhe Zhou",
+          "pid": "247/8418",
+          "orcid": null
+        },
+        {
+          "name": "Jianying Wang",
+          "pid": "06/2952",
+          "orcid": null
+        },
+        {
+          "name": "Xinjun Yang",
+          "pid": "295/3640",
+          "orcid": null
+        },
+        {
+          "name": "Wenchao Zhou",
+          "pid": "72/1077",
+          "orcid": null
+        },
+        {
+          "name": "Chunxiao Xing",
+          "pid": "x/ChunxiaoXing",
+          "orcid": null
+        },
+        {
+          "name": "Yong Zhang 0002",
+          "pid": "66/4615-2",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1586-wu.pdf",
+      "pages": "1586-1599",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WuLZWYZXZ26"
+    },
+    {
+      "title": "Near-Duplicate Text Alignment under Weighted Jaccard Similarity",
+      "authors": [
+        {
+          "name": "Yuheng Zhang",
+          "pid": "70/6340",
+          "orcid": null
+        },
+        {
+          "name": "Miao Qiao",
+          "pid": "93/9883",
+          "orcid": null
+        },
+        {
+          "name": "Zhencan Peng",
+          "pid": "323/2277",
+          "orcid": null
+        },
+        {
+          "name": "Dong Deng 0001",
+          "pid": "71/8700-1",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1600-deng.pdf",
+      "pages": "1600-1613",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhangQPD26"
+    },
+    {
+      "title": "FlareDTDG: Harnessing Temporal Recency for Scalable Discrete-Time Dynamic Graph Training",
+      "authors": [
+        {
+          "name": "Wenjie Huang",
+          "pid": "07/2158",
+          "orcid": null
+        },
+        {
+          "name": "Rui Wang 0076",
+          "pid": "06/2293-76",
+          "orcid": null
+        },
+        {
+          "name": "Jing Cao",
+          "pid": "74/837",
+          "orcid": null
+        },
+        {
+          "name": "Tongya Zheng",
+          "pid": "245/8743",
+          "orcid": null
+        },
+        {
+          "name": "Xinyu Wang 0001",
+          "pid": "68/1277-1",
+          "orcid": null
+        },
+        {
+          "name": "Mingli Song",
+          "pid": "71/5333",
+          "orcid": null
+        },
+        {
+          "name": "Sai Wu",
+          "pid": "30/1186",
+          "orcid": null
+        },
+        {
+          "name": "Chun Chen 0001",
+          "pid": "07/4182-0001",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1614-wang.pdf",
+      "pages": "1614-1627",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/HuangWCZWSWC26"
+    },
+    {
+      "title": "OpenSQL: Data-Efficient Text-to-SQL for Open-Source LLMs via Synthesized Intermediate Supervision",
+      "authors": [
+        {
+          "name": "Ruilin Hu",
+          "pid": "266/7372",
+          "orcid": null
+        },
+        {
+          "name": "Yuyu Luo",
+          "pid": "185/9921",
+          "orcid": null
+        },
+        {
+          "name": "Guoliang Li 0001",
+          "pid": "l/GuoliangLi",
+          "orcid": null
+        },
+        {
+          "name": "Shuangqiao Wu",
+          "pid": "437/5437",
+          "orcid": null
+        },
+        {
+          "name": "Yun Luo",
+          "pid": "19/1045",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1628-li.pdf",
+      "pages": "1628-1642",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/HuLLWL26"
+    },
+    {
+      "title": "Database Views as Explanations for Relational Deep Learning",
+      "authors": [
+        {
+          "name": "Agapi Rissaki",
+          "pid": "282/1363",
+          "orcid": null
+        },
+        {
+          "name": "Ilias Fountalis",
+          "pid": "176/5524",
+          "orcid": null
+        },
+        {
+          "name": "Wolfgang Gatterbauer",
+          "pid": "36/5673",
+          "orcid": null
+        },
+        {
+          "name": "Benny Kimelfeld",
+          "pid": "74/3195",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1643-rissaki.pdf",
+      "pages": "1643-1658",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/RissakiFGK26"
+    },
+    {
+      "title": "Characterizing Parallel Subgraph Matching Performance: A Systematic Study of Interactions, Scalability, and Enumeration",
+      "authors": [
+        {
+          "name": "Tao Yu",
+          "pid": "67/1014",
+          "orcid": null
+        },
+        {
+          "name": "Zhijie Zhang 0004",
+          "pid": "66/5132-4",
+          "orcid": null
+        },
+        {
+          "name": "Weiguo Zheng",
+          "pid": "10/5927",
+          "orcid": null
+        },
+        {
+          "name": "Jeffrey Xu Yu",
+          "pid": "y/JXuYu",
+          "orcid": null
+        },
+        {
+          "name": "Qiang Zhou",
+          "pid": "43/3182",
+          "orcid": null
+        },
+        {
+          "name": "Chuntao Hong",
+          "pid": "62/6933",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1659-yu.pdf",
+      "pages": "1659-1673",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/YuZZYZH26"
+    },
+    {
+      "title": "OBELISK: Efficient Offline Query Planning with Bayesian Optimization-Informed Language Model Reasoning",
+      "authors": [
+        {
+          "name": "Zhicheng Pan",
+          "pid": "141/5423",
+          "orcid": null
+        },
+        {
+          "name": "Wenwen Sun",
+          "pid": "126/6348",
+          "orcid": null
+        },
+        {
+          "name": "Yuanjia Zhang",
+          "pid": "328/6179",
+          "orcid": null
+        },
+        {
+          "name": "Terence Purcell",
+          "pid": "437/5259",
+          "orcid": null
+        },
+        {
+          "name": "Yu Dong",
+          "pid": "03/1299",
+          "orcid": null
+        },
+        {
+          "name": "Chengcheng Yang",
+          "pid": "74/10221",
+          "orcid": null
+        },
+        {
+          "name": "Rong Zhang 0002",
+          "pid": "13/5366-2",
+          "orcid": null
+        },
+        {
+          "name": "Xuan Zhou 0001",
+          "pid": "32/3943-1",
+          "orcid": null
+        },
+        {
+          "name": "Jianliang Xu",
+          "pid": "x/JianliangXu",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "March",
+      "volume": "19",
+      "issue": "7",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1674-pan.pdf",
+      "pages": "1674-1687",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/PanSZPDYZZX26"
+    },
+    {
+      "title": "Theoretically and Practically Efficient Resistance Distance Computation on Large Graphs",
+      "authors": [
+        {
+          "name": "Yichun Yang",
+          "pid": "249/9678",
+          "orcid": null
+        },
+        {
+          "name": "Longlong Lin",
+          "pid": "241/0215",
+          "orcid": null
+        },
+        {
+          "name": "Rong-Hua Li 0001",
+          "pid": "37/548-1",
+          "orcid": null
+        },
+        {
+          "name": "Meihao Liao",
+          "pid": "317/0863",
+          "orcid": null
+        },
+        {
+          "name": "Guoren Wang",
+          "pid": "64/146",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1688-yang.pdf",
+      "pages": "1688-1700",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/YangLLLW26"
+    },
+    {
+      "title": "CIDER: Boosting Memory-Disaggregated Key-Value Stores with Pessimistic Synchronization",
+      "authors": [
+        {
+          "name": "Yuxuan Du",
+          "pid": "222/7868",
+          "orcid": null
+        },
+        {
+          "name": "Xuchuan Luo",
+          "pid": "318/9469",
+          "orcid": null
+        },
+        {
+          "name": "Xin Wang",
+          "pid": "10/5630",
+          "orcid": null
+        },
+        {
+          "name": "Yangfan Zhou",
+          "pid": "27/6390",
+          "orcid": null
+        },
+        {
+          "name": "Jiacheng Shen",
+          "pid": "301/8957",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1701-du.pdf",
+      "pages": "1701-1714",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/DuLWZS26"
+    },
+    {
+      "title": "Balancing the Blend: An Experimental Analysis of Trade-offs in Hybrid Search",
+      "authors": [
+        {
+          "name": "Mengzhao Wang 0001",
+          "pid": "284/3282-1",
+          "orcid": null
+        },
+        {
+          "name": "Boyu Tan",
+          "pid": "251/1805",
+          "orcid": null
+        },
+        {
+          "name": "Yunjun Gao",
+          "pid": "80/2651",
+          "orcid": null
+        },
+        {
+          "name": "Hai Jin 0001",
+          "pid": "98/4156",
+          "orcid": null
+        },
+        {
+          "name": "Yingfeng Zhang",
+          "pid": "57/7071",
+          "orcid": null
+        },
+        {
+          "name": "Xiangyu Ke",
+          "pid": "194/2946",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoliang Xu",
+          "pid": "48/2710",
+          "orcid": null
+        },
+        {
+          "name": "Yifan Zhu 0002",
+          "pid": "94/1593-2",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1715-gao.pdf",
+      "pages": "1715-1730",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/WangTGJZKXZ26"
+    },
+    {
+      "title": "Scalable GNN Explanations with Distributed Shapley Values",
+      "authors": [
+        {
+          "name": "Selahattin Akkas",
+          "pid": "252/7008",
+          "orcid": null
+        },
+        {
+          "name": "Aditya Devarakonda",
+          "pid": "115/5236",
+          "orcid": null
+        },
+        {
+          "name": "Ariful Azad",
+          "pid": "79/8436",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1731-azad.pdf",
+      "pages": "1731-1739",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/AkkasDA26"
+    },
+    {
+      "title": "gMatch: Fine-Grained and Hardware-Efficient Subgraph Matching on GPUs",
+      "authors": [
+        {
+          "name": "Weitian Chen",
+          "pid": "28/778",
+          "orcid": null
+        },
+        {
+          "name": "Shixuan Sun",
+          "pid": "131/9481",
+          "orcid": null
+        },
+        {
+          "name": "Cheng Chen 0008",
+          "pid": "10/217-8",
+          "orcid": null
+        },
+        {
+          "name": "Yongmin Hu",
+          "pid": "245/8929",
+          "orcid": null
+        },
+        {
+          "name": "Yingqian Hu",
+          "pid": "328/7021",
+          "orcid": null
+        },
+        {
+          "name": "Minyi Guo",
+          "pid": "99/6797",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1740-sun.pdf",
+      "pages": "1740-1753",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChenSCHHG26"
+    },
+    {
+      "title": "SemBench: A Benchmark for Semantic Query Processing Engines",
+      "authors": [
+        {
+          "name": "Jiale Lao",
+          "pid": "360/0992",
+          "orcid": null
+        },
+        {
+          "name": "Andreas Zimmerer",
+          "pid": "276/5735",
+          "orcid": null
+        },
+        {
+          "name": "Olga Ovcharenko",
+          "pid": "295/3570",
+          "orcid": null
+        },
+        {
+          "name": "Tianji Cong",
+          "pid": "254/2751",
+          "orcid": null
+        },
+        {
+          "name": "Matthew Russo",
+          "pid": "126/0229",
+          "orcid": null
+        },
+        {
+          "name": "Gerardo Vitagliano",
+          "pid": "249/4023",
+          "orcid": null
+        },
+        {
+          "name": "Michael Cochez",
+          "pid": "83/11448",
+          "orcid": null
+        },
+        {
+          "name": "Fatma Özcan 0001",
+          "pid": "o/FatmaOzcan",
+          "orcid": null
+        },
+        {
+          "name": "Gautam Gupta",
+          "pid": "55/4176",
+          "orcid": null
+        },
+        {
+          "name": "Thibaud Hottelier",
+          "pid": "68/3297",
+          "orcid": null
+        },
+        {
+          "name": "H. V. Jagadish",
+          "pid": "j/HVJagadish",
+          "orcid": null
+        },
+        {
+          "name": "Kris Kissel",
+          "pid": "420/6337",
+          "orcid": null
+        },
+        {
+          "name": "Sebastian Schelter",
+          "pid": "118/7229",
+          "orcid": null
+        },
+        {
+          "name": "Andreas Kipf",
+          "pid": "167/6469",
+          "orcid": null
+        },
+        {
+          "name": "Immanuel Trummer",
+          "pid": "85/9079",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1754-trummer.pdf",
+      "pages": "1754-1767",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LaoZOCRVCOGHJKSKT26"
+    },
+    {
+      "title": "LakeHelm: Zero-Shot Lakehouse Advisor for Joint Engine-Format Selection and Configuration",
+      "authors": [
+        {
+          "name": "Zhongwei Xu",
+          "pid": "50/7024",
+          "orcid": null
+        },
+        {
+          "name": "Siyuan Dong",
+          "pid": "150/1489",
+          "orcid": null
+        },
+        {
+          "name": "Haotian Gong",
+          "pid": "294/5212",
+          "orcid": null
+        },
+        {
+          "name": "Donna Pham",
+          "pid": "440/7070",
+          "orcid": null
+        },
+        {
+          "name": "Lin Ma",
+          "pid": "74/3608",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1768-xu.pdf",
+      "pages": "1768-1781",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/XuDGPM26"
+    },
+    {
+      "title": "ALER: An Active Learning Hybrid System for Efficient Entity Resolution",
+      "authors": [
+        {
+          "name": "Dimitrios Karapiperis",
+          "pid": "132/9541",
+          "orcid": null
+        },
+        {
+          "name": "Leonidas Akritidis",
+          "pid": "19/49",
+          "orcid": null
+        },
+        {
+          "name": "Panayiotis Bozanis",
+          "pid": "21/1146",
+          "orcid": null
+        },
+        {
+          "name": "Vassilios S. Verykios",
+          "pid": "94/1028",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1782-karapiperis.pdf",
+      "pages": "1782-1790",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/KarapiperisABV26"
+    },
+    {
+      "title": "FB*: A Compact Index for Efficient and Exact Density-based Clustering",
+      "authors": [
+        {
+          "name": "Bide Zhao",
+          "pid": "427/3628",
+          "orcid": null
+        },
+        {
+          "name": "Zhiyi Wang",
+          "pid": "66/7776",
+          "orcid": null
+        },
+        {
+          "name": "Lijun Chang",
+          "pid": "47/179",
+          "orcid": null
+        },
+        {
+          "name": "Xin Huang",
+          "pid": "98/5766",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1791-chang.pdf",
+      "pages": "1791-1803",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ZhaoWCH26"
+    },
+    {
+      "title": "Operation-aware Hybrid Locking for Modern In-Memory Indexes",
+      "authors": [
+        {
+          "name": "Vishal Gupta 0006",
+          "pid": "66/6170-6",
+          "orcid": null
+        },
+        {
+          "name": "Martin Sanchez Lopez",
+          "pid": "440/7072",
+          "orcid": null
+        },
+        {
+          "name": "Victor Laforet",
+          "pid": "416/7416",
+          "orcid": null
+        },
+        {
+          "name": "Jean-Pierre Lozi",
+          "pid": "133/3713",
+          "orcid": null
+        },
+        {
+          "name": "Sanidhya Kashyap",
+          "pid": "145/0912",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1804-gupta.pdf",
+      "pages": "1804-1817",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/GuptaLLLK26"
+    },
+    {
+      "title": "Toward Drift-Aware Database Benchmarking",
+      "authors": [
+        {
+          "name": "Guanli Liu",
+          "pid": "185/5792",
+          "orcid": null
+        },
+        {
+          "name": "Renata Borovica-Gajic",
+          "pid": "36/10568",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1818-liu.pdf",
+      "pages": "1818-1825",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/LiuB26"
+    },
+    {
+      "title": "Enabling Index-free Adjacency in Oblivious Graph Processing with Delayed Duplications",
+      "authors": [
+        {
+          "name": "Weiqi Feng",
+          "pid": "295/3173",
+          "orcid": null
+        },
+        {
+          "name": "Xinle Cao",
+          "pid": "294/0551",
+          "orcid": null
+        },
+        {
+          "name": "Adam O'Neill",
+          "pid": "55/3477",
+          "orcid": null
+        },
+        {
+          "name": "Chuanhui Yang",
+          "pid": "328/5894",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1826-cao.pdf",
+      "pages": "1826-1839",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/FengCOY26"
+    },
+    {
+      "title": "Relational Deep Dive: Error-Aware Queries Over Unstructured Data",
+      "authors": [
+        {
+          "name": "Daren Chao",
+          "pid": "223/3198",
+          "orcid": null
+        },
+        {
+          "name": "Kaiwen Chen",
+          "pid": "224/8653",
+          "orcid": null
+        },
+        {
+          "name": "Naiqing Guan",
+          "pid": "244/1368",
+          "orcid": null
+        },
+        {
+          "name": "Nick Koudas",
+          "pid": "k/NickKoudas",
+          "orcid": null
+        }
+      ],
+      "venue": "VLDB",
+      "year": 2026,
+      "published_year": 2026,
+      "published_month": "April",
+      "volume": "19",
+      "issue": "8",
+      "doi": null,
+      "url": "https://www.vldb.org/pvldb/vol19/p1840-koudas.pdf",
+      "pages": "1840-1853",
+      "source": "dblp",
+      "dblp_paper_key": "journals/pvldb/ChaoCGK26"
+    }
+  ]
+}

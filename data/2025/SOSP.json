@@ -1,0 +1,3790 @@
+{
+  "meta": {
+    "venue": "SOSP",
+    "year": 2025,
+    "source_keys": [
+      "conf/sosp/sosp2025"
+    ],
+    "paper_count": 66,
+    "note": null,
+    "updated": "2026-08-12"
+  },
+  "papers": [
+    {
+      "title": "LithOS: An Operating System for Efficient Machine Learning on GPUs",
+      "authors": [
+        {
+          "name": "Patrick H. Coppock",
+          "pid": "405/6876",
+          "orcid": "0000-0002-7101-6961"
+        },
+        {
+          "name": "Brian Zhang",
+          "pid": "200/8344",
+          "orcid": "0009-0008-3190-3129"
+        },
+        {
+          "name": "Eliot H. Solomon",
+          "pid": "372/4787",
+          "orcid": "0009-0001-0570-183X"
+        },
+        {
+          "name": "Vasilis Kypriotis",
+          "pid": "377/3418",
+          "orcid": "0009-0005-9732-3360"
+        },
+        {
+          "name": "Leon Yang",
+          "pid": "203/0896",
+          "orcid": "0009-0006-5702-7687"
+        },
+        {
+          "name": "Bikash Sharma",
+          "pid": "24/7446",
+          "orcid": "0009-0001-8347-8207"
+        },
+        {
+          "name": "Dan Schatzberg",
+          "pid": "150/5905",
+          "orcid": "0009-0000-0945-4429"
+        },
+        {
+          "name": "Todd C. Mowry",
+          "pid": "65/4120",
+          "orcid": "0000-0003-4076-5684"
+        },
+        {
+          "name": "Dimitrios Skarlatos 0002",
+          "pid": "191/7793-2",
+          "orcid": "0000-0002-0289-5499"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764818",
+      "url": "https://doi.org/10.1145/3731569.3764818",
+      "pages": "1-17",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/CoppockZSKYSSM025"
+    },
+    {
+      "title": "μFork: Supporting POSIX fork Within a Single-Address-Space OS",
+      "authors": [
+        {
+          "name": "John Alistair Kressel",
+          "pid": "350/2163",
+          "orcid": "0000-0003-1569-6584"
+        },
+        {
+          "name": "Hugo Lefeuvre",
+          "pid": "279/6840",
+          "orcid": "0000-0001-9547-7458"
+        },
+        {
+          "name": "Pierre Olivier",
+          "pid": "97/9808",
+          "orcid": "0000-0001-7781-1299"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764809",
+      "url": "https://doi.org/10.1145/3731569.3764809",
+      "pages": "18-35",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/KresselLO25"
+    },
+    {
+      "title": "Tock: From Research To Securing 10 Million Computers",
+      "authors": [
+        {
+          "name": "Leon Schuermann",
+          "pid": "359/0002",
+          "orcid": "0000-0002-1429-7808"
+        },
+        {
+          "name": "Brad Campbell",
+          "pid": "21/10522",
+          "orcid": "0000-0002-3110-6823"
+        },
+        {
+          "name": "Branden Ghena",
+          "pid": "150/5917",
+          "orcid": "0000-0001-8035-9248"
+        },
+        {
+          "name": "Philip Alexander Levis",
+          "pid": "91/2665",
+          "orcid": null
+        },
+        {
+          "name": "Amit Levy 0001",
+          "pid": "68/8881",
+          "orcid": "0000-0003-1479-8917"
+        },
+        {
+          "name": "Pat Pannuto",
+          "pid": "86/11187",
+          "orcid": "0000-0001-7720-6267"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764828",
+      "url": "https://doi.org/10.1145/3731569.3764828",
+      "pages": "36-49",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/SchuermannCGLLP25"
+    },
+    {
+      "title": "Proto: A Guided Journey through Modern OS Construction",
+      "authors": [
+        {
+          "name": "Wonkyo Choe",
+          "pid": "278/4119",
+          "orcid": "0000-0002-7799-9946"
+        },
+        {
+          "name": "Rongxiang Wang",
+          "pid": "320/5450",
+          "orcid": "0009-0002-6029-5317"
+        },
+        {
+          "name": "Afsara Benazir",
+          "pid": "295/8247",
+          "orcid": "0000-0002-1003-3637"
+        },
+        {
+          "name": "Felix Xiaozhu Lin",
+          "pid": "02/9170",
+          "orcid": "0009-0000-0081-6411"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764811",
+      "url": "https://doi.org/10.1145/3731569.3764811",
+      "pages": "50-66",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ChoeWBL25"
+    },
+    {
+      "title": "CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices",
+      "authors": [
+        {
+          "name": "Saar Amar",
+          "pid": "362/8827",
+          "orcid": "0009-0006-2679-6504"
+        },
+        {
+          "name": "Tony Chen",
+          "pid": "52/4103",
+          "orcid": "0009-0008-9204-7047"
+        },
+        {
+          "name": "David Chisnall",
+          "pid": "85/1618",
+          "orcid": "0000-0001-6060-0153"
+        },
+        {
+          "name": "Nathaniel Wesley Filardo",
+          "pid": "18/10309",
+          "orcid": "0009-0002-9698-1503"
+        },
+        {
+          "name": "Ben Laurie",
+          "pid": "14/2363",
+          "orcid": "0000-0002-3490-3473"
+        },
+        {
+          "name": "Hugo Lefeuvre",
+          "pid": "279/6840",
+          "orcid": "0000-0001-9547-7458"
+        },
+        {
+          "name": "Kunyan Liu",
+          "pid": "38/3692",
+          "orcid": "0009-0007-2071-6750"
+        },
+        {
+          "name": "Simon W. Moore",
+          "pid": "m/SimonWMoore",
+          "orcid": "0000-0002-2806-495X"
+        },
+        {
+          "name": "Robert Norton-Wright",
+          "pid": "416/7052",
+          "orcid": "0000-0002-6095-6405"
+        },
+        {
+          "name": "Margo I. Seltzer",
+          "pid": "s/MargoISeltzer",
+          "orcid": "0000-0002-2165-4658"
+        },
+        {
+          "name": "Yucong Tao",
+          "pid": "362/8820",
+          "orcid": "0009-0004-2055-8092"
+        },
+        {
+          "name": "Robert N. M. Watson",
+          "pid": "70/2118",
+          "orcid": "0000-0001-8139-8783"
+        },
+        {
+          "name": "Hongyan Xia",
+          "pid": "209/9036",
+          "orcid": "0000-0002-8047-899X"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764844",
+      "url": "https://doi.org/10.1145/3731569.3764844",
+      "pages": "67-84",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/AmarCCFLLLMNSTW25"
+    },
+    {
+      "title": "The Design and Implementation of a Virtual Firmware Monitor",
+      "authors": [
+        {
+          "name": "Charly Castes",
+          "pid": "326/0034",
+          "orcid": "0009-0008-7021-158X"
+        },
+        {
+          "name": "François Costa",
+          "pid": "130/2471",
+          "orcid": "0009-0007-3785-0366"
+        },
+        {
+          "name": "Neelu S. Kalani",
+          "pid": "309/7800",
+          "orcid": "0009-0006-1507-5787"
+        },
+        {
+          "name": "Timothy Roscoe",
+          "pid": "r/TimothyRoscoe",
+          "orcid": "0000-0002-8298-1126"
+        },
+        {
+          "name": "Nate Foster",
+          "pid": "15/3253",
+          "orcid": "0000-0002-6557-684X"
+        },
+        {
+          "name": "Thomas Bourgeat",
+          "pid": "145/1652",
+          "orcid": "0000-0002-8468-8409"
+        },
+        {
+          "name": "Edouard Bugnion",
+          "pid": "b/EBugnion",
+          "orcid": "0000-0001-7237-6929"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764826",
+      "url": "https://doi.org/10.1145/3731569.3764826",
+      "pages": "85-100",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/CastesCKRFBB25"
+    },
+    {
+      "title": "Oasis: Pooling PCIe Devices Over CXL to Boost Utilization",
+      "authors": [
+        {
+          "name": "Yuhong Zhong",
+          "pid": "274/9693",
+          "orcid": "0009-0006-4653-902X"
+        },
+        {
+          "name": "Daniel S. Berger",
+          "pid": "142/2630",
+          "orcid": "0000-0002-3911-1512"
+        },
+        {
+          "name": "Pantea Zardoshti",
+          "pid": "184/7426",
+          "orcid": "0000-0003-1004-6398"
+        },
+        {
+          "name": "Enrique Saurez",
+          "pid": "181/4926",
+          "orcid": "0000-0002-3613-3556"
+        },
+        {
+          "name": "Jacob Nelson 0001",
+          "pid": "35/9256-1",
+          "orcid": "0000-0003-0791-5281"
+        },
+        {
+          "name": "Dan R. K. Ports",
+          "pid": "03/6105",
+          "orcid": "0000-0001-6093-5711"
+        },
+        {
+          "name": "Antonis Psistakis",
+          "pid": "238/0573",
+          "orcid": "0000-0002-2273-3796"
+        },
+        {
+          "name": "Joshua Fried",
+          "pid": "170/3621",
+          "orcid": "0000-0002-5761-3516"
+        },
+        {
+          "name": "Asaf Cidon",
+          "pid": "35/10805",
+          "orcid": "0009-0007-4046-2022"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764812",
+      "url": "https://doi.org/10.1145/3731569.3764812",
+      "pages": "101-119",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ZhongBZS0PPFC25"
+    },
+    {
+      "title": "Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems",
+      "authors": [
+        {
+          "name": "SeungSeob Lee",
+          "pid": "129/9942",
+          "orcid": "0000-0002-5224-8599"
+        },
+        {
+          "name": "Jachym Putta",
+          "pid": "416/7772",
+          "orcid": "0009-0009-6471-2932"
+        },
+        {
+          "name": "Ziming Mao",
+          "pid": "289/6042",
+          "orcid": "0000-0001-7738-2498"
+        },
+        {
+          "name": "Anurag Khandelwal",
+          "pid": "162/1936",
+          "orcid": "0000-0002-2199-6391"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764805",
+      "url": "https://doi.org/10.1145/3731569.3764805",
+      "pages": "120-135",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/LeePMK25"
+    },
+    {
+      "title": "Scalable Far Memory: Balancing Faults and Evictions",
+      "authors": [
+        {
+          "name": "Yueyang Pan",
+          "pid": "313/3086",
+          "orcid": "0000-0002-7113-5362"
+        },
+        {
+          "name": "Yash Lala",
+          "pid": "324/1508",
+          "orcid": "0009-0005-2049-0988"
+        },
+        {
+          "name": "Musa Unal",
+          "pid": "358/2667",
+          "orcid": "0009-0001-6253-6164"
+        },
+        {
+          "name": "Yujie Ren",
+          "pid": "262/6158",
+          "orcid": "0009-0007-2538-2411"
+        },
+        {
+          "name": "SeungSeob Lee",
+          "pid": "129/9942",
+          "orcid": "0000-0002-5224-8599"
+        },
+        {
+          "name": "Abhishek Bhattacharjee",
+          "pid": "78/4478",
+          "orcid": "0000-0003-2742-2679"
+        },
+        {
+          "name": "Anurag Khandelwal",
+          "pid": "162/1936",
+          "orcid": "0000-0002-2199-6391"
+        },
+        {
+          "name": "Sanidhya Kashyap",
+          "pid": "145/0912",
+          "orcid": "0000-0002-9534-8565"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764842",
+      "url": "https://doi.org/10.1145/3731569.3764842",
+      "pages": "136-152",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/PanLURLBKK25"
+    },
+    {
+      "title": "Device-Assisted Live Migration of RDMA Devices",
+      "authors": [
+        {
+          "name": "Artem Y. Polyakov",
+          "pid": "191/3084",
+          "orcid": "0000-0001-6759-1448"
+        },
+        {
+          "name": "Gal Shalom",
+          "pid": "314/7077",
+          "orcid": "0000-0002-1636-7531"
+        },
+        {
+          "name": "Asaf Schwartz",
+          "pid": "274/0859",
+          "orcid": "0009-0000-9016-1438"
+        },
+        {
+          "name": "Aviad Yehezkel",
+          "pid": "290/4014",
+          "orcid": "0009-0003-9000-2797"
+        },
+        {
+          "name": "Omri Ben David",
+          "pid": "416/7459",
+          "orcid": "0009-0008-6873-4461"
+        },
+        {
+          "name": "Omri Kahalon",
+          "pid": "298/5408",
+          "orcid": "0009-0002-4243-7553"
+        },
+        {
+          "name": "Ariel Shahar",
+          "pid": "72/8357",
+          "orcid": "0009-0003-2069-0336"
+        },
+        {
+          "name": "Liran Liss",
+          "pid": "17/179",
+          "orcid": "0009-0003-2661-7906"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764795",
+      "url": "https://doi.org/10.1145/3731569.3764795",
+      "pages": "153-168",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/PolyakovSSYDKSL25"
+    },
+    {
+      "title": "Demeter: A Scalable and Elastic Tiered Memory Solution for Virtualized Cloud via Guest Delegation",
+      "authors": [
+        {
+          "name": "Junliang Hu",
+          "pid": "351/5999",
+          "orcid": "0000-0001-6253-4233"
+        },
+        {
+          "name": "Zhisheng Hu",
+          "pid": "162/1366",
+          "orcid": "0009-0003-1498-7053"
+        },
+        {
+          "name": "Chun-Feng Wu",
+          "pid": "90/597",
+          "orcid": "0000-0002-6367-0517"
+        },
+        {
+          "name": "Ming-Chang Yang",
+          "pid": "123/7774",
+          "orcid": "0000-0002-4029-757X"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764801",
+      "url": "https://doi.org/10.1145/3731569.3764801",
+      "pages": "169-185",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/HuHWY25"
+    },
+    {
+      "title": "Robust LLM Training Infrastructure at ByteDance",
+      "authors": [
+        {
+          "name": "Borui Wan",
+          "pid": "315/5731",
+          "orcid": "0009-0008-5902-1611"
+        },
+        {
+          "name": "Gaohong Liu",
+          "pid": "327/4574",
+          "orcid": "0009-0005-2551-7879"
+        },
+        {
+          "name": "Zuquan Song",
+          "pid": "379/6912",
+          "orcid": "0009-0008-7576-6162"
+        },
+        {
+          "name": "Jun Wang 0039",
+          "pid": "125/8189-39",
+          "orcid": null
+        },
+        {
+          "name": "Yun Zhang",
+          "pid": "02/6428",
+          "orcid": null
+        },
+        {
+          "name": "Guangming Sheng",
+          "pid": "72/9556",
+          "orcid": "0000-0003-3395-3994"
+        },
+        {
+          "name": "Shuguang Wang",
+          "pid": "22/2874",
+          "orcid": "0009-0008-4249-4092"
+        },
+        {
+          "name": "Houmin Wei",
+          "pid": "405/2945",
+          "orcid": null
+        },
+        {
+          "name": "Chenyuan Wang",
+          "pid": "124/4850",
+          "orcid": "0009-0007-5553-2601"
+        },
+        {
+          "name": "Weiqiang Lou",
+          "pid": "416/7938",
+          "orcid": null
+        },
+        {
+          "name": "Xi Yang",
+          "pid": "13/1520",
+          "orcid": null
+        },
+        {
+          "name": "Mofan Zhang",
+          "pid": "349/0889",
+          "orcid": null
+        },
+        {
+          "name": "Kaihua Jiang",
+          "pid": "49/10844",
+          "orcid": null
+        },
+        {
+          "name": "Cheng Ren",
+          "pid": "66/8697",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoyun Zhi",
+          "pid": "413/3184",
+          "orcid": null
+        },
+        {
+          "name": "Menghan Yu",
+          "pid": "329/8443",
+          "orcid": null
+        },
+        {
+          "name": "Zhe Nan",
+          "pid": "31/10858",
+          "orcid": null
+        },
+        {
+          "name": "Zhuolin Zheng",
+          "pid": "239/3356",
+          "orcid": null
+        },
+        {
+          "name": "Baoquan Zhong",
+          "pid": "248/7884",
+          "orcid": null
+        },
+        {
+          "name": "Qinlong Wang",
+          "pid": "90/9593",
+          "orcid": null
+        },
+        {
+          "name": "Huan Yu",
+          "pid": "79/6142",
+          "orcid": null
+        },
+        {
+          "name": "Jinxin Chi",
+          "pid": "246/8003",
+          "orcid": null
+        },
+        {
+          "name": "Wang Zhang 0017",
+          "pid": "91/4884-17",
+          "orcid": null
+        },
+        {
+          "name": "Yuhan Li",
+          "pid": "116/8661",
+          "orcid": null
+        },
+        {
+          "name": "Zixian Du",
+          "pid": "416/6962",
+          "orcid": null
+        },
+        {
+          "name": "Sida Zhao",
+          "pid": "325/6667",
+          "orcid": null
+        },
+        {
+          "name": "Yongqiang Zhang",
+          "pid": "67/5744",
+          "orcid": null
+        },
+        {
+          "name": "Jingzhe Tang",
+          "pid": "416/7680",
+          "orcid": "0009-0008-8094-8112"
+        },
+        {
+          "name": "Zherui Liu",
+          "pid": "302/4620",
+          "orcid": null
+        },
+        {
+          "name": "Chuan Wu 0001",
+          "pid": "34/3772-1",
+          "orcid": null
+        },
+        {
+          "name": "Yanghua Peng",
+          "pid": "195/5934",
+          "orcid": null
+        },
+        {
+          "name": "Haibin Lin",
+          "pid": "142/1829",
+          "orcid": null
+        },
+        {
+          "name": "Wencong Xiao",
+          "pid": "167/7982",
+          "orcid": null
+        },
+        {
+          "name": "Xin Liu 0086",
+          "pid": "76/1820-86",
+          "orcid": null
+        },
+        {
+          "name": "Liang Xiang",
+          "pid": "09/5014",
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764838",
+      "url": "https://doi.org/10.1145/3731569.3764838",
+      "pages": "186-203",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/WanLSWZSWWWLYZJ25"
+    },
+    {
+      "title": "Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters",
+      "authors": [
+        {
+          "name": "Foteini Strati",
+          "pid": "241/0509",
+          "orcid": "0000-0003-3364-2109"
+        },
+        {
+          "name": "Zhendong Zhang 0004",
+          "pid": "179/6539-4",
+          "orcid": "0009-0007-0843-6457"
+        },
+        {
+          "name": "George Manos",
+          "pid": "405/6460",
+          "orcid": "0009-0002-5767-8325"
+        },
+        {
+          "name": "Ixeia Sánchez Périz",
+          "pid": "405/6356",
+          "orcid": "0000-0002-1810-353X"
+        },
+        {
+          "name": "Qinghao Hu 0004",
+          "pid": "169/3407-4",
+          "orcid": "0000-0003-1034-7502"
+        },
+        {
+          "name": "Tiancheng Chen",
+          "pid": "249/5035",
+          "orcid": "0009-0002-8071-2552"
+        },
+        {
+          "name": "Berk Buzcu",
+          "pid": "333/3868",
+          "orcid": "0000-0003-1320-8006"
+        },
+        {
+          "name": "Song Han 0003",
+          "pid": "80/806-3",
+          "orcid": "0000-0002-4186-7618"
+        },
+        {
+          "name": "Pamela Delgado",
+          "pid": "133/3648",
+          "orcid": "0000-0002-9187-8497"
+        },
+        {
+          "name": "Ana Klimovic",
+          "pid": "140/2247",
+          "orcid": "0000-0001-8559-0529"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764839",
+      "url": "https://doi.org/10.1145/3731569.3764839",
+      "pages": "204-220",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/StratiZMP0CB0DK25"
+    },
+    {
+      "title": "DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism",
+      "authors": [
+        {
+          "name": "Chenyu Jiang 0002",
+          "pid": "128/5650-2",
+          "orcid": "0009-0006-5714-3872"
+        },
+        {
+          "name": "Zhenkun Cai",
+          "pid": "213/7670",
+          "orcid": "0000-0002-0199-4866"
+        },
+        {
+          "name": "Ye Tian",
+          "pid": "32/5495",
+          "orcid": "0009-0005-8593-0382"
+        },
+        {
+          "name": "Zhen Jia 0001",
+          "pid": "06/180-1",
+          "orcid": "0000-0003-3543-2324"
+        },
+        {
+          "name": "Yida Wang 0003",
+          "pid": "17/1701-3",
+          "orcid": "0000-0001-8165-840X"
+        },
+        {
+          "name": "Chuan Wu 0001",
+          "pid": "34/3772-1",
+          "orcid": "0000-0002-3144-4398"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764849",
+      "url": "https://doi.org/10.1145/3731569.3764849",
+      "pages": "221-236",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/0002CT00025"
+    },
+    {
+      "title": "TrainVerify: Equivalence-Based Verification for Distributed LLM Training",
+      "authors": [
+        {
+          "name": "Yunchi Lu",
+          "pid": "403/6307",
+          "orcid": "0009-0004-6360-7392"
+        },
+        {
+          "name": "Youshan Miao",
+          "pid": "06/11190",
+          "orcid": "0000-0002-2395-9965"
+        },
+        {
+          "name": "Cheng Tan 0005",
+          "pid": "70/1533-5",
+          "orcid": "0000-0002-1420-5125"
+        },
+        {
+          "name": "Peng Huang 0005",
+          "pid": "29/1726-5",
+          "orcid": "0000-0001-6315-0848"
+        },
+        {
+          "name": "Yi Zhu",
+          "pid": "67/4972",
+          "orcid": "0009-0002-7755-6624"
+        },
+        {
+          "name": "Xian Zhang 0001",
+          "pid": "56/5624-1",
+          "orcid": "0000-0003-4875-2132"
+        },
+        {
+          "name": "Fan Yang 0024",
+          "pid": "29/3081-24",
+          "orcid": "0000-0002-0378-060X"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764850",
+      "url": "https://doi.org/10.1145/3731569.3764850",
+      "pages": "237-253",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/LuM00Z0025"
+    },
+    {
+      "title": "Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training",
+      "authors": [
+        {
+          "name": "Yangtao Deng",
+          "pid": "312/9316",
+          "orcid": "0000-0003-4072-7696"
+        },
+        {
+          "name": "Lei Zhang",
+          "pid": "97/8704",
+          "orcid": null
+        },
+        {
+          "name": "Qinlong Wang",
+          "pid": "90/9593",
+          "orcid": null
+        },
+        {
+          "name": "Xiaoyun Zhi",
+          "pid": "413/3184",
+          "orcid": null
+        },
+        {
+          "name": "Xinlei Zhang",
+          "pid": "156/0581",
+          "orcid": null
+        },
+        {
+          "name": "Zhuo Jiang",
+          "pid": "123/1783",
+          "orcid": null
+        },
+        {
+          "name": "Haohan Xu",
+          "pid": "117/0635",
+          "orcid": null
+        },
+        {
+          "name": "Lei Wang",
+          "pid": "181/2817",
+          "orcid": null
+        },
+        {
+          "name": "Zuquan Song",
+          "pid": "379/6912",
+          "orcid": "0009-0008-7576-6162"
+        },
+        {
+          "name": "Gaohong Liu",
+          "pid": "327/4574",
+          "orcid": "0009-0005-2551-7879"
+        },
+        {
+          "name": "Yang Bai",
+          "pid": "39/6825",
+          "orcid": null
+        },
+        {
+          "name": "Shuguang Wang",
+          "pid": "22/2874",
+          "orcid": null
+        },
+        {
+          "name": "Wencong Xiao",
+          "pid": "167/7982",
+          "orcid": null
+        },
+        {
+          "name": "Jianxi Ye",
+          "pid": "184/0340",
+          "orcid": null
+        },
+        {
+          "name": "Minlan Yu",
+          "pid": "89/6345",
+          "orcid": null
+        },
+        {
+          "name": "Hong Xu 0001",
+          "pid": "01/5265-1",
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764848",
+      "url": "https://doi.org/10.1145/3731569.3764848",
+      "pages": "254-269",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/DengZWZZJXWSLBW25"
+    },
+    {
+      "title": "Mitigating Application Resource Overload with Targeted Task Cancellation",
+      "authors": [
+        {
+          "name": "Yigong Hu",
+          "pid": "238/5443",
+          "orcid": "0009-0003-8096-7077"
+        },
+        {
+          "name": "Zeyin Zhang",
+          "pid": "05/5025",
+          "orcid": "0009-0008-0535-4760"
+        },
+        {
+          "name": "Yicheng Liu",
+          "pid": "78/2495",
+          "orcid": "0009-0003-4887-6386"
+        },
+        {
+          "name": "Yile Gu",
+          "pid": "279/3815",
+          "orcid": "0009-0009-8292-7232"
+        },
+        {
+          "name": "Shuangyu Lei",
+          "pid": "416/7713",
+          "orcid": "0009-0006-1751-478X"
+        },
+        {
+          "name": "Baris Kasikci",
+          "pid": "31/11029",
+          "orcid": "0000-0001-6122-8998"
+        },
+        {
+          "name": "Peng Huang 0005",
+          "pid": "29/1726-5",
+          "orcid": "0000-0001-6315-0848"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764835",
+      "url": "https://doi.org/10.1145/3731569.3764835",
+      "pages": "270-285",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/HuZLGLKH25"
+    },
+    {
+      "title": "Orthrus: Efficient and Timely Detection of Silent User Data Corruption in the Cloud with Resource-Adaptive Computation Validation",
+      "authors": [
+        {
+          "name": "Chenxiao Liu",
+          "pid": "302/1095",
+          "orcid": "0009-0005-8591-0402"
+        },
+        {
+          "name": "Zhenting Zhu",
+          "pid": "359/9119",
+          "orcid": "0009-0007-1076-2091"
+        },
+        {
+          "name": "Quanxi Li",
+          "pid": "16/4289",
+          "orcid": "0009-0000-1191-8675"
+        },
+        {
+          "name": "Yanwen Xia",
+          "pid": "337/8028",
+          "orcid": "0009-0005-6111-7901"
+        },
+        {
+          "name": "Yifan Qiao 0002",
+          "pid": "200/8215-2",
+          "orcid": "0009-0003-3651-6973"
+        },
+        {
+          "name": "Xiangyun Deng",
+          "pid": "212/7412",
+          "orcid": "0009-0007-8472-6157"
+        },
+        {
+          "name": "Youyou Lu",
+          "pid": "96/8005",
+          "orcid": "0000-0002-6214-5390"
+        },
+        {
+          "name": "Tao Xie 0001",
+          "pid": "x/TaoXie",
+          "orcid": "0000-0002-6731-216X"
+        },
+        {
+          "name": "Huimin Cui",
+          "pid": "97/2112",
+          "orcid": "0000-0002-2491-7679"
+        },
+        {
+          "name": "Zidong Du",
+          "pid": "44/11216",
+          "orcid": "0000-0002-7603-4210"
+        },
+        {
+          "name": "Harry Xu 0001",
+          "pid": "90/8705",
+          "orcid": "0000-0003-4737-2146"
+        },
+        {
+          "name": "Chenxi Wang 0005",
+          "pid": "52/3121-5",
+          "orcid": "0000-0002-1451-3101"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764832",
+      "url": "https://doi.org/10.1145/3731569.3764832",
+      "pages": "286-304",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/LiuZLXQDL0CD0W25"
+    },
+    {
+      "title": "Optimistic Recovery for High-Availability Software via Partial Process State Preservation",
+      "authors": [
+        {
+          "name": "Yuzhuo Jing",
+          "pid": "284/5039",
+          "orcid": "0009-0009-8938-447X"
+        },
+        {
+          "name": "Yuqi Mai",
+          "pid": "348/7425",
+          "orcid": "0009-0000-4893-9461"
+        },
+        {
+          "name": "Angting Cai",
+          "pid": "416/7008",
+          "orcid": "0009-0001-0258-6952"
+        },
+        {
+          "name": "Yi Chen",
+          "pid": "49/6574",
+          "orcid": "0009-0005-7370-9816"
+        },
+        {
+          "name": "Wanning He",
+          "pid": "317/4230",
+          "orcid": "0009-0002-4990-2606"
+        },
+        {
+          "name": "Xiaoyang Qian",
+          "pid": "351/4299",
+          "orcid": "0000-0001-9918-8047"
+        },
+        {
+          "name": "Peter M. Chen",
+          "pid": "c/PeterMChen",
+          "orcid": "0000-0002-5951-4183"
+        },
+        {
+          "name": "Peng Huang 0005",
+          "pid": "29/1726-5",
+          "orcid": "0000-0001-6315-0848"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764858",
+      "url": "https://doi.org/10.1145/3731569.3764858",
+      "pages": "305-321",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/JingMCCHQCH25"
+    },
+    {
+      "title": "COpter: Efficient Large-Scale Resource-Allocation via Continual Optimization",
+      "authors": [
+        {
+          "name": "Suhas Jayaram Subramanya",
+          "pid": "237/0890",
+          "orcid": "0009-0001-8013-461X"
+        },
+        {
+          "name": "Don Kurian Dennis",
+          "pid": "227/4804",
+          "orcid": "0009-0007-2941-592X"
+        },
+        {
+          "name": "Virginia Smith",
+          "pid": "120/0921",
+          "orcid": "0000-0002-6404-2395"
+        },
+        {
+          "name": "Gregory R. Ganger",
+          "pid": "g/GregoryRGanger",
+          "orcid": "0000-0002-3065-7316"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764846",
+      "url": "https://doi.org/10.1145/3731569.3764846",
+      "pages": "322-340",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/SubramanyaDSG25"
+    },
+    {
+      "title": "Fast End-to-End Performance Simulation of Accelerated Hardware-Software Stacks",
+      "authors": [
+        {
+          "name": "Jiacheng Ma 0002",
+          "pid": "182/6469-2",
+          "orcid": "0009-0006-6907-7489"
+        },
+        {
+          "name": "Jonas Kaufmann",
+          "pid": "326/9252",
+          "orcid": "0009-0003-2098-3067"
+        },
+        {
+          "name": "Emilien Guandalino",
+          "pid": "416/7309",
+          "orcid": "0009-0004-2452-6266"
+        },
+        {
+          "name": "Rishabh R. Iyer",
+          "pid": "238/8014",
+          "orcid": "0009-0008-5599-8636"
+        },
+        {
+          "name": "Thomas Bourgeat",
+          "pid": "145/1652",
+          "orcid": "0000-0002-8468-8409"
+        },
+        {
+          "name": "George Candea",
+          "pid": "c/GeorgeCandea",
+          "orcid": "0009-0002-8107-6535"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764825",
+      "url": "https://doi.org/10.1145/3731569.3764825",
+      "pages": "341-358",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/0002KGIBC25"
+    },
+    {
+      "title": "Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference",
+      "authors": [
+        {
+          "name": "Le Chen",
+          "pid": "19/576",
+          "orcid": "0009-0002-6562-5485"
+        },
+        {
+          "name": "Dahu Feng",
+          "pid": "320/6665",
+          "orcid": "0000-0002-1146-8552"
+        },
+        {
+          "name": "Erhu Feng",
+          "pid": "299/3243",
+          "orcid": "0009-0006-5957-3024"
+        },
+        {
+          "name": "Yingrui Wang",
+          "pid": "152/9307",
+          "orcid": "0009-0004-0673-8193"
+        },
+        {
+          "name": "Rong Zhao",
+          "pid": "81/1620",
+          "orcid": "0000-0002-2320-0326"
+        },
+        {
+          "name": "Yubin Xia",
+          "pid": "01/615",
+          "orcid": "0000-0001-6558-5298"
+        },
+        {
+          "name": "Pinjie Xu",
+          "pid": "248/8928",
+          "orcid": "0000-0003-0882-6520"
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "pid": "31/6601-1",
+          "orcid": "0000-0002-9720-0361"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764808",
+      "url": "https://doi.org/10.1145/3731569.3764808",
+      "pages": "359-374",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ChenFFWZXX025"
+    },
+    {
+      "title": "IC-Cache: Efficient Large Language Model Serving via In-context Caching",
+      "authors": [
+        {
+          "name": "Yifan Yu",
+          "pid": "67/3150",
+          "orcid": "0009-0009-6477-755X"
+        },
+        {
+          "name": "Yu Gan 0002",
+          "pid": "89/8500-2",
+          "orcid": "0000-0003-2697-9950"
+        },
+        {
+          "name": "Nikhil Sarda",
+          "pid": "129/8262",
+          "orcid": null
+        },
+        {
+          "name": "Lillian Tsai",
+          "pid": "178/4784",
+          "orcid": "0000-0001-6157-1980"
+        },
+        {
+          "name": "Jiaming Shen",
+          "pid": "178/3627",
+          "orcid": "0000-0002-0467-4956"
+        },
+        {
+          "name": "Yanqi Zhou",
+          "pid": "142/3202",
+          "orcid": "0000-0003-2051-7616"
+        },
+        {
+          "name": "Arvind Krishnamurthy",
+          "pid": "k/AKrishnamurthy",
+          "orcid": "0000-0002-9505-9528"
+        },
+        {
+          "name": "Fan Lai 0001",
+          "pid": "179/2330",
+          "orcid": "0009-0005-0472-107X"
+        },
+        {
+          "name": "Hank Levy",
+          "pid": "l/HenryMLevy",
+          "orcid": "0009-0008-7786-8541"
+        },
+        {
+          "name": "David E. Culler",
+          "pid": "c/DavidECuller",
+          "orcid": "0000-0002-0460-9900"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764829",
+      "url": "https://doi.org/10.1145/3731569.3764829",
+      "pages": "375-398",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/YuGSTSZK0LC25"
+    },
+    {
+      "title": "PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications",
+      "authors": [
+        {
+          "name": "Kuntai Du",
+          "pid": "264/3619",
+          "orcid": "0000-0002-3964-4079"
+        },
+        {
+          "name": "Bowen Wang 0016",
+          "pid": "64/4732-16",
+          "orcid": "0009-0005-9535-5350"
+        },
+        {
+          "name": "Chen Zhang 0001",
+          "pid": "94/4084-1",
+          "orcid": "0000-0001-9045-9269"
+        },
+        {
+          "name": "Yiming Cheng",
+          "pid": "05/1764",
+          "orcid": "0009-0005-1754-6880"
+        },
+        {
+          "name": "Qing Lan",
+          "pid": "47/3805",
+          "orcid": "0009-0003-6223-4160"
+        },
+        {
+          "name": "Hejian Sang",
+          "pid": "220/3982",
+          "orcid": "0009-0000-2001-677X"
+        },
+        {
+          "name": "Yihua Cheng",
+          "pid": "226/4171",
+          "orcid": "0009-0006-3924-6886"
+        },
+        {
+          "name": "Jiayi Yao",
+          "pid": "71/10222",
+          "orcid": "0000-0002-8588-4356"
+        },
+        {
+          "name": "Xiaoxuan Liu",
+          "pid": "232/8368",
+          "orcid": "0009-0004-4968-1027"
+        },
+        {
+          "name": "Yifan Qiao 0002",
+          "pid": "200/8215-2",
+          "orcid": "0009-0003-3651-6973"
+        },
+        {
+          "name": "Ion Stoica",
+          "pid": "s/IonStoica",
+          "orcid": "0000-0002-5373-0088"
+        },
+        {
+          "name": "Junchen Jiang",
+          "pid": "49/8398",
+          "orcid": "0000-0002-6877-1683"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764834",
+      "url": "https://doi.org/10.1145/3731569.3764834",
+      "pages": "399-414",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/DuWZCLSCYLQSJ25"
+    },
+    {
+      "title": "Pie: A Programmable Serving System for Emerging LLM Applications",
+      "authors": [
+        {
+          "name": "In Gim",
+          "pid": "322/6944",
+          "orcid": "0000-0002-7581-9526"
+        },
+        {
+          "name": "Zhiyao Ma",
+          "pid": "38/3367",
+          "orcid": "0000-0002-1868-4856"
+        },
+        {
+          "name": "SeungSeob Lee",
+          "pid": "129/9942",
+          "orcid": "0000-0002-5224-8599"
+        },
+        {
+          "name": "Lin Zhong 0001",
+          "pid": "27/2552-1",
+          "orcid": "0000-0003-0840-167X"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764814",
+      "url": "https://doi.org/10.1145/3731569.3764814",
+      "pages": "415-430",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/GimML025"
+    },
+    {
+      "title": "DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction",
+      "authors": [
+        {
+          "name": "Yanqi Zhang",
+          "pid": "166/0079",
+          "orcid": "0000-0003-0130-1502"
+        },
+        {
+          "name": "Yuwei Hu",
+          "pid": "120/1114",
+          "orcid": "0009-0008-6246-4253"
+        },
+        {
+          "name": "Runyuan Zhao",
+          "pid": "394/6173",
+          "orcid": "0009-0003-1305-901X"
+        },
+        {
+          "name": "John C. S. Lui",
+          "pid": "l/JohnCSLui",
+          "orcid": "0000-0001-7466-0384"
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "pid": "31/6601-1",
+          "orcid": "0000-0002-9720-0361"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764810",
+      "url": "https://doi.org/10.1145/3731569.3764810",
+      "pages": "431-445",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ZhangHZLC25"
+    },
+    {
+      "title": "Jenga: Effective Memory Management for Serving LLM with Heterogeneity",
+      "authors": [
+        {
+          "name": "Chen Zhang 0001",
+          "pid": "94/4084-1",
+          "orcid": "0000-0001-9045-9269"
+        },
+        {
+          "name": "Kuntai Du",
+          "pid": "264/3619",
+          "orcid": "0000-0002-3964-4079"
+        },
+        {
+          "name": "Shu Liu",
+          "pid": "57/1180",
+          "orcid": "0009-0009-0825-6178"
+        },
+        {
+          "name": "Woosuk Kwon",
+          "pid": "177/2702",
+          "orcid": "0009-0008-8870-4892"
+        },
+        {
+          "name": "Xiangxi Mo",
+          "pid": "232/2059",
+          "orcid": "0009-0007-4427-0036"
+        },
+        {
+          "name": "Yufeng Wang",
+          "pid": "90/6339",
+          "orcid": "0009-0008-9290-8978"
+        },
+        {
+          "name": "Xiaoxuan Liu",
+          "pid": "232/8368",
+          "orcid": "0009-0004-4968-1027"
+        },
+        {
+          "name": "Kaichao You",
+          "pid": "238/1508",
+          "orcid": "0000-0002-1955-3743"
+        },
+        {
+          "name": "Zhuohan Li 0001",
+          "pid": "96/9986-1",
+          "orcid": "0009-0004-1534-9106"
+        },
+        {
+          "name": "Mingsheng Long",
+          "pid": "74/9023",
+          "orcid": "0000-0002-5412-9120"
+        },
+        {
+          "name": "Jidong Zhai",
+          "pid": "72/7413",
+          "orcid": "0000-0002-7656-6428"
+        },
+        {
+          "name": "Joseph Gonzalez 0001",
+          "pid": "61/8262",
+          "orcid": "0000-0003-2921-956X"
+        },
+        {
+          "name": "Ion Stoica",
+          "pid": "s/IonStoica",
+          "orcid": "0000-0002-5373-0088"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764823",
+      "url": "https://doi.org/10.1145/3731569.3764823",
+      "pages": "446-461",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ZhangDLKMWLYLLZ25"
+    },
+    {
+      "title": "cache_ext: Customizing the Page Cache with eBPF",
+      "authors": [
+        {
+          "name": "Tal Zussman",
+          "pid": "323/3216",
+          "orcid": "0000-0003-3087-8511"
+        },
+        {
+          "name": "Ioannis Zarkadas",
+          "pid": "330/8223",
+          "orcid": "0009-0000-2364-3891"
+        },
+        {
+          "name": "Jeremy Carin",
+          "pid": "364/2624",
+          "orcid": "0009-0004-5850-5068"
+        },
+        {
+          "name": "Andrew Cheng",
+          "pid": "64/5140",
+          "orcid": "0009-0003-8641-0579"
+        },
+        {
+          "name": "Hubertus Franke",
+          "pid": "17/3453",
+          "orcid": "0009-0005-0150-1055"
+        },
+        {
+          "name": "Jonas Pfefferle",
+          "pid": "159/6308",
+          "orcid": "0009-0006-9013-3078"
+        },
+        {
+          "name": "Asaf Cidon",
+          "pid": "35/10805",
+          "orcid": "0009-0007-4046-2022"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764820",
+      "url": "https://doi.org/10.1145/3731569.3764820",
+      "pages": "462-478",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ZussmanZCCFPC25"
+    },
+    {
+      "title": "Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack",
+      "authors": [
+        {
+          "name": "Chuandong Li 0004",
+          "pid": "269/5667-4",
+          "orcid": "0009-0007-7449-5105"
+        },
+        {
+          "name": "Ran Yi 0004",
+          "pid": "136/5469-4",
+          "orcid": "0009-0003-1514-8833"
+        },
+        {
+          "name": "Zonghao Zhang",
+          "pid": "275/8471",
+          "orcid": "0009-0006-1563-9415"
+        },
+        {
+          "name": "Jing Liu 0074",
+          "pid": "72/2590-74",
+          "orcid": "0000-0003-2485-4038"
+        },
+        {
+          "name": "Changwoo Min",
+          "pid": "19/10203",
+          "orcid": "0000-0001-6225-5357"
+        },
+        {
+          "name": "Jie Zhang 0048",
+          "pid": "84/6889-48",
+          "orcid": "0000-0002-6299-4683"
+        },
+        {
+          "name": "Yingwei Luo",
+          "pid": "70/4037",
+          "orcid": "0000-0002-7903-0717"
+        },
+        {
+          "name": "Xiaolin Wang 0001",
+          "pid": "29/4241-1",
+          "orcid": "0000-0002-6951-1613"
+        },
+        {
+          "name": "Zhenlin Wang 0003",
+          "pid": "88/5294-3",
+          "orcid": "0000-0002-0429-4371"
+        },
+        {
+          "name": "Diyu Zhou",
+          "pid": "223/6823",
+          "orcid": "0009-0003-8620-1064"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764816",
+      "url": "https://doi.org/10.1145/3731569.3764816",
+      "pages": "479-495",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/0004YZLMZLWWZ25"
+    },
+    {
+      "title": "Sleeping with One Eye Open: Fast, Sustainable Storage with Sandman",
+      "authors": [
+        {
+          "name": "Yanbo Zhou",
+          "pid": "99/8844",
+          "orcid": "0009-0008-5807-4156"
+        },
+        {
+          "name": "Erci Xu",
+          "pid": "83/10695",
+          "orcid": "0000-0002-6654-4364"
+        },
+        {
+          "name": "Anisa Su",
+          "pid": "416/7505",
+          "orcid": "0009-0004-1065-5956"
+        },
+        {
+          "name": "Jim Harris",
+          "pid": "37/2067",
+          "orcid": "0009-0005-1032-3510"
+        },
+        {
+          "name": "Adam Manzanares",
+          "pid": "60/2779",
+          "orcid": "0009-0005-1626-4179"
+        },
+        {
+          "name": "Steven Swanson",
+          "pid": "97/3886",
+          "orcid": "0000-0002-5896-1037"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764804",
+      "url": "https://doi.org/10.1145/3731569.3764804",
+      "pages": "496-511",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ZhouXSHMS25"
+    },
+    {
+      "title": "Loom: Efficient Capture and Querying of High-Frequency Telemetry",
+      "authors": [
+        {
+          "name": "Franco Solleza",
+          "pid": "239/9803",
+          "orcid": "0009-0008-0416-1203"
+        },
+        {
+          "name": "Shihang Li",
+          "pid": "139/4127",
+          "orcid": "0009-0006-3740-3905"
+        },
+        {
+          "name": "William Sun",
+          "pid": "385/1361",
+          "orcid": "0009-0005-3956-6938"
+        },
+        {
+          "name": "Richard Tang",
+          "pid": "144/5697",
+          "orcid": "0009-0004-8227-3770"
+        },
+        {
+          "name": "Malte Schwarzkopf",
+          "pid": "49/7988",
+          "orcid": "0000-0002-5066-6332"
+        },
+        {
+          "name": "Andrew Crotty",
+          "pid": "147/4971",
+          "orcid": "0000-0002-8544-0982"
+        },
+        {
+          "name": "David Cohen",
+          "pid": "22/148",
+          "orcid": "0000-0003-0935-051X"
+        },
+        {
+          "name": "Nesime Tatbul",
+          "pid": "t/NesimeTatbul",
+          "orcid": "0000-0002-0416-7022"
+        },
+        {
+          "name": "Stan Zdonik",
+          "pid": "z/SBZdonik",
+          "orcid": "0009-0004-4677-5562"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764853",
+      "url": "https://doi.org/10.1145/3731569.3764853",
+      "pages": "512-528",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/SollezaLSTSCCTZ25"
+    },
+    {
+      "title": "Pesto: Cooking up High Performance BFT Queries",
+      "authors": [
+        {
+          "name": "Florian Suri-Payer",
+          "pid": "232/8132",
+          "orcid": "0000-0003-3948-6725"
+        },
+        {
+          "name": "Neil Giridharan",
+          "pid": "182/4795",
+          "orcid": "0009-0008-2175-2611"
+        },
+        {
+          "name": "Liam Arzola",
+          "pid": "357/5558",
+          "orcid": "0009-0006-1098-4906"
+        },
+        {
+          "name": "Shir Cohen",
+          "pid": "259/1807",
+          "orcid": "0000-0001-9001-2387"
+        },
+        {
+          "name": "Lorenzo Alvisi",
+          "pid": "a/LAlvisi",
+          "orcid": "0000-0002-9857-5528"
+        },
+        {
+          "name": "Natacha Crooks",
+          "pid": "161/0113",
+          "orcid": "0000-0002-3567-801X"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764799",
+      "url": "https://doi.org/10.1145/3731569.3764799",
+      "pages": "529-554",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/Suri-PayerGACAC25"
+    },
+    {
+      "title": "Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks",
+      "authors": [
+        {
+          "name": "Jinkun Geng",
+          "pid": "171/1013",
+          "orcid": "0000-0002-6574-8349"
+        },
+        {
+          "name": "Shuai Mu 0001",
+          "pid": "98/7677-1",
+          "orcid": "0000-0001-8244-2109"
+        },
+        {
+          "name": "Anirudh Sivaraman",
+          "pid": "123/2342",
+          "orcid": "0000-0001-5025-4234"
+        },
+        {
+          "name": "Balaji Prabhakar",
+          "pid": "48/1750",
+          "orcid": "0009-0006-3106-8720"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764854",
+      "url": "https://doi.org/10.1145/3731569.3764854",
+      "pages": "555-571",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/GengMSP25"
+    },
+    {
+      "title": "Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs",
+      "authors": [
+        {
+          "name": "Pedro F. Silvestre",
+          "pid": "295/3646",
+          "orcid": "0000-0002-3598-0198"
+        },
+        {
+          "name": "Peter R. Pietzuch",
+          "pid": "45/4887",
+          "orcid": "0000-0002-6963-5640"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764840",
+      "url": "https://doi.org/10.1145/3731569.3764840",
+      "pages": "572-588",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/SilvestreP25"
+    },
+    {
+      "title": "SAND: A New Programming Abstraction for Video-based Deep Learning",
+      "authors": [
+        {
+          "name": "Juncheol Ye",
+          "pid": "271/5952",
+          "orcid": "0009-0008-7673-1279"
+        },
+        {
+          "name": "Seungkook Lee",
+          "pid": "402/7663",
+          "orcid": "0009-0008-5570-9814"
+        },
+        {
+          "name": "Hwijoon Lim",
+          "pid": "187/0217",
+          "orcid": "0000-0002-9872-6234"
+        },
+        {
+          "name": "Jihyuk Lee",
+          "pid": "387/8348",
+          "orcid": "0009-0008-0986-213X"
+        },
+        {
+          "name": "Uitaek Hong",
+          "pid": "351/3363",
+          "orcid": "0009-0002-8526-404X"
+        },
+        {
+          "name": "Youngjin Kwon",
+          "pid": "94/8239",
+          "orcid": "0000-0001-5602-2397"
+        },
+        {
+          "name": "Dongsu Han",
+          "pid": "12/5388",
+          "orcid": "0000-0001-6922-7244"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764847",
+      "url": "https://doi.org/10.1145/3731569.3764847",
+      "pages": "589-605",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/YeLLLHKH25"
+    },
+    {
+      "title": "METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation",
+      "authors": [
+        {
+          "name": "Siddhant Ray",
+          "pid": "324/5356",
+          "orcid": "0000-0003-0265-2144"
+        },
+        {
+          "name": "Rui Pan 0003",
+          "pid": "74/9957-3",
+          "orcid": "0000-0002-6973-3259"
+        },
+        {
+          "name": "Zhuohan Gu",
+          "pid": "393/3421",
+          "orcid": "0009-0005-1076-6549"
+        },
+        {
+          "name": "Kuntai Du",
+          "pid": "264/3619",
+          "orcid": "0000-0002-3964-4079"
+        },
+        {
+          "name": "Shaoting Feng",
+          "pid": "384/7274",
+          "orcid": "0000-0003-3346-5165"
+        },
+        {
+          "name": "Ganesh Ananthanarayanan",
+          "pid": "08/5351",
+          "orcid": "0000-0002-7479-1664"
+        },
+        {
+          "name": "Ravi Netravali",
+          "pid": "123/3350-1",
+          "orcid": "0000-0001-7002-5033"
+        },
+        {
+          "name": "Junchen Jiang",
+          "pid": "49/8398",
+          "orcid": "0000-0002-6877-1683"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764855",
+      "url": "https://doi.org/10.1145/3731569.3764855",
+      "pages": "606-622",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/Ray0GDFANJ25"
+    },
+    {
+      "title": "HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows",
+      "authors": [
+        {
+          "name": "Zhengding Hu",
+          "pid": "359/5899",
+          "orcid": "0009-0005-8500-6173"
+        },
+        {
+          "name": "Vibha Murthy",
+          "pid": "412/8128",
+          "orcid": "0009-0009-3288-6858"
+        },
+        {
+          "name": "Zaifeng Pan",
+          "pid": "294/8391",
+          "orcid": "0000-0002-6759-2616"
+        },
+        {
+          "name": "Wanlu Li",
+          "pid": "153/4284",
+          "orcid": "0000-0003-0098-0670"
+        },
+        {
+          "name": "Xiaoyi Fang",
+          "pid": "122/9321",
+          "orcid": "0009-0008-0660-0003"
+        },
+        {
+          "name": "Yufei Ding 0001",
+          "pid": "127/9591",
+          "orcid": "0000-0002-8716-5793"
+        },
+        {
+          "name": "Yuke Wang",
+          "pid": "85/4549",
+          "orcid": "0000-0003-1634-8549"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764806",
+      "url": "https://doi.org/10.1145/3731569.3764806",
+      "pages": "623-638",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/HuMPLF0W25"
+    },
+    {
+      "title": "Coyote v2: Raising the Level of Abstraction for Data Center FPGAs",
+      "authors": [
+        {
+          "name": "Benjamin Ramhorst",
+          "pid": "354/7439",
+          "orcid": "0000-0002-0026-1281"
+        },
+        {
+          "name": "Dario Korolija",
+          "pid": "236/6636",
+          "orcid": "0009-0002-3984-3948"
+        },
+        {
+          "name": "Maximilian Jakob Heer",
+          "pid": "351/7240",
+          "orcid": "0009-0000-9231-0089"
+        },
+        {
+          "name": "Jonas Dann",
+          "pid": "201/4785",
+          "orcid": "0000-0002-6706-0353"
+        },
+        {
+          "name": "Luhao Liu",
+          "pid": "196/0922",
+          "orcid": "0009-0006-3531-0561"
+        },
+        {
+          "name": "Gustavo Alonso",
+          "pid": "a/GustavoAlonso",
+          "orcid": "0000-0002-4396-6695"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764845",
+      "url": "https://doi.org/10.1145/3731569.3764845",
+      "pages": "639-654",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/RamhorstKHDLA25"
+    },
+    {
+      "title": "KNighter: Transforming Static Analysis with LLM-Synthesized Checkers",
+      "authors": [
+        {
+          "name": "Chenyuan Yang",
+          "pid": "311/4986",
+          "orcid": "0000-0002-7976-5086"
+        },
+        {
+          "name": "Zijie Zhao",
+          "pid": "267/3344",
+          "orcid": "0009-0008-0718-3088"
+        },
+        {
+          "name": "Zichen Xie",
+          "pid": "366/3990",
+          "orcid": "0009-0008-3905-3456"
+        },
+        {
+          "name": "Haoyu Li",
+          "pid": "12/10840",
+          "orcid": "0000-0003-0084-1718"
+        },
+        {
+          "name": "Lingming Zhang 0001",
+          "pid": "27/7057-1",
+          "orcid": "0000-0001-5175-2702"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764827",
+      "url": "https://doi.org/10.1145/3731569.3764827",
+      "pages": "655-669",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/YangZXLZ25"
+    },
+    {
+      "title": "Fawkes: Finding Data Durability Bugs in DBMSs via Recovered Data State Verification",
+      "authors": [
+        {
+          "name": "Zhiyong Wu 0010",
+          "pid": "24/968-10",
+          "orcid": "0000-0003-1908-5043"
+        },
+        {
+          "name": "Jie Liang 0006",
+          "pid": "51/239-6",
+          "orcid": "0000-0003-1046-0337"
+        },
+        {
+          "name": "Jingzhou Fu",
+          "pid": "337/0812",
+          "orcid": "0000-0001-9759-878X"
+        },
+        {
+          "name": "Wenqian Deng",
+          "pid": "408/8709",
+          "orcid": "0009-0009-1233-2479"
+        },
+        {
+          "name": "Yu Jiang 0001",
+          "pid": "21/4633-1",
+          "orcid": "0000-0003-0955-503X"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764841",
+      "url": "https://doi.org/10.1145/3731569.3764841",
+      "pages": "670-684",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/00100FD025"
+    },
+    {
+      "title": "Ghost in the Android Shell: Pragmatic Test-oracle Specification of a Production Hypervisor",
+      "authors": [
+        {
+          "name": "Kayvan Memarian",
+          "pid": "28/10810",
+          "orcid": "0000-0003-3723-636X"
+        },
+        {
+          "name": "Ben Simner",
+          "pid": "202/8946",
+          "orcid": "0009-0000-8431-9577"
+        },
+        {
+          "name": "David Kaloper-Mersinjak",
+          "pid": "167/0508",
+          "orcid": "0009-0001-4506-6236"
+        },
+        {
+          "name": "Thibaut Pérami",
+          "pid": "366/7427",
+          "orcid": "0009-0005-0005-7618"
+        },
+        {
+          "name": "Peter Sewell",
+          "pid": "74/185",
+          "orcid": "0000-0001-9352-1013"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764817",
+      "url": "https://doi.org/10.1145/3731569.3764817",
+      "pages": "685-700",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/MemarianSKPS25"
+    },
+    {
+      "title": "eBPF Misbehavior Detection: Fuzzing with a Specification-Based Oracle",
+      "authors": [
+        {
+          "name": "Tao Lyu 0004",
+          "pid": "188/5629-4",
+          "orcid": "0009-0008-9207-2285"
+        },
+        {
+          "name": "Kumar Kartikeya Dwivedi",
+          "pid": "351/5984",
+          "orcid": "0009-0004-7496-9639"
+        },
+        {
+          "name": "Thomas Bourgeat",
+          "pid": "145/1652",
+          "orcid": "0000-0002-8468-8409"
+        },
+        {
+          "name": "Mathias Payer",
+          "pid": "31/1273",
+          "orcid": "0000-0001-5054-7547"
+        },
+        {
+          "name": "Meng Xu 0001",
+          "pid": "75/4287-1",
+          "orcid": "0009-0001-6364-4837"
+        },
+        {
+          "name": "Sanidhya Kashyap",
+          "pid": "145/0912",
+          "orcid": "0000-0002-9534-8565"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764797",
+      "url": "https://doi.org/10.1145/3731569.3764797",
+      "pages": "701-718",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/0004DBP0K25"
+    },
+    {
+      "title": "WASIT: Deep and Continuous Differential Testing of WebAssembly System Interface Implementations",
+      "authors": [
+        {
+          "name": "Yage Hu",
+          "pid": "216/1169",
+          "orcid": "0009-0009-9559-9995"
+        },
+        {
+          "name": "Wen Zhang",
+          "pid": "43/2368",
+          "orcid": "0000-0002-2081-7830"
+        },
+        {
+          "name": "Botang Xiao",
+          "pid": "409/0670",
+          "orcid": "0009-0003-1446-2329"
+        },
+        {
+          "name": "Qingchen Kong",
+          "pid": "346/1212",
+          "orcid": "0009-0003-1889-7143"
+        },
+        {
+          "name": "Boyang Yi",
+          "pid": "337/6744",
+          "orcid": "0009-0007-1970-0620"
+        },
+        {
+          "name": "Suxin Ji",
+          "pid": "416/7985",
+          "orcid": "0009-0002-8579-9191"
+        },
+        {
+          "name": "Songlan Wang",
+          "pid": "416/7346",
+          "orcid": "0009-0006-9575-4359"
+        },
+        {
+          "name": "Wenwen Wang 0001",
+          "pid": "33/9876-1",
+          "orcid": "0000-0003-0840-4846"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764819",
+      "url": "https://doi.org/10.1145/3731569.3764819",
+      "pages": "719-735",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/HuZXKYJW025"
+    },
+    {
+      "title": "Prove It to the Kernel: Precise Extension Analysis via Proof-Guided Abstraction Refinement",
+      "authors": [
+        {
+          "name": "Hao Sun 0021",
+          "pid": "82/2248-21",
+          "orcid": "0000-0003-2095-092X"
+        },
+        {
+          "name": "Zhendong Su 0001",
+          "pid": "s/ZhendongSu",
+          "orcid": "0000-0002-2970-1391"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764796",
+      "url": "https://doi.org/10.1145/3731569.3764796",
+      "pages": "736-751",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/Sun025"
+    },
+    {
+      "title": "Atmosphere: Practical Verified Kernels with Rust and Verus",
+      "authors": [
+        {
+          "name": "Xiangdong Chen",
+          "pid": "39/4697",
+          "orcid": "0009-0009-4001-9105"
+        },
+        {
+          "name": "Zhaofeng Li 0004",
+          "pid": "02/9552-4",
+          "orcid": "0000-0001-7789-8005"
+        },
+        {
+          "name": "Jerry Zhang",
+          "pid": "39/9312",
+          "orcid": "0009-0001-0450-1297"
+        },
+        {
+          "name": "Vikram Narayanan",
+          "pid": "241/7497",
+          "orcid": "0000-0001-6274-9242"
+        },
+        {
+          "name": "Anton Burtsev",
+          "pid": "28/7551",
+          "orcid": "0000-0001-8769-8373"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764821",
+      "url": "https://doi.org/10.1145/3731569.3764821",
+      "pages": "752-767",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/Chen0ZNB25"
+    },
+    {
+      "title": "AutoMan: Facilitating Verified Distributed Systems Development Through Automatic Code Generation and Manual Optimizations",
+      "authors": [
+        {
+          "name": "Zihao Zhang",
+          "pid": "157/0770",
+          "orcid": "0009-0008-3138-3901"
+        },
+        {
+          "name": "Ti Zhou",
+          "pid": "86/6614",
+          "orcid": "0000-0003-2871-3785"
+        },
+        {
+          "name": "Christa Jenkins",
+          "pid": "320/8316",
+          "orcid": "0000-0002-5434-5018"
+        },
+        {
+          "name": "Omar Chowdhury",
+          "pid": "53/7986",
+          "orcid": "0000-0002-1356-6279"
+        },
+        {
+          "name": "Shuai Mu 0001",
+          "pid": "98/7677-1",
+          "orcid": "0000-0001-8244-2109"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764822",
+      "url": "https://doi.org/10.1145/3731569.3764822",
+      "pages": "768-785",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ZhangZJC025"
+    },
+    {
+      "title": "TickTock: Verified Isolation in a Production Embedded OS",
+      "authors": [
+        {
+          "name": "Vivien Rindisbacher",
+          "pid": "416/7957",
+          "orcid": "0009-0004-7723-5032"
+        },
+        {
+          "name": "Evan Johnson 0001",
+          "pid": "246/5332-1",
+          "orcid": "0000-0002-1784-4512"
+        },
+        {
+          "name": "Nico Lehmann",
+          "pid": "99/7399",
+          "orcid": "0009-0003-6838-3714"
+        },
+        {
+          "name": "Tyler Potyondy",
+          "pid": "411/1695",
+          "orcid": "0009-0002-0569-3806"
+        },
+        {
+          "name": "Pat Pannuto",
+          "pid": "86/11187",
+          "orcid": "0000-0001-7720-6267"
+        },
+        {
+          "name": "Stefan Savage",
+          "pid": "s/StefanSavage",
+          "orcid": "0000-0001-6617-8029"
+        },
+        {
+          "name": "Deian Stefan",
+          "pid": "91/6118",
+          "orcid": "0000-0002-7041-7464"
+        },
+        {
+          "name": "Ranjit Jhala",
+          "pid": "47/4244",
+          "orcid": "0000-0002-1802-9421"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764856",
+      "url": "https://doi.org/10.1145/3731569.3764856",
+      "pages": "786-801",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/Rindisbacher0LP25"
+    },
+    {
+      "title": "ORQ: Complex Analytics on Private Data with Strong Security Guarantees",
+      "authors": [
+        {
+          "name": "Eli Baum",
+          "pid": "376/0257",
+          "orcid": "0009-0003-7311-1705"
+        },
+        {
+          "name": "Sam Buxbaum",
+          "pid": "375/9639",
+          "orcid": "0000-0003-0627-5091"
+        },
+        {
+          "name": "Nitin Mathai",
+          "pid": "416/1399",
+          "orcid": "0009-0000-4928-6386"
+        },
+        {
+          "name": "Muhammad Faisal 0001",
+          "pid": "81/7083-1",
+          "orcid": "0009-0005-0040-9134"
+        },
+        {
+          "name": "Vasiliki Kalavri",
+          "pid": "132/6943",
+          "orcid": "0000-0001-8219-4862"
+        },
+        {
+          "name": "Mayank Varia",
+          "pid": "59/6288",
+          "orcid": "0000-0002-7460-3272"
+        },
+        {
+          "name": "John Liagouris",
+          "pid": "95/9170",
+          "orcid": "0000-0003-4692-3022"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764833",
+      "url": "https://doi.org/10.1145/3731569.3764833",
+      "pages": "802-833",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/BaumBM0KVL25"
+    },
+    {
+      "title": "TRIP: Coercion-resistant Registration for E-Voting with Verifiability and Usability in Votegral",
+      "authors": [
+        {
+          "name": "Louis-Henri Merino",
+          "pid": "271/9265",
+          "orcid": "0000-0003-0694-5489"
+        },
+        {
+          "name": "Simone Colombo 0002",
+          "pid": "121/4885-2",
+          "orcid": "0000-0002-4284-6720"
+        },
+        {
+          "name": "Rene Reyes",
+          "pid": "232/9075",
+          "orcid": "0000-0002-8379-471X"
+        },
+        {
+          "name": "Alaleh Azhir",
+          "pid": "214/1970",
+          "orcid": "0000-0002-0330-8823"
+        },
+        {
+          "name": "Shailesh Mishra",
+          "pid": "37/3017",
+          "orcid": "0000-0002-5208-6622"
+        },
+        {
+          "name": "Pasindu Tennage",
+          "pid": "214/9930",
+          "orcid": "0009-0005-6611-2544"
+        },
+        {
+          "name": "Mohammad Amin Raeisi",
+          "pid": "362/6170",
+          "orcid": "0009-0002-7118-8752"
+        },
+        {
+          "name": "Haoqian Zhang",
+          "pid": "258/3134",
+          "orcid": "0009-0001-6096-0834"
+        },
+        {
+          "name": "Jeff R. Allen",
+          "pid": "53/3895",
+          "orcid": "0009-0000-1290-9121"
+        },
+        {
+          "name": "Bernhard Tellenbach",
+          "pid": "93/3619",
+          "orcid": "0000-0002-5008-1107"
+        },
+        {
+          "name": "Vero Estrada-Galiñanes",
+          "pid": "17/7673",
+          "orcid": "0000-0002-7791-8149"
+        },
+        {
+          "name": "Bryan Ford",
+          "pid": "f/BryanFord",
+          "orcid": "0000-0002-0528-3033"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764837",
+      "url": "https://doi.org/10.1145/3731569.3764837",
+      "pages": "834-874",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/Merino0RAMTRZAT25"
+    },
+    {
+      "title": "Moirai: Optimizing Placement of Data and Compute in Hybrid Clouds",
+      "authors": [
+        {
+          "name": "Ziyue Qiu",
+          "pid": "346/2188",
+          "orcid": "0009-0002-9546-8599"
+        },
+        {
+          "name": "Hojin Park",
+          "pid": "31/2348",
+          "orcid": "0009-0005-7057-2455"
+        },
+        {
+          "name": "Jing Zhao",
+          "pid": "69/5882",
+          "orcid": "0009-0009-0479-7452"
+        },
+        {
+          "name": "Yu-Kai Wang",
+          "pid": "51/10068",
+          "orcid": "0009-0009-5054-8510"
+        },
+        {
+          "name": "Arnav Balyan",
+          "pid": "342/3827",
+          "orcid": "0000-0003-1767-8515"
+        },
+        {
+          "name": "Gurmeet Singh",
+          "pid": "43/33",
+          "orcid": "0009-0002-4941-9075"
+        },
+        {
+          "name": "Yangjun Zhang",
+          "pid": "85/528",
+          "orcid": "0009-0003-2385-122X"
+        },
+        {
+          "name": "Suqiang (Jack) Song",
+          "pid": "416/7252",
+          "orcid": "0009-0004-4693-4666"
+        },
+        {
+          "name": "Gregory R. Ganger",
+          "pid": "g/GregoryRGanger",
+          "orcid": "0000-0002-3065-7316"
+        },
+        {
+          "name": "George Amvrosiadis",
+          "pid": "20/11514",
+          "orcid": "0000-0002-7328-1857"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764802",
+      "url": "https://doi.org/10.1145/3731569.3764802",
+      "pages": "875-891",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/QiuPZWBSZSGA25"
+    },
+    {
+      "title": "Tai Chi: A General High-Efficiency Scheduling Framework for SmartNICs in Hyperscale Clouds",
+      "authors": [
+        {
+          "name": "Bang Di",
+          "pid": "187/7310",
+          "orcid": "0000-0002-8002-3469"
+        },
+        {
+          "name": "Yun Xu",
+          "pid": "11/1627",
+          "orcid": "0009-0004-0308-9028"
+        },
+        {
+          "name": "Kaijie Guo",
+          "pid": "170/2419",
+          "orcid": "0009-0002-0280-2966"
+        },
+        {
+          "name": "Yibin Shen",
+          "pid": "223/3172",
+          "orcid": "0009-0009-3447-5577"
+        },
+        {
+          "name": "Yu Li",
+          "pid": "34/2997",
+          "orcid": "0009-0008-9734-418X"
+        },
+        {
+          "name": "Sanchuan Cheng",
+          "pid": "416/7274",
+          "orcid": "0009-0003-0134-3478"
+        },
+        {
+          "name": "Hao Zheng",
+          "pid": "31/6916",
+          "orcid": "0009-0001-4476-6505"
+        },
+        {
+          "name": "Fudong Qiu",
+          "pid": "139/4013",
+          "orcid": "0009-0005-9937-0320"
+        },
+        {
+          "name": "Xiaokang Hu",
+          "pid": "205/6979",
+          "orcid": "0000-0002-3643-1668"
+        },
+        {
+          "name": "Naixuan Guan",
+          "pid": "416/7410",
+          "orcid": "0009-0007-6398-0340"
+        },
+        {
+          "name": "Dongdong Huang",
+          "pid": "187/1597",
+          "orcid": "0009-0006-4814-4283"
+        },
+        {
+          "name": "Jinhu Li",
+          "pid": "258/2028",
+          "orcid": "0009-0009-0450-8470"
+        },
+        {
+          "name": "Yi Wang 0004",
+          "pid": "67/6649-4",
+          "orcid": "0009-0003-7577-0325"
+        },
+        {
+          "name": "Yifang Yang",
+          "pid": "80/10763",
+          "orcid": "0009-0006-8398-6056"
+        },
+        {
+          "name": "Jintao Li",
+          "pid": "414/6882",
+          "orcid": "0009-0009-3060-698X"
+        },
+        {
+          "name": "Hang Yang",
+          "pid": "52/8989",
+          "orcid": "0009-0007-9613-2276"
+        },
+        {
+          "name": "Chen Liang",
+          "pid": "35/3221",
+          "orcid": "0009-0001-8040-8545"
+        },
+        {
+          "name": "Yilong Lv",
+          "pid": "291/5892",
+          "orcid": "0000-0002-5194-5288"
+        },
+        {
+          "name": "Zikang Chen",
+          "pid": "281/1680",
+          "orcid": "0009-0001-3720-0570"
+        },
+        {
+          "name": "Zhenwei Lu",
+          "pid": "120/8680",
+          "orcid": "0009-0009-5419-3868"
+        },
+        {
+          "name": "Xiaohan Ma",
+          "pid": "96/1890",
+          "orcid": "0009-0002-6972-3859"
+        },
+        {
+          "name": "Jiesheng Wu",
+          "pid": "64/2146",
+          "orcid": "0000-0001-7417-5469"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764851",
+      "url": "https://doi.org/10.1145/3731569.3764851",
+      "pages": "892-906",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/DiXGSLCZQHGHLWY25"
+    },
+    {
+      "title": "Quilt: Resource-aware Merging of Serverless Workflows",
+      "authors": [
+        {
+          "name": "Yuxuan Zhang",
+          "pid": "126/5240",
+          "orcid": "0000-0002-3750-5809"
+        },
+        {
+          "name": "Sebastian Angel",
+          "pid": "132/8480",
+          "orcid": "0000-0002-3798-5590"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764830",
+      "url": "https://doi.org/10.1145/3731569.3764830",
+      "pages": "907-927",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ZhangA25"
+    },
+    {
+      "title": "Mantle: Efficient Hierarchical Metadata Management for Cloud Object Storage Services",
+      "authors": [
+        {
+          "name": "Jiahao Li",
+          "pid": "150/5524",
+          "orcid": "0009-0001-5933-7367"
+        },
+        {
+          "name": "Biao Cao",
+          "pid": "19/10130",
+          "orcid": "0009-0007-0578-9759"
+        },
+        {
+          "name": "Jielong Jian",
+          "pid": "416/7384",
+          "orcid": "0009-0002-4522-5046"
+        },
+        {
+          "name": "Cheng Li 0001",
+          "pid": "16/6465-1",
+          "orcid": "0000-0001-7064-6120"
+        },
+        {
+          "name": "Sen Han",
+          "pid": "48/7844",
+          "orcid": "0009-0006-7284-1185"
+        },
+        {
+          "name": "Yiduo Wang 0002",
+          "pid": "221/2416-2",
+          "orcid": "0000-0002-8787-0134"
+        },
+        {
+          "name": "Yufei Wu 0011",
+          "pid": "55/1787-11",
+          "orcid": "0000-0001-5105-8171"
+        },
+        {
+          "name": "Kang Chen 0001",
+          "pid": "91/6670-1",
+          "orcid": "0000-0002-8368-1109"
+        },
+        {
+          "name": "Zhihui Yin",
+          "pid": "365/5158",
+          "orcid": "0009-0006-1191-1282"
+        },
+        {
+          "name": "Qiushi Chen",
+          "pid": "132/3388",
+          "orcid": "0009-0007-9116-8456"
+        },
+        {
+          "name": "Jiwei Xiong",
+          "pid": "416/7920",
+          "orcid": "0009-0005-0738-4443"
+        },
+        {
+          "name": "Jie Zhao 0020",
+          "pid": "23/3168-20",
+          "orcid": "0009-0006-7007-199X"
+        },
+        {
+          "name": "Fengyuan Liu",
+          "pid": "221/2879",
+          "orcid": "0009-0004-0083-562X"
+        },
+        {
+          "name": "Yan Xing",
+          "pid": "71/2898",
+          "orcid": "0009-0008-3648-324X"
+        },
+        {
+          "name": "Liguo Duan",
+          "pid": "27/9712",
+          "orcid": "0009-0007-2168-683X"
+        },
+        {
+          "name": "Miao Yu 0029",
+          "pid": "49/1749-29",
+          "orcid": "0009-0003-4737-486X"
+        },
+        {
+          "name": "Ran Zheng",
+          "pid": "29/2149",
+          "orcid": "0009-0004-4191-5263"
+        },
+        {
+          "name": "Feng Wu 0001",
+          "pid": "25/3972-1",
+          "orcid": "0000-0001-8451-0881"
+        },
+        {
+          "name": "Xianjun Meng",
+          "pid": "27/8202",
+          "orcid": "0009-0002-1248-1123"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764824",
+      "url": "https://doi.org/10.1145/3731569.3764824",
+      "pages": "928-943",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/LiCJ0H00CYCXZLX25"
+    },
+    {
+      "title": "Unlocking True Elasticity for the Cloud-Native Era with Dandelion",
+      "authors": [
+        {
+          "name": "Tom Kuchler",
+          "pid": "355/0627",
+          "orcid": "0009-0002-8091-0313"
+        },
+        {
+          "name": "Pinghe Li",
+          "pid": "336/7223",
+          "orcid": "0009-0003-9904-7879"
+        },
+        {
+          "name": "Yazhuo Zhang",
+          "pid": "22/8903",
+          "orcid": "0000-0001-5428-6604"
+        },
+        {
+          "name": "Lazar Cvetkovic",
+          "pid": "270/8316",
+          "orcid": "0009-0000-1373-8395"
+        },
+        {
+          "name": "Boris Goranov",
+          "pid": "407/7156",
+          "orcid": "0009-0003-2266-9434"
+        },
+        {
+          "name": "Tobias Stocker",
+          "pid": "407/7332",
+          "orcid": "0009-0004-2776-0381"
+        },
+        {
+          "name": "Leon Thomm",
+          "pid": "388/0664",
+          "orcid": "0009-0003-6418-8225"
+        },
+        {
+          "name": "Simone Kalbermatter",
+          "pid": "407/6784",
+          "orcid": "0009-0009-1516-5936"
+        },
+        {
+          "name": "Tim Notter",
+          "pid": "407/6964",
+          "orcid": "0009-0005-4544-9148"
+        },
+        {
+          "name": "Andrea Lattuada 0001",
+          "pid": "181/5922",
+          "orcid": "0000-0002-9303-452X"
+        },
+        {
+          "name": "Ana Klimovic",
+          "pid": "140/2247",
+          "orcid": "0000-0001-8559-0529"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764803",
+      "url": "https://doi.org/10.1145/3731569.3764803",
+      "pages": "944-961",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/KuchlerLZCGSTKN25"
+    },
+    {
+      "title": "Running Consistent Applications Closer to Users with Radical for Lower Latency",
+      "authors": [
+        {
+          "name": "Nicolaas Kaashoek",
+          "pid": "159/3686",
+          "orcid": "0000-0003-0436-0671"
+        },
+        {
+          "name": "Oleg Aleksandrovich Golev",
+          "pid": "374/8991",
+          "orcid": "0009-0008-7878-9992"
+        },
+        {
+          "name": "Austin T. Li",
+          "pid": "416/7396",
+          "orcid": "0009-0005-3595-2866"
+        },
+        {
+          "name": "Amit Levy 0001",
+          "pid": "68/8881",
+          "orcid": "0000-0003-1479-8917"
+        },
+        {
+          "name": "Wyatt Lloyd",
+          "pid": "21/1059",
+          "orcid": "0000-0002-4870-0490"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764831",
+      "url": "https://doi.org/10.1145/3731569.3764831",
+      "pages": "962-978",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/KaashoekGLLL25"
+    },
+    {
+      "title": "Managing Scalable Direct Storage Accesses for GPUs with GoFS",
+      "authors": [
+        {
+          "name": "Shaobo Li 0005",
+          "pid": "90/6996-5",
+          "orcid": "0000-0001-8883-5392"
+        },
+        {
+          "name": "Yirui Eric Zhou",
+          "pid": "359/0805",
+          "orcid": "0009-0006-6195-2269"
+        },
+        {
+          "name": "Yuqi Xue",
+          "pid": "229/0374",
+          "orcid": "0009-0002-0363-9486"
+        },
+        {
+          "name": "Yuan Xu 0020",
+          "pid": "89/3127-20",
+          "orcid": "0009-0006-9653-3283"
+        },
+        {
+          "name": "Jian Huang 0006",
+          "pid": "51/494-6",
+          "orcid": "0000-0002-1125-671X"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764857",
+      "url": "https://doi.org/10.1145/3731569.3764857",
+      "pages": "979-995",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/0005ZXX025"
+    },
+    {
+      "title": "PhoenixOS: Concurrent OS-level GPU Checkpoint and Restore with Validated Speculation",
+      "authors": [
+        {
+          "name": "Xingda Wei",
+          "pid": "168/9037",
+          "orcid": "0000-0003-4983-6047"
+        },
+        {
+          "name": "Zhuobin Huang",
+          "pid": "190/4367",
+          "orcid": "0009-0005-2251-4146"
+        },
+        {
+          "name": "Tianle Sun",
+          "pid": "378/5144",
+          "orcid": "0009-0004-0083-6964"
+        },
+        {
+          "name": "Yingyi Hao",
+          "pid": "378/1462",
+          "orcid": "0009-0007-8042-0863"
+        },
+        {
+          "name": "Rong Chen 0001",
+          "pid": "22/6904-1",
+          "orcid": "0000-0002-6115-8130"
+        },
+        {
+          "name": "Mingcong Han",
+          "pid": "286/1961",
+          "orcid": "0009-0008-1536-7485"
+        },
+        {
+          "name": "Jinyu Gu 0001",
+          "pid": "197/6723-1",
+          "orcid": "0000-0002-8112-8481"
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "pid": "31/6601-1",
+          "orcid": "0000-0002-9720-0361"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764813",
+      "url": "https://doi.org/10.1145/3731569.3764813",
+      "pages": "996-1013",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/WeiHSH0H0025"
+    },
+    {
+      "title": "KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models",
+      "authors": [
+        {
+          "name": "Hongtao Chen",
+          "pid": "27/5646",
+          "orcid": "0000-0001-5110-0413"
+        },
+        {
+          "name": "Weiyu Xie",
+          "pid": "258/0997",
+          "orcid": "0000-0003-0173-1027"
+        },
+        {
+          "name": "Boxin Zhang",
+          "pid": "203/4018",
+          "orcid": "0009-0004-2857-3713"
+        },
+        {
+          "name": "Jingqi Tang",
+          "pid": "384/1736",
+          "orcid": "0009-0006-3300-9425"
+        },
+        {
+          "name": "Jiahao Wang",
+          "pid": "34/5354",
+          "orcid": "0009-0001-8030-5976"
+        },
+        {
+          "name": "Jianwei Dong",
+          "pid": "45/2761",
+          "orcid": "0009-0007-3175-1607"
+        },
+        {
+          "name": "Shaoyuan Chen",
+          "pid": "126/1575",
+          "orcid": "0000-0003-3526-3241"
+        },
+        {
+          "name": "Ziwei Yuan",
+          "pid": "272/8641",
+          "orcid": "0009-0000-5797-2108"
+        },
+        {
+          "name": "Chen Lin",
+          "pid": "37/3102",
+          "orcid": "0009-0002-8554-0411"
+        },
+        {
+          "name": "Chengyu Qiu",
+          "pid": "297/1341",
+          "orcid": "0009-0003-4422-9368"
+        },
+        {
+          "name": "Yuening Zhu",
+          "pid": "268/5892",
+          "orcid": "0009-0006-6716-5709"
+        },
+        {
+          "name": "Qingliang Ou",
+          "pid": "416/7541",
+          "orcid": "0009-0006-6762-8056"
+        },
+        {
+          "name": "Jiaqi Liao",
+          "pid": "144/7470",
+          "orcid": "0009-0008-8097-0846"
+        },
+        {
+          "name": "Xianglin Chen",
+          "pid": "406/2933",
+          "orcid": "0009-0000-4975-4856"
+        },
+        {
+          "name": "Zhiyuan Ai",
+          "pid": "203/1934",
+          "orcid": "0009-0007-8050-6288"
+        },
+        {
+          "name": "Yongwei Wu 0001",
+          "pid": "38/880",
+          "orcid": "0000-0002-6651-7032"
+        },
+        {
+          "name": "Mingxing Zhang",
+          "pid": "153/5382",
+          "orcid": "0000-0001-7518-0753"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764843",
+      "url": "https://doi.org/10.1145/3731569.3764843",
+      "pages": "1014-1029",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ChenXZTWDCYLQZO25"
+    },
+    {
+      "title": "Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market",
+      "authors": [
+        {
+          "name": "Yuxing Xiang",
+          "pid": "262/4802",
+          "orcid": "0009-0001-1942-9902"
+        },
+        {
+          "name": "Xue Li 0024",
+          "pid": "181/2710-24",
+          "orcid": "0000-0001-5713-7225"
+        },
+        {
+          "name": "Kun Qian 0021",
+          "pid": "77/2062-21",
+          "orcid": "0000-0001-9882-9279"
+        },
+        {
+          "name": "Yufan Yang",
+          "pid": "147/1628",
+          "orcid": "0009-0006-9397-9458"
+        },
+        {
+          "name": "Diwen Zhu",
+          "pid": "18/7753",
+          "orcid": "0009-0002-7175-0784"
+        },
+        {
+          "name": "Wenyuan Yu",
+          "pid": "53/5676",
+          "orcid": "0009-0006-5641-2452"
+        },
+        {
+          "name": "Ennan Zhai",
+          "pid": "23/7560",
+          "orcid": "0000-0003-4352-7497"
+        },
+        {
+          "name": "Xuanzhe Liu",
+          "pid": "08/2161",
+          "orcid": "0000-0002-7908-8484"
+        },
+        {
+          "name": "Xin Jin 0008",
+          "pid": "68/3340-8",
+          "orcid": "0000-0001-8741-5847"
+        },
+        {
+          "name": "Jingren Zhou 0001",
+          "pid": "84/2644-1",
+          "orcid": "0000-0001-6851-1366"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764815",
+      "url": "https://doi.org/10.1145/3731569.3764815",
+      "pages": "1030-1045",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/Xiang0QYZYZL0025"
+    },
+    {
+      "title": "Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling",
+      "authors": [
+        {
+          "name": "Yue Guan 0003",
+          "pid": "54/7820-3",
+          "orcid": "0009-0005-7433-2627"
+        },
+        {
+          "name": "Xinwei Qiang",
+          "pid": "416/7472",
+          "orcid": "0009-0004-1182-6737"
+        },
+        {
+          "name": "Zaifeng Pan",
+          "pid": "294/8391",
+          "orcid": "0000-0002-6759-2616"
+        },
+        {
+          "name": "Daniels Johnson",
+          "pid": "416/7975",
+          "orcid": "0009-0004-1126-7445"
+        },
+        {
+          "name": "Yuanwei Fang",
+          "pid": "125/2460",
+          "orcid": "0000-0001-5600-026X"
+        },
+        {
+          "name": "Keren Zhou 0001",
+          "pid": "163/1781-1",
+          "orcid": "0000-0002-7977-3182"
+        },
+        {
+          "name": "Yuke Wang",
+          "pid": "85/4549",
+          "orcid": "0000-0003-1634-8549"
+        },
+        {
+          "name": "Wanlu Li",
+          "pid": "153/4284",
+          "orcid": "0000-0003-0098-0670"
+        },
+        {
+          "name": "Yufei Ding 0001",
+          "pid": "127/9591",
+          "orcid": "0000-0002-8716-5793"
+        },
+        {
+          "name": "Adnan Aziz",
+          "pid": "53/5368",
+          "orcid": "0009-0003-5855-6861"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764798",
+      "url": "https://doi.org/10.1145/3731569.3764798",
+      "pages": "1046-1061",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/GuanQPJF0WL0A25"
+    },
+    {
+      "title": "How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service",
+      "authors": [
+        {
+          "name": "Jingkai He",
+          "pid": "402/6276",
+          "orcid": "0009-0005-9024-7588"
+        },
+        {
+          "name": "Yunpeng Dong",
+          "pid": "162/9073",
+          "orcid": "0009-0005-5434-0435"
+        },
+        {
+          "name": "Dong Du 0003",
+          "pid": "48/331-3",
+          "orcid": "0000-0002-7945-8430"
+        },
+        {
+          "name": "Mo Zou",
+          "pid": "251/1762",
+          "orcid": "0009-0003-2655-2911"
+        },
+        {
+          "name": "Zhitai Yu",
+          "pid": "291/6342",
+          "orcid": "0000-0001-9893-6939"
+        },
+        {
+          "name": "Yuxin Ren 0001",
+          "pid": "162/7779-1",
+          "orcid": "0000-0003-2678-9225"
+        },
+        {
+          "name": "Ning Jia 0004",
+          "pid": "25/6775-4",
+          "orcid": "0009-0003-8246-4713"
+        },
+        {
+          "name": "Yubin Xia",
+          "pid": "01/615",
+          "orcid": "0000-0001-6558-5298"
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "pid": "31/6601-1",
+          "orcid": "0000-0002-9720-0361"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764800",
+      "url": "https://doi.org/10.1145/3731569.3764800",
+      "pages": "1062-1081",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/HeD0ZY0JX025"
+    },
+    {
+      "title": "CortenMM: Efficient Memory Management with Strong Correctness Guarantees",
+      "authors": [
+        {
+          "name": "Junyang Zhang 0003",
+          "pid": "215/8338-3",
+          "orcid": "0000-0002-9268-6278"
+        },
+        {
+          "name": "Xiangcan Xu",
+          "pid": "416/6913",
+          "orcid": "0009-0006-2175-0750"
+        },
+        {
+          "name": "Yonghao Zou",
+          "pid": "299/3244",
+          "orcid": "0000-0002-5978-8934"
+        },
+        {
+          "name": "Zhe Tang",
+          "pid": "24/5105",
+          "orcid": "0009-0004-0449-6581"
+        },
+        {
+          "name": "Xinyi Wan 0001",
+          "pid": "284/4096-1",
+          "orcid": "0009-0004-3543-499X"
+        },
+        {
+          "name": "Kang Hu",
+          "pid": "93/5846",
+          "orcid": "0009-0000-5256-2863"
+        },
+        {
+          "name": "Siyuan Wang 0026",
+          "pid": "12/9626-26",
+          "orcid": "0009-0009-9901-0279"
+        },
+        {
+          "name": "Wenbo Xu",
+          "pid": "81/4590",
+          "orcid": "0009-0000-5563-7701"
+        },
+        {
+          "name": "Di Wang 0017",
+          "pid": "18/5410-17",
+          "orcid": "0000-0002-2418-7987"
+        },
+        {
+          "name": "Hao Chen 0023",
+          "pid": "175/3324-23",
+          "orcid": "0000-0002-1180-9433"
+        },
+        {
+          "name": "Lin Huang 0005",
+          "pid": "74/2101-5",
+          "orcid": "0009-0002-5659-1471"
+        },
+        {
+          "name": "Shoumeng Yan",
+          "pid": "08/6611",
+          "orcid": "0009-0007-9580-5395"
+        },
+        {
+          "name": "Yuval Tamir",
+          "pid": "02/4293",
+          "orcid": "0009-0007-1266-4815"
+        },
+        {
+          "name": "Yingwei Luo",
+          "pid": "70/4037",
+          "orcid": "0000-0002-7903-0717"
+        },
+        {
+          "name": "Xiaolin Wang 0001",
+          "pid": "29/4241-1",
+          "orcid": "0000-0002-6951-1613"
+        },
+        {
+          "name": "Huashan Yu",
+          "pid": "80/5548",
+          "orcid": "0009-0009-0642-6006"
+        },
+        {
+          "name": "Zhenlin Wang 0003",
+          "pid": "88/5294-3",
+          "orcid": "0000-0002-0429-4371"
+        },
+        {
+          "name": "Hongliang Tian",
+          "pid": "53/7761",
+          "orcid": "0009-0005-1248-4078"
+        },
+        {
+          "name": "Diyu Zhou",
+          "pid": "223/6823",
+          "orcid": "0009-0003-8620-1064"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764836",
+      "url": "https://doi.org/10.1145/3731569.3764836",
+      "pages": "1082-1098",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ZhangXZTWHWXW0H25"
+    },
+    {
+      "title": "Rearchitecting the Thread Model of In-Memory Key-Value Stores with μTPS",
+      "authors": [
+        {
+          "name": "Youmin Chen",
+          "pid": "203/1564",
+          "orcid": "0000-0003-4171-4299"
+        },
+        {
+          "name": "Jiwu Shu",
+          "pid": "60/3690",
+          "orcid": "0000-0002-7362-2789"
+        },
+        {
+          "name": "Yanyan Shen",
+          "pid": "74/2905",
+          "orcid": "0000-0001-8364-3674"
+        },
+        {
+          "name": "Linpeng Huang",
+          "pid": "93/4039",
+          "orcid": "0000-0002-1531-7962"
+        },
+        {
+          "name": "Hong Mei 0001",
+          "pid": "14/2036",
+          "orcid": "0000-0003-2380-3976"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764794",
+      "url": "https://doi.org/10.1145/3731569.3764794",
+      "pages": "1099-1114",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/ChenSSH025"
+    },
+    {
+      "title": "FlexGuard: Fast Mutual Exclusion Independent of Subscription",
+      "authors": [
+        {
+          "name": "Victor Laforet",
+          "pid": "416/7416",
+          "orcid": "0009-0006-0487-6271"
+        },
+        {
+          "name": "Sanidhya Kashyap",
+          "pid": "145/0912",
+          "orcid": "0000-0002-9534-8565"
+        },
+        {
+          "name": "Calin Iorgulescu",
+          "pid": "145/2121",
+          "orcid": "0000-0003-0382-6820"
+        },
+        {
+          "name": "Julia Lawall",
+          "pid": "l/JuliaLLawall",
+          "orcid": "0000-0002-1684-1264"
+        },
+        {
+          "name": "Jean-Pierre Lozi",
+          "pid": "133/3713",
+          "orcid": "0009-0002-2876-8292"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764852",
+      "url": "https://doi.org/10.1145/3731569.3764852",
+      "pages": "1115-1130",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/LaforetKILL25"
+    },
+    {
+      "title": "Scalable Address Spaces using Concurrent Interval Skiplist",
+      "authors": [
+        {
+          "name": "Tae Woo Kim",
+          "pid": "188/9656",
+          "orcid": "0000-0003-4257-5294"
+        },
+        {
+          "name": "Youngjin Kwon",
+          "pid": "94/8239",
+          "orcid": "0000-0001-5602-2397"
+        },
+        {
+          "name": "Jeehoon Kang",
+          "pid": "130/9065",
+          "orcid": "0000-0002-2115-0871"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3764807",
+      "url": "https://doi.org/10.1145/3731569.3764807",
+      "pages": "1131-1148",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/KimKK25"
+    },
+    {
+      "title": "Analyzing and Enhancing ArckFS: An Anecdotal Example of Benefits of Artifact Evaluation",
+      "authors": [
+        {
+          "name": "Jonguk Jeon",
+          "pid": "416/7254",
+          "orcid": "0009-0004-1770-7376"
+        },
+        {
+          "name": "Subeen Park",
+          "pid": "314/6049",
+          "orcid": "0009-0001-0869-5607"
+        },
+        {
+          "name": "Sanidhya Kashyap",
+          "pid": "145/0912",
+          "orcid": "0000-0002-9534-8565"
+        },
+        {
+          "name": "Sudarsun Kannan",
+          "pid": "82/9936",
+          "orcid": "0000-0003-4009-8586"
+        },
+        {
+          "name": "Diyu Zhou",
+          "pid": "223/6823",
+          "orcid": "0009-0003-8620-1064"
+        },
+        {
+          "name": "Jeehoon Kang",
+          "pid": "130/9065",
+          "orcid": "0000-0002-2115-0871"
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3731569.3768291",
+      "url": "https://doi.org/10.1145/3731569.3768291",
+      "pages": "1149-1157",
+      "source": "dblp",
+      "dblp_paper_key": "conf/sosp/JeonPKKZK25"
+    }
+  ]
+}

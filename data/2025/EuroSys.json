@@ -1,0 +1,4234 @@
+{
+  "meta": {
+    "venue": "EuroSys",
+    "year": 2025,
+    "source_keys": [
+      "conf/eurosys/eurosys2025"
+    ],
+    "paper_count": 85,
+    "note": null,
+    "updated": "2026-08-12"
+  },
+  "papers": [
+    {
+      "title": "Empowering WebAssembly with Thin Kernel Interfaces",
+      "authors": [
+        {
+          "name": "Arjun Ramesh",
+          "pid": "363/7380",
+          "orcid": "0009-0007-7390-0295"
+        },
+        {
+          "name": "Tianshu Huang",
+          "pid": "89/3505",
+          "orcid": "0009-0005-6788-1302"
+        },
+        {
+          "name": "Ben L. Titzer",
+          "pid": "t/BenTitzer",
+          "orcid": "0000-0002-9690-2089"
+        },
+        {
+          "name": "Anthony Rowe 0001",
+          "pid": "02/630",
+          "orcid": "0000-0003-2332-9450"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717470",
+      "url": "https://doi.org/10.1145/3689031.3717470",
+      "pages": "1-20",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/RameshHT025"
+    },
+    {
+      "title": "Revealing the Unstable Foundations of eBPF-Based Kernel Extensions",
+      "authors": [
+        {
+          "name": "Shawn Wanxiang Zhong",
+          "pid": "401/8068",
+          "orcid": "0009-0009-5401-3556"
+        },
+        {
+          "name": "Jing Liu 0074",
+          "pid": "72/2590-74",
+          "orcid": "0000-0003-2485-4038"
+        },
+        {
+          "name": "Andrea C. Arpaci-Dusseau",
+          "pid": "a/AndreaCArpaciDusseau",
+          "orcid": "0000-0001-8618-2738"
+        },
+        {
+          "name": "Remzi H. Arpaci-Dusseau",
+          "pid": "a/RemziHArpaciDusseau",
+          "orcid": "0000-0001-9965-7704"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717497",
+      "url": "https://doi.org/10.1145/3689031.3717497",
+      "pages": "21-41",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ZhongLAA25"
+    },
+    {
+      "title": "eNetSTL: Towards an In-kernel Library for High-Performance eBPF-based Network Functions",
+      "authors": [
+        {
+          "name": "Bin Yang 0027",
+          "pid": "77/377-27",
+          "orcid": "0009-0003-1286-4439"
+        },
+        {
+          "name": "Dian Shen",
+          "pid": "139/4309",
+          "orcid": "0000-0003-0422-5285"
+        },
+        {
+          "name": "Junxue Zhang 0001",
+          "pid": "155/4434",
+          "orcid": "0000-0001-6926-7801"
+        },
+        {
+          "name": "Hanlin Yang",
+          "pid": "254/0229",
+          "orcid": "0000-0002-9396-3505"
+        },
+        {
+          "name": "Lunqi Zhao",
+          "pid": "401/7592",
+          "orcid": "0009-0009-2796-2078"
+        },
+        {
+          "name": "Beilun Wang",
+          "pid": "180/5592",
+          "orcid": "0000-0002-2646-1492"
+        },
+        {
+          "name": "Guyue Liu",
+          "pid": "151/5134",
+          "orcid": "0009-0001-4933-0276"
+        },
+        {
+          "name": "Kai Chen 0005",
+          "pid": "c/KaiChen5",
+          "orcid": "0000-0003-2587-6028"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696094",
+      "url": "https://doi.org/10.1145/3689031.3696094",
+      "pages": "42-58",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/YangS0YZWL025"
+    },
+    {
+      "title": "CRAVE: Analyzing Cross-Resource Interaction to Improve Energy Efficiency in Systems-on-Chip",
+      "authors": [
+        {
+          "name": "Dipayan Mukherjee",
+          "pid": "175/5412",
+          "orcid": "0000-0002-6017-1739"
+        },
+        {
+          "name": "Sam Hachem",
+          "pid": "401/8070",
+          "orcid": "0009-0001-7745-6116"
+        },
+        {
+          "name": "Jeremy Bao",
+          "pid": "401/7564",
+          "orcid": "0009-0006-7268-2364"
+        },
+        {
+          "name": "Curtis Madsen",
+          "pid": "02/7594",
+          "orcid": "0000-0002-0254-0364"
+        },
+        {
+          "name": "Tian Ma",
+          "pid": "35/4632",
+          "orcid": "0000-0003-0252-7191"
+        },
+        {
+          "name": "Saugata Ghose",
+          "pid": "94/7357",
+          "orcid": "0000-0002-9138-0613"
+        },
+        {
+          "name": "Gul Agha",
+          "pid": "a/GulAAgha",
+          "orcid": "0000-0002-0580-4206"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717498",
+      "url": "https://doi.org/10.1145/3689031.3717498",
+      "pages": "59-75",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/MukherjeeHBMMGA25"
+    },
+    {
+      "title": "Efeu: generating efficient, verified, hybrid hardware/software drivers for I2C devices",
+      "authors": [
+        {
+          "name": "Daniel Schwyn",
+          "pid": "286/7227",
+          "orcid": "0000-0002-4412-9004"
+        },
+        {
+          "name": "Zikai Liu",
+          "pid": "311/8785",
+          "orcid": "0009-0000-5411-9785"
+        },
+        {
+          "name": "Timothy Roscoe",
+          "pid": "r/TimothyRoscoe",
+          "orcid": "0000-0002-8298-1126"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696093",
+      "url": "https://doi.org/10.1145/3689031.3696093",
+      "pages": "76-93",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/SchwynLR25"
+    },
+    {
+      "title": "CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
+      "authors": [
+        {
+          "name": "Jiayi Yao",
+          "pid": "71/10222",
+          "orcid": "0000-0002-8588-4356"
+        },
+        {
+          "name": "Hanchen Li",
+          "pid": "74/7832",
+          "orcid": "0009-0005-9980-028X"
+        },
+        {
+          "name": "Yuhan Liu 0004",
+          "pid": "125/8141-4",
+          "orcid": "0009-0002-5957-5071"
+        },
+        {
+          "name": "Siddhant Ray",
+          "pid": "324/5356",
+          "orcid": "0000-0003-0265-2144"
+        },
+        {
+          "name": "Yihua Cheng",
+          "pid": "226/4171",
+          "orcid": "0009-0006-3924-6886"
+        },
+        {
+          "name": "Qizheng Zhang",
+          "pid": "271/9220",
+          "orcid": "0009-0009-3208-4601"
+        },
+        {
+          "name": "Kuntai Du",
+          "pid": "264/3619",
+          "orcid": "0000-0002-3964-4079"
+        },
+        {
+          "name": "Shan Lu 0001",
+          "pid": "31/5916-1",
+          "orcid": "0000-0002-0757-4600"
+        },
+        {
+          "name": "Junchen Jiang",
+          "pid": "49/8398",
+          "orcid": "0000-0002-6877-1683"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696098",
+      "url": "https://doi.org/10.1145/3689031.3696098",
+      "pages": "94-109",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/YaoLLRCZD0J25"
+    },
+    {
+      "title": "DeltaZip: Efficient Serving of Multiple Full-Model-Tuned LLMs",
+      "authors": [
+        {
+          "name": "Xiaozhe Yao",
+          "pid": "212/8935",
+          "orcid": "0000-0002-4661-533X"
+        },
+        {
+          "name": "Qinghao Hu 0004",
+          "pid": "169/3407-4",
+          "orcid": "0000-0003-1034-7502"
+        },
+        {
+          "name": "Ana Klimovic",
+          "pid": "140/2247",
+          "orcid": "0000-0001-8559-0529"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717468",
+      "url": "https://doi.org/10.1145/3689031.3717468",
+      "pages": "110-127",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/YaoHK25"
+    },
+    {
+      "title": "Fast State Restoration in LLM Serving with HCache",
+      "authors": [
+        {
+          "name": "Shiwei Gao",
+          "pid": "154/4277",
+          "orcid": "0009-0009-5259-115X"
+        },
+        {
+          "name": "Youmin Chen",
+          "pid": "203/1564",
+          "orcid": "0000-0003-4171-4299"
+        },
+        {
+          "name": "Jiwu Shu",
+          "pid": "60/3690",
+          "orcid": "0000-0002-7362-2789"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696072",
+      "url": "https://doi.org/10.1145/3689031.3696072",
+      "pages": "128-143",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/GaoCS25"
+    },
+    {
+      "title": "Stateful Large Language Model Serving with Pensieve",
+      "authors": [
+        {
+          "name": "Lingfan Yu",
+          "pid": "163/3327",
+          "orcid": "0009-0008-7711-263X"
+        },
+        {
+          "name": "Jinkun Lin",
+          "pid": "78/2101",
+          "orcid": "0000-0003-0035-4266"
+        },
+        {
+          "name": "Jinyang Li 0001",
+          "pid": "79/572-1",
+          "orcid": "0000-0002-9574-1746"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696086",
+      "url": "https://doi.org/10.1145/3689031.3696086",
+      "pages": "144-158",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/YuL025"
+    },
+    {
+      "title": "SkyServe: Serving AI Models across Regions and Clouds with Spot Instances",
+      "authors": [
+        {
+          "name": "Ziming Mao",
+          "pid": "289/6042",
+          "orcid": "0000-0001-7738-2498"
+        },
+        {
+          "name": "Tian Xia",
+          "pid": "90/4765",
+          "orcid": "0009-0008-0895-4585"
+        },
+        {
+          "name": "Zhanghao Wu",
+          "pid": "260/2805",
+          "orcid": "0000-0003-2352-4002"
+        },
+        {
+          "name": "Wei-Lin Chiang",
+          "pid": "174/2148",
+          "orcid": "0009-0009-0105-723X"
+        },
+        {
+          "name": "Tyler Griggs",
+          "pid": "376/0655",
+          "orcid": "0009-0006-4655-0229"
+        },
+        {
+          "name": "Romil Bhardwaj",
+          "pid": "157/7605",
+          "orcid": "0000-0002-7314-1643"
+        },
+        {
+          "name": "Zongheng Yang",
+          "pid": "181/5822",
+          "orcid": "0000-0001-8716-8743"
+        },
+        {
+          "name": "Scott Shenker",
+          "pid": "34/5593",
+          "orcid": "0000-0002-1357-7533"
+        },
+        {
+          "name": "Ion Stoica",
+          "pid": "s/IonStoica",
+          "orcid": "0000-0002-5373-0088"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717459",
+      "url": "https://doi.org/10.1145/3689031.3717459",
+      "pages": "159-175",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/MaoXWCGBYSS25"
+    },
+    {
+      "title": "RoboRebound: Multi-Robot System Defense with Bounded-Time Interaction",
+      "authors": [
+        {
+          "name": "Neeraj Gandhi",
+          "pid": "203/4851",
+          "orcid": "0000-0002-2507-9136"
+        },
+        {
+          "name": "Yifan Cai 0001",
+          "pid": "40/2992-1",
+          "orcid": "0009-0003-8125-1054"
+        },
+        {
+          "name": "Andreas Haeberlen",
+          "pid": "60/4358",
+          "orcid": "0000-0002-3271-8354"
+        },
+        {
+          "name": "Linh Thi Xuan Phan",
+          "pid": "92/1043",
+          "orcid": "0000-0002-3458-7511"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696079",
+      "url": "https://doi.org/10.1145/3689031.3696079",
+      "pages": "176-192",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/GandhiCHP25"
+    },
+    {
+      "title": "Achilles: Efficient TEE-Assisted BFT Consensus via Rollback Resilient Recovery",
+      "authors": [
+        {
+          "name": "Jianyu Niu",
+          "pid": "161/2037",
+          "orcid": "0000-0001-5253-941X"
+        },
+        {
+          "name": "Xiaoqing Wen",
+          "pid": "38/3836",
+          "orcid": "0009-0009-5084-802X"
+        },
+        {
+          "name": "Guanlong Wu",
+          "pid": "400/5243",
+          "orcid": "0009-0006-7903-7261"
+        },
+        {
+          "name": "Shengqi Liu",
+          "pid": "195/9149",
+          "orcid": "0009-0003-8745-5007"
+        },
+        {
+          "name": "Jiangshan Yu",
+          "pid": "18/11043",
+          "orcid": "0000-0001-8006-7392"
+        },
+        {
+          "name": "Yinqian Zhang",
+          "pid": "77/3503",
+          "orcid": "0000-0002-7585-1075"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717457",
+      "url": "https://doi.org/10.1145/3689031.3717457",
+      "pages": "193-210",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/NiuWWLYZ25"
+    },
+    {
+      "title": "ParallelEVM: Operation-Level Concurrent Transaction Execution for EVM-Compatible Blockchains",
+      "authors": [
+        {
+          "name": "Haoran Lin",
+          "pid": "325/1474",
+          "orcid": "0009-0008-8449-746X"
+        },
+        {
+          "name": "Hang Feng",
+          "pid": "323/8011",
+          "orcid": "0000-0003-2355-1334"
+        },
+        {
+          "name": "Yajin Zhou",
+          "pid": "15/7381",
+          "orcid": "0000-0001-7610-4736"
+        },
+        {
+          "name": "Lei Wu 0012",
+          "pid": "68/5597-12",
+          "orcid": "0000-0003-1675-5283"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696063",
+      "url": "https://doi.org/10.1145/3689031.3696063",
+      "pages": "211-225",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/LinFZ025"
+    },
+    {
+      "title": "Ladon: High-Performance Multi-BFT Consensus via Dynamic Global Ordering",
+      "authors": [
+        {
+          "name": "Hanzheng Lyu",
+          "pid": "251/9983",
+          "orcid": "0000-0001-7507-167X"
+        },
+        {
+          "name": "Shaokang Xie",
+          "pid": "360/3226",
+          "orcid": "0009-0000-4363-3703"
+        },
+        {
+          "name": "Jianyu Niu",
+          "pid": "161/2037",
+          "orcid": "0000-0001-5253-941X"
+        },
+        {
+          "name": "Chen Feng 0001",
+          "pid": "01/161-1",
+          "orcid": "0000-0002-6726-0259"
+        },
+        {
+          "name": "Yinqian Zhang",
+          "pid": "77/3503",
+          "orcid": "0000-0002-7585-1075"
+        },
+        {
+          "name": "Ivan Beschastnikh",
+          "pid": "98/5324",
+          "orcid": "0000-0003-1676-8834"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696102",
+      "url": "https://doi.org/10.1145/3689031.3696102",
+      "pages": "226-242",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/LyuXN0ZB25"
+    },
+    {
+      "title": "SpInfer: Leveraging Low-Level Sparsity for Efficient Large Language Model Inference on GPUs",
+      "authors": [
+        {
+          "name": "Ruibo Fan",
+          "pid": "352/4212",
+          "orcid": "0009-0006-7492-2069"
+        },
+        {
+          "name": "Xiangrui Yu",
+          "pid": "352/1552",
+          "orcid": "0009-0005-2478-1512"
+        },
+        {
+          "name": "Peijie Dong",
+          "pid": "315/4734",
+          "orcid": "0000-0003-1952-4544"
+        },
+        {
+          "name": "Zeyu Li",
+          "pid": "25/287",
+          "orcid": "0009-0008-4381-0544"
+        },
+        {
+          "name": "Gu Gong",
+          "pid": "214/3799",
+          "orcid": "0009-0008-2269-2358"
+        },
+        {
+          "name": "Qiang Wang 0022",
+          "pid": "64/5630-22",
+          "orcid": "0000-0002-2986-967X"
+        },
+        {
+          "name": "Wei Wang 0030",
+          "pid": "35/7092-30",
+          "orcid": "0000-0002-4585-4152"
+        },
+        {
+          "name": "Xiaowen Chu 0001",
+          "pid": "24/2536",
+          "orcid": "0000-0001-9745-4372"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717481",
+      "url": "https://doi.org/10.1145/3689031.3717481",
+      "pages": "243-260",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/FanYDLGWW025"
+    },
+    {
+      "title": "Empower Vision Applications with LoRA LMM",
+      "authors": [
+        {
+          "name": "Liang Mi",
+          "pid": "159/8058",
+          "orcid": "0009-0000-6058-5950"
+        },
+        {
+          "name": "Weijun Wang 0001",
+          "pid": "42/512-1",
+          "orcid": "0000-0002-9545-3322"
+        },
+        {
+          "name": "Wenming Tu",
+          "pid": "392/4210",
+          "orcid": "0009-0006-9984-2858"
+        },
+        {
+          "name": "Qingfeng He",
+          "pid": "62/4461",
+          "orcid": "0009-0002-2383-1096"
+        },
+        {
+          "name": "Rui Kong",
+          "pid": "199/6746",
+          "orcid": "0009-0003-2889-2266"
+        },
+        {
+          "name": "Xinyu Fang",
+          "pid": "143/0236",
+          "orcid": "0009-0008-1208-5917"
+        },
+        {
+          "name": "Yazhu Dong",
+          "pid": "378/1533",
+          "orcid": "0009-0004-1590-9353"
+        },
+        {
+          "name": "Yikang Zhang",
+          "pid": "233/3090",
+          "orcid": "0009-0005-6908-9183"
+        },
+        {
+          "name": "Yuanchun Li 0003",
+          "pid": "87/4523-3",
+          "orcid": "0000-0002-1591-2526"
+        },
+        {
+          "name": "Meng Li 0010",
+          "pid": "70/1726-10",
+          "orcid": "0000-0001-5764-960X"
+        },
+        {
+          "name": "Haipeng Dai 0001",
+          "pid": "124/6911",
+          "orcid": "0000-0003-0545-8187"
+        },
+        {
+          "name": "Guihai Chen",
+          "pid": "51/1742",
+          "orcid": "0000-0002-6934-1685"
+        },
+        {
+          "name": "Yunxin Liu 0001",
+          "pid": "55/3521-1",
+          "orcid": "0000-0001-7352-8955"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717472",
+      "url": "https://doi.org/10.1145/3689031.3717472",
+      "pages": "261-277",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/MiWTHKFDZLL0CL25"
+    },
+    {
+      "title": "T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge",
+      "authors": [
+        {
+          "name": "Jianyu Wei",
+          "pid": "133/8724",
+          "orcid": "0009-0009-0830-044X"
+        },
+        {
+          "name": "Shijie Cao",
+          "pid": "139/1185",
+          "orcid": "0009-0000-2001-3763"
+        },
+        {
+          "name": "Ting Cao 0003",
+          "pid": "03/8334-3",
+          "orcid": "0000-0002-9107-013X"
+        },
+        {
+          "name": "Lingxiao Ma",
+          "pid": "57/3203",
+          "orcid": "0009-0009-9524-5476"
+        },
+        {
+          "name": "Lei Wang 0222",
+          "pid": "181/2817-222",
+          "orcid": "0009-0006-2313-5348"
+        },
+        {
+          "name": "Yanyong Zhang",
+          "pid": "44/2799",
+          "orcid": "0000-0001-9046-798X"
+        },
+        {
+          "name": "Mao Yang 0004",
+          "pid": "89/1482-4",
+          "orcid": "0009-0009-6455-3898"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696099",
+      "url": "https://doi.org/10.1145/3689031.3696099",
+      "pages": "278-292",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/WeiCCMWZY25"
+    },
+    {
+      "title": "Samoyeds: Accelerating MoE Models with Structured Sparsity Leveraging Sparse Tensor Cores",
+      "authors": [
+        {
+          "name": "Chenpeng Wu",
+          "pid": "401/8026",
+          "orcid": "0009-0006-9059-2776"
+        },
+        {
+          "name": "Qiqi Gu 0002",
+          "pid": "250/1108-2",
+          "orcid": "0009-0008-6605-8615"
+        },
+        {
+          "name": "Heng Shi 0005",
+          "pid": "180/3315-5",
+          "orcid": "0000-0002-1779-9221"
+        },
+        {
+          "name": "Jianguo Yao 0002",
+          "pid": "34/6356-2",
+          "orcid": "0000-0002-1142-4496"
+        },
+        {
+          "name": "Haibing Guan",
+          "pid": "96/5680",
+          "orcid": "0000-0002-4714-7400"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717455",
+      "url": "https://doi.org/10.1145/3689031.3717455",
+      "pages": "293-310",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/WuGSYG25"
+    },
+    {
+      "title": "Collaborative Text Editing with Eg-walker: Better, Faster, Smaller",
+      "authors": [
+        {
+          "name": "Joseph Gentle",
+          "pid": "346/0408",
+          "orcid": "0009-0005-9322-1973"
+        },
+        {
+          "name": "Martin Kleppmann",
+          "pid": "148/2880",
+          "orcid": "0000-0001-7252-6958"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696076",
+      "url": "https://doi.org/10.1145/3689031.3696076",
+      "pages": "311-328",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/GentleK25"
+    },
+    {
+      "title": "Themis: Finding Imbalance Failures in Distributed File Systems via a Load Variance Model",
+      "authors": [
+        {
+          "name": "Yuanliang Chen",
+          "pid": "217/3726",
+          "orcid": "0000-0003-2701-4296"
+        },
+        {
+          "name": "Fuchen Ma",
+          "pid": "237/8603",
+          "orcid": "0000-0002-1360-9814"
+        },
+        {
+          "name": "Yuanhang Zhou",
+          "pid": "247/8463",
+          "orcid": "0000-0002-0461-3934"
+        },
+        {
+          "name": "Zhen Yan",
+          "pid": "18/8175",
+          "orcid": "0009-0005-9904-7734"
+        },
+        {
+          "name": "Qing Liao 0001",
+          "pid": "09/8600-1",
+          "orcid": "0000-0003-1012-5301"
+        },
+        {
+          "name": "Yu Jiang 0001",
+          "pid": "21/4633-1",
+          "orcid": "0000-0003-0955-503X"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696082",
+      "url": "https://doi.org/10.1145/3689031.3696082",
+      "pages": "329-344",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ChenMZY0025"
+    },
+    {
+      "title": "Moko: Marrying Python with Big Data Systems",
+      "authors": [
+        {
+          "name": "Ke Meng",
+          "pid": "97/5056",
+          "orcid": "0000-0002-3629-7892"
+        },
+        {
+          "name": "Tao He 0013",
+          "pid": "94/5035-13",
+          "orcid": "0009-0007-7687-7342"
+        },
+        {
+          "name": "Sijie Shen",
+          "pid": "202/7006",
+          "orcid": "0000-0003-4650-7352"
+        },
+        {
+          "name": "Lei Wang 0004",
+          "pid": "w/LeiWang4",
+          "orcid": "0009-0001-7535-452X"
+        },
+        {
+          "name": "Wenyuan Yu",
+          "pid": "53/5676",
+          "orcid": "0009-0006-5641-2452"
+        },
+        {
+          "name": "Jingren Zhou 0001",
+          "pid": "84/2644-1",
+          "orcid": "0000-0001-6851-1366"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696100",
+      "url": "https://doi.org/10.1145/3689031.3696100",
+      "pages": "345-359",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/MengHS0Y025"
+    },
+    {
+      "title": "Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication",
+      "authors": [
+        {
+          "name": "Dinglan Peng",
+          "pid": "292/4178",
+          "orcid": "0000-0002-3433-5410"
+        },
+        {
+          "name": "Congyu Liu",
+          "pid": "339/0635",
+          "orcid": "0000-0001-5774-0809"
+        },
+        {
+          "name": "Tapti Palit",
+          "pid": "159/0008",
+          "orcid": "0009-0006-4602-7171"
+        },
+        {
+          "name": "Anjo Vahldiek-Oberwagner",
+          "pid": "161/0161",
+          "orcid": "0000-0002-6983-0630"
+        },
+        {
+          "name": "Mona Vij",
+          "pid": "47/9256",
+          "orcid": "0000-0002-5309-0391"
+        },
+        {
+          "name": "Pedro Fonseca 0001",
+          "pid": "11/3119-1",
+          "orcid": "0000-0003-2480-4487"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696083",
+      "url": "https://doi.org/10.1145/3689031.3696083",
+      "pages": "360-378",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/PengLPVV025"
+    },
+    {
+      "title": "Multi-Grained Specifications for Distributed System Model Checking and Verification",
+      "authors": [
+        {
+          "name": "Lingzhi Ouyang",
+          "pid": "234/6112",
+          "orcid": "0000-0001-7523-8759"
+        },
+        {
+          "name": "Xudong Sun 0013",
+          "pid": "283/7782",
+          "orcid": "0009-0005-6734-0928"
+        },
+        {
+          "name": "Ruize Tang",
+          "pid": "373/4608",
+          "orcid": "0009-0001-0590-1620"
+        },
+        {
+          "name": "Yu Huang 0002",
+          "pid": "h/YuHuang2",
+          "orcid": "0000-0001-8921-036X"
+        },
+        {
+          "name": "Madhav Jivrajani",
+          "pid": "387/8077",
+          "orcid": "0009-0000-9170-6524"
+        },
+        {
+          "name": "Xiaoxing Ma",
+          "pid": "67/3058",
+          "orcid": "0000-0001-7970-1384"
+        },
+        {
+          "name": "Tianyin Xu",
+          "pid": "90/7566",
+          "orcid": "0000-0003-4443-8170"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696069",
+      "url": "https://doi.org/10.1145/3689031.3696069",
+      "pages": "379-395",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/Ouyang0THJMX25"
+    },
+    {
+      "title": "Enabling Virtual Priority in Data Center Congestion Control",
+      "authors": [
+        {
+          "name": "Zhaochen Zhang",
+          "pid": "156/2393",
+          "orcid": "0000-0002-5725-3661"
+        },
+        {
+          "name": "Feiyang Xue",
+          "pid": "254/5875",
+          "orcid": "0009-0007-6631-4028"
+        },
+        {
+          "name": "Keqiang He",
+          "pid": "95/1050",
+          "orcid": "0009-0005-7024-9164"
+        },
+        {
+          "name": "Zhimeng Yin 0001",
+          "pid": "130/9834-1",
+          "orcid": "0000-0002-3548-3335"
+        },
+        {
+          "name": "Gianni Antichi",
+          "pid": "00/4948",
+          "orcid": "0000-0002-6063-4975"
+        },
+        {
+          "name": "Jiaqi Gao",
+          "pid": "125/2840",
+          "orcid": "0000-0003-3548-2030"
+        },
+        {
+          "name": "Yizhi Wang 0004",
+          "pid": "91/9851-4",
+          "orcid": "0009-0009-6285-4697"
+        },
+        {
+          "name": "Rui Ning",
+          "pid": "211/2892",
+          "orcid": "0009-0007-6516-5067"
+        },
+        {
+          "name": "Haixin Nan",
+          "pid": "401/7789",
+          "orcid": "0009-0007-8741-0625"
+        },
+        {
+          "name": "Xu Zhang 0006",
+          "pid": "98/5660-6",
+          "orcid": "0000-0002-1882-736X"
+        },
+        {
+          "name": "Peirui Cao",
+          "pid": "276/0087",
+          "orcid": "0000-0002-0222-4943"
+        },
+        {
+          "name": "Xiaoliang Wang 0001",
+          "pid": "02/3450-1",
+          "orcid": "0000-0002-3410-8621"
+        },
+        {
+          "name": "Wanchun Dou",
+          "pid": "57/5595",
+          "orcid": "0000-0003-4833-2023"
+        },
+        {
+          "name": "Guihai Chen",
+          "pid": "51/1742",
+          "orcid": "0000-0002-6934-1685"
+        },
+        {
+          "name": "Chen Tian 0001",
+          "pid": "94/1247-1",
+          "orcid": "0000-0003-2710-7628"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717463",
+      "url": "https://doi.org/10.1145/3689031.3717463",
+      "pages": "396-412",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ZhangXHYAGWNNZC25"
+    },
+    {
+      "title": "Achieving Fairness Generalizability for Learning-based Congestion Control with Jury",
+      "authors": [
+        {
+          "name": "Han Tian",
+          "pid": "198/1274",
+          "orcid": "0000-0002-3238-8500"
+        },
+        {
+          "name": "Xudong Liao",
+          "pid": "296/4029",
+          "orcid": "0000-0002-8380-1879"
+        },
+        {
+          "name": "Decang Sun",
+          "pid": "303/4263",
+          "orcid": "0000-0003-3442-4656"
+        },
+        {
+          "name": "Chaoliang Zeng",
+          "pid": "257/6290",
+          "orcid": "0000-0002-5151-0997"
+        },
+        {
+          "name": "Yilun Jin",
+          "pid": "213/7371",
+          "orcid": "0000-0002-9502-7622"
+        },
+        {
+          "name": "Junxue Zhang 0001",
+          "pid": "155/4434",
+          "orcid": "0000-0001-6926-7801"
+        },
+        {
+          "name": "Xinchen Wan",
+          "pid": "272/9234",
+          "orcid": "0000-0001-6503-5309"
+        },
+        {
+          "name": "Zilong Wang 0007",
+          "pid": "42/898-7",
+          "orcid": "0000-0003-3184-4081"
+        },
+        {
+          "name": "Yong Wang 0046",
+          "pid": "84/2694-46",
+          "orcid": "0000-0002-8699-8355"
+        },
+        {
+          "name": "Kai Chen 0005",
+          "pid": "c/KaiChen5",
+          "orcid": "0000-0003-2587-6028"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696065",
+      "url": "https://doi.org/10.1145/3689031.3696065",
+      "pages": "413-427",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/TianLSZJ0W0WC25"
+    },
+    {
+      "title": "Introspective Congestion Control for Consistent High Performance",
+      "authors": [
+        {
+          "name": "Wanchun Jiang",
+          "pid": "05/8330",
+          "orcid": "0000-0001-5067-321X"
+        },
+        {
+          "name": "Haoyang Li 0006",
+          "pid": "118/0004-6",
+          "orcid": "0009-0008-8728-5294"
+        },
+        {
+          "name": "Jia Wu 0011",
+          "pid": "25/5536-11",
+          "orcid": "0009-0002-9384-3922"
+        },
+        {
+          "name": "Kai Wang",
+          "pid": "78/2022",
+          "orcid": "0009-0004-8775-6210"
+        },
+        {
+          "name": "Fengyuan Ren",
+          "pid": "05/6995",
+          "orcid": "0000-0001-6526-3889"
+        },
+        {
+          "name": "Jianxin Wang 0001",
+          "pid": "75/2669-1",
+          "orcid": "0000-0003-1516-0480"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696084",
+      "url": "https://doi.org/10.1145/3689031.3696084",
+      "pages": "428-445",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/JiangL0WR025"
+    },
+    {
+      "title": "Fork: A Dual Congestion Control Loop for Small and Large Flows in Datacenters",
+      "authors": [
+        {
+          "name": "Yuan Liu",
+          "pid": "87/2948",
+          "orcid": "0009-0009-0788-6995"
+        },
+        {
+          "name": "Wenxin Li 0001",
+          "pid": "22/2010-1",
+          "orcid": "0000-0001-8507-0339"
+        },
+        {
+          "name": "Yulong Li 0001",
+          "pid": "71/2140-1",
+          "orcid": "0000-0003-0003-9653"
+        },
+        {
+          "name": "Lide Suo",
+          "pid": "361/5256",
+          "orcid": "0009-0001-9370-7878"
+        },
+        {
+          "name": "Xuan Gao 0001",
+          "pid": "34/9793-1",
+          "orcid": "0009-0009-7072-8957"
+        },
+        {
+          "name": "Xin Xie 0001",
+          "pid": "72/3192-1",
+          "orcid": "0000-0002-8909-3105"
+        },
+        {
+          "name": "Sheng Chen 0015",
+          "pid": "97/10424-15",
+          "orcid": "0000-0001-7038-4407"
+        },
+        {
+          "name": "Ziqi Fan",
+          "pid": "47/10099",
+          "orcid": "0009-0004-4515-5185"
+        },
+        {
+          "name": "Wenyu Qu",
+          "pid": "10/1531",
+          "orcid": "0000-0003-4817-5187"
+        },
+        {
+          "name": "Guyue Liu",
+          "pid": "151/5134",
+          "orcid": "0009-0001-4933-0276"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696101",
+      "url": "https://doi.org/10.1145/3689031.3696101",
+      "pages": "446-459",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/LiuLLSGXCFQL25"
+    },
+    {
+      "title": "Marlin: Enabling High-Throughput Congestion Control Testing in Large-Scale Networks",
+      "authors": [
+        {
+          "name": "Yanqing Chen",
+          "pid": "68/1425",
+          "orcid": "0000-0001-6902-7752"
+        },
+        {
+          "name": "Li Wang 0110",
+          "pid": "58/6810-110",
+          "orcid": "0009-0009-1605-6854"
+        },
+        {
+          "name": "Jingzhi Wang",
+          "pid": "191/0810",
+          "orcid": "0000-0003-0459-884X"
+        },
+        {
+          "name": "Songyue Liu",
+          "pid": "136/0674",
+          "orcid": "0009-0003-3543-0967"
+        },
+        {
+          "name": "Keqiang He",
+          "pid": "95/1050",
+          "orcid": "0009-0005-7024-9164"
+        },
+        {
+          "name": "Jian Wang 0025",
+          "pid": "39/449-25",
+          "orcid": "0000-0001-5149-4619"
+        },
+        {
+          "name": "Xiaoliang Wang 0001",
+          "pid": "02/3450-1",
+          "orcid": "0000-0002-3410-8621"
+        },
+        {
+          "name": "Wanchun Dou",
+          "pid": "57/5595",
+          "orcid": "0000-0003-4833-2023"
+        },
+        {
+          "name": "Guihai Chen",
+          "pid": "51/1742",
+          "orcid": "0000-0002-6934-1685"
+        },
+        {
+          "name": "Chen Tian 0001",
+          "pid": "94/1247-1",
+          "orcid": "0000-0003-2710-7628"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717486",
+      "url": "https://doi.org/10.1145/3689031.3717486",
+      "pages": "460-474",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ChenWWLHWWDCT25"
+    },
+    {
+      "title": "LOFT: A Lock-free and Adaptive Learned Index with High Scalability for Dynamic Workloads",
+      "authors": [
+        {
+          "name": "Yuxuan Mo",
+          "pid": "321/8190",
+          "orcid": "0009-0007-1496-8978"
+        },
+        {
+          "name": "Yu Hua 0001",
+          "pid": "52/3115-1",
+          "orcid": "0000-0001-7730-3796"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717458",
+      "url": "https://doi.org/10.1145/3689031.3717458",
+      "pages": "475-491",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/Mo025"
+    },
+    {
+      "title": "MetaHG: Enhancing HGNN Systems Leveraging Advanced Metapath Graph Abstraction",
+      "authors": [
+        {
+          "name": "Haiheng He",
+          "pid": "324/7201",
+          "orcid": "0009-0003-4662-1777"
+        },
+        {
+          "name": "Haifeng Liu 0003",
+          "pid": "84/33-3",
+          "orcid": "0000-0003-3319-254X"
+        },
+        {
+          "name": "Long Zheng 0003",
+          "pid": "68/6274-3",
+          "orcid": "0000-0001-7903-2061"
+        },
+        {
+          "name": "Yu Huang 0013",
+          "pid": "39/6301-13",
+          "orcid": "0000-0002-3927-1102"
+        },
+        {
+          "name": "Xinyang Shen",
+          "pid": "72/401",
+          "orcid": "0009-0009-6500-8517"
+        },
+        {
+          "name": "Wenkan Huang",
+          "pid": "321/4890",
+          "orcid": null
+        },
+        {
+          "name": "Shuaihu Cao",
+          "pid": "401/8574",
+          "orcid": "0009-0001-1909-3513"
+        },
+        {
+          "name": "Xiaofei Liao",
+          "pid": "56/4402",
+          "orcid": "0000-0001-6302-813X"
+        },
+        {
+          "name": "Hai Jin 0001",
+          "pid": "98/4156",
+          "orcid": "0000-0002-3934-7605"
+        },
+        {
+          "name": "Jingling Xue",
+          "pid": "x/JinglingXue",
+          "orcid": "0000-0003-0380-3506"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717492",
+      "url": "https://doi.org/10.1145/3689031.3717492",
+      "pages": "492-506",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/He000SHCL0X25"
+    },
+    {
+      "title": "Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution",
+      "authors": [
+        {
+          "name": "Tanmoy Sen",
+          "pid": "129/5726",
+          "orcid": "0000-0001-7677-3358"
+        },
+        {
+          "name": "Haiying Shen",
+          "pid": "15/5579",
+          "orcid": "0000-0002-7548-6223"
+        },
+        {
+          "name": "Anand Padmanabha Iyer",
+          "pid": "72/309",
+          "orcid": "0000-0002-5952-3346"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696067",
+      "url": "https://doi.org/10.1145/3689031.3696067",
+      "pages": "507-523",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/SenSI25"
+    },
+    {
+      "title": "A House United Within Itself: SLO-Awareness for On-Premises Containerized ML Inference Clusters via Faro",
+      "authors": [
+        {
+          "name": "Beomyeol Jeon",
+          "pid": "208/0038",
+          "orcid": "0009-0002-4552-4660"
+        },
+        {
+          "name": "Chen Wang 0039",
+          "pid": "82/4206-39",
+          "orcid": "0000-0003-0204-2362"
+        },
+        {
+          "name": "Diana Arroyo",
+          "pid": "24/11531",
+          "orcid": "0000-0002-2330-8986"
+        },
+        {
+          "name": "Alaa Youssef",
+          "pid": "69/4290",
+          "orcid": "0000-0001-5346-7331"
+        },
+        {
+          "name": "Indranil Gupta",
+          "pid": "02/6135",
+          "orcid": "0000-0002-9372-5937"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696071",
+      "url": "https://doi.org/10.1145/3689031.3696071",
+      "pages": "524-540",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/Jeon0AYG25"
+    },
+    {
+      "title": "Comprehensive Deadlock Prevention for GPU Collective Communication",
+      "authors": [
+        {
+          "name": "Lichen Pan",
+          "pid": "233/8661",
+          "orcid": "0000-0001-7451-0140"
+        },
+        {
+          "name": "Juncheng Liu",
+          "pid": "32/5712",
+          "orcid": "0000-0002-8213-7718"
+        },
+        {
+          "name": "Yongquan Fu",
+          "pid": "97/9300",
+          "orcid": "0000-0002-7564-5239"
+        },
+        {
+          "name": "Jinhui Yuan",
+          "pid": "58/3397",
+          "orcid": "0000-0002-0700-2645"
+        },
+        {
+          "name": "Rongkai Zhang 0005",
+          "pid": "368/6441",
+          "orcid": "0009-0003-1652-7202"
+        },
+        {
+          "name": "Pengze Li",
+          "pid": "231/3391",
+          "orcid": "0000-0001-7015-0491"
+        },
+        {
+          "name": "Zhen Xiao",
+          "pid": "39/3878",
+          "orcid": "0000-0002-6784-9709"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717466",
+      "url": "https://doi.org/10.1145/3689031.3717466",
+      "pages": "541-557",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/PanLFY0LX25"
+    },
+    {
+      "title": "Jupiter: Pushing Speed and Scalability Limitations for Subgraph Matching on Multi-GPUs",
+      "authors": [
+        {
+          "name": "Zhiheng Lin",
+          "pid": "158/7547",
+          "orcid": "0009-0002-5371-5125"
+        },
+        {
+          "name": "Ke Meng",
+          "pid": "97/5056",
+          "orcid": "0000-0002-3629-7892"
+        },
+        {
+          "name": "Changjie Xu",
+          "pid": "144/9258",
+          "orcid": "0009-0001-8280-9190"
+        },
+        {
+          "name": "Weichen Cao 0002",
+          "pid": "371/6044-2",
+          "orcid": "0009-0006-7111-2036"
+        },
+        {
+          "name": "Guangming Tan",
+          "pid": "80/2272",
+          "orcid": "0000-0002-6361-5948"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717491",
+      "url": "https://doi.org/10.1145/3689031.3717491",
+      "pages": "558-572",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/LinMX0T25"
+    },
+    {
+      "title": "Improving GPU Sharing Performance through Adaptive Bubbleless Spatial-Temporal Sharing",
+      "authors": [
+        {
+          "name": "Shulai Zhang",
+          "pid": "251/9029",
+          "orcid": "0000-0002-0802-7203"
+        },
+        {
+          "name": "Quan Chen 0002",
+          "pid": "40/3858-2",
+          "orcid": "0000-0001-5832-0347"
+        },
+        {
+          "name": "Weihao Cui",
+          "pid": "243/1639",
+          "orcid": "0000-0002-6646-5260"
+        },
+        {
+          "name": "Han Zhao 0005",
+          "pid": "03/3520-5",
+          "orcid": "0000-0002-1561-5329"
+        },
+        {
+          "name": "Chunyu Xue",
+          "pid": "08/885",
+          "orcid": "0009-0008-9272-1732"
+        },
+        {
+          "name": "Zhen Zheng",
+          "pid": "115/5528",
+          "orcid": "0009-0006-2692-713X"
+        },
+        {
+          "name": "Wei Lin 0016",
+          "pid": "99/2649-16",
+          "orcid": "0000-0002-3003-0150"
+        },
+        {
+          "name": "Minyi Guo",
+          "pid": "99/6797",
+          "orcid": "0000-0003-0034-2302"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696070",
+      "url": "https://doi.org/10.1145/3689031.3696070",
+      "pages": "573-588",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ZhangCC0XZ0G25"
+    },
+    {
+      "title": "Multiplexing Dynamic Deep Learning Workloads with SLO-awareness in GPU Clusters",
+      "authors": [
+        {
+          "name": "Wenyan Chen 0001",
+          "pid": "48/7090-1",
+          "orcid": null
+        },
+        {
+          "name": "Chengzhi Lu",
+          "pid": "213/1453",
+          "orcid": null
+        },
+        {
+          "name": "Huanle Xu",
+          "pid": "141/1931",
+          "orcid": null
+        },
+        {
+          "name": "Kejiang Ye",
+          "pid": "68/7938",
+          "orcid": null
+        },
+        {
+          "name": "Chengzhong Xu 0001",
+          "pid": "181/2765-1",
+          "orcid": null
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696074",
+      "url": "https://doi.org/10.1145/3689031.3696074",
+      "pages": "589-604",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/0001LXY025"
+    },
+    {
+      "title": "Bingo: Radix-based Bias Factorization for Random Walk on Dynamic Graphs",
+      "authors": [
+        {
+          "name": "Pinhuan Wang",
+          "pid": "398/7174",
+          "orcid": "0009-0001-2714-056X"
+        },
+        {
+          "name": "Chengying Huan",
+          "pid": "217/1295",
+          "orcid": "0000-0002-3154-3580"
+        },
+        {
+          "name": "Zhibin Wang 0002",
+          "pid": "67/1237-2",
+          "orcid": "0000-0001-9204-4075"
+        },
+        {
+          "name": "Chen Tian 0001",
+          "pid": "94/1247-1",
+          "orcid": "0000-0003-2710-7628"
+        },
+        {
+          "name": "Yuede Ji",
+          "pid": "138/4316",
+          "orcid": "0000-0002-2419-6592"
+        },
+        {
+          "name": "Hang Liu 0001",
+          "pid": "43/6690-1",
+          "orcid": "0000-0001-6323-7388"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717456",
+      "url": "https://doi.org/10.1145/3689031.3717456",
+      "pages": "605-620",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/WangHW0J025"
+    },
+    {
+      "title": "OHMiner: An Overlap-centric System for Efficient Hypergraph Pattern Mining",
+      "authors": [
+        {
+          "name": "Hao Qi 0004",
+          "pid": "24/8493-4",
+          "orcid": "0000-0002-3273-5381"
+        },
+        {
+          "name": "Kang Luo",
+          "pid": "73/6215",
+          "orcid": "0000-0002-0735-6224"
+        },
+        {
+          "name": "Ligang He",
+          "pid": "36/5655",
+          "orcid": "0000-0002-5671-0576"
+        },
+        {
+          "name": "Yu Zhang 0027",
+          "pid": "50/671-27",
+          "orcid": "0000-0003-0718-8045"
+        },
+        {
+          "name": "Minzhi Cai",
+          "pid": "373/4737",
+          "orcid": "0009-0004-5008-7877"
+        },
+        {
+          "name": "Jingxin Dai",
+          "pid": "231/9130",
+          "orcid": "0009-0005-2625-9402"
+        },
+        {
+          "name": "Bingsheng He",
+          "pid": "h/BingshengHe",
+          "orcid": "0000-0001-8618-4581"
+        },
+        {
+          "name": "Hai Jin 0001",
+          "pid": "98/4156",
+          "orcid": "0000-0002-3934-7605"
+        },
+        {
+          "name": "Zhan Zhang 0003",
+          "pid": "92/6841-3",
+          "orcid": "0009-0009-8083-8228"
+        },
+        {
+          "name": "Jin Zhao 0003",
+          "pid": "97/4765-3",
+          "orcid": "0000-0003-4217-7886"
+        },
+        {
+          "name": "Hengshan Yue",
+          "pid": "237/1510",
+          "orcid": "0000-0003-2189-8385"
+        },
+        {
+          "name": "Hui Yu",
+          "pid": "26/6190",
+          "orcid": "0000-0002-6559-6111"
+        },
+        {
+          "name": "Xiaofei Liao",
+          "pid": "56/4402",
+          "orcid": "0000-0001-6302-813X"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717474",
+      "url": "https://doi.org/10.1145/3689031.3717474",
+      "pages": "621-636",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/0004LH0CDH0ZZYY25"
+    },
+    {
+      "title": "Impeller: Stream Processing on Shared Logs",
+      "authors": [
+        {
+          "name": "Zhiting Zhu",
+          "pid": "12/5782",
+          "orcid": "0009-0005-9598-3875"
+        },
+        {
+          "name": "Zhipeng Jia",
+          "pid": "136/1053",
+          "orcid": "0000-0003-4471-3793"
+        },
+        {
+          "name": "Newton Ni",
+          "pid": "278/3217",
+          "orcid": "0009-0002-2491-1880"
+        },
+        {
+          "name": "Dixin Tang",
+          "pid": "155/5478",
+          "orcid": "0000-0002-3316-6651"
+        },
+        {
+          "name": "Emmett Witchel",
+          "pid": "76/6082",
+          "orcid": "0000-0002-1391-2880"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717485",
+      "url": "https://doi.org/10.1145/3689031.3717485",
+      "pages": "637-653",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ZhuJNTW25"
+    },
+    {
+      "title": "CAPSys: Contention-aware task placement for data stream processing",
+      "authors": [
+        {
+          "name": "Yuanli Wang",
+          "pid": "99/4437",
+          "orcid": "0009-0007-2668-0138"
+        },
+        {
+          "name": "Lei Huang",
+          "pid": "18/1763",
+          "orcid": "0009-0009-1774-7999"
+        },
+        {
+          "name": "Zikun Wang",
+          "pid": "253/6581",
+          "orcid": "0009-0000-8207-502X"
+        },
+        {
+          "name": "Vasiliki Kalavri",
+          "pid": "132/6943",
+          "orcid": "0000-0001-8219-4862"
+        },
+        {
+          "name": "Ibrahim Matta",
+          "pid": "m/IbrahimMatta",
+          "orcid": "0000-0003-4528-0344"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696085",
+      "url": "https://doi.org/10.1145/3689031.3696085",
+      "pages": "654-670",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/WangHWKM25"
+    },
+    {
+      "title": "NeuStream: Bridging Deep Learning Serving and Stream Processing",
+      "authors": [
+        {
+          "name": "Haochen Yuan",
+          "pid": "161/8901",
+          "orcid": "0000-0002-7903-8655"
+        },
+        {
+          "name": "Yuanqing Wang",
+          "pid": "83/7566",
+          "orcid": "0009-0003-2675-2200"
+        },
+        {
+          "name": "Wenhao Xie",
+          "pid": "219/9575",
+          "orcid": "0009-0008-6134-2211"
+        },
+        {
+          "name": "Yu Cheng 0030",
+          "pid": "96/3060-30",
+          "orcid": "0009-0003-9436-674X"
+        },
+        {
+          "name": "Ziming Miao",
+          "pid": "216/9568",
+          "orcid": "0000-0001-7466-2128"
+        },
+        {
+          "name": "Lingxiao Ma",
+          "pid": "57/3203",
+          "orcid": "0009-0009-9524-5476"
+        },
+        {
+          "name": "Jilong Xue",
+          "pid": "06/10336",
+          "orcid": "0000-0002-4495-1997"
+        },
+        {
+          "name": "Zhi Yang 0001",
+          "pid": "90/5587-1",
+          "orcid": "0000-0002-8219-4499"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717489",
+      "url": "https://doi.org/10.1145/3689031.3717489",
+      "pages": "671-685",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/YuanWXCMMXY25"
+    },
+    {
+      "title": "Towards VM Rescheduling Optimization Through Deep Reinforcement Learning",
+      "authors": [
+        {
+          "name": "Xianzhong Ding",
+          "pid": "198/7795",
+          "orcid": "0000-0001-6114-2801"
+        },
+        {
+          "name": "Yunkai Zhang 0002",
+          "pid": "34/3300-2",
+          "orcid": "0000-0002-7203-2883"
+        },
+        {
+          "name": "Binbin Chen 0005",
+          "pid": "38/8396-5",
+          "orcid": "0000-0001-8598-2442"
+        },
+        {
+          "name": "Donghao Ying",
+          "pid": "304/3590",
+          "orcid": "0009-0001-7329-5917"
+        },
+        {
+          "name": "Tieying Zhang",
+          "pid": "88/2750",
+          "orcid": "0009-0003-2250-5528"
+        },
+        {
+          "name": "Jianjun Chen 0001",
+          "pid": "20/1036-1",
+          "orcid": "0000-0002-3734-892X"
+        },
+        {
+          "name": "Lei Zhang 0213",
+          "pid": "97/8704-213",
+          "orcid": "0009-0004-1681-1956"
+        },
+        {
+          "name": "Alberto Cerpa",
+          "pid": "40/4515",
+          "orcid": "0000-0003-4531-9704"
+        },
+        {
+          "name": "Wan Du",
+          "pid": "28/9430",
+          "orcid": "0000-0002-2732-6954"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717476",
+      "url": "https://doi.org/10.1145/3689031.3717476",
+      "pages": "686-701",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/Ding0CYZCZCD25"
+    },
+    {
+      "title": "HyperAlloc: Efficient VM Memory De/Inflation via Hypervisor-Shared Page-Frame Allocators",
+      "authors": [
+        {
+          "name": "Lars Wrenger",
+          "pid": "351/5664",
+          "orcid": "0009-0006-9583-6207"
+        },
+        {
+          "name": "Kenny Albes",
+          "pid": "401/8216",
+          "orcid": "0009-0009-6830-3212"
+        },
+        {
+          "name": "Marco Wurps",
+          "pid": "401/7677",
+          "orcid": "0009-0000-9187-4130"
+        },
+        {
+          "name": "Christian Dietrich 0001",
+          "pid": "30/5956-1",
+          "orcid": "0000-0001-9258-0513"
+        },
+        {
+          "name": "Daniel Lohmann",
+          "pid": "57/863",
+          "orcid": "0000-0001-8224-4161"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717484",
+      "url": "https://doi.org/10.1145/3689031.3717484",
+      "pages": "702-719",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/WrengerAW0L25"
+    },
+    {
+      "title": "FastIOV: Fast Startup of Passthrough Network I/O Virtualization for Secure Containers",
+      "authors": [
+        {
+          "name": "Yunzhuo Liu",
+          "pid": "276/3196",
+          "orcid": "0000-0003-0156-2454"
+        },
+        {
+          "name": "Junchen Guo",
+          "pid": "220/7067",
+          "orcid": "0000-0002-9018-8881"
+        },
+        {
+          "name": "Bo Jiang 0003",
+          "pid": "34/2005-3",
+          "orcid": "0000-0001-6711-4342"
+        },
+        {
+          "name": "Yang Song 0031",
+          "pid": "24/4470-31",
+          "orcid": "0009-0008-2611-757X"
+        },
+        {
+          "name": "Pengyu Zhang",
+          "pid": "33/4816",
+          "orcid": "0009-0007-9646-8407"
+        },
+        {
+          "name": "Rong Wen",
+          "pid": "74/11184",
+          "orcid": "0009-0003-6384-1165"
+        },
+        {
+          "name": "Biao Lyu",
+          "pid": "267/2853",
+          "orcid": "0000-0002-8096-5528"
+        },
+        {
+          "name": "Shunmin Zhu",
+          "pid": "299/2226",
+          "orcid": "0000-0001-7756-0952"
+        },
+        {
+          "name": "Xinbing Wang",
+          "pid": "96/1149",
+          "orcid": "0000-0002-0357-8356"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696066",
+      "url": "https://doi.org/10.1145/3689031.3696066",
+      "pages": "720-735",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/LiuG00ZWLZW25"
+    },
+    {
+      "title": "Hey Hey, My My, Skewness Is Here to Stay: Challenges and Opportunities in Cloud Block Store Traffic",
+      "authors": [
+        {
+          "name": "Haonan Wu",
+          "pid": "75/2867",
+          "orcid": "0009-0008-8933-8572"
+        },
+        {
+          "name": "Erci Xu",
+          "pid": "83/10695",
+          "orcid": "0000-0002-6654-4364"
+        },
+        {
+          "name": "Ligang Wang",
+          "pid": "64/4308",
+          "orcid": "0009-0003-1272-2051"
+        },
+        {
+          "name": "Yuandong Hong",
+          "pid": "264/8509",
+          "orcid": "0009-0004-2044-866X"
+        },
+        {
+          "name": "Changsheng Niu",
+          "pid": "335/8618",
+          "orcid": "0009-0005-6374-9099"
+        },
+        {
+          "name": "Bo Shi",
+          "pid": "77/572",
+          "orcid": "0009-0003-0708-9829"
+        },
+        {
+          "name": "Lingjun Zhu",
+          "pid": "129/1811",
+          "orcid": "0009-0001-5145-6097"
+        },
+        {
+          "name": "Jinnian He",
+          "pid": "401/7886",
+          "orcid": "0009-0007-6070-2732"
+        },
+        {
+          "name": "Dong Wu",
+          "pid": "48/1853",
+          "orcid": "0009-0000-2393-0057"
+        },
+        {
+          "name": "Weidong Zhang 0011",
+          "pid": "24/3562-11",
+          "orcid": "0000-0003-0832-474X"
+        },
+        {
+          "name": "Qiuping Wang",
+          "pid": "81/3202",
+          "orcid": "0000-0001-5361-678X"
+        },
+        {
+          "name": "Changhong Wang 0005",
+          "pid": "88/2833-5",
+          "orcid": "0009-0000-3258-3376"
+        },
+        {
+          "name": "Xinqi Chen",
+          "pid": "318/1946",
+          "orcid": "0009-0001-5567-1560"
+        },
+        {
+          "name": "Guangtao Xue",
+          "pid": "79/1810",
+          "orcid": "0000-0002-1617-3593"
+        },
+        {
+          "name": "Yi-Chao Chen 0001",
+          "pid": "91/699-1",
+          "orcid": "0000-0003-0782-4953"
+        },
+        {
+          "name": "Dian Ding",
+          "pid": "271/9812",
+          "orcid": "0000-0002-2190-0919"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696068",
+      "url": "https://doi.org/10.1145/3689031.3696068",
+      "pages": "736-752",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/WuXWHNSZHWZWWCX25"
+    },
+    {
+      "title": "Optimizing Task Scheduling in Cloud VMs with Accurate vCPU Abstraction",
+      "authors": [
+        {
+          "name": "Edward Guo",
+          "pid": "200/4089",
+          "orcid": "0009-0001-8635-1471"
+        },
+        {
+          "name": "Weiwei Jia 0001",
+          "pid": "61/9959-1",
+          "orcid": "0000-0001-5770-5472"
+        },
+        {
+          "name": "Xiaoning Ding",
+          "pid": "36/679",
+          "orcid": "0000-0002-9947-0437"
+        },
+        {
+          "name": "Jianchen Shan",
+          "pid": "74/8875",
+          "orcid": "0000-0003-2780-8803"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696092",
+      "url": "https://doi.org/10.1145/3689031.3696092",
+      "pages": "753-768",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/Guo0DS25"
+    },
+    {
+      "title": "JABAS: Joint Adaptive Batching and Automatic Scaling for DNN Training on Heterogeneous GPUs",
+      "authors": [
+        {
+          "name": "Gyeongchan Yun",
+          "pid": "266/2948",
+          "orcid": "0009-0009-8725-1534"
+        },
+        {
+          "name": "Junesoo Kang",
+          "pid": "353/7592",
+          "orcid": "0009-0008-6020-6744"
+        },
+        {
+          "name": "Hyunjoon Jeong",
+          "pid": "401/8066",
+          "orcid": "0009-0009-2628-9811"
+        },
+        {
+          "name": "Sanghyeon Eom",
+          "pid": "401/7916",
+          "orcid": "0009-0005-9545-9619"
+        },
+        {
+          "name": "Minsung Jang",
+          "pid": "84/10278",
+          "orcid": "0009-0005-7805-6383"
+        },
+        {
+          "name": "Young-ri Choi",
+          "pid": "04/6643",
+          "orcid": "0000-0003-4391-4470"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696078",
+      "url": "https://doi.org/10.1145/3689031.3696078",
+      "pages": "769-786",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/YunKJEJC25"
+    },
+    {
+      "title": "SpaceFusion: Advanced Deep Learning Operator Fusion via Space-Mapping Graph",
+      "authors": [
+        {
+          "name": "Liang Zhu",
+          "pid": "85/20",
+          "orcid": "0009-0004-8625-2256"
+        },
+        {
+          "name": "Jianguo Yao 0002",
+          "pid": "34/6356-2",
+          "orcid": "0000-0002-1142-4496"
+        },
+        {
+          "name": "Haibing Guan",
+          "pid": "96/5680",
+          "orcid": "0000-0002-4714-7400"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696087",
+      "url": "https://doi.org/10.1145/3689031.3696087",
+      "pages": "787-802",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ZhuYG25"
+    },
+    {
+      "title": "Groot: Graph-Centric Row Reordering with Tree for Sparse Matrix Multiplications on Tensor Cores",
+      "authors": [
+        {
+          "name": "YuAng Chen",
+          "pid": "286/1951",
+          "orcid": "0000-0002-3392-8388"
+        },
+        {
+          "name": "Jiadong Xie 0002",
+          "pid": "155/8276-2",
+          "orcid": "0000-0003-4535-8359"
+        },
+        {
+          "name": "Siyi Teng",
+          "pid": "358/8722",
+          "orcid": "0009-0004-1210-4672"
+        },
+        {
+          "name": "Wenqi Zeng",
+          "pid": "258/2790",
+          "orcid": "0000-0002-9770-6522"
+        },
+        {
+          "name": "Jeffrey Xu Yu",
+          "pid": "y/JXuYu",
+          "orcid": "0000-0002-9738-827X"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717460",
+      "url": "https://doi.org/10.1145/3689031.3717460",
+      "pages": "803-817",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/Chen0TZY25"
+    },
+    {
+      "title": "SuperFE: A Scalable and Flexible Feature Extractor for ML-based Traffic Analysis Applications",
+      "authors": [
+        {
+          "name": "Menghao Zhang 0001",
+          "pid": "188/5710-1",
+          "orcid": "0000-0001-5274-5512"
+        },
+        {
+          "name": "Guanyu Li",
+          "pid": "93/7765",
+          "orcid": "0000-0002-7939-7367"
+        },
+        {
+          "name": "Cheng Guo 0007",
+          "pid": "76/5349-7",
+          "orcid": "0009-0003-5663-0052"
+        },
+        {
+          "name": "Renyu Yang",
+          "pid": "142/7754",
+          "orcid": "0000-0001-6334-4925"
+        },
+        {
+          "name": "Shicheng Wang",
+          "pid": "65/7762",
+          "orcid": "0000-0001-8380-9136"
+        },
+        {
+          "name": "Han Bao 0011",
+          "pid": "120/1444-11",
+          "orcid": "0000-0002-3451-411X"
+        },
+        {
+          "name": "Xiao Li 0044",
+          "pid": "66/2069-44",
+          "orcid": "0009-0009-6378-3480"
+        },
+        {
+          "name": "Mingwei Xu 0001",
+          "pid": "18/6055-1",
+          "orcid": "0000-0002-4847-4585"
+        },
+        {
+          "name": "Tianyu Wo",
+          "pid": "58/6260",
+          "orcid": "0000-0002-5331-3364"
+        },
+        {
+          "name": "Chunming Hu",
+          "pid": "03/405",
+          "orcid": "0000-0003-3473-9703"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696081",
+      "url": "https://doi.org/10.1145/3689031.3696081",
+      "pages": "818-834",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/0001LGYWBLXWH25"
+    },
+    {
+      "title": "Chrono: Meticulous Hotness Measurement and Flexible Page Migration for Memory Tiering",
+      "authors": [
+        {
+          "name": "Zhenlin Qi",
+          "pid": "323/0852",
+          "orcid": "0000-0001-8838-6064"
+        },
+        {
+          "name": "Shengan Zheng",
+          "pid": "178/7439",
+          "orcid": "0000-0003-2485-760X"
+        },
+        {
+          "name": "Ying Huang",
+          "pid": "62/2964",
+          "orcid": "0009-0009-0948-7998"
+        },
+        {
+          "name": "Yifeng Hui",
+          "pid": "356/7909",
+          "orcid": "0009-0005-9851-3617"
+        },
+        {
+          "name": "Bowen Zhang 0012",
+          "pid": "85/7433-12",
+          "orcid": "0000-0002-7526-8971"
+        },
+        {
+          "name": "Linpeng Huang",
+          "pid": "93/4039",
+          "orcid": "0000-0002-1531-7962"
+        },
+        {
+          "name": "Hong Mei 0001",
+          "pid": "14/2036",
+          "orcid": "0000-0003-2380-3976"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717462",
+      "url": "https://doi.org/10.1145/3689031.3717462",
+      "pages": "835-853",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/QiZHH0H025"
+    },
+    {
+      "title": "PET: Proactive Demotion for Efficient Tiered Memory Management",
+      "authors": [
+        {
+          "name": "Wanju Doh",
+          "pid": "299/7694",
+          "orcid": "0000-0002-8145-253X"
+        },
+        {
+          "name": "Yaebin Moon",
+          "pid": "290/4000",
+          "orcid": "0000-0003-0972-4948"
+        },
+        {
+          "name": "Seoyoung Ko",
+          "pid": "287/6519",
+          "orcid": "0000-0002-9315-920X"
+        },
+        {
+          "name": "Seunghwan Chung",
+          "pid": "266/5105",
+          "orcid": "0009-0009-5179-625X"
+        },
+        {
+          "name": "Kwanhee Kyung",
+          "pid": "342/0421",
+          "orcid": "0000-0003-4243-2111"
+        },
+        {
+          "name": "Eojin Lee",
+          "pid": "199/7202",
+          "orcid": "0000-0003-2739-2924"
+        },
+        {
+          "name": "Jung Ho Ahn",
+          "pid": "a/JungHoAhn",
+          "orcid": "0000-0003-1733-1394"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717471",
+      "url": "https://doi.org/10.1145/3689031.3717471",
+      "pages": "854-869",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/DohMKCKLA25"
+    },
+    {
+      "title": "Adios to Busy-Waiting for Microsecond-scale Memory Disaggregation",
+      "authors": [
+        {
+          "name": "Wonsup Yoon",
+          "pid": "252/0992",
+          "orcid": "0000-0002-6247-4119"
+        },
+        {
+          "name": "Jisu Ok",
+          "pid": "299/8923",
+          "orcid": "0000-0002-4595-6351"
+        },
+        {
+          "name": "Sue Moon",
+          "pid": "m/SueBMoon",
+          "orcid": "0000-0002-5692-1111"
+        },
+        {
+          "name": "Youngjin Kwon",
+          "pid": "94/8239",
+          "orcid": "0000-0001-5602-2397"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717475",
+      "url": "https://doi.org/10.1145/3689031.3717475",
+      "pages": "870-885",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/YoonOMK25"
+    },
+    {
+      "title": "Deft: A Scalable Tree Index for Disaggregated Memory",
+      "authors": [
+        {
+          "name": "Jing Wang 0158",
+          "pid": "02/736-158",
+          "orcid": "0009-0004-5385-4066"
+        },
+        {
+          "name": "Qing Wang 0031",
+          "pid": "97/6505-31",
+          "orcid": "0000-0002-3067-5522"
+        },
+        {
+          "name": "Yuhao Zhang 0006",
+          "pid": "139/5876-6",
+          "orcid": "0000-0002-0118-8135"
+        },
+        {
+          "name": "Jiwu Shu",
+          "pid": "60/3690",
+          "orcid": "0000-0002-7362-2789"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696062",
+      "url": "https://doi.org/10.1145/3689031.3696062",
+      "pages": "886-901",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/WangW0S25"
+    },
+    {
+      "title": "SeBS-Flow: Benchmarking Serverless Cloud Function Workflows",
+      "authors": [
+        {
+          "name": "Larissa Schmid",
+          "pid": "319/8561",
+          "orcid": "0000-0002-3600-6899"
+        },
+        {
+          "name": "Marcin Copik",
+          "pid": "187/2708",
+          "orcid": "0000-0002-7606-5519"
+        },
+        {
+          "name": "Alexandru Calotoiu",
+          "pid": "117/6982",
+          "orcid": "0000-0001-9095-9108"
+        },
+        {
+          "name": "Laurin Brandner",
+          "pid": "242/4532",
+          "orcid": "0009-0005-8251-9117"
+        },
+        {
+          "name": "Anne Koziolek",
+          "pid": "51/1757",
+          "orcid": "0000-0002-1593-3394"
+        },
+        {
+          "name": "Torsten Hoefler",
+          "pid": "16/3869",
+          "orcid": "0000-0002-1333-9797"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717465",
+      "url": "https://doi.org/10.1145/3689031.3717465",
+      "pages": "902-920",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/SchmidCCBKH25"
+    },
+    {
+      "title": "AlloyStack: A Library Operating System for Serverless Workflow Applications",
+      "authors": [
+        {
+          "name": "Jianing You",
+          "pid": "218/0059",
+          "orcid": "0009-0008-2857-4838"
+        },
+        {
+          "name": "Kang Chen 0001",
+          "pid": "91/6670-1",
+          "orcid": "0000-0002-8368-1109"
+        },
+        {
+          "name": "Laiping Zhao",
+          "pid": "17/9083",
+          "orcid": "0000-0003-1967-2192"
+        },
+        {
+          "name": "Yiming Li",
+          "pid": "181/2877",
+          "orcid": "0000-0002-6844-8763"
+        },
+        {
+          "name": "Yichi Chen 0001",
+          "pid": "336/5375-1",
+          "orcid": "0009-0006-8072-6152"
+        },
+        {
+          "name": "Yuxuan Du",
+          "pid": "222/7868",
+          "orcid": "0009-0007-6813-6835"
+        },
+        {
+          "name": "Yanjie Wang",
+          "pid": "57/885",
+          "orcid": "0009-0000-1167-0614"
+        },
+        {
+          "name": "Luhang Wen",
+          "pid": "401/7971",
+          "orcid": "0009-0003-7340-7215"
+        },
+        {
+          "name": "Keyang Hu",
+          "pid": "336/0580",
+          "orcid": "0009-0003-6634-3604"
+        },
+        {
+          "name": "Keqiu Li",
+          "pid": "21/6280",
+          "orcid": "0000-0003-3089-7907"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717490",
+      "url": "https://doi.org/10.1145/3689031.3717490",
+      "pages": "921-937",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/YouCZLCDWWHL25"
+    },
+    {
+      "title": "Serverless Cold Starts and Where to Find Them",
+      "authors": [
+        {
+          "name": "Artjom Joosen",
+          "pid": "287/4883",
+          "orcid": "0009-0007-6189-2515"
+        },
+        {
+          "name": "Ahmed Hassan",
+          "pid": "76/397",
+          "orcid": "0009-0005-4902-7954"
+        },
+        {
+          "name": "Martin Asenov",
+          "pid": "234/8627",
+          "orcid": "0000-0003-4610-3112"
+        },
+        {
+          "name": "Rajkarn Singh",
+          "pid": "149/5226",
+          "orcid": "0000-0003-0035-2471"
+        },
+        {
+          "name": "Luke Nicholas Darlow",
+          "pid": "169/5520",
+          "orcid": null
+        },
+        {
+          "name": "Jianfeng Wang",
+          "pid": "65/4872",
+          "orcid": "0009-0001-4709-1865"
+        },
+        {
+          "name": "Qiwen Deng",
+          "pid": "198/9123",
+          "orcid": "0009-0005-3663-0914"
+        },
+        {
+          "name": "Adam Barker",
+          "pid": "24/1959",
+          "orcid": "0000-0002-0463-7207"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696073",
+      "url": "https://doi.org/10.1145/3689031.3696073",
+      "pages": "938-953",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/JoosenHASDWDB25"
+    },
+    {
+      "title": "TUNA: Tuning Unstable and Noisy Cloud Applications",
+      "authors": [
+        {
+          "name": "Johannes Freischuetz",
+          "pid": "375/0685",
+          "orcid": "0009-0004-2667-4852"
+        },
+        {
+          "name": "Konstantinos Kanellis",
+          "pid": "206/9241",
+          "orcid": "0009-0006-3776-3863"
+        },
+        {
+          "name": "Brian Kroth",
+          "pid": "248/7832",
+          "orcid": "0000-0002-5108-6743"
+        },
+        {
+          "name": "Shivaram Venkataraman",
+          "pid": "65/8569",
+          "orcid": "0000-0001-9575-7935"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717480",
+      "url": "https://doi.org/10.1145/3689031.3717480",
+      "pages": "954-973",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/FreischuetzKKV25"
+    },
+    {
+      "title": "Solid State Drive Targeted Memory-Efficient Indexing for Universal I/O Patterns and Fragmentation Degrees",
+      "authors": [
+        {
+          "name": "Junsu Im",
+          "pid": "238/5412",
+          "orcid": "0000-0002-7485-7870"
+        },
+        {
+          "name": "Jeonggyun Kim",
+          "pid": "330/8703",
+          "orcid": "0009-0005-2546-3209"
+        },
+        {
+          "name": "Seonggyun Oh",
+          "pid": "346/2758",
+          "orcid": "0000-0002-1020-9444"
+        },
+        {
+          "name": "Jinhyung Koo",
+          "pid": "203/1694",
+          "orcid": "0000-0001-9141-1064"
+        },
+        {
+          "name": "Juhyung Park",
+          "pid": "281/4018",
+          "orcid": "0009-0006-5457-5063"
+        },
+        {
+          "name": "Hoon Sung Chwa",
+          "pid": "46/11077",
+          "orcid": "0000-0003-0355-5784"
+        },
+        {
+          "name": "Sam H. Noh",
+          "pid": "81/970",
+          "orcid": "0000-0002-9152-0321"
+        },
+        {
+          "name": "Sungjin Lee 0001",
+          "pid": "29/3671-1",
+          "orcid": "0000-0002-9753-2286"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717478",
+      "url": "https://doi.org/10.1145/3689031.3717478",
+      "pages": "974-990",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ImKOKPCN025"
+    },
+    {
+      "title": "Daredevil: Rescue Your Flash Storage from Inflexible Kernel Storage Stack",
+      "authors": [
+        {
+          "name": "Junzhe Li",
+          "pid": "157/0971",
+          "orcid": "0009-0000-9026-9617"
+        },
+        {
+          "name": "Ran Shu 0001",
+          "pid": "06/11343-1",
+          "orcid": "0000-0002-2021-4917"
+        },
+        {
+          "name": "Jiayi Lin 0007",
+          "pid": "382/4745",
+          "orcid": "0009-0004-6790-1302"
+        },
+        {
+          "name": "Qingyu Zhang 0005",
+          "pid": "63/5407-5",
+          "orcid": "0009-0009-4422-3971"
+        },
+        {
+          "name": "Ziyue Yang 0002",
+          "pid": "200/2830-2",
+          "orcid": "0009-0008-0491-7082"
+        },
+        {
+          "name": "Jie Zhang 0048",
+          "pid": "84/6889-48",
+          "orcid": "0000-0002-6299-4683"
+        },
+        {
+          "name": "Yongqiang Xiong",
+          "pid": "57/4569",
+          "orcid": "0000-0003-4175-0097"
+        },
+        {
+          "name": "Chenxiong Qian",
+          "pid": "147/2276",
+          "orcid": "0000-0002-6201-6011"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717482",
+      "url": "https://doi.org/10.1145/3689031.3717482",
+      "pages": "991-1008",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/Li00ZYZXQ25"
+    },
+    {
+      "title": "Overcoming the Last Mile between Log-Structured File Systems and Persistent Memory via Scatter Logging",
+      "authors": [
+        {
+          "name": "Yifeng Zhang",
+          "pid": "88/2666",
+          "orcid": "0009-0006-3711-9189"
+        },
+        {
+          "name": "Yanqi Pan",
+          "pid": "330/1367",
+          "orcid": "0009-0007-7832-0599"
+        },
+        {
+          "name": "Hao Huang",
+          "pid": "04/5616",
+          "orcid": "0009-0003-8305-2171"
+        },
+        {
+          "name": "Yuchen Shan",
+          "pid": "317/7586",
+          "orcid": "0009-0004-9136-8819"
+        },
+        {
+          "name": "Wen Xia",
+          "pid": "119/2655",
+          "orcid": "0000-0003-4093-6391"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717488",
+      "url": "https://doi.org/10.1145/3689031.3717488",
+      "pages": "1009-1025",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ZhangPHSX25"
+    },
+    {
+      "title": "Garbage Collection Does Not Only Collect Garbage: Piggybacking-Style Defragmentation for Deduplicated Backup Storage",
+      "authors": [
+        {
+          "name": "Dingbang Liu",
+          "pid": "274/0596",
+          "orcid": "0009-0007-9702-6678"
+        },
+        {
+          "name": "Xiangyu Zou",
+          "pid": "240/2218",
+          "orcid": "0000-0001-5104-8301"
+        },
+        {
+          "name": "Tao Lu 0014",
+          "pid": "03/5189-14",
+          "orcid": "0000-0003-2362-2446"
+        },
+        {
+          "name": "Philip Shilane",
+          "pid": "06/4348",
+          "orcid": "0000-0003-1235-0502"
+        },
+        {
+          "name": "Wen Xia",
+          "pid": "119/2655",
+          "orcid": "0000-0003-4093-6391"
+        },
+        {
+          "name": "Wenxuan Huang",
+          "pid": "192/1157",
+          "orcid": "0009-0005-9410-3493"
+        },
+        {
+          "name": "Yanqi Pan",
+          "pid": "330/1367",
+          "orcid": "0009-0007-7832-0599"
+        },
+        {
+          "name": "Hao Huang",
+          "pid": "04/5616",
+          "orcid": "0009-0003-8305-2171"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717493",
+      "url": "https://doi.org/10.1145/3689031.3717493",
+      "pages": "1026-1043",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/LiuZLSXHPH25"
+    },
+    {
+      "title": "Understanding the Linux Kernel, Visually",
+      "authors": [
+        {
+          "name": "Hanzhi Liu",
+          "pid": "348/6074",
+          "orcid": "0009-0005-2732-3971"
+        },
+        {
+          "name": "Yanyan Jiang 0001",
+          "pid": "08/8179-1",
+          "orcid": "0000-0001-7651-9560"
+        },
+        {
+          "name": "Chang Xu 0001",
+          "pid": "97/2966-1",
+          "orcid": "0000-0002-6299-4704"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696095",
+      "url": "https://doi.org/10.1145/3689031.3696095",
+      "pages": "1044-1060",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/Liu0025"
+    },
+    {
+      "title": "Understanding and Detecting SQL Function Bugs: Using Simple Boundary Arguments to Trigger Hundreds of DBMS Bugs",
+      "authors": [
+        {
+          "name": "Jingzhou Fu",
+          "pid": "337/0812",
+          "orcid": "0000-0001-9759-878X"
+        },
+        {
+          "name": "Jie Liang 0006",
+          "pid": "51/239-6",
+          "orcid": "0000-0003-1046-0337"
+        },
+        {
+          "name": "Zhiyong Wu 0010",
+          "pid": "24/968-10",
+          "orcid": "0000-0003-1908-5043"
+        },
+        {
+          "name": "Yanyang Zhao",
+          "pid": "78/5804",
+          "orcid": "0000-0002-1663-8901"
+        },
+        {
+          "name": "Shanshan Li 0001",
+          "pid": "66/5479-1",
+          "orcid": "0000-0003-0798-974X"
+        },
+        {
+          "name": "Yu Jiang 0001",
+          "pid": "21/4633-1",
+          "orcid": "0000-0003-0955-503X"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696064",
+      "url": "https://doi.org/10.1145/3689031.3696064",
+      "pages": "1061-1076",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/Fu00ZL025"
+    },
+    {
+      "title": "BESA: Extending Bugs Triggered by Runtime Testing via Static Analysis",
+      "authors": [
+        {
+          "name": "Jia-Ju Bai",
+          "pid": "161/7805",
+          "orcid": "0000-0002-9500-6100"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696089",
+      "url": "https://doi.org/10.1145/3689031.3696089",
+      "pages": "1077-1091",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/Bai25"
+    },
+    {
+      "title": "HawkSet: Automatic, Application-Agnostic, and Efficient Concurrent PM Bug Detection",
+      "authors": [
+        {
+          "name": "João Oliveira",
+          "pid": "41/3562",
+          "orcid": "0000-0002-0393-6133"
+        },
+        {
+          "name": "João Gonçalves",
+          "pid": "23/7272",
+          "orcid": "0000-0002-0131-1324"
+        },
+        {
+          "name": "Miguel Matos",
+          "pid": "24/6041",
+          "orcid": "0000-0001-6916-2866"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717477",
+      "url": "https://doi.org/10.1145/3689031.3717477",
+      "pages": "1092-1108",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/OliveiraGM25"
+    },
+    {
+      "title": "Heimdall: Optimizing Storage I/O Admission with Extensive Machine Learning Pipeline",
+      "authors": [
+        {
+          "name": "Daniar Heri Kurniawan",
+          "pid": "206/4503",
+          "orcid": "0000-0003-2646-3321"
+        },
+        {
+          "name": "Rani Ayu Putri",
+          "pid": "401/8018",
+          "orcid": "0009-0000-0011-9915"
+        },
+        {
+          "name": "Peiran Qin",
+          "pid": "401/8544",
+          "orcid": "0009-0003-2324-3451"
+        },
+        {
+          "name": "Kahfi S. Zulkifli",
+          "pid": "339/0487",
+          "orcid": "0000-0002-7850-9769"
+        },
+        {
+          "name": "Ray A. O. Sinurat",
+          "pid": "327/4195",
+          "orcid": "0000-0002-7255-7647"
+        },
+        {
+          "name": "Janki Bhimani",
+          "pid": "171/1567",
+          "orcid": "0000-0002-4421-9923"
+        },
+        {
+          "name": "Sandeep Madireddy",
+          "pid": "205/7527",
+          "orcid": "0000-0002-0437-8655"
+        },
+        {
+          "name": "Achmad Imam Kistijantoro",
+          "pid": "72/4278",
+          "orcid": "0000-0003-2065-6675"
+        },
+        {
+          "name": "Haryadi S. Gunawi",
+          "pid": "84/5664",
+          "orcid": "0000-0003-3680-8450"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717496",
+      "url": "https://doi.org/10.1145/3689031.3717496",
+      "pages": "1109-1125",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/KurniawanPQZSBM25"
+    },
+    {
+      "title": "Cheetah: Metadata Aggregation for Fast Object Storage without Distributed Ordering",
+      "authors": [
+        {
+          "name": "Yiming Zhang 0003",
+          "pid": "76/5416-3",
+          "orcid": "0000-0001-6450-8485"
+        },
+        {
+          "name": "Li Wang 0123",
+          "pid": "58/6810-123",
+          "orcid": "0009-0007-4029-2123"
+        },
+        {
+          "name": "Shengyun Liu",
+          "pid": "52/9705",
+          "orcid": "0000-0003-1219-786X"
+        },
+        {
+          "name": "Shun Gai",
+          "pid": "329/0949",
+          "orcid": "0000-0002-7967-0036"
+        },
+        {
+          "name": "Haonan Wang",
+          "pid": "82/5517",
+          "orcid": "0009-0009-2728-4625"
+        },
+        {
+          "name": "Xin Yao 0008",
+          "pid": "202/9077-8",
+          "orcid": "0000-0002-5780-7900"
+        },
+        {
+          "name": "Meiling Wang",
+          "pid": "17/1320",
+          "orcid": "0000-0003-0737-2897"
+        },
+        {
+          "name": "Kai Chen 0005",
+          "pid": "c/KaiChen5",
+          "orcid": "0000-0003-2587-6028"
+        },
+        {
+          "name": "Dongsheng Li 0001",
+          "pid": "254/0830-1",
+          "orcid": "0000-0001-9743-2034"
+        },
+        {
+          "name": "Jiwu Shu",
+          "pid": "60/3690",
+          "orcid": "0000-0002-7362-2789"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696080",
+      "url": "https://doi.org/10.1145/3689031.3696080",
+      "pages": "1126-1141",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ZhangWLGWYWCLS25"
+    },
+    {
+      "title": "Towards Efficient Flash Caches with Emerging NVMe Flexible Data Placement SSDs",
+      "authors": [
+        {
+          "name": "Michael Allison",
+          "pid": "401/8218",
+          "orcid": "0009-0008-8505-3035"
+        },
+        {
+          "name": "Arun George",
+          "pid": "185/6917",
+          "orcid": "0009-0004-0939-6889"
+        },
+        {
+          "name": "Javier González 0006",
+          "pid": "366/8237-6",
+          "orcid": "0009-0005-5378-9791"
+        },
+        {
+          "name": "Dan Helmick",
+          "pid": "401/8303",
+          "orcid": "0009-0005-9522-5193"
+        },
+        {
+          "name": "Vikash Kumar",
+          "pid": "82/7475",
+          "orcid": "0009-0008-3554-8857"
+        },
+        {
+          "name": "Roshan R. Nair",
+          "pid": "401/7640",
+          "orcid": "0009-0004-0172-3785"
+        },
+        {
+          "name": "Vivek Shah 0001",
+          "pid": "93/932-1",
+          "orcid": "0000-0003-3216-394X"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696091",
+      "url": "https://doi.org/10.1145/3689031.3696091",
+      "pages": "1142-1160",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/AllisonG0HKN025"
+    },
+    {
+      "title": "Pre-Stores: Proactive Software-guided Movement of Data Down the Memory Hierarchy",
+      "authors": [
+        {
+          "name": "Xiaoxiang Wu",
+          "pid": "309/2139",
+          "orcid": "0009-0002-7066-9773"
+        },
+        {
+          "name": "Baptiste Lepers",
+          "pid": "08/8330",
+          "orcid": "0000-0001-7580-0131"
+        },
+        {
+          "name": "Willy Zwaenepoel",
+          "pid": "z/WZwaenepoel",
+          "orcid": "0000-0002-4182-6920"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696097",
+      "url": "https://doi.org/10.1145/3689031.3696097",
+      "pages": "1161-1176",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/WuLZ25"
+    },
+    {
+      "title": "Rakis: Secure Fast I/O Primitives Across Trust Boundaries on Intel SGX",
+      "authors": [
+        {
+          "name": "Mansour Alharthi",
+          "pid": "248/1603",
+          "orcid": "0009-0006-2458-7995"
+        },
+        {
+          "name": "Fan Sang",
+          "pid": "249/5653",
+          "orcid": "0009-0002-0532-5798"
+        },
+        {
+          "name": "Dmitrii Kuvaiskii",
+          "pid": "156/3375",
+          "orcid": "0009-0002-3342-4494"
+        },
+        {
+          "name": "Mona Vij",
+          "pid": "47/9256",
+          "orcid": "0000-0002-5309-0391"
+        },
+        {
+          "name": "Taesoo Kim",
+          "pid": "38/8882",
+          "orcid": "0000-0002-7440-2067"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696090",
+      "url": "https://doi.org/10.1145/3689031.3696090",
+      "pages": "1177-1193",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/AlharthiSKVK25"
+    },
+    {
+      "title": "DPack: Efficiency-Oriented Privacy Budget Scheduling",
+      "authors": [
+        {
+          "name": "Pierre Tholoniat",
+          "pid": "249/2212",
+          "orcid": "0000-0003-2815-5357"
+        },
+        {
+          "name": "Kelly Kostopoulou",
+          "pid": "284/9667",
+          "orcid": "0009-0006-2148-9767"
+        },
+        {
+          "name": "Mosharaf Chowdhury",
+          "pid": "42/1518",
+          "orcid": "0000-0003-0884-6740"
+        },
+        {
+          "name": "Asaf Cidon",
+          "pid": "35/10805",
+          "orcid": "0009-0007-4046-2022"
+        },
+        {
+          "name": "Roxana Geambasu",
+          "pid": "g/RoxanaGeambasu",
+          "orcid": "0009-0004-5209-9206"
+        },
+        {
+          "name": "Mathias Lécuyer",
+          "pid": "130/0417",
+          "orcid": null
+        },
+        {
+          "name": "Junfeng Yang",
+          "pid": "71/3724",
+          "orcid": "0009-0000-2277-6545"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696096",
+      "url": "https://doi.org/10.1145/3689031.3696096",
+      "pages": "1194-1209",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/TholoniatKCCGLY25"
+    },
+    {
+      "title": "Erebor: A Drop-In Sandbox Solution for Private Data Processing in Untrusted Confidential Virtual Machines",
+      "authors": [
+        {
+          "name": "Chuqi Zhang",
+          "pid": "332/2906",
+          "orcid": "0009-0006-3550-696X"
+        },
+        {
+          "name": "Rahul Priolkar",
+          "pid": "401/8100",
+          "orcid": "0009-0006-2116-4954"
+        },
+        {
+          "name": "Yuancheng Jiang",
+          "pid": "320/8787",
+          "orcid": "0009-0006-7833-5208"
+        },
+        {
+          "name": "Yuan Xiao 0001",
+          "pid": "152/3962-1",
+          "orcid": "0009-0003-7249-277X"
+        },
+        {
+          "name": "Mona Vij",
+          "pid": "47/9256",
+          "orcid": "0000-0002-5309-0391"
+        },
+        {
+          "name": "Zhenkai Liang",
+          "pid": "99/4951",
+          "orcid": "0000-0001-7138-5030"
+        },
+        {
+          "name": "Adil Ahmad",
+          "pid": "205/3202",
+          "orcid": "0009-0002-4097-3205"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717464",
+      "url": "https://doi.org/10.1145/3689031.3717464",
+      "pages": "1210-1228",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ZhangPJXVLA25"
+    },
+    {
+      "title": "A Hardware-Software Co-Design for Efficient Secure Containers",
+      "authors": [
+        {
+          "name": "Jiacheng Shi 0002",
+          "pid": "195/7903-2",
+          "orcid": "0000-0002-2725-8955"
+        },
+        {
+          "name": "Yang Yu 0002",
+          "pid": "46/2181-2",
+          "orcid": "0009-0003-5904-5115"
+        },
+        {
+          "name": "Jinyu Gu 0001",
+          "pid": "197/6723-1",
+          "orcid": "0000-0002-8112-8481"
+        },
+        {
+          "name": "Yubin Xia",
+          "pid": "01/615",
+          "orcid": "0000-0001-6558-5298"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717473",
+      "url": "https://doi.org/10.1145/3689031.3717473",
+      "pages": "1229-1245",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ShiY0X25"
+    },
+    {
+      "title": "Seal: Towards Diverse Specification Inference for Linux Interfaces from Security Patches",
+      "authors": [
+        {
+          "name": "Wei Chen 0169",
+          "pid": "181/2832-169",
+          "orcid": "0000-0003-0335-5002"
+        },
+        {
+          "name": "Bowen Zhang",
+          "pid": "85/7433",
+          "orcid": "0000-0002-2985-6713"
+        },
+        {
+          "name": "Chengpeng Wang 0001",
+          "pid": "240/2235-1",
+          "orcid": "0000-0003-0617-5322"
+        },
+        {
+          "name": "Wensheng Tang",
+          "pid": "48/423",
+          "orcid": "0000-0002-4259-3321"
+        },
+        {
+          "name": "Charles Zhang 0001",
+          "pid": "51/7008-1",
+          "orcid": "0000-0001-6417-1034"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717487",
+      "url": "https://doi.org/10.1145/3689031.3717487",
+      "pages": "1246-1262",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ChenZWT025"
+    },
+    {
+      "title": "MEPipe: Democratizing LLM Training with Memory-Efficient Slice-Level Pipeline Scheduling on Cost-Effective Accelerators",
+      "authors": [
+        {
+          "name": "Zhenbo Sun",
+          "pid": "280/0130",
+          "orcid": "0000-0003-0313-1877"
+        },
+        {
+          "name": "Shengqi Chen 0001",
+          "pid": "156/3418",
+          "orcid": "0000-0002-2310-5249"
+        },
+        {
+          "name": "Yuanwei Wang",
+          "pid": "180/5118",
+          "orcid": "0000-0003-4201-3654"
+        },
+        {
+          "name": "Jian Sha",
+          "pid": "362/9183",
+          "orcid": "0009-0005-9564-6019"
+        },
+        {
+          "name": "Guanyu Feng",
+          "pid": "226/4120",
+          "orcid": "0000-0002-7754-4693"
+        },
+        {
+          "name": "Wenguang Chen",
+          "pid": "60/810",
+          "orcid": "0000-0002-4281-1018"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717469",
+      "url": "https://doi.org/10.1145/3689031.3717469",
+      "pages": "1263-1278",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/Sun0WSFC25"
+    },
+    {
+      "title": "HybridFlow: A Flexible and Efficient RLHF Framework",
+      "authors": [
+        {
+          "name": "Guangming Sheng",
+          "pid": "72/9556",
+          "orcid": "0000-0003-3395-3994"
+        },
+        {
+          "name": "Chi Zhang 0022",
+          "pid": "91/195-22",
+          "orcid": "0000-0001-7374-1940"
+        },
+        {
+          "name": "Zilingfeng Ye",
+          "pid": "308/2517",
+          "orcid": "0009-0003-5437-0445"
+        },
+        {
+          "name": "Xibin Wu",
+          "pid": "260/6469",
+          "orcid": "0009-0007-9702-5288"
+        },
+        {
+          "name": "Wang Zhang 0017",
+          "pid": "91/4884-17",
+          "orcid": "0009-0001-2436-8761"
+        },
+        {
+          "name": "Ru Zhang 0006",
+          "pid": "80/446-6",
+          "orcid": "0009-0005-8543-0097"
+        },
+        {
+          "name": "Yanghua Peng",
+          "pid": "195/5934",
+          "orcid": "0000-0003-3989-4358"
+        },
+        {
+          "name": "Haibin Lin",
+          "pid": "142/1829",
+          "orcid": "0000-0003-4879-5335"
+        },
+        {
+          "name": "Chuan Wu 0001",
+          "pid": "34/3772-1",
+          "orcid": "0000-0002-3144-4398"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696075",
+      "url": "https://doi.org/10.1145/3689031.3696075",
+      "pages": "1279-1297",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ShengZYWZZPL025"
+    },
+    {
+      "title": "Mist: Efficient Distributed Training of Large Language Models via Memory-Parallelism Co-Optimization",
+      "authors": [
+        {
+          "name": "Zhanda Zhu",
+          "pid": "286/8500",
+          "orcid": "0000-0001-7433-7384"
+        },
+        {
+          "name": "Christina Giannoula",
+          "pid": "220/6773",
+          "orcid": "0000-0003-0162-4547"
+        },
+        {
+          "name": "Muralidhar Andoorveedu",
+          "pid": "331/5445",
+          "orcid": "0009-0000-6033-369X"
+        },
+        {
+          "name": "Qidong Su",
+          "pid": "276/5663",
+          "orcid": "0009-0005-2612-6634"
+        },
+        {
+          "name": "Karttikeya Mangalam",
+          "pid": "200/8205",
+          "orcid": "0000-0002-2169-1395"
+        },
+        {
+          "name": "Bojian Zheng",
+          "pid": "207/1838",
+          "orcid": "0000-0002-1999-2359"
+        },
+        {
+          "name": "Gennady Pekhimenko",
+          "pid": "118/8979",
+          "orcid": "0000-0002-3839-0919"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717461",
+      "url": "https://doi.org/10.1145/3689031.3717461",
+      "pages": "1298-1316",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ZhuGASMZP25"
+    },
+    {
+      "title": "Hourglass: Enabling Efficient Split Federated Learning with Data Parallelism",
+      "authors": [
+        {
+          "name": "Qiang He 0001",
+          "pid": "97/6589-1",
+          "orcid": "0000-0002-2607-4556"
+        },
+        {
+          "name": "Kaibin Wang",
+          "pid": "119/1981",
+          "orcid": "0000-0001-5967-5692"
+        },
+        {
+          "name": "Zeqian Dong",
+          "pid": "204/4134",
+          "orcid": "0000-0001-8496-7224"
+        },
+        {
+          "name": "Liang Yuan",
+          "pid": "18/4157",
+          "orcid": "0000-0002-6766-7913"
+        },
+        {
+          "name": "Feifei Chen 0001",
+          "pid": "61/7690-1",
+          "orcid": "0000-0001-5455-3792"
+        },
+        {
+          "name": "Hai Jin 0001",
+          "pid": "98/4156",
+          "orcid": "0000-0002-3934-7605"
+        },
+        {
+          "name": "Yun Yang 0001",
+          "pid": "90/3406-1",
+          "orcid": "0000-0002-7868-5471"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717467",
+      "url": "https://doi.org/10.1145/3689031.3717467",
+      "pages": "1317-1333",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/0001WDYC0025"
+    },
+    {
+      "title": "FlowCheck: Decoupling Checkpointing and Training of Large-Scale Models",
+      "authors": [
+        {
+          "name": "Zimeng Huang",
+          "pid": "289/4563",
+          "orcid": "0000-0002-5016-8472"
+        },
+        {
+          "name": "Hao Nie",
+          "pid": "51/7293",
+          "orcid": "0000-0002-3031-5930"
+        },
+        {
+          "name": "Haonan Jia",
+          "pid": "259/0793",
+          "orcid": "0009-0003-2511-0003"
+        },
+        {
+          "name": "Bo Jiang 0003",
+          "pid": "34/2005-3",
+          "orcid": "0000-0001-6711-4342"
+        },
+        {
+          "name": "Junchen Guo",
+          "pid": "220/7067",
+          "orcid": "0000-0002-9018-8881"
+        },
+        {
+          "name": "Jianyuan Lu",
+          "pid": "117/4499",
+          "orcid": "0000-0003-2502-8686"
+        },
+        {
+          "name": "Rong Wen",
+          "pid": "74/11184",
+          "orcid": "0009-0003-6384-1165"
+        },
+        {
+          "name": "Biao Lyu",
+          "pid": "267/2853",
+          "orcid": "0000-0002-8096-5528"
+        },
+        {
+          "name": "Shunmin Zhu",
+          "pid": "299/2226",
+          "orcid": "0000-0001-7756-0952"
+        },
+        {
+          "name": "Xinbing Wang",
+          "pid": "96/1149",
+          "orcid": "0000-0002-0357-8356"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696088",
+      "url": "https://doi.org/10.1145/3689031.3696088",
+      "pages": "1334-1349",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/HuangNJJGLWLZW25"
+    },
+    {
+      "title": "Atlas: Towards Real-Time Verification in Large-Scale Networks via a Native Distributed Architecture",
+      "authors": [
+        {
+          "name": "Mingxiao Ma",
+          "pid": "232/5390",
+          "orcid": "0009-0000-4155-0605"
+        },
+        {
+          "name": "Yuehan Zhang",
+          "pid": "140/8380",
+          "orcid": "0009-0000-5666-6440"
+        },
+        {
+          "name": "Jingyu Wang 0001",
+          "pid": "37/2749-1",
+          "orcid": "0000-0002-2182-2228"
+        },
+        {
+          "name": "Bo He 0003",
+          "pid": "04/2868-3",
+          "orcid": "0000-0003-1301-4981"
+        },
+        {
+          "name": "Chenyang Zhao 0005",
+          "pid": "22/8876-5",
+          "orcid": "0009-0000-2550-756X"
+        },
+        {
+          "name": "Qi Qi 0001",
+          "pid": "80/6406-1",
+          "orcid": "0000-0003-0829-4624"
+        },
+        {
+          "name": "Zirui Zhuang",
+          "pid": "235/7014",
+          "orcid": "0000-0003-3345-1732"
+        },
+        {
+          "name": "Haifeng Sun 0001",
+          "pid": "00/11044-1",
+          "orcid": "0000-0003-3072-7422"
+        },
+        {
+          "name": "Lingqi Guo",
+          "pid": "302/8664",
+          "orcid": "0000-0001-6999-6262"
+        },
+        {
+          "name": "Yuebin Guo",
+          "pid": "82/2533",
+          "orcid": "0000-0001-9497-6802"
+        },
+        {
+          "name": "Gong Zhang 0001",
+          "pid": "77/6324-1",
+          "orcid": "0000-0003-0283-7050"
+        },
+        {
+          "name": "Jianxin Liao",
+          "pid": "60/4951",
+          "orcid": "0000-0003-1486-0573"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717494",
+      "url": "https://doi.org/10.1145/3689031.3717494",
+      "pages": "1350-1364",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/MaZW0Z0Z0GGZL25"
+    },
+    {
+      "title": "Occamy: A Preemptive Buffer Management for On-chip Shared-memory Switches",
+      "authors": [
+        {
+          "name": "Danfeng Shan",
+          "pid": "137/3349",
+          "orcid": "0000-0003-0852-5955"
+        },
+        {
+          "name": "Yunguang Li",
+          "pid": "397/9221",
+          "orcid": "0009-0005-4155-2914"
+        },
+        {
+          "name": "Jinchao Ma",
+          "pid": "178/5985",
+          "orcid": "0009-0005-3754-2967"
+        },
+        {
+          "name": "Zhenxing Zhang",
+          "pid": "47/197",
+          "orcid": "0009-0001-9954-5128"
+        },
+        {
+          "name": "Zeyu Liang",
+          "pid": "225/6232",
+          "orcid": "0009-0000-4545-3167"
+        },
+        {
+          "name": "Xinyu Wen",
+          "pid": "41/6979",
+          "orcid": "0009-0008-2180-2631"
+        },
+        {
+          "name": "Hao Li 0011",
+          "pid": "17/5705-11",
+          "orcid": "0000-0001-8776-6911"
+        },
+        {
+          "name": "Wanchun Jiang",
+          "pid": "05/8330",
+          "orcid": "0000-0001-5067-321X"
+        },
+        {
+          "name": "Nan Li 0047",
+          "pid": "84/3795-47",
+          "orcid": "0009-0001-7204-338X"
+        },
+        {
+          "name": "Fengyuan Ren",
+          "pid": "05/6995",
+          "orcid": "0000-0001-6526-3889"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717495",
+      "url": "https://doi.org/10.1145/3689031.3717495",
+      "pages": "1365-1382",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ShanLMZLWLJLR25"
+    },
+    {
+      "title": "Phantom: Virtualizing Switch Register Resources for Accurate Sketch-based Network Measurement",
+      "authors": [
+        {
+          "name": "Xiang Chen 0017",
+          "pid": "64/3062-17",
+          "orcid": "0000-0002-0249-9664"
+        },
+        {
+          "name": "Hongyan Liu 0001",
+          "pid": "28/374-1",
+          "orcid": "0000-0001-7753-0294"
+        },
+        {
+          "name": "Zhengyan Zhou",
+          "pid": "239/2971",
+          "orcid": "0000-0003-0536-3196"
+        },
+        {
+          "name": "Xi Sun",
+          "pid": "72/6488",
+          "orcid": "0009-0005-3371-8734"
+        },
+        {
+          "name": "Wenbin Zhang 0011",
+          "pid": "35/4073-11",
+          "orcid": "0009-0002-0528-8755"
+        },
+        {
+          "name": "Hongyang Du 0001",
+          "pid": "174/9678",
+          "orcid": "0000-0002-8220-6525"
+        },
+        {
+          "name": "Dong Zhang 0010",
+          "pid": "68/3245-10",
+          "orcid": "0000-0002-6379-0244"
+        },
+        {
+          "name": "Xuan Liu 0006",
+          "pid": "13/5407-6",
+          "orcid": "0000-0002-7966-4488"
+        },
+        {
+          "name": "Haifeng Zhou",
+          "pid": "81/6572",
+          "orcid": "0000-0002-8008-2805"
+        },
+        {
+          "name": "Dusit Niyato",
+          "pid": "76/440",
+          "orcid": "0000-0002-7442-7416"
+        },
+        {
+          "name": "Qun Huang 0001",
+          "pid": "130/5419-1",
+          "orcid": "0000-0002-2387-6131"
+        },
+        {
+          "name": "Chunming Wu 0001",
+          "pid": "97/8329-1",
+          "orcid": "0000-0001-7958-9687"
+        },
+        {
+          "name": "Kui Ren 0001",
+          "pid": "20/6179-1",
+          "orcid": "0000-0003-3441-6277"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3696077",
+      "url": "https://doi.org/10.1145/3689031.3696077",
+      "pages": "1383-1398",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ChenLZSZDZLZN0025"
+    },
+    {
+      "title": "Eva: Cost-Efficient Cloud-Based Cluster Scheduling",
+      "authors": [
+        {
+          "name": "Tzu-Tao Chang",
+          "pid": "358/5443",
+          "orcid": "0009-0009-4695-5623"
+        },
+        {
+          "name": "Shivaram Venkataraman",
+          "pid": "65/8569",
+          "orcid": "0000-0001-9575-7935"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717483",
+      "url": "https://doi.org/10.1145/3689031.3717483",
+      "pages": "1399-1416",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/ChangV25"
+    },
+    {
+      "title": "Byte vSwitch: A High-Performance Virtual Switch for Cloud Networking",
+      "authors": [
+        {
+          "name": "Xin Wang 0261",
+          "pid": "10/5630-261",
+          "orcid": "0009-0001-8523-3887"
+        },
+        {
+          "name": "Deguo Li",
+          "pid": "138/7353",
+          "orcid": "0009-0006-7383-3451"
+        },
+        {
+          "name": "Zhihong Wang",
+          "pid": "23/3098",
+          "orcid": "0009-0005-3874-2557"
+        },
+        {
+          "name": "Lidong Jiang",
+          "pid": "390/6396",
+          "orcid": "0000-0001-9783-7824"
+        },
+        {
+          "name": "Shubo Wen",
+          "pid": "268/4540",
+          "orcid": "0000-0001-9748-8994"
+        },
+        {
+          "name": "Daxiang Kang",
+          "pid": "267/2886",
+          "orcid": "0000-0002-2782-8508"
+        },
+        {
+          "name": "Engin Arslan",
+          "pid": "85/9469",
+          "orcid": "0000-0002-2355-057X"
+        },
+        {
+          "name": "Peng He 0003",
+          "pid": "84/6016-3",
+          "orcid": "0000-0002-7472-9529"
+        },
+        {
+          "name": "Xinyu Qian",
+          "pid": "294/1600",
+          "orcid": "0009-0008-4004-6683"
+        },
+        {
+          "name": "Bin Niu",
+          "pid": "76/11184",
+          "orcid": "0009-0009-9367-2087"
+        },
+        {
+          "name": "Jianwen Pi",
+          "pid": "253/7540",
+          "orcid": "0009-0009-8338-1390"
+        },
+        {
+          "name": "Xiaoning Ding",
+          "pid": "36/679",
+          "orcid": "0000-0002-5688-7611"
+        },
+        {
+          "name": "Ke Lin",
+          "pid": "65/3313",
+          "orcid": "0009-0007-2509-214X"
+        },
+        {
+          "name": "Hao Luo 0013",
+          "pid": "14/3727-13",
+          "orcid": "0009-0008-8462-7295"
+        }
+      ],
+      "venue": "EuroSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3689031.3717479",
+      "url": "https://doi.org/10.1145/3689031.3717479",
+      "pages": "1417-1432",
+      "source": "dblp",
+      "dblp_paper_key": "conf/eurosys/WangLWJWKAHQNPD25"
+    }
+  ]
+}

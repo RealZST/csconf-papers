@@ -1,0 +1,2742 @@
+{
+  "meta": {
+    "venue": "OSDI",
+    "year": 2025,
+    "source_keys": [
+      "conf/osdi/osdi2025"
+    ],
+    "paper_count": 53,
+    "note": null,
+    "updated": "2026-08-12"
+  },
+  "papers": [
+    {
+      "title": "Tigon: A Distributed Database for a CXL Pod",
+      "authors": [
+        {
+          "name": "Yibo Huang 0006",
+          "pid": "389/1847",
+          "orcid": null
+        },
+        {
+          "name": "Haowei Chen",
+          "pid": "252/4094",
+          "orcid": null
+        },
+        {
+          "name": "Newton Ni",
+          "pid": "278/3217",
+          "orcid": null
+        },
+        {
+          "name": "Yan Sun",
+          "pid": "181/2323",
+          "orcid": null
+        },
+        {
+          "name": "Vijay Chidambaram",
+          "pid": "07/10563",
+          "orcid": null
+        },
+        {
+          "name": "Dixin Tang",
+          "pid": "155/5478",
+          "orcid": null
+        },
+        {
+          "name": "Emmett Witchel",
+          "pid": "76/6082",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/huang-yibo",
+      "pages": "109-128",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/0006CNSCTW25"
+    },
+    {
+      "title": "Mako: Speculative Distributed Transactions with Geo-Replication",
+      "authors": [
+        {
+          "name": "Weihai Shen",
+          "pid": "317/1738",
+          "orcid": null
+        },
+        {
+          "name": "Yang Cui",
+          "pid": "73/2753",
+          "orcid": null
+        },
+        {
+          "name": "Siddhartha Sen 0001",
+          "pid": "58/968",
+          "orcid": null
+        },
+        {
+          "name": "Sebastian Angel",
+          "pid": "132/8480",
+          "orcid": null
+        },
+        {
+          "name": "Shuai Mu 0001",
+          "pid": "98/7677-1",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/shen-weihai",
+      "pages": "129-152",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ShenC0A025"
+    },
+    {
+      "title": "Quake: Adaptive Indexing for Vector Search",
+      "authors": [
+        {
+          "name": "Jason Mohoney",
+          "pid": "284/0722",
+          "orcid": null
+        },
+        {
+          "name": "Devesh Sarda",
+          "pid": "292/8861",
+          "orcid": null
+        },
+        {
+          "name": "Mengze Tang",
+          "pid": "409/7678",
+          "orcid": null
+        },
+        {
+          "name": "Shihabur Rahman Chowdhury",
+          "pid": "27/7208",
+          "orcid": null
+        },
+        {
+          "name": "Anil Pacaci",
+          "pid": "203/0030",
+          "orcid": null
+        },
+        {
+          "name": "Ihab F. Ilyas",
+          "pid": "i/IhabFIlyas",
+          "orcid": null
+        },
+        {
+          "name": "Theodoros Rekatsinas",
+          "pid": "51/11411",
+          "orcid": null
+        },
+        {
+          "name": "Shivaram Venkataraman",
+          "pid": "65/8569",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/mohoney",
+      "pages": "153-169",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/MohoneySTCPIRV25"
+    },
+    {
+      "title": "Achieving Low-Latency Graph-Based Vector Search via Aligning Best-First Search Algorithm with SSD",
+      "authors": [
+        {
+          "name": "Hao Guo",
+          "pid": "97/3499",
+          "orcid": null
+        },
+        {
+          "name": "Youyou Lu",
+          "pid": "96/8005",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/guo",
+      "pages": "171-186",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/GuoL25"
+    },
+    {
+      "title": "Skybridge: Bounded Staleness for Distributed Caches",
+      "authors": [
+        {
+          "name": "Robert Lyerly",
+          "pid": "60/10663",
+          "orcid": null
+        },
+        {
+          "name": "Scott Pruett",
+          "pid": "283/7672",
+          "orcid": null
+        },
+        {
+          "name": "Kevin Doherty",
+          "pid": "320/6233",
+          "orcid": null
+        },
+        {
+          "name": "Greg Rogers",
+          "pid": "07/5834",
+          "orcid": null
+        },
+        {
+          "name": "Nathan Bronson",
+          "pid": "53/3628",
+          "orcid": null
+        },
+        {
+          "name": "John Hugg",
+          "pid": "09/3149",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/lyerly",
+      "pages": "187-204",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/LyerlyPDRBH25"
+    },
+    {
+      "title": "Basilisk: Using Provenance Invariants to Automate Proofs of Undecidable Protocols",
+      "authors": [
+        {
+          "name": "Tony Nuda Zhang",
+          "pid": "266/7674",
+          "orcid": null
+        },
+        {
+          "name": "Keshav Singh",
+          "pid": "132/7939",
+          "orcid": null
+        },
+        {
+          "name": "Tej Chajed",
+          "pid": "141/9176",
+          "orcid": null
+        },
+        {
+          "name": "Manos Kapritsos",
+          "pid": "23/6695",
+          "orcid": null
+        },
+        {
+          "name": "Bryan Parno",
+          "pid": "49/6324",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/zhang-tony",
+      "pages": "1-17",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ZhangSCKP25"
+    },
+    {
+      "title": "Deriving Semantic Checkers from Tests to Detect Silent Failures in Production Distributed Systems",
+      "authors": [
+        {
+          "name": "Chang Lou",
+          "pid": "166/1819",
+          "orcid": null
+        },
+        {
+          "name": "Dimas Shidqi Parikesit",
+          "pid": "399/4091",
+          "orcid": null
+        },
+        {
+          "name": "Yujin Huang",
+          "pid": "250/5220",
+          "orcid": null
+        },
+        {
+          "name": "Zhewen Yang",
+          "pid": "346/2702",
+          "orcid": null
+        },
+        {
+          "name": "Senapati Diwangkara",
+          "pid": "391/7606",
+          "orcid": null
+        },
+        {
+          "name": "Yuzhuo Jing",
+          "pid": "284/5039",
+          "orcid": null
+        },
+        {
+          "name": "Achmad Imam Kistijantoro",
+          "pid": "72/4278",
+          "orcid": null
+        },
+        {
+          "name": "Ding Yuan 0004",
+          "pid": "230/9043-4",
+          "orcid": null
+        },
+        {
+          "name": "Suman Nath",
+          "pid": "85/6293",
+          "orcid": null
+        },
+        {
+          "name": "Peng Huang 0005",
+          "pid": "29/1726-5",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/lou",
+      "pages": "19-38",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/LouPHYDJK0N025"
+    },
+    {
+      "title": "Picsou: Enabling Replicated State Machines to Communicate Efficiently",
+      "authors": [
+        {
+          "name": "Reginald Frank",
+          "pid": "223/4336",
+          "orcid": null
+        },
+        {
+          "name": "Micah Murray",
+          "pid": "358/2671",
+          "orcid": null
+        },
+        {
+          "name": "Chawinphat Tankuranand",
+          "pid": "411/1708",
+          "orcid": null
+        },
+        {
+          "name": "Junseo Yoo",
+          "pid": "411/1704",
+          "orcid": null
+        },
+        {
+          "name": "Ethan Xu",
+          "pid": "365/4247",
+          "orcid": null
+        },
+        {
+          "name": "Natacha Crooks",
+          "pid": "161/0113",
+          "orcid": null
+        },
+        {
+          "name": "Suyash Gupta 0001",
+          "pid": "136/5662",
+          "orcid": null
+        },
+        {
+          "name": "Manos Kapritsos",
+          "pid": "23/6695",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/frank",
+      "pages": "39-56",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/FrankMTYXC0K25"
+    },
+    {
+      "title": "FineMem: Breaking the Allocation Overhead vs. Memory Waste Dilemma in Fine-Grained Disaggregated Memory Management",
+      "authors": [
+        {
+          "name": "Xiaoyang Wang",
+          "pid": "81/1832",
+          "orcid": null
+        },
+        {
+          "name": "Yongkun Li 0001",
+          "pid": "89/6978-1",
+          "orcid": null
+        },
+        {
+          "name": "Kan Wu",
+          "pid": "20/1552",
+          "orcid": null
+        },
+        {
+          "name": "Wenzhe Zhu",
+          "pid": "283/8152",
+          "orcid": null
+        },
+        {
+          "name": "Yuqi Li",
+          "pid": "116/8741",
+          "orcid": null
+        },
+        {
+          "name": "Yinlong Xu 0001",
+          "pid": "40/689-1",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/wang-xiaoyang",
+      "pages": "57-74",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/Wang0WZLX25"
+    },
+    {
+      "title": "To PRI or Not To PRI, That's the question",
+      "authors": [
+        {
+          "name": "Yun Wang 0039",
+          "pid": "36/3235-39",
+          "orcid": null
+        },
+        {
+          "name": "Liang Chen",
+          "pid": "01/5394",
+          "orcid": null
+        },
+        {
+          "name": "Jie Ji",
+          "pid": "88/6321",
+          "orcid": null
+        },
+        {
+          "name": "Xianting Tian",
+          "pid": "411/1690",
+          "orcid": null
+        },
+        {
+          "name": "Ben Luo",
+          "pid": "351/5836",
+          "orcid": null
+        },
+        {
+          "name": "Zhixiang Wei",
+          "pid": "299/2073",
+          "orcid": null
+        },
+        {
+          "name": "Zhibai Huang",
+          "pid": "393/1605",
+          "orcid": null
+        },
+        {
+          "name": "Kailiang Xu",
+          "pid": "08/7089",
+          "orcid": null
+        },
+        {
+          "name": "Kaihuan Peng",
+          "pid": "390/1281",
+          "orcid": null
+        },
+        {
+          "name": "Kaijie Guo",
+          "pid": "170/2419",
+          "orcid": null
+        },
+        {
+          "name": "Ning Luo",
+          "pid": "26/848",
+          "orcid": null
+        },
+        {
+          "name": "Guangjian Wang",
+          "pid": "156/0157",
+          "orcid": null
+        },
+        {
+          "name": "Shengdong Dai",
+          "pid": "390/0548",
+          "orcid": null
+        },
+        {
+          "name": "Yibin Shen",
+          "pid": "223/3172",
+          "orcid": null
+        },
+        {
+          "name": "Jiesheng Wu",
+          "pid": "64/2146",
+          "orcid": null
+        },
+        {
+          "name": "Zhengwei Qi",
+          "pid": "17/1970",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/wang-yun",
+      "pages": "75-89",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/WangCJTLWHXPGLW25"
+    },
+    {
+      "title": "Enabling Efficient GPU Communication over Multiple NICs with FuseLink",
+      "authors": [
+        {
+          "name": "Zhenghang Ren",
+          "pid": "303/1128",
+          "orcid": null
+        },
+        {
+          "name": "Yuxuan Li",
+          "pid": "17/7624",
+          "orcid": null
+        },
+        {
+          "name": "Zilong Wang 0007",
+          "pid": "42/898-7",
+          "orcid": null
+        },
+        {
+          "name": "Xinyang Huang",
+          "pid": "02/4954",
+          "orcid": null
+        },
+        {
+          "name": "Wenxue Li 0004",
+          "pid": "12/8919-4",
+          "orcid": null
+        },
+        {
+          "name": "Kaiqiang Xu",
+          "pid": "54/2203",
+          "orcid": null
+        },
+        {
+          "name": "Xudong Liao",
+          "pid": "296/4029",
+          "orcid": null
+        },
+        {
+          "name": "Yijun Sun",
+          "pid": "10/670",
+          "orcid": null
+        },
+        {
+          "name": "Bowen Liu 0002",
+          "pid": "41/1201-2",
+          "orcid": null
+        },
+        {
+          "name": "Han Tian",
+          "pid": "198/1274",
+          "orcid": null
+        },
+        {
+          "name": "Junxue Zhang 0001",
+          "pid": "155/4434",
+          "orcid": null
+        },
+        {
+          "name": "Mingfei Wang",
+          "pid": "69/5357",
+          "orcid": null
+        },
+        {
+          "name": "Zhizhen Zhong",
+          "pid": "183/6387",
+          "orcid": null
+        },
+        {
+          "name": "Guyue Liu",
+          "pid": "151/5134",
+          "orcid": null
+        },
+        {
+          "name": "Ying Zhang 0022",
+          "pid": "13/6769-22",
+          "orcid": null
+        },
+        {
+          "name": "Kai Chen 0005",
+          "pid": "c/KaiChen5",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/ren",
+      "pages": "91-108",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/RenL0HLXLSLT0WZ25"
+    },
+    {
+      "title": "KPerfIR: Towards a Open and Compiler-centric Ecosystem for GPU Kernel Performance Tooling on Modern AI Workloads",
+      "authors": [
+        {
+          "name": "Yue Guan 0003",
+          "pid": "54/7820-3",
+          "orcid": null
+        },
+        {
+          "name": "Yuanwei Fang",
+          "pid": "125/2460",
+          "orcid": null
+        },
+        {
+          "name": "Keren Zhou 0001",
+          "pid": "163/1781-1",
+          "orcid": null
+        },
+        {
+          "name": "Corbin Robeck",
+          "pid": "213/1249",
+          "orcid": null
+        },
+        {
+          "name": "Manman Ren",
+          "pid": "46/1495",
+          "orcid": null
+        },
+        {
+          "name": "Zhongkai Yu",
+          "pid": "327/2154",
+          "orcid": null
+        },
+        {
+          "name": "Yufei Ding 0001",
+          "pid": "127/9591",
+          "orcid": null
+        },
+        {
+          "name": "Adnan Aziz",
+          "pid": "53/5368",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/guan",
+      "pages": "205-220",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/GuanF0RRY0A25"
+    },
+    {
+      "title": "Mirage: A Multi-Level Superoptimizer for Tensor Programs",
+      "authors": [
+        {
+          "name": "Mengdi Wu",
+          "pid": "283/8285",
+          "orcid": null
+        },
+        {
+          "name": "Xinhao Cheng",
+          "pid": "158/3448",
+          "orcid": null
+        },
+        {
+          "name": "Shengyu Liu",
+          "pid": "67/10301",
+          "orcid": null
+        },
+        {
+          "name": "Chunan Shi",
+          "pid": "334/3643",
+          "orcid": null
+        },
+        {
+          "name": "Jianan Ji",
+          "pid": "261/3215",
+          "orcid": null
+        },
+        {
+          "name": "Man Kit Ao",
+          "pid": "411/1681",
+          "orcid": null
+        },
+        {
+          "name": "Praveen Velliengiri",
+          "pid": "411/1686",
+          "orcid": null
+        },
+        {
+          "name": "Xupeng Miao",
+          "pid": "243/2364",
+          "orcid": null
+        },
+        {
+          "name": "Oded Padon",
+          "pid": "155/8122",
+          "orcid": null
+        },
+        {
+          "name": "Zhihao Jia",
+          "pid": "129/3026",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/wu-mengdi",
+      "pages": "21-38",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/WuCLSJAVMPJ25"
+    },
+    {
+      "title": "QiMeng-Xpiler: Transcompiling Tensor Programs for Deep Learning Systems with a Neural-Symbolic Approach",
+      "authors": [
+        {
+          "name": "Shouyang Dong",
+          "pid": "189/7508",
+          "orcid": null
+        },
+        {
+          "name": "Jun Bi",
+          "pid": "79/3662",
+          "orcid": null
+        },
+        {
+          "name": "Di Huang",
+          "pid": "45/780",
+          "orcid": null
+        },
+        {
+          "name": "Jiaming Guo",
+          "pid": "63/8512",
+          "orcid": null
+        },
+        {
+          "name": "Jianxing Xu",
+          "pid": "240/2343",
+          "orcid": null
+        },
+        {
+          "name": "Ruibai Xu",
+          "pid": "401/6729",
+          "orcid": null
+        },
+        {
+          "name": "Xinkai Song",
+          "pid": "221/6104",
+          "orcid": null
+        },
+        {
+          "name": "Yifan Hao 0001",
+          "pid": "118/3316-1",
+          "orcid": null
+        },
+        {
+          "name": "Ling Li 0001",
+          "pid": "92/5001-1",
+          "orcid": null
+        },
+        {
+          "name": "Xuehai Zhou",
+          "pid": "53/2969",
+          "orcid": null
+        },
+        {
+          "name": "Tianshi Chen 0002",
+          "pid": "60/419-2",
+          "orcid": null
+        },
+        {
+          "name": "Qi Guo 0001",
+          "pid": "67/398-1",
+          "orcid": null
+        },
+        {
+          "name": "Yunji Chen",
+          "pid": "48/474",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/dong",
+      "pages": "239-255",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/DongBHGXXS00Z0025"
+    },
+    {
+      "title": "WaferLLM: Large Language Model Inference at Wafer Scale",
+      "authors": [
+        {
+          "name": "Congjie He",
+          "pid": "263/2256",
+          "orcid": null
+        },
+        {
+          "name": "Yeqi Huang",
+          "pid": "304/5959",
+          "orcid": null
+        },
+        {
+          "name": "Pei Mu 0003",
+          "pid": "219/9281-3",
+          "orcid": null
+        },
+        {
+          "name": "Ziming Miao",
+          "pid": "216/9568",
+          "orcid": null
+        },
+        {
+          "name": "Jilong Xue",
+          "pid": "06/10336",
+          "orcid": null
+        },
+        {
+          "name": "Lingxiao Ma",
+          "pid": "57/3203",
+          "orcid": null
+        },
+        {
+          "name": "Fan Yang 0024",
+          "pid": "29/3081-24",
+          "orcid": null
+        },
+        {
+          "name": "Luo Mai",
+          "pid": "81/10470",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/he",
+      "pages": "257-273",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/HeH0MXM0M25"
+    },
+    {
+      "title": "BlitzScale: Fast and Live Large Model Autoscaling with O(1) Host Caching",
+      "authors": [
+        {
+          "name": "Dingyan Zhang",
+          "pid": "273/0057",
+          "orcid": null
+        },
+        {
+          "name": "Haotian Wang",
+          "pid": "63/11345",
+          "orcid": null
+        },
+        {
+          "name": "Yang Liu",
+          "pid": "51/3710",
+          "orcid": null
+        },
+        {
+          "name": "Xingda Wei",
+          "pid": "168/9037",
+          "orcid": null
+        },
+        {
+          "name": "Yizhou Shan",
+          "pid": "206/4531",
+          "orcid": null
+        },
+        {
+          "name": "Rong Chen 0001",
+          "pid": "22/6904-1",
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "pid": "31/6601-1",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/zhang-dingyan",
+      "pages": "275-293",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ZhangWLWS0025"
+    },
+    {
+      "title": "Bayesian Code Diffusion for Efficient Automatic Deep Learning Program Optimization",
+      "authors": [
+        {
+          "name": "Isu Jeong",
+          "pid": "374/8018",
+          "orcid": null
+        },
+        {
+          "name": "Seulki Lee 0002",
+          "pid": "19/1764-2",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/jeong",
+      "pages": "295-311",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/Jeong025"
+    },
+    {
+      "title": "Training with Confidence: Catching Silent Errors in Deep Learning Training with Automated Proactive Checks",
+      "authors": [
+        {
+          "name": "Yuxuan Jiang 0016",
+          "pid": "358/2385-16",
+          "orcid": null
+        },
+        {
+          "name": "Ziming Zhou",
+          "pid": "202/5524",
+          "orcid": null
+        },
+        {
+          "name": "Boyu Xu 0005",
+          "pid": "410/2772",
+          "orcid": null
+        },
+        {
+          "name": "Beijie Liu",
+          "pid": "410/3685",
+          "orcid": null
+        },
+        {
+          "name": "Runhui Xu",
+          "pid": "410/3490",
+          "orcid": null
+        },
+        {
+          "name": "Peng Huang 0005",
+          "pid": "29/1726-5",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/jiang",
+      "pages": "313-329",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/JiangZXLXH25"
+    },
+    {
+      "title": "Neutrino: Fine-grained GPU Kernel Profiling via Programmable Probing",
+      "authors": [
+        {
+          "name": "Songlin Huang",
+          "pid": "240/2209",
+          "orcid": null
+        },
+        {
+          "name": "Chenshu Wu",
+          "pid": "28/10471",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/huang-songlin",
+      "pages": "331-355",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/HuangW25"
+    },
+    {
+      "title": "Principles and Methodologies for Serial Performance Optimization",
+      "authors": [
+        {
+          "name": "Sujin Park",
+          "pid": "63/4302",
+          "orcid": null
+        },
+        {
+          "name": "Mingyu Guan",
+          "pid": "320/8484",
+          "orcid": null
+        },
+        {
+          "name": "Xiang Cheng",
+          "pid": "29/1059",
+          "orcid": null
+        },
+        {
+          "name": "Taesoo Kim",
+          "pid": "38/8882",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/park-sujin",
+      "pages": "357-373",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ParkGCK25"
+    },
+    {
+      "title": "Söze: One Network Telemetry Is All You Need for Per-flow Weighted Bandwidth Allocation at Scale",
+      "authors": [
+        {
+          "name": "Weitao Wang",
+          "pid": "22/10826",
+          "orcid": null
+        },
+        {
+          "name": "T. S. Eugene Ng",
+          "pid": "35/2683",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/wang-weitao",
+      "pages": "375-392",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/WangN25"
+    },
+    {
+      "title": "Decouple and Decompose: Scaling Resource Allocation with DeDe",
+      "authors": [
+        {
+          "name": "Zhiying Xu",
+          "pid": "198/1380",
+          "orcid": null
+        },
+        {
+          "name": "Minlan Yu",
+          "pid": "89/6345",
+          "orcid": null
+        },
+        {
+          "name": "Francis Y. Yan",
+          "pid": "223/0843",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/xu",
+      "pages": "393-409",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/XuYY25"
+    },
+    {
+      "title": "Quantum Virtual Machines",
+      "authors": [
+        {
+          "name": "Runzhou Tao 0001",
+          "pid": "228/8097-1",
+          "orcid": null
+        },
+        {
+          "name": "Hongzheng Zhu",
+          "pid": "290/4708",
+          "orcid": null
+        },
+        {
+          "name": "Jason Nieh",
+          "pid": "n/JasonNieh",
+          "orcid": null
+        },
+        {
+          "name": "Jianan Yao",
+          "pid": "249/4224",
+          "orcid": null
+        },
+        {
+          "name": "Ronghui Gu",
+          "pid": "155/8148",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/tao",
+      "pages": "411-428",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/TaoZNYG25"
+    },
+    {
+      "title": "QOS: Quantum Operating System",
+      "authors": [
+        {
+          "name": "Emmanouil Giortamis",
+          "pid": "354/5235",
+          "orcid": null
+        },
+        {
+          "name": "Francisco Romão",
+          "pid": "381/4551",
+          "orcid": null
+        },
+        {
+          "name": "Nathaniel Tornow",
+          "pid": "354/5466",
+          "orcid": null
+        },
+        {
+          "name": "Pramod Bhatotia",
+          "pid": "35/8319",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/giortamis",
+      "pages": "429-447",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/GiortamisRTB25"
+    },
+    {
+      "title": "Scalio: Scaling up DPU-based JBOF Key-value Store with NVMe-oF Target Offload",
+      "authors": [
+        {
+          "name": "Xun Sun",
+          "pid": "50/8086",
+          "orcid": null
+        },
+        {
+          "name": "Mingxing Zhang",
+          "pid": "153/5382",
+          "orcid": null
+        },
+        {
+          "name": "Yingdi Shan",
+          "pid": "304/2509",
+          "orcid": null
+        },
+        {
+          "name": "Kang Chen 0001",
+          "pid": "91/6670-1",
+          "orcid": null
+        },
+        {
+          "name": "Jinlei Jiang",
+          "pid": "56/5843",
+          "orcid": null
+        },
+        {
+          "name": "Yongwei Wu 0001",
+          "pid": "38/880",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/sun",
+      "pages": "449-464",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/SunZSCJ025"
+    },
+    {
+      "title": "Low End-to-End Latency atop a Speculative Shared Log with Fix-Ante Ordering",
+      "authors": [
+        {
+          "name": "Shreesha G. Bhat",
+          "pid": "303/1644",
+          "orcid": null
+        },
+        {
+          "name": "Tony Hong",
+          "pid": "165/6136",
+          "orcid": null
+        },
+        {
+          "name": "Xuhao Luo",
+          "pid": "299/1745",
+          "orcid": null
+        },
+        {
+          "name": "Jiyu Hu",
+          "pid": "286/5247",
+          "orcid": null
+        },
+        {
+          "name": "Aishwarya Ganesan",
+          "pid": "150/3388",
+          "orcid": null
+        },
+        {
+          "name": "Ramnatthan Alagappan",
+          "pid": "154/0847",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/bhat",
+      "pages": "465-481",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/BhatHLHGA25"
+    },
+    {
+      "title": "Understanding Stragglers in Large Model Training Using What-if Analysis",
+      "authors": [
+        {
+          "name": "Jinkun Lin",
+          "pid": "78/2101",
+          "orcid": null
+        },
+        {
+          "name": "Ziheng Jiang",
+          "pid": "14/8980",
+          "orcid": null
+        },
+        {
+          "name": "Zuquan Song",
+          "pid": "379/6912",
+          "orcid": null
+        },
+        {
+          "name": "Sida Zhao",
+          "pid": "325/6667",
+          "orcid": null
+        },
+        {
+          "name": "Menghan Yu",
+          "pid": "329/8443",
+          "orcid": null
+        },
+        {
+          "name": "Zhanghan Wang",
+          "pid": "390/1027",
+          "orcid": null
+        },
+        {
+          "name": "Chenyuan Wang",
+          "pid": "124/4850",
+          "orcid": null
+        },
+        {
+          "name": "Zuocheng Shi",
+          "pid": "348/6420",
+          "orcid": null
+        },
+        {
+          "name": "Xiang Shi",
+          "pid": "129/9008",
+          "orcid": null
+        },
+        {
+          "name": "Wei Jia",
+          "pid": "43/1191",
+          "orcid": null
+        },
+        {
+          "name": "Zherui Liu",
+          "pid": "302/4620",
+          "orcid": null
+        },
+        {
+          "name": "Shuguang Wang",
+          "pid": "22/2874",
+          "orcid": null
+        },
+        {
+          "name": "Haibin Lin",
+          "pid": "142/1829",
+          "orcid": null
+        },
+        {
+          "name": "Xin Liu 0086",
+          "pid": "76/1820-86",
+          "orcid": null
+        },
+        {
+          "name": "Aurojit Panda",
+          "pid": "55/925",
+          "orcid": null
+        },
+        {
+          "name": "Jinyang Li 0001",
+          "pid": "79/572-1",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/lin-jinkun",
+      "pages": "483-498",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/LinJSZYWWSSJLWL25"
+    },
+    {
+      "title": "Fork in the Road: Reflections and Optimizations for Cold Start Latency in Production Serverless Systems",
+      "authors": [
+        {
+          "name": "Xiaohu Chai",
+          "pid": "299/0753",
+          "orcid": null
+        },
+        {
+          "name": "Tianyu Zhou",
+          "pid": "139/8092",
+          "orcid": null
+        },
+        {
+          "name": "Keyang Hu",
+          "pid": "336/0580",
+          "orcid": null
+        },
+        {
+          "name": "Jianfeng Tan",
+          "pid": "140/9465",
+          "orcid": null
+        },
+        {
+          "name": "Tiwei Bie",
+          "pid": "378/5828",
+          "orcid": null
+        },
+        {
+          "name": "Anqi Shen",
+          "pid": "246/6277",
+          "orcid": null
+        },
+        {
+          "name": "Dawei Shen",
+          "pid": "71/442",
+          "orcid": null
+        },
+        {
+          "name": "Qi Xing",
+          "pid": "15/3596",
+          "orcid": null
+        },
+        {
+          "name": "Shun Song",
+          "pid": "163/3506",
+          "orcid": null
+        },
+        {
+          "name": "Tongkai Yang",
+          "pid": "406/3347",
+          "orcid": null
+        },
+        {
+          "name": "Le Gao",
+          "pid": "04/2788",
+          "orcid": null
+        },
+        {
+          "name": "Feng Yu",
+          "pid": "28/1708",
+          "orcid": null
+        },
+        {
+          "name": "Zhengyu He",
+          "pid": "79/7449",
+          "orcid": null
+        },
+        {
+          "name": "Dong Du 0003",
+          "pid": "48/331-3",
+          "orcid": null
+        },
+        {
+          "name": "Yubin Xia",
+          "pid": "01/615",
+          "orcid": null
+        },
+        {
+          "name": "Kang Chen 0001",
+          "pid": "91/6670-1",
+          "orcid": null
+        },
+        {
+          "name": "Yu Chen 0004",
+          "pid": "87/1254-4",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/chai-xiaohu",
+      "pages": "199-218",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ChaiZHTBSSXSYGY25"
+    },
+    {
+      "title": "Kamino: Efficient VM Allocation at Scale with Latency-Driven Cache-Aware Scheduling",
+      "authors": [
+        {
+          "name": "David Domingo",
+          "pid": "89/8834",
+          "orcid": null
+        },
+        {
+          "name": "Hugo Barbalho",
+          "pid": "136/0595",
+          "orcid": null
+        },
+        {
+          "name": "Marco Molinaro 0004",
+          "pid": "378/9744",
+          "orcid": null
+        },
+        {
+          "name": "Kuan Liu",
+          "pid": "139/1321",
+          "orcid": null
+        },
+        {
+          "name": "Abhisek Pan",
+          "pid": "15/5427",
+          "orcid": null
+        },
+        {
+          "name": "David Dion",
+          "pid": "283/7636",
+          "orcid": null
+        },
+        {
+          "name": "Thomas Moscibroda",
+          "pid": "m/ThomasMoscibroda",
+          "orcid": null
+        },
+        {
+          "name": "Sudarsun Kannan",
+          "pid": "82/9936",
+          "orcid": null
+        },
+        {
+          "name": "Ishai Menache",
+          "pid": "65/5280",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/domingo",
+      "pages": "519-535",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/DomingoB0LPDMKM25"
+    },
+    {
+      "title": "ZEN: Empowering Distributed Training with Sparsity-driven Data Synchronization",
+      "authors": [
+        {
+          "name": "Zhuang Wang",
+          "pid": "04/6982",
+          "orcid": null
+        },
+        {
+          "name": "Zhaozhuo Xu",
+          "pid": "195/4352",
+          "orcid": null
+        },
+        {
+          "name": "Jingyi Xi",
+          "pid": "366/8100",
+          "orcid": null
+        },
+        {
+          "name": "Yuke Wang",
+          "pid": "85/4549",
+          "orcid": null
+        },
+        {
+          "name": "Anshumali Shrivastava",
+          "pid": "63/9828",
+          "orcid": null
+        },
+        {
+          "name": "T. S. Eugene Ng",
+          "pid": "35/2683",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/wang-zhuang",
+      "pages": "537-556",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/WangXXWSN25"
+    },
+    {
+      "title": "Extending Applications Safely and Efficiently",
+      "authors": [
+        {
+          "name": "Yusheng Zheng",
+          "pid": "330/3653",
+          "orcid": null
+        },
+        {
+          "name": "Tong Yu",
+          "pid": "32/1593",
+          "orcid": null
+        },
+        {
+          "name": "Yiwei Yang 0002",
+          "pid": "233/9195-2",
+          "orcid": null
+        },
+        {
+          "name": "Yanpeng Hu",
+          "pid": "13/10805",
+          "orcid": null
+        },
+        {
+          "name": "Xiaozheng Lai",
+          "pid": "335/8375",
+          "orcid": null
+        },
+        {
+          "name": "Dan Williams 0001",
+          "pid": "96/2005",
+          "orcid": null
+        },
+        {
+          "name": "Andi Quinn",
+          "pid": "410/1081",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/zheng-yusheng",
+      "pages": "557-574",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ZhengY0HL0Q25"
+    },
+    {
+      "title": "Tintin: A Unified Hardware Performance Profiling Infrastructure to Uncover and Manage Uncertainty",
+      "authors": [
+        {
+          "name": "Ao Li 0006",
+          "pid": "54/2788-6",
+          "orcid": null
+        },
+        {
+          "name": "Marion Sudvarg",
+          "pid": "300/9141",
+          "orcid": null
+        },
+        {
+          "name": "Zihan Li",
+          "pid": "233/6392",
+          "orcid": null
+        },
+        {
+          "name": "Sanjoy K. Baruah",
+          "pid": "b/SKBaruah",
+          "orcid": null
+        },
+        {
+          "name": "Chris Gill 0001",
+          "pid": "51/3192",
+          "orcid": null
+        },
+        {
+          "name": "Ning Zhang 0017",
+          "pid": "181/2597-17",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/li",
+      "pages": "575-593",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/0006SLB0025"
+    },
+    {
+      "title": "Building Bridges: Safe Interactions with Foreign Languages through Omniglot",
+      "authors": [
+        {
+          "name": "Leon Schuermann",
+          "pid": "359/0002",
+          "orcid": null
+        },
+        {
+          "name": "Jack Toubes",
+          "pid": "411/1735",
+          "orcid": null
+        },
+        {
+          "name": "Tyler Potyondy",
+          "pid": "411/1695",
+          "orcid": null
+        },
+        {
+          "name": "Pat Pannuto",
+          "pid": "86/11187",
+          "orcid": null
+        },
+        {
+          "name": "Mae Milano",
+          "pid": "321/0647",
+          "orcid": null
+        },
+        {
+          "name": "Amit Levy 0001",
+          "pid": "68/8881",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/schuermann",
+      "pages": "595-613",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/SchuermannTPPML25"
+    },
+    {
+      "title": "KRR: Efficient and Scalable Kernel Record Replay",
+      "authors": [
+        {
+          "name": "Tianren Zhang",
+          "pid": "259/4973",
+          "orcid": null
+        },
+        {
+          "name": "Sishuai Gong",
+          "pid": "290/7801",
+          "orcid": null
+        },
+        {
+          "name": "Pedro Fonseca 0001",
+          "pid": "11/3119-1",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/zhang-tianren",
+      "pages": "615-632",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ZhangG025"
+    },
+    {
+      "title": "Deterministic Client: Enforcing Determinism on Untrusted Machine Code",
+      "authors": [
+        {
+          "name": "Zachary Yedidia",
+          "pid": "260/0896",
+          "orcid": null
+        },
+        {
+          "name": "Geoffrey Ramseyer",
+          "pid": "250/2644",
+          "orcid": null
+        },
+        {
+          "name": "David Mazières",
+          "pid": "m/DMazieres",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/yedidia",
+      "pages": "633-649",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/YedidiaRM25"
+    },
+    {
+      "title": "Disentangling the Dual Role of NIC Receive Rings",
+      "authors": [
+        {
+          "name": "Boris Pismenny",
+          "pid": "241/5842",
+          "orcid": null
+        },
+        {
+          "name": "Adam Morrison 0001",
+          "pid": "40/944",
+          "orcid": null
+        },
+        {
+          "name": "Dan Tsafrir",
+          "pid": "26/914",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/pismenny",
+      "pages": "651-669",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/Pismenny0T25"
+    },
+    {
+      "title": "XSched: Preemptive Scheduling for Diverse XPUs",
+      "authors": [
+        {
+          "name": "Weihang Shen",
+          "pid": "232/7538",
+          "orcid": null
+        },
+        {
+          "name": "Mingcong Han",
+          "pid": "286/1961",
+          "orcid": null
+        },
+        {
+          "name": "Jialong Liu",
+          "pid": "179/1693",
+          "orcid": null
+        },
+        {
+          "name": "Rong Chen 0001",
+          "pid": "22/6904-1",
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "pid": "31/6601-1",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/shen-weihang",
+      "pages": "671-692",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ShenHL0025"
+    },
+    {
+      "title": "OS Rendering Service Made Parallel with Out-of-Order Execution and In-Order Commit",
+      "authors": [
+        {
+          "name": "Yuanpei Wu",
+          "pid": "398/0487",
+          "orcid": null
+        },
+        {
+          "name": "Chao Xu",
+          "pid": "79/1442",
+          "orcid": null
+        },
+        {
+          "name": "Yubin Xia",
+          "pid": "01/615",
+          "orcid": null
+        },
+        {
+          "name": "Yang Yu 0002",
+          "pid": "46/2181-2",
+          "orcid": null
+        },
+        {
+          "name": "Ming Fu",
+          "pid": "33/5051",
+          "orcid": null
+        },
+        {
+          "name": "Binyu Zang",
+          "pid": "86/680",
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "pid": "31/6601-1",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/wu-yuanpei",
+      "pages": "693-710",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/WuXXYFZ025"
+    },
+    {
+      "title": "EMT: An OS Framework for New Memory Translation Architectures",
+      "authors": [
+        {
+          "name": "Siyuan Chai 0001",
+          "pid": "314/7076-1",
+          "orcid": null
+        },
+        {
+          "name": "Jiyuan Zhang 0003",
+          "pid": "93/7807-3",
+          "orcid": null
+        },
+        {
+          "name": "Jongyul Kim 0001",
+          "pid": "206/4548",
+          "orcid": null
+        },
+        {
+          "name": "Alan Wang",
+          "pid": "03/5773",
+          "orcid": null
+        },
+        {
+          "name": "Fan Chung",
+          "pid": "c/FRKChung",
+          "orcid": null
+        },
+        {
+          "name": "Jovan Stojkovic",
+          "pid": "252/3245",
+          "orcid": null
+        },
+        {
+          "name": "Weiwei Jia 0001",
+          "pid": "61/9959-1",
+          "orcid": null
+        },
+        {
+          "name": "Dimitrios Skarlatos 0002",
+          "pid": "191/7793-2",
+          "orcid": null
+        },
+        {
+          "name": "Josep Torrellas",
+          "pid": "t/JosepTorrellas",
+          "orcid": null
+        },
+        {
+          "name": "Tianyin Xu",
+          "pid": "90/7566",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/chai-siyuan",
+      "pages": "711-729",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/Chai00WCS00TX25"
+    },
+    {
+      "title": "Tiered Memory Management Beyond Hotness",
+      "authors": [
+        {
+          "name": "Jinshu Liu",
+          "pid": "322/1606",
+          "orcid": null
+        },
+        {
+          "name": "Hamid Hadian",
+          "pid": "312/7405",
+          "orcid": null
+        },
+        {
+          "name": "Hanchen Xu",
+          "pid": "169/2581",
+          "orcid": null
+        },
+        {
+          "name": "Huaicheng Li",
+          "pid": "197/7182",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/liu",
+      "pages": "731-747",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/LiuHXL25"
+    },
+    {
+      "title": "NanoFlow: Towards Optimal Large Language Model Serving Throughput",
+      "authors": [
+        {
+          "name": "Kan Zhu",
+          "pid": "175/1387",
+          "orcid": null
+        },
+        {
+          "name": "Yufei Gao",
+          "pid": "215/6517",
+          "orcid": null
+        },
+        {
+          "name": "Yilong Zhao 0002",
+          "pid": "152/7119-2",
+          "orcid": null
+        },
+        {
+          "name": "Liangyu Zhao",
+          "pid": "33/1876",
+          "orcid": null
+        },
+        {
+          "name": "Gefei Zuo",
+          "pid": "220/6764",
+          "orcid": null
+        },
+        {
+          "name": "Yile Gu",
+          "pid": "279/3815",
+          "orcid": null
+        },
+        {
+          "name": "Dedong Xie",
+          "pid": "328/0339",
+          "orcid": null
+        },
+        {
+          "name": "Zihao Ye 0001",
+          "pid": "126/0507-1",
+          "orcid": null
+        },
+        {
+          "name": "Keisuke Kamahori",
+          "pid": "322/4208",
+          "orcid": null
+        },
+        {
+          "name": "Chien-Yu Lin",
+          "pid": "73/2438",
+          "orcid": null
+        },
+        {
+          "name": "Ziren Wang",
+          "pid": "12/4185",
+          "orcid": null
+        },
+        {
+          "name": "Stephanie Wang",
+          "pid": "175/6757",
+          "orcid": null
+        },
+        {
+          "name": "Arvind Krishnamurthy",
+          "pid": "k/AKrishnamurthy",
+          "orcid": null
+        },
+        {
+          "name": "Baris Kasikci",
+          "pid": "31/11029",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/zhu-kan",
+      "pages": "749-765",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ZhuGZZZGX0KLWWK25"
+    },
+    {
+      "title": "PipeThreader: Software-Defined Pipelining for Efficient DNN Execution",
+      "authors": [
+        {
+          "name": "Yu Cheng 0030",
+          "pid": "96/3060-30",
+          "orcid": null
+        },
+        {
+          "name": "Lei Wang 0222",
+          "pid": "181/2817-222",
+          "orcid": null
+        },
+        {
+          "name": "Yining Shi 0001",
+          "pid": "161/3927-1",
+          "orcid": null
+        },
+        {
+          "name": "Yuqing Xia",
+          "pid": "211/8365",
+          "orcid": null
+        },
+        {
+          "name": "Lingxiao Ma",
+          "pid": "57/3203",
+          "orcid": null
+        },
+        {
+          "name": "Jilong Xue",
+          "pid": "06/10336",
+          "orcid": null
+        },
+        {
+          "name": "Yang Wang 0053",
+          "pid": "w/YangWang53",
+          "orcid": null
+        },
+        {
+          "name": "Zhiwen Mo",
+          "pid": "99/3235",
+          "orcid": null
+        },
+        {
+          "name": "Feiyang Chen",
+          "pid": "41/10690",
+          "orcid": null
+        },
+        {
+          "name": "Fan Yang 0024",
+          "pid": "29/3081-24",
+          "orcid": null
+        },
+        {
+          "name": "Mao Yang 0004",
+          "pid": "89/1482-4",
+          "orcid": null
+        },
+        {
+          "name": "Zhi Yang 0001",
+          "pid": "90/5587-1",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/cheng",
+      "pages": "767-783",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ChengW0XMXWMC0025"
+    },
+    {
+      "title": "WLB-LLM: Workload-Balanced 4D Parallelism for Large Language Model Training",
+      "authors": [
+        {
+          "name": "Zheng Wang 0075",
+          "pid": "181/2834-75",
+          "orcid": null
+        },
+        {
+          "name": "Anna Cai",
+          "pid": "295/9845",
+          "orcid": null
+        },
+        {
+          "name": "Xinfeng Xie",
+          "pid": "145/6282",
+          "orcid": null
+        },
+        {
+          "name": "Zaifeng Pan",
+          "pid": "294/8391",
+          "orcid": null
+        },
+        {
+          "name": "Yue Guan 0003",
+          "pid": "54/7820-3",
+          "orcid": null
+        },
+        {
+          "name": "Weiwei Chu",
+          "pid": "125/6028",
+          "orcid": null
+        },
+        {
+          "name": "Jie Wang 0022",
+          "pid": "29/5259-22",
+          "orcid": null
+        },
+        {
+          "name": "Shikai Li",
+          "pid": "166/3368",
+          "orcid": null
+        },
+        {
+          "name": "Jianyu Huang",
+          "pid": "138/1840",
+          "orcid": null
+        },
+        {
+          "name": "Chris Cai",
+          "pid": "359/6979",
+          "orcid": null
+        },
+        {
+          "name": "Yuchen Hao",
+          "pid": "124/7209",
+          "orcid": null
+        },
+        {
+          "name": "Yufei Ding 0001",
+          "pid": "127/9591",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/wang-zheng",
+      "pages": "785-801",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/0075CXPGC0LHCH025"
+    },
+    {
+      "title": "DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization",
+      "authors": [
+        {
+          "name": "Yeonhong Park",
+          "pid": "259/2571",
+          "orcid": null
+        },
+        {
+          "name": "Jake Hyun",
+          "pid": "354/6116",
+          "orcid": null
+        },
+        {
+          "name": "Hojoon Kim",
+          "pid": "216/1184",
+          "orcid": null
+        },
+        {
+          "name": "Jae W. Lee",
+          "pid": "21/4685",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/park-yeonhong",
+      "pages": "803-819",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ParkHKL25"
+    },
+    {
+      "title": "Stripeless Data Placement for Erasure-Coded In-Memory Storage",
+      "authors": [
+        {
+          "name": "Jian Gao",
+          "pid": "02/563",
+          "orcid": null
+        },
+        {
+          "name": "Jiwu Shu",
+          "pid": "60/3690",
+          "orcid": null
+        },
+        {
+          "name": "Bin Yan",
+          "pid": "92/786",
+          "orcid": null
+        },
+        {
+          "name": "Yuhao Zhang 0006",
+          "pid": "139/5876-6",
+          "orcid": null
+        },
+        {
+          "name": "Keji Huang",
+          "pid": "298/5291",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/gao",
+      "pages": "821-838",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/GaoSY0H25"
+    },
+    {
+      "title": "PoWER Never Corrupts: Tool-Agnostic Verification of Crash Consistency and Corruption Detection",
+      "authors": [
+        {
+          "name": "Hayley LeBlanc",
+          "pid": "261/5084",
+          "orcid": null
+        },
+        {
+          "name": "Jacob R. Lorch",
+          "pid": "25/3228",
+          "orcid": null
+        },
+        {
+          "name": "Chris Hawblitzel",
+          "pid": "22/3053",
+          "orcid": null
+        },
+        {
+          "name": "Cheng Huang",
+          "pid": "83/5898",
+          "orcid": null
+        },
+        {
+          "name": "Yiheng Tao",
+          "pid": "382/6723",
+          "orcid": null
+        },
+        {
+          "name": "Nickolai Zeldovich",
+          "pid": "99/5780",
+          "orcid": null
+        },
+        {
+          "name": "Vijay Chidambaram",
+          "pid": "07/10563",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/leblanc",
+      "pages": "839-857",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/LeBlancLHHTZC25"
+    },
+    {
+      "title": "Fast and Synchronous Crash Consistency with Metadata Write-Once File System",
+      "authors": [
+        {
+          "name": "Yanqi Pan",
+          "pid": "330/1367",
+          "orcid": null
+        },
+        {
+          "name": "Wen Xia",
+          "pid": "119/2655",
+          "orcid": null
+        },
+        {
+          "name": "Yifeng Zhang",
+          "pid": "88/2666",
+          "orcid": null
+        },
+        {
+          "name": "Xiangyu Zou",
+          "pid": "240/2218",
+          "orcid": null
+        },
+        {
+          "name": "Hao Huang",
+          "pid": "04/5616",
+          "orcid": null
+        },
+        {
+          "name": "Zhenhua Li 0001",
+          "pid": "61/1951-1",
+          "orcid": null
+        },
+        {
+          "name": "Chentao Wu",
+          "pid": "55/8165",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/pan",
+      "pages": "859-878",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/PanXZZH0W25"
+    },
+    {
+      "title": "Decentralized, Epoch-based F2FS Journaling with Fine-grained Crash Recovery",
+      "authors": [
+        {
+          "name": "Yaotian Cui",
+          "pid": "357/2667",
+          "orcid": null
+        },
+        {
+          "name": "Zhiqi Wang",
+          "pid": "19/4423",
+          "orcid": null
+        },
+        {
+          "name": "Renhai Chen",
+          "pid": "119/3383",
+          "orcid": null
+        },
+        {
+          "name": "Zili Shao",
+          "pid": "08/6845",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/cui",
+      "pages": "879-895",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/CuiWCS25"
+    },
+    {
+      "title": "Okapi: Decoupling Data Striping and Redundancy Grouping in Cluster File Systems",
+      "authors": [
+        {
+          "name": "Sanjith Athlur",
+          "pid": "305/7929",
+          "orcid": null
+        },
+        {
+          "name": "Timothy Kim",
+          "pid": "22/7220",
+          "orcid": null
+        },
+        {
+          "name": "Saurabh Kadekodi",
+          "pid": "165/3373",
+          "orcid": null
+        },
+        {
+          "name": "Francisco Maturana",
+          "pid": "182/9619",
+          "orcid": null
+        },
+        {
+          "name": "Xavier Ramos",
+          "pid": "210/1332",
+          "orcid": null
+        },
+        {
+          "name": "Arif Merchant",
+          "pid": "40/3294",
+          "orcid": null
+        },
+        {
+          "name": "K. V. Rashmi",
+          "pid": "40/7113",
+          "orcid": null
+        },
+        {
+          "name": "Gregory R. Ganger",
+          "pid": "g/GregoryRGanger",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/athlur",
+      "pages": "897-914",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/AthlurKKMRMRG25"
+    },
+    {
+      "title": "Compass: Encrypted Semantic Search with High Accuracy",
+      "authors": [
+        {
+          "name": "Jinhao Zhu",
+          "pid": "239/8352",
+          "orcid": null
+        },
+        {
+          "name": "Liana Patel",
+          "pid": "284/0680",
+          "orcid": null
+        },
+        {
+          "name": "Matei Zaharia",
+          "pid": "36/2133",
+          "orcid": null
+        },
+        {
+          "name": "Raluca Ada Popa",
+          "pid": "91/275",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/zhu-jinhao",
+      "pages": "915-938",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/ZhuPZP25"
+    },
+    {
+      "title": "Weave: Efficient and Expressive Oblivious Analytics at Scale",
+      "authors": [
+        {
+          "name": "Mahdi Soleimani",
+          "pid": "252/5563",
+          "orcid": null
+        },
+        {
+          "name": "Grace Jia",
+          "pid": "356/8580",
+          "orcid": null
+        },
+        {
+          "name": "Anurag Khandelwal",
+          "pid": "162/1936",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/soleimani",
+      "pages": "939-955",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/SoleimaniJK25"
+    },
+    {
+      "title": "Paralegal: Practical Static Analysis for Privacy Bugs",
+      "authors": [
+        {
+          "name": "Justus Adam",
+          "pid": "214/7076",
+          "orcid": null
+        },
+        {
+          "name": "Carolyn Zech",
+          "pid": "411/1737",
+          "orcid": null
+        },
+        {
+          "name": "Livia Zhu",
+          "pid": "411/1725",
+          "orcid": null
+        },
+        {
+          "name": "Sreshtaa Rajesh",
+          "pid": "370/1980",
+          "orcid": null
+        },
+        {
+          "name": "Nathan Harbison",
+          "pid": "411/1728",
+          "orcid": null
+        },
+        {
+          "name": "Mithi Jethwa",
+          "pid": "411/1740",
+          "orcid": null
+        },
+        {
+          "name": "Will Crichton",
+          "pid": "220/4220",
+          "orcid": null
+        },
+        {
+          "name": "Shriram Krishnamurthi",
+          "pid": "k/SKrishnamurthi",
+          "orcid": null
+        },
+        {
+          "name": "Malte Schwarzkopf",
+          "pid": "49/7988",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/adam",
+      "pages": "957-978",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/AdamZZRHJCKS25"
+    },
+    {
+      "title": "MettEagle: Costs and Benefits of Implementing Containers on Microkernels",
+      "authors": [
+        {
+          "name": "Till Miemietz",
+          "pid": "262/6695",
+          "orcid": null
+        },
+        {
+          "name": "Viktor Reusch",
+          "pid": "309/6947",
+          "orcid": null
+        },
+        {
+          "name": "Matthias Hille",
+          "pid": "147/1188",
+          "orcid": null
+        },
+        {
+          "name": "Lars Wrenger",
+          "pid": "351/5664",
+          "orcid": null
+        },
+        {
+          "name": "Jana Eisoldt",
+          "pid": "394/9984",
+          "orcid": null
+        },
+        {
+          "name": "Jan Klötzke",
+          "pid": "411/1738",
+          "orcid": null
+        },
+        {
+          "name": "Max Kurze",
+          "pid": "390/3553",
+          "orcid": null
+        },
+        {
+          "name": "Adam Lackorzynski",
+          "pid": "88/1473",
+          "orcid": null
+        },
+        {
+          "name": "Michael Roitzsch",
+          "pid": "18/2206",
+          "orcid": null
+        },
+        {
+          "name": "Hermann Härtig",
+          "pid": "h/HHartig",
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://www.usenix.org/conference/osdi25/presentation/miemietz",
+      "pages": "979-996",
+      "source": "dblp",
+      "dblp_paper_key": "conf/osdi/MiemietzRHWEKKL25"
+    }
+  ]
+}
