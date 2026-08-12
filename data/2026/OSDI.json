@@ -1,0 +1,7790 @@
+{
+  "meta": {
+    "venue": "OSDI",
+    "year": 2026,
+    "source_keys": [
+      "conf/osdi/osdi2026"
+    ],
+    "paper_count": 136,
+    "note": null,
+    "updated": "2026-08-12"
+  },
+  "papers": [
+    {
+      "title": "Strata: Hierarchical Context Caching for Long Context Language Model Serving",
+      "authors": [
+        {
+          "name": "Zhiqiang Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ziyi Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mark Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuwei An",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Vikram Sharma Mailthody",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Scott Mahlke",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael Garland",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Christos Kozyrakis",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "ECHO: Efficient KV Cache Offloading with Lossless Prefetching for Serving Native Sparse Attention LLMs",
+      "authors": [
+        {
+          "name": "Guangda Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenhao Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chengwei Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenyu Ning",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jing Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yiwu Yao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Quan Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shixuan Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jieru Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Minyi Guo",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "No Buffer, No Bottleneck: Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs",
+      "authors": [
+        {
+          "name": "Shutian Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haiying Shen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Simple Is Better: Multiplication May Be All You Need for LLM Request Scheduling",
+      "authors": [
+        {
+          "name": "Dingyan Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinbo Han",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kaixi Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xingda Wei",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sijie Shen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenguang Fang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenyuan Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingren Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rong Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning",
+      "authors": [
+        {
+          "name": "Shan Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yifan Qiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingyuan Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yangmin Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuo Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xinyuan Tong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yang Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiqiang Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuwei An",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shiyi Cao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ke Bao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Deepak Vij",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaoning Ding",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yichen Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qingda Lu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhong Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Gao Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Harry Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junyi Shu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiarong Xing",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ying Sheng",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Break On Through to the Other Side: Pooling Memory Elastically with RamRyder",
+      "authors": [
+        {
+          "name": "Yanbo Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Erci Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dongjoo Seo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Adam Manzanares",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Steven Swanson",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "MAC: Metadata Acceleration for Sustainable Performance in Big-Data Systems with CXL DRAM",
+      "authors": [
+        {
+          "name": "Dusol Lee",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yan Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Houxiang Ji",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Vinit Gupta",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Austin Antony Cruz",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Inhyuk Choi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nam Sung Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jihong Kim",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Finding NEMO: Nimble and Expressive Memory Observability",
+      "authors": [
+        {
+          "name": "Shihang Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Matthew Giordano",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tushar Garg",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rohan Kadekodi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Daniel S. Berger",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Baris Kasikci",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Thomas Anderson",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Simon Peter",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "OBASE: Object-Based Address-Space Engineering to Improve Memory Tiering",
+      "authors": [
+        {
+          "name": "Vinay Banakar",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Suli Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kan Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Andrea C. Arpaci-Dusseau",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Remzi H. Arpaci-Dusseau",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kimberly Keeton",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "MDK: Rethinking the Data Center Memory Reclamation Problem",
+      "authors": [
+        {
+          "name": "Shaurya Patel",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Suli Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yawen Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kan Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Alexandra (Sasha) Fedorova",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Margo Seltzer",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kimberly Keeton",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "USEC: A User-Requirement-Driven Mandatory Access Control Framework for Operating Systems (Operational Systems)",
+      "authors": [
+        {
+          "name": "Yu Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenhuan Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fuchen Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuheng Shen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuanliang Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lei Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "He Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Quan Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chijin Zhou",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+      "authors": [
+        {
+          "name": "Abhishek Sharma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Anand Balaji",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zachary Yedidia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Anthony Du",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Taehyun Noh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Iain Ireland",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jan de Mooij",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Matthew Gaudet",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tal Garfinkel",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Deian Stefan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hovav Shacham",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shravan Narayan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Ichnaea: A Framework for Precise Tracking of Memory Objects",
+      "authors": [
+        {
+          "name": "Samad Haque",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sibin Mohan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aaron Paulos",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Partha Pal",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Extracting Database Access-Control Policies from Web Applications",
+      "authors": [
+        {
+          "name": "Wen Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dev Bali",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jamison Kerney",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aurojit Panda",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Scott Shenker",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "iLand: An Instruction-Level Dynamic Binary Instrumentation Framework for iOS",
+      "authors": [
+        {
+          "name": "Kaitao Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yizhuo Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaolong Bai",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Tessera: A Holistic Pipeline Parallelism Framework for Trillion-Parameter Heterogeneous MoE Training (Operational Systems)",
+      "authors": [
+        {
+          "name": "Weifang Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Langshi Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Man Yuan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youyang Yao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiulong Yuan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Li Tian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yong Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wei Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xuanhua Shi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhengping Qian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingren Zhou",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Hetu v2: A General and Scalable Deep Learning System with Hierarchical and Heterogeneous Single Program Multiple Data Annotations",
+      "authors": [
+        {
+          "name": "Haoyang Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fangcheng Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Ge",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sheng Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xuanyu Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiawen Niu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuming Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xupeng Miao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bin Cui",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Syncopate: Efficient Multi-GPU AI Kernels via Automatic Chunk-Centric Compute-Communication Overlap",
+      "authors": [
+        {
+          "name": "Xinwei Qiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yue Guan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhengding Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Keren Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yufei Ding",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Adnan Aziz",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training (Operational Systems)",
+      "authors": [
+        {
+          "name": "Luofan Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenhan Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weidong Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinxin Chi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hequan Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zanbo Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenyuan Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lishu Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sijin Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junqi Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jun Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Cheng Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lixin Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Liyang Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yong Tian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jun Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youhui Bai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wencong Xiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kang Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Cheng Li",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Cocoon: A System Architecture for Differentially Private Training with Correlated Noises",
+      "authors": [
+        {
+          "name": "Donghwan Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xin Gu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinho Baek",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Timothy Lo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Younghoon Min",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kwangsik Shin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jongryool Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jongse Park",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kiwan Maeng",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "ValScope: Value-Semantics-Aware Metamorphic Testing for Detecting Logical Bugs in DBMSs",
+      "authors": [
+        {
+          "name": "Li Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Liehang Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rongxin Wu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "The Abstention Protocol: RCA for Clos Fabrics (Operational Systems)",
+      "authors": [
+        {
+          "name": "Madhava Gaikwad",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Deepak Pandey",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "When Sampling Lies: Trustworthy Performance Profiling for Flat Workloads with Blink (Operational Systems)",
+      "authors": [
+        {
+          "name": "Rishikesh Devsot",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "ChenXing Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yi Fan Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Prabhdeep Singh Soni",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Afshin Arefi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bryan Chan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Reza Azimi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ding Yuan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Breaking the Reward Barrier: Accelerating Tree-of-Thought Reasoning via Speculative Exploration",
+      "authors": [
+        {
+          "name": "Shuzhang Zhong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haochen Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shengxuan Qiu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pengfei Zuo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Runsheng Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Meng Li",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Controlling Opaque-Component Effects with Semisolates and Try",
+      "authors": [
+        {
+          "name": "Evangelos Lamprou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianyu (Ezri) Zhu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Di Jin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Grigoris Ntousakis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Georgios Liargkovas",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Calvin Eng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Konstantinos Kallas",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael Greenberg",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nikos Vasilakis",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "SBB: Eliminating Centralized Bottlenecks in Userspace Network Runtime",
+      "authors": [
+        {
+          "name": "Kang Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuqi Dong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chuandong Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ran Yi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zonghao Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yiming Yao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bo An",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jie Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaolin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yingwei Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenlin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Diyu Zhou",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Rakaia: Scalable In-Kernel Scheduling for TCP-Based RPCs",
+      "authors": [
+        {
+          "name": "Rui Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Konstantinos Prasopoulos",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Edouard Bugnion",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "kSTEP: Characterization and Deterministic Testing of Linux CPU Scheduler Bugs",
+      "authors": [
+        {
+          "name": "Tingjia Cao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shawn (Wanxiang) Zhong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Caeden Whitaker",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ke Han",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Andrea C. Arpaci-Dusseau",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Remzi H. Arpaci-Dusseau",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "What Are You (M)Waiting For: The Hidden Cost of Idle in the Hyperscale Cloud (Operational Systems)",
+      "authors": [
+        {
+          "name": "Yun Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xingguo Jia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ben Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kenan Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shengdong Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingdong Han",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weihao Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yicheng Gu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xingzi Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yibin Shen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiesheng Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhengwei Qi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibing Guan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Xkernel: Principled Performance Tunability of Operating System Kernels",
+      "authors": [
+        {
+          "name": "Zhongjie Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wentao Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yulong Tang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ran Shu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fengyuan Ren",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianyin Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jing Liu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms",
+      "authors": [
+        {
+          "name": "Gohar Irfan Chaudhry",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Esha Choukse",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haoran Qiu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Íñigo Goiri",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rodrigo Fonseca",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Adam Belay",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ricardo Bianchini",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "ECO: An AI-Driven Code Efficiency Optimizer for Warehouse Scale Computers (Operational Systems)",
+      "authors": [
+        {
+          "name": "Hannah Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Martin Maas",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Maximilian Roquemore",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Arman Hasanzadeh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fred Lewis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yusuf Simonson",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ameya Shringi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hongwen Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Patrick Musau",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tzu-Wei Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Amir Yazdanbakhsh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Deniz Altinbüken",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Florin Papa",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Maggie Nolan Edmonds",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aditya Patil",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Don Schwarz",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Satish Chandra",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chris Kennelly",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Milad Hashemi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Parthasarathy Ranganathan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "StriaTrace: Efficient Tracing and Diagnosis for Online LLM Inference (Operational Systems)",
+      "authors": [
+        {
+          "name": "Haonan Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yanqing Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kun Qian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xue Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingbo Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Erci Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ennan Zhai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenyuan Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guangtao Xue",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingren Zhou",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Diagnosing Performance Issues in Application-Defined Resources",
+      "authors": [
+        {
+          "name": "Yigong Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "You-Liang Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haodong Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yicheng Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dedong Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Baris Kasikci",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "hS: Speculative Script Reordering at Subprocess Granularity",
+      "authors": [
+        {
+          "name": "Georgios Liargkovas",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Di Jin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianyu (Ezri) Zhu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dan Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "A. Bolun Thompson",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Anirudh Narsipur",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Seong-Heon Jung",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Siddhartha Prasad",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Diomidis Spinellis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael Greenberg",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Konstantinos Kallas",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nikos Vasilakis",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Incr: Faster Re-Execution via Bolt-On Incrementalization",
+      "authors": [
+        {
+          "name": "Yizheng Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Evangelos Lamprou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jerry Xia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nikos Vasilakis",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "A Compilation-Based Under-Constrained Execution Engine",
+      "authors": [
+        {
+          "name": "Mingjun Yin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhaorui Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ju Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haochen Zeng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chengyu Song",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Aletheia: Automated Detection of Data Integrity Violations in Microservices",
+      "authors": [
+        {
+          "name": "Mafalda Sofia Ferreira",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "João Ferreira Loff",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "João Garcia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rodrigo Rodrigues",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Arctic: A Practical Lock-Free Adaptive Radix Tree",
+      "authors": [
+        {
+          "name": "Newton Ni",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nicolas Garza",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jenny Stinehour",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael Goppert",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michal Friedman",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Emmett Witchel",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Efficient and Scalable Synchronization via Generalized Cache Coherence",
+      "authors": [
+        {
+          "name": "Yanpeng Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Seung-seob Lee",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lin Zhong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Anurag Khandelwal",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Shaving the Peaks: Taming Tail Latency for Managed Workloads via Disaggregated Garbage Collection",
+      "authors": [
+        {
+          "name": "Hongtao Lyu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuhan Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingyu Wu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "DeLFS: A Decentralized Log-Structured File System for Manycores",
+      "authors": [
+        {
+          "name": "Taehwan Ahn",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chanhyeong Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sangjin Lee",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongseok Son",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Weave: Efficient Co-Scheduling for Disaggregated RL Post-Training",
+      "authors": [
+        {
+          "name": "Tianyuan Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lunxi Cao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yining Wei",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wei Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuheng Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dakai An",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shaopan Xiong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiqiang Lv",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ju Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Siran Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yinghao Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiamang Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lin Qu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wei Wang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "RLinf: Flexible and Efficient Large-Scale Reinforcement Learning via Macro-to-Micro Flow Transformation",
+      "authors": [
+        {
+          "name": "Chao Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuanqing Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhen Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Si Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hongzhi Zang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Quanlu Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongji Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chunyang Zhu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junhao Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zixiao Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingjie Wei",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuqing Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ke Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bo Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhexuan Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiakun Du",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiangyuan Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xu Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Letong Shi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhihao Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kang Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weilin Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Gang Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Boxun Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jianlei Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhi Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guohao Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Wang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "DynaRL: Flexible and Dynamic Scheduling of Large-Scale Reinforcement Learning Training",
+      "authors": [
+        {
+          "name": "Yuanqing Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junhao Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chunyang Zhu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Quanlu Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhen Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuchen Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xu Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Si Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bo Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zixiao Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chao Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Boxun Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guohao Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhi Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Wang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "RollArt: Disaggregated Multi-Task Agentic RL Training at Scale",
+      "authors": [
+        {
+          "name": "Wei Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuheng Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianyuan Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shaopan Xiong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weixun Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dakai An",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lunxi Cao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dilxat Muhtar",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zichen Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haizhou Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ju Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Siran Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongbin Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenbo Su",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiamang Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lin Qu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bo Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wei Wang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Seer: Online Context Learning for Fast Synchronous LLM Reinforcement Learning",
+      "authors": [
+        {
+          "name": "Ruoyu Qin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weiran He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weixiao Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yangkun Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yikai Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bo Pang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xinran Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yingdi Shan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongwei Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingxing Zhang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Harvesting Sub-Microsecond CXL Memory Stalls with LiteSwitch",
+      "authors": [
+        {
+          "name": "Nanqinqin Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuhong Zhong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Asaf Cidon",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael J. Freedman",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Duhu: Shared Disaggregated Memory for Distributed Data Processing Frameworks",
+      "authors": [
+        {
+          "name": "Qiutong Men",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tao Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jongryool Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hane (Stella) Yie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Emmanuel Amaro",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Marcos K. Aguilera",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aurojit Panda",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Blowfish: Elastic Virtual Machine Memory for Disaggregated Memory",
+      "authors": [
+        {
+          "name": "Yulong Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yilong Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Diyu Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Quan Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Quanxi Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mosong Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lei Zhu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Senbo Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qian Peng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Huimin Cui",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaobing Feng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tao Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenxi Wang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Espresso: Constructing Cost-Efficient CXL JBOF via Inter-SSD Computing Resource Sharing",
+      "authors": [
+        {
+          "name": "Shushu Yi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuda An",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Li Peng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiurui Pan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qiao Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jieming Yin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guangyan Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenfei Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenxi Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Diyu Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenlin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaolin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yingwei Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ke Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jie Zhang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "FORGE: Mitigating Synchronization Amplification for Memory-Disaggregated Caching Systems",
+      "authors": [
+        {
+          "name": "Zhijun Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Hua",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ming Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Menglei Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yixiao Wang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Accelerating Confidential Databases with Crypto-Free Mappings",
+      "authors": [
+        {
+          "name": "Wenxuan Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhanbo Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingyu Li",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "JANUS: Cross-World, Cooperative Nested Virtualization for Secure Containers",
+      "authors": [
+        {
+          "name": "Jiangshan Lai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hang Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Quan Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhen Ren",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenlong Hou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wei Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jia Rao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hui Lu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weidong Han",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiesheng Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiang Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Naixuan Guan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yibin Shen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Feng Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xu Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shiqiang Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiheng Tao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yisheng Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Song Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hai Jin",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Osprey: Transparent and Efficient Virtual Memory for Secure Computation",
+      "authors": [
+        {
+          "name": "Yicheng Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Alice Yeh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Harry Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Raluca Ada Popa",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sam Kumar",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Nested SEV: Secure and Generic SEV Support for Nested Virtualization",
+      "authors": [
+        {
+          "name": "Kazuki Takiguchi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kenichi Kourai",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "μUSB: Practical and Safe USB Driver Reuse for Arm TrustZone",
+      "authors": [
+        {
+          "name": "Xuankai Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sijin Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pei Meng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Meng Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongzhao Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ting Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaosong Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Liwei Guo",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Achieving Cloud-Grade SLOs for Local Mixture-of-Experts Inference through CPU–GPU Hybrid Design",
+      "authors": [
+        {
+          "name": "Wenxin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yule Hou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Ji",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Peng Qu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youhui Zhang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "UEP: Portable Expert-Parallel Communication",
+      "authors": [
+        {
+          "name": "Ziming Mao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yihan Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chihan Cui",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhen Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kaichao You",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhongjie Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiying Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenyu Gu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Scott Shenker",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Costin Raiciu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yang Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ion Stoica",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "BatchGen: An Architecture for Scalable and Efficient Batch Inference",
+      "authors": [
+        {
+          "name": "Tairan Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Leyang Xue",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhan Lu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinfu Deng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hongyang Xiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yinsicheng Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Congjie He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Matej Sandor",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Le Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Luo Mai",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "UCCL-Tran: An Extensible Software Transport Layer for GPU Networking",
+      "authors": [
+        {
+          "name": "Yang Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhongjie Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ziming Mao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "ChonLam Lao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuo Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pravein Govindan Kannan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xizhi Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiaqi Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yilong Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongji Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kaichao You",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fengyuan Ren",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiying Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Costin Raiciu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ion Stoica",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Hardware Lifecycle-Aware Power Planning in Commercial Hyperscale Datacenters (Operational Systems)",
+      "authors": [
+        {
+          "name": "Ruihao Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Leonardo Piga",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wei Su",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Carlos Torres",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jovan Stojkovic",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Neeraja J. Yadwadkar",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lizy K. John",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Abhishek Dhanotia",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Kareus: Joint Reduction of Dynamic and Static Energy in Large Model Training",
+      "authors": [
+        {
+          "name": "Ruofan Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jae-Won Chung",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mosharaf Chowdhury",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "SPADE: Signal-Aware DAG Scheduling and Dynamic Provisioning for Data Processing Clusters",
+      "authors": [
+        {
+          "name": "Adam Lechowicz",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rohan Shenoy",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Noman Bashir",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mohammad Hajiesmaili",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Adam Wierman",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Christina Delimitrou",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Quota Marketplace: Dynamic Pricing for Efficient Allocation of ML Training Resources",
+      "authors": [
+        {
+          "name": "Balasubramanian Sivan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Renato Paes Leme",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mihai Tiuca",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ian McFarlane",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Vasilis Gkatzelis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nehal Mehta",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Soheil Hassas Yeganeh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Vahab Mirrokni",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Amin Vahdat",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Bodega: Localized Linearizable Reads at Anywhere Anytime via Roster Leases",
+      "authors": [
+        {
+          "name": "Guanzhou Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Andrea C. Arpaci-Dusseau",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Remzi H. Arpaci-Dusseau",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Equal Opportunity: A Correctness Condition for Ordered Consensus",
+      "authors": [
+        {
+          "name": "Yunhao Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haobin Ni",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Soumya Basu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shir Cohen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Maofan Yin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lorenzo Alvisi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Robbert van Renesse",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qi Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lidong Zhou",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Jetpack: Consensus Made Generally Fast",
+      "authors": [
+        {
+          "name": "Ze Tang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zihao Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weihai Shen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jicheng Shi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuai Mu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Ambulance: Saving BFT through Racing",
+      "authors": [
+        {
+          "name": "Neil Giridharan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shubham Mishra",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lorenzo Alvisi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Natacha Crooks",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Benjamin Marsh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hein Meling",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kartik Nayak",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Grzegorz Prusak",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "SDCs in the Wild: Characterizing and Diagnosing SDC-Defective GPUs in Production LLM Training (Operational Systems)",
+      "authors": [
+        {
+          "name": "Wenxin Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenxiao Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yun Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingcong Han",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bin Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinyu Gu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xingda Wei",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zuquan Song",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Gaohong Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yucheng Nie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhe Nan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhuolin Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Huan Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuguang Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ziming Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hang Zhu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wencong Xiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xin Liu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Safeguarding LLM Training at Scale: Online SDC Detection and Insights from 35 Million GPU Hours",
+      "authors": [
+        {
+          "name": "Kinman Lei",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Liyan Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiang Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hongmin Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yun Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Gaohong Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zuquan Song",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zixuan Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiyu Xue",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Minghui Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuguang Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wencong Xiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibin Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuyang Jin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jidong Zhai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bo Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xin Liu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "OpGuard: Bitwise Alignment for Precise and General Debugging of Production LLM Training",
+      "authors": [
+        {
+          "name": "Ziming Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yinjie Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hang Zhu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenxiao Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhihao Bai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yun Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuguang Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibin Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Peng Huang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "RobustRL: Role-Based Fault Tolerance System for RL Post-Training",
+      "authors": [
+        {
+          "name": "Zhenqian Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Baoquan Zhong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiang Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qing Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xinkui Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Miao Ye",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ren Cheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lufei Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jianwei Yin",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Oxbow: A Coordinated Architecture for Multi-Component File Systems",
+      "authors": [
+        {
+          "name": "Jongyul Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jaehwan Lee",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Inhoe Koo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Peizhe Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiyuan Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junho Ahn",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianyin Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youngjin Kwon",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Scaling the IO Wall with Declarative IO",
+      "authors": [
+        {
+          "name": "Sanjith Athlur",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sara McAllister",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Theo Gregersen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Timothy Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yiwei Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sarvesh Tandon",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lucy Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Daniel S. Berger",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Saurabh Kadekodi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Arif Merchant",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Benjamin Berg",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nathan Beckmann",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rashmi Vinayak",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "George Amvrosiadis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Gregory R. Ganger",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Umap: Revisiting Memory-Mapped I/O on Distributed File Systems for Efficient Matrix Access (Operational Systems)",
+      "authors": [
+        {
+          "name": "Yongchao He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guangyan Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zane Cao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenfei Wu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "CoPilotIO: CPU as a Co-Pilot for GPU I/O to Free GPU Compute",
+      "authors": [
+        {
+          "name": "Guanyi Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qi Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shu Yin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jian Zhang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "RoCE BALBOA: Service-Enhanced RDMA Offload Engine for Data Center SmartNICs",
+      "authors": [
+        {
+          "name": "Maximilian Jakob Heer",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Benjamin Ramhorst",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Zhu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Luhao Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiyi Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jonas Dann",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Gustavo Alonso",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "DPA-Store: An Ordered Network Data Path Key-Value Store",
+      "authors": [
+        {
+          "name": "Frederic Schimmelpfennig",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jan Sass",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Reza Salkhordeh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Martin Kröning",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Stefan Lankes",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "André Brinkmann",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "FARLock: Asymmetric RDMA Locking Made Fair",
+      "authors": [
+        {
+          "name": "Yuehao Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiatang Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianzheng Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Keval Vora",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "When DDIO Meets Page Coloring: Revisiting DDIO Performance with Sepia",
+      "authors": [
+        {
+          "name": "Changwoo Song",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sanghyun Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinhyeok Oh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qizhe Cai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Joonsung Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jaehyun Hwang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Disentangling Graph Dependencies for Efficient Billion-Scale GPU Vector Search",
+      "authors": [
+        {
+          "name": "Haoru Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingkai He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingyao Zeng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingkai Dong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dong Du",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Efficient GPU-Centric Evolving Graph Processing at Scale",
+      "authors": [
+        {
+          "name": "Yunmo Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiacheng Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xizhe Yin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junqiao Qiu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hong Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chun Jason Xue",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Pluto: High-Performance, Memory-Efficient Distributed Graph Analytics through Advanced Mirroring",
+      "authors": [
+        {
+          "name": "Ying-Wei Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Christopher J. Rossbach",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mattan Erez",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "The Clustering Strikes Back: Building Cost-Effective and High-Performance ANNS at Scale with Helmsman (Operational Systems)",
+      "authors": [
+        {
+          "name": "Yuchen Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Baiteng Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yiping Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yang Shi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiao Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaocheng Zhong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiyong Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yao Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Erci Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chuliang Weng",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "WiseCode: Breaking the Scalability Barriers of Wide-Stripe Vector Codes",
+      "authors": [
+        {
+          "name": "Sijie Cai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guangyan Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiao Niu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "The LogDrive: Composable Durability for Cloud-Based Shared Logs",
+      "authors": [
+        {
+          "name": "Gardner Vickers",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lucas Bradstreet",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mahesh Balakrishnan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Prince Mahajan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "David Mao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xavier Léauté",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ismael Juma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nikhil Bhatia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jack Vanlightly",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Prateek Jindal",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sumit Arrawatia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Andrew Grant",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dhruvil Shah",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dimitar Dimitrov",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Gaurav Badoni",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shimiao Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yang Yu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Timelock Drive: Isolated Time-Based Defense for Storage Systems",
+      "authors": [
+        {
+          "name": "Jonah Rosenblum",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Juechu Dong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Peter Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Satish Narayanasamy",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "High Fidelity Models for Large Scale Stateful Services (Operational Systems)",
+      "authors": [
+        {
+          "name": "Nouraldin Jaber",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dongyun Jin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bernhard Kragl",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Enrico Magnago",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Gustavo Petri",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Thorsten Tarrach",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Serdar Tasiran",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "M3U: Scalable Kernel Memory Management for Efficient Post-Copy Live Migration of High-End Virtual Machines",
+      "authors": [
+        {
+          "name": "Yizhe Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuan Tao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhibin Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kang Yan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chao Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuo Shi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zongpu Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xu Huan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yibin Shen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xudong Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiesheng Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jian Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibing Guan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Compaction-Free Memory Defragmentation for Virtualization via Infinite Guest Physical Address Space",
+      "authors": [
+        {
+          "name": "Peixin Zeng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yanqi Pan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wen Xia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Darong Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiahao Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nan Zhang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Inside Out: A Paradigm Shift in VM Introspection",
+      "authors": [
+        {
+          "name": "Dufy Teguia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Louis Duval",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Teo Pisenti",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kahina Lazri",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Daniel Hagimont",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Thomas Pasquier",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Renaud Lachaize",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Alain Tchana",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "vBOIDs: Taming Chaos via Coarse-Grained Scheduling Abstraction for Containers",
+      "authors": [
+        {
+          "name": "Kaesi Manakkal",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nathan Daughety",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Marcus Pendleton",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hui Lu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Efficient LLM Serving on Commodity GPU Clusters with Data-Reduced Cross-Instance Orchestration",
+      "authors": [
+        {
+          "name": "Jiangsu Du",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hongbin Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Taosheng Wei",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenyi Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiazhi Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kaiyi Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiguang Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yutong Lu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Revisiting Pipeline Parallelism for LLM Serving",
+      "authors": [
+        {
+          "name": "Soonjae Hwang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jeongseob Ahn",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "OpenTela: Unifying Decentralized Computing Resources for Heterogeneous LLM Serving (Operational Systems)",
+      "authors": [
+        {
+          "name": "Xiaozhe Yao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youhe Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ilia Badanin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qinghao Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Robert Matthew Smith",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Binhang Yuan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Imanol Schlag",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Eiko Yoneki",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ana Klimovic",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Kairox: Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing",
+      "authors": [
+        {
+          "name": "Yapeng Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Minghao Gan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zicong Hong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wuhui Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junyuan Liang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yue Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Meng Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zibin Zheng",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "ADAngel: Accelerating Arbitrary-Precision Quantized LLMs with Adaptive Computing Mapping",
+      "authors": [
+        {
+          "name": "Yao Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenjie Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yifei Feng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bo Peng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jianguo Yao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibing Guan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Optimal Software Pipelining and Warp Specialization for Tensor Core GPUs",
+      "authors": [
+        {
+          "name": "Rupanshu Soi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rohan Yadav",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fredrik Kjolstad",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Alex Aiken",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Maryam Mehri Dehnavi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael Garland",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael Bauer",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "TileLoom: Automatic Dataflow Planning for Tile-Based Languages on Spatial Dataflow Accelerators",
+      "authors": [
+        {
+          "name": "Wei Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenyu Bai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Heru Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pranav Dangi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiqiang Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Cheng Tan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Huiying Lan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weng-Fai Wong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tulika Mitra",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "MPK: A Compiler and Runtime for Mega-Kernelizing Tensor Programs",
+      "authors": [
+        {
+          "name": "Xinhao Cheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhihao Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jianan Ji",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinchen Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zepeng Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ziruo Xiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zihao Ye",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yingyi Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ruihang Lai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hongyi Jin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bohan Hou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mengdi Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yixin Dong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Anthony Yip",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zihao Ye",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Songting Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenqin Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xupeng Miao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianqi Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhihao Jia",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "GraCE: Unlocking CUDA Graphs with Compiler Support for ML Workloads",
+      "authors": [
+        {
+          "name": "Abhishek Ghosh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ajay Nayak",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ashish Panwar",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Arkaprava Basu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "VTC: DNN Compilation with Virtual Tensors for Data Movement Elimination",
+      "authors": [
+        {
+          "name": "Muyan Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ahan Gupta",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiachen Yuan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Vima Gupta",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Taeksang Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xin Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Janardhan Kulkarni",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ofer Dekel",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Vikram Adve",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Charith Mendis",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Stop Pretending to Be Busy: A Case for Serverless Paradigms in Co-Located Batch Workloads (Operational Systems)",
+      "authors": [
+        {
+          "name": "Xiaohu Chai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jianfeng Tan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Congsi Yuan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bowen Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tongkai Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chao Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dong Du",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Continuation-Centric Computing with Arca",
+      "authors": [
+        {
+          "name": "Akshay Srivatsan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuhan Deng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Katherine Mohr",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Emma Sudo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sebastian Ingino",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Francis Chua",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Keith Winstein",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Rethinking Process Snapshots for Near-Warm Serverless Cold Starts",
+      "authors": [
+        {
+          "name": "Ben Holmes",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Baltasar Dinis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lana Honcharuk",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Adam Belay",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Joshua Fried",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Distributed Speculative Execution for Resilient Cloud Applications",
+      "authors": [
+        {
+          "name": "Tianyu Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Badrish Chandramouli",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Philip A. Bernstein",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sam Madden",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "TrainMover: An Interruption-Resilient Runtime for ML Training",
+      "authors": [
+        {
+          "name": "ChonLam Lao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiaqi Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiamin Cao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhipeng Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pengcheng Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiangfei Duan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhilong Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Guan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yichi Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yong Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhengping Qian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aditya Akella",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Minlan Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ennan Zhai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dennis Cai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingren Zhou",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "MoonBright: A GPU Memory Allocator with Device-Side Page Table Materialization and Deferred TLB Coherence",
+      "authors": [
+        {
+          "name": "Yangyu Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lei Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chunwei Xia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuaijiang Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuoming Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhicheng Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qianqi Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiawei Xiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ruiyuan Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ao Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guangli Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaobing Feng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Huimin Cui",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenxi Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiacheng Zhao",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Nixie: Efficient, Transparent Temporal Multiplexing for Consumer GPUs",
+      "authors": [
+        {
+          "name": "Yechen Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yifei Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nathanael Ren",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yiran Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Danyang Zhuo",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "μShell: A Microkernel-based FPGA Shell Architecture",
+      "authors": [
+        {
+          "name": "Jiyang Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Anubhav Panda",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Harshavardhan Unnibhavi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Atsushi Koshiba",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pramod Bhatotia",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Virtualizing eBPF with Late-Binding",
+      "authors": [
+        {
+          "name": "Jing Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaguannan Song",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dong Du",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yubin Xia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Binyu Zang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "DVLA: Dynamic VM Lifetime Aware Scheduling for Drifting Lifetime Distributions and Long-Lived VM Placement Debt (Operational Systems)",
+      "authors": [
+        {
+          "name": "Zhengtong Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zihan Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhidong Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yanbo Shan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fei Peng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Suhong Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kaiyuan Shen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiangyun Kong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Handu Ding",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bing He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Binda Ma",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "PIMS: Fleet-Wide Datacenter Maintenance with Minimal Capacity Buffer and Predictable Latency (Operational Systems)",
+      "authors": [
+        {
+          "name": "Benjamin Leonhardi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Evangelia Kalyvianaki",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yang Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Abdelrahman Adam",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Agshin Nabiyev",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aleks Shirokov",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Amitav Mohanty",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Daniil Balenko",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Elaine Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Essam Ewaisha",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hongbo Dong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Igor Marnat",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lev Novikov",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Min Zeng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Steven Shingler",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Timofey Durakov",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wiliam de Abreu Pinho",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ben Christensen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mayank Pundir",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kaushik Veeraraghavan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba (Operational Systems)",
+      "authors": [
+        {
+          "name": "Suyi Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lingyun Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haoxuan Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sheng Yao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianyuan Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaoxiao Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hanfeng Lu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kangjin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenhao Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shenglin Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lun Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qingyang Duan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shenghao Liang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiu Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Meng Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenchao Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yinghao Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guodong Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Liping Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wei Wang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Mimesys: Generating Realistic Executable Testing Environments from Resource Usage Traces",
+      "authors": [
+        {
+          "name": "Donghyun Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zichao Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Joydeep Biswas",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aditya Akella",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Daehyeok Kim",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Merlin: An Efficient Adaptive Cache Eviction Algorithm via Fine-Grained Characterization",
+      "authors": [
+        {
+          "name": "Liujia Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinhao Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yi Fan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jianyu Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenlin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jie Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuval Tamir",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaolin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yingwei Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Diyu Zhou",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Learning-Augmented Heuristics: Simple Yet Smart, Robust and Interpretable Cache Eviction",
+      "authors": [
+        {
+          "name": "Haocheng Xia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "William Nixon",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bintang Dwi Marthen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pranav Bhandari",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Juncheng Yang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "WriteGuards: Distributed Storage Support for Strongly Consistent Caches",
+      "authors": [
+        {
+          "name": "Ziming Mao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Atul Adya",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jonathan Ellithorpe",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rishabh Iyer",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Matei Zaharia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Scott Shenker",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ion Stoica",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "MEGALON: Efficient Data Sharing for Partly Coherent CXL Memory",
+      "authors": [
+        {
+          "name": "Jiyu Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Seokjoo Cho",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Landon Johnson",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kiran Hombal",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shreesha Gopalakrishna Bhat",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Marcos K. Aguilera",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ramnatthan Alagappan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aishwarya Ganesan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile LLM Inference with Sereno",
+      "authors": [
+        {
+          "name": "Tong Xin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xinrui Shi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingkai Dong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zeyu Mi",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "LifeLine: An Object-Page Lifetime Alignment GC Enabling Minimal Memory Copying for Mobile Devices",
+      "authors": [
+        {
+          "name": "Jiacheng Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yunmo Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qingan Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junqiao Qiu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chun Jason Xue",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Unleash All Cores: Asymmetry-Aware Scalable DNN Inference on Mobile CPUs",
+      "authors": [
+        {
+          "name": "Qianlong Sang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Puyi He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Huanghuang Liang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yili Gong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chuang Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaobo Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dazhao Cheng",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Surviving the Impossible Trinity: Revisiting CPU Scheduling Problem on Modern COTS Mobile Devices (Operational Systems)",
+      "authors": [
+        {
+          "name": "Jun Xiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qinhui Gu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ligeng Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lizhi Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zicheng Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yinggang Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lu Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Borui Li",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "qTPU: Hybrid Tensor Networks for Quantum-Classical Acceleration",
+      "authors": [
+        {
+          "name": "Nathaniel Tornow",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Emmanouil Giortamis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dennis Sprokholt",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Christian Mendl",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pramod Bhatotia",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Acumen: A Platform for Encrypted and Accountable Collaborative Editing",
+      "authors": [
+        {
+          "name": "Ryan Cottone",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Darya Kaviani",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Conor Power",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Will Giorza",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Evelyn Koo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Natacha Crooks",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Raluca Popa",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Drs.NAS: Ultra-Efficient Neural Architecture Search for Recommendation Systems",
+      "authors": [
+        {
+          "name": "Ruixuan Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xun Jiao",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "SMARTTalk: Teaching SMART Logs to Talk to LLMs",
+      "authors": [
+        {
+          "name": "Mayur Akewar",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dongsheng Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sandeep Madireddy",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Janki Bhimani",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Svalinn: Overload Control in Large-Scale Servers with Multiple Resource Bottlenecks",
+      "authors": [
+        {
+          "name": "Bhaskar Subhash Pardeshi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Peidi Song",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ahmed Saeed",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "PeeR: First-Class Scheduling for Latency-Critical eBPF Applications",
+      "authors": [
+        {
+          "name": "Jeremy Carin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ben Holmes",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weiyang Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ankit Bhardwaj",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Manya Ghobadi",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "TypeCraft: A Lightweight Data Type Profiler with High Resolution",
+      "authors": [
+        {
+          "name": "Zecheng Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xu Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Namhyung Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Blake Jones",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Alexey Alexandrov",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiajia Li",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "All Along the Watchtower: Achieving the Trinity of Observability in Cloud with DiTing",
+      "authors": [
+        {
+          "name": "Zhenyu Ren",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuzhi Feng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Erci Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Changsheng Niu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haoyu Mao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Beibei Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chong Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenshan Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xinrui Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiangwei Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiesheng Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hong Tang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "jwmalloc: A Verified Memory Allocator for Mobile Devices",
+      "authors": [
+        {
+          "name": "Jiawei Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ming Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ruixian Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chao Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jonas Oberhauser",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Neuro-Symbolic Proof Generation for Scaling Systems Software Verification",
+      "authors": [
+        {
+          "name": "Baoding He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zenan Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wei Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuan Yao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Taolue Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaoxing Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhendong Su",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Spain: Succinct Proofs for Numerical Computations",
+      "authors": [
+        {
+          "name": "Zachary DeStefano",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Noah Golub",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zile Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Julius Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sam Frank",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael Walfish",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "RT: Regular Types for the Streaming Shell",
+      "authors": [
+        {
+          "name": "Zekai Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lukas Lazarek",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Evangelos Lamprou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "George Kapetanakis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Konstantinos Mamouras",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nikos Vasilakis",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "OSDI",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "osdi-web",
+      "dblp_paper_key": null
+    }
+  ]
+}

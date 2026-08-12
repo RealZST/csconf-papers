@@ -1,0 +1,5179 @@
+{
+  "meta": {
+    "venue": "SOSP",
+    "year": 2026,
+    "source_keys": [
+      "conf/sosp/sosp2026"
+    ],
+    "paper_count": 105,
+    "note": null,
+    "updated": "2026-08-12"
+  },
+  "papers": [
+    {
+      "title": "A Few GPUs, A Whole Lotta Scale: Faithful LLM Training Emulation with CrystalLLM",
+      "authors": [
+        {
+          "name": "Shaoke Xi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "ChonLam Lao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Boyi Jia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiaqi Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhipeng Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiamin Cao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Brian Sutioso",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Erci Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Minlan Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kui Ren",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yong Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhengping Qian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ennan Zhai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingren Zhou",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Ahead-of-time Analysis of Shell Program Effects",
+      "authors": [
+        {
+          "name": "Lukas Lazarek",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Evangelos Lamprou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "George Kapetanakis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Eric Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiwen Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael Greenberg",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Konstantinos Kallas",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nikos Vasilakis",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Anchor: Mitigating Shallow Disruptions with Decoupled Memory",
+      "authors": [
+        {
+          "name": "Haoyi Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shiwei Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youmin Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junrong Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youyou Lu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiwu Shu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "LLM-42: Enabling Determinism in LLM Inference with Verified Speculation",
+      "authors": [
+        {
+          "name": "Raja Gond",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aditya K Kamath",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ramachandran Ramjee",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ashish Panwar",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Batched in Back: Characterizing and Optimizing Offline LLM Inference in Production with ACDC",
+      "authors": [
+        {
+          "name": "Leping Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xue Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kun Qian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Erci Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingzhen Han",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haoran Zhu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tao He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zuolong Yin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ennan Zhai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenyuan Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingren Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guangtao Xue",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Beyond Utilization: Energy-Conscious GPU Sharing for Inference Serving",
+      "authors": [
+        {
+          "name": "Prasoon Sinha",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dimitrios Liakopoulos",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nathan Lemma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Neeraja J. Yadwadkar",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Borges: A Low-Latency Distributed Shared Log on a CXL Memory/SSD Hybrid",
+      "authors": [
+        {
+          "name": "Haowei Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yiming Xiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhipeng Jia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yan Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nam Sung Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Emmett Witchel",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Bug-finding and proofs for platform configurations and hardware based on reference manuals",
+      "authors": [
+        {
+          "name": "Ben Fiedler",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sedan Abdelgawad",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Teymour Aldridge",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Viktor Fukala",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jan HÃ¤ussermann",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Gamal Hassan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lars Leuthold",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Konstantin Lucny",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Max Wierse",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Samuel Gruetter",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Timothy Roscoe",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Cardamom: A Multi-GPU Framework for TB-Scale Encrypted Inference",
+      "authors": [
+        {
+          "name": "Siddharth Jayashankar",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Joshua Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael Sullivan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenting Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dimitrios Skarlatos",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Cohort: Decentralized PIR",
+      "authors": [
+        {
+          "name": "Jonathan Weiss",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yossi Gilad",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Compositional Verification of Cluster Control Planes",
+      "authors": [
+        {
+          "name": "Zhizhen Cai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nikhil Date",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiawei Tyler Gu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Cody Rivera",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tej Chajed",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Oded Padon",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianyin Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xudong Sun",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Computation is Fast, Use Threadlet!",
+      "authors": [
+        {
+          "name": "Yiming Yao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaohe Qin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yi Fan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuanlong Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kang Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Liujia Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yingwei Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaolin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenlin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuval Tamir",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Diyu Zhou",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "DDB: Source-Level Interactive Debugging for Distributed Applications",
+      "authors": [
+        {
+          "name": "Yibo Yan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junzhou He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Seo Jin Park",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Democratizing MoE LLM Decoding via Barrier-Free Expert Parallelism",
+      "authors": [
+        {
+          "name": "Yizhuo Liang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shaoyu Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jaeyong Song",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yanqi Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Geon-Woo Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guangrong He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Seo Jin Park",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "DiFlow: A System for Micro-Serving Text-to-Image Diffusion Workflows",
+      "authors": [
+        {
+          "name": "Lingyun Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Suyi Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianyu Feng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaoxiao Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhipeng Di",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weiyi Lu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kan Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yinghao Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tao Lan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guodong Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lin Qu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Liping Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wei Wang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "DISCO*: DIstributed and SCalable Oblivious Joins and Oblivious Primitives",
+      "authors": [
+        {
+          "name": "Apostolos Mavrogiannakis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xian Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ioannis Demertzis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dimitrios Papadopoulos",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Minos Garofalakis",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Disk-Based LSMs: An Unexpectedly Good Index for Partly Coherent CXL Memory",
+      "authors": [
+        {
+          "name": "Kiran Hombal",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiyu Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Marcos K. Aguilera",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aishwarya Ganesan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ramnatthan Alagappan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Efficient GPU Multitasking with Morphable Kernels",
+      "authors": [
+        {
+          "name": "Tingxu Ren",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ruwen Fan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Minhui Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shiwei Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiwu Shu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youyou Lu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "RPCShield: Defending Microservices Against Cascading Failures",
+      "authors": [
+        {
+          "name": "Milind Chabbi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sonal Mahajan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ivan Beschastnikh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "RenÃ© Just",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuxin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yufan Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Elton Pinto",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Seemanta Saha",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Manu Sridharan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Abhishek Jha",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sandeep Koushik Sheshadri",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mayank Bansal",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Flux: Unleashing Linux as a High-Performance Application Kernel",
+      "authors": [
+        {
+          "name": "Kaifu Tian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youjie Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yiren Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuyang You",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Keyang Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kang Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "GAZE: Rearchitecting Log-Structured Filesystem for Garbage Collection on Zoned Namespace Flash Storage",
+      "authors": [
+        {
+          "name": "Juwon Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hwanseok Yoo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Seung Won Yoo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youjip Won",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Guiding Agentic GPU Kernel Optimization with Data Flow Invariants",
+      "authors": [
+        {
+          "name": "Haohui Mai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaoyan Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiangyun Ding",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Daifeng Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qiuchu Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenzhun Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Cong Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiacheng Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Christos Kozyrakis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Binhang Yuan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "I3DP: Neuro-symbolic Inductive Invariant Inference for Distributed Protocols",
+      "authors": [
+        {
+          "name": "Weining Cao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guangyuan Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuan Yao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hengfeng Wei",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Taolue Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaoxing Ma",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Information and Control in Agent-Native Filesystems",
+      "authors": [
+        {
+          "name": "Shawn",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junxuan Liao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jing Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mai Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Andrea Arpaci-Dusseau",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Remzi Arpaci-Dusseau",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "It's the Kernel's Fault! Custom Page Fault Handling With bpf_fault",
+      "authors": [
+        {
+          "name": "Tal Zussman",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Riju Dey",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hasan Zengin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yiming Fang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "David Hildenbrand",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Asaf Cidon",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Linux AGX: An Adaptive GPU eXtension to Linux Fair Scheduling for Physical AI and Robotic Systems",
+      "authors": [
+        {
+          "name": "Soheil Shirvani",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Cong Liu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Lion: Modular Verification of Async Runtime Liveness",
+      "authors": [
+        {
+          "name": "Ti Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zihao Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Omar Chowdhury",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuai Mu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "LMTracer: Fine-Grained and Real-Time Performance Profiling for Production LLM Systems",
+      "authors": [
+        {
+          "name": "Wei Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongchao He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bohan Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hongyi Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenhua Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junping Zhao",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "M2K: Making the Model-Kernel Interface Explicit for Reliable CUDA Kernel Verification",
+      "authors": [
+        {
+          "name": "Mengting He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shihao Xia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haomin Jia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenfei Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Linhai Song",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "MCon: Building an Elastic Cloud for Android Applications with Framework Consolidation",
+      "authors": [
+        {
+          "name": "Jiaxing Qiu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zijie Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenhua Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hongyi Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zizhang Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yumeng Liang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jie Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianyin Xu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "MeshRT: Compile-Time Governed Wafer-Scale Runtime for Low-Latency High-Throughput Inference",
+      "authors": [
+        {
+          "name": "Congjie He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Le Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhan Lu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yeqi Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haocheng Xiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Cheng Deng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lingxiao Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ziming Miao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fan Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Luo Mai",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Multi-LLM Serving at Production Scale",
+      "authors": [
+        {
+          "name": "Tianbao Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yi Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zirui Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiming Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yebo Peng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongfu Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yi Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinrun Yin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kemeng Tian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fangcheng Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tongxuan Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tao Peng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tong Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bin Cui",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xupeng Miao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ke Zhang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Observability-Driven Tiered Memory for Colocated Workloads",
+      "authors": [
+        {
+          "name": "Hanchen Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Berkay Inceisci",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenyu Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Huaicheng Li",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "On-site, Non-speculative Failure Diagnosis with CLODS",
+      "authors": [
+        {
+          "name": "Rishikesh Devsot",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yi Fan Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "ChenXing Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ellen Shi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ding Yuan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Oscar: Resilient Privacy Budgeting Across Untrusted Web Domains",
+      "authors": [
+        {
+          "name": "Pierre Tholoniat",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Alison Caulfield",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Giorgio Cavicchioli",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mark Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Benjamin Case",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Asaf Cidon",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Roxana Geambasu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mathias LÃ©cuyer",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Martin Thomson",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "PirateShip: Append-Only Ledgers for (Mostly) Trusted Execution Environments",
+      "authors": [
+        {
+          "name": "Shubham Mishra",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "JoÃ£o GonÃ§alves",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chawinphat Tankuranand",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Natacha Crooks",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Neil Giridharan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Heidi Howard",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chris Jensen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "ProbeFS: Hierarchical DNA File Systems via Biochemical Content Addressability and Parallelism",
+      "authors": [
+        {
+          "name": "Ruihan Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuankun Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingkai Dong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yaya Hao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fei Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chunhai Fan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "QProf: Fleetwide Transitive Cost Profiling of Warehouse-Scale Services",
+      "authors": [
+        {
+          "name": "Sam",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ali Sheikh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Alexey Alexandrov",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ning Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Vance Lankhaar",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tipp Moseley",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Parthasarathy Ranganathan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "SANDHI: Fine-grained Merging for Memory Efficient Multi-Model Serving",
+      "authors": [
+        {
+          "name": "Vima Gupta",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Oytun Kuday Duran",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nandan Suresh Meda",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ikhyun An",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ganesh Ananthanarayanan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Anand Iyer",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Scalable Context Orchestration for Serving LLMs Over Voice",
+      "authors": [
+        {
+          "name": "Linyi Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Silvery D. Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yifei Zhu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Scaling Weight Transfer in LLM RL Training with Reference-Oriented Storage",
+      "authors": [
+        {
+          "name": "Chenhao Ye",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Huaizheng Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingcong Han",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Baoquan Zhong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiang Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qixiang Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xinyi Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "W. Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kaihua Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wang Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sun He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wencong Xiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Andrea Arpaci-Dusseau",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Remzi Arpaci-Dusseau",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Scheduling Linux Threads under I/O Chiplet Wall Using cSwitch",
+      "authors": [
+        {
+          "name": "Seunghyun An",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Joontaek Oh",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ming Liu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Sintr: Safe Interactive Transactions in the Presence of Byzantine Clients",
+      "authors": [
+        {
+          "name": "Austin Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Daniel Lee",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Florian Suri-Payer",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lorenzo Alvisi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Natacha Crooks",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Skill VM: Write Once, Run Everywhere Efficiently",
+      "authors": [
+        {
+          "name": "Le Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Erhu Feng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yubin Xia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Smaran: Serving Authenticated Time Travel Queries",
+      "authors": [
+        {
+          "name": "Asim Nepal",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shistata Subedi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shubham Mishra",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Suyash Gupta",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aniket Kate",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hein Meling",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "StarfishOS: Revisiting Single System Image on CXL with State-partitioned Microkernel",
+      "authors": [
+        {
+          "name": "Fangnuo Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingsheng Yan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingkai Dong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenjun Cai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingwei Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tong Xin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "State-Aware Fuzzing of JavaScript Engines with LLM-Guided Instrumentation",
+      "authors": [
+        {
+          "name": "Wai Kin Wong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dongwei Xiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Anthony Cheuk Tung LAI",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ping Fan Ke",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shuai Wang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Supporting Agents on Streaming Data via a Forkable Shared Log",
+      "authors": [
+        {
+          "name": "Shreesha G. Bhat",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tony Hong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael A Noguera",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aishwarya Ganesan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ramnatthan Alagappan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "SysX: A unified analytics engine for secure multiparty computation",
+      "authors": [
+        {
+          "name": "Muhammad Faisal",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Alessandra Lanz",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sam Buxbaum",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Adam Godel",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Vasiliki Kalavri",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mayank Varia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "John Liagouris",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Tamias: Feedback-Guided Systematic Concurrency Exploration for Transparent Distributed System Fuzzing",
+      "authors": [
+        {
+          "name": "Congyu Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yaoxu Song",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pedro Fonseca",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongle Zhang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Taming Dynamism on GPUs: Cross-SM Kernel Fusion via SM Cooperation and Just-in-Time Reduction",
+      "authors": [
+        {
+          "name": "Jingkai He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guangda Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "TianJian Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dong Du",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yubin Xia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Taming Inference Workloads at Global Scale: Foundation Model Serving in SystemX",
+      "authors": [
+        {
+          "name": "Pratik Pankaj Raichura",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Somasundaram Perianayagam",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rama Krishna Sandeep Pokkunuri",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Divya Jain",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Christopher Greenwood",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "TensorDex: A Compact, Tensor-Centric Storage System for Modern AI Models",
+      "authors": [
+        {
+          "name": "Tingfeng Lan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zirui Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yunjia Zheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhaoyuan Su",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Juncheng Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yue Cheng",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Testing Custom Control Planes Without the Cluster",
+      "authors": [
+        {
+          "name": "Tim Goodwin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lindsey Kuper",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Andi Quinn",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "TuxBot: Semantic-Aware Online OS Tuning with LLMs",
+      "authors": [
+        {
+          "name": "Georgios Liargkovas",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mihir Nitin Joshi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hubertus Franke",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kostis Kaffes",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Validating a Production Cloud Object Store with Lightweight Formal Methods",
+      "authors": [
+        {
+          "name": "Rajeev Joshi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bernhard Kragl",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Vimuth Fernando",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sarek Skotam",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jake Wires",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Matthew Russo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Colin Walker",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Validating Rust Compilers with Trait-Type Constraint Graph",
+      "authors": [
+        {
+          "name": "Xin Lai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ming WEN",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "XIAOFEI LIAO",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hai Jin",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Verifying a high-performance distributed transaction system using permissioned state machines",
+      "authors": [
+        {
+          "name": "Yun-Sheng Chang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Joseph Tassarotti",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Frans Kaashoek",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nickolai Zeldovich",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "VoliStorM: A crash-consistent I/O cache with two kernels instead of two caches",
+      "authors": [
+        {
+          "name": "Jana Toljaga",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nicolas Derumigny",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tara Aggoun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mathieu Bacou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "GaÃ«l Thomas",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Wavel: A Fast and Efficient Compilation System for Wafer-Scale Accelerators",
+      "authors": [
+        {
+          "name": "Yeqi Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Congjie He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haocheng Xiao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yanwei Ye",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yi-Chieh Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Boyao Song",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yangshen Deng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ziming Miao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lingxiao Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fan Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Luo Mai",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "XTRA: Unifying Cache Coherence and Concurrency Control for Distributed Transactions in a CXL Pod",
+      "authors": [
+        {
+          "name": "Zhijun Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Hua",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ming Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Menglei Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xumin Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aoyang Tong",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "You Can Always Get What You Want: CPU Virtualization Made Fast and Free",
+      "authors": [
+        {
+          "name": "Yun Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xingguo Jia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ben Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kenan Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shengdong Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jingdong Han",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weihao Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xingzi Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenggang Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yibin Shen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiesheng Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tao Song",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhengwei Qi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibing Guan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Aceso: Achieving Efficient Fault Tolerance in Memory-Disaggregated Key-Value Stores",
+      "authors": [
+        {
+          "name": "Zhisheng Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pengfei Zuo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yizou Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chao Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junliang Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ming-Chang Yang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Apparate: Rethinking Early Exits to Tame Latency-Throughput Tensions in ML Serving",
+      "authors": [
+        {
+          "name": "Yinwei Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rui Pan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Anand Iyer",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kai Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ravi Netravali",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Autobahn: Seamless high speed BFT",
+      "authors": [
+        {
+          "name": "Florian Suri-Payer",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Neil Giridharan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Natacha Crooks",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lorenzo Alvisi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ittai Abraham",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "BIZA: Design of Self-Governing Block-Interface ZNS AFA for Endurance and Performance",
+      "authors": [
+        {
+          "name": "Shushu Yi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shaocong Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Li Peng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yingbo Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ming-Chang Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhichao Cao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qiao Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Myoungsoo Jung",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ke Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jie Zhang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory",
+      "authors": [
+        {
+          "name": "Xuchuan Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiacheng Shen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pengfei Zuo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xin Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael R. Lyu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yangfan Zhou",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Caribou: Fine-Grained Geospatial Shifting of Serverless Applications for Sustainability",
+      "authors": [
+        {
+          "name": "Viktor Gsteiger",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pin Hong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Long",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yiran",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Parshan Javanrood",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mohammad Shahrad",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Cookie Monster: Efficient On-Device Budgeting for Differentially-Private Ad-Measurement Systems",
+      "authors": [
+        {
+          "name": "Pierre Tholoniat",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kelly Kostopoulou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Peter McNeely",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Prabhpreet Singh Sodhi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Anirudh Varanasi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Benjamin Case",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Asaf Cidon",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mathias LÃ©cuyer",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Roxana Geambasu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "DNS Congestion Control in Adversarial Settings",
+      "authors": [
+        {
+          "name": "Huayi Duan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jihye Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Marc Wyss",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Adrian Perrig",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Dirigent: Lightweight Serverless Orchestration",
+      "authors": [
+        {
+          "name": "Lazar CvetkoviÄ",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "FranÃ§ois Costa",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mihajlo Djokic",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michal Friedman",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ana Klimovic",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Efficient Reproduction of Fault-Induced Failures in Distributed Systems with Feedback-Driven Fault Injection",
+      "authors": [
+        {
+          "name": "Jia Pan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haoze Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tanakorn Leesatapornwongsa",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Suman Nath",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Peng Huang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Efficient file-lifetime redundancy management for cluster file systems",
+      "authors": [
+        {
+          "name": "Tim Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sanjith Athlur",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Saurabh Kadekodi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Francisco Maturana",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dax Vandevoore",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Arif Merchant",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Greg Ganger",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rashmi Vinayak",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Enabling Parallelism Hot Switching for Efficient Training of Large Language Models",
+      "authors": [
+        {
+          "name": "Hao Ge",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fangcheng Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haoyang Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xuanyu Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sheng Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yujie Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaonan Nie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hailin Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xupeng Miao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bin Cui",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "FBDetect: Catching Tiny Performance Regressions at Hyperscale through In-Production Monitoring",
+      "authors": [
+        {
+          "name": "Dong Young Yoon",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yang Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Miao Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xu Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Juan Ignacio Jones",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Abhinay Kukkadapu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Osman Kocas",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jonathan Wiepert",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kapil Goenka",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sherry Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yanjun Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhihui Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jocelyn Kong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael Chow",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chunqiang Tang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Fast & Safe IO Memory Protection",
+      "authors": [
+        {
+          "name": "Benny Rubin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Saksham Agarwal",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qizhe Cai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rachit Agarwal",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Fast Core Scheduling with Userspace Process Abstraction",
+      "authors": [
+        {
+          "name": "Jiazhen Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youmin Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shiwei Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youyou Lu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Fast, Flexible, and Practical Kernel Extensions",
+      "authors": [
+        {
+          "name": "Kumar Kartikeya Dwivedi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rishabh Iyer",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sanidhya Kashyap",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Icarus: Trustworthy Just-In-Time Compilers with Symbolic Meta-Execution",
+      "authors": [
+        {
+          "name": "Michael Smith",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Abhishek Sharma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hovav Shacham",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ranjit Jhala",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Deian Stefan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "If At First You Donât Succeed, Try, Try, Again...? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems",
+      "authors": [
+        {
+          "name": "Bogdan Alexandru Stoica",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Utsav Sethi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yiming Su",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Cyrus Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shan Lu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jonathan Mace",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Madan Musuvathi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Suman Nath",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Improving DNN Inference Throughput Using Practical, Per-Input Compute Adaptation",
+      "authors": [
+        {
+          "name": "Anand Iyer",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Swapnil Gandhi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingyu Guan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yinwei Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rui Pan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ravi Netravali",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "LazyLog: A New Shared Log Abstraction for Low-Latency Applications",
+      "authors": [
+        {
+          "name": "Xuhao Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shreesha G Bhat",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiyu Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ramnatthan Alagappan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Aishwarya Ganesan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism",
+      "authors": [
+        {
+          "name": "Bingyang Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shengyu Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yinmin Zhong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Peng Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xuanzhe Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xin Jin",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Modular Verification of Secure and Leakage-Free Systems: From Application Specification to Circuit-Level Implementation",
+      "authors": [
+        {
+          "name": "Anish Athalye",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Henry Corrigan-Gibbs",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Frans Kaashoek",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Joseph Tassarotti",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nickolai Zeldovich",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "NOPE: Strengthening domain authentication with zero-knowledge proofs",
+      "authors": [
+        {
+          "name": "Zachary DeStefano",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jeff J. Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Joseph Bonneau",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Michael Walfish",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "OZZ: Identifying Kernel Out-of-Order Concurrency Bugs with In-Vivo Memory Access Reordering",
+      "authors": [
+        {
+          "name": "Dae R. Jeong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yewon Choi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Byoungyoung Lee",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Insik Shin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Youngjin Kwon",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU",
+      "authors": [
+        {
+          "name": "Yixin Song",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zeyu Mi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haotong Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haibo Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Practical Verification of System-Software Components Written in Standard C",
+      "authors": [
+        {
+          "name": "Can Cebeci",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yonghao Zou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Diyu Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "George Candea",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "ClÃ©ment Pit-Claudel",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "ReCycle: Pipeline Adaptation for the Resilient Distributed Training of Large DNNs",
+      "authors": [
+        {
+          "name": "Swapnil Gandhi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mark Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Athinagoras Skiadopoulos",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Christos Kozyrakis",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Reducing Energy Bloat in Large Model Training",
+      "authors": [
+        {
+          "name": "Jae-Won Chung",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yile Gu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Insu Jang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Luoxi Meng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Nikhil Bansal",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mosharaf Chowdhury",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Reducing cross-cloud/region costs with the auto-configuring MACARON cache",
+      "authors": [
+        {
+          "name": "Hojin Park",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ziyue Qiu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Gregory R. Ganger",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "George Amvrosiadis",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "SWARM: Replicating Shared Disaggregated-Memory Data in No Time",
+      "authors": [
+        {
+          "name": "Antoine Murat",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "ClÃ©ment Burgelin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Athanasios Xygkis",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Igor Zablotchi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Marcos K. Aguilera",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rachid Guerraoui",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Tenplex: Dynamic Parallelism for Deep Learning using Parallelizable Tensor Collections",
+      "authors": [
+        {
+          "name": "Marcel WagenlÃ¤nder",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guo Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bo Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Luo Mai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Peter Pietzuch",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor with T10",
+      "authors": [
+        {
+          "name": "Yiqi Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuqi Xue",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Cheng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lingxiao Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ziming Miao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jilong Xue",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jian Huang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Sesame: Practical End-to-End Privacy Compliance with Policy Containers and Privacy Regions",
+      "authors": [
+        {
+          "name": "Kinan Dak Albab",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Artem Agvanian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Allen Aby",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Corinn Tiffany",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Alexander Portland",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sarah Ridley",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Malte Schwarzkopf",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "SilvanForge: A Schedule-Guided Retargetable Compiler for Decision Tree Inference",
+      "authors": [
+        {
+          "name": "Ashwin Prasad",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sampath Rajendra",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kaushik Rajan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "R Govindarajan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Uday Bondhugula",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Skyloft: A General High-Efficient Scheduling Framework in User Space",
+      "authors": [
+        {
+          "name": "Yuekai Jia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kaifu Tian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuyang You",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kang Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Tiered Memory Management: Access Latency is the Key!",
+      "authors": [
+        {
+          "name": "Midhul Vuppalapati",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rachit Agarwal",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "TrEnv: Transparently Share Serverless Execution Environments Across Different Functions and Nodes",
+      "authors": [
+        {
+          "name": "Jialiang Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "MingXing Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Teng Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zheng Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sixing Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kang Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinlei Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xia Liao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yingdi Shan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ning Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mengting Lu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tao Ma",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haifeng Gong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "YongWei Wu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Uncovering Nested Data Parallelism and Data Reuse in DNN Computation with FractalTensor",
+      "authors": [
+        {
+          "name": "Siran Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chengxiang Qi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ying Cao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chao Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Weifang Hu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xuanhua Shi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fan Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mao Yang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Unearthing Semantic Checks for Cloud Infrastructure-as-Code Programs",
+      "authors": [
+        {
+          "name": "Yiming Qiu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Patrick Tser Jern Kon",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ryan Beckett",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ang Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Unifying serverless and microservice workloads with SigmaOS",
+      "authors": [
+        {
+          "name": "Ariel Szekely",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Adam Belay",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Robert Morris",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Frans Kaashoek",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "VPRI: Optimized I/O Page Fault in Public IaaS",
+      "authors": [
+        {
+          "name": "Kaijie Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Dingji Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ben Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yibin Shen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kaihuan Peng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ning Luo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shengdong Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chen Liang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jianming Song",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hang Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiantao Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zeyu Mi",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Verus: A Practical Foundation for Systems Verification",
+      "authors": [
+        {
+          "name": "Andrea Lattuada",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Travis Hance",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jay Bosamiya",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Matthias Brun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chanhee Cho",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hayley LeBlanc",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Pranav Srinivasan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Reto Achermann",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tej Chajed",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chris Hawblitzel",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jon Howell",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jacob R. Lorch",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Oded Padon",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bryan Parno",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "vSoC: Efficient Virtual System-on-Chip on Heterogeneous Hardware",
+      "authors": [
+        {
+          "name": "Jiaxing Qiu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zijie Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yang Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenhua Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Feng Qian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Di Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haitao Su",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xin Miao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yunhao Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tianyin Xu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "SOSP",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "pages": null,
+      "source": "sosp-web",
+      "dblp_paper_key": null
+    }
+  ]
+}
