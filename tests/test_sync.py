@@ -192,3 +192,44 @@ def test_partial_venue_with_zero_papers_also_writes_nothing(tmp_path):
     assert result.paper_count == 0
     assert not (tmp_path / "data" / "2026" / "SIGMOD.json").exists()
     assert not (tmp_path / "papers" / "2026" / "SIGMOD.md").exists()
+
+
+def test_missing_toc_is_treated_as_no_data_for_pending_venue(tmp_path):
+    """OSDI/ATC 2026 已开完会但 DBLP 尚未编目，其 TOC 返回 404。
+    对 pending 的会议这是正常状态，不该算作失败。"""
+    from csconf.http import NotFound
+
+    class NotFoundFetcher:
+        def get(self, url):
+            raise NotFound("{} 不存在".format(url), 404)
+
+    venues = {
+        "OSDI": {"type": "conf", "key": "conf/osdi/osdi{year}", "status": {2026: "pending"}}
+    }
+
+    result = sync_venue_year(
+        root=tmp_path, venues=venues, venue="OSDI", year=2026,
+        fetcher=NotFoundFetcher(), updated="2026-08-12",
+    )
+
+    assert result.paper_count == 0
+    assert not (tmp_path / "data" / "2026" / "OSDI.json").exists()
+
+
+def test_missing_toc_on_indexed_venue_still_raises_drift(tmp_path):
+    """indexed 的会议 TOC 变 404 = DBLP 改了 key，必须炸而不是静默跳过。"""
+    from csconf.http import NotFound
+
+    class NotFoundFetcher:
+        def get(self, url):
+            raise NotFound("{} 不存在".format(url), 404)
+
+    venues = {
+        "NSDI": {"type": "conf", "key": "conf/nsdi/nsdi{year}", "status": {2025: "indexed"}}
+    }
+
+    with pytest.raises(MappingDrift):
+        sync_venue_year(
+            root=tmp_path, venues=venues, venue="NSDI", year=2025,
+            fetcher=NotFoundFetcher(), updated="2026-08-12",
+        )

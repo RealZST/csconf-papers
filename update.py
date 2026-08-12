@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import sys
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import requests
@@ -35,7 +36,13 @@ def cmd_sync(args: argparse.Namespace) -> int:
                 if result.paper_count:
                     counts[(venue, year)] = result.paper_count
                 print("{} {}: {} papers".format(venue, year, result.paper_count))
-            except (MappingDrift, store.ShrinkRejected, http.RateLimited, http.HttpError) as exc:
+            except (
+                MappingDrift,
+                store.ShrinkRejected,
+                http.RateLimited,
+                http.HttpError,
+                ET.ParseError,
+            ) as exc:
                 failures.append("{} {}: {}".format(venue, year, exc))
                 print("FAIL {} {}: {}".format(venue, year, exc), file=sys.stderr)
 

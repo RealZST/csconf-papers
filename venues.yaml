@@ -10,11 +10,15 @@ OSDI:
   fallback_url: "https://www.usenix.org/conference/osdi{yy}/technical-sessions"
   status: {2025: indexed, 2026: pending}
 
+# USENIX ATC 在 2025 年办完第 50 届后停办，ACM SIGOPS 应社区请愿接手续办。
+# 因此 2026 没有 USENIX ATC：conf/usenix/usenix2026 这个 key 永远不会出现
+# （usenix.org/conference/atc26 实测 301 重定向到 atc25），ATC 停办后的投稿量
+# 被 OSDI 吸收——OSDI '26 官网列出约 136 篇，而 OSDI '25 只有 53 篇。
+# 只保留 2025；SIGOPS 续办的那个是另一个 venue，需要单独查 DBLP key 后再加。
 ATC:
   type: conf
   key: "conf/usenix/usenix{year}"
-  fallback_url: "https://www.usenix.org/conference/atc{yy}/technical-sessions"
-  status: {2025: indexed, 2026: pending}
+  status: {2025: indexed}
 
 NSDI:
   type: conf

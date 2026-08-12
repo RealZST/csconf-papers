@@ -55,7 +55,13 @@ def sync_venue_year(
     papers: List[Paper] = []
     note: Optional[str] = None
     for fetch in fetches:
-        xml_text = fetcher.get(http.toc_url(fetch.toc_key))
+        try:
+            xml_text = fetcher.get(http.toc_url(fetch.toc_key))
+        except http.NotFound:
+            # TOC 尚不存在。对 pending 的会议这是正常状态（OSDI/ATC 2026 开完会
+            # 但 DBLP 还没编目）；对 indexed 的会议则会在下面因零篇而触发
+            # MappingDrift，正是想要的行为。
+            continue
         parsed = parse_toc(xml_text, venue=venue, year=year)
 
         if config["type"] == "journal_rounds":
