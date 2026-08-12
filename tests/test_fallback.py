@@ -22,6 +22,20 @@ def test_usenix_extracts_papers_and_drops_keynote():
     assert all(p.title for p in papers)
 
 
+def test_usenix_keeps_presentation_url():
+    """标题上的 href 本来就要读出来做 keynote 过滤，顺手留下就是论文主页。
+    丢掉的话 OSDI 2026 这类走官网兜底的会议整届没有链接，而同一个会 2025
+    走 DBLP 时每篇都有——同一份列表里两种形态。"""
+    papers = parse_usenix_sessions(
+        _read("usenix-osdi-2026-accepted.html"), venue="OSDI", year=2026
+    )
+
+    assert all(
+        p.url and p.url.startswith("https://www.usenix.org/conference/osdi26/presentation/")
+        for p in papers
+    )
+
+
 def test_sigops_extracts_titles_and_authors():
     papers = parse_sigops_accepted(
         _read("sigops-sosp-2026-accepted.html"), venue="SOSP", year=2026

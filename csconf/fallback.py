@@ -2,7 +2,8 @@ from __future__ import annotations
 
 import re
 from html import unescape
-from typing import Callable, Dict, List
+from typing import Callable, Dict, List, Optional
+from urllib.parse import urljoin
 
 from csconf.dblp import _clean_title
 from csconf.models import Author, Paper
@@ -10,6 +11,9 @@ from csconf.models import Author, Paper
 # USENIX 的每篇论文是一个 <article>，但页面里还嵌着 speaker 的 <article>，
 # 且 keynote 那块的闭合标签被嵌套吃掉了——因此按开标签切块而不是配对闭合。
 _ARTICLE_SPLIT = re.compile(r"<article\b")
+# 页面里的 href 是站内相对路径（/conference/osdi26/presentation/...），
+# 存进 JSON 得补成绝对地址，否则 Markdown 里的链接点不开。
+_USENIX_BASE = "https://www.usenix.org/"
 _USENIX_HEADING = re.compile(
     r"<h2>\s*<a\s+href=\"([^\"]*)\"[^>]*>(.*?)</a>\s*</h2>", re.DOTALL
 )
@@ -66,13 +70,20 @@ def _split_names(text: str) -> List[Author]:
     ]
 
 
-def _make_paper(title: str, authors: List[Author], venue: str, year: int) -> Paper:
+def _make_paper(
+    title: str,
+    authors: List[Author],
+    venue: str,
+    year: int,
+    url: Optional[str] = None,
+) -> Paper:
     return Paper(
         title=title,
         authors=authors,
         venue=venue,
         year=year,
         doi=None,
+        url=url,
         pages=None,
         source="{}-web".format(venue.lower()),
         dblp_paper_key=None,
@@ -107,7 +118,9 @@ def parse_usenix_sessions(html: str, venue: str, year: int) -> List[Paper]:
             # 单位包在 <em> 里，整块删掉后剩下的就是纯人名序列。
             authors = _split_names(_text_of(_EM_BLOCK.sub(",", match.group(1))))
 
-        papers.append(_make_paper(title, authors, venue, year))
+        papers.append(
+            _make_paper(title, authors, venue, year, url=urljoin(_USENIX_BASE, href))
+        )
 
     return papers
 
