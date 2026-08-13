@@ -184,3 +184,41 @@ def test_paper_without_any_link_falls_back_to_a_scholar_search():
 
     assert "[No Links At All](https://scholar.google.com/scholar?q=" in out
     assert "· scholar.google.com" in out
+
+
+def test_preprint_is_rendered_after_the_official_pdf():
+    """The preprint sits beside the version of record, never in place of it, and
+    is labelled so nobody mistakes it for the camera-ready."""
+    papers = [
+        Paper(
+            title="Both", authors=[], venue="SOSP", year=2025,
+            url="https://doi.org/10.1145/1", doi="10.1145/1",
+            pdf_url="https://dl.acm.org/doi/pdf/10.1145/1", pdf_source="publisher-doi",
+            arxiv_id="2601.05536",
+        ),
+    ]
+
+    out = render_venue_year("SOSP", 2025, papers, None, "2026-08-13")
+
+    assert (
+        "- [Both](https://doi.org/10.1145/1)"
+        " · [PDF](https://dl.acm.org/doi/pdf/10.1145/1)"
+        " · [preprint](https://arxiv.org/abs/2601.05536)" in out
+    )
+
+
+def test_preprint_is_not_repeated_when_the_pdf_is_already_that_arxiv_paper():
+    """SOSP 2026's matched papers already point at arXiv. Printing "preprint"
+    next to a link that is the same preprint is noise."""
+    papers = [
+        Paper(
+            title="Matched", authors=[], venue="SOSP", year=2026,
+            url="https://arxiv.org/abs/2605.15617", url_source="semanticscholar",
+            pdf_url="https://arxiv.org/pdf/2605.15617", pdf_source="arxiv-derived",
+            arxiv_id="2605.15617",
+        ),
+    ]
+
+    out = render_venue_year("SOSP", 2026, papers, None, "2026-08-13")
+
+    assert "preprint" not in out

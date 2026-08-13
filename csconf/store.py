@@ -79,6 +79,28 @@ def write_pdf_cache(root: Path, cache: Dict[str, bool]) -> Path:
     return path
 
 
+def _arxiv_cache_path(root: Path) -> Path:
+    return Path(root) / "data" / "arxiv-cache.json"
+
+
+def load_arxiv_cache(root: Path) -> Dict[str, Any]:
+    """DOI to arXiv id, or to "asked and there is none"."""
+    path = _arxiv_cache_path(root)
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def write_arxiv_cache(root: Path, cache: Dict[str, Any]) -> Path:
+    path = _arxiv_cache_path(root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+    return path
+
+
 def rewrite_papers(root: Path, venue: str, year: int, papers: Sequence[Paper]) -> Path:
     """Replace only the papers, leaving meta untouched.
 

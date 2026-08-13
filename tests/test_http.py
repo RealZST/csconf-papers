@@ -172,3 +172,37 @@ def test_head_failures_are_not_fatal():
 
     fetcher = Fetcher(session=Broken(), sleep=lambda _: None, throttle_seconds=0)
     assert fetcher.head_is_pdf("https://example.org/x.pdf") is False
+
+
+def test_post_json_returns_the_body():
+    """The Semantic Scholar batch endpoint is a POST, and it is the only reason
+    977 papers cost two requests instead of 977."""
+    class PostSession:
+        def __init__(self):
+            self.calls = []
+
+        def post(self, url, json=None, timeout=None):
+            self.calls.append((url, json))
+            return FakeResponse(200, '[{"title": "x"}]')
+
+    session = PostSession()
+    fetcher = Fetcher(session=session, sleep=lambda _: None, throttle_seconds=0)
+
+    assert fetcher.post_json("https://api.example/batch", {"ids": ["DOI:1"]}) == '[{"title": "x"}]'
+    assert session.calls[0][1] == {"ids": ["DOI:1"]}
+
+
+def test_post_json_retries_rate_limiting_like_get():
+    class Flaky:
+        def __init__(self):
+            self.n = 0
+
+        def post(self, url, json=None, timeout=None):
+            self.n += 1
+            return FakeResponse(200, "ok") if self.n > 1 else FakeResponse(429)
+
+    sleeps = []
+    fetcher = Fetcher(session=Flaky(), sleep=sleeps.append, throttle_seconds=0, base_backoff=2)
+
+    assert fetcher.post_json("https://api.example/batch", {"ids": []}) == "ok"
+    assert sleeps == [2]

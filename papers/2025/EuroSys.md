@@ -1,10 +1,10 @@
 # EuroSys 2025
 
-85 papers · updated 2026-08-12
+85 papers · updated 2026-08-13
 
 - [A Hardware-Software Co-Design for Efficient Secure Containers](https://doi.org/10.1145/3689031.3717473) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717473)
   Jiacheng Shi, Yang Yu, Jinyu Gu, Yubin Xia
-- [A House United Within Itself: SLO-Awareness for On-Premises Containerized ML Inference Clusters via Faro](https://doi.org/10.1145/3689031.3696071) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696071)
+- [A House United Within Itself: SLO-Awareness for On-Premises Containerized ML Inference Clusters via Faro](https://doi.org/10.1145/3689031.3696071) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696071) · [preprint](https://arxiv.org/abs/2409.19488)
   Beomyeol Jeon, Chen Wang, Diana Arroyo, Alaa Youssef, Indranil Gupta
 - [Achieving Fairness Generalizability for Learning-based Congestion Control with Jury](https://doi.org/10.1145/3689031.3696065) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696065)
   Han Tian, Xudong Liao, Decang Sun, Chaoliang Zeng, Yilun Jin, Junxue Zhang, Xinchen Wan, Zilong Wang, Yong Wang, Kai Chen
@@ -18,7 +18,7 @@
   Mingxiao Ma, Yuehan Zhang, Jingyu Wang, Bo He, Chenyang Zhao, Qi Qi, Zirui Zhuang, Haifeng Sun, Lingqi Guo, Yuebin Guo, Gong Zhang, Jianxin Liao
 - [BESA: Extending Bugs Triggered by Runtime Testing via Static Analysis](https://doi.org/10.1145/3689031.3696089) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696089)
   Jia-Ju Bai
-- [Bingo: Radix-based Bias Factorization for Random Walk on Dynamic Graphs](https://doi.org/10.1145/3689031.3717456) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717456)
+- [Bingo: Radix-based Bias Factorization for Random Walk on Dynamic Graphs](https://doi.org/10.1145/3689031.3717456) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717456) · [preprint](https://arxiv.org/abs/2504.10233)
   Pinhuan Wang, Chengying Huan, Zhibin Wang, Chen Tian, Yuede Ji, Hang Liu
 - [Byte vSwitch: A High-Performance Virtual Switch for Cloud Networking](https://doi.org/10.1145/3689031.3717479) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717479)
   Xin Wang, Deguo Li, Zhihong Wang, Lidong Jiang, Shubo Wen, Daxiang Kang, Engin Arslan, Peng He, Xinyu Qian, Bin Niu, Jianwen Pi, Xiaoning Ding, Ke Lin, Hao Luo
@@ -30,9 +30,9 @@
   Yiming Zhang, Li Wang, Shengyun Liu, Shun Gai, Haonan Wang, Xin Yao, Meiling Wang, Kai Chen, Dongsheng Li, Jiwu Shu
 - [Chrono: Meticulous Hotness Measurement and Flexible Page Migration for Memory Tiering](https://doi.org/10.1145/3689031.3717462) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717462)
   Zhenlin Qi, Shengan Zheng, Ying Huang, Yifeng Hui, Bowen Zhang, Linpeng Huang, Hong Mei
-- [Collaborative Text Editing with Eg-walker: Better, Faster, Smaller](https://doi.org/10.1145/3689031.3696076) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696076)
+- [Collaborative Text Editing with Eg-walker: Better, Faster, Smaller](https://doi.org/10.1145/3689031.3696076) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696076) · [preprint](https://arxiv.org/abs/2409.14252)
   Joseph Gentle, Martin Kleppmann
-- [Comprehensive Deadlock Prevention for GPU Collective Communication](https://doi.org/10.1145/3689031.3717466) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717466)
+- [Comprehensive Deadlock Prevention for GPU Collective Communication](https://doi.org/10.1145/3689031.3717466) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717466) · [preprint](https://arxiv.org/abs/2303.06324)
   Lichen Pan, Juncheng Liu, Yongquan Fu, Jinhui Yuan, Rongkai Zhang, Pengze Li, Zhen Xiao
 - [CRAVE: Analyzing Cross-Resource Interaction to Improve Energy Efficiency in Systems-on-Chip](https://doi.org/10.1145/3689031.3717498) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717498)
   Dipayan Mukherjee, Sam Hachem, Jeremy Bao, Curtis Madsen, Tian Ma, Saugata Ghose, Gul Agha
@@ -40,15 +40,15 @@
   Junzhe Li, Ran Shu, Jiayi Lin, Qingyu Zhang, Ziyue Yang, Jie Zhang, Yongqiang Xiong, Chenxiong Qian
 - [Deft: A Scalable Tree Index for Disaggregated Memory](https://doi.org/10.1145/3689031.3696062) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696062)
   Jing Wang, Qing Wang, Yuhao Zhang, Jiwu Shu
-- [DeltaZip: Efficient Serving of Multiple Full-Model-Tuned LLMs](https://doi.org/10.1145/3689031.3717468) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717468)
+- [DeltaZip: Efficient Serving of Multiple Full-Model-Tuned LLMs](https://doi.org/10.1145/3689031.3717468) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717468) · [preprint](https://arxiv.org/abs/2312.05215)
   Xiaozhe Yao, Qinghao Hu, Ana Klimovic
-- [DPack: Efficiency-Oriented Privacy Budget Scheduling](https://doi.org/10.1145/3689031.3696096) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696096)
+- [DPack: Efficiency-Oriented Privacy Budget Scheduling](https://doi.org/10.1145/3689031.3696096) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696096) · [preprint](https://arxiv.org/abs/2212.13228)
   Pierre Tholoniat, Kelly Kostopoulou, Mosharaf Chowdhury, Asaf Cidon, Roxana Geambasu, Mathias Lécuyer, Junfeng Yang
 - [Efeu: generating efficient, verified, hybrid hardware/software drivers for I2C devices](https://doi.org/10.1145/3689031.3696093) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696093)
   Daniel Schwyn, Zikai Liu, Timothy Roscoe
-- [Empower Vision Applications with LoRA LMM](https://doi.org/10.1145/3689031.3717472) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717472)
+- [Empower Vision Applications with LoRA LMM](https://doi.org/10.1145/3689031.3717472) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717472) · [preprint](https://arxiv.org/abs/2411.00915)
   Liang Mi, Weijun Wang, Wenming Tu, Qingfeng He, Rui Kong, Xinyu Fang, Yazhu Dong, Yikang Zhang, Yuanchun Li, Meng Li, Haipeng Dai, Guihai Chen, Yunxin Liu
-- [Empowering WebAssembly with Thin Kernel Interfaces](https://doi.org/10.1145/3689031.3717470) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717470)
+- [Empowering WebAssembly with Thin Kernel Interfaces](https://doi.org/10.1145/3689031.3717470) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717470) · [preprint](https://arxiv.org/abs/2312.03858)
   Arjun Ramesh, Tianshu Huang, Ben L. Titzer, Anthony Rowe
 - [Enabling Virtual Priority in Data Center Congestion Control](https://doi.org/10.1145/3689031.3717463) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717463)
   Zhaochen Zhang, Feiyang Xue, Keqiang He, Zhimeng Yin, Gianni Antichi, Jiaqi Gao, Yizhi Wang, Rui Ning, Haixin Nan, Xu Zhang, Peirui Cao, Xiaoliang Wang, Wanchun Dou, Guihai Chen, Chen Tian
@@ -56,9 +56,9 @@
   Bin Yang, Dian Shen, Junxue Zhang, Hanlin Yang, Lunqi Zhao, Beilun Wang, Guyue Liu, Kai Chen
 - [Erebor: A Drop-In Sandbox Solution for Private Data Processing in Untrusted Confidential Virtual Machines](https://doi.org/10.1145/3689031.3717464) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717464)
   Chuqi Zhang, Rahul Priolkar, Yuancheng Jiang, Yuan Xiao, Mona Vij, Zhenkai Liang, Adil Ahmad
-- [Eva: Cost-Efficient Cloud-Based Cluster Scheduling](https://doi.org/10.1145/3689031.3717483) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717483)
+- [Eva: Cost-Efficient Cloud-Based Cluster Scheduling](https://doi.org/10.1145/3689031.3717483) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717483) · [preprint](https://arxiv.org/abs/2503.07437)
   Tzu-Tao Chang, Shivaram Venkataraman
-- [Fast State Restoration in LLM Serving with HCache](https://doi.org/10.1145/3689031.3696072) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696072)
+- [Fast State Restoration in LLM Serving with HCache](https://doi.org/10.1145/3689031.3696072) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696072) · [preprint](https://arxiv.org/abs/2410.05004)
   Shiwei Gao, Youmin Chen, Jiwu Shu
 - [FastIOV: Fast Startup of Passthrough Network I/O Virtualization for Secure Containers](https://doi.org/10.1145/3689031.3696066) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696066)
   Yunzhuo Liu, Junchen Guo, Bo Jiang, Yang Song, Pengyu Zhang, Rong Wen, Biao Lyu, Shunmin Zhu, Xinbing Wang
@@ -80,7 +80,7 @@
   Haonan Wu, Erci Xu, Ligang Wang, Yuandong Hong, Changsheng Niu, Bo Shi, Lingjun Zhu, Jinnian He, Dong Wu, Weidong Zhang, Qiuping Wang, Changhong Wang, Xinqi Chen, Guangtao Xue, Yi-Chao Chen, Dian Ding
 - [Hourglass: Enabling Efficient Split Federated Learning with Data Parallelism](https://doi.org/10.1145/3689031.3717467) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717467)
   Qiang He, Kaibin Wang, Zeqian Dong, Liang Yuan, Feifei Chen, Hai Jin, Yun Yang
-- [HybridFlow: A Flexible and Efficient RLHF Framework](https://doi.org/10.1145/3689031.3696075) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696075)
+- [HybridFlow: A Flexible and Efficient RLHF Framework](https://doi.org/10.1145/3689031.3696075) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696075) · [preprint](https://arxiv.org/abs/2409.19256)
   Guangming Sheng, Chi Zhang, Zilingfeng Ye, Xibin Wu, Wang Zhang, Ru Zhang, Yanghua Peng, Haibin Lin, Chuan Wu
 - [HyperAlloc: Efficient VM Memory De/Inflation via Hypervisor-Shared Page-Frame Allocators](https://doi.org/10.1145/3689031.3717484) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717484)
   Lars Wrenger, Kenny Albes, Marco Wurps, Christian Dietrich, Daniel Lohmann
@@ -94,7 +94,7 @@
   Gyeongchan Yun, Junesoo Kang, Hyunjoon Jeong, Sanghyeon Eom, Minsung Jang, Young-ri Choi
 - [Jupiter: Pushing Speed and Scalability Limitations for Subgraph Matching on Multi-GPUs](https://doi.org/10.1145/3689031.3717491) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717491)
   Zhiheng Lin, Ke Meng, Changjie Xu, Weichen Cao, Guangming Tan
-- [Ladon: High-Performance Multi-BFT Consensus via Dynamic Global Ordering](https://doi.org/10.1145/3689031.3696102) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696102)
+- [Ladon: High-Performance Multi-BFT Consensus via Dynamic Global Ordering](https://doi.org/10.1145/3689031.3696102) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696102) · [preprint](https://arxiv.org/abs/2409.10954)
   Hanzheng Lyu, Shaokang Xie, Jianyu Niu, Chen Feng, Yinqian Zhang, Ivan Beschastnikh
 - [LOFT: A Lock-free and Adaptive Learned Index with High Scalability for Dynamic Workloads](https://doi.org/10.1145/3689031.3717458) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717458)
   Yuxuan Mo, Yu Hua
@@ -104,17 +104,17 @@
   Zhenbo Sun, Shengqi Chen, Yuanwei Wang, Jian Sha, Guanyu Feng, Wenguang Chen
 - [MetaHG: Enhancing HGNN Systems Leveraging Advanced Metapath Graph Abstraction](https://doi.org/10.1145/3689031.3717492) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717492)
   Haiheng He, Haifeng Liu, Long Zheng, Yu Huang, Xinyang Shen, Wenkan Huang, Shuaihu Cao, Xiaofei Liao, Hai Jin, Jingling Xue
-- [Mist: Efficient Distributed Training of Large Language Models via Memory-Parallelism Co-Optimization](https://doi.org/10.1145/3689031.3717461) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717461)
+- [Mist: Efficient Distributed Training of Large Language Models via Memory-Parallelism Co-Optimization](https://doi.org/10.1145/3689031.3717461) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717461) · [preprint](https://arxiv.org/abs/2503.19050)
   Zhanda Zhu, Christina Giannoula, Muralidhar Andoorveedu, Qidong Su, Karttikeya Mangalam, Bojian Zheng, Gennady Pekhimenko
 - [Moko: Marrying Python with Big Data Systems](https://doi.org/10.1145/3689031.3696100) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696100)
   Ke Meng, Tao He, Sijie Shen, Lei Wang, Wenyuan Yu, Jingren Zhou
-- [Multi-Grained Specifications for Distributed System Model Checking and Verification](https://doi.org/10.1145/3689031.3696069) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696069)
+- [Multi-Grained Specifications for Distributed System Model Checking and Verification](https://doi.org/10.1145/3689031.3696069) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696069) · [preprint](https://arxiv.org/abs/2409.14301)
   Lingzhi Ouyang, Xudong Sun, Ruize Tang, Yu Huang, Madhav Jivrajani, Xiaoxing Ma, Tianyin Xu
 - [Multiplexing Dynamic Deep Learning Workloads with SLO-awareness in GPU Clusters](https://doi.org/10.1145/3689031.3696074) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696074)
   Wenyan Chen, Chengzhi Lu, Huanle Xu, Kejiang Ye, Chengzhong Xu
 - [NeuStream: Bridging Deep Learning Serving and Stream Processing](https://doi.org/10.1145/3689031.3717489) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717489)
   Haochen Yuan, Yuanqing Wang, Wenhao Xie, Yu Cheng, Ziming Miao, Lingxiao Ma, Jilong Xue, Zhi Yang
-- [Occamy: A Preemptive Buffer Management for On-chip Shared-memory Switches](https://doi.org/10.1145/3689031.3717495) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717495)
+- [Occamy: A Preemptive Buffer Management for On-chip Shared-memory Switches](https://doi.org/10.1145/3689031.3717495) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717495) · [preprint](https://arxiv.org/abs/2501.13570)
   Danfeng Shan, Yunguang Li, Jinchao Ma, Zhenxing Zhang, Zeyu Liang, Xinyu Wen, Hao Li, Wanchun Jiang, Nan Li, Fengyuan Ren
 - [OHMiner: An Overlap-centric System for Efficient Hypergraph Pattern Mining](https://doi.org/10.1145/3689031.3717474) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717474)
   Hao Qi, Kang Luo, Ligang He, Yu Zhang, Minzhi Cai, Jingxin Dai, Bingsheng He, Hai Jin, Zhan Zhang, Jin Zhao, Hengshan Yue, Hui Yu, Xiaofei Liao
@@ -138,15 +138,15 @@
   Shawn Wanxiang Zhong, Jing Liu, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau
 - [RoboRebound: Multi-Robot System Defense with Bounded-Time Interaction](https://doi.org/10.1145/3689031.3696079) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696079)
   Neeraj Gandhi, Yifan Cai, Andreas Haeberlen, Linh Thi Xuan Phan
-- [Samoyeds: Accelerating MoE Models with Structured Sparsity Leveraging Sparse Tensor Cores](https://doi.org/10.1145/3689031.3717455) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717455)
+- [Samoyeds: Accelerating MoE Models with Structured Sparsity Leveraging Sparse Tensor Cores](https://doi.org/10.1145/3689031.3717455) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717455) · [preprint](https://arxiv.org/abs/2503.10725)
   Chenpeng Wu, Qiqi Gu, Heng Shi, Jianguo Yao, Haibing Guan
 - [Seal: Towards Diverse Specification Inference for Linux Interfaces from Security Patches](https://doi.org/10.1145/3689031.3717487) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717487)
   Wei Chen, Bowen Zhang, Chengpeng Wang, Wensheng Tang, Charles Zhang
-- [SeBS-Flow: Benchmarking Serverless Cloud Function Workflows](https://doi.org/10.1145/3689031.3717465) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717465)
+- [SeBS-Flow: Benchmarking Serverless Cloud Function Workflows](https://doi.org/10.1145/3689031.3717465) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717465) · [preprint](https://arxiv.org/abs/2410.03480)
   Larissa Schmid, Marcin Copik, Alexandru Calotoiu, Laurin Brandner, Anne Koziolek, Torsten Hoefler
-- [Serverless Cold Starts and Where to Find Them](https://doi.org/10.1145/3689031.3696073) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696073)
+- [Serverless Cold Starts and Where to Find Them](https://doi.org/10.1145/3689031.3696073) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696073) · [preprint](https://arxiv.org/abs/2410.06145)
   Artjom Joosen, Ahmed Hassan, Martin Asenov, Rajkarn Singh, Luke Nicholas Darlow, Jianfeng Wang, Qiwen Deng, Adam Barker
-- [SkyServe: Serving AI Models across Regions and Clouds with Spot Instances](https://doi.org/10.1145/3689031.3717459) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717459)
+- [SkyServe: Serving AI Models across Regions and Clouds with Spot Instances](https://doi.org/10.1145/3689031.3717459) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717459) · [preprint](https://arxiv.org/abs/2411.01438)
   Ziming Mao, Tian Xia, Zhanghao Wu, Wei-Lin Chiang, Tyler Griggs, Romil Bhardwaj, Zongheng Yang, Scott Shenker, Ion Stoica
 - [Solid State Drive Targeted Memory-Efficient Indexing for Universal I/O Patterns and Fragmentation Degrees](https://doi.org/10.1145/3689031.3717478) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717478)
   Junsu Im, Jeonggyun Kim, Seonggyun Oh, Jinhyung Koo, Juhyung Park, Hoon Sung Chwa, Sam H. Noh, Sungjin Lee
@@ -154,19 +154,19 @@
   Liang Zhu, Jianguo Yao, Haibing Guan
 - [SpInfer: Leveraging Low-Level Sparsity for Efficient Large Language Model Inference on GPUs](https://doi.org/10.1145/3689031.3717481) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717481)
   Ruibo Fan, Xiangrui Yu, Peijie Dong, Zeyu Li, Gu Gong, Qiang Wang, Wei Wang, Xiaowen Chu
-- [Stateful Large Language Model Serving with Pensieve](https://doi.org/10.1145/3689031.3696086) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696086)
+- [Stateful Large Language Model Serving with Pensieve](https://doi.org/10.1145/3689031.3696086) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696086) · [preprint](https://arxiv.org/abs/2312.05516)
   Lingfan Yu, Jinkun Lin, Jinyang Li
 - [SuperFE: A Scalable and Flexible Feature Extractor for ML-based Traffic Analysis Applications](https://doi.org/10.1145/3689031.3696081) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696081)
   Menghao Zhang, Guanyu Li, Cheng Guo, Renyu Yang, Shicheng Wang, Han Bao, Xiao Li, Mingwei Xu, Tianyu Wo, Chunming Hu
-- [T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge](https://doi.org/10.1145/3689031.3696099) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696099)
+- [T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge](https://doi.org/10.1145/3689031.3696099) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696099) · [preprint](https://arxiv.org/abs/2407.00088)
   Jianyu Wei, Shijie Cao, Ting Cao, Lingxiao Ma, Lei Wang, Yanyong Zhang, Mao Yang
 - [Themis: Finding Imbalance Failures in Distributed File Systems via a Load Variance Model](https://doi.org/10.1145/3689031.3696082) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696082)
   Yuanliang Chen, Fuchen Ma, Yuanhang Zhou, Zhen Yan, Qing Liao, Yu Jiang
-- [Towards Efficient Flash Caches with Emerging NVMe Flexible Data Placement SSDs](https://doi.org/10.1145/3689031.3696091) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696091)
+- [Towards Efficient Flash Caches with Emerging NVMe Flexible Data Placement SSDs](https://doi.org/10.1145/3689031.3696091) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696091) · [preprint](https://arxiv.org/abs/2503.11665)
   Michael Allison, Arun George, Javier González, Dan Helmick, Vikash Kumar, Roshan R. Nair, Vivek Shah
-- [Towards VM Rescheduling Optimization Through Deep Reinforcement Learning](https://doi.org/10.1145/3689031.3717476) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717476)
+- [Towards VM Rescheduling Optimization Through Deep Reinforcement Learning](https://doi.org/10.1145/3689031.3717476) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717476) · [preprint](https://arxiv.org/abs/2505.17359)
   Xianzhong Ding, Yunkai Zhang, Binbin Chen, Donghao Ying, Tieying Zhang, Jianjun Chen, Lei Zhang, Alberto Cerpa, Wan Du
-- [TUNA: Tuning Unstable and Noisy Cloud Applications](https://doi.org/10.1145/3689031.3717480) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717480)
+- [TUNA: Tuning Unstable and Noisy Cloud Applications](https://doi.org/10.1145/3689031.3717480) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717480) · [preprint](https://arxiv.org/abs/2503.01801)
   Johannes Freischuetz, Konstantinos Kanellis, Brian Kroth, Shivaram Venkataraman
 - [Understanding and Detecting SQL Function Bugs: Using Simple Boundary Arguments to Trigger Hundreds of DBMS Bugs](https://doi.org/10.1145/3689031.3696064) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3696064)
   Jingzhou Fu, Jie Liang, Zhiyong Wu, Yanyang Zhao, Shanshan Li, Yu Jiang

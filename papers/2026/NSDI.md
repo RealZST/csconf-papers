@@ -1,6 +1,6 @@
 # NSDI 2026
 
-150 papers · updated 2026-08-12
+150 papers · updated 2026-08-13
 
 - [A Composable Emulation Framework for Whitebox Switches](https://www.usenix.org/conference/nsdi26/presentation/miao-whitebox) · [PDF](https://www.usenix.org/system/files/nsdi26-miao-whitebox.pdf)
   Congcong Miao, Xianneng Zou, Chuwen Zhang, Shiping Yang, Qihang Liu, Zhijie Yan, Yanke Zhang, Yong Jiang, Qiao Xiang, Xin Jin, Zili Meng, Ang Chen

@@ -1,6 +1,6 @@
 # VLDB 2026
 
-135 papers · updated 2026-08-12
+135 papers · updated 2026-08-13
 
 > 本文件为 PVLDB vol 19 全卷。VLDB 2026 研究 track 实际由本卷截止日前接收的论文加上一卷的 rollover 组成，DBLP 元数据无法区分。
 
