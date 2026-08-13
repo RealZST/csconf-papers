@@ -5,9 +5,9 @@
     "source_keys": [
       "conf/sosp/sosp2026"
     ],
-    "paper_count": 105,
+    "paper_count": 62,
     "note": null,
-    "updated": "2026-08-12"
+    "updated": "2026-08-13"
   },
   "papers": [
     {
@@ -95,6 +95,7 @@
       "url_source": "semanticscholar",
       "pdf_url": "https://arxiv.org/pdf/2605.15617",
       "pdf_source": "arxiv-derived",
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -154,6 +155,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -203,6 +205,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -242,6 +245,7 @@
       "url_source": "semanticscholar",
       "pdf_url": "https://arxiv.org/pdf/2601.17768",
       "pdf_source": "arxiv-derived",
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -321,6 +325,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -360,6 +365,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -409,6 +415,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -437,7 +444,7 @@
           "orcid": null
         },
         {
-          "name": "Jan HÃ¤ussermann",
+          "name": "Jan Häussermann",
           "pid": null,
           "orcid": null
         },
@@ -483,6 +490,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -527,6 +535,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -556,6 +565,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -615,6 +625,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -689,6 +700,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -723,6 +735,7 @@
       "url_source": "semanticscholar",
       "pdf_url": "https://arxiv.org/pdf/2607.06107",
       "pdf_source": "arxiv-derived",
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -777,6 +790,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -861,6 +875,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -905,6 +920,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -949,6 +965,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1003,6 +1020,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1026,7 +1044,7 @@
           "orcid": null
         },
         {
-          "name": "RenÃ© Just",
+          "name": "René Just",
           "pid": null,
           "orcid": null
         },
@@ -1082,6 +1100,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1136,6 +1155,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1175,6 +1195,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1244,6 +1265,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1293,6 +1315,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1347,6 +1370,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1396,6 +1420,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1425,6 +1450,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1464,6 +1490,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1513,6 +1540,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1557,6 +1585,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1616,6 +1645,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1685,6 +1715,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1789,6 +1820,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1833,6 +1865,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1877,6 +1910,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1920,7 +1954,7 @@
           "orcid": null
         },
         {
-          "name": "Mathias LÃ©cuyer",
+          "name": "Mathias Lécuyer",
           "pid": null,
           "orcid": null
         },
@@ -1941,6 +1975,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -1954,7 +1989,7 @@
           "orcid": null
         },
         {
-          "name": "JoÃ£o GonÃ§alves",
+          "name": "João Gonçalves",
           "pid": null,
           "orcid": null
         },
@@ -1991,10 +2026,11 @@
       "volume": null,
       "issue": null,
       "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
+      "url": "https://arxiv.org/abs/2602.05346",
+      "url_source": "semanticscholar",
+      "pdf_url": "https://arxiv.org/pdf/2602.05346",
+      "pdf_source": "arxiv-derived",
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2049,6 +2085,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2108,6 +2145,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2157,6 +2195,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2191,6 +2230,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2280,6 +2320,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2314,6 +2355,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2358,6 +2400,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2397,6 +2440,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2446,6 +2490,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2500,6 +2545,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2544,6 +2590,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2588,6 +2635,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2642,6 +2690,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2681,6 +2730,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2730,6 +2780,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2774,6 +2825,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2823,6 +2875,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2857,6 +2910,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2896,6 +2950,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2950,6 +3005,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -2989,6 +3045,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -3028,6 +3085,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -3056,7 +3114,7 @@
           "orcid": null
         },
         {
-          "name": "GaÃ«l Thomas",
+          "name": "Gaël Thomas",
           "pid": null,
           "orcid": null
         }
@@ -3072,6 +3130,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -3146,6 +3205,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -3195,6 +3255,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null
@@ -3284,2208 +3345,7 @@
       "url_source": null,
       "pdf_url": null,
       "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Aceso: Achieving Efficient Fault Tolerance in Memory-Disaggregated Key-Value Stores",
-      "authors": [
-        {
-          "name": "Zhisheng Hu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Pengfei Zuo",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yizou Chen",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Chao Wang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Junliang Hu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ming-Chang Yang",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Apparate: Rethinking Early Exits to Tame Latency-Throughput Tensions in ML Serving",
-      "authors": [
-        {
-          "name": "Yinwei Dai",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Rui Pan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Anand Iyer",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Kai Li",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ravi Netravali",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Autobahn: Seamless high speed BFT",
-      "authors": [
-        {
-          "name": "Florian Suri-Payer",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Neil Giridharan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Natacha Crooks",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Lorenzo Alvisi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ittai Abraham",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "BIZA: Design of Self-Governing Block-Interface ZNS AFA for Endurance and Performance",
-      "authors": [
-        {
-          "name": "Shushu Yi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Shaocong Sun",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Li Peng",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yingbo Sun",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ming-Chang Yang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Zhichao Cao",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Qiao Li",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Myoungsoo Jung",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ke Zhou",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jie Zhang",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory",
-      "authors": [
-        {
-          "name": "Xuchuan Luo",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jiacheng Shen",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Pengfei Zuo",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xin Wang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Michael R. Lyu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yangfan Zhou",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Caribou: Fine-Grained Geospatial Shifting of Serverless Applications for Sustainability",
-      "authors": [
-        {
-          "name": "Viktor Gsteiger",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Pin Hong",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Long",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yiran",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Sun",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Parshan Javanrood",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Mohammad Shahrad",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Cookie Monster: Efficient On-Device Budgeting for Differentially-Private Ad-Measurement Systems",
-      "authors": [
-        {
-          "name": "Pierre Tholoniat",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Kelly Kostopoulou",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Peter McNeely",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Prabhpreet Singh Sodhi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Anirudh Varanasi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Benjamin Case",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Asaf Cidon",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Mathias LÃ©cuyer",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Roxana Geambasu",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "DNS Congestion Control in Adversarial Settings",
-      "authors": [
-        {
-          "name": "Huayi Duan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jihye Kim",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Marc Wyss",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Adrian Perrig",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Dirigent: Lightweight Serverless Orchestration",
-      "authors": [
-        {
-          "name": "Lazar CvetkoviÄ",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "FranÃ§ois Costa",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Mihajlo Djokic",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Michal Friedman",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ana Klimovic",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Efficient Reproduction of Fault-Induced Failures in Distributed Systems with Feedback-Driven Fault Injection",
-      "authors": [
-        {
-          "name": "Jia Pan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Haoze Wu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Tanakorn Leesatapornwongsa",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Suman Nath",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Peng Huang",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Efficient file-lifetime redundancy management for cluster file systems",
-      "authors": [
-        {
-          "name": "Tim Kim",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Sanjith Athlur",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Saurabh Kadekodi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Francisco Maturana",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Dax Vandevoore",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Arif Merchant",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Greg Ganger",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Rashmi Vinayak",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Enabling Parallelism Hot Switching for Efficient Training of Large Language Models",
-      "authors": [
-        {
-          "name": "Hao Ge",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Fangcheng Fu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Haoyang Li",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xuanyu Wang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Sheng Lin",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yujie Wang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xiaonan Nie",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Hailin Zhang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xupeng Miao",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Bin Cui",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "FBDetect: Catching Tiny Performance Regressions at Hyperscale through In-Production Monitoring",
-      "authors": [
-        {
-          "name": "Dong Young Yoon",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yang Wang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Miao Yu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xu Huang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Juan Ignacio Jones",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Abhinay Kukkadapu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Osman Kocas",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jonathan Wiepert",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Kapil Goenka",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Sherry Chen",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yanjun Lin",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Zhihui Huang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jocelyn Kong",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Michael Chow",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Chunqiang Tang",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Fast & Safe IO Memory Protection",
-      "authors": [
-        {
-          "name": "Benny Rubin",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Saksham Agarwal",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Qizhe Cai",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Rachit Agarwal",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Fast Core Scheduling with Userspace Process Abstraction",
-      "authors": [
-        {
-          "name": "Jiazhen Lin",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Youmin Chen",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Shiwei Gao",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Youyou Lu",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Fast, Flexible, and Practical Kernel Extensions",
-      "authors": [
-        {
-          "name": "Kumar Kartikeya Dwivedi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Rishabh Iyer",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Sanidhya Kashyap",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Icarus: Trustworthy Just-In-Time Compilers with Symbolic Meta-Execution",
-      "authors": [
-        {
-          "name": "Michael Smith",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Abhishek Sharma",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Hovav Shacham",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ranjit Jhala",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Deian Stefan",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "If At First You Donât Succeed, Try, Try, Again...? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems",
-      "authors": [
-        {
-          "name": "Bogdan Alexandru Stoica",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Utsav Sethi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yiming Su",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Cyrus Zhou",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Shan Lu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jonathan Mace",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Madan Musuvathi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Suman Nath",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Improving DNN Inference Throughput Using Practical, Per-Input Compute Adaptation",
-      "authors": [
-        {
-          "name": "Anand Iyer",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Swapnil Gandhi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Mingyu Guan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yinwei Dai",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Rui Pan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ravi Netravali",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "LazyLog: A New Shared Log Abstraction for Low-Latency Applications",
-      "authors": [
-        {
-          "name": "Xuhao Luo",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Shreesha G Bhat",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jiyu Hu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ramnatthan Alagappan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Aishwarya Ganesan",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism",
-      "authors": [
-        {
-          "name": "Bingyang Wu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Shengyu Liu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yinmin Zhong",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Peng Sun",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xuanzhe Liu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xin Jin",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Modular Verification of Secure and Leakage-Free Systems: From Application Specification to Circuit-Level Implementation",
-      "authors": [
-        {
-          "name": "Anish Athalye",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Henry Corrigan-Gibbs",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Frans Kaashoek",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Joseph Tassarotti",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Nickolai Zeldovich",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "NOPE: Strengthening domain authentication with zero-knowledge proofs",
-      "authors": [
-        {
-          "name": "Zachary DeStefano",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jeff J. Ma",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Joseph Bonneau",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Michael Walfish",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "OZZ: Identifying Kernel Out-of-Order Concurrency Bugs with In-Vivo Memory Access Reordering",
-      "authors": [
-        {
-          "name": "Dae R. Jeong",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yewon Choi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Byoungyoung Lee",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Insik Shin",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Youngjin Kwon",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU",
-      "authors": [
-        {
-          "name": "Yixin Song",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Zeyu Mi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Haotong Xie",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Haibo Chen",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Practical Verification of System-Software Components Written in Standard C",
-      "authors": [
-        {
-          "name": "Can Cebeci",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yonghao Zou",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Diyu Zhou",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "George Candea",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "ClÃ©ment Pit-Claudel",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "ReCycle: Pipeline Adaptation for the Resilient Distributed Training of Large DNNs",
-      "authors": [
-        {
-          "name": "Swapnil Gandhi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Mark Zhao",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Athinagoras Skiadopoulos",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Christos Kozyrakis",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Reducing Energy Bloat in Large Model Training",
-      "authors": [
-        {
-          "name": "Jae-Won Chung",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yile Gu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Insu Jang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Luoxi Meng",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Nikhil Bansal",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Mosharaf Chowdhury",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Reducing cross-cloud/region costs with the auto-configuring MACARON cache",
-      "authors": [
-        {
-          "name": "Hojin Park",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ziyue Qiu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Gregory R. Ganger",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "George Amvrosiadis",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "SWARM: Replicating Shared Disaggregated-Memory Data in No Time",
-      "authors": [
-        {
-          "name": "Antoine Murat",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "ClÃ©ment Burgelin",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Athanasios Xygkis",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Igor Zablotchi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Marcos K. Aguilera",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Rachid Guerraoui",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Tenplex: Dynamic Parallelism for Deep Learning using Parallelizable Tensor Collections",
-      "authors": [
-        {
-          "name": "Marcel WagenlÃ¤nder",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Guo Li",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Bo Zhao",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Luo Mai",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Peter Pietzuch",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor with T10",
-      "authors": [
-        {
-          "name": "Yiqi Liu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yuqi Xue",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yu Cheng",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Lingxiao Ma",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ziming Miao",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jilong Xue",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jian Huang",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Sesame: Practical End-to-End Privacy Compliance with Policy Containers and Privacy Regions",
-      "authors": [
-        {
-          "name": "Kinan Dak Albab",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Artem Agvanian",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Allen Aby",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Corinn Tiffany",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Alexander Portland",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Sarah Ridley",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Malte Schwarzkopf",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "SilvanForge: A Schedule-Guided Retargetable Compiler for Decision Tree Inference",
-      "authors": [
-        {
-          "name": "Ashwin Prasad",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Sampath Rajendra",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Kaushik Rajan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "R Govindarajan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Uday Bondhugula",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Skyloft: A General High-Efficient Scheduling Framework in User Space",
-      "authors": [
-        {
-          "name": "Yuekai Jia",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Kaifu Tian",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yuyang You",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yu Chen",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Kang Chen",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Tiered Memory Management: Access Latency is the Key!",
-      "authors": [
-        {
-          "name": "Midhul Vuppalapati",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Rachit Agarwal",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "TrEnv: Transparently Share Serverless Execution Environments Across Different Functions and Nodes",
-      "authors": [
-        {
-          "name": "Jialiang Huang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "MingXing Zhang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Teng Ma",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Zheng Liu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Sixing Lin",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Kang Chen",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jinlei Jiang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xia Liao",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yingdi Shan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ning Zhang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Mengting Lu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Tao Ma",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Haifeng Gong",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "YongWei Wu",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Uncovering Nested Data Parallelism and Data Reuse in DNN Computation with FractalTensor",
-      "authors": [
-        {
-          "name": "Siran Liu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Chengxiang Qi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ying Cao",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Chao Yang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Weifang Hu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xuanhua Shi",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Fan Yang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Mao Yang",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Unearthing Semantic Checks for Cloud Infrastructure-as-Code Programs",
-      "authors": [
-        {
-          "name": "Yiming Qiu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Patrick Tser Jern Kon",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ryan Beckett",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ang Chen",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Unifying serverless and microservice workloads with SigmaOS",
-      "authors": [
-        {
-          "name": "Ariel Szekely",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Adam Belay",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Robert Morris",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Frans Kaashoek",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "VPRI: Optimized I/O Page Fault in Public IaaS",
-      "authors": [
-        {
-          "name": "Kaijie Guo",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Dingji Li",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ben Luo",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yibin Shen",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Kaihuan Peng",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Ning Luo",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Shengdong Dai",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Chen Liang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jianming Song",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Hang Yang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xiantao Zhang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Zeyu Mi",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "Verus: A Practical Foundation for Systems Verification",
-      "authors": [
-        {
-          "name": "Andrea Lattuada",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Travis Hance",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jay Bosamiya",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Matthias Brun",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Chanhee Cho",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Hayley LeBlanc",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Pranav Srinivasan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Reto Achermann",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Tej Chajed",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Chris Hawblitzel",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jon Howell",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Jacob R. Lorch",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Oded Padon",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Bryan Parno",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
-      "pages": null,
-      "source": "sosp-web",
-      "dblp_paper_key": null
-    },
-    {
-      "title": "vSoC: Efficient Virtual System-on-Chip on Heterogeneous Hardware",
-      "authors": [
-        {
-          "name": "Jiaxing Qiu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Zijie Zhou",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yang Li",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Zhenhua Li",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Feng Qian",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Hao Lin",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Di Gao",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Haitao Su",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xin Miao",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yunhao Liu",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Tianyin Xu",
-          "pid": null,
-          "orcid": null
-        }
-      ],
-      "venue": "SOSP",
-      "year": 2026,
-      "published_year": null,
-      "published_month": null,
-      "volume": null,
-      "issue": null,
-      "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
+      "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
       "dblp_paper_key": null

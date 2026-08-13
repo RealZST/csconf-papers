@@ -111,3 +111,38 @@ def test_nested_affiliation_parentheses_fully_stripped():
 
     assert names == ["Ming-Chang Yang", "Ke Zhou", "Jie Zhang"]
     assert not any("(" in n or ")" in n for n in names)
+
+
+def test_commented_out_paperlist_is_ignored():
+    """The SIGOPS SOSP 2026 page keeps the previous edition's list in the source,
+    wrapped in an HTML comment. A regex parser does not know what a comment is,
+    so it read 43 SOSP 2024 papers as SOSP 2026 ones — 38 of the 43 match the
+    DBLP SOSP 2024 TOC exactly, and none of the 62 live ones do. Stripping
+    comments before parsing is the whole fix."""
+    html = (
+        '<ul class="paperlist"><li><b>Real 2026 Paper</b><br />'
+        "<em>Ann Lee (Somewhere)</em></li></ul>"
+        "<!--\n"
+        '<ul class="paperlist"><li><b>Stale 2024 Paper</b><br />'
+        "<em>Bob Ray (Elsewhere)</em></li></ul>\n"
+        "-->"
+    )
+
+    papers = parse_sigops_accepted(html, venue="SOSP", year=2026)
+
+    assert [p.title for p in papers] == ["Real 2026 Paper"]
+
+
+def test_commented_out_usenix_article_is_ignored():
+    """Same hazard on the USENIX side: the parser splits on <article, which a
+    comment would not stop either."""
+    live = (
+        '<article><h2><a href="/conference/osdi26/presentation/lee">Live Paper</a></h2></article>'
+    )
+    html = live + "<!-- " + live.replace("Live Paper", "Commented Paper").replace(
+        "/lee", "/ray"
+    ) + " -->"
+
+    papers = parse_usenix_sessions(html, venue="OSDI", year=2026)
+
+    assert [p.title for p in papers] == ["Live Paper"]

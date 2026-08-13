@@ -42,10 +42,17 @@ ASPLOS:
 SIGMOD:
   type: journal_rounds
   key: "journals/pacmmod/pacmmod{vol}"
+  # Each edition spans four submission rounds across two PACMMOD volumes. The
+  # official sites list the OpenTOCs but not the round-to-issue mapping, and
+  # 2025.sigmod.org lists only three of its four. Both years below were derived
+  # by matching the titles under each "Round N" heading on the conference site
+  # against the DBLP TOCs: 2025 came out as R1 (2,4), R2 (2,6), R3 (3,1),
+  # R4 (3,3) — 15/27/73/107 title matches, no issue ambiguous.
   rounds:
+    2025: [[2, 4], [2, 6], [3, 1], [3, 3]]
     2026: [[3, 4], [3, 6], [4, 1], [4, 3]]
   official_url: "https://{year}.sigmod.org/sigmod_papers.shtml"
-  status: {2026: partial}
+  status: {2025: indexed, 2026: partial}
 
 VLDB:
   type: journal_volume

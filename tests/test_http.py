@@ -4,9 +4,14 @@ from csconf.http import Fetcher, RateLimited
 
 
 class FakeResponse:
-    def __init__(self, status_code, text=""):
+    """A response carries headers and bytes, not just decoded text — the decoder
+    reads all three to work out the charset."""
+
+    def __init__(self, status_code, text="", content_type="text/html; charset=utf-8"):
         self.status_code = status_code
         self.text = text
+        self.headers = {"content-type": content_type}
+        self.content = text.encode("utf-8")
 
 
 class FakeSession:
@@ -206,3 +211,44 @@ def test_post_json_retries_rate_limiting_like_get():
 
     assert fetcher.post_json("https://api.example/batch", {"ids": []}) == "ok"
     assert sleeps == [2]
+
+
+def test_utf8_body_is_decoded_when_the_server_omits_a_charset():
+    """sigops.org answers "content-type: text/html" with no charset, and requests
+    then falls back to ISO-8859-1 per RFC 2616. The page is UTF-8 and says so in
+    a meta tag, so that fallback turned "Wagenländer" into "WagenlÃ¤nder" in a
+    published author list."""
+    class NoCharset:
+        def get(self, url, timeout=None):
+            body = "Marcel Wagenländer".encode("utf-8")
+            return type(
+                "R", (), {
+                    "status_code": 200,
+                    "headers": {"content-type": "text/html"},
+                    "content": body,
+                    # What requests would hand us: UTF-8 bytes read as latin-1.
+                    "text": body.decode("latin-1"),
+                },
+            )()
+
+    fetcher = Fetcher(session=NoCharset(), sleep=lambda _: None, throttle_seconds=0)
+
+    assert fetcher.get("https://www.sigops.org/x") == "Marcel Wagenländer"
+
+
+def test_declared_charset_is_respected():
+    """When the server does declare one, believe it rather than guessing."""
+    class Declared:
+        def get(self, url, timeout=None):
+            return type(
+                "R", (), {
+                    "status_code": 200,
+                    "headers": {"content-type": "text/html; charset=iso-8859-1"},
+                    "content": "café".encode("latin-1"),
+                    "text": "café",
+                },
+            )()
+
+    fetcher = Fetcher(session=Declared(), sleep=lambda _: None, throttle_seconds=0)
+
+    assert fetcher.get("https://example.org/x") == "café"
