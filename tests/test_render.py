@@ -57,7 +57,11 @@ def test_readme_matrix_has_year_rows_and_venue_columns():
         updated="2026-08-12",
     )
 
-    rows = [line for line in readme.splitlines() if line.startswith("|")]
+    # Locate the matrix by its header: the README has other tables now, so
+    # "every line starting with a pipe" is no longer the same thing.
+    lines = readme.splitlines()
+    start = lines.index("| Year | SOSP | VLDB |")
+    rows = lines[start:start + 4]
 
     assert rows[0] == "| Year | SOSP | VLDB |"
     # Compare whole rows: as a substring, "| 2026 | — |" would pass by accident
@@ -222,3 +226,17 @@ def test_preprint_is_not_repeated_when_the_pdf_is_already_that_arxiv_paper():
     out = render_venue_year("SOSP", 2026, papers, None, "2026-08-13")
 
     assert "preprint" not in out
+
+
+def test_readme_credits_the_downstream_reader():
+    out = render_readme(["SOSP"], [2026], {("SOSP", 2026): 1}, "2026-08-13")
+
+    assert "https://github.com/tshi92/paper-viewer" in out
+
+
+def test_readme_tells_consumers_which_name_field_to_use():
+    """The homonym suffix is the single most likely thing for a consumer to get
+    wrong: it looks like dirt, and stripping it merges two real people."""
+    out = render_readme(["SOSP"], [2026], {("SOSP", 2026): 1}, "2026-08-13")
+
+    assert "display_name" in out and "Li Jiang 0002" in out
