@@ -1,12 +1,24 @@
 from __future__ import annotations
 
 import re
+import sys
 import xml.etree.ElementTree as ET
 from typing import List, Optional
 
 from csconf.models import Author, Paper
 
 DOI_PREFIX = "https://doi.org/"
+
+# DBLP occasionally drops the slash out of an ACM DOI: SIGMOD 2026's "Task
+# Cascades for Efficient Unstructured Data Processing" is recorded as
+# "10.11453786702" (confirmed against dblp.org's own API, so it is upstream and
+# not a parsing slip here). Crossref registers that paper under 10.1145/3786702
+# with a matching title and volume/issue, so splicing the slash back in recovers
+# the real DOI instead of inventing one. Every ACM DOI has the shape
+# 10.1145/<digits>, which makes the repair deterministic — but only for that
+# prefix. Other publishers number differently, and doing this to an IEEE or
+# Springer DOI would turn a broken link into a confidently wrong one.
+_ACM_DOI_MISSING_SLASH = re.compile(r"^10\.1145(\d+)$")
 
 # Non-paper records that journal volumes carry
 _FRONT_MATTER = re.compile(r"^front matter\.?$", re.IGNORECASE)
@@ -22,6 +34,14 @@ _RECORD_TAGS = ("inproceedings", "article")
 def _child_text(element: ET.Element, tag: str) -> Optional[str]:
     child = element.find(tag)
     return child.text if child is not None else None
+
+
+def repair_doi(doi):
+    """Put the slash back into an ACM DOI that DBLP recorded without one."""
+    if not doi:
+        return doi
+    match = _ACM_DOI_MISSING_SLASH.match(doi)
+    return "10.1145/{}".format(match.group(1)) if match else doi
 
 
 def _child_full_text(element: ET.Element, tag: str) -> Optional[str]:
@@ -89,6 +109,12 @@ def parse_toc(xml_text: str, venue: str, year: int) -> List[Paper]:
 
         ee = _child_text(element, "ee")
         doi = ee[len(DOI_PREFIX):] if ee and ee.startswith(DOI_PREFIX) else None
+        repaired = repair_doi(doi)
+        if repaired != doi:
+            # The url has to move with it. Leaving ee alone would publish a dead
+            # doi.org link right next to a correct DOI field.
+            print("  repaired DOI {} -> {}".format(doi, repaired), file=sys.stderr)
+            doi, ee = repaired, DOI_PREFIX + repaired
 
         papers.append(
             Paper(

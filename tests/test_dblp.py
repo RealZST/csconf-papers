@@ -106,3 +106,43 @@ def test_titles_with_nested_markup_are_not_truncated():
     # None of the truncated fragments may survive
     assert "B" not in titles
     assert not any(t.endswith(" (") for t in titles)
+
+
+def test_acm_doi_missing_its_slash_is_repaired():
+    """DBLP really carries "10.11453786702" for SIGMOD 2026's "Task Cascades for
+    Efficient Unstructured Data Processing" — the slash is missing at the
+    source, verified against dblp.org's own API. Crossref registers the paper
+    under 10.1145/3786702 with a matching title and volume/issue, so the repair
+    recovers the real DOI rather than inventing one. Left alone it is a dead
+    doi.org link and no PDF at all."""
+    from csconf.dblp import repair_doi
+
+    assert repair_doi("10.11453786702") == "10.1145/3786702"
+    assert repair_doi("10.1145/3786702") == "10.1145/3786702"
+
+
+def test_repair_only_touches_the_acm_prefix():
+    """Every publisher numbers its own way. Splicing a slash into an IEEE or
+    Springer DOI would turn a broken link into a confidently wrong one."""
+    from csconf.dblp import repair_doi
+
+    assert repair_doi("10.11095678") == "10.11095678"
+    assert repair_doi("10.1007978311") == "10.1007978311"
+    assert repair_doi("10.48550/arXiv.2601.05536") == "10.48550/arXiv.2601.05536"
+    assert repair_doi(None) is None
+
+
+def test_repaired_doi_flows_into_the_paper_and_its_url():
+    """The url has to be repaired alongside the doi. Leaving ee untouched would
+    publish a dead doi.org link next to a correct DOI field."""
+    from csconf.dblp import parse_toc
+
+    xml = (
+        '<?xml version="1.0"?><dblp><article key="journals/pacmmod/X"><title>T.</title>'
+        '<author>A B</author><volume>4</volume><number>1</number>'
+        "<ee>https://doi.org/10.11453786702</ee></article></dblp>"
+    )
+    paper = parse_toc(xml, venue="SIGMOD", year=2026)[0]
+
+    assert paper.doi == "10.1145/3786702"
+    assert paper.url == "https://doi.org/10.1145/3786702"
