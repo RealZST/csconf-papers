@@ -82,6 +82,19 @@ class Fetcher:
         return "pdf" in response.headers.get("content-type", "").lower()
 
     def get(self, url: str) -> str:
+        return self._request(url, lambda: self.session.get(url, timeout=self.timeout))
+
+    def post_json(self, url: str, payload) -> str:
+        """POST a JSON body under the same throttling and backoff as get().
+
+        The Semantic Scholar batch endpoint is a POST, and it is the only reason
+        977 papers cost two requests instead of 977.
+        """
+        return self._request(
+            url, lambda: self.session.post(url, json=payload, timeout=self.timeout)
+        )
+
+    def _request(self, url: str, send) -> str:
         if self._made_request and self.throttle_seconds:
             self.sleep(self.throttle_seconds)
         self._made_request = True
@@ -89,7 +102,7 @@ class Fetcher:
         backoff = self.base_backoff
         for attempt in range(self.max_retries):
             try:
-                response = self.session.get(url, timeout=self.timeout)
+                response = send()
             except TRANSIENT_EXCEPTIONS as exc:
                 if attempt < self.max_retries - 1:
                     self.sleep(backoff)

@@ -1,6 +1,6 @@
 # ATC 2025
 
-100 papers · updated 2026-08-12
+100 papers · updated 2026-08-13
 
 - [Accelerating Distributed Graph Learning by Using Collaborative In-Network Multicast and Aggregation](https://www.usenix.org/conference/atc25/presentation/li-zhaoyi) · [PDF](https://www.usenix.org/system/files/atc25-li-zhaoyi.pdf)
   Zhaoyi Li, Jiawei Huang, Yijun Li, Jingling Liu, Junxue Zhang, Hui Li, Xiaojun Zhu, Shengwen Zhou, Jing Shao, Xiaojuan Lu, Qichen Su, Jianxin Wang, Chee Wei Tan, Yong Cui, Kai Chen

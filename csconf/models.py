@@ -43,6 +43,10 @@ class Paper:
     # whether it needs verifying and whether it is actually free to read —
     # the publisher-doi ones need a subscription unless the paper is open.
     pdf_source: Optional[str] = None
+    # The arXiv preprint of this paper, when one exists. Not the version of
+    # record — it can differ from the camera-ready — but it is the one copy a
+    # machine can always fetch, which is what makes it worth carrying.
+    arxiv_id: Optional[str] = None
     pages: Optional[str] = None
     source: str = "dblp"
     dblp_paper_key: Optional[str] = None
@@ -62,6 +66,7 @@ class Paper:
             "url_source": self.url_source,
             "pdf_url": self.pdf_url,
             "pdf_source": self.pdf_source,
+            "arxiv_id": self.arxiv_id,
             "pages": self.pages,
             "source": self.source,
             "dblp_paper_key": self.dblp_paper_key,
@@ -84,6 +89,7 @@ class Paper:
             url_source=data.get("url_source"),
             pdf_url=data.get("pdf_url"),
             pdf_source=data.get("pdf_source"),
+            arxiv_id=data.get("arxiv_id"),
             pages=data.get("pages"),
             source=data.get("source", "dblp"),
             dblp_paper_key=data.get("dblp_paper_key"),

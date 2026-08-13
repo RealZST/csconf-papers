@@ -11,7 +11,7 @@ from pathlib import Path
 
 import requests
 
-from csconf import enrich, http, pdf, render, store, venues as venues_mod
+from csconf import enrich, http, pdf, preprint, render, store, venues as venues_mod
 from csconf.models import Paper
 from csconf.sync import MappingDrift, sync_venue_year
 
@@ -90,14 +90,16 @@ def cmd_enrich(args: argparse.Namespace) -> int:
 
     link_cache = store.load_link_cache(ROOT)
     pdf_cache = store.load_pdf_cache(ROOT)
+    arxiv_cache = store.load_arxiv_cache(ROOT)
     lookup_budget, verify_budget = args.budget, args.pdf_budget
+    preprint_budget = args.preprint_budget
 
-    totals = {"found": 0, "queried": 0, "filled": 0, "checked": 0}
+    totals = {"found": 0, "queried": 0, "filled": 0, "checked": 0, "preprints": 0}
     for path in sorted((ROOT / "data").glob("*/*.json")):
         payload = json.loads(path.read_text(encoding="utf-8"))
         meta = payload["meta"]
         papers = [Paper.from_dict(item) for item in payload["papers"]]
-        before = [(p.url, p.pdf_url) for p in papers]
+        before = [(p.url, p.pdf_url, p.arxiv_id) for p in papers]
 
         papers, link_cache, link_stats = enrich.enrich_papers(
             papers, cache=link_cache, fetcher=matcher, today=today, budget=lookup_budget
@@ -109,12 +111,19 @@ def cmd_enrich(args: argparse.Namespace) -> int:
         )
         verify_budget -= pdf_stats["checked"]
 
+        papers, arxiv_cache, pre_stats = preprint.fill_arxiv_ids(
+            papers, cache=arxiv_cache, fetcher=matcher, today=today,
+            budget=preprint_budget,
+        )
+        preprint_budget -= pre_stats["requests"]
+
         totals["found"] += link_stats["found"]
         totals["queried"] += link_stats["queried"]
         totals["filled"] += pdf_stats["filled"]
         totals["checked"] += pdf_stats["checked"]
+        totals["preprints"] += pre_stats["found"] + pre_stats["cached"]
 
-        if [(p.url, p.pdf_url) for p in papers] != before:
+        if [(p.url, p.pdf_url, p.arxiv_id) for p in papers] != before:
             store.rewrite_papers(ROOT, meta["venue"], meta["year"], papers)
             markdown = render.render_venue_year(
                 meta["venue"], meta["year"], papers, meta.get("note"), meta["updated"]
@@ -123,16 +132,22 @@ def cmd_enrich(args: argparse.Namespace) -> int:
             md_path.write_text(markdown, encoding="utf-8")
 
         print(
-            "{} {}: +{} links, +{} pdfs".format(
-                meta["venue"], meta["year"], link_stats["found"], pdf_stats["filled"]
+            "{} {}: +{} links, +{} pdfs, +{} preprints".format(
+                meta["venue"], meta["year"], link_stats["found"], pdf_stats["filled"],
+                pre_stats["found"] + pre_stats["cached"],
             )
         )
         # Save after every venue: a run that dies halfway should not throw away
         # the lookups it already paid for.
         store.write_link_cache(ROOT, link_cache)
         store.write_pdf_cache(ROOT, pdf_cache)
+        store.write_arxiv_cache(ROOT, arxiv_cache)
 
-        if link_stats["budget_exhausted"] or pdf_stats["budget_exhausted"]:
+        if (
+            link_stats["budget_exhausted"]
+            or pdf_stats["budget_exhausted"]
+            or pre_stats["budget_exhausted"]
+        ):
             # Keep going rather than break. Spending the request budget must not
             # stop the derivations that need no request at all: the first real
             # run stopped here and left VLDB 2026's 135 papers without PDF
@@ -146,8 +161,9 @@ def cmd_enrich(args: argparse.Namespace) -> int:
             )
 
     print(
-        "total: +{} links ({} queries), +{} pdfs ({} checks)".format(
-            totals["found"], totals["queried"], totals["filled"], totals["checked"]
+        "total: +{} links ({} queries), +{} pdfs ({} checks), {} preprints".format(
+            totals["found"], totals["queried"], totals["filled"], totals["checked"],
+            totals["preprints"],
         )
     )
     return 0
@@ -224,6 +240,12 @@ def main() -> int:
         type=int,
         default=pdf.DEFAULT_VERIFY_BUDGET,
         help="how many derived PDF URLs to verify this run; the rest wait",
+    )
+    enrich_parser.add_argument(
+        "--preprint-budget",
+        type=int,
+        default=preprint.DEFAULT_BUDGET,
+        help="how many DOI batch requests to make this run (500 DOIs each)",
     )
     enrich_parser.add_argument("--today", help="override the cache check date")
     enrich_parser.set_defaults(func=cmd_enrich)

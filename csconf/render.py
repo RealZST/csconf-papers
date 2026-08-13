@@ -4,7 +4,7 @@ import re
 from typing import Dict, List, Optional, Sequence, Tuple
 from urllib.parse import urlparse
 
-from csconf import pdf as pdf_mod
+from csconf import pdf as pdf_mod, preprint as preprint_mod
 from csconf.models import Paper
 
 # DBLP disambiguates identical names with a four-digit suffix, as in "Song Yu
@@ -44,6 +44,15 @@ def _render_links(paper: Paper) -> str:
         # and that is a fact about scripts, not readers, so it belongs in
         # pdf_source in the JSON rather than in a list meant for people.
         parts.append("[PDF]({})".format(paper.pdf_url))
+
+    if paper.arxiv_id and paper.pdf_source != "arxiv-derived":
+        # Beside the version of record, never in place of it: a preprint can
+        # differ from the camera-ready in results, sections and wording. It
+        # earns its place because arxiv.org serves it to anything that asks,
+        # while dl.acm.org answers automated requests with 403 — so this is the
+        # copy a reader's tools can actually open. Skipped when the PDF above
+        # already is this arXiv paper.
+        parts.append("[preprint]({})".format(preprint_mod.abs_url(paper.arxiv_id)))
 
     return " · ".join(parts)
 
@@ -101,6 +110,14 @@ def render_readme(
         "only in machine access: `dl.acm.org` answers automated requests with "
         "403, so a script cannot fetch those the way it can the other two. "
         "`pdf_source` in the JSON records which is which.",
+        "",
+        "Where a paper with a DOI also has an arXiv preprint, its id is stored "
+        "as `arxiv_id` and linked as `preprint`. The mapping comes from "
+        "Semantic Scholar keyed by DOI, so it is exact rather than matched on "
+        "the title. A preprint is not the version of record and can differ from "
+        "the camera-ready, so it appears beside the official link, never in "
+        "place of it — but arxiv.org serves it to anything that asks, which "
+        "makes it the copy a reader's own tools can open.",
         "",
         "Last updated: {}".format(updated),
         "",

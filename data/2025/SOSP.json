@@ -70,6 +70,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764818",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2504.15465",
       "pages": "1-17",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/CoppockZSKYSSM025"
@@ -104,6 +105,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764809",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2509.09439",
       "pages": "18-35",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/KresselLO25"
@@ -153,6 +155,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764828",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2603.22585",
       "pages": "36-49",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/SchuermannCGLLP25"
@@ -192,6 +195,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764811",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2504.17984",
       "pages": "50-66",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ChoeWBL25"
@@ -276,6 +280,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764844",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "67-84",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/AmarCCFLLLMNSTW25"
@@ -330,6 +335,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764826",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "85-100",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/CastesCKRFBB25"
@@ -394,6 +400,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764812",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "101-119",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ZhongBZS0PPFC25"
@@ -433,6 +440,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764805",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "120-135",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/LeePMK25"
@@ -492,6 +500,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764842",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "136-152",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/PanLURLBKK25"
@@ -551,6 +560,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764795",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "153-168",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/PolyakovSSYDKSL25"
@@ -590,6 +600,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764801",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "169-185",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/HuHWY25"
@@ -784,6 +795,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764838",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2509.16293",
       "pages": "186-203",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/WanLSWZSWWWLYZJ25"
@@ -853,6 +865,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764839",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2504.17096",
       "pages": "204-220",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/StratiZMP0CB0DK25"
@@ -902,6 +915,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764849",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2510.10620",
       "pages": "221-236",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/0002CT00025"
@@ -956,6 +970,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764850",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2506.15961",
       "pages": "237-253",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/LuM00Z0025"
@@ -1055,6 +1070,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764848",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2509.03018",
       "pages": "254-269",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/DengZWZZJXWSLBW25"
@@ -1109,6 +1125,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764835",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "270-285",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/HuZLGLKH25"
@@ -1188,6 +1205,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764832",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "286-304",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/LiuZLXQDL0CD0W25"
@@ -1247,6 +1265,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764858",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "305-321",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/JingMCCHQCH25"
@@ -1286,6 +1305,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764846",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "322-340",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/SubramanyaDSG25"
@@ -1335,6 +1355,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764825",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "341-358",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/0002KGIBC25"
@@ -1394,6 +1415,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764808",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2501.14794",
       "pages": "359-374",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ChenFFWZXX025"
@@ -1463,6 +1485,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764829",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2501.12689",
       "pages": "375-398",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/YuGSTSZK0LC25"
@@ -1542,6 +1565,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764834",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2505.07203",
       "pages": "399-414",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/DuWZCLSCYLQSJ25"
@@ -1581,6 +1605,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764814",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2510.24051",
       "pages": "415-430",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/GimML025"
@@ -1625,6 +1650,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764810",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2412.03131",
       "pages": "431-445",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ZhangHZLC25"
@@ -1709,6 +1735,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764823",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2503.18292",
       "pages": "446-461",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ZhangDLKMWLYLLZ25"
@@ -1763,6 +1790,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764820",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "462-478",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ZussmanZCCFPC25"
@@ -1832,6 +1860,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764816",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "479-495",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/0004YZLMZLWWZ25"
@@ -1881,6 +1910,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764804",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "496-511",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ZhouXSHMS25"
@@ -1945,6 +1975,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764853",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "512-528",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/SollezaLSTSCCTZ25"
@@ -1994,6 +2025,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764799",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "529-554",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/Suri-PayerGACAC25"
@@ -2033,6 +2065,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764854",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2509.05759",
       "pages": "555-571",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/GengMSP25"
@@ -2062,6 +2095,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764840",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2501.05408",
       "pages": "572-588",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/SilvestreP25"
@@ -2116,6 +2150,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764847",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "589-605",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/YeLLLHKH25"
@@ -2175,6 +2210,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764855",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2412.10543",
       "pages": "606-622",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/Ray0GDFANJ25"
@@ -2229,6 +2265,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764806",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "623-638",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/HuMPLF0W25"
@@ -2278,6 +2315,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764845",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2504.21538",
       "pages": "639-654",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/RamhorstKHDLA25"
@@ -2322,6 +2360,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764827",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2503.09002",
       "pages": "655-669",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/YangZXLZ25"
@@ -2366,6 +2405,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764841",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "670-684",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/00100FD025"
@@ -2410,6 +2450,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764817",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "685-700",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/MemarianSKPS25"
@@ -2459,6 +2500,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764797",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "701-718",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/0004DBP0K25"
@@ -2518,6 +2560,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764819",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "719-735",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/HuZXKYJW025"
@@ -2547,6 +2590,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764796",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "736-751",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/Sun025"
@@ -2591,6 +2635,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764821",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "752-767",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/Chen0ZNB25"
@@ -2635,6 +2680,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764822",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "768-785",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ZhangZJC025"
@@ -2694,6 +2740,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764856",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "786-801",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/Rindisbacher0LP25"
@@ -2748,6 +2795,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764833",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2509.10793",
       "pages": "802-833",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/BaumBM0KVL25"
@@ -2827,6 +2875,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764837",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2202.06692",
       "pages": "834-874",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/Merino0RAMTRZAT25"
@@ -2896,6 +2945,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764802",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "875-891",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/QiuPZWBSZSGA25"
@@ -3025,6 +3075,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764851",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "892-906",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/DiXGSLCZQHGHLWY25"
@@ -3054,6 +3105,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764830",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "907-927",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ZhangA25"
@@ -3168,6 +3220,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764824",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "928-943",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/LiCJ0H00CYCXZLX25"
@@ -3242,6 +3295,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764803",
       "pdf_source": "publisher-doi",
+      "arxiv_id": "2505.01603",
       "pages": "944-961",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/KuchlerLZCGSTKN25"
@@ -3286,6 +3340,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764831",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "962-978",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/KaashoekGLLL25"
@@ -3330,6 +3385,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764857",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "979-995",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/0005ZXX025"
@@ -3389,6 +3445,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764813",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "996-1013",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/WeiHSH0H0025"
@@ -3493,6 +3550,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764843",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "1014-1029",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ChenXZTWDCYLQZO25"
@@ -3562,6 +3620,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764815",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "1030-1045",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/Xiang0QYZYZL0025"
@@ -3631,6 +3690,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764798",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "1046-1061",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/GuanQPJF0WL0A25"
@@ -3695,6 +3755,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764800",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "1062-1081",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/HeD0ZY0JX025"
@@ -3809,6 +3870,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764836",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "1082-1098",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ZhangXZTWHWXW0H25"
@@ -3853,6 +3915,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764794",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "1099-1114",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/ChenSSH025"
@@ -3897,6 +3960,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764852",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "1115-1130",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/LaforetKILL25"
@@ -3931,6 +3995,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764807",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "1131-1148",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/KimKK25"
@@ -3980,6 +4045,7 @@
       "url_source": null,
       "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3768291",
       "pdf_source": "publisher-doi",
+      "arxiv_id": null,
       "pages": "1149-1157",
       "source": "dblp",
       "dblp_paper_key": "conf/sosp/JeonPKKZK25"
