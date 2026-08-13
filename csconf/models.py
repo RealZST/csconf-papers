@@ -4,8 +4,21 @@ import re
 from dataclasses import dataclass
 from typing import Any, Dict, List, Optional
 
+# DBLP appends a four-digit suffix to tell apart different people who share a
+# name: "Li Jiang 0002" is the second Li Jiang in DBLP and its pid is 45/4954-2.
+# 3237 of the 15265 author entries here carry one (21.2%), and every single one
+# of them also has a pid. The canonical form has to stay — stripping it before
+# matching would merge two real people into one — but no reader should see it,
+# and no consumer of this data should have to know the rule, so both forms ship.
+_DBLP_DISAMBIGUATION = re.compile(r"\s+\d{4}$")
+
 _PUNCT = re.compile(r"[^\w\s]", re.UNICODE)
 _SPACE = re.compile(r"\s+")
+
+
+def display_name(name: str) -> str:
+    """The name as a person should read it, without DBLP's homonym suffix."""
+    return _DBLP_DISAMBIGUATION.sub("", name)
 
 
 @dataclass
@@ -15,7 +28,15 @@ class Author:
     orcid: Optional[str] = None
 
     def to_dict(self) -> Dict[str, Any]:
-        return {"name": self.name, "pid": self.pid, "orcid": self.orcid}
+        # display_name is derived on every write rather than stored on the
+        # dataclass, so a stale value in an old file can never disagree with the
+        # canonical name it comes from.
+        return {
+            "name": self.name,
+            "display_name": display_name(self.name),
+            "pid": self.pid,
+            "orcid": self.orcid,
+        }
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "Author":

@@ -5,17 +5,11 @@ from typing import Dict, List, Optional, Sequence, Tuple
 from urllib.parse import urlparse
 
 from csconf import pdf as pdf_mod, preprint as preprint_mod
-from csconf.models import Paper
+from csconf.models import Paper, display_name as models_display_name
 
-# DBLP disambiguates identical names with a four-digit suffix, as in "Song Yu
-# 0004". It is on 22.8% of the 12518 author entries here and is pure noise in a
-# list meant for people. The JSON keeps DBLP's canonical form, and every
-# suffixed entry also carries a pid, so dropping it loses no identity.
-_DBLP_DISAMBIGUATION = re.compile(r"\s+\d{4}$")
-
-
-def display_name(name: str) -> str:
-    return _DBLP_DISAMBIGUATION.sub("", name)
+# Re-exported: the rule belongs to the data, not to how it is rendered, so it
+# lives in models next to the canonical name it strips from.
+display_name = models_display_name
 
 
 def _render_links(paper: Paper) -> str:
@@ -118,6 +112,11 @@ def render_readme(
         "the camera-ready, so it appears beside the official link, never in "
         "place of it — but arxiv.org serves it to anything that asks, which "
         "makes it the copy a reader's own tools can open.",
+        "",
+        "Author names keep DBLP's canonical form in `name`, including the "
+        "four-digit homonym suffix that tells apart different people who share "
+        "one (`Li Jiang 0002`). `display_name` carries the same name without "
+        "it — use that for display, and `name` or `pid` for identity.",
         "",
         "Last updated: {}".format(updated),
         "",

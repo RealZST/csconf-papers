@@ -15,41 +15,49 @@
       "authors": [
         {
           "name": "Chi Zhang 0005",
+          "display_name": "Chi Zhang",
           "pid": "91/195-5",
           "orcid": null
         },
         {
           "name": "Shihao Zhang",
+          "display_name": "Shihao Zhang",
           "pid": "191/7655",
           "orcid": null
         },
         {
           "name": "Yunfei Gu",
+          "display_name": "Yunfei Gu",
           "pid": "217/2344",
           "orcid": null
         },
         {
           "name": "Chentao Wu",
+          "display_name": "Chentao Wu",
           "pid": "55/8165",
           "orcid": null
         },
         {
           "name": "Jie Li 0002",
+          "display_name": "Jie Li",
           "pid": "17/2703-2",
           "orcid": null
         },
         {
           "name": "Qin Zhang",
+          "display_name": "Qin Zhang",
           "pid": "45/47",
           "orcid": null
         },
         {
           "name": "Xusheng Chen",
+          "display_name": "Xusheng Chen",
           "pid": "38/7674",
           "orcid": null
         },
         {
           "name": "Jie Meng",
+          "display_name": "Jie Meng",
           "pid": "80/485",
           "orcid": null
         }
@@ -65,6 +73,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1-zhang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1-14",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhangZGWLZCM25"
@@ -74,21 +83,25 @@
       "authors": [
         {
           "name": "Yunjie Pan",
+          "display_name": "Yunjie Pan",
           "pid": "327/6686",
           "orcid": null
         },
         {
           "name": "Omkar Bhalerao",
+          "display_name": "Omkar Bhalerao",
           "pid": "274/7071",
           "orcid": null
         },
         {
           "name": "C. Seshadhri 0001",
+          "display_name": "C. Seshadhri",
           "pid": "60/4210",
           "orcid": null
         },
         {
           "name": "Nishil Talati",
+          "display_name": "Nishil Talati",
           "pid": "161/3279",
           "orcid": null
         }
@@ -104,6 +117,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p15-pan.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "15-28",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/PanBST25"
@@ -113,21 +127,25 @@
       "authors": [
         {
           "name": "Sonia Horchidan",
+          "display_name": "Sonia Horchidan",
           "pid": "289/3171",
           "orcid": null
         },
         {
           "name": "Fabian Zeiher",
+          "display_name": "Fabian Zeiher",
           "pid": "426/0940",
           "orcid": null
         },
         {
           "name": "Henrik Boström",
+          "display_name": "Henrik Boström",
           "pid": "39/6674",
           "orcid": null
         },
         {
           "name": "Paris Carbone",
+          "display_name": "Paris Carbone",
           "pid": "90/7704",
           "orcid": null
         }
@@ -143,6 +161,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p29-horchidan.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "29-42",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HorchidanZBC25"
@@ -152,26 +171,31 @@
       "authors": [
         {
           "name": "Xuri Shi",
+          "display_name": "Xuri Shi",
           "pid": "395/1603",
           "orcid": null
         },
         {
           "name": "Kai Zhang 0006",
+          "display_name": "Kai Zhang",
           "pid": "55/957-6",
           "orcid": null
         },
         {
           "name": "X. Sean Wang",
+          "display_name": "X. Sean Wang",
           "pid": "w/XiaoyangSeanWang",
           "orcid": null
         },
         {
           "name": "Xiaodong Zhang 0001",
+          "display_name": "Xiaodong Zhang",
           "pid": "37/4356-1",
           "orcid": null
         },
         {
           "name": "Rubao Lee",
+          "display_name": "Rubao Lee",
           "pid": "41/6729",
           "orcid": null
         }
@@ -187,6 +211,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p43-shi.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "43-55",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ShiZWZL25"
@@ -196,41 +221,49 @@
       "authors": [
         {
           "name": "Mingyi Cao",
+          "display_name": "Mingyi Cao",
           "pid": "418/3593",
           "orcid": null
         },
         {
           "name": "Chunyu Cao",
+          "display_name": "Chunyu Cao",
           "pid": "361/7386",
           "orcid": null
         },
         {
           "name": "Yanfeng Zhang 0001",
+          "display_name": "Yanfeng Zhang",
           "pid": "66/2444-1",
           "orcid": null
         },
         {
           "name": "Zhenbo Fu",
+          "display_name": "Zhenbo Fu",
           "pid": "46/9963",
           "orcid": null
         },
         {
           "name": "Xin Ai 0006",
+          "display_name": "Xin Ai",
           "pid": "327/9175",
           "orcid": null
         },
         {
           "name": "Qiange Wang",
+          "display_name": "Qiange Wang",
           "pid": "260/4305",
           "orcid": null
         },
         {
           "name": "Yu Gu 0002",
+          "display_name": "Yu Gu",
           "pid": "15/4208-2",
           "orcid": null
         },
         {
           "name": "Ge Yu 0001",
+          "display_name": "Ge Yu",
           "pid": "49/6363",
           "orcid": null
         }
@@ -246,6 +279,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p56-cao.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "56-69",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/CaoCZFAWGY25"
@@ -255,16 +289,19 @@
       "authors": [
         {
           "name": "Arik Ermshaus",
+          "display_name": "Arik Ermshaus",
           "pid": "305/0471",
           "orcid": null
         },
         {
           "name": "Patrick Schäfer 0001",
+          "display_name": "Patrick Schäfer",
           "pid": "89/11002-1",
           "orcid": null
         },
         {
           "name": "Ulf Leser",
+          "display_name": "Ulf Leser",
           "pid": "l/UlfLeser",
           "orcid": null
         }
@@ -280,6 +317,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p70-ermshaus.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "70-83",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ErmshausSL25"
@@ -289,16 +327,19 @@
       "authors": [
         {
           "name": "Tengjun Jin",
+          "display_name": "Tengjun Jin",
           "pid": "376/6776",
           "orcid": null
         },
         {
           "name": "Yuxuan Zhu 0003",
+          "display_name": "Yuxuan Zhu",
           "pid": "146/0939-3",
           "orcid": null
         },
         {
           "name": "Daniel Kang 0001",
+          "display_name": "Daniel Kang",
           "pid": "40/6300",
           "orcid": null
         }
@@ -314,6 +355,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p84-jin.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "84-98",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/JinZK25"
@@ -323,21 +365,25 @@
       "authors": [
         {
           "name": "Jens E. d'Hondt",
+          "display_name": "Jens E. d'Hondt",
           "pid": "252/7565",
           "orcid": null
         },
         {
           "name": "Teun Kortekaas",
+          "display_name": "Teun Kortekaas",
           "pid": "424/7990",
           "orcid": null
         },
         {
           "name": "Odysseas Papapetrou",
+          "display_name": "Odysseas Papapetrou",
           "pid": "p/OdysseasPapapetrou",
           "orcid": null
         },
         {
           "name": "Themis Palpanas",
+          "display_name": "Themis Palpanas",
           "pid": "p/ThemisPalpanas",
           "orcid": null
         }
@@ -353,6 +399,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p99-d%27hondt.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "99-112",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/dHondtKPP25"
@@ -362,21 +409,25 @@
       "authors": [
         {
           "name": "Wentao Dong",
+          "display_name": "Wentao Dong",
           "pid": "99/10801",
           "orcid": null
         },
         {
           "name": "Yang Cao",
+          "display_name": "Yang Cao",
           "pid": "25/7045",
           "orcid": null
         },
         {
           "name": "Cong Wang",
+          "display_name": "Cong Wang",
           "pid": "18/2771",
           "orcid": null
         },
         {
           "name": "Wei-Bin Lee",
+          "display_name": "Wei-Bin Lee",
           "pid": "50/3431",
           "orcid": null
         }
@@ -392,6 +443,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p113-dong.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "113-126",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DongCWL25"
@@ -401,36 +453,43 @@
       "authors": [
         {
           "name": "Yingli Zhou",
+          "display_name": "Yingli Zhou",
           "pid": "331/8455",
           "orcid": null
         },
         {
           "name": "Yige Jiang",
+          "display_name": "Yige Jiang",
           "pid": "425/1606",
           "orcid": null
         },
         {
           "name": "Yixiang Fang",
+          "display_name": "Yixiang Fang",
           "pid": "76/1735",
           "orcid": null
         },
         {
           "name": "Wensheng Luo 0002",
+          "display_name": "Wensheng Luo",
           "pid": "178/4881-2",
           "orcid": null
         },
         {
           "name": "Yongmin Hu",
+          "display_name": "Yongmin Hu",
           "pid": "245/8929",
           "orcid": null
         },
         {
           "name": "Yingqian Hu",
+          "display_name": "Yingqian Hu",
           "pid": "328/7021",
           "orcid": null
         },
         {
           "name": "Cheng Chen 0008",
+          "display_name": "Cheng Chen",
           "pid": "10/217-8",
           "orcid": null
         }
@@ -446,6 +505,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p127-zhou.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "127-140",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhouJFLHHC25"
@@ -455,26 +515,31 @@
       "authors": [
         {
           "name": "Bowen Wu",
+          "display_name": "Bowen Wu",
           "pid": "156/8281",
           "orcid": null
         },
         {
           "name": "Wei Cui",
+          "display_name": "Wei Cui",
           "pid": "42/3805",
           "orcid": null
         },
         {
           "name": "Carlo Curino",
+          "display_name": "Carlo Curino",
           "pid": "c/CarloCurino",
           "orcid": null
         },
         {
           "name": "Matteo Interlandi",
+          "display_name": "Matteo Interlandi",
           "pid": "49/10034",
           "orcid": null
         },
         {
           "name": "Rathijit Sen",
+          "display_name": "Rathijit Sen",
           "pid": "08/2832",
           "orcid": null
         }
@@ -490,6 +555,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p141-sen.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "141-155",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuCCIS25"
@@ -499,16 +565,19 @@
       "authors": [
         {
           "name": "Dimitrios Banelas",
+          "display_name": "Dimitrios Banelas",
           "pid": "372/9666",
           "orcid": null
         },
         {
           "name": "Alkis Simitsis",
+          "display_name": "Alkis Simitsis",
           "pid": "s/ASimitsis",
           "orcid": null
         },
         {
           "name": "Nikos Giatrakos",
+          "display_name": "Nikos Giatrakos",
           "pid": "17/1242",
           "orcid": null
         }
@@ -524,6 +593,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p156-giatrakos.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "156-169",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/BanelasSG25"
@@ -533,31 +603,37 @@
       "authors": [
         {
           "name": "Hengyu Liu 0001",
+          "display_name": "Hengyu Liu",
           "pid": "197/6068-1",
           "orcid": null
         },
         {
           "name": "Tianyi Li 0005",
+          "display_name": "Tianyi Li",
           "pid": "85/11154-5",
           "orcid": null
         },
         {
           "name": "Yuqiang He",
+          "display_name": "Yuqiang He",
           "pid": "297/7931",
           "orcid": null
         },
         {
           "name": "Kristian Torp",
+          "display_name": "Kristian Torp",
           "pid": "t/KristianTorp",
           "orcid": null
         },
         {
           "name": "Yushuai Li",
+          "display_name": "Yushuai Li",
           "pid": "210/8903",
           "orcid": null
         },
         {
           "name": "Christian S. Jensen",
+          "display_name": "Christian S. Jensen",
           "pid": "j/ChristianSJensen",
           "orcid": null
         }
@@ -573,6 +649,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p170-li.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "170-182",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiuLHTLJ25"
@@ -582,41 +659,49 @@
       "authors": [
         {
           "name": "Jiaxu Zhu",
+          "display_name": "Jiaxu Zhu",
           "pid": "161/6197",
           "orcid": null
         },
         {
           "name": "Jiayu Yuan",
+          "display_name": "Jiayu Yuan",
           "pid": "358/1241",
           "orcid": null
         },
         {
           "name": "Kaiwen Yang",
+          "display_name": "Kaiwen Yang",
           "pid": "227/0101",
           "orcid": null
         },
         {
           "name": "Xiaobao Chen",
+          "display_name": "Xiaobao Chen",
           "pid": "63/424",
           "orcid": null
         },
         {
           "name": "Shihuan Yu",
+          "display_name": "Shihuan Yu",
           "pid": "146/2482",
           "orcid": null
         },
         {
           "name": "Hongchang Lv",
+          "display_name": "Hongchang Lv",
           "pid": "426/0914",
           "orcid": null
         },
         {
           "name": "Yan Li 0161",
+          "display_name": "Yan Li",
           "pid": "87/660-161",
           "orcid": null
         },
         {
           "name": "Bolong Zheng",
+          "display_name": "Bolong Zheng",
           "pid": "152/4895",
           "orcid": null
         }
@@ -632,6 +717,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p183-zheng.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "183-195",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhuYYCYLLZ25"
@@ -641,26 +727,31 @@
       "authors": [
         {
           "name": "Jan-Micha Bodensohn",
+          "display_name": "Jan-Micha Bodensohn",
           "pid": "315/4523",
           "orcid": null
         },
         {
           "name": "Ulf Brackmann",
+          "display_name": "Ulf Brackmann",
           "pid": "389/5075",
           "orcid": null
         },
         {
           "name": "Liane Vogel",
+          "display_name": "Liane Vogel",
           "pid": "318/9125",
           "orcid": null
         },
         {
           "name": "Anupam Sanghi",
+          "display_name": "Anupam Sanghi",
           "pid": "216/4944",
           "orcid": null
         },
         {
           "name": "Carsten Binnig",
+          "display_name": "Carsten Binnig",
           "pid": "45/1559",
           "orcid": null
         }
@@ -676,6 +767,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p196-bodensohn.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "196-209",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/BodensohnBVSB25"
@@ -685,46 +777,55 @@
       "authors": [
         {
           "name": "Ankit Chaudhary 0002",
+          "display_name": "Ankit Chaudhary",
           "pid": "65/10043-2",
           "orcid": null
         },
         {
           "name": "Felix Lang",
+          "display_name": "Felix Lang",
           "pid": "198/7920",
           "orcid": null
         },
         {
           "name": "Danila Ferents",
+          "display_name": "Danila Ferents",
           "pid": "426/0761",
           "orcid": null
         },
         {
           "name": "Nils L. Schubert",
+          "display_name": "Nils L. Schubert",
           "pid": "349/0770",
           "orcid": null
         },
         {
           "name": "Varun Pandey",
+          "display_name": "Varun Pandey",
           "pid": "51/1618",
           "orcid": null
         },
         {
           "name": "Jeyhun Karimov",
+          "display_name": "Jeyhun Karimov",
           "pid": "167/2751",
           "orcid": null
         },
         {
           "name": "Steffen Zeuch",
+          "display_name": "Steffen Zeuch",
           "pid": "142/9136",
           "orcid": null
         },
         {
           "name": "Kaustubh Beedkar",
+          "display_name": "Kaustubh Beedkar",
           "pid": "54/5149",
           "orcid": null
         },
         {
           "name": "Volker Markl",
+          "display_name": "Volker Markl",
           "pid": "m/VMarkl",
           "orcid": null
         }
@@ -740,6 +841,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p210-chaudhary.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "210-223",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChaudharyLFSPKZBM25"
@@ -749,36 +851,43 @@
       "authors": [
         {
           "name": "Badrish Chandramouli",
+          "display_name": "Badrish Chandramouli",
           "pid": "01/2861",
           "orcid": null
         },
         {
           "name": "Vasileios Zois",
+          "display_name": "Vasileios Zois",
           "pid": "158/9045",
           "orcid": null
         },
         {
           "name": "Ted Hart",
+          "display_name": "Ted Hart",
           "pid": "06/8160",
           "orcid": null
         },
         {
           "name": "Tal Zaccai",
+          "display_name": "Tal Zaccai",
           "pid": "194/3943",
           "orcid": null
         },
         {
           "name": "Lukas M. Maas",
+          "display_name": "Lukas M. Maas",
           "pid": "131/4096",
           "orcid": null
         },
         {
           "name": "Yoganand Rajasekaran",
+          "display_name": "Yoganand Rajasekaran",
           "pid": "426/1292",
           "orcid": null
         },
         {
           "name": "Darren Gehring",
+          "display_name": "Darren Gehring",
           "pid": "130/2894",
           "orcid": null
         }
@@ -794,6 +903,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p224-chandramouli.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "224-237",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChandramouliZHZMRG25"
@@ -803,11 +913,13 @@
       "authors": [
         {
           "name": "Seoyong Lee",
+          "display_name": "Seoyong Lee",
           "pid": "426/1753",
           "orcid": null
         },
         {
           "name": "Jinho Lee 0001",
+          "display_name": "Jinho Lee",
           "pid": "62/757-1",
           "orcid": null
         }
@@ -823,6 +935,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p238-lee.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "238-251",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LeeL25"
@@ -832,21 +945,25 @@
       "authors": [
         {
           "name": "Shatha Algarni",
+          "display_name": "Shatha Algarni",
           "pid": "384/5572",
           "orcid": null
         },
         {
           "name": "Boris Glavic",
+          "display_name": "Boris Glavic",
           "pid": "09/3012",
           "orcid": null
         },
         {
           "name": "Seokki Lee",
+          "display_name": "Seokki Lee",
           "pid": "180/8454",
           "orcid": null
         },
         {
           "name": "Adriane Chapman",
+          "display_name": "Adriane Chapman",
           "pid": "54/4551",
           "orcid": null
         }
@@ -862,6 +979,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p252-algarni.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "252-264",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/AlgarniGLC25"
@@ -871,21 +989,25 @@
       "authors": [
         {
           "name": "Dakai Kang",
+          "display_name": "Dakai Kang",
           "pid": "339/7333",
           "orcid": null
         },
         {
           "name": "Junchao Chen 0003",
+          "display_name": "Junchao Chen",
           "pid": "39/9851-3",
           "orcid": null
         },
         {
           "name": "Anh Dinh",
+          "display_name": "Anh Dinh",
           "pid": "32/3610",
           "orcid": null
         },
         {
           "name": "Mohammad Sadoghi",
+          "display_name": "Mohammad Sadoghi",
           "pid": "56/7016",
           "orcid": null
         }
@@ -901,6 +1023,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p265-kang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "265-278",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KangCDS25"
@@ -910,11 +1033,13 @@
       "authors": [
         {
           "name": "Michael Mior",
+          "display_name": "Michael Mior",
           "pid": "20/9709",
           "orcid": null
         },
         {
           "name": "Juan Cruz Viotti",
+          "display_name": "Juan Cruz Viotti",
           "pid": "310/1703",
           "orcid": null
         }
@@ -930,6 +1055,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p279-viotti.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "279-291",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/MiorV25"
@@ -939,31 +1065,37 @@
       "authors": [
         {
           "name": "Jiahui Li",
+          "display_name": "Jiahui Li",
           "pid": "153/2952",
           "orcid": null
         },
         {
           "name": "Tongwang Wu",
+          "display_name": "Tongwang Wu",
           "pid": "397/1136",
           "orcid": null
         },
         {
           "name": "Yuren Mao",
+          "display_name": "Yuren Mao",
           "pid": "268/1340",
           "orcid": null
         },
         {
           "name": "Yunjun Gao",
+          "display_name": "Yunjun Gao",
           "pid": "80/2651",
           "orcid": null
         },
         {
           "name": "Yajie Feng",
+          "display_name": "Yajie Feng",
           "pid": "405/6904",
           "orcid": null
         },
         {
           "name": "Huaizhong Liu",
+          "display_name": "Huaizhong Liu",
           "pid": "405/5976",
           "orcid": null
         }
@@ -979,6 +1111,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p292-gao.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "292-305",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiWMGFL25"
@@ -988,21 +1121,25 @@
       "authors": [
         {
           "name": "Anastasiia Kozar",
+          "display_name": "Anastasiia Kozar",
           "pid": "379/7016",
           "orcid": null
         },
         {
           "name": "Ankit Chaudhary 0002",
+          "display_name": "Ankit Chaudhary",
           "pid": "65/10043-2",
           "orcid": null
         },
         {
           "name": "Steffen Zeuch",
+          "display_name": "Steffen Zeuch",
           "pid": "142/9136",
           "orcid": null
         },
         {
           "name": "Volker Markl",
+          "display_name": "Volker Markl",
           "pid": "m/VMarkl",
           "orcid": null
         }
@@ -1018,6 +1155,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p306-kozar.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "306-319",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KozarCZM25"
@@ -1027,41 +1165,49 @@
       "authors": [
         {
           "name": "Zezhou Huang",
+          "display_name": "Zezhou Huang",
           "pid": "287/9765",
           "orcid": null
         },
         {
           "name": "Krystian Sakowski",
+          "display_name": "Krystian Sakowski",
           "pid": "410/1075",
           "orcid": null
         },
         {
           "name": "Hans Lehnert",
+          "display_name": "Hans Lehnert",
           "pid": "249/8363",
           "orcid": null
         },
         {
           "name": "Wei Cui",
+          "display_name": "Wei Cui",
           "pid": "42/3805",
           "orcid": null
         },
         {
           "name": "Carlo Curino",
+          "display_name": "Carlo Curino",
           "pid": "c/CarloCurino",
           "orcid": null
         },
         {
           "name": "Matteo Interlandi",
+          "display_name": "Matteo Interlandi",
           "pid": "49/10034",
           "orcid": null
         },
         {
           "name": "Marius Dumitru",
+          "display_name": "Marius Dumitru",
           "pid": "82/5967",
           "orcid": null
         },
         {
           "name": "Rathijit Sen",
+          "display_name": "Rathijit Sen",
           "pid": "08/2832",
           "orcid": null
         }
@@ -1077,6 +1223,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p320-sen.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "320-333",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuangSLCCIDS25"
@@ -1086,21 +1233,25 @@
       "authors": [
         {
           "name": "Xinjing Zhou",
+          "display_name": "Xinjing Zhou",
           "pid": "255/9363",
           "orcid": null
         },
         {
           "name": "Viktor Leis",
+          "display_name": "Viktor Leis",
           "pid": "10/11150",
           "orcid": null
         },
         {
           "name": "Xiangyao Yu",
+          "display_name": "Xiangyao Yu",
           "pid": "126/6015",
           "orcid": null
         },
         {
           "name": "Michael Stonebraker",
+          "display_name": "Michael Stonebraker",
           "pid": "s/MichaelStonebraker",
           "orcid": null
         }
@@ -1116,6 +1267,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p334-zhou.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "334-347",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhouLYS25"
@@ -1125,16 +1277,19 @@
       "authors": [
         {
           "name": "Manuel Schönberger",
+          "display_name": "Manuel Schönberger",
           "pid": "315/9085",
           "orcid": null
         },
         {
           "name": "Immanuel Trummer",
+          "display_name": "Immanuel Trummer",
           "pid": "85/9079",
           "orcid": null
         },
         {
           "name": "Wolfgang Mauerer",
+          "display_name": "Wolfgang Mauerer",
           "pid": "74/694",
           "orcid": null
         }
@@ -1150,6 +1305,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p348-schonberger.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "348-360",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/SchonbergerTM25"
@@ -1159,31 +1315,37 @@
       "authors": [
         {
           "name": "Hangdong Zhao",
+          "display_name": "Hangdong Zhao",
           "pid": "307/7991",
           "orcid": null
         },
         {
           "name": "Zhenghong Yu",
+          "display_name": "Zhenghong Yu",
           "pid": "37/10961",
           "orcid": null
         },
         {
           "name": "Srinag Rao",
+          "display_name": "Srinag Rao",
           "pid": "381/6141",
           "orcid": null
         },
         {
           "name": "Simon Frisk",
+          "display_name": "Simon Frisk",
           "pid": "397/7234",
           "orcid": null
         },
         {
           "name": "Zhiwei Fan",
+          "display_name": "Zhiwei Fan",
           "pid": "156/3546",
           "orcid": null
         },
         {
           "name": "Paraschos Koutris",
+          "display_name": "Paraschos Koutris",
           "pid": "49/8316",
           "orcid": null
         }
@@ -1199,6 +1361,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p361-zhao.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "361-374",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhaoYRFFK25"
@@ -1208,21 +1371,25 @@
       "authors": [
         {
           "name": "Qianhao Wu",
+          "display_name": "Qianhao Wu",
           "pid": "219/1649",
           "orcid": null
         },
         {
           "name": "Jiazhi Jiang",
+          "display_name": "Jiazhi Jiang",
           "pid": "259/0226",
           "orcid": null
         },
         {
           "name": "Guihui Ling",
+          "display_name": "Guihui Ling",
           "pid": "433/3779",
           "orcid": null
         },
         {
           "name": "Yue Pang",
+          "display_name": "Yue Pang",
           "pid": "217/2646",
           "orcid": null
         }
@@ -1238,6 +1405,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p375-jiang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "375-387",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuJLP25"
@@ -1247,16 +1415,19 @@
       "authors": [
         {
           "name": "Raunak Shah",
+          "display_name": "Raunak Shah",
           "pid": "271/4486",
           "orcid": null
         },
         {
           "name": "Zhaoheng Li",
+          "display_name": "Zhaoheng Li",
           "pid": "282/6349",
           "orcid": null
         },
         {
           "name": "Yongjoo Park",
+          "display_name": "Yongjoo Park",
           "pid": "79/583",
           "orcid": null
         }
@@ -1272,6 +1443,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p388-li.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "388-398",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ShahLP25"
@@ -1281,51 +1453,61 @@
       "authors": [
         {
           "name": "Yue Chen 0029",
+          "display_name": "Yue Chen",
           "pid": "79/5815-29",
           "orcid": null
         },
         {
           "name": "Kai Zhang 0006",
+          "display_name": "Kai Zhang",
           "pid": "55/957-6",
           "orcid": null
         },
         {
           "name": "Sipeng Chen",
+          "display_name": "Sipeng Chen",
           "pid": "263/7066",
           "orcid": null
         },
         {
           "name": "Shihai Xiao",
+          "display_name": "Shihai Xiao",
           "pid": "25/2157",
           "orcid": null
         },
         {
           "name": "Xiaomin Zou",
+          "display_name": "Xiaomin Zou",
           "pid": "292/5854",
           "orcid": null
         },
         {
           "name": "Ren Ren",
+          "display_name": "Ren Ren",
           "pid": "18/4751",
           "orcid": null
         },
         {
           "name": "Yinan Jing",
+          "display_name": "Yinan Jing",
           "pid": "35/3128",
           "orcid": null
         },
         {
           "name": "X. Sean Wang",
+          "display_name": "X. Sean Wang",
           "pid": "w/XiaoyangSeanWang",
           "orcid": null
         },
         {
           "name": "Li Cao",
+          "display_name": "Li Cao",
           "pid": "57/3332",
           "orcid": null
         },
         {
           "name": "Mingxiang Wan",
+          "display_name": "Mingxiang Wan",
           "pid": "135/9629",
           "orcid": null
         }
@@ -1341,6 +1523,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p399-chen.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "399-412",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenZCXZRJWCW25"
@@ -1350,16 +1533,19 @@
       "authors": [
         {
           "name": "Yue Zhao 0031",
+          "display_name": "Yue Zhao",
           "pid": "48/76-31",
           "orcid": null
         },
         {
           "name": "Songsong Mo",
+          "display_name": "Songsong Mo",
           "pid": "243/0860",
           "orcid": null
         },
         {
           "name": "Gao Cong",
+          "display_name": "Gao Cong",
           "pid": "33/3180",
           "orcid": null
         }
@@ -1375,6 +1561,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p413-zhao.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "413-425",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhaoMC25"
@@ -1384,36 +1571,43 @@
       "authors": [
         {
           "name": "Xiaotian Lin",
+          "display_name": "Xiaotian Lin",
           "pid": "225/7491",
           "orcid": null
         },
         {
           "name": "Yanlin Qi",
+          "display_name": "Yanlin Qi",
           "pid": "256/3999",
           "orcid": null
         },
         {
           "name": "Yizhang Zhu",
+          "display_name": "Yizhang Zhu",
           "pid": "359/8583",
           "orcid": null
         },
         {
           "name": "Themis Palpanas",
+          "display_name": "Themis Palpanas",
           "pid": "p/ThemisPalpanas",
           "orcid": null
         },
         {
           "name": "Chengliang Chai",
+          "display_name": "Chengliang Chai",
           "pid": "181/5689",
           "orcid": null
         },
         {
           "name": "Nan Tang 0001",
+          "display_name": "Nan Tang",
           "pid": "27/104-1",
           "orcid": null
         },
         {
           "name": "Yuyu Luo",
+          "display_name": "Yuyu Luo",
           "pid": "185/9921",
           "orcid": null
         }
@@ -1429,6 +1623,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p426-luo.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "426-439",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LinQZPCTL25"
@@ -1438,11 +1633,13 @@
       "authors": [
         {
           "name": "Sebastian Baunsgaard",
+          "display_name": "Sebastian Baunsgaard",
           "pid": "258/9938",
           "orcid": null
         },
         {
           "name": "Matthias Boehm 0001",
+          "display_name": "Matthias Boehm",
           "pid": "75/887",
           "orcid": null
         }
@@ -1458,6 +1655,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p440-baunsgaard.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "440-454",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/BaunsgaardB25"
@@ -1467,21 +1665,25 @@
       "authors": [
         {
           "name": "Haoming Xian",
+          "display_name": "Haoming Xian",
           "pid": "400/5660",
           "orcid": null
         },
         {
           "name": "Qintian Guo",
+          "display_name": "Qintian Guo",
           "pid": "123/1816",
           "orcid": null
         },
         {
           "name": "Jun Zhang",
+          "display_name": "Jun Zhang",
           "pid": "29/4190",
           "orcid": null
         },
         {
           "name": "Sibo Wang 0001",
+          "display_name": "Sibo Wang",
           "pid": "131/6529-1",
           "orcid": null
         }
@@ -1497,6 +1699,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p455-guo.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "455-467",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/XianGZW25"
@@ -1506,46 +1709,55 @@
       "authors": [
         {
           "name": "Ziqi Zou",
+          "display_name": "Ziqi Zou",
           "pid": "433/3457",
           "orcid": null
         },
         {
           "name": "Hao Zhang 0098",
+          "display_name": "Hao Zhang",
           "pid": "55/2270-98",
           "orcid": null
         },
         {
           "name": "Jiaxin Yao",
+          "display_name": "Jiaxin Yao",
           "pid": "241/9457",
           "orcid": null
         },
         {
           "name": "Kangfei Zhao",
+          "display_name": "Kangfei Zhao",
           "pid": "169/1501",
           "orcid": null
         },
         {
           "name": "Zhiwei Zhang 0002",
+          "display_name": "Zhiwei Zhang",
           "pid": "68/1980-2",
           "orcid": null
         },
         {
           "name": "Sen Gao",
+          "display_name": "Sen Gao",
           "pid": "143/0374",
           "orcid": null
         },
         {
           "name": "Jingpeng Hao",
+          "display_name": "Jingpeng Hao",
           "pid": "247/5442",
           "orcid": null
         },
         {
           "name": "Ye Yuan 0001",
+          "display_name": "Ye Yuan",
           "pid": "33/6315-1",
           "orcid": null
         },
         {
           "name": "Guoren Wang",
+          "display_name": "Guoren Wang",
           "pid": "64/146",
           "orcid": null
         }
@@ -1561,6 +1773,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p468-zhao.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "468-480",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZouZYZZGHYW25"
@@ -1570,46 +1783,55 @@
       "authors": [
         {
           "name": "Zirui Hu",
+          "display_name": "Zirui Hu",
           "pid": "370/2446",
           "orcid": null
         },
         {
           "name": "Siyang Weng",
+          "display_name": "Siyang Weng",
           "pid": "305/0139",
           "orcid": null
         },
         {
           "name": "Zhicheng Pan",
+          "display_name": "Zhicheng Pan",
           "pid": "141/5423",
           "orcid": null
         },
         {
           "name": "Rong Zhang 0002",
+          "display_name": "Rong Zhang",
           "pid": "13/5366-2",
           "orcid": null
         },
         {
           "name": "Chengcheng Yang",
+          "display_name": "Chengcheng Yang",
           "pid": "74/10221",
           "orcid": null
         },
         {
           "name": "Peng Cai 0001",
+          "display_name": "Peng Cai",
           "pid": "19/3952-1",
           "orcid": null
         },
         {
           "name": "Xuan Zhou 0001",
+          "display_name": "Xuan Zhou",
           "pid": "32/3943-1",
           "orcid": null
         },
         {
           "name": "Quanqing Xu",
+          "display_name": "Quanqing Xu",
           "pid": "29/4131",
           "orcid": null
         },
         {
           "name": "Chuanhui Yang",
+          "display_name": "Chuanhui Yang",
           "pid": "328/5894",
           "orcid": null
         }
@@ -1625,6 +1847,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p481-hu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "481-494",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuWPZYCZXY25"
@@ -1634,51 +1857,61 @@
       "authors": [
         {
           "name": "Song Yu 0004",
+          "display_name": "Song Yu",
           "pid": "388/5247-4",
           "orcid": null
         },
         {
           "name": "Shengyuan Lin",
+          "display_name": "Shengyuan Lin",
           "pid": "386/4817",
           "orcid": null
         },
         {
           "name": "Shufeng Gong 0001",
+          "display_name": "Shufeng Gong",
           "pid": "207/7446-1",
           "orcid": null
         },
         {
           "name": "Yongqing Xie",
+          "display_name": "Yongqing Xie",
           "pid": "160/9925",
           "orcid": null
         },
         {
           "name": "Ruicheng Liu",
+          "display_name": "Ruicheng Liu",
           "pid": "01/4595",
           "orcid": null
         },
         {
           "name": "Yijie Zhou",
+          "display_name": "Yijie Zhou",
           "pid": "162/7898",
           "orcid": null
         },
         {
           "name": "Ji Sun 0001",
+          "display_name": "Ji Sun",
           "pid": "01/3254-1",
           "orcid": null
         },
         {
           "name": "Yanfeng Zhang 0001",
+          "display_name": "Yanfeng Zhang",
           "pid": "66/2444-1",
           "orcid": null
         },
         {
           "name": "Guoliang Li 0001",
+          "display_name": "Guoliang Li",
           "pid": "l/GuoliangLi",
           "orcid": null
         },
         {
           "name": "Ge Yu 0001",
+          "display_name": "Ge Yu",
           "pid": "49/6363",
           "orcid": null
         }
@@ -1694,6 +1927,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p495-yu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "495-508",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YuLGXLZSZLY25"
@@ -1703,16 +1937,19 @@
       "authors": [
         {
           "name": "Alexis Le Glaunec",
+          "display_name": "Alexis Le Glaunec",
           "pid": "321/5834",
           "orcid": null
         },
         {
           "name": "Angela W. Li",
+          "display_name": "Angela W. Li",
           "pid": "371/4251",
           "orcid": null
         },
         {
           "name": "Konstantinos Mamouras",
+          "display_name": "Konstantinos Mamouras",
           "pid": "48/6846",
           "orcid": null
         }
@@ -1728,6 +1965,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p509-mamouras.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "509-522",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/GlaunecLM25"
@@ -1737,11 +1975,13 @@
       "authors": [
         {
           "name": "Daniel Xue",
+          "display_name": "Daniel Xue",
           "pid": "407/8013",
           "orcid": null
         },
         {
           "name": "Ryan Marcus",
+          "display_name": "Ryan Marcus",
           "pid": "175/1473",
           "orcid": null
         }
@@ -1757,6 +1997,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p523-marcus.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "523-535",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/XueM25"
@@ -1766,16 +2007,19 @@
       "authors": [
         {
           "name": "Kefei Wu",
+          "display_name": "Kefei Wu",
           "pid": "203/4948",
           "orcid": null
         },
         {
           "name": "Baihua Zheng",
+          "display_name": "Baihua Zheng",
           "pid": "93/4303",
           "orcid": null
         },
         {
           "name": "Weiwei Sun 0008",
+          "display_name": "Weiwei Sun",
           "pid": "63/6566-8",
           "orcid": null
         }
@@ -1791,6 +2035,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p536-wu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "536-548",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuZS25"
@@ -1800,31 +2045,37 @@
       "authors": [
         {
           "name": "Qinghan Chen",
+          "display_name": "Qinghan Chen",
           "pid": "231/9535",
           "orcid": null
         },
         {
           "name": "Muhammad Haekal Muhyidin Al-Araby",
+          "display_name": "Muhammad Haekal Muhyidin Al-Araby",
           "pid": "433/2798",
           "orcid": null
         },
         {
           "name": "Ziyue Qiu",
+          "display_name": "Ziyue Qiu",
           "pid": "346/2188",
           "orcid": null
         },
         {
           "name": "Zhuofan Chen",
+          "display_name": "Zhuofan Chen",
           "pid": "371/4090",
           "orcid": null
         },
         {
           "name": "Rashmi Vinayak",
+          "display_name": "Rashmi Vinayak",
           "pid": "40/7113",
           "orcid": null
         },
         {
           "name": "Juncheng Yang",
+          "display_name": "Juncheng Yang",
           "pid": "183/0795",
           "orcid": null
         }
@@ -1840,6 +2091,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p549-yang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "549-562",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenAQCVY25"
@@ -1849,26 +2101,31 @@
       "authors": [
         {
           "name": "Zhiheng Cai",
+          "display_name": "Zhiheng Cai",
           "pid": "226/7836",
           "orcid": null
         },
         {
           "name": "Si Liu 0003",
+          "display_name": "Si Liu",
           "pid": "147/8363-3",
           "orcid": null
         },
         {
           "name": "Hengfeng Wei",
+          "display_name": "Hengfeng Wei",
           "pid": "80/11360",
           "orcid": null
         },
         {
           "name": "Yuxing Chen 0003",
+          "display_name": "Yuxing Chen",
           "pid": "142/2150-3",
           "orcid": null
         },
         {
           "name": "Anqun Pan",
+          "display_name": "Anqun Pan",
           "pid": "224/6370",
           "orcid": null
         }
@@ -1884,6 +2141,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p563-wei.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "563-575",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/CaiLWCP25"
@@ -1893,41 +2151,49 @@
       "authors": [
         {
           "name": "Jingbang Chen 0001",
+          "display_name": "Jingbang Chen",
           "pid": "239/8968-1",
           "orcid": null
         },
         {
           "name": "Weinuo Li",
+          "display_name": "Weinuo Li",
           "pid": "408/0180",
           "orcid": null
         },
         {
           "name": "Yingli Zhou",
+          "display_name": "Yingli Zhou",
           "pid": "331/8455",
           "orcid": null
         },
         {
           "name": "Hangrui Zhou",
+          "display_name": "Hangrui Zhou",
           "pid": "368/3857",
           "orcid": null
         },
         {
           "name": "Qiuyang Mang",
+          "display_name": "Qiuyang Mang",
           "pid": "354/8741",
           "orcid": null
         },
         {
           "name": "Can Wang 0001",
+          "display_name": "Can Wang",
           "pid": "71/4716-1",
           "orcid": null
         },
         {
           "name": "Yixiang Fang",
+          "display_name": "Yixiang Fang",
           "pid": "76/1735",
           "orcid": null
         },
         {
           "name": "Chenhao Ma 0001",
+          "display_name": "Chenhao Ma",
           "pid": "251/5251",
           "orcid": null
         }
@@ -1943,6 +2209,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p576-chen.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "576-588",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenLZZMWFM25"
@@ -1952,26 +2219,31 @@
       "authors": [
         {
           "name": "Yifan Wang",
+          "display_name": "Yifan Wang",
           "pid": "47/6959",
           "orcid": null
         },
         {
           "name": "Debabrota Basu",
+          "display_name": "Debabrota Basu",
           "pid": "126/2209",
           "orcid": null
         },
         {
           "name": "Pierre Bourhis",
+          "display_name": "Pierre Bourhis",
           "pid": "08/6004",
           "orcid": null
         },
         {
           "name": "Romain Rouvoy",
+          "display_name": "Romain Rouvoy",
           "pid": "52/2030",
           "orcid": null
         },
         {
           "name": "Patrick Royer",
+          "display_name": "Patrick Royer",
           "pid": "349/7758",
           "orcid": null
         }
@@ -1987,6 +2259,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p589-wang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "589-602",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WangBBRR25"
@@ -1996,26 +2269,31 @@
       "authors": [
         {
           "name": "Supawit Chockchowwat",
+          "display_name": "Supawit Chockchowwat",
           "pid": "218/6145",
           "orcid": null
         },
         {
           "name": "Sumay Thakurdesai",
+          "display_name": "Sumay Thakurdesai",
           "pid": "375/9934",
           "orcid": null
         },
         {
           "name": "Zhaoheng Li",
+          "display_name": "Zhaoheng Li",
           "pid": "282/6349",
           "orcid": null
         },
         {
           "name": "Matthew Krafczyk",
+          "display_name": "Matthew Krafczyk",
           "pid": "243/6203",
           "orcid": null
         },
         {
           "name": "Yongjoo Park",
+          "display_name": "Yongjoo Park",
           "pid": "79/583",
           "orcid": null
         }
@@ -2031,6 +2309,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p603-chockchowwat.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "603-616",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChockchowwatTLKP25"
@@ -2040,26 +2319,31 @@
       "authors": [
         {
           "name": "Mingyu Yang 0004",
+          "display_name": "Mingyu Yang",
           "pid": "197/8171-4",
           "orcid": null
         },
         {
           "name": "Wenxuan Xia",
+          "display_name": "Wenxuan Xia",
           "pid": "342/2975",
           "orcid": null
         },
         {
           "name": "Wentao Li 0001",
+          "display_name": "Wentao Li",
           "pid": "60/8180-1",
           "orcid": null
         },
         {
           "name": "Raymond Chi-Wing Wong",
+          "display_name": "Raymond Chi-Wing Wong",
           "pid": "w/RaymondChiWingWong",
           "orcid": null
         },
         {
           "name": "Wei Wang 0011",
+          "display_name": "Wei Wang",
           "pid": "w/WeiWang11",
           "orcid": null
         }
@@ -2075,6 +2359,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p617-yang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "617-630",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YangXLWW25"
@@ -2084,21 +2369,25 @@
       "authors": [
         {
           "name": "Ning Yan 0002",
+          "display_name": "Ning Yan",
           "pid": "35/3947-2",
           "orcid": null
         },
         {
           "name": "Sheng Di",
+          "display_name": "Sheng Di",
           "pid": "76/6449",
           "orcid": null
         },
         {
           "name": "Kai Zhao",
+          "display_name": "Kai Zhao",
           "pid": "72/2621",
           "orcid": null
         },
         {
           "name": "Lipeng Wan 0001",
+          "display_name": "Lipeng Wan",
           "pid": "124/2262-1",
           "orcid": null
         }
@@ -2114,6 +2403,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p631-wan.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "631-643",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YanDZW25"
@@ -2123,31 +2413,37 @@
       "authors": [
         {
           "name": "Dian Ouyang",
+          "display_name": "Dian Ouyang",
           "pid": "219/5745",
           "orcid": null
         },
         {
           "name": "Jiajie Lin",
+          "display_name": "Jiajie Lin",
           "pid": "330/8209",
           "orcid": null
         },
         {
           "name": "Li Wentao",
+          "display_name": "Li Wentao",
           "pid": "433/3047",
           "orcid": null
         },
         {
           "name": "Fan Zhang",
+          "display_name": "Fan Zhang",
           "pid": "21/3626",
           "orcid": null
         },
         {
           "name": "Jianye Yang",
+          "display_name": "Jianye Yang",
           "pid": "393/7196",
           "orcid": null
         },
         {
           "name": "Xi Luo",
+          "display_name": "Xi Luo",
           "pid": "69/7449",
           "orcid": null
         }
@@ -2163,6 +2459,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p644-zhang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "644-656",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/OuyangLWZYL25"
@@ -2172,26 +2469,31 @@
       "authors": [
         {
           "name": "Lukas Laskowski",
+          "display_name": "Lukas Laskowski",
           "pid": "298/1312",
           "orcid": null
         },
         {
           "name": "Fabian Panse",
+          "display_name": "Fabian Panse",
           "pid": "54/7390",
           "orcid": null
         },
         {
           "name": "Michael Hladik",
+          "display_name": "Michael Hladik",
           "pid": "166/4106",
           "orcid": null
         },
         {
           "name": "Jan Portisch",
+          "display_name": "Jan Portisch",
           "pid": "207/3686",
           "orcid": null
         },
         {
           "name": "Felix Naumann",
+          "display_name": "Felix Naumann",
           "pid": "n/FelixNaumann",
           "orcid": null
         }
@@ -2207,6 +2509,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p657-laskowski.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "657-669",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LaskowskiPHPN25"
@@ -2216,16 +2519,19 @@
       "authors": [
         {
           "name": "David Jackson",
+          "display_name": "David Jackson",
           "pid": "01/5646",
           "orcid": null
         },
         {
           "name": "Paul Groth",
+          "display_name": "Paul Groth",
           "pid": "g/PTGroth",
           "orcid": null
         },
         {
           "name": "Hazar Harmouch",
+          "display_name": "Hazar Harmouch",
           "pid": "181/7644",
           "orcid": null
         }
@@ -2241,6 +2547,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p670-jackson.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "670-683",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/JacksonGH25"
@@ -2250,51 +2557,61 @@
       "authors": [
         {
           "name": "Hantian Zha",
+          "display_name": "Hantian Zha",
           "pid": "432/1187",
           "orcid": null
         },
         {
           "name": "Teng Ma 0006",
+          "display_name": "Teng Ma",
           "pid": "24/5931-6",
           "orcid": null
         },
         {
           "name": "Baotong Lu",
+          "display_name": "Baotong Lu",
           "pid": "256/1745",
           "orcid": null
         },
         {
           "name": "Yuansen Wang",
+          "display_name": "Yuansen Wang",
           "pid": "433/2875",
           "orcid": null
         },
         {
           "name": "Dongbiao He",
+          "display_name": "Dongbiao He",
           "pid": "224/0751",
           "orcid": null
         },
         {
           "name": "Yuanhui Luo",
+          "display_name": "Yuanhui Luo",
           "pid": "352/6769",
           "orcid": null
         },
         {
           "name": "Dafang Zhang",
+          "display_name": "Dafang Zhang",
           "pid": "16/2420",
           "orcid": null
         },
         {
           "name": "Yunpeng Chai",
+          "display_name": "Yunpeng Chai",
           "pid": "42/3363",
           "orcid": null
         },
         {
           "name": "Yuxing Chen 0003",
+          "display_name": "Yuxing Chen",
           "pid": "142/2150-3",
           "orcid": null
         },
         {
           "name": "Anqun Pan",
+          "display_name": "Anqun Pan",
           "pid": "224/6370",
           "orcid": null
         }
@@ -2310,6 +2627,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p684-zha.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "684-697",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhaMLWHLZCCP25"
@@ -2319,31 +2637,37 @@
       "authors": [
         {
           "name": "Liuyi Chen",
+          "display_name": "Liuyi Chen",
           "pid": "308/6931",
           "orcid": null
         },
         {
           "name": "Yuchen Hu",
+          "display_name": "Yuchen Hu",
           "pid": "189/5885",
           "orcid": null
         },
         {
           "name": "Zhengyi Yang 0001",
+          "display_name": "Zhengyi Yang",
           "pid": "73/908-1",
           "orcid": null
         },
         {
           "name": "Xu Zhou 0001",
+          "display_name": "Xu Zhou",
           "pid": "66/5686-1",
           "orcid": null
         },
         {
           "name": "Wenjie Zhang 0001",
+          "display_name": "Wenjie Zhang",
           "pid": "98/5684-1",
           "orcid": null
         },
         {
           "name": "Kenli Li 0001",
+          "display_name": "Kenli Li",
           "pid": "l/KenliLi",
           "orcid": null
         }
@@ -2359,6 +2683,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p698-yang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "698-712",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenHYZZL25"
@@ -2368,56 +2693,67 @@
       "authors": [
         {
           "name": "Yifan Wu 0018",
+          "display_name": "Yifan Wu",
           "pid": "25/7019-18",
           "orcid": null
         },
         {
           "name": "Yuhan Li",
+          "display_name": "Yuhan Li",
           "pid": "116/8661",
           "orcid": null
         },
         {
           "name": "Zhenhua Wang",
+          "display_name": "Zhenhua Wang",
           "pid": "33/4679",
           "orcid": null
         },
         {
           "name": "Zhongle Xie",
+          "display_name": "Zhongle Xie",
           "pid": "169/3419",
           "orcid": null
         },
         {
           "name": "Dingyu Yang",
+          "display_name": "Dingyu Yang",
           "pid": "119/6899",
           "orcid": null
         },
         {
           "name": "Ke Chen 0005",
+          "display_name": "Ke Chen",
           "pid": "47/6529-5",
           "orcid": null
         },
         {
           "name": "Lidan Shou",
+          "display_name": "Lidan Shou",
           "pid": "21/5967",
           "orcid": null
         },
         {
           "name": "Bo Tang 0016",
+          "display_name": "Bo Tang",
           "pid": "43/2474-16",
           "orcid": null
         },
         {
           "name": "Liang Lin",
+          "display_name": "Liang Lin",
           "pid": "84/7019",
           "orcid": null
         },
         {
           "name": "Huan Li 0003",
+          "display_name": "Huan Li",
           "pid": "55/2893-3",
           "orcid": null
         },
         {
           "name": "Gang Chen 0001",
+          "display_name": "Gang Chen",
           "pid": "67/6383-1",
           "orcid": null
         }
@@ -2433,6 +2769,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p713-li.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "713-725",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuLWXYCSTLLC25"
@@ -2442,31 +2779,37 @@
       "authors": [
         {
           "name": "Tongfeng Weng",
+          "display_name": "Tongfeng Weng",
           "pid": "06/8348",
           "orcid": null
         },
         {
           "name": "Mo Sha 0002",
+          "display_name": "Mo Sha",
           "pid": "70/5884-2",
           "orcid": null
         },
         {
           "name": "Xu Zhou 0001",
+          "display_name": "Xu Zhou",
           "pid": "66/5686-1",
           "orcid": null
         },
         {
           "name": "Jingjing Lu",
+          "display_name": "Jingjing Lu",
           "pid": "80/199",
           "orcid": null
         },
         {
           "name": "Kenli Li 0001",
+          "display_name": "Kenli Li",
           "pid": "l/KenliLi",
           "orcid": null
         },
         {
           "name": "Kian-Lee Tan",
+          "display_name": "Kian-Lee Tan",
           "pid": "t/KianLeeTan",
           "orcid": null
         }
@@ -2482,6 +2825,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p726-tan.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "726-739",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WengSZLLT25"
@@ -2491,31 +2835,37 @@
       "authors": [
         {
           "name": "Dong Wang 0004",
+          "display_name": "Dong Wang",
           "pid": "40/3934-4",
           "orcid": null
         },
         {
           "name": "Ningning Cui",
+          "display_name": "Ningning Cui",
           "pid": "180/6142",
           "orcid": null
         },
         {
           "name": "Jianxin Li 0001",
+          "display_name": "Jianxin Li",
           "pid": "l/JianxinLi",
           "orcid": null
         },
         {
           "name": "Jianzhong Qi 0001",
+          "display_name": "Jianzhong Qi",
           "pid": "41/1074-1",
           "orcid": null
         },
         {
           "name": "Jianliang Xu",
+          "display_name": "Jianliang Xu",
           "pid": "x/JianliangXu",
           "orcid": null
         },
         {
           "name": "Hui Lu",
+          "display_name": "Hui Lu",
           "pid": "65/4062",
           "orcid": null
         }
@@ -2531,6 +2881,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p740-li.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "740-752",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WangCLQXL25"
@@ -2540,11 +2891,13 @@
       "authors": [
         {
           "name": "Xiaolong Chen 0003",
+          "display_name": "Xiaolong Chen",
           "pid": "24/1431-3",
           "orcid": null
         },
         {
           "name": "Jing Tang 0004",
+          "display_name": "Jing Tang",
           "pid": "83/663-4",
           "orcid": null
         }
@@ -2560,6 +2913,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p753-chen.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "753-766",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenT25"
@@ -2569,11 +2923,13 @@
       "authors": [
         {
           "name": "Maximilian Berens",
+          "display_name": "Maximilian Berens",
           "pid": "195/7316",
           "orcid": null
         },
         {
           "name": "Jens Teubner",
+          "display_name": "Jens Teubner",
           "pid": "t/JensTeubner",
           "orcid": null
         }
@@ -2589,6 +2945,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p767-berens.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "767-779",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/BerensT25"
@@ -2598,26 +2955,31 @@
       "authors": [
         {
           "name": "Xunpeng Liu",
+          "display_name": "Xunpeng Liu",
           "pid": "381/9540",
           "orcid": null
         },
         {
           "name": "Qun Huang 0001",
+          "display_name": "Qun Huang",
           "pid": "130/5419-1",
           "orcid": null
         },
         {
           "name": "Yaojing Wang",
+          "display_name": "Yaojing Wang",
           "pid": "192/7228",
           "orcid": null
         },
         {
           "name": "Lihua Miao",
+          "display_name": "Lihua Miao",
           "pid": "44/8491",
           "orcid": null
         },
         {
           "name": "Chen Sun 0005",
+          "display_name": "Chen Sun",
           "pid": "01/6072-5",
           "orcid": null
         }
@@ -2633,6 +2995,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p780-liu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "780-793",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiuHWMS25"
@@ -2642,26 +3005,31 @@
       "authors": [
         {
           "name": "Wei Huang 0039",
+          "display_name": "Wei Huang",
           "pid": "81/6685-39",
           "orcid": null
         },
         {
           "name": "Anda Cheng",
+          "display_name": "Anda Cheng",
           "pid": "251/3329",
           "orcid": null
         },
         {
           "name": "Yinggui Wang",
+          "display_name": "Yinggui Wang",
           "pid": "136/1775",
           "orcid": null
         },
         {
           "name": "Lei Wang 0251",
+          "display_name": "Lei Wang",
           "pid": "181/2817-251",
           "orcid": null
         },
         {
           "name": "Tao Wei 0002",
+          "display_name": "Tao Wei",
           "pid": "64/5099-2",
           "orcid": null
         }
@@ -2677,6 +3045,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p794-cheng.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "794-807",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuangCWWW26"
@@ -2686,46 +3055,55 @@
       "authors": [
         {
           "name": "Shengkun Zhu",
+          "display_name": "Shengkun Zhu",
           "pid": "123/9258",
           "orcid": null
         },
         {
           "name": "Jinshan Zeng",
+          "display_name": "Jinshan Zeng",
           "pid": "57/10341",
           "orcid": null
         },
         {
           "name": "Yuan Sun 0003",
+          "display_name": "Yuan Sun",
           "pid": "75/5247-3",
           "orcid": null
         },
         {
           "name": "Sheng Wang 0007",
+          "display_name": "Sheng Wang",
           "pid": "85/1868-7",
           "orcid": null
         },
         {
           "name": "Yiming Wang",
+          "display_name": "Yiming Wang",
           "pid": "71/3182",
           "orcid": null
         },
         {
           "name": "Yushuai Ji",
+          "display_name": "Yushuai Ji",
           "pid": "394/6315",
           "orcid": null
         },
         {
           "name": "Feiping Nie 0001",
+          "display_name": "Feiping Nie",
           "pid": "80/5755",
           "orcid": null
         },
         {
           "name": "Xiaodong Li 0001",
+          "display_name": "Xiaodong Li",
           "pid": "50/3993-1",
           "orcid": null
         },
         {
           "name": "Zhiyong Peng 0001",
+          "display_name": "Zhiyong Peng",
           "pid": "40/1233-1",
           "orcid": null
         }
@@ -2741,6 +3119,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p808-zhu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "808-821",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhuZSWWJNLP26"
@@ -2750,46 +3129,55 @@
       "authors": [
         {
           "name": "Jianshun Zhang",
+          "display_name": "Jianshun Zhang",
           "pid": "356/8198",
           "orcid": null
         },
         {
           "name": "Xun Deng",
+          "display_name": "Xun Deng",
           "pid": "154/0106",
           "orcid": null
         },
         {
           "name": "Fang Wang 0001",
+          "display_name": "Fang Wang",
           "pid": "35/5625-1",
           "orcid": null
         },
         {
           "name": "Jiaxin Ou",
+          "display_name": "Jiaxin Ou",
           "pid": "121/1424",
           "orcid": null
         },
         {
           "name": "Yi Wang",
+          "display_name": "Yi Wang",
           "pid": "17/221",
           "orcid": null
         },
         {
           "name": "Hao Wang",
+          "display_name": "Hao Wang",
           "pid": "181/2812",
           "orcid": null
         },
         {
           "name": "Jianjun Chen 0001",
+          "display_name": "Jianjun Chen",
           "pid": "20/1036-1",
           "orcid": null
         },
         {
           "name": "Peng Fang 0002",
+          "display_name": "Peng Fang",
           "pid": "86/9628-2",
           "orcid": null
         },
         {
           "name": "Dan Feng 0001",
+          "display_name": "Dan Feng",
           "pid": "48/5939-1",
           "orcid": null
         }
@@ -2805,6 +3193,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p822-zhang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "822-835",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhangDWOWWCFF26"
@@ -2814,26 +3203,31 @@
       "authors": [
         {
           "name": "Jian Zhou",
+          "display_name": "Jian Zhou",
           "pid": "97/97",
           "orcid": null
         },
         {
           "name": "Luna Wang",
+          "display_name": "Luna Wang",
           "pid": "281/1819",
           "orcid": null
         },
         {
           "name": "Shuaihua Zhao",
+          "display_name": "Shuaihua Zhao",
           "pid": "320/2037",
           "orcid": null
         },
         {
           "name": "Chen Zhong 0002",
+          "display_name": "Chen Zhong",
           "pid": "98/10416-2",
           "orcid": null
         },
         {
           "name": "Song Jiang 0001",
+          "display_name": "Song Jiang",
           "pid": "08/237-1",
           "orcid": null
         }
@@ -2849,6 +3243,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p836-jiang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "836-848",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhouWZZJ26"
@@ -2858,31 +3253,37 @@
       "authors": [
         {
           "name": "Chuanyi Lv",
+          "display_name": "Chuanyi Lv",
           "pid": "426/5044",
           "orcid": null
         },
         {
           "name": "Huan Li 0003",
+          "display_name": "Huan Li",
           "pid": "55/2893-3",
           "orcid": null
         },
         {
           "name": "Dingyu Yang",
+          "display_name": "Dingyu Yang",
           "pid": "119/6899",
           "orcid": null
         },
         {
           "name": "Zhonele Xie",
+          "display_name": "Zhonele Xie",
           "pid": "433/4051",
           "orcid": null
         },
         {
           "name": "Lu Chen 0001",
+          "display_name": "Lu Chen",
           "pid": "69/157-1",
           "orcid": null
         },
         {
           "name": "Christian S. Jensen",
+          "display_name": "Christian S. Jensen",
           "pid": "j/ChristianSJensen",
           "orcid": null
         }
@@ -2898,6 +3299,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p849-li.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "849-861",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LvLYXCJ26"
@@ -2907,26 +3309,31 @@
       "authors": [
         {
           "name": "Danni Wu",
+          "display_name": "Danni Wu",
           "pid": "206/6067",
           "orcid": null
         },
         {
           "name": "Yuanyuan Xu 0002",
+          "display_name": "Yuanyuan Xu",
           "pid": "87/6559-2",
           "orcid": null
         },
         {
           "name": "Xuemin Lin 0001",
+          "display_name": "Xuemin Lin",
           "pid": "l/LinXuemin",
           "orcid": null
         },
         {
           "name": "Wenjie Zhang 0001",
+          "display_name": "Wenjie Zhang",
           "pid": "98/5684-1",
           "orcid": null
         },
         {
           "name": "Ying Zhang 0001",
+          "display_name": "Ying Zhang",
           "pid": "13/6769-1",
           "orcid": null
         }
@@ -2942,6 +3349,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p862-xu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "862-875",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuXLZZ26"
@@ -2951,26 +3359,31 @@
       "authors": [
         {
           "name": "Nikolaos Koutroumanis",
+          "display_name": "Nikolaos Koutroumanis",
           "pid": "236/7441",
           "orcid": null
         },
         {
           "name": "Petros Karampas",
+          "display_name": "Petros Karampas",
           "pid": "433/2478",
           "orcid": null
         },
         {
           "name": "Alexandros Karakasidis 0001",
+          "display_name": "Alexandros Karakasidis",
           "pid": "63/5523-1",
           "orcid": null
         },
         {
           "name": "Nikos Mamoulis",
+          "display_name": "Nikos Mamoulis",
           "pid": "34/6253",
           "orcid": null
         },
         {
           "name": "Panos Vassiliadis",
+          "display_name": "Panos Vassiliadis",
           "pid": "13/1242",
           "orcid": null
         }
@@ -2986,6 +3399,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p876-koutroumanis.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "876-888",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KoutroumanisKKMV26"
@@ -2995,21 +3409,25 @@
       "authors": [
         {
           "name": "Pengyu Chen",
+          "display_name": "Pengyu Chen",
           "pid": "142/3636",
           "orcid": null
         },
         {
           "name": "Zizheng Guo",
+          "display_name": "Zizheng Guo",
           "pid": "216/3002",
           "orcid": null
         },
         {
           "name": "Jianwei Yang",
+          "display_name": "Jianwei Yang",
           "pid": "62/1791",
           "orcid": null
         },
         {
           "name": "Dongjing Miao",
+          "display_name": "Dongjing Miao",
           "pid": "147/8405",
           "orcid": null
         }
@@ -3025,6 +3443,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p889-miao.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "889-901",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenGYM26"
@@ -3034,31 +3453,37 @@
       "authors": [
         {
           "name": "Ferdinand Kossmann",
+          "display_name": "Ferdinand Kossmann",
           "pid": "243/2511",
           "orcid": null
         },
         {
           "name": "Ziniu Wu",
+          "display_name": "Ziniu Wu",
           "pid": "279/2962",
           "orcid": null
         },
         {
           "name": "Alex Turk",
+          "display_name": "Alex Turk",
           "pid": "302/4195",
           "orcid": null
         },
         {
           "name": "Nesime Tatbul",
+          "display_name": "Nesime Tatbul",
           "pid": "t/NesimeTatbul",
           "orcid": null
         },
         {
           "name": "Lei Cao 0004",
+          "display_name": "Lei Cao",
           "pid": "17/6060-4",
           "orcid": null
         },
         {
           "name": "Samuel Madden 0001",
+          "display_name": "Samuel Madden",
           "pid": "m/SamuelMadden",
           "orcid": null
         }
@@ -3074,6 +3499,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p902-kossmann.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "902-916",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KossmannWTTCM26"
@@ -3083,21 +3509,25 @@
       "authors": [
         {
           "name": "Stefan Hermann 0002",
+          "display_name": "Stefan Hermann",
           "pid": "05/1398-2",
           "orcid": null
         },
         {
           "name": "Hans-Peter Lehmann",
+          "display_name": "Hans-Peter Lehmann",
           "pid": "295/9136",
           "orcid": null
         },
         {
           "name": "Giorgio Vinciguerra",
+          "display_name": "Giorgio Vinciguerra",
           "pid": "237/9641",
           "orcid": null
         },
         {
           "name": "Stefan Walzer",
+          "display_name": "Stefan Walzer",
           "pid": "139/7331",
           "orcid": null
         }
@@ -3113,6 +3543,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p917-vinciguerra.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "917-930",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HermannLVW26"
@@ -3122,21 +3553,25 @@
       "authors": [
         {
           "name": "Tengjun Jin",
+          "display_name": "Tengjun Jin",
           "pid": "376/6776",
           "orcid": null
         },
         {
           "name": "Yoojin Choi",
+          "display_name": "Yoojin Choi",
           "pid": "80/6443",
           "orcid": null
         },
         {
           "name": "Yuxuan Zhu 0003",
+          "display_name": "Yuxuan Zhu",
           "pid": "146/0939-3",
           "orcid": null
         },
         {
           "name": "Daniel Kang 0001",
+          "display_name": "Daniel Kang",
           "pid": "40/6300",
           "orcid": null
         }
@@ -3152,6 +3587,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p931-jin.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "931-944",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/JinCZK26"
@@ -3161,11 +3597,13 @@
       "authors": [
         {
           "name": "Tatsuhiro Nakamori",
+          "display_name": "Tatsuhiro Nakamori",
           "pid": "322/8142",
           "orcid": null
         },
         {
           "name": "Hideyuki Kawashima",
+          "display_name": "Hideyuki Kawashima",
           "pid": "49/5221",
           "orcid": null
         }
@@ -3181,6 +3619,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p945-nakamori.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "945-957",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/NakamoriK26"
@@ -3190,16 +3629,19 @@
       "authors": [
         {
           "name": "Junfeng Liu 0001",
+          "display_name": "Junfeng Liu",
           "pid": "40/6926-1",
           "orcid": null
         },
         {
           "name": "Haoxuan Xie",
+          "display_name": "Haoxuan Xie",
           "pid": "350/5781",
           "orcid": null
         },
         {
           "name": "Siqiang Luo",
+          "display_name": "Siqiang Luo",
           "pid": "117/5965",
           "orcid": null
         }
@@ -3215,6 +3657,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p958-liu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "958-972",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiuXL26"
@@ -3224,31 +3667,37 @@
       "authors": [
         {
           "name": "Zixin Wei",
+          "display_name": "Zixin Wei",
           "pid": "295/2010",
           "orcid": null
         },
         {
           "name": "Yucan Guo",
+          "display_name": "Yucan Guo",
           "pid": "360/1191",
           "orcid": null
         },
         {
           "name": "Jinyang Li 0003",
+          "display_name": "Jinyang Li",
           "pid": "79/572-3",
           "orcid": null
         },
         {
           "name": "Xiaolin Han 0002",
+          "display_name": "Xiaolin Han",
           "pid": "57/10423-2",
           "orcid": null
         },
         {
           "name": "Xiaolong Jin",
+          "display_name": "Xiaolong Jin",
           "pid": "00/1728",
           "orcid": null
         },
         {
           "name": "Chenhao Ma 0001",
+          "display_name": "Chenhao Ma",
           "pid": "251/5251",
           "orcid": null
         }
@@ -3264,6 +3713,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p973-wei.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "973-986",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WeiGLHJM26"
@@ -3273,21 +3723,25 @@
       "authors": [
         {
           "name": "Cong Yu",
+          "display_name": "Cong Yu",
           "pid": "381/7284",
           "orcid": null
         },
         {
           "name": "Tuo Shi",
+          "display_name": "Tuo Shi",
           "pid": "23/4850",
           "orcid": null
         },
         {
           "name": "Matthias Weidlich 0001",
+          "display_name": "Matthias Weidlich",
           "pid": "61/267",
           "orcid": null
         },
         {
           "name": "Bo Zhao 0019",
+          "display_name": "Bo Zhao",
           "pid": "94/4810-19",
           "orcid": null
         }
@@ -3303,6 +3757,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p987-shi.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "987-1000",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YuSWZ26"
@@ -3312,31 +3767,37 @@
       "authors": [
         {
           "name": "Shizheng Hou",
+          "display_name": "Shizheng Hou",
           "pid": "368/5120",
           "orcid": null
         },
         {
           "name": "Wenqi Pei",
+          "display_name": "Wenqi Pei",
           "pid": "219/7854",
           "orcid": null
         },
         {
           "name": "Nuo Chen",
+          "display_name": "Nuo Chen",
           "pid": "135/5622",
           "orcid": null
         },
         {
           "name": "Quang-Trung Ta",
+          "display_name": "Quang-Trung Ta",
           "pid": "134/3046",
           "orcid": null
         },
         {
           "name": "Peng Lu 0013",
+          "display_name": "Peng Lu",
           "pid": "86/241-13",
           "orcid": null
         },
         {
           "name": "Beng Chin Ooi",
+          "display_name": "Beng Chin Ooi",
           "pid": "o/BengChinOoi",
           "orcid": null
         }
@@ -3352,6 +3813,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1001-hou.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1001-1015",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HouPCTLO26"
@@ -3361,96 +3823,115 @@
       "authors": [
         {
           "name": "Yaoqi Chen",
+          "display_name": "Yaoqi Chen",
           "pid": "221/0592",
           "orcid": null
         },
         {
           "name": "Jinkai Zhang",
+          "display_name": "Jinkai Zhang",
           "pid": "81/9931",
           "orcid": null
         },
         {
           "name": "Baotong Lu",
+          "display_name": "Baotong Lu",
           "pid": "256/1745",
           "orcid": null
         },
         {
           "name": "Qianxi Zhang",
+          "display_name": "Qianxi Zhang",
           "pid": "291/4798",
           "orcid": null
         },
         {
           "name": "Chengruidong Zhang",
+          "display_name": "Chengruidong Zhang",
           "pid": "358/2374",
           "orcid": null
         },
         {
           "name": "Jing Liu",
+          "display_name": "Jing Liu",
           "pid": "72/2590",
           "orcid": null
         },
         {
           "name": "Jingjia Luo",
+          "display_name": "Jingjia Luo",
           "pid": "320/2375",
           "orcid": null
         },
         {
           "name": "Di Liu",
+          "display_name": "Di Liu",
           "pid": "15/1777",
           "orcid": null
         },
         {
           "name": "Huiqiang Jiang",
+          "display_name": "Huiqiang Jiang",
           "pid": "204/2497",
           "orcid": null
         },
         {
           "name": "Qi Chen 0009",
+          "display_name": "Qi Chen",
           "pid": "66/6320-9",
           "orcid": null
         },
         {
           "name": "Bailu Ding",
+          "display_name": "Bailu Ding",
           "pid": "163/0574",
           "orcid": null
         },
         {
           "name": "Xiao Yan 0002",
+          "display_name": "Xiao Yan",
           "pid": "07/2626-2",
           "orcid": null
         },
         {
           "name": "Jiawei Jiang 0001",
+          "display_name": "Jiawei Jiang",
           "pid": "185/1521-1",
           "orcid": null
         },
         {
           "name": "Chen Chen 0067",
+          "display_name": "Chen Chen",
           "pid": "65/4423-67",
           "orcid": null
         },
         {
           "name": "Mingxing Zhang",
+          "display_name": "Mingxing Zhang",
           "pid": "153/5382",
           "orcid": null
         },
         {
           "name": "Cheng Li 0001",
+          "display_name": "Cheng Li",
           "pid": "16/6465-1",
           "orcid": null
         },
         {
           "name": "Yuqing Yang 0001",
+          "display_name": "Yuqing Yang",
           "pid": "91/9064-1",
           "orcid": null
         },
         {
           "name": "Fan Yang 0024",
+          "display_name": "Fan Yang",
           "pid": "29/3081-24",
           "orcid": null
         },
         {
           "name": "Mao Yang 0004",
+          "display_name": "Mao Yang",
           "pid": "89/1482-4",
           "orcid": null
         }
@@ -3466,6 +3947,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1016-lu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1016-1031",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenZLZZLLLJCDYJCZLYYY26"
@@ -3475,16 +3957,19 @@
       "authors": [
         {
           "name": "Mohsen Dehghankar",
+          "display_name": "Mohsen Dehghankar",
           "pid": "341/3995",
           "orcid": null
         },
         {
           "name": "Stavros Sintos",
+          "display_name": "Stavros Sintos",
           "pid": "151/3111",
           "orcid": null
         },
         {
           "name": "Abolfazl Asudeh",
+          "display_name": "Abolfazl Asudeh",
           "pid": "04/7892",
           "orcid": null
         }
@@ -3500,6 +3985,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1032-dehghankar.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1032-1045",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DehghankarSA26"
@@ -3509,36 +3995,43 @@
       "authors": [
         {
           "name": "Xinyue Ma",
+          "display_name": "Xinyue Ma",
           "pid": "178/6910",
           "orcid": null
         },
         {
           "name": "Heelim Hong",
+          "display_name": "Heelim Hong",
           "pid": "279/5565",
           "orcid": null
         },
         {
           "name": "Taegeon Um",
+          "display_name": "Taegeon Um",
           "pid": "205/6864",
           "orcid": null
         },
         {
           "name": "Jongseop Lee",
+          "display_name": "Jongseop Lee",
           "pid": "330/8179",
           "orcid": null
         },
         {
           "name": "Seoyeong Choy",
+          "display_name": "Seoyeong Choy",
           "pid": "426/9790",
           "orcid": null
         },
         {
           "name": "Woo-Yeon Lee",
+          "display_name": "Woo-Yeon Lee",
           "pid": "163/1527",
           "orcid": null
         },
         {
           "name": "Myeongjae Jeon",
+          "display_name": "Myeongjae Jeon",
           "pid": "09/2790",
           "orcid": null
         }
@@ -3554,6 +4047,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1046-ma.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1046-1059",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/MaHULCLJ26"
@@ -3563,36 +4057,43 @@
       "authors": [
         {
           "name": "Matthew Russo",
+          "display_name": "Matthew Russo",
           "pid": "126/0229",
           "orcid": null
         },
         {
           "name": "Chunwei Liu",
+          "display_name": "Chunwei Liu",
           "pid": "147/1343",
           "orcid": null
         },
         {
           "name": "Sivaprasad Sudhir",
+          "display_name": "Sivaprasad Sudhir",
           "pid": "318/6147",
           "orcid": null
         },
         {
           "name": "Gerardo Vitagliano",
+          "display_name": "Gerardo Vitagliano",
           "pid": "249/4023",
           "orcid": null
         },
         {
           "name": "Michael J. Cafarella",
+          "display_name": "Michael J. Cafarella",
           "pid": "82/231",
           "orcid": null
         },
         {
           "name": "Tim Kraska",
+          "display_name": "Tim Kraska",
           "pid": "26/6037",
           "orcid": null
         },
         {
           "name": "Samuel Madden 0001",
+          "display_name": "Samuel Madden",
           "pid": "m/SamuelMadden",
           "orcid": null
         }
@@ -3608,6 +4109,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1060-russo.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1060-1073",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/RussoLSVCKM26"
@@ -3617,36 +4119,43 @@
       "authors": [
         {
           "name": "Yuchen Peng",
+          "display_name": "Yuchen Peng",
           "pid": "09/11240",
           "orcid": null
         },
         {
           "name": "Dingyu Yang",
+          "display_name": "Dingyu Yang",
           "pid": "119/6899",
           "orcid": null
         },
         {
           "name": "Zhongle Xie",
+          "display_name": "Zhongle Xie",
           "pid": "169/3419",
           "orcid": null
         },
         {
           "name": "Ji Sun 0001",
+          "display_name": "Ji Sun",
           "pid": "01/3254-1",
           "orcid": null
         },
         {
           "name": "Lidan Shou",
+          "display_name": "Lidan Shou",
           "pid": "21/5967",
           "orcid": null
         },
         {
           "name": "Ke Chen 0005",
+          "display_name": "Ke Chen",
           "pid": "47/6529-5",
           "orcid": null
         },
         {
           "name": "Gang Chen 0001",
+          "display_name": "Gang Chen",
           "pid": "67/6383-1",
           "orcid": null
         }
@@ -3662,6 +4171,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1074-yang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1074-1087",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/PengYXSSCC26"
@@ -3671,21 +4181,25 @@
       "authors": [
         {
           "name": "Chen Ye 0003",
+          "display_name": "Chen Ye",
           "pid": "33/826-3",
           "orcid": null
         },
         {
           "name": "Shujie Ma",
+          "display_name": "Shujie Ma",
           "pid": "69/9915",
           "orcid": null
         },
         {
           "name": "Guojun Dai",
+          "display_name": "Guojun Dai",
           "pid": "36/623",
           "orcid": null
         },
         {
           "name": "Hengtong Zhang",
+          "display_name": "Hengtong Zhang",
           "pid": "188/2018",
           "orcid": null
         }
@@ -3701,6 +4215,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1088-ye.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1088-1100",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YeMDZ26"
@@ -3710,36 +4225,43 @@
       "authors": [
         {
           "name": "Yuxin Tang",
+          "display_name": "Yuxin Tang",
           "pid": "86/2476",
           "orcid": null
         },
         {
           "name": "Zhiyuan Xin",
+          "display_name": "Zhiyuan Xin",
           "pid": "340/5412",
           "orcid": null
         },
         {
           "name": "Zhimin Ding",
+          "display_name": "Zhimin Ding",
           "pid": "175/8954",
           "orcid": null
         },
         {
           "name": "Xinyu Yao",
+          "display_name": "Xinyu Yao",
           "pid": "36/1787",
           "orcid": null
         },
         {
           "name": "Daniel Bourgeois",
+          "display_name": "Daniel Bourgeois",
           "pid": "174/6685",
           "orcid": null
         },
         {
           "name": "Tirthak Patel",
+          "display_name": "Tirthak Patel",
           "pid": "208/1839",
           "orcid": null
         },
         {
           "name": "Chris Jermaine",
+          "display_name": "Chris Jermaine",
           "pid": "j/ChrisJermaine",
           "orcid": null
         }
@@ -3755,6 +4277,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1101-tang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1101-1114",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/TangXDYBPJ26"
@@ -3764,16 +4287,19 @@
       "authors": [
         {
           "name": "Mehnaz Tabassum Mahin",
+          "display_name": "Mehnaz Tabassum Mahin",
           "pid": "201/6647",
           "orcid": null
         },
         {
           "name": "Michael J. Carey 0001",
+          "display_name": "Michael J. Carey",
           "pid": "31/3455",
           "orcid": null
         },
         {
           "name": "Vassilis J. Tsotras",
+          "display_name": "Vassilis J. Tsotras",
           "pid": "t/VassilisJTsotras",
           "orcid": null
         }
@@ -3789,6 +4315,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1115-mahin.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1115-1127",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/MahinCT26"
@@ -3798,16 +4325,19 @@
       "authors": [
         {
           "name": "Yanjing Ren",
+          "display_name": "Yanjing Ren",
           "pid": "252/6063",
           "orcid": null
         },
         {
           "name": "Jingwei Li 0001",
+          "display_name": "Jingwei Li",
           "pid": "92/7728-1",
           "orcid": null
         },
         {
           "name": "Patrick Lee",
+          "display_name": "Patrick Lee",
           "pid": "71/1097",
           "orcid": null
         }
@@ -3823,6 +4353,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1128-ren.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1128-1141",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/RenLL26"
@@ -3832,36 +4363,43 @@
       "authors": [
         {
           "name": "Zhenghao Ding",
+          "display_name": "Zhenghao Ding",
           "pid": "241/9972",
           "orcid": null
         },
         {
           "name": "Xinyi Zhang 0002",
+          "display_name": "Xinyi Zhang",
           "pid": "04/4189-2",
           "orcid": null
         },
         {
           "name": "Chao Zhang 0034",
+          "display_name": "Chao Zhang",
           "pid": "94/3019-34",
           "orcid": null
         },
         {
           "name": "Yishen Sun",
+          "display_name": "Yishen Sun",
           "pid": "41/622",
           "orcid": null
         },
         {
           "name": "Kai Xu",
+          "display_name": "Kai Xu",
           "pid": "30/495",
           "orcid": null
         },
         {
           "name": "Wei Lu 0015",
+          "display_name": "Wei Lu",
           "pid": "98/6613-15",
           "orcid": null
         },
         {
           "name": "Xiaoyong Du 0001",
+          "display_name": "Xiaoyong Du",
           "pid": "47/3542-1",
           "orcid": null
         }
@@ -3877,6 +4415,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1142-ding.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1142-1155",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DingZZSXLD26"
@@ -3886,26 +4425,31 @@
       "authors": [
         {
           "name": "Shuyu Chen",
+          "display_name": "Shuyu Chen",
           "pid": "57/4238",
           "orcid": null
         },
         {
           "name": "Mingxun Zhou",
+          "display_name": "Mingxun Zhou",
           "pid": "251/5365",
           "orcid": null
         },
         {
           "name": "Haoyu Niu",
+          "display_name": "Haoyu Niu",
           "pid": "279/7311",
           "orcid": null
         },
         {
           "name": "Guopeng Lin",
+          "display_name": "Guopeng Lin",
           "pid": "330/5132",
           "orcid": null
         },
         {
           "name": "Weili Han",
+          "display_name": "Weili Han",
           "pid": "42/179",
           "orcid": null
         }
@@ -3921,6 +4465,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1156-han.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1156-1169",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenZNLH26"
@@ -3930,31 +4475,37 @@
       "authors": [
         {
           "name": "Dian Ouyang",
+          "display_name": "Dian Ouyang",
           "pid": "219/5745",
           "orcid": null
         },
         {
           "name": "Yikun Wang",
+          "display_name": "Yikun Wang",
           "pid": "55/9804",
           "orcid": null
         },
         {
           "name": "Dong Wen 0001",
+          "display_name": "Dong Wen",
           "pid": "92/8453-1",
           "orcid": null
         },
         {
           "name": "Wenjie Zhang 0001",
+          "display_name": "Wenjie Zhang",
           "pid": "98/5684-1",
           "orcid": null
         },
         {
           "name": "Yaping Liu",
+          "display_name": "Yaping Liu",
           "pid": "89/5332",
           "orcid": null
         },
         {
           "name": "Xuemin Lin 0001",
+          "display_name": "Xuemin Lin",
           "pid": "l/LinXuemin",
           "orcid": null
         }
@@ -3970,6 +4521,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1170-wen.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1170-1183",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/OuyangWWZLL26"
@@ -3979,26 +4531,31 @@
       "authors": [
         {
           "name": "Xin Zhang 0101",
+          "display_name": "Xin Zhang",
           "pid": "76/1584-101",
           "orcid": null
         },
         {
           "name": "Yanyan Shen",
+          "display_name": "Yanyan Shen",
           "pid": "74/2905",
           "orcid": null
         },
         {
           "name": "Yingxia Shao",
+          "display_name": "Yingxia Shao",
           "pid": "131/2926",
           "orcid": null
         },
         {
           "name": "Haoyang Li 0002",
+          "display_name": "Haoyang Li",
           "pid": "118/0004-2",
           "orcid": null
         },
         {
           "name": "Lei Chen 0002",
+          "display_name": "Lei Chen",
           "pid": "c/LeiChen0002",
           "orcid": null
         }
@@ -4014,6 +4571,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1184-zhang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1184-1197",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhangSSLC26"
@@ -4023,16 +4581,19 @@
       "authors": [
         {
           "name": "Celine Wüst",
+          "display_name": "Celine Wüst",
           "pid": "437/5086",
           "orcid": null
         },
         {
           "name": "Zu-Ming Jiang",
+          "display_name": "Zu-Ming Jiang",
           "pid": "237/8586",
           "orcid": null
         },
         {
           "name": "Zhendong Su 0001",
+          "display_name": "Zhendong Su",
           "pid": "s/ZhendongSu",
           "orcid": null
         }
@@ -4048,6 +4609,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1198-jiang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1198-1211",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WustJS26"
@@ -4057,16 +4619,19 @@
       "authors": [
         {
           "name": "Christopher Spinrath",
+          "display_name": "Christopher Spinrath",
           "pid": "165/4128",
           "orcid": null
         },
         {
           "name": "Angela Bonifati",
+          "display_name": "Angela Bonifati",
           "pid": "b/ABonifati",
           "orcid": null
         },
         {
           "name": "Rachid Echahed",
+          "display_name": "Rachid Echahed",
           "pid": "91/3803",
           "orcid": null
         }
@@ -4082,6 +4647,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1212-spinrath.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1212-1225",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/SpinrathBE26"
@@ -4091,21 +4657,25 @@
       "authors": [
         {
           "name": "Yingli Zhou",
+          "display_name": "Yingli Zhou",
           "pid": "331/8455",
           "orcid": null
         },
         {
           "name": "Huizhong Wang",
+          "display_name": "Huizhong Wang",
           "pid": "187/3950",
           "orcid": null
         },
         {
           "name": "Chenhao Ma 0001",
+          "display_name": "Chenhao Ma",
           "pid": "251/5251",
           "orcid": null
         },
         {
           "name": "Yixiang Fang",
+          "display_name": "Yixiang Fang",
           "pid": "76/1735",
           "orcid": null
         }
@@ -4121,6 +4691,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1226-zhou.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1226-1239",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhouWMF26"
@@ -4130,21 +4701,25 @@
       "authors": [
         {
           "name": "Mingyu Yang",
+          "display_name": "Mingyu Yang",
           "pid": "197/8171",
           "orcid": null
         },
         {
           "name": "Liuchang Jing",
+          "display_name": "Liuchang Jing",
           "pid": "431/0074",
           "orcid": null
         },
         {
           "name": "Wentao Li",
+          "display_name": "Wentao Li",
           "pid": "60/8180",
           "orcid": null
         },
         {
           "name": "Wei Wang",
+          "display_name": "Wei Wang",
           "pid": "35/7092",
           "orcid": null
         }
@@ -4160,6 +4735,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1240-yang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1240-1249",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YangJLW26"
@@ -4169,21 +4745,25 @@
       "authors": [
         {
           "name": "Taesung Lee",
+          "display_name": "Taesung Lee",
           "pid": "60/10355",
           "orcid": null
         },
         {
           "name": "Jaehyun Ha",
+          "display_name": "Jaehyun Ha",
           "pid": "344/3180",
           "orcid": null
         },
         {
           "name": "Byungchul Tak",
+          "display_name": "Byungchul Tak",
           "pid": "10/6711",
           "orcid": null
         },
         {
           "name": "Wook-Shin Han",
+          "display_name": "Wook-Shin Han",
           "pid": "62/2450",
           "orcid": null
         }
@@ -4199,6 +4779,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1250-han.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1250-1263",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LeeHTH26"
@@ -4208,46 +4789,55 @@
       "authors": [
         {
           "name": "Chaoyuan Shen",
+          "display_name": "Chaoyuan Shen",
           "pid": "289/6630",
           "orcid": null
         },
         {
           "name": "Chi Zhang",
+          "display_name": "Chi Zhang",
           "pid": "91/195",
           "orcid": null
         },
         {
           "name": "Chengliang Chai",
+          "display_name": "Chengliang Chai",
           "pid": "181/5689",
           "orcid": null
         },
         {
           "name": "Jiacheng Wang",
+          "display_name": "Jiacheng Wang",
           "pid": "115/7106",
           "orcid": null
         },
         {
           "name": "Jia Yuan",
+          "display_name": "Jia Yuan",
           "pid": "41/10427",
           "orcid": null
         },
         {
           "name": "Yuping Wang",
+          "display_name": "Yuping Wang",
           "pid": "29/3814",
           "orcid": null
         },
         {
           "name": "Ye Yuan 0001",
+          "display_name": "Ye Yuan",
           "pid": "33/6315-1",
           "orcid": null
         },
         {
           "name": "Guoren Wang",
+          "display_name": "Guoren Wang",
           "pid": "64/146",
           "orcid": null
         },
         {
           "name": "Lei Cao 0004",
+          "display_name": "Lei Cao",
           "pid": "17/6060-4",
           "orcid": null
         }
@@ -4263,6 +4853,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1264-chai.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1264-1277",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ShenZCWYWYWC26"
@@ -4272,16 +4863,19 @@
       "authors": [
         {
           "name": "Yiming Qiao",
+          "display_name": "Yiming Qiao",
           "pid": "257/5648",
           "orcid": null
         },
         {
           "name": "Peter Boncz",
+          "display_name": "Peter Boncz",
           "pid": "b/PeterABoncz",
           "orcid": null
         },
         {
           "name": "Huanchen Zhang",
+          "display_name": "Huanchen Zhang",
           "pid": "13/8730",
           "orcid": null
         }
@@ -4297,6 +4891,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1278-qiao.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1278-1290",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/QiaoBZ26"
@@ -4306,16 +4901,19 @@
       "authors": [
         {
           "name": "Mohammadreza Daviran",
+          "display_name": "Mohammadreza Daviran",
           "pid": "414/9811",
           "orcid": null
         },
         {
           "name": "Brian Lin",
+          "display_name": "Brian Lin",
           "pid": "144/5882",
           "orcid": null
         },
         {
           "name": "Davood Rafiei",
+          "display_name": "Davood Rafiei",
           "pid": "r/DRafiei",
           "orcid": null
         }
@@ -4331,6 +4929,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1291-daviran.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1291-1304",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DaviranLR26"
@@ -4340,21 +4939,25 @@
       "authors": [
         {
           "name": "Ilin Tolovski",
+          "display_name": "Ilin Tolovski",
           "pid": "246/2021",
           "orcid": null
         },
         {
           "name": "Philipp Hildebrandt",
+          "display_name": "Philipp Hildebrandt",
           "pid": "333/8184",
           "orcid": null
         },
         {
           "name": "Khuzaima Daudjee",
+          "display_name": "Khuzaima Daudjee",
           "pid": "d/KhuzaimaDaudjee",
           "orcid": null
         },
         {
           "name": "Tilmann Rabl",
+          "display_name": "Tilmann Rabl",
           "pid": "10/760",
           "orcid": null
         }
@@ -4370,6 +4973,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1305-tolovski.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1305-1318",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/TolovskiHDR26"
@@ -4379,41 +4983,49 @@
       "authors": [
         {
           "name": "Wei Zhou 0053",
+          "display_name": "Wei Zhou",
           "pid": "69/5011-53",
           "orcid": null
         },
         {
           "name": "Peng Sun 0006",
+          "display_name": "Peng Sun",
           "pid": "88/619-6",
           "orcid": null
         },
         {
           "name": "Xuanhe Zhou",
+          "display_name": "Xuanhe Zhou",
           "pid": "247/8418",
           "orcid": null
         },
         {
           "name": "Qianglei Zang",
+          "display_name": "Qianglei Zang",
           "pid": "414/7607",
           "orcid": null
         },
         {
           "name": "Ji Xu",
+          "display_name": "Ji Xu",
           "pid": "17/3075",
           "orcid": null
         },
         {
           "name": "Tieying Zhang",
+          "display_name": "Tieying Zhang",
           "pid": "88/2750",
           "orcid": null
         },
         {
           "name": "Guoliang Li 0001",
+          "display_name": "Guoliang Li",
           "pid": "l/GuoliangLi",
           "orcid": null
         },
         {
           "name": "Fan Wu 0006",
+          "display_name": "Fan Wu",
           "pid": "07/6378-6",
           "orcid": null
         }
@@ -4429,6 +5041,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1319-zhou.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1319-1331",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhouSZZXZLW26"
@@ -4438,21 +5051,25 @@
       "authors": [
         {
           "name": "Pranay Mundra",
+          "display_name": "Pranay Mundra",
           "pid": "255/9302",
           "orcid": null
         },
         {
           "name": "Daniel Kocher",
+          "display_name": "Daniel Kocher",
           "pid": "190/0084",
           "orcid": null
         },
         {
           "name": "Martin Schaeler",
+          "display_name": "Martin Schaeler",
           "pid": "437/5334",
           "orcid": null
         },
         {
           "name": "Nikolaus Augsten",
+          "display_name": "Nikolaus Augsten",
           "pid": "76/3961",
           "orcid": null
         }
@@ -4468,6 +5085,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1332-mundra.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1332-1344",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/MundraKSA26"
@@ -4477,31 +5095,37 @@
       "authors": [
         {
           "name": "Yang Huang",
+          "display_name": "Yang Huang",
           "pid": "88/2275",
           "orcid": null
         },
         {
           "name": "Xu Zhou 0001",
+          "display_name": "Xu Zhou",
           "pid": "66/5686-1",
           "orcid": null
         },
         {
           "name": "Yan Ding 0004",
+          "display_name": "Yan Ding",
           "pid": "57/4533-4",
           "orcid": null
         },
         {
           "name": "Qing Liu 0002",
+          "display_name": "Qing Liu",
           "pid": "53/4481-2",
           "orcid": null
         },
         {
           "name": "Haoxian Xu",
+          "display_name": "Haoxian Xu",
           "pid": "433/1830",
           "orcid": null
         },
         {
           "name": "Kenli Li 0001",
+          "display_name": "Kenli Li",
           "pid": "l/KenliLi",
           "orcid": null
         }
@@ -4517,6 +5141,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1345-huang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1345-1357",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuangZDLXL26"
@@ -4526,61 +5151,73 @@
       "authors": [
         {
           "name": "Xinyi Zhang 0002",
+          "display_name": "Xinyi Zhang",
           "pid": "04/4189-2",
           "orcid": null
         },
         {
           "name": "Tiantian Chen",
+          "display_name": "Tiantian Chen",
           "pid": "183/1310",
           "orcid": null
         },
         {
           "name": "Zhentao Han",
+          "display_name": "Zhentao Han",
           "pid": "356/0518",
           "orcid": null
         },
         {
           "name": "Zhaoyan Hong",
+          "display_name": "Zhaoyan Hong",
           "pid": "329/0189",
           "orcid": null
         },
         {
           "name": "Wei Lu 0015",
+          "display_name": "Wei Lu",
           "pid": "98/6613-15",
           "orcid": null
         },
         {
           "name": "Sheng Wang 0011",
+          "display_name": "Sheng Wang",
           "pid": "85/1868-11",
           "orcid": null
         },
         {
           "name": "Mo Sha 0005",
+          "display_name": "Mo Sha",
           "pid": "432/8662",
           "orcid": null
         },
         {
           "name": "Anni Wang",
+          "display_name": "Anni Wang",
           "pid": "215/4163",
           "orcid": null
         },
         {
           "name": "Yakun Zhang",
+          "display_name": "Yakun Zhang",
           "pid": "127/3950",
           "orcid": null
         },
         {
           "name": "Shuang Liu 0007",
+          "display_name": "Shuang Liu",
           "pid": "58/6609-7",
           "orcid": null
         },
         {
           "name": "Feifei Li 0001",
+          "display_name": "Feifei Li",
           "pid": "l/FeifeiLi",
           "orcid": null
         },
         {
           "name": "Xiaoyong Du 0001",
+          "display_name": "Xiaoyong Du",
           "pid": "47/3542-1",
           "orcid": null
         }
@@ -4596,6 +5233,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1358-zhang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1358-1371",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhangCHHLWSWZLLD26"
@@ -4605,11 +5243,13 @@
       "authors": [
         {
           "name": "Pascal Ginter",
+          "display_name": "Pascal Ginter",
           "pid": "437/4973",
           "orcid": null
         },
         {
           "name": "Viktor Leis",
+          "display_name": "Viktor Leis",
           "pid": "10/11150",
           "orcid": null
         }
@@ -4625,6 +5265,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1372-ginter.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1372-1385",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/GinterL26"
@@ -4634,51 +5275,61 @@
       "authors": [
         {
           "name": "Chao Deng",
+          "display_name": "Chao Deng",
           "pid": "74/322",
           "orcid": null
         },
         {
           "name": "Ju Fan",
+          "display_name": "Ju Fan",
           "pid": "78/4413",
           "orcid": null
         },
         {
           "name": "Yuyu Luo",
+          "display_name": "Yuyu Luo",
           "pid": "185/9921",
           "orcid": null
         },
         {
           "name": "Qinliang Xue",
+          "display_name": "Qinliang Xue",
           "pid": "395/7167",
           "orcid": null
         },
         {
           "name": "Meihao Fan",
+          "display_name": "Meihao Fan",
           "pid": "363/7401",
           "orcid": null
         },
         {
           "name": "Yuxin Zhang",
+          "display_name": "Yuxin Zhang",
           "pid": "03/7346",
           "orcid": null
         },
         {
           "name": "Min Zhang",
+          "display_name": "Min Zhang",
           "pid": "83/5342",
           "orcid": null
         },
         {
           "name": "Xiaofeng Jia",
+          "display_name": "Xiaofeng Jia",
           "pid": "79/11513",
           "orcid": null
         },
         {
           "name": "Jing Zhang 0001",
+          "display_name": "Jing Zhang",
           "pid": "05/3499-1",
           "orcid": null
         },
         {
           "name": "Xiaoyong Du 0001",
+          "display_name": "Xiaoyong Du",
           "pid": "47/3542-1",
           "orcid": null
         }
@@ -4694,6 +5345,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1386-fan.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1386-1399",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DengFLXFZZJZD26"
@@ -4703,26 +5355,31 @@
       "authors": [
         {
           "name": "Maximilian K. Egger",
+          "display_name": "Maximilian K. Egger",
           "pid": "375/0148",
           "orcid": null
         },
         {
           "name": "Mehdi Allali",
+          "display_name": "Mehdi Allali",
           "pid": "437/5779",
           "orcid": null
         },
         {
           "name": "Matteo Lissandrini",
+          "display_name": "Matteo Lissandrini",
           "pid": "139/1128",
           "orcid": null
         },
         {
           "name": "Davide Mottin",
+          "display_name": "Davide Mottin",
           "pid": "135/7623",
           "orcid": null
         },
         {
           "name": "Panagiotis Karras",
+          "display_name": "Panagiotis Karras",
           "pid": "08/5342",
           "orcid": null
         }
@@ -4738,6 +5395,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1400-egger.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1400-1412",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/EggerALMK26"
@@ -4747,51 +5405,61 @@
       "authors": [
         {
           "name": "Siyang Weng",
+          "display_name": "Siyang Weng",
           "pid": "305/0139",
           "orcid": null
         },
         {
           "name": "Hongyu Yang",
+          "display_name": "Hongyu Yang",
           "pid": "57/5473",
           "orcid": null
         },
         {
           "name": "Zirui Hu",
+          "display_name": "Zirui Hu",
           "pid": "370/2446",
           "orcid": null
         },
         {
           "name": "Rong Zhang 0002",
+          "display_name": "Rong Zhang",
           "pid": "13/5366-2",
           "orcid": null
         },
         {
           "name": "Zhicheng Pan",
+          "display_name": "Zhicheng Pan",
           "pid": "141/5423",
           "orcid": null
         },
         {
           "name": "Chengcheng Yang",
+          "display_name": "Chengcheng Yang",
           "pid": "74/10221",
           "orcid": null
         },
         {
           "name": "Xuan Zhou 0001",
+          "display_name": "Xuan Zhou",
           "pid": "32/3943-1",
           "orcid": null
         },
         {
           "name": "Yuxing Chen 0003",
+          "display_name": "Yuxing Chen",
           "pid": "142/2150-3",
           "orcid": null
         },
         {
           "name": "Xiaolong He",
+          "display_name": "Xiaolong He",
           "pid": "245/9899",
           "orcid": null
         },
         {
           "name": "Anqun Pan",
+          "display_name": "Anqun Pan",
           "pid": "224/6370",
           "orcid": null
         }
@@ -4807,6 +5475,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1413-weng.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1413-1426",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WengYHZPYZCHP26"
@@ -4816,26 +5485,31 @@
       "authors": [
         {
           "name": "Antonios Kontaxakis",
+          "display_name": "Antonios Kontaxakis",
           "pid": "261/2671",
           "orcid": null
         },
         {
           "name": "Dimitris Sacharidis",
+          "display_name": "Dimitris Sacharidis",
           "pid": "19/4428",
           "orcid": null
         },
         {
           "name": "Alberto Abelló",
+          "display_name": "Alberto Abelló",
           "pid": "88/2053",
           "orcid": null
         },
         {
           "name": "Sergi Nadal",
+          "display_name": "Sergi Nadal",
           "pid": "160/1064",
           "orcid": null
         },
         {
           "name": "Alkis Simitsis",
+          "display_name": "Alkis Simitsis",
           "pid": "s/ASimitsis",
           "orcid": null
         }
@@ -4851,6 +5525,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1427-kontaxakis.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1427-1440",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KontaxakisSANS26"
@@ -4860,56 +5535,67 @@
       "authors": [
         {
           "name": "Kaushik Rajan",
+          "display_name": "Kaushik Rajan",
           "pid": "20/5220",
           "orcid": null
         },
         {
           "name": "Sampath Rajendra",
+          "display_name": "Sampath Rajendra",
           "pid": "332/1579",
           "orcid": null
         },
         {
           "name": "Momin Al-Ghosien",
+          "display_name": "Momin Al-Ghosien",
           "pid": "415/9960",
           "orcid": null
         },
         {
           "name": "Nicolas Bruno",
+          "display_name": "Nicolas Bruno",
           "pid": "b/NicolasBruno",
           "orcid": null
         },
         {
           "name": "Carlo Curino",
+          "display_name": "Carlo Curino",
           "pid": "c/CarloCurino",
           "orcid": null
         },
         {
           "name": "Matteo Interlandi",
+          "display_name": "Matteo Interlandi",
           "pid": "49/10034",
           "orcid": null
         },
         {
           "name": "Yinan Li 0009",
+          "display_name": "Yinan Li",
           "pid": "49/612-9",
           "orcid": null
         },
         {
           "name": "Lukas M. Maas",
+          "display_name": "Lukas M. Maas",
           "pid": "131/4096",
           "orcid": null
         },
         {
           "name": "Craig Peeper",
+          "display_name": "Craig Peeper",
           "pid": "416/0006",
           "orcid": null
         },
         {
           "name": "Surajit Chaudhuri",
+          "display_name": "Surajit Chaudhuri",
           "pid": "c/SurajitChaudhuri",
           "orcid": null
         },
         {
           "name": "Johannes Gehrke",
+          "display_name": "Johannes Gehrke",
           "pid": "g/JohannesGehrke",
           "orcid": null
         }
@@ -4925,6 +5611,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1441-rajan.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1441-1454",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/RajanRABCILMPCG26"
@@ -4934,16 +5621,19 @@
       "authors": [
         {
           "name": "Qiyao Luo",
+          "display_name": "Qiyao Luo",
           "pid": "303/0338",
           "orcid": null
         },
         {
           "name": "Quanqing Xu",
+          "display_name": "Quanqing Xu",
           "pid": "29/4131",
           "orcid": null
         },
         {
           "name": "Chuanhui Yang",
+          "display_name": "Chuanhui Yang",
           "pid": "328/5894",
           "orcid": null
         }
@@ -4959,6 +5649,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1455-luo.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1455-1468",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LuoXY26"
@@ -4968,16 +5659,19 @@
       "authors": [
         {
           "name": "Bohyun Lee",
+          "display_name": "Bohyun Lee",
           "pid": "237/0836",
           "orcid": null
         },
         {
           "name": "Tobias Ziegler 0001",
+          "display_name": "Tobias Ziegler",
           "pid": "146/6632",
           "orcid": null
         },
         {
           "name": "Viktor Leis",
+          "display_name": "Viktor Leis",
           "pid": "10/11150",
           "orcid": null
         }
@@ -4993,6 +5687,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1469-1483",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LeeZL26"
@@ -5002,26 +5697,31 @@
       "authors": [
         {
           "name": "Liang Li",
+          "display_name": "Liang Li",
           "pid": "14/1395",
           "orcid": null
         },
         {
           "name": "Shufeng Gong 0001",
+          "display_name": "Shufeng Gong",
           "pid": "207/7446-1",
           "orcid": null
         },
         {
           "name": "Yanan Yang",
+          "display_name": "Yanan Yang",
           "pid": "193/7926",
           "orcid": null
         },
         {
           "name": "Yiduo Wang",
+          "display_name": "Yiduo Wang",
           "pid": "414/0488",
           "orcid": null
         },
         {
           "name": "Jie Wu",
+          "display_name": "Jie Wu",
           "pid": "181/2833",
           "orcid": null
         }
@@ -5037,6 +5737,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1484-li.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1484-1498",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiGYWW26"
@@ -5046,21 +5747,25 @@
       "authors": [
         {
           "name": "Haoru Zhao",
+          "display_name": "Haoru Zhao",
           "pid": "278/3800",
           "orcid": null
         },
         {
           "name": "Mingkai Dong 0002",
+          "display_name": "Mingkai Dong",
           "pid": "10/1570-2",
           "orcid": null
         },
         {
           "name": "Fangnuo Wu",
+          "display_name": "Fangnuo Wu",
           "pid": "330/8203",
           "orcid": null
         },
         {
           "name": "Haibo Chen 0001",
+          "display_name": "Haibo Chen",
           "pid": "31/6601-1",
           "orcid": null
         }
@@ -5076,6 +5781,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1499-zhao.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1499-1515",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhaoDWC26"
@@ -5085,21 +5791,25 @@
       "authors": [
         {
           "name": "Liu Liu",
+          "display_name": "Liu Liu",
           "pid": "74/7037",
           "orcid": null
         },
         {
           "name": "Shenghao Gong",
+          "display_name": "Shenghao Gong",
           "pid": "350/5932",
           "orcid": null
         },
         {
           "name": "Ziquan Fang",
+          "display_name": "Ziquan Fang",
           "pid": "241/7962",
           "orcid": null
         },
         {
           "name": "Yunjun Gao",
+          "display_name": "Yunjun Gao",
           "pid": "80/2651",
           "orcid": null
         }
@@ -5115,6 +5825,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1516-gao.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1516-1529",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiuGFG26"
@@ -5124,16 +5835,19 @@
       "authors": [
         {
           "name": "Jiabao Han",
+          "display_name": "Jiabao Han",
           "pid": "239/8701",
           "orcid": null
         },
         {
           "name": "Mengxuan Zhang 0001",
+          "display_name": "Mengxuan Zhang",
           "pid": "185/1009-1",
           "orcid": null
         },
         {
           "name": "Goce Trajcevski",
+          "display_name": "Goce Trajcevski",
           "pid": "66/974",
           "orcid": null
         }
@@ -5149,6 +5863,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1530-han.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1530-1543",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HanZT26"
@@ -5158,11 +5873,13 @@
       "authors": [
         {
           "name": "Giannis Vassiliou",
+          "display_name": "Giannis Vassiliou",
           "pid": "297/6192",
           "orcid": null
         },
         {
           "name": "Haridimos Kondylakis",
+          "display_name": "Haridimos Kondylakis",
           "pid": "24/279",
           "orcid": null
         }
@@ -5178,6 +5895,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1544-kondylakis.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1544-1557",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/VassiliouK26"
@@ -5187,21 +5905,25 @@
       "authors": [
         {
           "name": "Patricia Guerra-Balboa",
+          "display_name": "Patricia Guerra-Balboa",
           "pid": "344/4169",
           "orcid": null
         },
         {
           "name": "Annika Sauer",
+          "display_name": "Annika Sauer",
           "pid": "390/4335",
           "orcid": null
         },
         {
           "name": "Héber Hwang Arcolezi",
+          "display_name": "Héber Hwang Arcolezi",
           "pid": "248/5342",
           "orcid": null
         },
         {
           "name": "Thorsten Strufe",
+          "display_name": "Thorsten Strufe",
           "pid": "69/2809",
           "orcid": null
         }
@@ -5217,6 +5939,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1558-guerra-balboa.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1558-1571",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/GuerraBalboaSAS26"
@@ -5226,26 +5949,31 @@
       "authors": [
         {
           "name": "Linglin Yang",
+          "display_name": "Linglin Yang",
           "pid": "331/3396",
           "orcid": null
         },
         {
           "name": "Xunbin Su",
+          "display_name": "Xunbin Su",
           "pid": "276/3372",
           "orcid": null
         },
         {
           "name": "Lei Zou 0001",
+          "display_name": "Lei Zou",
           "pid": "81/3390-1",
           "orcid": null
         },
         {
           "name": "Xiangyang Gou",
+          "display_name": "Xiangyang Gou",
           "pid": "220/8642",
           "orcid": null
         },
         {
           "name": "Yinnian Lin",
+          "display_name": "Yinnian Lin",
           "pid": "260/0406",
           "orcid": null
         }
@@ -5261,6 +5989,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1572-yang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1572-1585",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YangSZGL26"
@@ -5270,41 +5999,49 @@
       "authors": [
         {
           "name": "Yang Wu",
+          "display_name": "Yang Wu",
           "pid": "56/1428",
           "orcid": null
         },
         {
           "name": "Tongliang Li",
+          "display_name": "Tongliang Li",
           "pid": "129/8153",
           "orcid": null
         },
         {
           "name": "Xuanhe Zhou",
+          "display_name": "Xuanhe Zhou",
           "pid": "247/8418",
           "orcid": null
         },
         {
           "name": "Jianying Wang",
+          "display_name": "Jianying Wang",
           "pid": "06/2952",
           "orcid": null
         },
         {
           "name": "Xinjun Yang",
+          "display_name": "Xinjun Yang",
           "pid": "295/3640",
           "orcid": null
         },
         {
           "name": "Wenchao Zhou",
+          "display_name": "Wenchao Zhou",
           "pid": "72/1077",
           "orcid": null
         },
         {
           "name": "Chunxiao Xing",
+          "display_name": "Chunxiao Xing",
           "pid": "x/ChunxiaoXing",
           "orcid": null
         },
         {
           "name": "Yong Zhang 0002",
+          "display_name": "Yong Zhang",
           "pid": "66/4615-2",
           "orcid": null
         }
@@ -5320,6 +6057,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1586-wu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1586-1599",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WuLZWYZXZ26"
@@ -5329,21 +6067,25 @@
       "authors": [
         {
           "name": "Yuheng Zhang",
+          "display_name": "Yuheng Zhang",
           "pid": "70/6340",
           "orcid": null
         },
         {
           "name": "Miao Qiao",
+          "display_name": "Miao Qiao",
           "pid": "93/9883",
           "orcid": null
         },
         {
           "name": "Zhencan Peng",
+          "display_name": "Zhencan Peng",
           "pid": "323/2277",
           "orcid": null
         },
         {
           "name": "Dong Deng 0001",
+          "display_name": "Dong Deng",
           "pid": "71/8700-1",
           "orcid": null
         }
@@ -5359,6 +6101,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1600-deng.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1600-1613",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhangQPD26"
@@ -5368,41 +6111,49 @@
       "authors": [
         {
           "name": "Wenjie Huang",
+          "display_name": "Wenjie Huang",
           "pid": "07/2158",
           "orcid": null
         },
         {
           "name": "Rui Wang 0076",
+          "display_name": "Rui Wang",
           "pid": "06/2293-76",
           "orcid": null
         },
         {
           "name": "Jing Cao",
+          "display_name": "Jing Cao",
           "pid": "74/837",
           "orcid": null
         },
         {
           "name": "Tongya Zheng",
+          "display_name": "Tongya Zheng",
           "pid": "245/8743",
           "orcid": null
         },
         {
           "name": "Xinyu Wang 0001",
+          "display_name": "Xinyu Wang",
           "pid": "68/1277-1",
           "orcid": null
         },
         {
           "name": "Mingli Song",
+          "display_name": "Mingli Song",
           "pid": "71/5333",
           "orcid": null
         },
         {
           "name": "Sai Wu",
+          "display_name": "Sai Wu",
           "pid": "30/1186",
           "orcid": null
         },
         {
           "name": "Chun Chen 0001",
+          "display_name": "Chun Chen",
           "pid": "07/4182-0001",
           "orcid": null
         }
@@ -5418,6 +6169,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1614-wang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1614-1627",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuangWCZWSWC26"
@@ -5427,26 +6179,31 @@
       "authors": [
         {
           "name": "Ruilin Hu",
+          "display_name": "Ruilin Hu",
           "pid": "266/7372",
           "orcid": null
         },
         {
           "name": "Yuyu Luo",
+          "display_name": "Yuyu Luo",
           "pid": "185/9921",
           "orcid": null
         },
         {
           "name": "Guoliang Li 0001",
+          "display_name": "Guoliang Li",
           "pid": "l/GuoliangLi",
           "orcid": null
         },
         {
           "name": "Shuangqiao Wu",
+          "display_name": "Shuangqiao Wu",
           "pid": "437/5437",
           "orcid": null
         },
         {
           "name": "Yun Luo",
+          "display_name": "Yun Luo",
           "pid": "19/1045",
           "orcid": null
         }
@@ -5462,6 +6219,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1628-li.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1628-1642",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/HuLLWL26"
@@ -5471,21 +6229,25 @@
       "authors": [
         {
           "name": "Agapi Rissaki",
+          "display_name": "Agapi Rissaki",
           "pid": "282/1363",
           "orcid": null
         },
         {
           "name": "Ilias Fountalis",
+          "display_name": "Ilias Fountalis",
           "pid": "176/5524",
           "orcid": null
         },
         {
           "name": "Wolfgang Gatterbauer",
+          "display_name": "Wolfgang Gatterbauer",
           "pid": "36/5673",
           "orcid": null
         },
         {
           "name": "Benny Kimelfeld",
+          "display_name": "Benny Kimelfeld",
           "pid": "74/3195",
           "orcid": null
         }
@@ -5501,6 +6263,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1643-rissaki.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1643-1658",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/RissakiFGK26"
@@ -5510,31 +6273,37 @@
       "authors": [
         {
           "name": "Tao Yu",
+          "display_name": "Tao Yu",
           "pid": "67/1014",
           "orcid": null
         },
         {
           "name": "Zhijie Zhang 0004",
+          "display_name": "Zhijie Zhang",
           "pid": "66/5132-4",
           "orcid": null
         },
         {
           "name": "Weiguo Zheng",
+          "display_name": "Weiguo Zheng",
           "pid": "10/5927",
           "orcid": null
         },
         {
           "name": "Jeffrey Xu Yu",
+          "display_name": "Jeffrey Xu Yu",
           "pid": "y/JXuYu",
           "orcid": null
         },
         {
           "name": "Qiang Zhou",
+          "display_name": "Qiang Zhou",
           "pid": "43/3182",
           "orcid": null
         },
         {
           "name": "Chuntao Hong",
+          "display_name": "Chuntao Hong",
           "pid": "62/6933",
           "orcid": null
         }
@@ -5550,6 +6319,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1659-yu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1659-1673",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YuZZYZH26"
@@ -5559,46 +6329,55 @@
       "authors": [
         {
           "name": "Zhicheng Pan",
+          "display_name": "Zhicheng Pan",
           "pid": "141/5423",
           "orcid": null
         },
         {
           "name": "Wenwen Sun",
+          "display_name": "Wenwen Sun",
           "pid": "126/6348",
           "orcid": null
         },
         {
           "name": "Yuanjia Zhang",
+          "display_name": "Yuanjia Zhang",
           "pid": "328/6179",
           "orcid": null
         },
         {
           "name": "Terence Purcell",
+          "display_name": "Terence Purcell",
           "pid": "437/5259",
           "orcid": null
         },
         {
           "name": "Yu Dong",
+          "display_name": "Yu Dong",
           "pid": "03/1299",
           "orcid": null
         },
         {
           "name": "Chengcheng Yang",
+          "display_name": "Chengcheng Yang",
           "pid": "74/10221",
           "orcid": null
         },
         {
           "name": "Rong Zhang 0002",
+          "display_name": "Rong Zhang",
           "pid": "13/5366-2",
           "orcid": null
         },
         {
           "name": "Xuan Zhou 0001",
+          "display_name": "Xuan Zhou",
           "pid": "32/3943-1",
           "orcid": null
         },
         {
           "name": "Jianliang Xu",
+          "display_name": "Jianliang Xu",
           "pid": "x/JianliangXu",
           "orcid": null
         }
@@ -5614,6 +6393,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1674-pan.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1674-1687",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/PanSZPDYZZX26"
@@ -5623,26 +6403,31 @@
       "authors": [
         {
           "name": "Yichun Yang",
+          "display_name": "Yichun Yang",
           "pid": "249/9678",
           "orcid": null
         },
         {
           "name": "Longlong Lin",
+          "display_name": "Longlong Lin",
           "pid": "241/0215",
           "orcid": null
         },
         {
           "name": "Rong-Hua Li 0001",
+          "display_name": "Rong-Hua Li",
           "pid": "37/548-1",
           "orcid": null
         },
         {
           "name": "Meihao Liao",
+          "display_name": "Meihao Liao",
           "pid": "317/0863",
           "orcid": null
         },
         {
           "name": "Guoren Wang",
+          "display_name": "Guoren Wang",
           "pid": "64/146",
           "orcid": null
         }
@@ -5658,6 +6443,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1688-yang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1688-1700",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/YangLLLW26"
@@ -5667,26 +6453,31 @@
       "authors": [
         {
           "name": "Yuxuan Du",
+          "display_name": "Yuxuan Du",
           "pid": "222/7868",
           "orcid": null
         },
         {
           "name": "Xuchuan Luo",
+          "display_name": "Xuchuan Luo",
           "pid": "318/9469",
           "orcid": null
         },
         {
           "name": "Xin Wang",
+          "display_name": "Xin Wang",
           "pid": "10/5630",
           "orcid": null
         },
         {
           "name": "Yangfan Zhou",
+          "display_name": "Yangfan Zhou",
           "pid": "27/6390",
           "orcid": null
         },
         {
           "name": "Jiacheng Shen",
+          "display_name": "Jiacheng Shen",
           "pid": "301/8957",
           "orcid": null
         }
@@ -5702,6 +6493,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1701-du.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1701-1714",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/DuLWZS26"
@@ -5711,41 +6503,49 @@
       "authors": [
         {
           "name": "Mengzhao Wang 0001",
+          "display_name": "Mengzhao Wang",
           "pid": "284/3282-1",
           "orcid": null
         },
         {
           "name": "Boyu Tan",
+          "display_name": "Boyu Tan",
           "pid": "251/1805",
           "orcid": null
         },
         {
           "name": "Yunjun Gao",
+          "display_name": "Yunjun Gao",
           "pid": "80/2651",
           "orcid": null
         },
         {
           "name": "Hai Jin 0001",
+          "display_name": "Hai Jin",
           "pid": "98/4156",
           "orcid": null
         },
         {
           "name": "Yingfeng Zhang",
+          "display_name": "Yingfeng Zhang",
           "pid": "57/7071",
           "orcid": null
         },
         {
           "name": "Xiangyu Ke",
+          "display_name": "Xiangyu Ke",
           "pid": "194/2946",
           "orcid": null
         },
         {
           "name": "Xiaoliang Xu",
+          "display_name": "Xiaoliang Xu",
           "pid": "48/2710",
           "orcid": null
         },
         {
           "name": "Yifan Zhu 0002",
+          "display_name": "Yifan Zhu",
           "pid": "94/1593-2",
           "orcid": null
         }
@@ -5761,6 +6561,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1715-gao.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1715-1730",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/WangTGJZKXZ26"
@@ -5770,16 +6571,19 @@
       "authors": [
         {
           "name": "Selahattin Akkas",
+          "display_name": "Selahattin Akkas",
           "pid": "252/7008",
           "orcid": null
         },
         {
           "name": "Aditya Devarakonda",
+          "display_name": "Aditya Devarakonda",
           "pid": "115/5236",
           "orcid": null
         },
         {
           "name": "Ariful Azad",
+          "display_name": "Ariful Azad",
           "pid": "79/8436",
           "orcid": null
         }
@@ -5795,6 +6599,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1731-azad.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1731-1739",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/AkkasDA26"
@@ -5804,31 +6609,37 @@
       "authors": [
         {
           "name": "Weitian Chen",
+          "display_name": "Weitian Chen",
           "pid": "28/778",
           "orcid": null
         },
         {
           "name": "Shixuan Sun",
+          "display_name": "Shixuan Sun",
           "pid": "131/9481",
           "orcid": null
         },
         {
           "name": "Cheng Chen 0008",
+          "display_name": "Cheng Chen",
           "pid": "10/217-8",
           "orcid": null
         },
         {
           "name": "Yongmin Hu",
+          "display_name": "Yongmin Hu",
           "pid": "245/8929",
           "orcid": null
         },
         {
           "name": "Yingqian Hu",
+          "display_name": "Yingqian Hu",
           "pid": "328/7021",
           "orcid": null
         },
         {
           "name": "Minyi Guo",
+          "display_name": "Minyi Guo",
           "pid": "99/6797",
           "orcid": null
         }
@@ -5844,6 +6655,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1740-sun.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1740-1753",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChenSCHHG26"
@@ -5853,76 +6665,91 @@
       "authors": [
         {
           "name": "Jiale Lao",
+          "display_name": "Jiale Lao",
           "pid": "360/0992",
           "orcid": null
         },
         {
           "name": "Andreas Zimmerer",
+          "display_name": "Andreas Zimmerer",
           "pid": "276/5735",
           "orcid": null
         },
         {
           "name": "Olga Ovcharenko",
+          "display_name": "Olga Ovcharenko",
           "pid": "295/3570",
           "orcid": null
         },
         {
           "name": "Tianji Cong",
+          "display_name": "Tianji Cong",
           "pid": "254/2751",
           "orcid": null
         },
         {
           "name": "Matthew Russo",
+          "display_name": "Matthew Russo",
           "pid": "126/0229",
           "orcid": null
         },
         {
           "name": "Gerardo Vitagliano",
+          "display_name": "Gerardo Vitagliano",
           "pid": "249/4023",
           "orcid": null
         },
         {
           "name": "Michael Cochez",
+          "display_name": "Michael Cochez",
           "pid": "83/11448",
           "orcid": null
         },
         {
           "name": "Fatma Özcan 0001",
+          "display_name": "Fatma Özcan",
           "pid": "o/FatmaOzcan",
           "orcid": null
         },
         {
           "name": "Gautam Gupta",
+          "display_name": "Gautam Gupta",
           "pid": "55/4176",
           "orcid": null
         },
         {
           "name": "Thibaud Hottelier",
+          "display_name": "Thibaud Hottelier",
           "pid": "68/3297",
           "orcid": null
         },
         {
           "name": "H. V. Jagadish",
+          "display_name": "H. V. Jagadish",
           "pid": "j/HVJagadish",
           "orcid": null
         },
         {
           "name": "Kris Kissel",
+          "display_name": "Kris Kissel",
           "pid": "420/6337",
           "orcid": null
         },
         {
           "name": "Sebastian Schelter",
+          "display_name": "Sebastian Schelter",
           "pid": "118/7229",
           "orcid": null
         },
         {
           "name": "Andreas Kipf",
+          "display_name": "Andreas Kipf",
           "pid": "167/6469",
           "orcid": null
         },
         {
           "name": "Immanuel Trummer",
+          "display_name": "Immanuel Trummer",
           "pid": "85/9079",
           "orcid": null
         }
@@ -5938,6 +6765,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1754-trummer.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1754-1767",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LaoZOCRVCOGHJKSKT26"
@@ -5947,26 +6775,31 @@
       "authors": [
         {
           "name": "Zhongwei Xu",
+          "display_name": "Zhongwei Xu",
           "pid": "50/7024",
           "orcid": null
         },
         {
           "name": "Siyuan Dong",
+          "display_name": "Siyuan Dong",
           "pid": "150/1489",
           "orcid": null
         },
         {
           "name": "Haotian Gong",
+          "display_name": "Haotian Gong",
           "pid": "294/5212",
           "orcid": null
         },
         {
           "name": "Donna Pham",
+          "display_name": "Donna Pham",
           "pid": "440/7070",
           "orcid": null
         },
         {
           "name": "Lin Ma",
+          "display_name": "Lin Ma",
           "pid": "74/3608",
           "orcid": null
         }
@@ -5982,6 +6815,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1768-xu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1768-1781",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/XuDGPM26"
@@ -5991,21 +6825,25 @@
       "authors": [
         {
           "name": "Dimitrios Karapiperis",
+          "display_name": "Dimitrios Karapiperis",
           "pid": "132/9541",
           "orcid": null
         },
         {
           "name": "Leonidas Akritidis",
+          "display_name": "Leonidas Akritidis",
           "pid": "19/49",
           "orcid": null
         },
         {
           "name": "Panayiotis Bozanis",
+          "display_name": "Panayiotis Bozanis",
           "pid": "21/1146",
           "orcid": null
         },
         {
           "name": "Vassilios S. Verykios",
+          "display_name": "Vassilios S. Verykios",
           "pid": "94/1028",
           "orcid": null
         }
@@ -6021,6 +6859,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1782-karapiperis.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1782-1790",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/KarapiperisABV26"
@@ -6030,21 +6869,25 @@
       "authors": [
         {
           "name": "Bide Zhao",
+          "display_name": "Bide Zhao",
           "pid": "427/3628",
           "orcid": null
         },
         {
           "name": "Zhiyi Wang",
+          "display_name": "Zhiyi Wang",
           "pid": "66/7776",
           "orcid": null
         },
         {
           "name": "Lijun Chang",
+          "display_name": "Lijun Chang",
           "pid": "47/179",
           "orcid": null
         },
         {
           "name": "Xin Huang",
+          "display_name": "Xin Huang",
           "pid": "98/5766",
           "orcid": null
         }
@@ -6060,6 +6903,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1791-chang.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1791-1803",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ZhaoWCH26"
@@ -6069,26 +6913,31 @@
       "authors": [
         {
           "name": "Vishal Gupta 0006",
+          "display_name": "Vishal Gupta",
           "pid": "66/6170-6",
           "orcid": null
         },
         {
           "name": "Martin Sanchez Lopez",
+          "display_name": "Martin Sanchez Lopez",
           "pid": "440/7072",
           "orcid": null
         },
         {
           "name": "Victor Laforet",
+          "display_name": "Victor Laforet",
           "pid": "416/7416",
           "orcid": null
         },
         {
           "name": "Jean-Pierre Lozi",
+          "display_name": "Jean-Pierre Lozi",
           "pid": "133/3713",
           "orcid": null
         },
         {
           "name": "Sanidhya Kashyap",
+          "display_name": "Sanidhya Kashyap",
           "pid": "145/0912",
           "orcid": null
         }
@@ -6104,6 +6953,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1804-gupta.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1804-1817",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/GuptaLLLK26"
@@ -6113,11 +6963,13 @@
       "authors": [
         {
           "name": "Guanli Liu",
+          "display_name": "Guanli Liu",
           "pid": "185/5792",
           "orcid": null
         },
         {
           "name": "Renata Borovica-Gajic",
+          "display_name": "Renata Borovica-Gajic",
           "pid": "36/10568",
           "orcid": null
         }
@@ -6133,6 +6985,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1818-liu.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1818-1825",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/LiuB26"
@@ -6142,21 +6995,25 @@
       "authors": [
         {
           "name": "Weiqi Feng",
+          "display_name": "Weiqi Feng",
           "pid": "295/3173",
           "orcid": null
         },
         {
           "name": "Xinle Cao",
+          "display_name": "Xinle Cao",
           "pid": "294/0551",
           "orcid": null
         },
         {
           "name": "Adam O'Neill",
+          "display_name": "Adam O'Neill",
           "pid": "55/3477",
           "orcid": null
         },
         {
           "name": "Chuanhui Yang",
+          "display_name": "Chuanhui Yang",
           "pid": "328/5894",
           "orcid": null
         }
@@ -6172,6 +7029,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1826-cao.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1826-1839",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/FengCOY26"
@@ -6181,21 +7039,25 @@
       "authors": [
         {
           "name": "Daren Chao",
+          "display_name": "Daren Chao",
           "pid": "223/3198",
           "orcid": null
         },
         {
           "name": "Kaiwen Chen",
+          "display_name": "Kaiwen Chen",
           "pid": "224/8653",
           "orcid": null
         },
         {
           "name": "Naiqing Guan",
+          "display_name": "Naiqing Guan",
           "pid": "244/1368",
           "orcid": null
         },
         {
           "name": "Nick Koudas",
+          "display_name": "Nick Koudas",
           "pid": "k/NickKoudas",
           "orcid": null
         }
@@ -6211,6 +7073,7 @@
       "url_source": null,
       "pdf_url": "https://www.vldb.org/pvldb/vol19/p1840-koudas.pdf",
       "pdf_source": "source",
+      "arxiv_id": null,
       "pages": "1840-1853",
       "source": "dblp",
       "dblp_paper_key": "journals/pvldb/ChaoCGK26"

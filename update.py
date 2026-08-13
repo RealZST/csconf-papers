@@ -38,9 +38,14 @@ def counts_on_disk() -> dict:
 
 
 def cmd_render(args: argparse.Namespace) -> int:
-    """Regenerate Markdown and README from stored JSON, fully offline.
+    """Regenerate the derived outputs from stored JSON, fully offline.
 
-    Changing rendering should not mean pulling two thousand papers from DBLP
+    That means the Markdown listings, the README, and the derived fields inside
+    the JSON itself — display_name is computed on every write, so re-writing the
+    files is how a change to that rule reaches data already on disk. The paper
+    count cannot change here, and rewrite_papers refuses if it does.
+
+    Changing any of this should not mean pulling two thousand papers from DBLP
     again: that takes well over ten minutes and loads a third-party service
     that already rate-limits us hard.
     """
@@ -58,6 +63,8 @@ def cmd_render(args: argparse.Namespace) -> int:
         md_path = ROOT / "papers" / str(meta["year"]) / "{}.md".format(meta["venue"])
         md_path.parent.mkdir(parents=True, exist_ok=True)
         md_path.write_text(markdown, encoding="utf-8")
+
+        store.rewrite_papers(ROOT, meta["venue"], meta["year"], papers)
 
         print("{} {}: {} papers".format(meta["venue"], meta["year"], len(papers)))
 

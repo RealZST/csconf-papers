@@ -10,6 +10,8 @@ PDF links are derived from the link each paper already has: PVLDB points at a PD
 
 Where a paper with a DOI also has an arXiv preprint, its id is stored as `arxiv_id` and linked as `preprint`. The mapping comes from Semantic Scholar keyed by DOI, so it is exact rather than matched on the title. A preprint is not the version of record and can differ from the camera-ready, so it appears beside the official link, never in place of it — but arxiv.org serves it to anything that asks, which makes it the copy a reader's own tools can open.
 
+Author names keep DBLP's canonical form in `name`, including the four-digit homonym suffix that tells apart different people who share one (`Li Jiang 0002`). `display_name` carries the same name without it — use that for display, and `name` or `pid` for identity.
+
 Last updated: 2026-08-13
 
 | Year | SOSP | OSDI | ATC | NSDI | EuroSys | ASPLOS | SIGMOD | VLDB |
