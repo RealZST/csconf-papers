@@ -93,13 +93,162 @@
     "checked": "2026-08-12",
     "url": null
   },
+  "linux agx an adaptive gpu extension to linux fair scheduling for physical ai and robotic systems": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "lion modular verification of async runtime liveness": {
+    "checked": "2026-08-13",
+    "url": null
+  },
   "llm 42 enabling determinism in llm inference with verified speculation": {
     "checked": "2026-08-12",
     "source": "semanticscholar",
     "url": "https://arxiv.org/abs/2601.17768"
   },
+  "lmtracer fine grained and real time performance profiling for production llm systems": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "m2k making the model kernel interface explicit for reliable cuda kernel verification": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "mcon building an elastic cloud for android applications with framework consolidation": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "meshrt compile time governed wafer scale runtime for low latency high throughput inference": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "multi llm serving at production scale": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "observability driven tiered memory for colocated workloads": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "on site non speculative failure diagnosis with clods": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "oscar resilient privacy budgeting across untrusted web domains": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "pirateship append only ledgers for mostly trusted execution environments": {
+    "checked": "2026-08-13",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2602.05346"
+  },
+  "probefs hierarchical dna file systems via biochemical content addressability and parallelism": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "qprof fleetwide transitive cost profiling of warehouse scale services": {
+    "checked": "2026-08-13",
+    "url": null
+  },
   "rpcshield defending microservices against cascading failures": {
     "checked": "2026-08-12",
+    "url": null
+  },
+  "sandhi fine grained merging for memory efficient multi model serving": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "scalable context orchestration for serving llms over voice": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "scaling weight transfer in llm rl training with reference oriented storage": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "scheduling linux threads under i o chiplet wall using cswitch": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "sintr safe interactive transactions in the presence of byzantine clients": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "skill vm write once run everywhere efficiently": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "smaran serving authenticated time travel queries": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "starfishos revisiting single system image on cxl with state partitioned microkernel": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "state aware fuzzing of javascript engines with llm guided instrumentation": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "supporting agents on streaming data via a forkable shared log": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "sysx a unified analytics engine for secure multiparty computation": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "tamias feedback guided systematic concurrency exploration for transparent distributed system fuzzing": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "taming dynamism on gpus cross sm kernel fusion via sm cooperation and just in time reduction": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "taming inference workloads at global scale foundation model serving in systemx": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "tensordex a compact tensor centric storage system for modern ai models": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "testing custom control planes without the cluster": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "tuxbot semantic aware online os tuning with llms": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "validating a production cloud object store with lightweight formal methods": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "validating rust compilers with trait type constraint graph": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "verifying a high performance distributed transaction system using permissioned state machines": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "volistorm a crash consistent i o cache with two kernels instead of two caches": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "wavel a fast and efficient compilation system for wafer scale accelerators": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "xtra unifying cache coherence and concurrency control for distributed transactions in a cxl pod": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "you can always get what you want cpu virtualization made fast and free": {
+    "checked": "2026-08-13",
     "url": null
   }
 }

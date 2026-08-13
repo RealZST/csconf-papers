@@ -31,9 +31,21 @@ _PAREN_GROUP = re.compile(r"\([^()]*\)")
 _TAG = re.compile(r"<[^>]+>")
 _SPACE = re.compile(r"\s+")
 
+# Commented-out markup is not content. The SIGOPS SOSP 2026 page keeps the
+# previous edition's <ul class="paperlist"> in the source inside <!-- -->, and a
+# regex parser has no idea what a comment is: 43 SOSP 2024 papers were read as
+# SOSP 2026 ones (38 of the 43 match the DBLP SOSP 2024 TOC exactly, while none
+# of the 62 live ones do). Conference sites keep old years around like this, so
+# stripping comments first is the only safe way to read one with regexes.
+_COMMENT = re.compile(r"<!--.*?-->", re.DOTALL)
+
 # Commas, semicolons and a standalone "and" all separate authors. An Oxford
 # comma (", and ") yields an empty piece, which the caller drops.
 _NAME_SEPARATOR = re.compile(r"\s*(?:,|;|\band\b)\s*")
+
+
+def strip_comments(html: str) -> str:
+    return _COMMENT.sub(" ", html)
 
 
 def _text_of(fragment: str) -> str:
@@ -101,7 +113,7 @@ def parse_usenix_sessions(html: str, venue: str, year: int) -> List[Paper]:
     """
     papers: List[Paper] = []
 
-    for chunk in _ARTICLE_SPLIT.split(html):
+    for chunk in _ARTICLE_SPLIT.split(strip_comments(html)):
         heading = _USENIX_HEADING.search(chunk)
         if heading is None:
             continue
@@ -133,7 +145,7 @@ def parse_sigops_accepted(html: str, venue: str, year: int) -> List[Paper]:
     """Parse a SIGOPS accepted-papers page (<li> under <ul class="paperlist">)."""
     papers: List[Paper] = []
 
-    for item in _SIGOPS_ITEM.findall(html):
+    for item in _SIGOPS_ITEM.findall(strip_comments(html)):
         title_match = _SIGOPS_TITLE.search(item)
         if title_match is None:
             continue

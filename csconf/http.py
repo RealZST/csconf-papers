@@ -34,6 +34,22 @@ RETRY_STATUSES = (429, 503)
 TRANSIENT_EXCEPTIONS = (requests.Timeout, requests.ConnectionError)
 
 
+def _decode(response) -> str:
+    """Decode a response body, preferring UTF-8 when the server says nothing.
+
+    requests falls back to ISO-8859-1 for text/* without a charset, per
+    RFC 2616. sigops.org answers exactly that way while serving UTF-8 and
+    declaring it in a meta tag, so the fallback published "WagenlÃ¤nder" for
+    "Wagenländer". When a charset is declared, believe it rather than guess.
+    """
+    if "charset=" in response.headers.get("content-type", "").lower():
+        return response.text
+    try:
+        return response.content.decode("utf-8")
+    except UnicodeDecodeError:
+        return response.text
+
+
 class Fetcher:
     """Fetching with throttling and backoff.
 
@@ -111,7 +127,7 @@ class Fetcher:
                 raise RateLimited("{} kept timing out or failing to connect".format(url)) from exc
 
             if response.status_code == 200:
-                return response.text
+                return _decode(response)
             if response.status_code == 404:
                 raise NotFound("{} does not exist".format(url), 404)
             if response.status_code not in RETRY_STATUSES:

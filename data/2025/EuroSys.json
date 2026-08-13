@@ -15,21 +15,25 @@
       "authors": [
         {
           "name": "Arjun Ramesh",
+          "display_name": "Arjun Ramesh",
           "pid": "363/7380",
           "orcid": "0009-0007-7390-0295"
         },
         {
           "name": "Tianshu Huang",
+          "display_name": "Tianshu Huang",
           "pid": "89/3505",
           "orcid": "0009-0005-6788-1302"
         },
         {
           "name": "Ben L. Titzer",
+          "display_name": "Ben L. Titzer",
           "pid": "t/BenTitzer",
           "orcid": "0000-0002-9690-2089"
         },
         {
           "name": "Anthony Rowe 0001",
+          "display_name": "Anthony Rowe",
           "pid": "02/630",
           "orcid": "0000-0003-2332-9450"
         }
@@ -55,21 +59,25 @@
       "authors": [
         {
           "name": "Shawn Wanxiang Zhong",
+          "display_name": "Shawn Wanxiang Zhong",
           "pid": "401/8068",
           "orcid": "0009-0009-5401-3556"
         },
         {
           "name": "Jing Liu 0074",
+          "display_name": "Jing Liu",
           "pid": "72/2590-74",
           "orcid": "0000-0003-2485-4038"
         },
         {
           "name": "Andrea C. Arpaci-Dusseau",
+          "display_name": "Andrea C. Arpaci-Dusseau",
           "pid": "a/AndreaCArpaciDusseau",
           "orcid": "0000-0001-8618-2738"
         },
         {
           "name": "Remzi H. Arpaci-Dusseau",
+          "display_name": "Remzi H. Arpaci-Dusseau",
           "pid": "a/RemziHArpaciDusseau",
           "orcid": "0000-0001-9965-7704"
         }
@@ -95,41 +103,49 @@
       "authors": [
         {
           "name": "Bin Yang 0027",
+          "display_name": "Bin Yang",
           "pid": "77/377-27",
           "orcid": "0009-0003-1286-4439"
         },
         {
           "name": "Dian Shen",
+          "display_name": "Dian Shen",
           "pid": "139/4309",
           "orcid": "0000-0003-0422-5285"
         },
         {
           "name": "Junxue Zhang 0001",
+          "display_name": "Junxue Zhang",
           "pid": "155/4434",
           "orcid": "0000-0001-6926-7801"
         },
         {
           "name": "Hanlin Yang",
+          "display_name": "Hanlin Yang",
           "pid": "254/0229",
           "orcid": "0000-0002-9396-3505"
         },
         {
           "name": "Lunqi Zhao",
+          "display_name": "Lunqi Zhao",
           "pid": "401/7592",
           "orcid": "0009-0009-2796-2078"
         },
         {
           "name": "Beilun Wang",
+          "display_name": "Beilun Wang",
           "pid": "180/5592",
           "orcid": "0000-0002-2646-1492"
         },
         {
           "name": "Guyue Liu",
+          "display_name": "Guyue Liu",
           "pid": "151/5134",
           "orcid": "0009-0001-4933-0276"
         },
         {
           "name": "Kai Chen 0005",
+          "display_name": "Kai Chen",
           "pid": "c/KaiChen5",
           "orcid": "0000-0003-2587-6028"
         }
@@ -155,36 +171,43 @@
       "authors": [
         {
           "name": "Dipayan Mukherjee",
+          "display_name": "Dipayan Mukherjee",
           "pid": "175/5412",
           "orcid": "0000-0002-6017-1739"
         },
         {
           "name": "Sam Hachem",
+          "display_name": "Sam Hachem",
           "pid": "401/8070",
           "orcid": "0009-0001-7745-6116"
         },
         {
           "name": "Jeremy Bao",
+          "display_name": "Jeremy Bao",
           "pid": "401/7564",
           "orcid": "0009-0006-7268-2364"
         },
         {
           "name": "Curtis Madsen",
+          "display_name": "Curtis Madsen",
           "pid": "02/7594",
           "orcid": "0000-0002-0254-0364"
         },
         {
           "name": "Tian Ma",
+          "display_name": "Tian Ma",
           "pid": "35/4632",
           "orcid": "0000-0003-0252-7191"
         },
         {
           "name": "Saugata Ghose",
+          "display_name": "Saugata Ghose",
           "pid": "94/7357",
           "orcid": "0000-0002-9138-0613"
         },
         {
           "name": "Gul Agha",
+          "display_name": "Gul Agha",
           "pid": "a/GulAAgha",
           "orcid": "0000-0002-0580-4206"
         }
@@ -210,16 +233,19 @@
       "authors": [
         {
           "name": "Daniel Schwyn",
+          "display_name": "Daniel Schwyn",
           "pid": "286/7227",
           "orcid": "0000-0002-4412-9004"
         },
         {
           "name": "Zikai Liu",
+          "display_name": "Zikai Liu",
           "pid": "311/8785",
           "orcid": "0009-0000-5411-9785"
         },
         {
           "name": "Timothy Roscoe",
+          "display_name": "Timothy Roscoe",
           "pid": "r/TimothyRoscoe",
           "orcid": "0000-0002-8298-1126"
         }
@@ -245,46 +271,55 @@
       "authors": [
         {
           "name": "Jiayi Yao",
+          "display_name": "Jiayi Yao",
           "pid": "71/10222",
           "orcid": "0000-0002-8588-4356"
         },
         {
           "name": "Hanchen Li",
+          "display_name": "Hanchen Li",
           "pid": "74/7832",
           "orcid": "0009-0005-9980-028X"
         },
         {
           "name": "Yuhan Liu 0004",
+          "display_name": "Yuhan Liu",
           "pid": "125/8141-4",
           "orcid": "0009-0002-5957-5071"
         },
         {
           "name": "Siddhant Ray",
+          "display_name": "Siddhant Ray",
           "pid": "324/5356",
           "orcid": "0000-0003-0265-2144"
         },
         {
           "name": "Yihua Cheng",
+          "display_name": "Yihua Cheng",
           "pid": "226/4171",
           "orcid": "0009-0006-3924-6886"
         },
         {
           "name": "Qizheng Zhang",
+          "display_name": "Qizheng Zhang",
           "pid": "271/9220",
           "orcid": "0009-0009-3208-4601"
         },
         {
           "name": "Kuntai Du",
+          "display_name": "Kuntai Du",
           "pid": "264/3619",
           "orcid": "0000-0002-3964-4079"
         },
         {
           "name": "Shan Lu 0001",
+          "display_name": "Shan Lu",
           "pid": "31/5916-1",
           "orcid": "0000-0002-0757-4600"
         },
         {
           "name": "Junchen Jiang",
+          "display_name": "Junchen Jiang",
           "pid": "49/8398",
           "orcid": "0000-0002-6877-1683"
         }
@@ -310,16 +345,19 @@
       "authors": [
         {
           "name": "Xiaozhe Yao",
+          "display_name": "Xiaozhe Yao",
           "pid": "212/8935",
           "orcid": "0000-0002-4661-533X"
         },
         {
           "name": "Qinghao Hu 0004",
+          "display_name": "Qinghao Hu",
           "pid": "169/3407-4",
           "orcid": "0000-0003-1034-7502"
         },
         {
           "name": "Ana Klimovic",
+          "display_name": "Ana Klimovic",
           "pid": "140/2247",
           "orcid": "0000-0001-8559-0529"
         }
@@ -345,16 +383,19 @@
       "authors": [
         {
           "name": "Shiwei Gao",
+          "display_name": "Shiwei Gao",
           "pid": "154/4277",
           "orcid": "0009-0009-5259-115X"
         },
         {
           "name": "Youmin Chen",
+          "display_name": "Youmin Chen",
           "pid": "203/1564",
           "orcid": "0000-0003-4171-4299"
         },
         {
           "name": "Jiwu Shu",
+          "display_name": "Jiwu Shu",
           "pid": "60/3690",
           "orcid": "0000-0002-7362-2789"
         }
@@ -380,16 +421,19 @@
       "authors": [
         {
           "name": "Lingfan Yu",
+          "display_name": "Lingfan Yu",
           "pid": "163/3327",
           "orcid": "0009-0008-7711-263X"
         },
         {
           "name": "Jinkun Lin",
+          "display_name": "Jinkun Lin",
           "pid": "78/2101",
           "orcid": "0000-0003-0035-4266"
         },
         {
           "name": "Jinyang Li 0001",
+          "display_name": "Jinyang Li",
           "pid": "79/572-1",
           "orcid": "0000-0002-9574-1746"
         }
@@ -415,46 +459,55 @@
       "authors": [
         {
           "name": "Ziming Mao",
+          "display_name": "Ziming Mao",
           "pid": "289/6042",
           "orcid": "0000-0001-7738-2498"
         },
         {
           "name": "Tian Xia",
+          "display_name": "Tian Xia",
           "pid": "90/4765",
           "orcid": "0009-0008-0895-4585"
         },
         {
           "name": "Zhanghao Wu",
+          "display_name": "Zhanghao Wu",
           "pid": "260/2805",
           "orcid": "0000-0003-2352-4002"
         },
         {
           "name": "Wei-Lin Chiang",
+          "display_name": "Wei-Lin Chiang",
           "pid": "174/2148",
           "orcid": "0009-0009-0105-723X"
         },
         {
           "name": "Tyler Griggs",
+          "display_name": "Tyler Griggs",
           "pid": "376/0655",
           "orcid": "0009-0006-4655-0229"
         },
         {
           "name": "Romil Bhardwaj",
+          "display_name": "Romil Bhardwaj",
           "pid": "157/7605",
           "orcid": "0000-0002-7314-1643"
         },
         {
           "name": "Zongheng Yang",
+          "display_name": "Zongheng Yang",
           "pid": "181/5822",
           "orcid": "0000-0001-8716-8743"
         },
         {
           "name": "Scott Shenker",
+          "display_name": "Scott Shenker",
           "pid": "34/5593",
           "orcid": "0000-0002-1357-7533"
         },
         {
           "name": "Ion Stoica",
+          "display_name": "Ion Stoica",
           "pid": "s/IonStoica",
           "orcid": "0000-0002-5373-0088"
         }
@@ -480,21 +533,25 @@
       "authors": [
         {
           "name": "Neeraj Gandhi",
+          "display_name": "Neeraj Gandhi",
           "pid": "203/4851",
           "orcid": "0000-0002-2507-9136"
         },
         {
           "name": "Yifan Cai 0001",
+          "display_name": "Yifan Cai",
           "pid": "40/2992-1",
           "orcid": "0009-0003-8125-1054"
         },
         {
           "name": "Andreas Haeberlen",
+          "display_name": "Andreas Haeberlen",
           "pid": "60/4358",
           "orcid": "0000-0002-3271-8354"
         },
         {
           "name": "Linh Thi Xuan Phan",
+          "display_name": "Linh Thi Xuan Phan",
           "pid": "92/1043",
           "orcid": "0000-0002-3458-7511"
         }
@@ -520,31 +577,37 @@
       "authors": [
         {
           "name": "Jianyu Niu",
+          "display_name": "Jianyu Niu",
           "pid": "161/2037",
           "orcid": "0000-0001-5253-941X"
         },
         {
           "name": "Xiaoqing Wen",
+          "display_name": "Xiaoqing Wen",
           "pid": "38/3836",
           "orcid": "0009-0009-5084-802X"
         },
         {
           "name": "Guanlong Wu",
+          "display_name": "Guanlong Wu",
           "pid": "400/5243",
           "orcid": "0009-0006-7903-7261"
         },
         {
           "name": "Shengqi Liu",
+          "display_name": "Shengqi Liu",
           "pid": "195/9149",
           "orcid": "0009-0003-8745-5007"
         },
         {
           "name": "Jiangshan Yu",
+          "display_name": "Jiangshan Yu",
           "pid": "18/11043",
           "orcid": "0000-0001-8006-7392"
         },
         {
           "name": "Yinqian Zhang",
+          "display_name": "Yinqian Zhang",
           "pid": "77/3503",
           "orcid": "0000-0002-7585-1075"
         }
@@ -570,21 +633,25 @@
       "authors": [
         {
           "name": "Haoran Lin",
+          "display_name": "Haoran Lin",
           "pid": "325/1474",
           "orcid": "0009-0008-8449-746X"
         },
         {
           "name": "Hang Feng",
+          "display_name": "Hang Feng",
           "pid": "323/8011",
           "orcid": "0000-0003-2355-1334"
         },
         {
           "name": "Yajin Zhou",
+          "display_name": "Yajin Zhou",
           "pid": "15/7381",
           "orcid": "0000-0001-7610-4736"
         },
         {
           "name": "Lei Wu 0012",
+          "display_name": "Lei Wu",
           "pid": "68/5597-12",
           "orcid": "0000-0003-1675-5283"
         }
@@ -610,31 +677,37 @@
       "authors": [
         {
           "name": "Hanzheng Lyu",
+          "display_name": "Hanzheng Lyu",
           "pid": "251/9983",
           "orcid": "0000-0001-7507-167X"
         },
         {
           "name": "Shaokang Xie",
+          "display_name": "Shaokang Xie",
           "pid": "360/3226",
           "orcid": "0009-0000-4363-3703"
         },
         {
           "name": "Jianyu Niu",
+          "display_name": "Jianyu Niu",
           "pid": "161/2037",
           "orcid": "0000-0001-5253-941X"
         },
         {
           "name": "Chen Feng 0001",
+          "display_name": "Chen Feng",
           "pid": "01/161-1",
           "orcid": "0000-0002-6726-0259"
         },
         {
           "name": "Yinqian Zhang",
+          "display_name": "Yinqian Zhang",
           "pid": "77/3503",
           "orcid": "0000-0002-7585-1075"
         },
         {
           "name": "Ivan Beschastnikh",
+          "display_name": "Ivan Beschastnikh",
           "pid": "98/5324",
           "orcid": "0000-0003-1676-8834"
         }
@@ -660,41 +733,49 @@
       "authors": [
         {
           "name": "Ruibo Fan",
+          "display_name": "Ruibo Fan",
           "pid": "352/4212",
           "orcid": "0009-0006-7492-2069"
         },
         {
           "name": "Xiangrui Yu",
+          "display_name": "Xiangrui Yu",
           "pid": "352/1552",
           "orcid": "0009-0005-2478-1512"
         },
         {
           "name": "Peijie Dong",
+          "display_name": "Peijie Dong",
           "pid": "315/4734",
           "orcid": "0000-0003-1952-4544"
         },
         {
           "name": "Zeyu Li",
+          "display_name": "Zeyu Li",
           "pid": "25/287",
           "orcid": "0009-0008-4381-0544"
         },
         {
           "name": "Gu Gong",
+          "display_name": "Gu Gong",
           "pid": "214/3799",
           "orcid": "0009-0008-2269-2358"
         },
         {
           "name": "Qiang Wang 0022",
+          "display_name": "Qiang Wang",
           "pid": "64/5630-22",
           "orcid": "0000-0002-2986-967X"
         },
         {
           "name": "Wei Wang 0030",
+          "display_name": "Wei Wang",
           "pid": "35/7092-30",
           "orcid": "0000-0002-4585-4152"
         },
         {
           "name": "Xiaowen Chu 0001",
+          "display_name": "Xiaowen Chu",
           "pid": "24/2536",
           "orcid": "0000-0001-9745-4372"
         }
@@ -720,66 +801,79 @@
       "authors": [
         {
           "name": "Liang Mi",
+          "display_name": "Liang Mi",
           "pid": "159/8058",
           "orcid": "0009-0000-6058-5950"
         },
         {
           "name": "Weijun Wang 0001",
+          "display_name": "Weijun Wang",
           "pid": "42/512-1",
           "orcid": "0000-0002-9545-3322"
         },
         {
           "name": "Wenming Tu",
+          "display_name": "Wenming Tu",
           "pid": "392/4210",
           "orcid": "0009-0006-9984-2858"
         },
         {
           "name": "Qingfeng He",
+          "display_name": "Qingfeng He",
           "pid": "62/4461",
           "orcid": "0009-0002-2383-1096"
         },
         {
           "name": "Rui Kong",
+          "display_name": "Rui Kong",
           "pid": "199/6746",
           "orcid": "0009-0003-2889-2266"
         },
         {
           "name": "Xinyu Fang",
+          "display_name": "Xinyu Fang",
           "pid": "143/0236",
           "orcid": "0009-0008-1208-5917"
         },
         {
           "name": "Yazhu Dong",
+          "display_name": "Yazhu Dong",
           "pid": "378/1533",
           "orcid": "0009-0004-1590-9353"
         },
         {
           "name": "Yikang Zhang",
+          "display_name": "Yikang Zhang",
           "pid": "233/3090",
           "orcid": "0009-0005-6908-9183"
         },
         {
           "name": "Yuanchun Li 0003",
+          "display_name": "Yuanchun Li",
           "pid": "87/4523-3",
           "orcid": "0000-0002-1591-2526"
         },
         {
           "name": "Meng Li 0010",
+          "display_name": "Meng Li",
           "pid": "70/1726-10",
           "orcid": "0000-0001-5764-960X"
         },
         {
           "name": "Haipeng Dai 0001",
+          "display_name": "Haipeng Dai",
           "pid": "124/6911",
           "orcid": "0000-0003-0545-8187"
         },
         {
           "name": "Guihai Chen",
+          "display_name": "Guihai Chen",
           "pid": "51/1742",
           "orcid": "0000-0002-6934-1685"
         },
         {
           "name": "Yunxin Liu 0001",
+          "display_name": "Yunxin Liu",
           "pid": "55/3521-1",
           "orcid": "0000-0001-7352-8955"
         }
@@ -805,36 +899,43 @@
       "authors": [
         {
           "name": "Jianyu Wei",
+          "display_name": "Jianyu Wei",
           "pid": "133/8724",
           "orcid": "0009-0009-0830-044X"
         },
         {
           "name": "Shijie Cao",
+          "display_name": "Shijie Cao",
           "pid": "139/1185",
           "orcid": "0009-0000-2001-3763"
         },
         {
           "name": "Ting Cao 0003",
+          "display_name": "Ting Cao",
           "pid": "03/8334-3",
           "orcid": "0000-0002-9107-013X"
         },
         {
           "name": "Lingxiao Ma",
+          "display_name": "Lingxiao Ma",
           "pid": "57/3203",
           "orcid": "0009-0009-9524-5476"
         },
         {
           "name": "Lei Wang 0222",
+          "display_name": "Lei Wang",
           "pid": "181/2817-222",
           "orcid": "0009-0006-2313-5348"
         },
         {
           "name": "Yanyong Zhang",
+          "display_name": "Yanyong Zhang",
           "pid": "44/2799",
           "orcid": "0000-0001-9046-798X"
         },
         {
           "name": "Mao Yang 0004",
+          "display_name": "Mao Yang",
           "pid": "89/1482-4",
           "orcid": "0009-0009-6455-3898"
         }
@@ -860,26 +961,31 @@
       "authors": [
         {
           "name": "Chenpeng Wu",
+          "display_name": "Chenpeng Wu",
           "pid": "401/8026",
           "orcid": "0009-0006-9059-2776"
         },
         {
           "name": "Qiqi Gu 0002",
+          "display_name": "Qiqi Gu",
           "pid": "250/1108-2",
           "orcid": "0009-0008-6605-8615"
         },
         {
           "name": "Heng Shi 0005",
+          "display_name": "Heng Shi",
           "pid": "180/3315-5",
           "orcid": "0000-0002-1779-9221"
         },
         {
           "name": "Jianguo Yao 0002",
+          "display_name": "Jianguo Yao",
           "pid": "34/6356-2",
           "orcid": "0000-0002-1142-4496"
         },
         {
           "name": "Haibing Guan",
+          "display_name": "Haibing Guan",
           "pid": "96/5680",
           "orcid": "0000-0002-4714-7400"
         }
@@ -905,11 +1011,13 @@
       "authors": [
         {
           "name": "Joseph Gentle",
+          "display_name": "Joseph Gentle",
           "pid": "346/0408",
           "orcid": "0009-0005-9322-1973"
         },
         {
           "name": "Martin Kleppmann",
+          "display_name": "Martin Kleppmann",
           "pid": "148/2880",
           "orcid": "0000-0001-7252-6958"
         }
@@ -935,31 +1043,37 @@
       "authors": [
         {
           "name": "Yuanliang Chen",
+          "display_name": "Yuanliang Chen",
           "pid": "217/3726",
           "orcid": "0000-0003-2701-4296"
         },
         {
           "name": "Fuchen Ma",
+          "display_name": "Fuchen Ma",
           "pid": "237/8603",
           "orcid": "0000-0002-1360-9814"
         },
         {
           "name": "Yuanhang Zhou",
+          "display_name": "Yuanhang Zhou",
           "pid": "247/8463",
           "orcid": "0000-0002-0461-3934"
         },
         {
           "name": "Zhen Yan",
+          "display_name": "Zhen Yan",
           "pid": "18/8175",
           "orcid": "0009-0005-9904-7734"
         },
         {
           "name": "Qing Liao 0001",
+          "display_name": "Qing Liao",
           "pid": "09/8600-1",
           "orcid": "0000-0003-1012-5301"
         },
         {
           "name": "Yu Jiang 0001",
+          "display_name": "Yu Jiang",
           "pid": "21/4633-1",
           "orcid": "0000-0003-0955-503X"
         }
@@ -985,31 +1099,37 @@
       "authors": [
         {
           "name": "Ke Meng",
+          "display_name": "Ke Meng",
           "pid": "97/5056",
           "orcid": "0000-0002-3629-7892"
         },
         {
           "name": "Tao He 0013",
+          "display_name": "Tao He",
           "pid": "94/5035-13",
           "orcid": "0009-0007-7687-7342"
         },
         {
           "name": "Sijie Shen",
+          "display_name": "Sijie Shen",
           "pid": "202/7006",
           "orcid": "0000-0003-4650-7352"
         },
         {
           "name": "Lei Wang 0004",
+          "display_name": "Lei Wang",
           "pid": "w/LeiWang4",
           "orcid": "0009-0001-7535-452X"
         },
         {
           "name": "Wenyuan Yu",
+          "display_name": "Wenyuan Yu",
           "pid": "53/5676",
           "orcid": "0009-0006-5641-2452"
         },
         {
           "name": "Jingren Zhou 0001",
+          "display_name": "Jingren Zhou",
           "pid": "84/2644-1",
           "orcid": "0000-0001-6851-1366"
         }
@@ -1035,31 +1155,37 @@
       "authors": [
         {
           "name": "Dinglan Peng",
+          "display_name": "Dinglan Peng",
           "pid": "292/4178",
           "orcid": "0000-0002-3433-5410"
         },
         {
           "name": "Congyu Liu",
+          "display_name": "Congyu Liu",
           "pid": "339/0635",
           "orcid": "0000-0001-5774-0809"
         },
         {
           "name": "Tapti Palit",
+          "display_name": "Tapti Palit",
           "pid": "159/0008",
           "orcid": "0009-0006-4602-7171"
         },
         {
           "name": "Anjo Vahldiek-Oberwagner",
+          "display_name": "Anjo Vahldiek-Oberwagner",
           "pid": "161/0161",
           "orcid": "0000-0002-6983-0630"
         },
         {
           "name": "Mona Vij",
+          "display_name": "Mona Vij",
           "pid": "47/9256",
           "orcid": "0000-0002-5309-0391"
         },
         {
           "name": "Pedro Fonseca 0001",
+          "display_name": "Pedro Fonseca",
           "pid": "11/3119-1",
           "orcid": "0000-0003-2480-4487"
         }
@@ -1085,36 +1211,43 @@
       "authors": [
         {
           "name": "Lingzhi Ouyang",
+          "display_name": "Lingzhi Ouyang",
           "pid": "234/6112",
           "orcid": "0000-0001-7523-8759"
         },
         {
           "name": "Xudong Sun 0013",
+          "display_name": "Xudong Sun",
           "pid": "283/7782",
           "orcid": "0009-0005-6734-0928"
         },
         {
           "name": "Ruize Tang",
+          "display_name": "Ruize Tang",
           "pid": "373/4608",
           "orcid": "0009-0001-0590-1620"
         },
         {
           "name": "Yu Huang 0002",
+          "display_name": "Yu Huang",
           "pid": "h/YuHuang2",
           "orcid": "0000-0001-8921-036X"
         },
         {
           "name": "Madhav Jivrajani",
+          "display_name": "Madhav Jivrajani",
           "pid": "387/8077",
           "orcid": "0009-0000-9170-6524"
         },
         {
           "name": "Xiaoxing Ma",
+          "display_name": "Xiaoxing Ma",
           "pid": "67/3058",
           "orcid": "0000-0001-7970-1384"
         },
         {
           "name": "Tianyin Xu",
+          "display_name": "Tianyin Xu",
           "pid": "90/7566",
           "orcid": "0000-0003-4443-8170"
         }
@@ -1140,76 +1273,91 @@
       "authors": [
         {
           "name": "Zhaochen Zhang",
+          "display_name": "Zhaochen Zhang",
           "pid": "156/2393",
           "orcid": "0000-0002-5725-3661"
         },
         {
           "name": "Feiyang Xue",
+          "display_name": "Feiyang Xue",
           "pid": "254/5875",
           "orcid": "0009-0007-6631-4028"
         },
         {
           "name": "Keqiang He",
+          "display_name": "Keqiang He",
           "pid": "95/1050",
           "orcid": "0009-0005-7024-9164"
         },
         {
           "name": "Zhimeng Yin 0001",
+          "display_name": "Zhimeng Yin",
           "pid": "130/9834-1",
           "orcid": "0000-0002-3548-3335"
         },
         {
           "name": "Gianni Antichi",
+          "display_name": "Gianni Antichi",
           "pid": "00/4948",
           "orcid": "0000-0002-6063-4975"
         },
         {
           "name": "Jiaqi Gao",
+          "display_name": "Jiaqi Gao",
           "pid": "125/2840",
           "orcid": "0000-0003-3548-2030"
         },
         {
           "name": "Yizhi Wang 0004",
+          "display_name": "Yizhi Wang",
           "pid": "91/9851-4",
           "orcid": "0009-0009-6285-4697"
         },
         {
           "name": "Rui Ning",
+          "display_name": "Rui Ning",
           "pid": "211/2892",
           "orcid": "0009-0007-6516-5067"
         },
         {
           "name": "Haixin Nan",
+          "display_name": "Haixin Nan",
           "pid": "401/7789",
           "orcid": "0009-0007-8741-0625"
         },
         {
           "name": "Xu Zhang 0006",
+          "display_name": "Xu Zhang",
           "pid": "98/5660-6",
           "orcid": "0000-0002-1882-736X"
         },
         {
           "name": "Peirui Cao",
+          "display_name": "Peirui Cao",
           "pid": "276/0087",
           "orcid": "0000-0002-0222-4943"
         },
         {
           "name": "Xiaoliang Wang 0001",
+          "display_name": "Xiaoliang Wang",
           "pid": "02/3450-1",
           "orcid": "0000-0002-3410-8621"
         },
         {
           "name": "Wanchun Dou",
+          "display_name": "Wanchun Dou",
           "pid": "57/5595",
           "orcid": "0000-0003-4833-2023"
         },
         {
           "name": "Guihai Chen",
+          "display_name": "Guihai Chen",
           "pid": "51/1742",
           "orcid": "0000-0002-6934-1685"
         },
         {
           "name": "Chen Tian 0001",
+          "display_name": "Chen Tian",
           "pid": "94/1247-1",
           "orcid": "0000-0003-2710-7628"
         }
@@ -1235,51 +1383,61 @@
       "authors": [
         {
           "name": "Han Tian",
+          "display_name": "Han Tian",
           "pid": "198/1274",
           "orcid": "0000-0002-3238-8500"
         },
         {
           "name": "Xudong Liao",
+          "display_name": "Xudong Liao",
           "pid": "296/4029",
           "orcid": "0000-0002-8380-1879"
         },
         {
           "name": "Decang Sun",
+          "display_name": "Decang Sun",
           "pid": "303/4263",
           "orcid": "0000-0003-3442-4656"
         },
         {
           "name": "Chaoliang Zeng",
+          "display_name": "Chaoliang Zeng",
           "pid": "257/6290",
           "orcid": "0000-0002-5151-0997"
         },
         {
           "name": "Yilun Jin",
+          "display_name": "Yilun Jin",
           "pid": "213/7371",
           "orcid": "0000-0002-9502-7622"
         },
         {
           "name": "Junxue Zhang 0001",
+          "display_name": "Junxue Zhang",
           "pid": "155/4434",
           "orcid": "0000-0001-6926-7801"
         },
         {
           "name": "Xinchen Wan",
+          "display_name": "Xinchen Wan",
           "pid": "272/9234",
           "orcid": "0000-0001-6503-5309"
         },
         {
           "name": "Zilong Wang 0007",
+          "display_name": "Zilong Wang",
           "pid": "42/898-7",
           "orcid": "0000-0003-3184-4081"
         },
         {
           "name": "Yong Wang 0046",
+          "display_name": "Yong Wang",
           "pid": "84/2694-46",
           "orcid": "0000-0002-8699-8355"
         },
         {
           "name": "Kai Chen 0005",
+          "display_name": "Kai Chen",
           "pid": "c/KaiChen5",
           "orcid": "0000-0003-2587-6028"
         }
@@ -1305,31 +1463,37 @@
       "authors": [
         {
           "name": "Wanchun Jiang",
+          "display_name": "Wanchun Jiang",
           "pid": "05/8330",
           "orcid": "0000-0001-5067-321X"
         },
         {
           "name": "Haoyang Li 0006",
+          "display_name": "Haoyang Li",
           "pid": "118/0004-6",
           "orcid": "0009-0008-8728-5294"
         },
         {
           "name": "Jia Wu 0011",
+          "display_name": "Jia Wu",
           "pid": "25/5536-11",
           "orcid": "0009-0002-9384-3922"
         },
         {
           "name": "Kai Wang",
+          "display_name": "Kai Wang",
           "pid": "78/2022",
           "orcid": "0009-0004-8775-6210"
         },
         {
           "name": "Fengyuan Ren",
+          "display_name": "Fengyuan Ren",
           "pid": "05/6995",
           "orcid": "0000-0001-6526-3889"
         },
         {
           "name": "Jianxin Wang 0001",
+          "display_name": "Jianxin Wang",
           "pid": "75/2669-1",
           "orcid": "0000-0003-1516-0480"
         }
@@ -1355,51 +1519,61 @@
       "authors": [
         {
           "name": "Yuan Liu",
+          "display_name": "Yuan Liu",
           "pid": "87/2948",
           "orcid": "0009-0009-0788-6995"
         },
         {
           "name": "Wenxin Li 0001",
+          "display_name": "Wenxin Li",
           "pid": "22/2010-1",
           "orcid": "0000-0001-8507-0339"
         },
         {
           "name": "Yulong Li 0001",
+          "display_name": "Yulong Li",
           "pid": "71/2140-1",
           "orcid": "0000-0003-0003-9653"
         },
         {
           "name": "Lide Suo",
+          "display_name": "Lide Suo",
           "pid": "361/5256",
           "orcid": "0009-0001-9370-7878"
         },
         {
           "name": "Xuan Gao 0001",
+          "display_name": "Xuan Gao",
           "pid": "34/9793-1",
           "orcid": "0009-0009-7072-8957"
         },
         {
           "name": "Xin Xie 0001",
+          "display_name": "Xin Xie",
           "pid": "72/3192-1",
           "orcid": "0000-0002-8909-3105"
         },
         {
           "name": "Sheng Chen 0015",
+          "display_name": "Sheng Chen",
           "pid": "97/10424-15",
           "orcid": "0000-0001-7038-4407"
         },
         {
           "name": "Ziqi Fan",
+          "display_name": "Ziqi Fan",
           "pid": "47/10099",
           "orcid": "0009-0004-4515-5185"
         },
         {
           "name": "Wenyu Qu",
+          "display_name": "Wenyu Qu",
           "pid": "10/1531",
           "orcid": "0000-0003-4817-5187"
         },
         {
           "name": "Guyue Liu",
+          "display_name": "Guyue Liu",
           "pid": "151/5134",
           "orcid": "0009-0001-4933-0276"
         }
@@ -1425,51 +1599,61 @@
       "authors": [
         {
           "name": "Yanqing Chen",
+          "display_name": "Yanqing Chen",
           "pid": "68/1425",
           "orcid": "0000-0001-6902-7752"
         },
         {
           "name": "Li Wang 0110",
+          "display_name": "Li Wang",
           "pid": "58/6810-110",
           "orcid": "0009-0009-1605-6854"
         },
         {
           "name": "Jingzhi Wang",
+          "display_name": "Jingzhi Wang",
           "pid": "191/0810",
           "orcid": "0000-0003-0459-884X"
         },
         {
           "name": "Songyue Liu",
+          "display_name": "Songyue Liu",
           "pid": "136/0674",
           "orcid": "0009-0003-3543-0967"
         },
         {
           "name": "Keqiang He",
+          "display_name": "Keqiang He",
           "pid": "95/1050",
           "orcid": "0009-0005-7024-9164"
         },
         {
           "name": "Jian Wang 0025",
+          "display_name": "Jian Wang",
           "pid": "39/449-25",
           "orcid": "0000-0001-5149-4619"
         },
         {
           "name": "Xiaoliang Wang 0001",
+          "display_name": "Xiaoliang Wang",
           "pid": "02/3450-1",
           "orcid": "0000-0002-3410-8621"
         },
         {
           "name": "Wanchun Dou",
+          "display_name": "Wanchun Dou",
           "pid": "57/5595",
           "orcid": "0000-0003-4833-2023"
         },
         {
           "name": "Guihai Chen",
+          "display_name": "Guihai Chen",
           "pid": "51/1742",
           "orcid": "0000-0002-6934-1685"
         },
         {
           "name": "Chen Tian 0001",
+          "display_name": "Chen Tian",
           "pid": "94/1247-1",
           "orcid": "0000-0003-2710-7628"
         }
@@ -1495,11 +1679,13 @@
       "authors": [
         {
           "name": "Yuxuan Mo",
+          "display_name": "Yuxuan Mo",
           "pid": "321/8190",
           "orcid": "0009-0007-1496-8978"
         },
         {
           "name": "Yu Hua 0001",
+          "display_name": "Yu Hua",
           "pid": "52/3115-1",
           "orcid": "0000-0001-7730-3796"
         }
@@ -1525,51 +1711,61 @@
       "authors": [
         {
           "name": "Haiheng He",
+          "display_name": "Haiheng He",
           "pid": "324/7201",
           "orcid": "0009-0003-4662-1777"
         },
         {
           "name": "Haifeng Liu 0003",
+          "display_name": "Haifeng Liu",
           "pid": "84/33-3",
           "orcid": "0000-0003-3319-254X"
         },
         {
           "name": "Long Zheng 0003",
+          "display_name": "Long Zheng",
           "pid": "68/6274-3",
           "orcid": "0000-0001-7903-2061"
         },
         {
           "name": "Yu Huang 0013",
+          "display_name": "Yu Huang",
           "pid": "39/6301-13",
           "orcid": "0000-0002-3927-1102"
         },
         {
           "name": "Xinyang Shen",
+          "display_name": "Xinyang Shen",
           "pid": "72/401",
           "orcid": "0009-0009-6500-8517"
         },
         {
           "name": "Wenkan Huang",
+          "display_name": "Wenkan Huang",
           "pid": "321/4890",
           "orcid": null
         },
         {
           "name": "Shuaihu Cao",
+          "display_name": "Shuaihu Cao",
           "pid": "401/8574",
           "orcid": "0009-0001-1909-3513"
         },
         {
           "name": "Xiaofei Liao",
+          "display_name": "Xiaofei Liao",
           "pid": "56/4402",
           "orcid": "0000-0001-6302-813X"
         },
         {
           "name": "Hai Jin 0001",
+          "display_name": "Hai Jin",
           "pid": "98/4156",
           "orcid": "0000-0002-3934-7605"
         },
         {
           "name": "Jingling Xue",
+          "display_name": "Jingling Xue",
           "pid": "x/JinglingXue",
           "orcid": "0000-0003-0380-3506"
         }
@@ -1595,16 +1791,19 @@
       "authors": [
         {
           "name": "Tanmoy Sen",
+          "display_name": "Tanmoy Sen",
           "pid": "129/5726",
           "orcid": "0000-0001-7677-3358"
         },
         {
           "name": "Haiying Shen",
+          "display_name": "Haiying Shen",
           "pid": "15/5579",
           "orcid": "0000-0002-7548-6223"
         },
         {
           "name": "Anand Padmanabha Iyer",
+          "display_name": "Anand Padmanabha Iyer",
           "pid": "72/309",
           "orcid": "0000-0002-5952-3346"
         }
@@ -1630,26 +1829,31 @@
       "authors": [
         {
           "name": "Beomyeol Jeon",
+          "display_name": "Beomyeol Jeon",
           "pid": "208/0038",
           "orcid": "0009-0002-4552-4660"
         },
         {
           "name": "Chen Wang 0039",
+          "display_name": "Chen Wang",
           "pid": "82/4206-39",
           "orcid": "0000-0003-0204-2362"
         },
         {
           "name": "Diana Arroyo",
+          "display_name": "Diana Arroyo",
           "pid": "24/11531",
           "orcid": "0000-0002-2330-8986"
         },
         {
           "name": "Alaa Youssef",
+          "display_name": "Alaa Youssef",
           "pid": "69/4290",
           "orcid": "0000-0001-5346-7331"
         },
         {
           "name": "Indranil Gupta",
+          "display_name": "Indranil Gupta",
           "pid": "02/6135",
           "orcid": "0000-0002-9372-5937"
         }
@@ -1675,36 +1879,43 @@
       "authors": [
         {
           "name": "Lichen Pan",
+          "display_name": "Lichen Pan",
           "pid": "233/8661",
           "orcid": "0000-0001-7451-0140"
         },
         {
           "name": "Juncheng Liu",
+          "display_name": "Juncheng Liu",
           "pid": "32/5712",
           "orcid": "0000-0002-8213-7718"
         },
         {
           "name": "Yongquan Fu",
+          "display_name": "Yongquan Fu",
           "pid": "97/9300",
           "orcid": "0000-0002-7564-5239"
         },
         {
           "name": "Jinhui Yuan",
+          "display_name": "Jinhui Yuan",
           "pid": "58/3397",
           "orcid": "0000-0002-0700-2645"
         },
         {
           "name": "Rongkai Zhang 0005",
+          "display_name": "Rongkai Zhang",
           "pid": "368/6441",
           "orcid": "0009-0003-1652-7202"
         },
         {
           "name": "Pengze Li",
+          "display_name": "Pengze Li",
           "pid": "231/3391",
           "orcid": "0000-0001-7015-0491"
         },
         {
           "name": "Zhen Xiao",
+          "display_name": "Zhen Xiao",
           "pid": "39/3878",
           "orcid": "0000-0002-6784-9709"
         }
@@ -1730,26 +1941,31 @@
       "authors": [
         {
           "name": "Zhiheng Lin",
+          "display_name": "Zhiheng Lin",
           "pid": "158/7547",
           "orcid": "0009-0002-5371-5125"
         },
         {
           "name": "Ke Meng",
+          "display_name": "Ke Meng",
           "pid": "97/5056",
           "orcid": "0000-0002-3629-7892"
         },
         {
           "name": "Changjie Xu",
+          "display_name": "Changjie Xu",
           "pid": "144/9258",
           "orcid": "0009-0001-8280-9190"
         },
         {
           "name": "Weichen Cao 0002",
+          "display_name": "Weichen Cao",
           "pid": "371/6044-2",
           "orcid": "0009-0006-7111-2036"
         },
         {
           "name": "Guangming Tan",
+          "display_name": "Guangming Tan",
           "pid": "80/2272",
           "orcid": "0000-0002-6361-5948"
         }
@@ -1775,41 +1991,49 @@
       "authors": [
         {
           "name": "Shulai Zhang",
+          "display_name": "Shulai Zhang",
           "pid": "251/9029",
           "orcid": "0000-0002-0802-7203"
         },
         {
           "name": "Quan Chen 0002",
+          "display_name": "Quan Chen",
           "pid": "40/3858-2",
           "orcid": "0000-0001-5832-0347"
         },
         {
           "name": "Weihao Cui",
+          "display_name": "Weihao Cui",
           "pid": "243/1639",
           "orcid": "0000-0002-6646-5260"
         },
         {
           "name": "Han Zhao 0005",
+          "display_name": "Han Zhao",
           "pid": "03/3520-5",
           "orcid": "0000-0002-1561-5329"
         },
         {
           "name": "Chunyu Xue",
+          "display_name": "Chunyu Xue",
           "pid": "08/885",
           "orcid": "0009-0008-9272-1732"
         },
         {
           "name": "Zhen Zheng",
+          "display_name": "Zhen Zheng",
           "pid": "115/5528",
           "orcid": "0009-0006-2692-713X"
         },
         {
           "name": "Wei Lin 0016",
+          "display_name": "Wei Lin",
           "pid": "99/2649-16",
           "orcid": "0000-0002-3003-0150"
         },
         {
           "name": "Minyi Guo",
+          "display_name": "Minyi Guo",
           "pid": "99/6797",
           "orcid": "0000-0003-0034-2302"
         }
@@ -1835,26 +2059,31 @@
       "authors": [
         {
           "name": "Wenyan Chen 0001",
+          "display_name": "Wenyan Chen",
           "pid": "48/7090-1",
           "orcid": null
         },
         {
           "name": "Chengzhi Lu",
+          "display_name": "Chengzhi Lu",
           "pid": "213/1453",
           "orcid": null
         },
         {
           "name": "Huanle Xu",
+          "display_name": "Huanle Xu",
           "pid": "141/1931",
           "orcid": null
         },
         {
           "name": "Kejiang Ye",
+          "display_name": "Kejiang Ye",
           "pid": "68/7938",
           "orcid": null
         },
         {
           "name": "Chengzhong Xu 0001",
+          "display_name": "Chengzhong Xu",
           "pid": "181/2765-1",
           "orcid": null
         }
@@ -1880,31 +2109,37 @@
       "authors": [
         {
           "name": "Pinhuan Wang",
+          "display_name": "Pinhuan Wang",
           "pid": "398/7174",
           "orcid": "0009-0001-2714-056X"
         },
         {
           "name": "Chengying Huan",
+          "display_name": "Chengying Huan",
           "pid": "217/1295",
           "orcid": "0000-0002-3154-3580"
         },
         {
           "name": "Zhibin Wang 0002",
+          "display_name": "Zhibin Wang",
           "pid": "67/1237-2",
           "orcid": "0000-0001-9204-4075"
         },
         {
           "name": "Chen Tian 0001",
+          "display_name": "Chen Tian",
           "pid": "94/1247-1",
           "orcid": "0000-0003-2710-7628"
         },
         {
           "name": "Yuede Ji",
+          "display_name": "Yuede Ji",
           "pid": "138/4316",
           "orcid": "0000-0002-2419-6592"
         },
         {
           "name": "Hang Liu 0001",
+          "display_name": "Hang Liu",
           "pid": "43/6690-1",
           "orcid": "0000-0001-6323-7388"
         }
@@ -1930,66 +2165,79 @@
       "authors": [
         {
           "name": "Hao Qi 0004",
+          "display_name": "Hao Qi",
           "pid": "24/8493-4",
           "orcid": "0000-0002-3273-5381"
         },
         {
           "name": "Kang Luo",
+          "display_name": "Kang Luo",
           "pid": "73/6215",
           "orcid": "0000-0002-0735-6224"
         },
         {
           "name": "Ligang He",
+          "display_name": "Ligang He",
           "pid": "36/5655",
           "orcid": "0000-0002-5671-0576"
         },
         {
           "name": "Yu Zhang 0027",
+          "display_name": "Yu Zhang",
           "pid": "50/671-27",
           "orcid": "0000-0003-0718-8045"
         },
         {
           "name": "Minzhi Cai",
+          "display_name": "Minzhi Cai",
           "pid": "373/4737",
           "orcid": "0009-0004-5008-7877"
         },
         {
           "name": "Jingxin Dai",
+          "display_name": "Jingxin Dai",
           "pid": "231/9130",
           "orcid": "0009-0005-2625-9402"
         },
         {
           "name": "Bingsheng He",
+          "display_name": "Bingsheng He",
           "pid": "h/BingshengHe",
           "orcid": "0000-0001-8618-4581"
         },
         {
           "name": "Hai Jin 0001",
+          "display_name": "Hai Jin",
           "pid": "98/4156",
           "orcid": "0000-0002-3934-7605"
         },
         {
           "name": "Zhan Zhang 0003",
+          "display_name": "Zhan Zhang",
           "pid": "92/6841-3",
           "orcid": "0009-0009-8083-8228"
         },
         {
           "name": "Jin Zhao 0003",
+          "display_name": "Jin Zhao",
           "pid": "97/4765-3",
           "orcid": "0000-0003-4217-7886"
         },
         {
           "name": "Hengshan Yue",
+          "display_name": "Hengshan Yue",
           "pid": "237/1510",
           "orcid": "0000-0003-2189-8385"
         },
         {
           "name": "Hui Yu",
+          "display_name": "Hui Yu",
           "pid": "26/6190",
           "orcid": "0000-0002-6559-6111"
         },
         {
           "name": "Xiaofei Liao",
+          "display_name": "Xiaofei Liao",
           "pid": "56/4402",
           "orcid": "0000-0001-6302-813X"
         }
@@ -2015,26 +2263,31 @@
       "authors": [
         {
           "name": "Zhiting Zhu",
+          "display_name": "Zhiting Zhu",
           "pid": "12/5782",
           "orcid": "0009-0005-9598-3875"
         },
         {
           "name": "Zhipeng Jia",
+          "display_name": "Zhipeng Jia",
           "pid": "136/1053",
           "orcid": "0000-0003-4471-3793"
         },
         {
           "name": "Newton Ni",
+          "display_name": "Newton Ni",
           "pid": "278/3217",
           "orcid": "0009-0002-2491-1880"
         },
         {
           "name": "Dixin Tang",
+          "display_name": "Dixin Tang",
           "pid": "155/5478",
           "orcid": "0000-0002-3316-6651"
         },
         {
           "name": "Emmett Witchel",
+          "display_name": "Emmett Witchel",
           "pid": "76/6082",
           "orcid": "0000-0002-1391-2880"
         }
@@ -2060,26 +2313,31 @@
       "authors": [
         {
           "name": "Yuanli Wang",
+          "display_name": "Yuanli Wang",
           "pid": "99/4437",
           "orcid": "0009-0007-2668-0138"
         },
         {
           "name": "Lei Huang",
+          "display_name": "Lei Huang",
           "pid": "18/1763",
           "orcid": "0009-0009-1774-7999"
         },
         {
           "name": "Zikun Wang",
+          "display_name": "Zikun Wang",
           "pid": "253/6581",
           "orcid": "0009-0000-8207-502X"
         },
         {
           "name": "Vasiliki Kalavri",
+          "display_name": "Vasiliki Kalavri",
           "pid": "132/6943",
           "orcid": "0000-0001-8219-4862"
         },
         {
           "name": "Ibrahim Matta",
+          "display_name": "Ibrahim Matta",
           "pid": "m/IbrahimMatta",
           "orcid": "0000-0003-4528-0344"
         }
@@ -2105,41 +2363,49 @@
       "authors": [
         {
           "name": "Haochen Yuan",
+          "display_name": "Haochen Yuan",
           "pid": "161/8901",
           "orcid": "0000-0002-7903-8655"
         },
         {
           "name": "Yuanqing Wang",
+          "display_name": "Yuanqing Wang",
           "pid": "83/7566",
           "orcid": "0009-0003-2675-2200"
         },
         {
           "name": "Wenhao Xie",
+          "display_name": "Wenhao Xie",
           "pid": "219/9575",
           "orcid": "0009-0008-6134-2211"
         },
         {
           "name": "Yu Cheng 0030",
+          "display_name": "Yu Cheng",
           "pid": "96/3060-30",
           "orcid": "0009-0003-9436-674X"
         },
         {
           "name": "Ziming Miao",
+          "display_name": "Ziming Miao",
           "pid": "216/9568",
           "orcid": "0000-0001-7466-2128"
         },
         {
           "name": "Lingxiao Ma",
+          "display_name": "Lingxiao Ma",
           "pid": "57/3203",
           "orcid": "0009-0009-9524-5476"
         },
         {
           "name": "Jilong Xue",
+          "display_name": "Jilong Xue",
           "pid": "06/10336",
           "orcid": "0000-0002-4495-1997"
         },
         {
           "name": "Zhi Yang 0001",
+          "display_name": "Zhi Yang",
           "pid": "90/5587-1",
           "orcid": "0000-0002-8219-4499"
         }
@@ -2165,46 +2431,55 @@
       "authors": [
         {
           "name": "Xianzhong Ding",
+          "display_name": "Xianzhong Ding",
           "pid": "198/7795",
           "orcid": "0000-0001-6114-2801"
         },
         {
           "name": "Yunkai Zhang 0002",
+          "display_name": "Yunkai Zhang",
           "pid": "34/3300-2",
           "orcid": "0000-0002-7203-2883"
         },
         {
           "name": "Binbin Chen 0005",
+          "display_name": "Binbin Chen",
           "pid": "38/8396-5",
           "orcid": "0000-0001-8598-2442"
         },
         {
           "name": "Donghao Ying",
+          "display_name": "Donghao Ying",
           "pid": "304/3590",
           "orcid": "0009-0001-7329-5917"
         },
         {
           "name": "Tieying Zhang",
+          "display_name": "Tieying Zhang",
           "pid": "88/2750",
           "orcid": "0009-0003-2250-5528"
         },
         {
           "name": "Jianjun Chen 0001",
+          "display_name": "Jianjun Chen",
           "pid": "20/1036-1",
           "orcid": "0000-0002-3734-892X"
         },
         {
           "name": "Lei Zhang 0213",
+          "display_name": "Lei Zhang",
           "pid": "97/8704-213",
           "orcid": "0009-0004-1681-1956"
         },
         {
           "name": "Alberto Cerpa",
+          "display_name": "Alberto Cerpa",
           "pid": "40/4515",
           "orcid": "0000-0003-4531-9704"
         },
         {
           "name": "Wan Du",
+          "display_name": "Wan Du",
           "pid": "28/9430",
           "orcid": "0000-0002-2732-6954"
         }
@@ -2230,26 +2505,31 @@
       "authors": [
         {
           "name": "Lars Wrenger",
+          "display_name": "Lars Wrenger",
           "pid": "351/5664",
           "orcid": "0009-0006-9583-6207"
         },
         {
           "name": "Kenny Albes",
+          "display_name": "Kenny Albes",
           "pid": "401/8216",
           "orcid": "0009-0009-6830-3212"
         },
         {
           "name": "Marco Wurps",
+          "display_name": "Marco Wurps",
           "pid": "401/7677",
           "orcid": "0009-0000-9187-4130"
         },
         {
           "name": "Christian Dietrich 0001",
+          "display_name": "Christian Dietrich",
           "pid": "30/5956-1",
           "orcid": "0000-0001-9258-0513"
         },
         {
           "name": "Daniel Lohmann",
+          "display_name": "Daniel Lohmann",
           "pid": "57/863",
           "orcid": "0000-0001-8224-4161"
         }
@@ -2275,46 +2555,55 @@
       "authors": [
         {
           "name": "Yunzhuo Liu",
+          "display_name": "Yunzhuo Liu",
           "pid": "276/3196",
           "orcid": "0000-0003-0156-2454"
         },
         {
           "name": "Junchen Guo",
+          "display_name": "Junchen Guo",
           "pid": "220/7067",
           "orcid": "0000-0002-9018-8881"
         },
         {
           "name": "Bo Jiang 0003",
+          "display_name": "Bo Jiang",
           "pid": "34/2005-3",
           "orcid": "0000-0001-6711-4342"
         },
         {
           "name": "Yang Song 0031",
+          "display_name": "Yang Song",
           "pid": "24/4470-31",
           "orcid": "0009-0008-2611-757X"
         },
         {
           "name": "Pengyu Zhang",
+          "display_name": "Pengyu Zhang",
           "pid": "33/4816",
           "orcid": "0009-0007-9646-8407"
         },
         {
           "name": "Rong Wen",
+          "display_name": "Rong Wen",
           "pid": "74/11184",
           "orcid": "0009-0003-6384-1165"
         },
         {
           "name": "Biao Lyu",
+          "display_name": "Biao Lyu",
           "pid": "267/2853",
           "orcid": "0000-0002-8096-5528"
         },
         {
           "name": "Shunmin Zhu",
+          "display_name": "Shunmin Zhu",
           "pid": "299/2226",
           "orcid": "0000-0001-7756-0952"
         },
         {
           "name": "Xinbing Wang",
+          "display_name": "Xinbing Wang",
           "pid": "96/1149",
           "orcid": "0000-0002-0357-8356"
         }
@@ -2340,81 +2629,97 @@
       "authors": [
         {
           "name": "Haonan Wu",
+          "display_name": "Haonan Wu",
           "pid": "75/2867",
           "orcid": "0009-0008-8933-8572"
         },
         {
           "name": "Erci Xu",
+          "display_name": "Erci Xu",
           "pid": "83/10695",
           "orcid": "0000-0002-6654-4364"
         },
         {
           "name": "Ligang Wang",
+          "display_name": "Ligang Wang",
           "pid": "64/4308",
           "orcid": "0009-0003-1272-2051"
         },
         {
           "name": "Yuandong Hong",
+          "display_name": "Yuandong Hong",
           "pid": "264/8509",
           "orcid": "0009-0004-2044-866X"
         },
         {
           "name": "Changsheng Niu",
+          "display_name": "Changsheng Niu",
           "pid": "335/8618",
           "orcid": "0009-0005-6374-9099"
         },
         {
           "name": "Bo Shi",
+          "display_name": "Bo Shi",
           "pid": "77/572",
           "orcid": "0009-0003-0708-9829"
         },
         {
           "name": "Lingjun Zhu",
+          "display_name": "Lingjun Zhu",
           "pid": "129/1811",
           "orcid": "0009-0001-5145-6097"
         },
         {
           "name": "Jinnian He",
+          "display_name": "Jinnian He",
           "pid": "401/7886",
           "orcid": "0009-0007-6070-2732"
         },
         {
           "name": "Dong Wu",
+          "display_name": "Dong Wu",
           "pid": "48/1853",
           "orcid": "0009-0000-2393-0057"
         },
         {
           "name": "Weidong Zhang 0011",
+          "display_name": "Weidong Zhang",
           "pid": "24/3562-11",
           "orcid": "0000-0003-0832-474X"
         },
         {
           "name": "Qiuping Wang",
+          "display_name": "Qiuping Wang",
           "pid": "81/3202",
           "orcid": "0000-0001-5361-678X"
         },
         {
           "name": "Changhong Wang 0005",
+          "display_name": "Changhong Wang",
           "pid": "88/2833-5",
           "orcid": "0009-0000-3258-3376"
         },
         {
           "name": "Xinqi Chen",
+          "display_name": "Xinqi Chen",
           "pid": "318/1946",
           "orcid": "0009-0001-5567-1560"
         },
         {
           "name": "Guangtao Xue",
+          "display_name": "Guangtao Xue",
           "pid": "79/1810",
           "orcid": "0000-0002-1617-3593"
         },
         {
           "name": "Yi-Chao Chen 0001",
+          "display_name": "Yi-Chao Chen",
           "pid": "91/699-1",
           "orcid": "0000-0003-0782-4953"
         },
         {
           "name": "Dian Ding",
+          "display_name": "Dian Ding",
           "pid": "271/9812",
           "orcid": "0000-0002-2190-0919"
         }
@@ -2440,21 +2745,25 @@
       "authors": [
         {
           "name": "Edward Guo",
+          "display_name": "Edward Guo",
           "pid": "200/4089",
           "orcid": "0009-0001-8635-1471"
         },
         {
           "name": "Weiwei Jia 0001",
+          "display_name": "Weiwei Jia",
           "pid": "61/9959-1",
           "orcid": "0000-0001-5770-5472"
         },
         {
           "name": "Xiaoning Ding",
+          "display_name": "Xiaoning Ding",
           "pid": "36/679",
           "orcid": "0000-0002-9947-0437"
         },
         {
           "name": "Jianchen Shan",
+          "display_name": "Jianchen Shan",
           "pid": "74/8875",
           "orcid": "0000-0003-2780-8803"
         }
@@ -2480,31 +2789,37 @@
       "authors": [
         {
           "name": "Gyeongchan Yun",
+          "display_name": "Gyeongchan Yun",
           "pid": "266/2948",
           "orcid": "0009-0009-8725-1534"
         },
         {
           "name": "Junesoo Kang",
+          "display_name": "Junesoo Kang",
           "pid": "353/7592",
           "orcid": "0009-0008-6020-6744"
         },
         {
           "name": "Hyunjoon Jeong",
+          "display_name": "Hyunjoon Jeong",
           "pid": "401/8066",
           "orcid": "0009-0009-2628-9811"
         },
         {
           "name": "Sanghyeon Eom",
+          "display_name": "Sanghyeon Eom",
           "pid": "401/7916",
           "orcid": "0009-0005-9545-9619"
         },
         {
           "name": "Minsung Jang",
+          "display_name": "Minsung Jang",
           "pid": "84/10278",
           "orcid": "0009-0005-7805-6383"
         },
         {
           "name": "Young-ri Choi",
+          "display_name": "Young-ri Choi",
           "pid": "04/6643",
           "orcid": "0000-0003-4391-4470"
         }
@@ -2530,16 +2845,19 @@
       "authors": [
         {
           "name": "Liang Zhu",
+          "display_name": "Liang Zhu",
           "pid": "85/20",
           "orcid": "0009-0004-8625-2256"
         },
         {
           "name": "Jianguo Yao 0002",
+          "display_name": "Jianguo Yao",
           "pid": "34/6356-2",
           "orcid": "0000-0002-1142-4496"
         },
         {
           "name": "Haibing Guan",
+          "display_name": "Haibing Guan",
           "pid": "96/5680",
           "orcid": "0000-0002-4714-7400"
         }
@@ -2565,26 +2883,31 @@
       "authors": [
         {
           "name": "YuAng Chen",
+          "display_name": "YuAng Chen",
           "pid": "286/1951",
           "orcid": "0000-0002-3392-8388"
         },
         {
           "name": "Jiadong Xie 0002",
+          "display_name": "Jiadong Xie",
           "pid": "155/8276-2",
           "orcid": "0000-0003-4535-8359"
         },
         {
           "name": "Siyi Teng",
+          "display_name": "Siyi Teng",
           "pid": "358/8722",
           "orcid": "0009-0004-1210-4672"
         },
         {
           "name": "Wenqi Zeng",
+          "display_name": "Wenqi Zeng",
           "pid": "258/2790",
           "orcid": "0000-0002-9770-6522"
         },
         {
           "name": "Jeffrey Xu Yu",
+          "display_name": "Jeffrey Xu Yu",
           "pid": "y/JXuYu",
           "orcid": "0000-0002-9738-827X"
         }
@@ -2610,51 +2933,61 @@
       "authors": [
         {
           "name": "Menghao Zhang 0001",
+          "display_name": "Menghao Zhang",
           "pid": "188/5710-1",
           "orcid": "0000-0001-5274-5512"
         },
         {
           "name": "Guanyu Li",
+          "display_name": "Guanyu Li",
           "pid": "93/7765",
           "orcid": "0000-0002-7939-7367"
         },
         {
           "name": "Cheng Guo 0007",
+          "display_name": "Cheng Guo",
           "pid": "76/5349-7",
           "orcid": "0009-0003-5663-0052"
         },
         {
           "name": "Renyu Yang",
+          "display_name": "Renyu Yang",
           "pid": "142/7754",
           "orcid": "0000-0001-6334-4925"
         },
         {
           "name": "Shicheng Wang",
+          "display_name": "Shicheng Wang",
           "pid": "65/7762",
           "orcid": "0000-0001-8380-9136"
         },
         {
           "name": "Han Bao 0011",
+          "display_name": "Han Bao",
           "pid": "120/1444-11",
           "orcid": "0000-0002-3451-411X"
         },
         {
           "name": "Xiao Li 0044",
+          "display_name": "Xiao Li",
           "pid": "66/2069-44",
           "orcid": "0009-0009-6378-3480"
         },
         {
           "name": "Mingwei Xu 0001",
+          "display_name": "Mingwei Xu",
           "pid": "18/6055-1",
           "orcid": "0000-0002-4847-4585"
         },
         {
           "name": "Tianyu Wo",
+          "display_name": "Tianyu Wo",
           "pid": "58/6260",
           "orcid": "0000-0002-5331-3364"
         },
         {
           "name": "Chunming Hu",
+          "display_name": "Chunming Hu",
           "pid": "03/405",
           "orcid": "0000-0003-3473-9703"
         }
@@ -2680,36 +3013,43 @@
       "authors": [
         {
           "name": "Zhenlin Qi",
+          "display_name": "Zhenlin Qi",
           "pid": "323/0852",
           "orcid": "0000-0001-8838-6064"
         },
         {
           "name": "Shengan Zheng",
+          "display_name": "Shengan Zheng",
           "pid": "178/7439",
           "orcid": "0000-0003-2485-760X"
         },
         {
           "name": "Ying Huang",
+          "display_name": "Ying Huang",
           "pid": "62/2964",
           "orcid": "0009-0009-0948-7998"
         },
         {
           "name": "Yifeng Hui",
+          "display_name": "Yifeng Hui",
           "pid": "356/7909",
           "orcid": "0009-0005-9851-3617"
         },
         {
           "name": "Bowen Zhang 0012",
+          "display_name": "Bowen Zhang",
           "pid": "85/7433-12",
           "orcid": "0000-0002-7526-8971"
         },
         {
           "name": "Linpeng Huang",
+          "display_name": "Linpeng Huang",
           "pid": "93/4039",
           "orcid": "0000-0002-1531-7962"
         },
         {
           "name": "Hong Mei 0001",
+          "display_name": "Hong Mei",
           "pid": "14/2036",
           "orcid": "0000-0003-2380-3976"
         }
@@ -2735,36 +3075,43 @@
       "authors": [
         {
           "name": "Wanju Doh",
+          "display_name": "Wanju Doh",
           "pid": "299/7694",
           "orcid": "0000-0002-8145-253X"
         },
         {
           "name": "Yaebin Moon",
+          "display_name": "Yaebin Moon",
           "pid": "290/4000",
           "orcid": "0000-0003-0972-4948"
         },
         {
           "name": "Seoyoung Ko",
+          "display_name": "Seoyoung Ko",
           "pid": "287/6519",
           "orcid": "0000-0002-9315-920X"
         },
         {
           "name": "Seunghwan Chung",
+          "display_name": "Seunghwan Chung",
           "pid": "266/5105",
           "orcid": "0009-0009-5179-625X"
         },
         {
           "name": "Kwanhee Kyung",
+          "display_name": "Kwanhee Kyung",
           "pid": "342/0421",
           "orcid": "0000-0003-4243-2111"
         },
         {
           "name": "Eojin Lee",
+          "display_name": "Eojin Lee",
           "pid": "199/7202",
           "orcid": "0000-0003-2739-2924"
         },
         {
           "name": "Jung Ho Ahn",
+          "display_name": "Jung Ho Ahn",
           "pid": "a/JungHoAhn",
           "orcid": "0000-0003-1733-1394"
         }
@@ -2790,21 +3137,25 @@
       "authors": [
         {
           "name": "Wonsup Yoon",
+          "display_name": "Wonsup Yoon",
           "pid": "252/0992",
           "orcid": "0000-0002-6247-4119"
         },
         {
           "name": "Jisu Ok",
+          "display_name": "Jisu Ok",
           "pid": "299/8923",
           "orcid": "0000-0002-4595-6351"
         },
         {
           "name": "Sue Moon",
+          "display_name": "Sue Moon",
           "pid": "m/SueBMoon",
           "orcid": "0000-0002-5692-1111"
         },
         {
           "name": "Youngjin Kwon",
+          "display_name": "Youngjin Kwon",
           "pid": "94/8239",
           "orcid": "0000-0001-5602-2397"
         }
@@ -2830,21 +3181,25 @@
       "authors": [
         {
           "name": "Jing Wang 0158",
+          "display_name": "Jing Wang",
           "pid": "02/736-158",
           "orcid": "0009-0004-5385-4066"
         },
         {
           "name": "Qing Wang 0031",
+          "display_name": "Qing Wang",
           "pid": "97/6505-31",
           "orcid": "0000-0002-3067-5522"
         },
         {
           "name": "Yuhao Zhang 0006",
+          "display_name": "Yuhao Zhang",
           "pid": "139/5876-6",
           "orcid": "0000-0002-0118-8135"
         },
         {
           "name": "Jiwu Shu",
+          "display_name": "Jiwu Shu",
           "pid": "60/3690",
           "orcid": "0000-0002-7362-2789"
         }
@@ -2870,31 +3225,37 @@
       "authors": [
         {
           "name": "Larissa Schmid",
+          "display_name": "Larissa Schmid",
           "pid": "319/8561",
           "orcid": "0000-0002-3600-6899"
         },
         {
           "name": "Marcin Copik",
+          "display_name": "Marcin Copik",
           "pid": "187/2708",
           "orcid": "0000-0002-7606-5519"
         },
         {
           "name": "Alexandru Calotoiu",
+          "display_name": "Alexandru Calotoiu",
           "pid": "117/6982",
           "orcid": "0000-0001-9095-9108"
         },
         {
           "name": "Laurin Brandner",
+          "display_name": "Laurin Brandner",
           "pid": "242/4532",
           "orcid": "0009-0005-8251-9117"
         },
         {
           "name": "Anne Koziolek",
+          "display_name": "Anne Koziolek",
           "pid": "51/1757",
           "orcid": "0000-0002-1593-3394"
         },
         {
           "name": "Torsten Hoefler",
+          "display_name": "Torsten Hoefler",
           "pid": "16/3869",
           "orcid": "0000-0002-1333-9797"
         }
@@ -2920,51 +3281,61 @@
       "authors": [
         {
           "name": "Jianing You",
+          "display_name": "Jianing You",
           "pid": "218/0059",
           "orcid": "0009-0008-2857-4838"
         },
         {
           "name": "Kang Chen 0001",
+          "display_name": "Kang Chen",
           "pid": "91/6670-1",
           "orcid": "0000-0002-8368-1109"
         },
         {
           "name": "Laiping Zhao",
+          "display_name": "Laiping Zhao",
           "pid": "17/9083",
           "orcid": "0000-0003-1967-2192"
         },
         {
           "name": "Yiming Li",
+          "display_name": "Yiming Li",
           "pid": "181/2877",
           "orcid": "0000-0002-6844-8763"
         },
         {
           "name": "Yichi Chen 0001",
+          "display_name": "Yichi Chen",
           "pid": "336/5375-1",
           "orcid": "0009-0006-8072-6152"
         },
         {
           "name": "Yuxuan Du",
+          "display_name": "Yuxuan Du",
           "pid": "222/7868",
           "orcid": "0009-0007-6813-6835"
         },
         {
           "name": "Yanjie Wang",
+          "display_name": "Yanjie Wang",
           "pid": "57/885",
           "orcid": "0009-0000-1167-0614"
         },
         {
           "name": "Luhang Wen",
+          "display_name": "Luhang Wen",
           "pid": "401/7971",
           "orcid": "0009-0003-7340-7215"
         },
         {
           "name": "Keyang Hu",
+          "display_name": "Keyang Hu",
           "pid": "336/0580",
           "orcid": "0009-0003-6634-3604"
         },
         {
           "name": "Keqiu Li",
+          "display_name": "Keqiu Li",
           "pid": "21/6280",
           "orcid": "0000-0003-3089-7907"
         }
@@ -2990,41 +3361,49 @@
       "authors": [
         {
           "name": "Artjom Joosen",
+          "display_name": "Artjom Joosen",
           "pid": "287/4883",
           "orcid": "0009-0007-6189-2515"
         },
         {
           "name": "Ahmed Hassan",
+          "display_name": "Ahmed Hassan",
           "pid": "76/397",
           "orcid": "0009-0005-4902-7954"
         },
         {
           "name": "Martin Asenov",
+          "display_name": "Martin Asenov",
           "pid": "234/8627",
           "orcid": "0000-0003-4610-3112"
         },
         {
           "name": "Rajkarn Singh",
+          "display_name": "Rajkarn Singh",
           "pid": "149/5226",
           "orcid": "0000-0003-0035-2471"
         },
         {
           "name": "Luke Nicholas Darlow",
+          "display_name": "Luke Nicholas Darlow",
           "pid": "169/5520",
           "orcid": null
         },
         {
           "name": "Jianfeng Wang",
+          "display_name": "Jianfeng Wang",
           "pid": "65/4872",
           "orcid": "0009-0001-4709-1865"
         },
         {
           "name": "Qiwen Deng",
+          "display_name": "Qiwen Deng",
           "pid": "198/9123",
           "orcid": "0009-0005-3663-0914"
         },
         {
           "name": "Adam Barker",
+          "display_name": "Adam Barker",
           "pid": "24/1959",
           "orcid": "0000-0002-0463-7207"
         }
@@ -3050,21 +3429,25 @@
       "authors": [
         {
           "name": "Johannes Freischuetz",
+          "display_name": "Johannes Freischuetz",
           "pid": "375/0685",
           "orcid": "0009-0004-2667-4852"
         },
         {
           "name": "Konstantinos Kanellis",
+          "display_name": "Konstantinos Kanellis",
           "pid": "206/9241",
           "orcid": "0009-0006-3776-3863"
         },
         {
           "name": "Brian Kroth",
+          "display_name": "Brian Kroth",
           "pid": "248/7832",
           "orcid": "0000-0002-5108-6743"
         },
         {
           "name": "Shivaram Venkataraman",
+          "display_name": "Shivaram Venkataraman",
           "pid": "65/8569",
           "orcid": "0000-0001-9575-7935"
         }
@@ -3090,41 +3473,49 @@
       "authors": [
         {
           "name": "Junsu Im",
+          "display_name": "Junsu Im",
           "pid": "238/5412",
           "orcid": "0000-0002-7485-7870"
         },
         {
           "name": "Jeonggyun Kim",
+          "display_name": "Jeonggyun Kim",
           "pid": "330/8703",
           "orcid": "0009-0005-2546-3209"
         },
         {
           "name": "Seonggyun Oh",
+          "display_name": "Seonggyun Oh",
           "pid": "346/2758",
           "orcid": "0000-0002-1020-9444"
         },
         {
           "name": "Jinhyung Koo",
+          "display_name": "Jinhyung Koo",
           "pid": "203/1694",
           "orcid": "0000-0001-9141-1064"
         },
         {
           "name": "Juhyung Park",
+          "display_name": "Juhyung Park",
           "pid": "281/4018",
           "orcid": "0009-0006-5457-5063"
         },
         {
           "name": "Hoon Sung Chwa",
+          "display_name": "Hoon Sung Chwa",
           "pid": "46/11077",
           "orcid": "0000-0003-0355-5784"
         },
         {
           "name": "Sam H. Noh",
+          "display_name": "Sam H. Noh",
           "pid": "81/970",
           "orcid": "0000-0002-9152-0321"
         },
         {
           "name": "Sungjin Lee 0001",
+          "display_name": "Sungjin Lee",
           "pid": "29/3671-1",
           "orcid": "0000-0002-9753-2286"
         }
@@ -3150,41 +3541,49 @@
       "authors": [
         {
           "name": "Junzhe Li",
+          "display_name": "Junzhe Li",
           "pid": "157/0971",
           "orcid": "0009-0000-9026-9617"
         },
         {
           "name": "Ran Shu 0001",
+          "display_name": "Ran Shu",
           "pid": "06/11343-1",
           "orcid": "0000-0002-2021-4917"
         },
         {
           "name": "Jiayi Lin 0007",
+          "display_name": "Jiayi Lin",
           "pid": "382/4745",
           "orcid": "0009-0004-6790-1302"
         },
         {
           "name": "Qingyu Zhang 0005",
+          "display_name": "Qingyu Zhang",
           "pid": "63/5407-5",
           "orcid": "0009-0009-4422-3971"
         },
         {
           "name": "Ziyue Yang 0002",
+          "display_name": "Ziyue Yang",
           "pid": "200/2830-2",
           "orcid": "0009-0008-0491-7082"
         },
         {
           "name": "Jie Zhang 0048",
+          "display_name": "Jie Zhang",
           "pid": "84/6889-48",
           "orcid": "0000-0002-6299-4683"
         },
         {
           "name": "Yongqiang Xiong",
+          "display_name": "Yongqiang Xiong",
           "pid": "57/4569",
           "orcid": "0000-0003-4175-0097"
         },
         {
           "name": "Chenxiong Qian",
+          "display_name": "Chenxiong Qian",
           "pid": "147/2276",
           "orcid": "0000-0002-6201-6011"
         }
@@ -3210,26 +3609,31 @@
       "authors": [
         {
           "name": "Yifeng Zhang",
+          "display_name": "Yifeng Zhang",
           "pid": "88/2666",
           "orcid": "0009-0006-3711-9189"
         },
         {
           "name": "Yanqi Pan",
+          "display_name": "Yanqi Pan",
           "pid": "330/1367",
           "orcid": "0009-0007-7832-0599"
         },
         {
           "name": "Hao Huang",
+          "display_name": "Hao Huang",
           "pid": "04/5616",
           "orcid": "0009-0003-8305-2171"
         },
         {
           "name": "Yuchen Shan",
+          "display_name": "Yuchen Shan",
           "pid": "317/7586",
           "orcid": "0009-0004-9136-8819"
         },
         {
           "name": "Wen Xia",
+          "display_name": "Wen Xia",
           "pid": "119/2655",
           "orcid": "0000-0003-4093-6391"
         }
@@ -3255,41 +3659,49 @@
       "authors": [
         {
           "name": "Dingbang Liu",
+          "display_name": "Dingbang Liu",
           "pid": "274/0596",
           "orcid": "0009-0007-9702-6678"
         },
         {
           "name": "Xiangyu Zou",
+          "display_name": "Xiangyu Zou",
           "pid": "240/2218",
           "orcid": "0000-0001-5104-8301"
         },
         {
           "name": "Tao Lu 0014",
+          "display_name": "Tao Lu",
           "pid": "03/5189-14",
           "orcid": "0000-0003-2362-2446"
         },
         {
           "name": "Philip Shilane",
+          "display_name": "Philip Shilane",
           "pid": "06/4348",
           "orcid": "0000-0003-1235-0502"
         },
         {
           "name": "Wen Xia",
+          "display_name": "Wen Xia",
           "pid": "119/2655",
           "orcid": "0000-0003-4093-6391"
         },
         {
           "name": "Wenxuan Huang",
+          "display_name": "Wenxuan Huang",
           "pid": "192/1157",
           "orcid": "0009-0005-9410-3493"
         },
         {
           "name": "Yanqi Pan",
+          "display_name": "Yanqi Pan",
           "pid": "330/1367",
           "orcid": "0009-0007-7832-0599"
         },
         {
           "name": "Hao Huang",
+          "display_name": "Hao Huang",
           "pid": "04/5616",
           "orcid": "0009-0003-8305-2171"
         }
@@ -3315,16 +3727,19 @@
       "authors": [
         {
           "name": "Hanzhi Liu",
+          "display_name": "Hanzhi Liu",
           "pid": "348/6074",
           "orcid": "0009-0005-2732-3971"
         },
         {
           "name": "Yanyan Jiang 0001",
+          "display_name": "Yanyan Jiang",
           "pid": "08/8179-1",
           "orcid": "0000-0001-7651-9560"
         },
         {
           "name": "Chang Xu 0001",
+          "display_name": "Chang Xu",
           "pid": "97/2966-1",
           "orcid": "0000-0002-6299-4704"
         }
@@ -3350,31 +3765,37 @@
       "authors": [
         {
           "name": "Jingzhou Fu",
+          "display_name": "Jingzhou Fu",
           "pid": "337/0812",
           "orcid": "0000-0001-9759-878X"
         },
         {
           "name": "Jie Liang 0006",
+          "display_name": "Jie Liang",
           "pid": "51/239-6",
           "orcid": "0000-0003-1046-0337"
         },
         {
           "name": "Zhiyong Wu 0010",
+          "display_name": "Zhiyong Wu",
           "pid": "24/968-10",
           "orcid": "0000-0003-1908-5043"
         },
         {
           "name": "Yanyang Zhao",
+          "display_name": "Yanyang Zhao",
           "pid": "78/5804",
           "orcid": "0000-0002-1663-8901"
         },
         {
           "name": "Shanshan Li 0001",
+          "display_name": "Shanshan Li",
           "pid": "66/5479-1",
           "orcid": "0000-0003-0798-974X"
         },
         {
           "name": "Yu Jiang 0001",
+          "display_name": "Yu Jiang",
           "pid": "21/4633-1",
           "orcid": "0000-0003-0955-503X"
         }
@@ -3400,6 +3821,7 @@
       "authors": [
         {
           "name": "Jia-Ju Bai",
+          "display_name": "Jia-Ju Bai",
           "pid": "161/7805",
           "orcid": "0000-0002-9500-6100"
         }
@@ -3425,16 +3847,19 @@
       "authors": [
         {
           "name": "João Oliveira",
+          "display_name": "João Oliveira",
           "pid": "41/3562",
           "orcid": "0000-0002-0393-6133"
         },
         {
           "name": "João Gonçalves",
+          "display_name": "João Gonçalves",
           "pid": "23/7272",
           "orcid": "0000-0002-0131-1324"
         },
         {
           "name": "Miguel Matos",
+          "display_name": "Miguel Matos",
           "pid": "24/6041",
           "orcid": "0000-0001-6916-2866"
         }
@@ -3460,46 +3885,55 @@
       "authors": [
         {
           "name": "Daniar Heri Kurniawan",
+          "display_name": "Daniar Heri Kurniawan",
           "pid": "206/4503",
           "orcid": "0000-0003-2646-3321"
         },
         {
           "name": "Rani Ayu Putri",
+          "display_name": "Rani Ayu Putri",
           "pid": "401/8018",
           "orcid": "0009-0000-0011-9915"
         },
         {
           "name": "Peiran Qin",
+          "display_name": "Peiran Qin",
           "pid": "401/8544",
           "orcid": "0009-0003-2324-3451"
         },
         {
           "name": "Kahfi S. Zulkifli",
+          "display_name": "Kahfi S. Zulkifli",
           "pid": "339/0487",
           "orcid": "0000-0002-7850-9769"
         },
         {
           "name": "Ray A. O. Sinurat",
+          "display_name": "Ray A. O. Sinurat",
           "pid": "327/4195",
           "orcid": "0000-0002-7255-7647"
         },
         {
           "name": "Janki Bhimani",
+          "display_name": "Janki Bhimani",
           "pid": "171/1567",
           "orcid": "0000-0002-4421-9923"
         },
         {
           "name": "Sandeep Madireddy",
+          "display_name": "Sandeep Madireddy",
           "pid": "205/7527",
           "orcid": "0000-0002-0437-8655"
         },
         {
           "name": "Achmad Imam Kistijantoro",
+          "display_name": "Achmad Imam Kistijantoro",
           "pid": "72/4278",
           "orcid": "0000-0003-2065-6675"
         },
         {
           "name": "Haryadi S. Gunawi",
+          "display_name": "Haryadi S. Gunawi",
           "pid": "84/5664",
           "orcid": "0000-0003-3680-8450"
         }
@@ -3525,51 +3959,61 @@
       "authors": [
         {
           "name": "Yiming Zhang 0003",
+          "display_name": "Yiming Zhang",
           "pid": "76/5416-3",
           "orcid": "0000-0001-6450-8485"
         },
         {
           "name": "Li Wang 0123",
+          "display_name": "Li Wang",
           "pid": "58/6810-123",
           "orcid": "0009-0007-4029-2123"
         },
         {
           "name": "Shengyun Liu",
+          "display_name": "Shengyun Liu",
           "pid": "52/9705",
           "orcid": "0000-0003-1219-786X"
         },
         {
           "name": "Shun Gai",
+          "display_name": "Shun Gai",
           "pid": "329/0949",
           "orcid": "0000-0002-7967-0036"
         },
         {
           "name": "Haonan Wang",
+          "display_name": "Haonan Wang",
           "pid": "82/5517",
           "orcid": "0009-0009-2728-4625"
         },
         {
           "name": "Xin Yao 0008",
+          "display_name": "Xin Yao",
           "pid": "202/9077-8",
           "orcid": "0000-0002-5780-7900"
         },
         {
           "name": "Meiling Wang",
+          "display_name": "Meiling Wang",
           "pid": "17/1320",
           "orcid": "0000-0003-0737-2897"
         },
         {
           "name": "Kai Chen 0005",
+          "display_name": "Kai Chen",
           "pid": "c/KaiChen5",
           "orcid": "0000-0003-2587-6028"
         },
         {
           "name": "Dongsheng Li 0001",
+          "display_name": "Dongsheng Li",
           "pid": "254/0830-1",
           "orcid": "0000-0001-9743-2034"
         },
         {
           "name": "Jiwu Shu",
+          "display_name": "Jiwu Shu",
           "pid": "60/3690",
           "orcid": "0000-0002-7362-2789"
         }
@@ -3595,36 +4039,43 @@
       "authors": [
         {
           "name": "Michael Allison",
+          "display_name": "Michael Allison",
           "pid": "401/8218",
           "orcid": "0009-0008-8505-3035"
         },
         {
           "name": "Arun George",
+          "display_name": "Arun George",
           "pid": "185/6917",
           "orcid": "0009-0004-0939-6889"
         },
         {
           "name": "Javier González 0006",
+          "display_name": "Javier González",
           "pid": "366/8237-6",
           "orcid": "0009-0005-5378-9791"
         },
         {
           "name": "Dan Helmick",
+          "display_name": "Dan Helmick",
           "pid": "401/8303",
           "orcid": "0009-0005-9522-5193"
         },
         {
           "name": "Vikash Kumar",
+          "display_name": "Vikash Kumar",
           "pid": "82/7475",
           "orcid": "0009-0008-3554-8857"
         },
         {
           "name": "Roshan R. Nair",
+          "display_name": "Roshan R. Nair",
           "pid": "401/7640",
           "orcid": "0009-0004-0172-3785"
         },
         {
           "name": "Vivek Shah 0001",
+          "display_name": "Vivek Shah",
           "pid": "93/932-1",
           "orcid": "0000-0003-3216-394X"
         }
@@ -3650,16 +4101,19 @@
       "authors": [
         {
           "name": "Xiaoxiang Wu",
+          "display_name": "Xiaoxiang Wu",
           "pid": "309/2139",
           "orcid": "0009-0002-7066-9773"
         },
         {
           "name": "Baptiste Lepers",
+          "display_name": "Baptiste Lepers",
           "pid": "08/8330",
           "orcid": "0000-0001-7580-0131"
         },
         {
           "name": "Willy Zwaenepoel",
+          "display_name": "Willy Zwaenepoel",
           "pid": "z/WZwaenepoel",
           "orcid": "0000-0002-4182-6920"
         }
@@ -3685,26 +4139,31 @@
       "authors": [
         {
           "name": "Mansour Alharthi",
+          "display_name": "Mansour Alharthi",
           "pid": "248/1603",
           "orcid": "0009-0006-2458-7995"
         },
         {
           "name": "Fan Sang",
+          "display_name": "Fan Sang",
           "pid": "249/5653",
           "orcid": "0009-0002-0532-5798"
         },
         {
           "name": "Dmitrii Kuvaiskii",
+          "display_name": "Dmitrii Kuvaiskii",
           "pid": "156/3375",
           "orcid": "0009-0002-3342-4494"
         },
         {
           "name": "Mona Vij",
+          "display_name": "Mona Vij",
           "pid": "47/9256",
           "orcid": "0000-0002-5309-0391"
         },
         {
           "name": "Taesoo Kim",
+          "display_name": "Taesoo Kim",
           "pid": "38/8882",
           "orcid": "0000-0002-7440-2067"
         }
@@ -3730,36 +4189,43 @@
       "authors": [
         {
           "name": "Pierre Tholoniat",
+          "display_name": "Pierre Tholoniat",
           "pid": "249/2212",
           "orcid": "0000-0003-2815-5357"
         },
         {
           "name": "Kelly Kostopoulou",
+          "display_name": "Kelly Kostopoulou",
           "pid": "284/9667",
           "orcid": "0009-0006-2148-9767"
         },
         {
           "name": "Mosharaf Chowdhury",
+          "display_name": "Mosharaf Chowdhury",
           "pid": "42/1518",
           "orcid": "0000-0003-0884-6740"
         },
         {
           "name": "Asaf Cidon",
+          "display_name": "Asaf Cidon",
           "pid": "35/10805",
           "orcid": "0009-0007-4046-2022"
         },
         {
           "name": "Roxana Geambasu",
+          "display_name": "Roxana Geambasu",
           "pid": "g/RoxanaGeambasu",
           "orcid": "0009-0004-5209-9206"
         },
         {
           "name": "Mathias Lécuyer",
+          "display_name": "Mathias Lécuyer",
           "pid": "130/0417",
           "orcid": null
         },
         {
           "name": "Junfeng Yang",
+          "display_name": "Junfeng Yang",
           "pid": "71/3724",
           "orcid": "0009-0000-2277-6545"
         }
@@ -3785,36 +4251,43 @@
       "authors": [
         {
           "name": "Chuqi Zhang",
+          "display_name": "Chuqi Zhang",
           "pid": "332/2906",
           "orcid": "0009-0006-3550-696X"
         },
         {
           "name": "Rahul Priolkar",
+          "display_name": "Rahul Priolkar",
           "pid": "401/8100",
           "orcid": "0009-0006-2116-4954"
         },
         {
           "name": "Yuancheng Jiang",
+          "display_name": "Yuancheng Jiang",
           "pid": "320/8787",
           "orcid": "0009-0006-7833-5208"
         },
         {
           "name": "Yuan Xiao 0001",
+          "display_name": "Yuan Xiao",
           "pid": "152/3962-1",
           "orcid": "0009-0003-7249-277X"
         },
         {
           "name": "Mona Vij",
+          "display_name": "Mona Vij",
           "pid": "47/9256",
           "orcid": "0000-0002-5309-0391"
         },
         {
           "name": "Zhenkai Liang",
+          "display_name": "Zhenkai Liang",
           "pid": "99/4951",
           "orcid": "0000-0001-7138-5030"
         },
         {
           "name": "Adil Ahmad",
+          "display_name": "Adil Ahmad",
           "pid": "205/3202",
           "orcid": "0009-0002-4097-3205"
         }
@@ -3840,21 +4313,25 @@
       "authors": [
         {
           "name": "Jiacheng Shi 0002",
+          "display_name": "Jiacheng Shi",
           "pid": "195/7903-2",
           "orcid": "0000-0002-2725-8955"
         },
         {
           "name": "Yang Yu 0002",
+          "display_name": "Yang Yu",
           "pid": "46/2181-2",
           "orcid": "0009-0003-5904-5115"
         },
         {
           "name": "Jinyu Gu 0001",
+          "display_name": "Jinyu Gu",
           "pid": "197/6723-1",
           "orcid": "0000-0002-8112-8481"
         },
         {
           "name": "Yubin Xia",
+          "display_name": "Yubin Xia",
           "pid": "01/615",
           "orcid": "0000-0001-6558-5298"
         }
@@ -3880,26 +4357,31 @@
       "authors": [
         {
           "name": "Wei Chen 0169",
+          "display_name": "Wei Chen",
           "pid": "181/2832-169",
           "orcid": "0000-0003-0335-5002"
         },
         {
           "name": "Bowen Zhang",
+          "display_name": "Bowen Zhang",
           "pid": "85/7433",
           "orcid": "0000-0002-2985-6713"
         },
         {
           "name": "Chengpeng Wang 0001",
+          "display_name": "Chengpeng Wang",
           "pid": "240/2235-1",
           "orcid": "0000-0003-0617-5322"
         },
         {
           "name": "Wensheng Tang",
+          "display_name": "Wensheng Tang",
           "pid": "48/423",
           "orcid": "0000-0002-4259-3321"
         },
         {
           "name": "Charles Zhang 0001",
+          "display_name": "Charles Zhang",
           "pid": "51/7008-1",
           "orcid": "0000-0001-6417-1034"
         }
@@ -3925,31 +4407,37 @@
       "authors": [
         {
           "name": "Zhenbo Sun",
+          "display_name": "Zhenbo Sun",
           "pid": "280/0130",
           "orcid": "0000-0003-0313-1877"
         },
         {
           "name": "Shengqi Chen 0001",
+          "display_name": "Shengqi Chen",
           "pid": "156/3418",
           "orcid": "0000-0002-2310-5249"
         },
         {
           "name": "Yuanwei Wang",
+          "display_name": "Yuanwei Wang",
           "pid": "180/5118",
           "orcid": "0000-0003-4201-3654"
         },
         {
           "name": "Jian Sha",
+          "display_name": "Jian Sha",
           "pid": "362/9183",
           "orcid": "0009-0005-9564-6019"
         },
         {
           "name": "Guanyu Feng",
+          "display_name": "Guanyu Feng",
           "pid": "226/4120",
           "orcid": "0000-0002-7754-4693"
         },
         {
           "name": "Wenguang Chen",
+          "display_name": "Wenguang Chen",
           "pid": "60/810",
           "orcid": "0000-0002-4281-1018"
         }
@@ -3975,46 +4463,55 @@
       "authors": [
         {
           "name": "Guangming Sheng",
+          "display_name": "Guangming Sheng",
           "pid": "72/9556",
           "orcid": "0000-0003-3395-3994"
         },
         {
           "name": "Chi Zhang 0022",
+          "display_name": "Chi Zhang",
           "pid": "91/195-22",
           "orcid": "0000-0001-7374-1940"
         },
         {
           "name": "Zilingfeng Ye",
+          "display_name": "Zilingfeng Ye",
           "pid": "308/2517",
           "orcid": "0009-0003-5437-0445"
         },
         {
           "name": "Xibin Wu",
+          "display_name": "Xibin Wu",
           "pid": "260/6469",
           "orcid": "0009-0007-9702-5288"
         },
         {
           "name": "Wang Zhang 0017",
+          "display_name": "Wang Zhang",
           "pid": "91/4884-17",
           "orcid": "0009-0001-2436-8761"
         },
         {
           "name": "Ru Zhang 0006",
+          "display_name": "Ru Zhang",
           "pid": "80/446-6",
           "orcid": "0009-0005-8543-0097"
         },
         {
           "name": "Yanghua Peng",
+          "display_name": "Yanghua Peng",
           "pid": "195/5934",
           "orcid": "0000-0003-3989-4358"
         },
         {
           "name": "Haibin Lin",
+          "display_name": "Haibin Lin",
           "pid": "142/1829",
           "orcid": "0000-0003-4879-5335"
         },
         {
           "name": "Chuan Wu 0001",
+          "display_name": "Chuan Wu",
           "pid": "34/3772-1",
           "orcid": "0000-0002-3144-4398"
         }
@@ -4040,36 +4537,43 @@
       "authors": [
         {
           "name": "Zhanda Zhu",
+          "display_name": "Zhanda Zhu",
           "pid": "286/8500",
           "orcid": "0000-0001-7433-7384"
         },
         {
           "name": "Christina Giannoula",
+          "display_name": "Christina Giannoula",
           "pid": "220/6773",
           "orcid": "0000-0003-0162-4547"
         },
         {
           "name": "Muralidhar Andoorveedu",
+          "display_name": "Muralidhar Andoorveedu",
           "pid": "331/5445",
           "orcid": "0009-0000-6033-369X"
         },
         {
           "name": "Qidong Su",
+          "display_name": "Qidong Su",
           "pid": "276/5663",
           "orcid": "0009-0005-2612-6634"
         },
         {
           "name": "Karttikeya Mangalam",
+          "display_name": "Karttikeya Mangalam",
           "pid": "200/8205",
           "orcid": "0000-0002-2169-1395"
         },
         {
           "name": "Bojian Zheng",
+          "display_name": "Bojian Zheng",
           "pid": "207/1838",
           "orcid": "0000-0002-1999-2359"
         },
         {
           "name": "Gennady Pekhimenko",
+          "display_name": "Gennady Pekhimenko",
           "pid": "118/8979",
           "orcid": "0000-0002-3839-0919"
         }
@@ -4095,36 +4599,43 @@
       "authors": [
         {
           "name": "Qiang He 0001",
+          "display_name": "Qiang He",
           "pid": "97/6589-1",
           "orcid": "0000-0002-2607-4556"
         },
         {
           "name": "Kaibin Wang",
+          "display_name": "Kaibin Wang",
           "pid": "119/1981",
           "orcid": "0000-0001-5967-5692"
         },
         {
           "name": "Zeqian Dong",
+          "display_name": "Zeqian Dong",
           "pid": "204/4134",
           "orcid": "0000-0001-8496-7224"
         },
         {
           "name": "Liang Yuan",
+          "display_name": "Liang Yuan",
           "pid": "18/4157",
           "orcid": "0000-0002-6766-7913"
         },
         {
           "name": "Feifei Chen 0001",
+          "display_name": "Feifei Chen",
           "pid": "61/7690-1",
           "orcid": "0000-0001-5455-3792"
         },
         {
           "name": "Hai Jin 0001",
+          "display_name": "Hai Jin",
           "pid": "98/4156",
           "orcid": "0000-0002-3934-7605"
         },
         {
           "name": "Yun Yang 0001",
+          "display_name": "Yun Yang",
           "pid": "90/3406-1",
           "orcid": "0000-0002-7868-5471"
         }
@@ -4150,51 +4661,61 @@
       "authors": [
         {
           "name": "Zimeng Huang",
+          "display_name": "Zimeng Huang",
           "pid": "289/4563",
           "orcid": "0000-0002-5016-8472"
         },
         {
           "name": "Hao Nie",
+          "display_name": "Hao Nie",
           "pid": "51/7293",
           "orcid": "0000-0002-3031-5930"
         },
         {
           "name": "Haonan Jia",
+          "display_name": "Haonan Jia",
           "pid": "259/0793",
           "orcid": "0009-0003-2511-0003"
         },
         {
           "name": "Bo Jiang 0003",
+          "display_name": "Bo Jiang",
           "pid": "34/2005-3",
           "orcid": "0000-0001-6711-4342"
         },
         {
           "name": "Junchen Guo",
+          "display_name": "Junchen Guo",
           "pid": "220/7067",
           "orcid": "0000-0002-9018-8881"
         },
         {
           "name": "Jianyuan Lu",
+          "display_name": "Jianyuan Lu",
           "pid": "117/4499",
           "orcid": "0000-0003-2502-8686"
         },
         {
           "name": "Rong Wen",
+          "display_name": "Rong Wen",
           "pid": "74/11184",
           "orcid": "0009-0003-6384-1165"
         },
         {
           "name": "Biao Lyu",
+          "display_name": "Biao Lyu",
           "pid": "267/2853",
           "orcid": "0000-0002-8096-5528"
         },
         {
           "name": "Shunmin Zhu",
+          "display_name": "Shunmin Zhu",
           "pid": "299/2226",
           "orcid": "0000-0001-7756-0952"
         },
         {
           "name": "Xinbing Wang",
+          "display_name": "Xinbing Wang",
           "pid": "96/1149",
           "orcid": "0000-0002-0357-8356"
         }
@@ -4220,61 +4741,73 @@
       "authors": [
         {
           "name": "Mingxiao Ma",
+          "display_name": "Mingxiao Ma",
           "pid": "232/5390",
           "orcid": "0009-0000-4155-0605"
         },
         {
           "name": "Yuehan Zhang",
+          "display_name": "Yuehan Zhang",
           "pid": "140/8380",
           "orcid": "0009-0000-5666-6440"
         },
         {
           "name": "Jingyu Wang 0001",
+          "display_name": "Jingyu Wang",
           "pid": "37/2749-1",
           "orcid": "0000-0002-2182-2228"
         },
         {
           "name": "Bo He 0003",
+          "display_name": "Bo He",
           "pid": "04/2868-3",
           "orcid": "0000-0003-1301-4981"
         },
         {
           "name": "Chenyang Zhao 0005",
+          "display_name": "Chenyang Zhao",
           "pid": "22/8876-5",
           "orcid": "0009-0000-2550-756X"
         },
         {
           "name": "Qi Qi 0001",
+          "display_name": "Qi Qi",
           "pid": "80/6406-1",
           "orcid": "0000-0003-0829-4624"
         },
         {
           "name": "Zirui Zhuang",
+          "display_name": "Zirui Zhuang",
           "pid": "235/7014",
           "orcid": "0000-0003-3345-1732"
         },
         {
           "name": "Haifeng Sun 0001",
+          "display_name": "Haifeng Sun",
           "pid": "00/11044-1",
           "orcid": "0000-0003-3072-7422"
         },
         {
           "name": "Lingqi Guo",
+          "display_name": "Lingqi Guo",
           "pid": "302/8664",
           "orcid": "0000-0001-6999-6262"
         },
         {
           "name": "Yuebin Guo",
+          "display_name": "Yuebin Guo",
           "pid": "82/2533",
           "orcid": "0000-0001-9497-6802"
         },
         {
           "name": "Gong Zhang 0001",
+          "display_name": "Gong Zhang",
           "pid": "77/6324-1",
           "orcid": "0000-0003-0283-7050"
         },
         {
           "name": "Jianxin Liao",
+          "display_name": "Jianxin Liao",
           "pid": "60/4951",
           "orcid": "0000-0003-1486-0573"
         }
@@ -4300,51 +4833,61 @@
       "authors": [
         {
           "name": "Danfeng Shan",
+          "display_name": "Danfeng Shan",
           "pid": "137/3349",
           "orcid": "0000-0003-0852-5955"
         },
         {
           "name": "Yunguang Li",
+          "display_name": "Yunguang Li",
           "pid": "397/9221",
           "orcid": "0009-0005-4155-2914"
         },
         {
           "name": "Jinchao Ma",
+          "display_name": "Jinchao Ma",
           "pid": "178/5985",
           "orcid": "0009-0005-3754-2967"
         },
         {
           "name": "Zhenxing Zhang",
+          "display_name": "Zhenxing Zhang",
           "pid": "47/197",
           "orcid": "0009-0001-9954-5128"
         },
         {
           "name": "Zeyu Liang",
+          "display_name": "Zeyu Liang",
           "pid": "225/6232",
           "orcid": "0009-0000-4545-3167"
         },
         {
           "name": "Xinyu Wen",
+          "display_name": "Xinyu Wen",
           "pid": "41/6979",
           "orcid": "0009-0008-2180-2631"
         },
         {
           "name": "Hao Li 0011",
+          "display_name": "Hao Li",
           "pid": "17/5705-11",
           "orcid": "0000-0001-8776-6911"
         },
         {
           "name": "Wanchun Jiang",
+          "display_name": "Wanchun Jiang",
           "pid": "05/8330",
           "orcid": "0000-0001-5067-321X"
         },
         {
           "name": "Nan Li 0047",
+          "display_name": "Nan Li",
           "pid": "84/3795-47",
           "orcid": "0009-0001-7204-338X"
         },
         {
           "name": "Fengyuan Ren",
+          "display_name": "Fengyuan Ren",
           "pid": "05/6995",
           "orcid": "0000-0001-6526-3889"
         }
@@ -4370,66 +4913,79 @@
       "authors": [
         {
           "name": "Xiang Chen 0017",
+          "display_name": "Xiang Chen",
           "pid": "64/3062-17",
           "orcid": "0000-0002-0249-9664"
         },
         {
           "name": "Hongyan Liu 0001",
+          "display_name": "Hongyan Liu",
           "pid": "28/374-1",
           "orcid": "0000-0001-7753-0294"
         },
         {
           "name": "Zhengyan Zhou",
+          "display_name": "Zhengyan Zhou",
           "pid": "239/2971",
           "orcid": "0000-0003-0536-3196"
         },
         {
           "name": "Xi Sun",
+          "display_name": "Xi Sun",
           "pid": "72/6488",
           "orcid": "0009-0005-3371-8734"
         },
         {
           "name": "Wenbin Zhang 0011",
+          "display_name": "Wenbin Zhang",
           "pid": "35/4073-11",
           "orcid": "0009-0002-0528-8755"
         },
         {
           "name": "Hongyang Du 0001",
+          "display_name": "Hongyang Du",
           "pid": "174/9678",
           "orcid": "0000-0002-8220-6525"
         },
         {
           "name": "Dong Zhang 0010",
+          "display_name": "Dong Zhang",
           "pid": "68/3245-10",
           "orcid": "0000-0002-6379-0244"
         },
         {
           "name": "Xuan Liu 0006",
+          "display_name": "Xuan Liu",
           "pid": "13/5407-6",
           "orcid": "0000-0002-7966-4488"
         },
         {
           "name": "Haifeng Zhou",
+          "display_name": "Haifeng Zhou",
           "pid": "81/6572",
           "orcid": "0000-0002-8008-2805"
         },
         {
           "name": "Dusit Niyato",
+          "display_name": "Dusit Niyato",
           "pid": "76/440",
           "orcid": "0000-0002-7442-7416"
         },
         {
           "name": "Qun Huang 0001",
+          "display_name": "Qun Huang",
           "pid": "130/5419-1",
           "orcid": "0000-0002-2387-6131"
         },
         {
           "name": "Chunming Wu 0001",
+          "display_name": "Chunming Wu",
           "pid": "97/8329-1",
           "orcid": "0000-0001-7958-9687"
         },
         {
           "name": "Kui Ren 0001",
+          "display_name": "Kui Ren",
           "pid": "20/6179-1",
           "orcid": "0000-0003-3441-6277"
         }
@@ -4455,11 +5011,13 @@
       "authors": [
         {
           "name": "Tzu-Tao Chang",
+          "display_name": "Tzu-Tao Chang",
           "pid": "358/5443",
           "orcid": "0009-0009-4695-5623"
         },
         {
           "name": "Shivaram Venkataraman",
+          "display_name": "Shivaram Venkataraman",
           "pid": "65/8569",
           "orcid": "0000-0001-9575-7935"
         }
@@ -4485,71 +5043,85 @@
       "authors": [
         {
           "name": "Xin Wang 0261",
+          "display_name": "Xin Wang",
           "pid": "10/5630-261",
           "orcid": "0009-0001-8523-3887"
         },
         {
           "name": "Deguo Li",
+          "display_name": "Deguo Li",
           "pid": "138/7353",
           "orcid": "0009-0006-7383-3451"
         },
         {
           "name": "Zhihong Wang",
+          "display_name": "Zhihong Wang",
           "pid": "23/3098",
           "orcid": "0009-0005-3874-2557"
         },
         {
           "name": "Lidong Jiang",
+          "display_name": "Lidong Jiang",
           "pid": "390/6396",
           "orcid": "0000-0001-9783-7824"
         },
         {
           "name": "Shubo Wen",
+          "display_name": "Shubo Wen",
           "pid": "268/4540",
           "orcid": "0000-0001-9748-8994"
         },
         {
           "name": "Daxiang Kang",
+          "display_name": "Daxiang Kang",
           "pid": "267/2886",
           "orcid": "0000-0002-2782-8508"
         },
         {
           "name": "Engin Arslan",
+          "display_name": "Engin Arslan",
           "pid": "85/9469",
           "orcid": "0000-0002-2355-057X"
         },
         {
           "name": "Peng He 0003",
+          "display_name": "Peng He",
           "pid": "84/6016-3",
           "orcid": "0000-0002-7472-9529"
         },
         {
           "name": "Xinyu Qian",
+          "display_name": "Xinyu Qian",
           "pid": "294/1600",
           "orcid": "0009-0008-4004-6683"
         },
         {
           "name": "Bin Niu",
+          "display_name": "Bin Niu",
           "pid": "76/11184",
           "orcid": "0009-0009-9367-2087"
         },
         {
           "name": "Jianwen Pi",
+          "display_name": "Jianwen Pi",
           "pid": "253/7540",
           "orcid": "0009-0009-8338-1390"
         },
         {
           "name": "Xiaoning Ding",
+          "display_name": "Xiaoning Ding",
           "pid": "36/679",
           "orcid": "0000-0002-5688-7611"
         },
         {
           "name": "Ke Lin",
+          "display_name": "Ke Lin",
           "pid": "65/3313",
           "orcid": "0009-0007-2509-214X"
         },
         {
           "name": "Hao Luo 0013",
+          "display_name": "Hao Luo",
           "pid": "14/3727-13",
           "orcid": "0009-0008-8462-7295"
         }
