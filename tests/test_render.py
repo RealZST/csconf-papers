@@ -156,10 +156,11 @@ def test_pdf_link_is_rendered_next_to_the_title():
     )
 
 
-def test_publisher_pdf_is_labelled_because_it_may_need_a_subscription():
-    """Anyone can construct a dl.acm.org URL, but a paper that is not open
-    access asks for a subscription. Labelling that identically to free full
-    text baits the click."""
+def test_publisher_pdf_is_not_flagged_as_restricted():
+    """The ACM Digital Library is open access, so a dl.acm.org PDF is as free to
+    read as a USENIX one. An earlier version labelled these "PDF (ACM)" to warn
+    about a paywall that no longer exists. What still differs is that scripts
+    get a 403 there, which is recorded in pdf_source, not shown to readers."""
     papers = [
         Paper(
             title="Paywalled", authors=[], venue="SOSP", year=2025,
@@ -170,7 +171,8 @@ def test_publisher_pdf_is_labelled_because_it_may_need_a_subscription():
 
     out = render_venue_year("SOSP", 2025, papers, None, "2026-08-12")
 
-    assert "· [PDF (ACM)](https://dl.acm.org/doi/pdf/10.1145/1)" in out
+    assert "· [PDF](https://dl.acm.org/doi/pdf/10.1145/1)" in out
+    assert "PDF (ACM)" not in out
 
 
 def test_paper_without_any_link_falls_back_to_a_scholar_search():

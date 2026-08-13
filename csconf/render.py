@@ -35,11 +35,15 @@ def _render_links(paper: Paper) -> str:
         parts.append(urlparse(url).netloc)
 
     if paper.pdf_url:
-        # Anyone can construct a dl.acm.org URL, but a paper that is not open
-        # access asks for a subscription behind it. Labelling that the same as
-        # free full text baits the click.
-        label = "PDF (ACM)" if paper.pdf_source == "publisher-doi" else "PDF"
-        parts.append("[{}]({})".format(label, paper.pdf_url))
+        # Every one of these is free to read, including the dl.acm.org ones: the
+        # ACM Digital Library is open access now, and only its Premium Edition
+        # extras need a subscription. An earlier version labelled those
+        # "PDF (ACM)" to warn about a paywall that no longer exists, which told
+        # readers to expect a barrier that is not there. What does still differ
+        # is machine access — dl.acm.org answers automated requests with 403 —
+        # and that is a fact about scripts, not readers, so it belongs in
+        # pdf_source in the JSON rather than in a list meant for people.
+        parts.append("[PDF]({})".format(paper.pdf_url))
 
     return " · ".join(parts)
 
@@ -92,9 +96,11 @@ def render_readme(
         "PDF links are derived from the link each paper already has: PVLDB "
         "points at a PDF directly, a USENIX presentation URL yields the file "
         "under `/system/files/` (checked with a HEAD request before it is "
-        "published), and an ACM DOI builds a `dl.acm.org` address. The last "
-        "kind is labelled `PDF (ACM)` because it needs a subscription unless "
-        "the paper is open access.",
+        "published), and an ACM DOI builds a `dl.acm.org` address. All of them "
+        "are free to read — the ACM Digital Library is open access. They differ "
+        "only in machine access: `dl.acm.org` answers automated requests with "
+        "403, so a script cannot fetch those the way it can the other two. "
+        "`pdf_source` in the JSON records which is which.",
         "",
         "Last updated: {}".format(updated),
         "",

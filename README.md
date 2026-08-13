@@ -6,7 +6,7 @@ Data lives in `data/{year}/{VENUE}.json`; human-readable listings in `papers/{ye
 
 Paper links come from DBLP where available. For editions DBLP has not indexed yet, the list is scraped from the conference site — which carries no links — and missing links are matched by title against Semantic Scholar, usually resolving to an arXiv preprint. Those are marked with their host in the listings and with `url_source` in the JSON. A paper with no link anywhere falls back to a Google Scholar search URL.
 
-PDF links are derived from the link each paper already has: PVLDB points at a PDF directly, a USENIX presentation URL yields the file under `/system/files/` (checked with a HEAD request before it is published), and an ACM DOI builds a `dl.acm.org` address. The last kind is labelled `PDF (ACM)` because it needs a subscription unless the paper is open access.
+PDF links are derived from the link each paper already has: PVLDB points at a PDF directly, a USENIX presentation URL yields the file under `/system/files/` (checked with a HEAD request before it is published), and an ACM DOI builds a `dl.acm.org` address. All of them are free to read — the ACM Digital Library is open access. They differ only in machine access: `dl.acm.org` answers automated requests with 403, so a script cannot fetch those the way it can the other two. `pdf_source` in the JSON records which is which.
 
 Last updated: 2026-08-12
 
