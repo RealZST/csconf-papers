@@ -26,6 +26,24 @@ _SIGOPS_ITEM = re.compile(r"<li\b[^>]*>(.*?)</li>", re.DOTALL)
 _SIGOPS_TITLE = re.compile(r"<b>(.*?)</b>", re.DOTALL)
 _SIGOPS_AUTHORS = re.compile(r"<em>(.*?)</em>", re.DOTALL)
 
+# MLSys publishes its own proceedings, so unlike the SOSP and OSDI fallbacks
+# this page carries a link per paper, and affiliations are not inline.
+_MLSYS_BASE = "https://proceedings.mlsys.org"
+_MLSYS_ITEM = re.compile(
+    r'<li class="conference"[^>]*>(.*?)</li>', re.DOTALL
+)
+_MLSYS_TITLE = re.compile(r'<a[^>]*href="([^"]+)"[^>]*>(.*?)</a>', re.DOTALL)
+_MLSYS_AUTHORS = re.compile(r'<span class="paper-authors">(.*?)</span>', re.DOTALL)
+
+# The MobiCom page's own navigation is made of <li> as well. Scoping by the
+# section div does not work with a regex — div.acceptedpapers contains a
+# div.pauthors per paper, so a non-greedy match to </div> stops at the first
+# inner one. Cut from the marker to the end of the document instead, and require
+# each entry to carry both a <b> title and a pauthors block. Navigation items
+# have neither.
+_MOBICOM_MARKER = '<div class="acceptedpapers">' 
+_MOBICOM_AUTHORS = re.compile(r'<div class="pauthors">\s*Authors:(.*?)</div>', re.DOTALL)
+
 _EM_BLOCK = re.compile(r"<em\b[^>]*>.*?</em>", re.DOTALL)
 _PAREN_GROUP = re.compile(r"\([^()]*\)")
 _TAG = re.compile(r"<[^>]+>")
@@ -168,9 +186,79 @@ def parse_sigops_accepted(html: str, venue: str, year: int) -> List[Paper]:
     return papers
 
 
+def parse_mlsys_proceedings(html: str, venue: str, year: int) -> List[Paper]:
+    """Parse the MLSys proceedings listing.
+
+    This is a published proceedings rather than an acceptance announcement, so
+    every entry has an abstract page — and a PDF derivable from it. Author names
+    sit alone in their span with no affiliations, so a comma split is enough
+    and none of the parenthesis stripping applies.
+    """
+    papers: List[Paper] = []
+
+    for item in _MLSYS_ITEM.findall(strip_comments(html)):
+        heading = _MLSYS_TITLE.search(item)
+        if heading is None:
+            continue
+
+        title = _clean_title(_text_of(heading.group(2)))
+        if not title:
+            continue
+
+        authors: List[Author] = []
+        match = _MLSYS_AUTHORS.search(item)
+        if match:
+            authors = _split_names(_text_of(match.group(1)))
+
+        papers.append(
+            _make_paper(
+                title, authors, venue, year, url=urljoin(_MLSYS_BASE, heading.group(1))
+            )
+        )
+
+    return papers
+
+
+def parse_mobicom_accepted(html: str, venue: str, year: int) -> List[Paper]:
+    """Parse the MobiCom accepted-papers page.
+
+    An entry is recognised by its shape — a <b> title plus a pauthors block —
+    because the site navigation is built from <li> too, and scoping by the
+    section div is not possible with a regex: div.acceptedpapers contains one
+    div.pauthors per paper, so a non-greedy match to </div> stops inside the
+    first paper. Without the shape check, "Author Info Summarized Camera-Ready
+    Deadlines" would enter the corpus as a paper. The page splits its list
+    across rounds under <h2> headings; all of them are the same edition.
+    """
+    text = strip_comments(html)
+    marker = text.find(_MOBICOM_MARKER)
+    if marker != -1:
+        text = text[marker:]
+
+    papers: List[Paper] = []
+    for item in _SIGOPS_ITEM.findall(text):
+        title_match = _SIGOPS_TITLE.search(item)
+        authors_match = _MOBICOM_AUTHORS.search(item)
+        if title_match is None or authors_match is None:
+            continue
+
+        title = _clean_title(_text_of(title_match.group(1)))
+        if not title:
+            continue
+
+        authors = _split_names(
+            _strip_affiliations(_text_of(authors_match.group(1)))
+        )
+        papers.append(_make_paper(title, authors, venue, year))
+
+    return papers
+
+
 PARSERS: Dict[str, Callable[..., List[Paper]]] = {
     "OSDI": parse_usenix_sessions,
     "SOSP": parse_sigops_accepted,
+    "MLSys": parse_mlsys_proceedings,
+    "MobiCom": parse_mobicom_accepted,
 }
 
 

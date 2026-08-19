@@ -1,0 +1,3766 @@
+{
+  "meta": {
+    "venue": "MLSys",
+    "year": 2025,
+    "source_keys": [
+      "conf/mlsys/mlsys2025"
+    ],
+    "paper_count": 61,
+    "note": null,
+    "updated": "2026-08-13"
+  },
+  "papers": [
+    {
+      "title": "AdaParse: An Adaptive Parallel PDF Parsing and Resource Scaling Engine",
+      "authors": [
+        {
+          "name": "Carlo Siebenschuh",
+          "display_name": "Carlo Siebenschuh",
+          "pid": "259/6274",
+          "orcid": null
+        },
+        {
+          "name": "Kyle Hippe",
+          "display_name": "Kyle Hippe",
+          "pid": "285/6543",
+          "orcid": null
+        },
+        {
+          "name": "Ozan Gökdemir",
+          "display_name": "Ozan Gökdemir",
+          "pid": "272/3096",
+          "orcid": null
+        },
+        {
+          "name": "Alexander Brace",
+          "display_name": "Alexander Brace",
+          "pid": "276/6183",
+          "orcid": null
+        },
+        {
+          "name": "Arham Mushtaq Khan",
+          "display_name": "Arham Mushtaq Khan",
+          "pid": "340/4060",
+          "orcid": null
+        },
+        {
+          "name": "Khalid Hossain",
+          "display_name": "Khalid Hossain",
+          "pid": "73/4517",
+          "orcid": null
+        },
+        {
+          "name": "Yadu N. Babuji",
+          "display_name": "Yadu N. Babuji",
+          "pid": "188/5920",
+          "orcid": null
+        },
+        {
+          "name": "Nicholas Chia",
+          "display_name": "Nicholas Chia",
+          "pid": "66/4827",
+          "orcid": null
+        },
+        {
+          "name": "Venkatram Vishwanath",
+          "display_name": "Venkatram Vishwanath",
+          "pid": "30/6369",
+          "orcid": null
+        },
+        {
+          "name": "Arvind Ramanathan",
+          "display_name": "Arvind Ramanathan",
+          "pid": "51/5675",
+          "orcid": null
+        },
+        {
+          "name": "Rick L. Stevens",
+          "display_name": "Rick L. Stevens",
+          "pid": "s/RickLStevens",
+          "orcid": null
+        },
+        {
+          "name": "Ian T. Foster",
+          "display_name": "Ian T. Foster",
+          "pid": "f/IanTFoster",
+          "orcid": null
+        },
+        {
+          "name": "Robert Underwood",
+          "display_name": "Robert Underwood",
+          "pid": "178/6201",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=wYzc2UnQKt",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=wYzc2UnQKt",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/SiebenschuhHGBK25"
+    },
+    {
+      "title": "LeanAttention: Hardware-Aware Scalable Attention Mechanism for the Decode-Phase of Transformers",
+      "authors": [
+        {
+          "name": "Rya Sanovar",
+          "display_name": "Rya Sanovar",
+          "pid": "377/7725",
+          "orcid": null
+        },
+        {
+          "name": "Srikant Bharadwaj",
+          "display_name": "Srikant Bharadwaj",
+          "pid": "232/0137",
+          "orcid": null
+        },
+        {
+          "name": "Renée St. Amant",
+          "display_name": "Renée St. Amant",
+          "pid": "44/6944",
+          "orcid": null
+        },
+        {
+          "name": "Victor Rühle",
+          "display_name": "Victor Rühle",
+          "pid": "277/8100",
+          "orcid": null
+        },
+        {
+          "name": "Saravan Rajmohan",
+          "display_name": "Saravan Rajmohan",
+          "pid": "313/9883",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=KVZDNEoC0Q",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=KVZDNEoC0Q",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/SanovarBARR25"
+    },
+    {
+      "title": "SparseTransX: Efficient Training of Translation-Based Knowledge Graph Embeddings Using Sparse Matrix Operations",
+      "authors": [
+        {
+          "name": "Md. Saidul Hoque Anik",
+          "display_name": "Md. Saidul Hoque Anik",
+          "pid": "218/7815",
+          "orcid": null
+        },
+        {
+          "name": "Ariful Azad",
+          "display_name": "Ariful Azad",
+          "pid": "79/8436",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=73tG7ZDSBT",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=73tG7ZDSBT",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/AnikA25"
+    },
+    {
+      "title": "FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving",
+      "authors": [
+        {
+          "name": "Zihao Ye 0001",
+          "display_name": "Zihao Ye",
+          "pid": "126/0507-1",
+          "orcid": null
+        },
+        {
+          "name": "Lequn Chen 0001",
+          "display_name": "Lequn Chen",
+          "pid": "213/7314-1",
+          "orcid": null
+        },
+        {
+          "name": "Ruihang Lai",
+          "display_name": "Ruihang Lai",
+          "pid": "321/1573",
+          "orcid": null
+        },
+        {
+          "name": "Wuwei Lin",
+          "display_name": "Wuwei Lin",
+          "pid": "215/5217",
+          "orcid": null
+        },
+        {
+          "name": "Yineng Zhang",
+          "display_name": "Yineng Zhang",
+          "pid": "366/3214",
+          "orcid": null
+        },
+        {
+          "name": "Stephanie Wang",
+          "display_name": "Stephanie Wang",
+          "pid": "175/6757",
+          "orcid": null
+        },
+        {
+          "name": "Tianqi Chen 0001",
+          "display_name": "Tianqi Chen",
+          "pid": "94/8023-1",
+          "orcid": null
+        },
+        {
+          "name": "Baris Kasikci",
+          "display_name": "Baris Kasikci",
+          "pid": "31/11029",
+          "orcid": null
+        },
+        {
+          "name": "Vinod Grover",
+          "display_name": "Vinod Grover",
+          "pid": "87/2753",
+          "orcid": null
+        },
+        {
+          "name": "Arvind Krishnamurthy",
+          "display_name": "Arvind Krishnamurthy",
+          "pid": "k/AKrishnamurthy",
+          "orcid": null
+        },
+        {
+          "name": "Luis Ceze",
+          "display_name": "Luis Ceze",
+          "pid": "95/5263",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=RXPofAsL8F",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=RXPofAsL8F",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/00010LLZW0KGKC25"
+    },
+    {
+      "title": "Optimizing LLM Queries in Relational Data Analytics Workloads",
+      "authors": [
+        {
+          "name": "Shu Liu",
+          "display_name": "Shu Liu",
+          "pid": "57/1180",
+          "orcid": null
+        },
+        {
+          "name": "Asim Biswal",
+          "display_name": "Asim Biswal",
+          "pid": "351/6014",
+          "orcid": null
+        },
+        {
+          "name": "Amog Kamsetty",
+          "display_name": "Amog Kamsetty",
+          "pid": "220/4132",
+          "orcid": null
+        },
+        {
+          "name": "Audrey Cheng",
+          "display_name": "Audrey Cheng",
+          "pid": "263/3719",
+          "orcid": null
+        },
+        {
+          "name": "Luis Gaspar Schroeder",
+          "display_name": "Luis Gaspar Schroeder",
+          "pid": "399/6711",
+          "orcid": null
+        },
+        {
+          "name": "Liana Patel",
+          "display_name": "Liana Patel",
+          "pid": "284/0680",
+          "orcid": null
+        },
+        {
+          "name": "Shiyi Cao",
+          "display_name": "Shiyi Cao",
+          "pid": "140/5829",
+          "orcid": null
+        },
+        {
+          "name": "Xiangxi Mo",
+          "display_name": "Xiangxi Mo",
+          "pid": "232/2059",
+          "orcid": null
+        },
+        {
+          "name": "Ion Stoica",
+          "display_name": "Ion Stoica",
+          "pid": "s/IonStoica",
+          "orcid": null
+        },
+        {
+          "name": "Joseph E. Gonzalez",
+          "display_name": "Joseph E. Gonzalez",
+          "pid": "61/8262",
+          "orcid": null
+        },
+        {
+          "name": "Matei Zaharia",
+          "display_name": "Matei Zaharia",
+          "pid": "36/2133",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=R7bK9yycHp",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=R7bK9yycHp",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/LiuBKCSPCMSGZ25"
+    },
+    {
+      "title": "MEADOW: Memory-efficient Dataflow and Data Packing for Low Power Edge LLMs",
+      "authors": [
+        {
+          "name": "Abhishek Moitra",
+          "display_name": "Abhishek Moitra",
+          "pid": "232/8411",
+          "orcid": null
+        },
+        {
+          "name": "Arkapravo Ghosh",
+          "display_name": "Arkapravo Ghosh",
+          "pid": "385/7181",
+          "orcid": null
+        },
+        {
+          "name": "Shrey Agrawal",
+          "display_name": "Shrey Agrawal",
+          "pid": "248/8213",
+          "orcid": null
+        },
+        {
+          "name": "Aporva Amarnath",
+          "display_name": "Aporva Amarnath",
+          "pid": "204/4396",
+          "orcid": null
+        },
+        {
+          "name": "Karthik Swaminathan",
+          "display_name": "Karthik Swaminathan",
+          "pid": "13/3711",
+          "orcid": null
+        },
+        {
+          "name": "Priyadarshini Panda",
+          "display_name": "Priyadarshini Panda",
+          "pid": "168/8446",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=fR7Plt5D7p",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=fR7Plt5D7p",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/MoitraGAASP25"
+    },
+    {
+      "title": "Rubick: Exploiting Job Reconfigurability for Deep Learning Cluster Scheduling",
+      "authors": [
+        {
+          "name": "Xinyi Zhang",
+          "display_name": "Xinyi Zhang",
+          "pid": "04/4189",
+          "orcid": null
+        },
+        {
+          "name": "Hanyu Zhao",
+          "display_name": "Hanyu Zhao",
+          "pid": "222/8149",
+          "orcid": null
+        },
+        {
+          "name": "Wencong Xiao",
+          "display_name": "Wencong Xiao",
+          "pid": "167/7982",
+          "orcid": null
+        },
+        {
+          "name": "Xianyan Jia",
+          "display_name": "Xianyan Jia",
+          "pid": "183/9294",
+          "orcid": null
+        },
+        {
+          "name": "Fei Xu",
+          "display_name": "Fei Xu",
+          "pid": "42/5065",
+          "orcid": null
+        },
+        {
+          "name": "Yong Li 0045",
+          "display_name": "Yong Li",
+          "pid": "93/2334-45",
+          "orcid": null
+        },
+        {
+          "name": "Wei Lin 0016",
+          "display_name": "Wei Lin",
+          "pid": "99/2649-16",
+          "orcid": null
+        },
+        {
+          "name": "Fangming Liu",
+          "display_name": "Fangming Liu",
+          "pid": "31/6019",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=tuziIJjRj5",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=tuziIJjRj5",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/ZhangZXJX00L25"
+    },
+    {
+      "title": "LAVA: Lifetime-Aware VM Allocation with Learned Distributions and Adaptation to Mispredictions",
+      "authors": [
+        {
+          "name": "Jianheng Ling",
+          "display_name": "Jianheng Ling",
+          "pid": "227/9966",
+          "orcid": null
+        },
+        {
+          "name": "Pratik Worah",
+          "display_name": "Pratik Worah",
+          "pid": "65/6450",
+          "orcid": null
+        },
+        {
+          "name": "Yawen Wang",
+          "display_name": "Yawen Wang",
+          "pid": "11/7449",
+          "orcid": null
+        },
+        {
+          "name": "Yunchuan Kong",
+          "display_name": "Yunchuan Kong",
+          "pid": "207/8527",
+          "orcid": null
+        },
+        {
+          "name": "Chunlei Wang",
+          "display_name": "Chunlei Wang",
+          "pid": "43/2852",
+          "orcid": null
+        },
+        {
+          "name": "Clifford Stein 0003",
+          "display_name": "Clifford Stein",
+          "pid": "395/2975",
+          "orcid": null
+        },
+        {
+          "name": "Diwakar Gupta",
+          "display_name": "Diwakar Gupta",
+          "pid": "28/541",
+          "orcid": null
+        },
+        {
+          "name": "Jason Behmer",
+          "display_name": "Jason Behmer",
+          "pid": "76/8732",
+          "orcid": null
+        },
+        {
+          "name": "Logan A. Bush",
+          "display_name": "Logan A. Bush",
+          "pid": "395/2278",
+          "orcid": null
+        },
+        {
+          "name": "Prakash Ramanan",
+          "display_name": "Prakash Ramanan",
+          "pid": "59/6842",
+          "orcid": null
+        },
+        {
+          "name": "Rajesh Kumar",
+          "display_name": "Rajesh Kumar",
+          "pid": "30/5688",
+          "orcid": null
+        },
+        {
+          "name": "Thomas Chestna",
+          "display_name": "Thomas Chestna",
+          "pid": "125/2901",
+          "orcid": null
+        },
+        {
+          "name": "Yajing Liu",
+          "display_name": "Yajing Liu",
+          "pid": "80/10646",
+          "orcid": null
+        },
+        {
+          "name": "Ying Liu",
+          "display_name": "Ying Liu",
+          "pid": "91/112",
+          "orcid": null
+        },
+        {
+          "name": "Ye Zhao",
+          "display_name": "Ye Zhao",
+          "pid": "72/6144",
+          "orcid": null
+        },
+        {
+          "name": "Kathryn S. McKinley",
+          "display_name": "Kathryn S. McKinley",
+          "pid": "m/KSMcKinley",
+          "orcid": null
+        },
+        {
+          "name": "Meeyoung Park",
+          "display_name": "Meeyoung Park",
+          "pid": "55/920",
+          "orcid": null
+        },
+        {
+          "name": "Martin Maas 0001",
+          "display_name": "Martin Maas",
+          "pid": "06/6147-1",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=9vyyfVNW1E",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=9vyyfVNW1E",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/LingWWKW0GBBRKC25"
+    },
+    {
+      "title": "SOLA: Optimizing SLO Attainment for Large Language Model Serving with State-Aware Scheduling",
+      "authors": [
+        {
+          "name": "Ke Hong",
+          "display_name": "Ke Hong",
+          "pid": "72/8584",
+          "orcid": null
+        },
+        {
+          "name": "Xiuhong Li",
+          "display_name": "Xiuhong Li",
+          "pid": "146/2330",
+          "orcid": null
+        },
+        {
+          "name": "Lufang Chen",
+          "display_name": "Lufang Chen",
+          "pid": "405/7835",
+          "orcid": null
+        },
+        {
+          "name": "Qiuli Mao",
+          "display_name": "Qiuli Mao",
+          "pid": "359/9878",
+          "orcid": null
+        },
+        {
+          "name": "Guohao Dai 0001",
+          "display_name": "Guohao Dai",
+          "pid": "147/1470",
+          "orcid": null
+        },
+        {
+          "name": "Xuefei Ning",
+          "display_name": "Xuefei Ning",
+          "pid": "202/9525",
+          "orcid": null
+        },
+        {
+          "name": "Shengen Yan",
+          "display_name": "Shengen Yan",
+          "pid": "117/6968",
+          "orcid": null
+        },
+        {
+          "name": "Yun Liang 0001",
+          "display_name": "Yun Liang",
+          "pid": "83/2265",
+          "orcid": null
+        },
+        {
+          "name": "Yu Wang 0002",
+          "display_name": "Yu Wang",
+          "pid": "w/YuWang2",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=ubIvpetAd6",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=ubIvpetAd6",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/HongLCMDNY0025"
+    },
+    {
+      "title": "Balancing Pipeline Parallelism with Vocabulary Parallelism",
+      "authors": [
+        {
+          "name": "Man Tsung Yeung",
+          "display_name": "Man Tsung Yeung",
+          "pid": "393/4250",
+          "orcid": null
+        },
+        {
+          "name": "Penghui Qi",
+          "display_name": "Penghui Qi",
+          "pid": "236/4626",
+          "orcid": null
+        },
+        {
+          "name": "Min Lin",
+          "display_name": "Min Lin",
+          "pid": "73/1685",
+          "orcid": null
+        },
+        {
+          "name": "Xinyi Wan",
+          "display_name": "Xinyi Wan",
+          "pid": "284/4096",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=nlRGXpglaO",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=nlRGXpglaO",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/YeungQLW25"
+    },
+    {
+      "title": "Self-Data Distillation for Recovering Quality in Pruned Large Language Models",
+      "authors": [
+        {
+          "name": "Vithursan Thangarasa",
+          "display_name": "Vithursan Thangarasa",
+          "pid": "223/9965",
+          "orcid": null
+        },
+        {
+          "name": "Ganesh Venkatesh",
+          "display_name": "Ganesh Venkatesh",
+          "pid": "58/3393",
+          "orcid": null
+        },
+        {
+          "name": "Mike Lasby",
+          "display_name": "Mike Lasby",
+          "pid": "319/5507",
+          "orcid": null
+        },
+        {
+          "name": "Nish Sinnadurai",
+          "display_name": "Nish Sinnadurai",
+          "pid": "390/6997",
+          "orcid": null
+        },
+        {
+          "name": "Sean Lie",
+          "display_name": "Sean Lie",
+          "pid": "61/4970",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=ewkcZuU9Gk",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=ewkcZuU9Gk",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/ThangarasaVLSL25"
+    },
+    {
+      "title": "Lightweight Software Kernels and Hardware Extensions for Efficient Sparse Deep Neural Networks on Microcontrollers",
+      "authors": [
+        {
+          "name": "Francesco Daghero",
+          "display_name": "Francesco Daghero",
+          "pid": "282/5028",
+          "orcid": null
+        },
+        {
+          "name": "Daniele Jahier Pagliari",
+          "display_name": "Daniele Jahier Pagliari",
+          "pid": "173/7133",
+          "orcid": null
+        },
+        {
+          "name": "Francesco Conti 0001",
+          "display_name": "Francesco Conti",
+          "pid": "50/8932-1",
+          "orcid": null
+        },
+        {
+          "name": "Luca Benini",
+          "display_name": "Luca Benini",
+          "pid": "b/LucaBenini",
+          "orcid": null
+        },
+        {
+          "name": "Massimo Poncino",
+          "display_name": "Massimo Poncino",
+          "pid": "20/691",
+          "orcid": null
+        },
+        {
+          "name": "Alessio Burrello",
+          "display_name": "Alessio Burrello",
+          "pid": "227/3428",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=NJvVOgN81a",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=NJvVOgN81a",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/DagheroP0BPB25"
+    },
+    {
+      "title": "ProtoRAIL: A Risk-cognizant Imitation Agent for Adaptive vCPU Oversubscription In the Cloud",
+      "authors": [
+        {
+          "name": "Lu Wang 0029",
+          "display_name": "Lu Wang",
+          "pid": "49/3800-29",
+          "orcid": null
+        },
+        {
+          "name": "Mayukh Das",
+          "display_name": "Mayukh Das",
+          "pid": "186/1469",
+          "orcid": null
+        },
+        {
+          "name": "Fangkai Yang",
+          "display_name": "Fangkai Yang",
+          "pid": "91/3135",
+          "orcid": null
+        },
+        {
+          "name": "Bo Qiao 0001",
+          "display_name": "Bo Qiao",
+          "pid": "167/2640-1",
+          "orcid": null
+        },
+        {
+          "name": "Hang Dong 0004",
+          "display_name": "Hang Dong",
+          "pid": "135/8614-4",
+          "orcid": null
+        },
+        {
+          "name": "Si Qin",
+          "display_name": "Si Qin",
+          "pid": "148/9596",
+          "orcid": null
+        },
+        {
+          "name": "Victor Rühle",
+          "display_name": "Victor Rühle",
+          "pid": "277/8100",
+          "orcid": null
+        },
+        {
+          "name": "Chetan Bansal",
+          "display_name": "Chetan Bansal",
+          "pid": "47/9801",
+          "orcid": null
+        },
+        {
+          "name": "Eli Cortez",
+          "display_name": "Eli Cortez",
+          "pid": "c/EliCortez",
+          "orcid": null
+        },
+        {
+          "name": "Íñigo Goiri",
+          "display_name": "Íñigo Goiri",
+          "pid": "47/3727",
+          "orcid": null
+        },
+        {
+          "name": "Saravan Rajmohan",
+          "display_name": "Saravan Rajmohan",
+          "pid": "313/9883",
+          "orcid": null
+        },
+        {
+          "name": "Qingwei Lin",
+          "display_name": "Qingwei Lin",
+          "pid": "120/0743",
+          "orcid": null
+        },
+        {
+          "name": "Dongmei Zhang 0001",
+          "display_name": "Dongmei Zhang",
+          "pid": "87/461-1",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=Dt8s7CIsEu",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=Dt8s7CIsEu",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/0029DY00QRBCGRL25"
+    },
+    {
+      "title": "HyC-LoRA: Memory Efficient LoRA Fine-tuning with Hybrid Activation Compression",
+      "authors": [
+        {
+          "name": "Yujin Wang",
+          "display_name": "Yujin Wang",
+          "pid": "158/5229",
+          "orcid": null
+        },
+        {
+          "name": "Shunan Dong",
+          "display_name": "Shunan Dong",
+          "pid": "284/4705",
+          "orcid": null
+        },
+        {
+          "name": "Zongle Huang",
+          "display_name": "Zongle Huang",
+          "pid": "370/8565",
+          "orcid": null
+        },
+        {
+          "name": "Yichen You",
+          "display_name": "Yichen You",
+          "pid": "408/7492",
+          "orcid": null
+        },
+        {
+          "name": "Liu He",
+          "display_name": "Liu He",
+          "pid": "90/1052",
+          "orcid": null
+        },
+        {
+          "name": "Huazhong Yang",
+          "display_name": "Huazhong Yang",
+          "pid": "94/1128",
+          "orcid": null
+        },
+        {
+          "name": "Yongpan Liu",
+          "display_name": "Yongpan Liu",
+          "pid": "15/2486",
+          "orcid": null
+        },
+        {
+          "name": "Hongyang Jia",
+          "display_name": "Hongyang Jia",
+          "pid": "02/11188",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=WU86J4uM9V",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=WU86J4uM9V",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/WangDHYHYLJ25"
+    },
+    {
+      "title": "ThunderServe: High-performance and Cost-efficient LLM Serving in Cloud Environments",
+      "authors": [
+        {
+          "name": "Youhe Jiang",
+          "display_name": "Youhe Jiang",
+          "pid": "277/3573",
+          "orcid": null
+        },
+        {
+          "name": "Fangcheng Fu",
+          "display_name": "Fangcheng Fu",
+          "pid": "219/9677",
+          "orcid": null
+        },
+        {
+          "name": "Xiaozhe Yao",
+          "display_name": "Xiaozhe Yao",
+          "pid": "212/8935",
+          "orcid": null
+        },
+        {
+          "name": "Taiyi Wang",
+          "display_name": "Taiyi Wang",
+          "pid": "235/8968",
+          "orcid": null
+        },
+        {
+          "name": "Bin Cui 0001",
+          "display_name": "Bin Cui",
+          "pid": "55/5031",
+          "orcid": null
+        },
+        {
+          "name": "Ana Klimovic",
+          "display_name": "Ana Klimovic",
+          "pid": "140/2247",
+          "orcid": null
+        },
+        {
+          "name": "Eiko Yoneki",
+          "display_name": "Eiko Yoneki",
+          "pid": "12/6940",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=44PwmgOpAt",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=44PwmgOpAt",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/JiangFYW0KY25"
+    },
+    {
+      "title": "Enabling Unstructured Sparse Acceleration on Structured Sparse Accelerators",
+      "authors": [
+        {
+          "name": "Geonhwa Jeong",
+          "display_name": "Geonhwa Jeong",
+          "pid": "219/9712",
+          "orcid": null
+        },
+        {
+          "name": "Po-An Tsai",
+          "display_name": "Po-An Tsai",
+          "pid": "160/0552",
+          "orcid": null
+        },
+        {
+          "name": "Abhimanyu Rajeshkumar Bambhaniya",
+          "display_name": "Abhimanyu Rajeshkumar Bambhaniya",
+          "pid": "312/5472",
+          "orcid": null
+        },
+        {
+          "name": "Stephen W. Keckler",
+          "display_name": "Stephen W. Keckler",
+          "pid": "k/StephenWKeckler",
+          "orcid": null
+        },
+        {
+          "name": "Tushar Krishna",
+          "display_name": "Tushar Krishna",
+          "pid": "50/2421",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=Py0XA6QQAh",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=Py0XA6QQAh",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/JeongTBKK25"
+    },
+    {
+      "title": "Supply-Chain Attacks in Machine Learning Frameworks",
+      "authors": [
+        {
+          "name": "Yue Gao 0011",
+          "display_name": "Yue Gao",
+          "pid": "33/3099-11",
+          "orcid": null
+        },
+        {
+          "name": "Ilia Shumailov",
+          "display_name": "Ilia Shumailov",
+          "pid": "213/8587",
+          "orcid": null
+        },
+        {
+          "name": "Kassem Fawaz",
+          "display_name": "Kassem Fawaz",
+          "pid": "97/535",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=EH5PZW6aCr",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=EH5PZW6aCr",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/0011SF25"
+    },
+    {
+      "title": "ScaleFusion: Scalable Inference of Spatial-Temporal Diffusion Transformers for High-Resolution Long Video Generation",
+      "authors": [
+        {
+          "name": "Jiacheng Yang",
+          "display_name": "Jiacheng Yang",
+          "pid": "66/8350",
+          "orcid": null
+        },
+        {
+          "name": "Jun Wu",
+          "display_name": "Jun Wu",
+          "pid": "20/3894",
+          "orcid": null
+        },
+        {
+          "name": "Zhen Zhang 0063",
+          "display_name": "Zhen Zhang",
+          "pid": "19/5112-63",
+          "orcid": null
+        },
+        {
+          "name": "Xinwei Fu",
+          "display_name": "Xinwei Fu",
+          "pid": "214/4615",
+          "orcid": null
+        },
+        {
+          "name": "Zhiying Xu",
+          "display_name": "Zhiying Xu",
+          "pid": "198/1380",
+          "orcid": null
+        },
+        {
+          "name": "Zhen Jia 0001",
+          "display_name": "Zhen Jia",
+          "pid": "06/180-1",
+          "orcid": null
+        },
+        {
+          "name": "Yida Wang 0003",
+          "display_name": "Yida Wang",
+          "pid": "17/1701-3",
+          "orcid": null
+        },
+        {
+          "name": "Gennady Pekhimenko",
+          "display_name": "Gennady Pekhimenko",
+          "pid": "118/8979",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=anZWBeWnWh",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=anZWBeWnWh",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/YangWZFXJWP25"
+    },
+    {
+      "title": "DiffServe: Efficiently Serving Text-to-Image Diffusion Models with Query-Aware Model Scaling",
+      "authors": [
+        {
+          "name": "Sohaib Ahmad",
+          "display_name": "Sohaib Ahmad",
+          "pid": "152/9565",
+          "orcid": null
+        },
+        {
+          "name": "Qizheng Yang",
+          "display_name": "Qizheng Yang",
+          "pid": "232/0167",
+          "orcid": null
+        },
+        {
+          "name": "Haoliang Wang",
+          "display_name": "Haoliang Wang",
+          "pid": "79/1600",
+          "orcid": null
+        },
+        {
+          "name": "Ramesh K. Sitaraman",
+          "display_name": "Ramesh K. Sitaraman",
+          "pid": "s/RameshKSitaraman",
+          "orcid": null
+        },
+        {
+          "name": "Hui Guan 0001",
+          "display_name": "Hui Guan",
+          "pid": "77/6645-1",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=1N3ShLfcTf",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=1N3ShLfcTf",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/AhmadYWS025"
+    },
+    {
+      "title": "A Bring-Your-Own-Model Approach for ML-Driven Storage Placement in Warehouse-Scale Computers",
+      "authors": [
+        {
+          "name": "Chenxi Yang",
+          "display_name": "Chenxi Yang",
+          "pid": "61/8175",
+          "orcid": null
+        },
+        {
+          "name": "Yan Li",
+          "display_name": "Yan Li",
+          "pid": "87/660",
+          "orcid": null
+        },
+        {
+          "name": "Martin Maas 0001",
+          "display_name": "Martin Maas",
+          "pid": "06/6147-1",
+          "orcid": null
+        },
+        {
+          "name": "Mustafa Uysal",
+          "display_name": "Mustafa Uysal",
+          "pid": "79/2184",
+          "orcid": null
+        },
+        {
+          "name": "Ubaid Ullah Hafeez",
+          "display_name": "Ubaid Ullah Hafeez",
+          "pid": "176/5684",
+          "orcid": null
+        },
+        {
+          "name": "Arif Merchant",
+          "display_name": "Arif Merchant",
+          "pid": "40/3294",
+          "orcid": null
+        },
+        {
+          "name": "Richard McDougall",
+          "display_name": "Richard McDougall",
+          "pid": "52/1194",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=JuGWOSB68T",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=JuGWOSB68T",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/YangL0UHMM25"
+    },
+    {
+      "title": "PipeFill: Using GPUs During Bubbles in Pipeline-parallel LLM Training",
+      "authors": [
+        {
+          "name": "Daiyaan Arfeen",
+          "display_name": "Daiyaan Arfeen",
+          "pid": "249/9386",
+          "orcid": null
+        },
+        {
+          "name": "Zhen Zhang",
+          "display_name": "Zhen Zhang",
+          "pid": "19/5112",
+          "orcid": null
+        },
+        {
+          "name": "Xinwei Fu",
+          "display_name": "Xinwei Fu",
+          "pid": "214/4615",
+          "orcid": null
+        },
+        {
+          "name": "Gregory R. Ganger",
+          "display_name": "Gregory R. Ganger",
+          "pid": "g/GregoryRGanger",
+          "orcid": null
+        },
+        {
+          "name": "Yida Wang",
+          "display_name": "Yida Wang",
+          "pid": "17/1701",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=650J0YFjnV",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=650J0YFjnV",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/ArfeenZFGW25"
+    },
+    {
+      "title": "MiLo: Efficient Quantized MoE Inference with Mixture of Low-Rank Compensators",
+      "authors": [
+        {
+          "name": "Beichen Huang",
+          "display_name": "Beichen Huang",
+          "pid": "339/0160",
+          "orcid": null
+        },
+        {
+          "name": "Yueming Yuan",
+          "display_name": "Yueming Yuan",
+          "pid": "73/2170",
+          "orcid": null
+        },
+        {
+          "name": "Zelei Shao",
+          "display_name": "Zelei Shao",
+          "pid": "405/1829",
+          "orcid": null
+        },
+        {
+          "name": "Minjia Zhang",
+          "display_name": "Minjia Zhang",
+          "pid": "58/9033",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=NXVXiJmhe1",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=NXVXiJmhe1",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/HuangYSZ25"
+    },
+    {
+      "title": "Graph Learning at Scale: Characterizing and Optimizing Pre-Propagation GNNs",
+      "authors": [
+        {
+          "name": "Zichao Yue",
+          "display_name": "Zichao Yue",
+          "pid": "354/8373",
+          "orcid": null
+        },
+        {
+          "name": "Chenhui Deng",
+          "display_name": "Chenhui Deng",
+          "pid": "250/2396",
+          "orcid": null
+        },
+        {
+          "name": "Zhiru Zhang",
+          "display_name": "Zhiru Zhang",
+          "pid": "81/4227",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=F3kUFcNRWJ",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=F3kUFcNRWJ",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/YueDZ25"
+    },
+    {
+      "title": "Lumos: Efficient Performance Modeling and Estimation for Large-scale LLM Training",
+      "authors": [
+        {
+          "name": "Mingyu Liang",
+          "display_name": "Mingyu Liang",
+          "pid": "156/9748",
+          "orcid": null
+        },
+        {
+          "name": "Hiwot Tadese Kassa",
+          "display_name": "Hiwot Tadese Kassa",
+          "pid": "231/9495",
+          "orcid": null
+        },
+        {
+          "name": "Wenyin Fu",
+          "display_name": "Wenyin Fu",
+          "pid": "92/5162",
+          "orcid": null
+        },
+        {
+          "name": "Brian Coutinho",
+          "display_name": "Brian Coutinho",
+          "pid": "294/1384",
+          "orcid": null
+        },
+        {
+          "name": "Louis Feng",
+          "display_name": "Louis Feng",
+          "pid": "13/263",
+          "orcid": null
+        },
+        {
+          "name": "Christina Delimitrou",
+          "display_name": "Christina Delimitrou",
+          "pid": "69/9942",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=mwEOLauKI5",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=mwEOLauKI5",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/LiangKFCFD25"
+    },
+    {
+      "title": "Know Where You're Uncertain When Planning with Multimodal Foundation Models: A Formal Framework",
+      "authors": [
+        {
+          "name": "Neel P. Bhatt",
+          "display_name": "Neel P. Bhatt",
+          "pid": "359/6288",
+          "orcid": null
+        },
+        {
+          "name": "Yunhao Yang",
+          "display_name": "Yunhao Yang",
+          "pid": "264/9469",
+          "orcid": null
+        },
+        {
+          "name": "Rohan Siva",
+          "display_name": "Rohan Siva",
+          "pid": "392/4128",
+          "orcid": null
+        },
+        {
+          "name": "Daniel Milan",
+          "display_name": "Daniel Milan",
+          "pid": "392/4424",
+          "orcid": null
+        },
+        {
+          "name": "Ufuk Topcu",
+          "display_name": "Ufuk Topcu",
+          "pid": "12/6659",
+          "orcid": null
+        },
+        {
+          "name": "Zhangyang Wang",
+          "display_name": "Zhangyang Wang",
+          "pid": "119/4026",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=HPHrIBlJYw",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=HPHrIBlJYw",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/BhattYSMTW25"
+    },
+    {
+      "title": "FlexInfer: Flexible LLM Inference with CPU Computations",
+      "authors": [
+        {
+          "name": "Seonjin Na",
+          "display_name": "Seonjin Na",
+          "pid": "290/9337",
+          "orcid": null
+        },
+        {
+          "name": "Geonhwa Jeong",
+          "display_name": "Geonhwa Jeong",
+          "pid": "219/9712",
+          "orcid": null
+        },
+        {
+          "name": "Byung Hoon Ahn",
+          "display_name": "Byung Hoon Ahn",
+          "pid": "241/9509",
+          "orcid": null
+        },
+        {
+          "name": "Aaron Jezghani",
+          "display_name": "Aaron Jezghani",
+          "pid": "310/9442",
+          "orcid": null
+        },
+        {
+          "name": "Jeffrey Young 0001",
+          "display_name": "Jeffrey Young",
+          "pid": "198/8661",
+          "orcid": null
+        },
+        {
+          "name": "Christopher J. Hughes",
+          "display_name": "Christopher J. Hughes",
+          "pid": "43/3660",
+          "orcid": null
+        },
+        {
+          "name": "Tushar Krishna",
+          "display_name": "Tushar Krishna",
+          "pid": "50/2421",
+          "orcid": null
+        },
+        {
+          "name": "Hyesoon Kim",
+          "display_name": "Hyesoon Kim",
+          "pid": "87/5743",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=sFNRNTduKO",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=sFNRNTduKO",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/NaJAJ0HKK25"
+    },
+    {
+      "title": "Efficient On-Device Machine Learning with a Biologically-Plausible Forward-Only Algorithm",
+      "authors": [
+        {
+          "name": "Baichuan Huang",
+          "display_name": "Baichuan Huang",
+          "pid": "179/8170",
+          "orcid": null
+        },
+        {
+          "name": "Amir Aminifar",
+          "display_name": "Amir Aminifar",
+          "pid": "15/11227",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=Nt9gB3YCWj",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=Nt9gB3YCWj",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/HuangA25"
+    },
+    {
+      "title": "Seesaw: High-throughput LLM Inference via Model Re-sharding",
+      "authors": [
+        {
+          "name": "Qidong Su",
+          "display_name": "Qidong Su",
+          "pid": "276/5663",
+          "orcid": null
+        },
+        {
+          "name": "Wei Zhao 0046",
+          "display_name": "Wei Zhao",
+          "pid": "181/2852-46",
+          "orcid": null
+        },
+        {
+          "name": "Xin Li",
+          "display_name": "Xin Li",
+          "pid": "09/1365",
+          "orcid": null
+        },
+        {
+          "name": "Muralidhar Andoorveedu",
+          "display_name": "Muralidhar Andoorveedu",
+          "pid": "331/5445",
+          "orcid": null
+        },
+        {
+          "name": "Chenhao Jiang",
+          "display_name": "Chenhao Jiang",
+          "pid": "304/7794",
+          "orcid": null
+        },
+        {
+          "name": "Zhanda Zhu",
+          "display_name": "Zhanda Zhu",
+          "pid": "286/8500",
+          "orcid": null
+        },
+        {
+          "name": "Kevin Song",
+          "display_name": "Kevin Song",
+          "pid": "128/7738",
+          "orcid": null
+        },
+        {
+          "name": "Christina Giannoula",
+          "display_name": "Christina Giannoula",
+          "pid": "220/6773",
+          "orcid": null
+        },
+        {
+          "name": "Gennady Pekhimenko",
+          "display_name": "Gennady Pekhimenko",
+          "pid": "118/8979",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=YDksTjY3YY",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=YDksTjY3YY",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/Su0LAJZSGP25"
+    },
+    {
+      "title": "FedProphet: Memory-Efficient Federated Adversarial Training via Robust and Consistent Cascade Learning",
+      "authors": [
+        {
+          "name": "Minxue Tang",
+          "display_name": "Minxue Tang",
+          "pid": "250/9350",
+          "orcid": null
+        },
+        {
+          "name": "Yitu Wang",
+          "display_name": "Yitu Wang",
+          "pid": "194/6915",
+          "orcid": null
+        },
+        {
+          "name": "Jingyang Zhang",
+          "display_name": "Jingyang Zhang",
+          "pid": "181/7506",
+          "orcid": null
+        },
+        {
+          "name": "Louis DiValentin",
+          "display_name": "Louis DiValentin",
+          "pid": "304/8912",
+          "orcid": null
+        },
+        {
+          "name": "Aolin Ding",
+          "display_name": "Aolin Ding",
+          "pid": "303/4560",
+          "orcid": null
+        },
+        {
+          "name": "Amin Hass",
+          "display_name": "Amin Hass",
+          "pid": "354/2191",
+          "orcid": null
+        },
+        {
+          "name": "Yiran Chen 0001",
+          "display_name": "Yiran Chen",
+          "pid": "80/1641",
+          "orcid": null
+        },
+        {
+          "name": "Hai Li 0001",
+          "display_name": "Hai Li",
+          "pid": "30/5330-1",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=NnmqHLjf0Y",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=NnmqHLjf0Y",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/TangWZDDH0025"
+    },
+    {
+      "title": "QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving",
+      "authors": [
+        {
+          "name": "Yujun Lin 0001",
+          "display_name": "Yujun Lin",
+          "pid": "121/1067-1",
+          "orcid": null
+        },
+        {
+          "name": "Haotian Tang",
+          "display_name": "Haotian Tang",
+          "pid": "245/0058",
+          "orcid": null
+        },
+        {
+          "name": "Shang Yang",
+          "display_name": "Shang Yang",
+          "pid": "79/9960",
+          "orcid": null
+        },
+        {
+          "name": "Zhekai Zhang",
+          "display_name": "Zhekai Zhang",
+          "pid": "213/8176",
+          "orcid": null
+        },
+        {
+          "name": "Guangxuan Xiao",
+          "display_name": "Guangxuan Xiao",
+          "pid": "283/5633",
+          "orcid": null
+        },
+        {
+          "name": "Chuang Gan 0001",
+          "display_name": "Chuang Gan",
+          "pid": "139/6993",
+          "orcid": null
+        },
+        {
+          "name": "Song Han 0001",
+          "display_name": "Song Han",
+          "pid": "80/806-1",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=1FfmStySS1",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=1FfmStySS1",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/0001TYZX0025"
+    },
+    {
+      "title": "LServe: Efficient Long-sequence LLM Serving with Unified Sparse Attention",
+      "authors": [
+        {
+          "name": "Shang Yang",
+          "display_name": "Shang Yang",
+          "pid": "79/9960",
+          "orcid": null
+        },
+        {
+          "name": "Junxian Guo",
+          "display_name": "Junxian Guo",
+          "pid": "337/1875",
+          "orcid": null
+        },
+        {
+          "name": "Haotian Tang",
+          "display_name": "Haotian Tang",
+          "pid": "245/0058",
+          "orcid": null
+        },
+        {
+          "name": "Qinghao Hu 0004",
+          "display_name": "Qinghao Hu",
+          "pid": "169/3407-4",
+          "orcid": null
+        },
+        {
+          "name": "Guangxuan Xiao",
+          "display_name": "Guangxuan Xiao",
+          "pid": "283/5633",
+          "orcid": null
+        },
+        {
+          "name": "Jiaming Tang",
+          "display_name": "Jiaming Tang",
+          "pid": "277/8890",
+          "orcid": null
+        },
+        {
+          "name": "Yujun Lin 0001",
+          "display_name": "Yujun Lin",
+          "pid": "121/1067-1",
+          "orcid": null
+        },
+        {
+          "name": "Zhijian Liu",
+          "display_name": "Zhijian Liu",
+          "pid": "04/2040",
+          "orcid": null
+        },
+        {
+          "name": "Yao Lu 0006",
+          "display_name": "Yao Lu",
+          "pid": "26/5662-6",
+          "orcid": null
+        },
+        {
+          "name": "Song Han 0003",
+          "display_name": "Song Han",
+          "pid": "80/806-3",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=KQ4pJFFqT1",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=KQ4pJFFqT1",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/YangGT0XT0L0025"
+    },
+    {
+      "title": "AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds",
+      "authors": [
+        {
+          "name": "Yinfang Chen",
+          "display_name": "Yinfang Chen",
+          "pid": "137/9792",
+          "orcid": null
+        },
+        {
+          "name": "Manish Shetty",
+          "display_name": "Manish Shetty",
+          "pid": "270/0520",
+          "orcid": null
+        },
+        {
+          "name": "Gagan Somashekar",
+          "display_name": "Gagan Somashekar",
+          "pid": "255/0512",
+          "orcid": null
+        },
+        {
+          "name": "Minghua Ma",
+          "display_name": "Minghua Ma",
+          "pid": "164/6802",
+          "orcid": null
+        },
+        {
+          "name": "Yogesh Simmhan",
+          "display_name": "Yogesh Simmhan",
+          "pid": "s/YogeshSimmhan",
+          "orcid": null
+        },
+        {
+          "name": "Jonathan Mace",
+          "display_name": "Jonathan Mace",
+          "pid": "154/0937",
+          "orcid": null
+        },
+        {
+          "name": "Chetan Bansal",
+          "display_name": "Chetan Bansal",
+          "pid": "47/9801",
+          "orcid": null
+        },
+        {
+          "name": "Rujia Wang",
+          "display_name": "Rujia Wang",
+          "pid": "159/0037",
+          "orcid": null
+        },
+        {
+          "name": "Saravan Rajmohan",
+          "display_name": "Saravan Rajmohan",
+          "pid": "313/9883",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=3EXBLwGxtq",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=3EXBLwGxtq",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/ChenSSMSMBWR25"
+    },
+    {
+      "title": "FastTree: Optimizing Attention Kernel and Runtime for Tree-Structured LLM Inference",
+      "authors": [
+        {
+          "name": "Zaifeng Pan",
+          "display_name": "Zaifeng Pan",
+          "pid": "294/8391",
+          "orcid": null
+        },
+        {
+          "name": "Yitong Ding",
+          "display_name": "Yitong Ding",
+          "pid": "266/1206",
+          "orcid": null
+        },
+        {
+          "name": "Yue Guan 0003",
+          "display_name": "Yue Guan",
+          "pid": "54/7820-3",
+          "orcid": null
+        },
+        {
+          "name": "Zheng Wang 0075",
+          "display_name": "Zheng Wang",
+          "pid": "181/2834-75",
+          "orcid": null
+        },
+        {
+          "name": "Zhongkai Yu",
+          "display_name": "Zhongkai Yu",
+          "pid": "327/2154",
+          "orcid": null
+        },
+        {
+          "name": "Xulong Tang",
+          "display_name": "Xulong Tang",
+          "pid": "66/10956",
+          "orcid": null
+        },
+        {
+          "name": "Yida Wang",
+          "display_name": "Yida Wang",
+          "pid": "17/1701",
+          "orcid": null
+        },
+        {
+          "name": "Yufei Ding 0001",
+          "display_name": "Yufei Ding",
+          "pid": "127/9591",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=BwvHcHZ3kJ",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=BwvHcHZ3kJ",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/PanD00YTW025"
+    },
+    {
+      "title": "Interference-aware Edge Runtime Prediction with Conformal Matrix Completion",
+      "authors": [
+        {
+          "name": "Tianshu Huang",
+          "display_name": "Tianshu Huang",
+          "pid": "89/3505",
+          "orcid": null
+        },
+        {
+          "name": "Arjun Ramesh",
+          "display_name": "Arjun Ramesh",
+          "pid": "363/7380",
+          "orcid": null
+        },
+        {
+          "name": "Emily Ruppel",
+          "display_name": "Emily Ruppel",
+          "pid": "187/8226",
+          "orcid": null
+        },
+        {
+          "name": "Nuno Pereira 0001",
+          "display_name": "Nuno Pereira",
+          "pid": "01/4310-1",
+          "orcid": null
+        },
+        {
+          "name": "Anthony Rowe 0001",
+          "display_name": "Anthony Rowe",
+          "pid": "02/630",
+          "orcid": null
+        },
+        {
+          "name": "Carlee Joe-Wong",
+          "display_name": "Carlee Joe-Wong",
+          "pid": "40/9937",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=jDYKh6ay0X",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=jDYKh6ay0X",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/HuangRR00J25"
+    },
+    {
+      "title": "On Distributed Larger-Than-Memory Subset Selection With Pairwise Submodular Functions",
+      "authors": [
+        {
+          "name": "Maximilian Böther",
+          "display_name": "Maximilian Böther",
+          "pid": "273/3658",
+          "orcid": null
+        },
+        {
+          "name": "Abraham Sebastian",
+          "display_name": "Abraham Sebastian",
+          "pid": "40/2632",
+          "orcid": null
+        },
+        {
+          "name": "Pranjal Awasthi",
+          "display_name": "Pranjal Awasthi",
+          "pid": "57/679",
+          "orcid": null
+        },
+        {
+          "name": "Ana Klimovic",
+          "display_name": "Ana Klimovic",
+          "pid": "140/2247",
+          "orcid": null
+        },
+        {
+          "name": "Srikumar Ramalingam",
+          "display_name": "Srikumar Ramalingam",
+          "pid": "17/4216",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=tMjNzXUu6X",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=tMjNzXUu6X",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/BotherSAKR25"
+    },
+    {
+      "title": "The Hidden Bloat in Machine Learning Systems",
+      "authors": [
+        {
+          "name": "Huaifeng Zhang",
+          "display_name": "Huaifeng Zhang",
+          "pid": "83/4393",
+          "orcid": null
+        },
+        {
+          "name": "Ahmed Ali-Eldin",
+          "display_name": "Ahmed Ali-Eldin",
+          "pid": "24/8772",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=nddxAiToZn",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=nddxAiToZn",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/ZhangA25"
+    },
+    {
+      "title": "COMET: Fine-grained Computation-communication Overlapping for Mixture-of-Experts",
+      "authors": [
+        {
+          "name": "Shulai Zhang",
+          "display_name": "Shulai Zhang",
+          "pid": "251/9029",
+          "orcid": null
+        },
+        {
+          "name": "Ningxin Zheng",
+          "display_name": "Ningxin Zheng",
+          "pid": "234/5381",
+          "orcid": null
+        },
+        {
+          "name": "Haibin Lin",
+          "display_name": "Haibin Lin",
+          "pid": "142/1829",
+          "orcid": null
+        },
+        {
+          "name": "Ziheng Jiang",
+          "display_name": "Ziheng Jiang",
+          "pid": "14/8980",
+          "orcid": null
+        },
+        {
+          "name": "Wenlei Bao",
+          "display_name": "Wenlei Bao",
+          "pid": "162/4919",
+          "orcid": null
+        },
+        {
+          "name": "Chengquan Jiang",
+          "display_name": "Chengquan Jiang",
+          "pid": "278/8241",
+          "orcid": null
+        },
+        {
+          "name": "Qi Hou",
+          "display_name": "Qi Hou",
+          "pid": "206/8476",
+          "orcid": null
+        },
+        {
+          "name": "Weihao Cui",
+          "display_name": "Weihao Cui",
+          "pid": "243/1639",
+          "orcid": null
+        },
+        {
+          "name": "Size Zheng 0001",
+          "display_name": "Size Zheng",
+          "pid": "254/6617-1",
+          "orcid": null
+        },
+        {
+          "name": "Li-Wen Chang",
+          "display_name": "Li-Wen Chang",
+          "pid": "02/4266",
+          "orcid": null
+        },
+        {
+          "name": "Quan Chen 0002",
+          "display_name": "Quan Chen",
+          "pid": "40/3858-2",
+          "orcid": null
+        },
+        {
+          "name": "Xin Liu 0086",
+          "display_name": "Xin Liu",
+          "pid": "76/1820-86",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=fGgQS5VW09",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=fGgQS5VW09",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/ZhangZLJBJHC0C025"
+    },
+    {
+      "title": "APOLLO: SGD-like Memory, AdamW-level Performance",
+      "authors": [
+        {
+          "name": "Hanqing Zhu",
+          "display_name": "Hanqing Zhu",
+          "pid": "164/8690",
+          "orcid": null
+        },
+        {
+          "name": "Zhenyu Zhang 0015",
+          "display_name": "Zhenyu Zhang",
+          "pid": "01/1844-15",
+          "orcid": null
+        },
+        {
+          "name": "Wenyan Cong",
+          "display_name": "Wenyan Cong",
+          "pid": "247/9471",
+          "orcid": null
+        },
+        {
+          "name": "Xi Liu 0011",
+          "display_name": "Xi Liu",
+          "pid": "81/7010-11",
+          "orcid": null
+        },
+        {
+          "name": "Sem Park",
+          "display_name": "Sem Park",
+          "pid": "369/4219",
+          "orcid": null
+        },
+        {
+          "name": "Vikas Chandra",
+          "display_name": "Vikas Chandra",
+          "pid": "57/5163",
+          "orcid": null
+        },
+        {
+          "name": "Bo Long",
+          "display_name": "Bo Long",
+          "pid": "96/6993",
+          "orcid": null
+        },
+        {
+          "name": "David Z. Pan",
+          "display_name": "David Z. Pan",
+          "pid": "p/DavidZhigangPan",
+          "orcid": null
+        },
+        {
+          "name": "Zhangyang Wang",
+          "display_name": "Zhangyang Wang",
+          "pid": "119/4026",
+          "orcid": null
+        },
+        {
+          "name": "Jinwon Lee",
+          "display_name": "Jinwon Lee",
+          "pid": "80/117",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=mJrPkdcZDj",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=mJrPkdcZDj",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/Zhu0CLPCLPWL25"
+    },
+    {
+      "title": "TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives",
+      "authors": [
+        {
+          "name": "Size Zheng 0001",
+          "display_name": "Size Zheng",
+          "pid": "254/6617-1",
+          "orcid": null
+        },
+        {
+          "name": "Jin Fang",
+          "display_name": "Jin Fang",
+          "pid": "128/7669",
+          "orcid": null
+        },
+        {
+          "name": "Xuegui Zheng",
+          "display_name": "Xuegui Zheng",
+          "pid": "357/2100",
+          "orcid": null
+        },
+        {
+          "name": "Qi Hou",
+          "display_name": "Qi Hou",
+          "pid": "206/8476",
+          "orcid": null
+        },
+        {
+          "name": "Wenlei Bao",
+          "display_name": "Wenlei Bao",
+          "pid": "162/4919",
+          "orcid": null
+        },
+        {
+          "name": "Ningxin Zheng",
+          "display_name": "Ningxin Zheng",
+          "pid": "234/5381",
+          "orcid": null
+        },
+        {
+          "name": "Ziheng Jiang",
+          "display_name": "Ziheng Jiang",
+          "pid": "14/8980",
+          "orcid": null
+        },
+        {
+          "name": "Dongyang Wang",
+          "display_name": "Dongyang Wang",
+          "pid": "137/0229",
+          "orcid": null
+        },
+        {
+          "name": "Jianxi Ye",
+          "display_name": "Jianxi Ye",
+          "pid": "184/0340",
+          "orcid": null
+        },
+        {
+          "name": "Haibin Lin",
+          "display_name": "Haibin Lin",
+          "pid": "142/1829",
+          "orcid": null
+        },
+        {
+          "name": "Li-Wen Chang",
+          "display_name": "Li-Wen Chang",
+          "pid": "02/4266",
+          "orcid": null
+        },
+        {
+          "name": "Xin Liu 0086",
+          "display_name": "Xin Liu",
+          "pid": "76/1820-86",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=ccjvBkTRRe",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=ccjvBkTRRe",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/0001FZHBZJWYLC025"
+    },
+    {
+      "title": "Training Ultra Long Context Language Model with Fully Pipelined Distributed Transformer",
+      "authors": [
+        {
+          "name": "Jinghan Yao",
+          "display_name": "Jinghan Yao",
+          "pid": "239/5092",
+          "orcid": null
+        },
+        {
+          "name": "Sam Ade Jacobs",
+          "display_name": "Sam Ade Jacobs",
+          "pid": "79/10956",
+          "orcid": null
+        },
+        {
+          "name": "Masahiro Tanaka",
+          "display_name": "Masahiro Tanaka",
+          "pid": "02/3804",
+          "orcid": null
+        },
+        {
+          "name": "Olatunji Ruwase",
+          "display_name": "Olatunji Ruwase",
+          "pid": "72/2838",
+          "orcid": null
+        },
+        {
+          "name": "Hari Subramoni",
+          "display_name": "Hari Subramoni",
+          "pid": "65/1958",
+          "orcid": null
+        },
+        {
+          "name": "Dhabaleswar K. Panda 0001",
+          "display_name": "Dhabaleswar K. Panda",
+          "pid": "p/DhabaleswarKPanda",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=NHwZ039A90",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=NHwZ039A90",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/YaoJTRS025"
+    },
+    {
+      "title": "VoLUT: Efficient Volumetric streaming enhanced by LUT-based super-resolution",
+      "authors": [
+        {
+          "name": "Chendong Wang",
+          "display_name": "Chendong Wang",
+          "pid": "260/4847",
+          "orcid": null
+        },
+        {
+          "name": "Anlan Zhang",
+          "display_name": "Anlan Zhang",
+          "pid": "244/1644",
+          "orcid": null
+        },
+        {
+          "name": "Yifan Yang 0004",
+          "display_name": "Yifan Yang",
+          "pid": "83/89-4",
+          "orcid": null
+        },
+        {
+          "name": "Lili Qiu",
+          "display_name": "Lili Qiu",
+          "pid": "54/4031",
+          "orcid": null
+        },
+        {
+          "name": "Yuqing Yang 0001",
+          "display_name": "Yuqing Yang",
+          "pid": "91/9064-1",
+          "orcid": null
+        },
+        {
+          "name": "Xinyang Jiang",
+          "display_name": "Xinyang Jiang",
+          "pid": "155/6316",
+          "orcid": null
+        },
+        {
+          "name": "Feng Qian 0001",
+          "display_name": "Feng Qian",
+          "pid": "54/476-1",
+          "orcid": null
+        },
+        {
+          "name": "Suman Banerjee 0001",
+          "display_name": "Suman Banerjee",
+          "pid": "345/5455-1",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=EKcNxabscU",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=EKcNxabscU",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/WangZ0Q0J0025"
+    },
+    {
+      "title": "Venn: Resource Management For Collaborative Learning Jobs",
+      "authors": [
+        {
+          "name": "Jiachen Liu",
+          "display_name": "Jiachen Liu",
+          "pid": "55/7061",
+          "orcid": null
+        },
+        {
+          "name": "Fan Lai 0001",
+          "display_name": "Fan Lai",
+          "pid": "179/2330",
+          "orcid": null
+        },
+        {
+          "name": "Eric Ding 0002",
+          "display_name": "Eric Ding",
+          "pid": "217/9657-2",
+          "orcid": null
+        },
+        {
+          "name": "Yiwen Zhang 0008",
+          "display_name": "Yiwen Zhang",
+          "pid": "56/5142-8",
+          "orcid": null
+        },
+        {
+          "name": "Mosharaf Chowdhury",
+          "display_name": "Mosharaf Chowdhury",
+          "pid": "42/1518",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=nZq15gpyNO",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=nZq15gpyNO",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/Liu000C25"
+    },
+    {
+      "title": "SwiftVI: Time-Efficient Planning and Learning with MDPs",
+      "authors": [
+        {
+          "name": "Kasper Overgaard Mortensen",
+          "display_name": "Kasper Overgaard Mortensen",
+          "pid": "344/4810",
+          "orcid": null
+        },
+        {
+          "name": "Konstantinos Skitsas",
+          "display_name": "Konstantinos Skitsas",
+          "pid": "228/8067",
+          "orcid": null
+        },
+        {
+          "name": "Emil Morre Christensen",
+          "display_name": "Emil Morre Christensen",
+          "pid": "425/2651",
+          "orcid": null
+        },
+        {
+          "name": "Mohammad Sadegh Talebi",
+          "display_name": "Mohammad Sadegh Talebi",
+          "pid": "32/1105",
+          "orcid": null
+        },
+        {
+          "name": "Andreas Pavlogiannis",
+          "display_name": "Andreas Pavlogiannis",
+          "pid": "47/8037",
+          "orcid": null
+        },
+        {
+          "name": "Davide Mottin",
+          "display_name": "Davide Mottin",
+          "pid": "135/7623",
+          "orcid": null
+        },
+        {
+          "name": "Panagiotis Karras",
+          "display_name": "Panagiotis Karras",
+          "pid": "08/5342",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=ArP6dfc2Mx",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=ArP6dfc2Mx",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/MortensenSCTPMK25"
+    },
+    {
+      "title": "NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference",
+      "authors": [
+        {
+          "name": "Xuanlin Jiang",
+          "display_name": "Xuanlin Jiang",
+          "pid": "272/2725",
+          "orcid": null
+        },
+        {
+          "name": "Yang Zhou 0008",
+          "display_name": "Yang Zhou",
+          "pid": "07/4580-8",
+          "orcid": null
+        },
+        {
+          "name": "Shiyi Cao",
+          "display_name": "Shiyi Cao",
+          "pid": "140/5829",
+          "orcid": null
+        },
+        {
+          "name": "Ion Stoica",
+          "display_name": "Ion Stoica",
+          "pid": "s/IonStoica",
+          "orcid": null
+        },
+        {
+          "name": "Minlan Yu",
+          "display_name": "Minlan Yu",
+          "pid": "89/6345",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=umgy9tWBLA",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=umgy9tWBLA",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/JiangZCSY25"
+    },
+    {
+      "title": "Rethinking Key-Value Cache Compression Techniques for Large Language Model Serving",
+      "authors": [
+        {
+          "name": "Wei Gao 0064",
+          "display_name": "Wei Gao",
+          "pid": "28/2073-64",
+          "orcid": null
+        },
+        {
+          "name": "Xinyu Zhou",
+          "display_name": "Xinyu Zhou",
+          "pid": "27/3481",
+          "orcid": null
+        },
+        {
+          "name": "Peng Sun 0006",
+          "display_name": "Peng Sun",
+          "pid": "88/619-6",
+          "orcid": null
+        },
+        {
+          "name": "Tianwei Zhang 0004",
+          "display_name": "Tianwei Zhang",
+          "pid": "77/7902-4",
+          "orcid": null
+        },
+        {
+          "name": "Yonggang Wen 0001",
+          "display_name": "Yonggang Wen",
+          "pid": "33/885",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=ou0AsNbXVG",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=ou0AsNbXVG",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/0064Z00025"
+    },
+    {
+      "title": "Youmu: Efficient Columnar Data Pipeline for LLM Training",
+      "authors": [
+        {
+          "name": "Tianle Zhong",
+          "display_name": "Tianle Zhong",
+          "pid": "307/7863",
+          "orcid": null
+        },
+        {
+          "name": "Jiechen Zhao 0002",
+          "display_name": "Jiechen Zhao",
+          "pid": "197/1962-2",
+          "orcid": null
+        },
+        {
+          "name": "Qiang Su",
+          "display_name": "Qiang Su",
+          "pid": "57/2711",
+          "orcid": null
+        },
+        {
+          "name": "Geoffrey Fox",
+          "display_name": "Geoffrey Fox",
+          "pid": "328/2670",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=I2LF8QHaua",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=I2LF8QHaua",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/Zhong0SF25"
+    },
+    {
+      "title": "Context Parallelism for Scalable Million-Token Inference",
+      "authors": [
+        {
+          "name": "Amy Yang",
+          "display_name": "Amy Yang",
+          "pid": "165/0835",
+          "orcid": null
+        },
+        {
+          "name": "Jingyi Yang",
+          "display_name": "Jingyi Yang",
+          "pid": "90/5230",
+          "orcid": null
+        },
+        {
+          "name": "Aya Ibrahim",
+          "display_name": "Aya Ibrahim",
+          "pid": "203/7303",
+          "orcid": null
+        },
+        {
+          "name": "Xinfeng Xie",
+          "display_name": "Xinfeng Xie",
+          "pid": "145/6282",
+          "orcid": null
+        },
+        {
+          "name": "Bangsheng Tang",
+          "display_name": "Bangsheng Tang",
+          "pid": "96/9282",
+          "orcid": null
+        },
+        {
+          "name": "Grigory Sizov",
+          "display_name": "Grigory Sizov",
+          "pid": "392/4394",
+          "orcid": null
+        },
+        {
+          "name": "Jongsoo Park",
+          "display_name": "Jongsoo Park",
+          "pid": "13/9348",
+          "orcid": null
+        },
+        {
+          "name": "Jianyu Huang",
+          "display_name": "Jianyu Huang",
+          "pid": "138/1840",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=Vmf09yVJhT",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=Vmf09yVJhT",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/YangYIXTSPH25"
+    },
+    {
+      "title": "Marconi: Prefix Caching for the Era of Hybrid LLMs",
+      "authors": [
+        {
+          "name": "Rui Pan 0003",
+          "display_name": "Rui Pan",
+          "pid": "74/9957-3",
+          "orcid": null
+        },
+        {
+          "name": "Zhuang Wang",
+          "display_name": "Zhuang Wang",
+          "pid": "04/6982",
+          "orcid": null
+        },
+        {
+          "name": "Zhen Jia",
+          "display_name": "Zhen Jia",
+          "pid": "06/180",
+          "orcid": null
+        },
+        {
+          "name": "Can Karakus",
+          "display_name": "Can Karakus",
+          "pid": "81/11533",
+          "orcid": null
+        },
+        {
+          "name": "Luca Zancato",
+          "display_name": "Luca Zancato",
+          "pid": "274/1481",
+          "orcid": null
+        },
+        {
+          "name": "Tri Dao",
+          "display_name": "Tri Dao",
+          "pid": "206/7018",
+          "orcid": null
+        },
+        {
+          "name": "Yida Wang",
+          "display_name": "Yida Wang",
+          "pid": "17/1701",
+          "orcid": null
+        },
+        {
+          "name": "Ravi Netravali",
+          "display_name": "Ravi Netravali",
+          "pid": "123/3350-1",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=RUaMUu7vMX",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=RUaMUu7vMX",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/0003WJKZDWN25"
+    },
+    {
+      "title": "FlexAttention: A Programming Model for Generating Fused Attention Variants",
+      "authors": [
+        {
+          "name": "Juechu Dong",
+          "display_name": "Juechu Dong",
+          "pid": "390/7634",
+          "orcid": null
+        },
+        {
+          "name": "Boyuan Feng",
+          "display_name": "Boyuan Feng",
+          "pid": "227/2946",
+          "orcid": null
+        },
+        {
+          "name": "Driss Guessous",
+          "display_name": "Driss Guessous",
+          "pid": "389/3412",
+          "orcid": null
+        },
+        {
+          "name": "Yanbo Liang",
+          "display_name": "Yanbo Liang",
+          "pid": "228/2610",
+          "orcid": null
+        },
+        {
+          "name": "Horace He",
+          "display_name": "Horace He",
+          "pid": "230/4428",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=2QMYV4bA0R",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=2QMYV4bA0R",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/DongFGLH25"
+    },
+    {
+      "title": "Spa: Scaling Graph Neural Network Training on Large graphs via Probabilistic splitting",
+      "authors": [
+        {
+          "name": "Sandeep Polisetty",
+          "display_name": "Sandeep Polisetty",
+          "pid": "274/2983",
+          "orcid": null
+        },
+        {
+          "name": "Juelin Liu",
+          "display_name": "Juelin Liu",
+          "pid": "344/1892",
+          "orcid": null
+        },
+        {
+          "name": "Yi Fung 0001",
+          "display_name": "Yi Fung",
+          "pid": "223/2782-1",
+          "orcid": null
+        },
+        {
+          "name": "Seung-Hwan Lim",
+          "display_name": "Seung-Hwan Lim",
+          "pid": "57/1315",
+          "orcid": null
+        },
+        {
+          "name": "Hui Guan 0001",
+          "display_name": "Hui Guan",
+          "pid": "77/6645-1",
+          "orcid": null
+        },
+        {
+          "name": "Marco Serafini",
+          "display_name": "Marco Serafini",
+          "pid": "02/6087",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=cTOx1YTBgh",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=cTOx1YTBgh",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/PolisettyL0L0S25"
+    },
+    {
+      "title": "XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models",
+      "authors": [
+        {
+          "name": "Yixin Dong",
+          "display_name": "Yixin Dong",
+          "pid": "52/5829",
+          "orcid": null
+        },
+        {
+          "name": "Charlie F. Ruan",
+          "display_name": "Charlie F. Ruan",
+          "pid": "334/4470",
+          "orcid": null
+        },
+        {
+          "name": "Yaxing Cai",
+          "display_name": "Yaxing Cai",
+          "pid": "290/7679",
+          "orcid": null
+        },
+        {
+          "name": "Ziyi Xu",
+          "display_name": "Ziyi Xu",
+          "pid": "65/4494",
+          "orcid": null
+        },
+        {
+          "name": "Yilong Zhao 0002",
+          "display_name": "Yilong Zhao",
+          "pid": "152/7119-2",
+          "orcid": null
+        },
+        {
+          "name": "Ruihang Lai",
+          "display_name": "Ruihang Lai",
+          "pid": "321/1573",
+          "orcid": null
+        },
+        {
+          "name": "Tianqi Chen 0001",
+          "display_name": "Tianqi Chen",
+          "pid": "94/8023-1",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=rjQfX0YgDl",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=rjQfX0YgDl",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/DongRCXZL025"
+    },
+    {
+      "title": "Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking",
+      "authors": [
+        {
+          "name": "Marco Federici",
+          "display_name": "Marco Federici",
+          "pid": "166/5511",
+          "orcid": null
+        },
+        {
+          "name": "Davide Belli",
+          "display_name": "Davide Belli",
+          "pid": "227/3383",
+          "orcid": null
+        },
+        {
+          "name": "Mart van Baalen",
+          "display_name": "Mart van Baalen",
+          "pid": "242/9228",
+          "orcid": null
+        },
+        {
+          "name": "Amir Jalalirad",
+          "display_name": "Amir Jalalirad",
+          "pid": "171/0939",
+          "orcid": null
+        },
+        {
+          "name": "Andrii Skliar",
+          "display_name": "Andrii Skliar",
+          "pid": "234/2254",
+          "orcid": null
+        },
+        {
+          "name": "Bence Major",
+          "display_name": "Bence Major",
+          "pid": "260/2694",
+          "orcid": null
+        },
+        {
+          "name": "Markus Nagel",
+          "display_name": "Markus Nagel",
+          "pid": "38/1463",
+          "orcid": null
+        },
+        {
+          "name": "Paul N. Whatmough",
+          "display_name": "Paul N. Whatmough",
+          "pid": "87/9432",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=ax6j4R24FI",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=ax6j4R24FI",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/FedericiBBJSMNW25"
+    },
+    {
+      "title": "Mas-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-constrained Edge Devices",
+      "authors": [
+        {
+          "name": "Mohammadali Shakerdargah",
+          "display_name": "Mohammadali Shakerdargah",
+          "pid": "392/9229",
+          "orcid": null
+        },
+        {
+          "name": "Shan Lu",
+          "display_name": "Shan Lu",
+          "pid": "31/5916",
+          "orcid": null
+        },
+        {
+          "name": "Chao Gao 0012",
+          "display_name": "Chao Gao",
+          "pid": "86/5355-12",
+          "orcid": null
+        },
+        {
+          "name": "Di Niu 0002",
+          "display_name": "Di Niu",
+          "pid": "82/4953-2",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=fLSlGn641R",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=fLSlGn641R",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/ShakerdargahLGN25"
+    },
+    {
+      "title": "Scaling Deep Learning Training with MPMD Pipeline Parallelism",
+      "authors": [
+        {
+          "name": "Anxhelo Xhebraj",
+          "display_name": "Anxhelo Xhebraj",
+          "pid": "322/7823",
+          "orcid": null
+        },
+        {
+          "name": "Sean Lee",
+          "display_name": "Sean Lee",
+          "pid": "78/9116",
+          "orcid": null
+        },
+        {
+          "name": "Hanfeng Chen",
+          "display_name": "Hanfeng Chen",
+          "pid": "56/1861",
+          "orcid": null
+        },
+        {
+          "name": "Vinod Grover",
+          "display_name": "Vinod Grover",
+          "pid": "87/2753",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=U9oaDkwZs3",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=U9oaDkwZs3",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/XhebrajLCG25"
+    },
+    {
+      "title": "FLStore: Efficient Federated Learning Storage for non-training workloads",
+      "authors": [
+        {
+          "name": "Ahmad Faraz Khan 0001",
+          "display_name": "Ahmad Faraz Khan",
+          "pid": "128/2499-1",
+          "orcid": null
+        },
+        {
+          "name": "Samuel Fountain",
+          "display_name": "Samuel Fountain",
+          "pid": "373/4652",
+          "orcid": null
+        },
+        {
+          "name": "Ahmed M. Abdelmoniem",
+          "display_name": "Ahmed M. Abdelmoniem",
+          "pid": "207/3449",
+          "orcid": null
+        },
+        {
+          "name": "Ali Raza Butt",
+          "display_name": "Ali Raza Butt",
+          "pid": "b/AliRazaButt",
+          "orcid": null
+        },
+        {
+          "name": "Ali Anwar 0001",
+          "display_name": "Ali Anwar",
+          "pid": "69/9027-1",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=OSmHZYq9Ez",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=OSmHZYq9Ez",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/0001FAB025"
+    },
+    {
+      "title": "Radius: Range-based Gradient Sparsity for Large Foundation Model Pre-training",
+      "authors": [
+        {
+          "name": "Mingkai Zheng",
+          "display_name": "Mingkai Zheng",
+          "pid": "237/1614",
+          "orcid": null
+        },
+        {
+          "name": "Zhao Zhang 0007",
+          "display_name": "Zhao Zhang",
+          "pid": "87/6853-7",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=UCQPWBOWb6",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=UCQPWBOWb6",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/Zheng025"
+    },
+    {
+      "title": "Photon: Federated LLM Pre-Training",
+      "authors": [
+        {
+          "name": "Lorenzo Sani",
+          "display_name": "Lorenzo Sani",
+          "pid": "237/2312",
+          "orcid": null
+        },
+        {
+          "name": "Alex Iacob",
+          "display_name": "Alex Iacob",
+          "pid": "346/2270",
+          "orcid": null
+        },
+        {
+          "name": "Zeyu Cao",
+          "display_name": "Zeyu Cao",
+          "pid": "253/2218",
+          "orcid": null
+        },
+        {
+          "name": "Royson Lee",
+          "display_name": "Royson Lee",
+          "pid": "247/5940",
+          "orcid": null
+        },
+        {
+          "name": "Bill Marino",
+          "display_name": "Bill Marino",
+          "pid": "182/0026",
+          "orcid": null
+        },
+        {
+          "name": "Yan Gao 0016",
+          "display_name": "Yan Gao",
+          "pid": "46/3479-16",
+          "orcid": null
+        },
+        {
+          "name": "Wanru Zhao",
+          "display_name": "Wanru Zhao",
+          "pid": "266/5098",
+          "orcid": null
+        },
+        {
+          "name": "Dongqi Cai 0001",
+          "display_name": "Dongqi Cai",
+          "pid": "159/3886-1",
+          "orcid": null
+        },
+        {
+          "name": "Zexi Li 0001",
+          "display_name": "Zexi Li",
+          "pid": "151/9187-1",
+          "orcid": null
+        },
+        {
+          "name": "Xinchi Qiu",
+          "display_name": "Xinchi Qiu",
+          "pid": "265/6559",
+          "orcid": null
+        },
+        {
+          "name": "Nicholas D. Lane",
+          "display_name": "Nicholas D. Lane",
+          "pid": "03/2663",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=AQgYcfg5EI",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=AQgYcfg5EI",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/SaniICLM0Z00QL25"
+    },
+    {
+      "title": "TurboAttention: Efficient attention approximation for high throughputs llm",
+      "authors": [
+        {
+          "name": "Hao Kang",
+          "display_name": "Hao Kang",
+          "pid": "74/10765",
+          "orcid": null
+        },
+        {
+          "name": "Srikant Bharadwaj",
+          "display_name": "Srikant Bharadwaj",
+          "pid": "232/0137",
+          "orcid": null
+        },
+        {
+          "name": "James Hensman",
+          "display_name": "James Hensman",
+          "pid": "116/2940",
+          "orcid": null
+        },
+        {
+          "name": "Tushar Krishna",
+          "display_name": "Tushar Krishna",
+          "pid": "50/2421",
+          "orcid": null
+        },
+        {
+          "name": "Victor Rühle",
+          "display_name": "Victor Rühle",
+          "pid": "277/8100",
+          "orcid": null
+        },
+        {
+          "name": "Saravan Rajmohan",
+          "display_name": "Saravan Rajmohan",
+          "pid": "313/9883",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=bPfpSO2zX4",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=bPfpSO2zX4",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/KangBHKRR25"
+    },
+    {
+      "title": "ReaL: Efficient RLHF Training of Large Language Models with Parameter Reallocation",
+      "authors": [
+        {
+          "name": "Zhiyu Mei",
+          "display_name": "Zhiyu Mei",
+          "pid": "299/5277",
+          "orcid": null
+        },
+        {
+          "name": "Wei Fu",
+          "display_name": "Wei Fu",
+          "pid": "26/4472",
+          "orcid": null
+        },
+        {
+          "name": "Kaiwei Li",
+          "display_name": "Kaiwei Li",
+          "pid": "60/2811",
+          "orcid": null
+        },
+        {
+          "name": "Guangju Wang",
+          "display_name": "Guangju Wang",
+          "pid": "234/7567",
+          "orcid": null
+        },
+        {
+          "name": "Huanchen Zhang",
+          "display_name": "Huanchen Zhang",
+          "pid": "13/8730",
+          "orcid": null
+        },
+        {
+          "name": "Yi Wu 0013",
+          "display_name": "Yi Wu",
+          "pid": "44/3684-13",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=yLU1zRf95d",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=yLU1zRf95d",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/MeiFLWZ025"
+    },
+    {
+      "title": "AI Metropolis: Scaling Large Language Model-based Multi-Agent Simulation with Out-of-order Execution",
+      "authors": [
+        {
+          "name": "Zhiqiang Xie",
+          "display_name": "Zhiqiang Xie",
+          "pid": "26/700",
+          "orcid": null
+        },
+        {
+          "name": "Hao Kang",
+          "display_name": "Hao Kang",
+          "pid": "74/10765",
+          "orcid": null
+        },
+        {
+          "name": "Ying Sheng 0007",
+          "display_name": "Ying Sheng",
+          "pid": "262/6232",
+          "orcid": null
+        },
+        {
+          "name": "Tushar Krishna",
+          "display_name": "Tushar Krishna",
+          "pid": "50/2421",
+          "orcid": null
+        },
+        {
+          "name": "Kayvon Fatahalian",
+          "display_name": "Kayvon Fatahalian",
+          "pid": "11/3211",
+          "orcid": null
+        },
+        {
+          "name": "Christos Kozyrakis",
+          "display_name": "Christos Kozyrakis",
+          "pid": "k/ChristoforosEKozyrakis",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=fsMImmI1TE",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=fsMImmI1TE",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/XieK0KFK25"
+    },
+    {
+      "title": "SampleAttention: Near-Lossless Acceleration of Long Context LLM Inference with Adaptive Structured Sparse Attention",
+      "authors": [
+        {
+          "name": "Qianchao Zhu",
+          "display_name": "Qianchao Zhu",
+          "pid": "304/5600",
+          "orcid": null
+        },
+        {
+          "name": "Jiangfei Duan",
+          "display_name": "Jiangfei Duan",
+          "pid": "348/8881",
+          "orcid": null
+        },
+        {
+          "name": "Chang Chen 0001",
+          "display_name": "Chang Chen",
+          "pid": "16/4406-1",
+          "orcid": null
+        },
+        {
+          "name": "Siran Liu",
+          "display_name": "Siran Liu",
+          "pid": "165/9955",
+          "orcid": null
+        },
+        {
+          "name": "Xiuhong Li",
+          "display_name": "Xiuhong Li",
+          "pid": "146/2330",
+          "orcid": null
+        },
+        {
+          "name": "Guanyu Feng",
+          "display_name": "Guanyu Feng",
+          "pid": "226/4120",
+          "orcid": null
+        },
+        {
+          "name": "Xin Lv",
+          "display_name": "Xin Lv",
+          "pid": "52/1775",
+          "orcid": null
+        },
+        {
+          "name": "Xiao Chuanfu",
+          "display_name": "Xiao Chuanfu",
+          "pid": "380/6376",
+          "orcid": null
+        },
+        {
+          "name": "Dahua Lin",
+          "display_name": "Dahua Lin",
+          "pid": "53/6088",
+          "orcid": null
+        },
+        {
+          "name": "Chao Yang 0002",
+          "display_name": "Chao Yang",
+          "pid": "00/5867-2",
+          "orcid": null
+        }
+      ],
+      "venue": "MLSys",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=RuZ80yl71h",
+      "url_source": null,
+      "pdf_url": "https://openreview.net/pdf?id=RuZ80yl71h",
+      "pdf_source": "openreview",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "dblp",
+      "dblp_paper_key": "conf/mlsys/ZhuD0LLFLCL025"
+    }
+  ]
+}

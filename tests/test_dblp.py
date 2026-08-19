@@ -146,3 +146,28 @@ def test_repaired_doi_flows_into_the_paper_and_its_url():
 
     assert paper.doi == "10.1145/3786702"
     assert paper.url == "https://doi.org/10.1145/3786702"
+
+
+def test_demo_and_poster_entries_are_not_papers():
+    """MobiCom's DBLP TOC carries its demo track in the same proceedings: 80 of
+    the 157 entries for 2025 are titled "Demo: ...". Those are not accepted
+    papers, and the publisher labels them itself, so the prefix is a reliable
+    signal rather than a guess."""
+    from csconf.dblp import is_non_paper
+
+    assert is_non_paper("Demo: Networked iGYM for AR Exergames")
+    assert is_non_paper("Poster: Something Small")
+    assert is_non_paper("POSTER: Shouting About It")
+    assert is_non_paper("Abstract: A Talk")
+
+
+def test_short_papers_are_papers():
+    """SIGCOMM 2025 has a Short Papers section — 14 three-page entries with no
+    prefix, sitting under that heading in DBLP's own TOC. They are peer-reviewed
+    conference papers, so length is not a signal and only the explicit label is.
+    """
+    from csconf.dblp import is_non_paper
+
+    assert not is_non_paper("Coflow Scheduling for LLM Training")
+    assert not is_non_paper("Demonstrating Scalable Inference at Line Rate")
+    assert not is_non_paper("Posterior Sampling for Network Tomography")

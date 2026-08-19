@@ -63,11 +63,25 @@ def _clean_title(raw: Optional[str]) -> str:
     return raw.strip().rstrip(".").strip()
 
 
+# Some proceedings carry their demo or poster track in the same volume. MobiCom
+# 2025 is 157 DBLP entries of which 80 are titled "Demo: ...", and those are not
+# accepted papers. The publisher labels them itself, so the prefix is a reliable
+# signal rather than a guess — unlike length, which would be wrong: SIGCOMM 2025
+# has a Short Papers section whose 14 three-page entries are peer-reviewed
+# papers sitting under that heading in DBLP's own TOC. The colon is required, so
+# "Demonstrating ..." and "Posterior ..." are untouched.
+_TRACK_LABEL = re.compile(r"^(?:demo|poster|abstract)\s*:", re.IGNORECASE)
+
+
 def is_non_paper(title: Optional[str]) -> bool:
     if not title:
         return True
     stripped = title.strip()
-    return bool(_FRONT_MATTER.match(stripped) or _PACMMOD_EDITORIAL.search(stripped))
+    return bool(
+        _FRONT_MATTER.match(stripped)
+        or _PACMMOD_EDITORIAL.search(stripped)
+        or _TRACK_LABEL.match(stripped)
+    )
 
 
 def count_proceedings_entries(xml_text: str) -> int:

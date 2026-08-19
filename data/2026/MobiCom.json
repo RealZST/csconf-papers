@@ -1,0 +1,1666 @@
+{
+  "meta": {
+    "venue": "MobiCom",
+    "year": 2026,
+    "source_keys": [
+      "conf/mobicom/mobicom2026"
+    ],
+    "paper_count": 28,
+    "note": null,
+    "updated": "2026-08-13"
+  },
+  "papers": [
+    {
+      "title": "InstMeter: An Instruction-Level Method to Predict Energy and Latency of DL Model Inference on MCUs",
+      "authors": [
+        {
+          "name": "Hao Liu",
+          "display_name": "Hao Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qing Wang",
+          "display_name": "Qing Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Marco Zuniga",
+          "display_name": "Marco Zuniga",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2603.04134",
+      "url_source": "semanticscholar",
+      "pdf_url": "https://arxiv.org/pdf/2603.04134",
+      "pdf_source": "arxiv-derived",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Golden Sniffer: Low-Complexity 5G New Radio Signal Interception Exploiting Gold Sequences",
+      "authors": [
+        {
+          "name": "Ivan Palamà",
+          "display_name": "Ivan Palamà",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Stefano Mangione",
+          "display_name": "Stefano Mangione",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Alessandra Dino",
+          "display_name": "Alessandra Dino",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Giulia Focarelli",
+          "display_name": "Giulia Focarelli",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Giuseppe Bianchi",
+          "display_name": "Giuseppe Bianchi",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation",
+      "authors": [
+        {
+          "name": "Yizhe Zhao",
+          "display_name": "Yizhe Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongjian Fu",
+          "display_name": "Yongjian Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zihao Feng",
+          "display_name": "Zihao Feng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Pan",
+          "display_name": "Hao Pan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongheng Deng",
+          "display_name": "Yongheng Deng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yaoxue Zhang",
+          "display_name": "Yaoxue Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ju Ren",
+          "display_name": "Ju Ren",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2603.20351",
+      "url_source": "semanticscholar",
+      "pdf_url": "https://arxiv.org/pdf/2603.20351",
+      "pdf_source": "arxiv-derived",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Spatially Selective Radar Backscatter Communication",
+      "authors": [
+        {
+          "name": "Rong Ding",
+          "display_name": "Rong Ding",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haiming Jin",
+          "display_name": "Haiming Jin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ruoyan Wang",
+          "display_name": "Ruoyan Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zijie Chen",
+          "display_name": "Zijie Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guiyun Fan",
+          "display_name": "Guiyun Fan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Feng Shen",
+          "display_name": "Feng Shen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lu Su",
+          "display_name": "Lu Su",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaohua Tian",
+          "display_name": "Xiaohua Tian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Linghe Kong",
+          "display_name": "Linghe Kong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guihai Chen",
+          "display_name": "Guihai Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Detecting Liquid Food Adulteration with Mobile Hyperspectral Analysis based on RGB Camera",
+      "authors": [
+        {
+          "name": "Zimo Liao",
+          "display_name": "Zimo Liao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qianyi Huang",
+          "display_name": "Qianyi Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lei Yang",
+          "display_name": "Lei Yang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "MetaScatter: Enabling High-Order Underwater Backscatter via Piezoelectric Metasurface",
+      "authors": [
+        {
+          "name": "Juan He",
+          "display_name": "Juan He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jie Xiong",
+          "display_name": "Jie Xiong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenhao Liu",
+          "display_name": "Wenhao Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xuan Wang",
+          "display_name": "Xuan Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaoyan Wang",
+          "display_name": "Xiaoyan Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Na Chen",
+          "display_name": "Na Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chen Liu",
+          "display_name": "Chen Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chunlong Fei",
+          "display_name": "Chunlong Fei",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chao Feng",
+          "display_name": "Chao Feng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaojiang Chen",
+          "display_name": "Xiaojiang Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Unlocking Practical Cardiac Monitoring Capabilities on True Wireless Stereo Earbuds",
+      "authors": [
+        {
+          "name": "Yongjian Fu",
+          "display_name": "Yongjian Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ke Sun",
+          "display_name": "Ke Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xinyu Zhang",
+          "display_name": "Xinyu Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ruyao Wang",
+          "display_name": "Ruyao Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xinyi Li",
+          "display_name": "Xinyi Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Pan",
+          "display_name": "Hao Pan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yaoxue Zhang",
+          "display_name": "Yaoxue Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ju Ren",
+          "display_name": "Ju Ren",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "\"Take Me Home, Wi-Fi Drone\": A Drone-based Wireless System for Wilderness Search and Rescue",
+      "authors": [
+        {
+          "name": "Weiying Hou",
+          "display_name": "Weiying Hou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Luca Jiang-Tao Yu",
+          "display_name": "Luca Jiang-Tao Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenshu Wu",
+          "display_name": "Chenshu Wu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2604.09115",
+      "url_source": "semanticscholar",
+      "pdf_url": "https://arxiv.org/pdf/2604.09115",
+      "pdf_source": "arxiv-derived",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "When Mobile ToF Meets Micro-Vibration: Multi-Point kHz-Frequency Sensing using Laser Speckle",
+      "authors": [
+        {
+          "name": "Shangcheng Jin",
+          "display_name": "Shangcheng Jin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiyuan Xie",
+          "display_name": "Zhiyuan Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guoliang Xing",
+          "display_name": "Guoliang Xing",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenyu Yan",
+          "display_name": "Zhenyu Yan",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "V-Droid: Advancing Mobile GUI Agent Through Generative Verifiers",
+      "authors": [
+        {
+          "name": "Gaole Dai",
+          "display_name": "Gaole Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Shiqi Jiang",
+          "display_name": "Shiqi Jiang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ting Cao",
+          "display_name": "Ting Cao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuanchun Li",
+          "display_name": "Yuanchun Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuqing Yang",
+          "display_name": "Yuqing Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rui Tan",
+          "display_name": "Rui Tan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mo Li",
+          "display_name": "Mo Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lili Qiu",
+          "display_name": "Lili Qiu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Attacking mmWave Imaging Using Metasurfaces Based on Intensity and Time-of-Flight Manipulation",
+      "authors": [
+        {
+          "name": "Shuning Wang",
+          "display_name": "Shuning Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Pan",
+          "display_name": "Hao Pan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yongjian Fu",
+          "display_name": "Yongjian Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xinyi Li",
+          "display_name": "Xinyi Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Linghui Zhong",
+          "display_name": "Linghui Zhong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yaxiong Xie",
+          "display_name": "Yaxiong Xie",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ke Sun",
+          "display_name": "Ke Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guangtao Xue",
+          "display_name": "Guangtao Xue",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yaoxue Zhang",
+          "display_name": "Yaoxue Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ju Ren",
+          "display_name": "Ju Ren",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling",
+      "authors": [
+        {
+          "name": "Luca Jiang-Tao Yu",
+          "display_name": "Luca Jiang-Tao Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenshu Wu",
+          "display_name": "Chenshu Wu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation",
+      "authors": [
+        {
+          "name": "Bo Liang",
+          "display_name": "Bo Liang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chen Gong",
+          "display_name": "Chen Gong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haobo Wang",
+          "display_name": "Haobo Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Qirui Liu",
+          "display_name": "Qirui Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rungui Zhou",
+          "display_name": "Rungui Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fengzhi Shao",
+          "display_name": "Fengzhi Shao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yubo Wang",
+          "display_name": "Yubo Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wei Gao",
+          "display_name": "Wei Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kaichen Zhou",
+          "display_name": "Kaichen Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guolong Cui",
+          "display_name": "Guolong Cui",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chenren Xu",
+          "display_name": "Chenren Xu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Nexus: Efficient and Scalable Multi-Cell mmWave Baseband Processing with Heterogeneous Compute",
+      "authors": [
+        {
+          "name": "Zhenzhou Qi",
+          "display_name": "Zhenzhou Qi",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chung-Hsuan Tung",
+          "display_name": "Chung-Hsuan Tung",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhihui Gao",
+          "display_name": "Zhihui Gao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Tingjun Chen",
+          "display_name": "Tingjun Chen",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "ORNet: OFDMA-Enabled mmWave Radar ISAC Networks",
+      "authors": [
+        {
+          "name": "Zeming Yang",
+          "display_name": "Zeming Yang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Linling Zhong",
+          "display_name": "Linling Zhong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wenhui Li",
+          "display_name": "Wenhui Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yibin Deng",
+          "display_name": "Yibin Deng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiazhen Lei",
+          "display_name": "Jiazhen Lei",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fengyuan Zhu",
+          "display_name": "Fengyuan Zhu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bingbing Wang",
+          "display_name": "Bingbing Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haiming Jin",
+          "display_name": "Haiming Jin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaohua Tian",
+          "display_name": "Xiaohua Tian",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "OrbWeaver : A Geometric Optics-Based RIS for Omnidirectional 3D Beam Steering",
+      "authors": [
+        {
+          "name": "Xuan Wang",
+          "display_name": "Xuan Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Liyao Li",
+          "display_name": "Liyao Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Runchuan Liu",
+          "display_name": "Runchuan Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiameng Bai",
+          "display_name": "Jiameng Bai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kun Woo Cho",
+          "display_name": "Kun Woo Cho",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chao Feng",
+          "display_name": "Chao Feng",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuhui Ren",
+          "display_name": "Yuhui Ren",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaojiang Chen",
+          "display_name": "Xiaojiang Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yaxiong Xie",
+          "display_name": "Yaxiong Xie",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "TACToC: Enabling Task-Adaptive Communication System with a Task-Describable Encoder",
+      "authors": [
+        {
+          "name": "Huijeong Choe",
+          "display_name": "Huijeong Choe",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Minjae Lee",
+          "display_name": "Minjae Lee",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wooseung Nam",
+          "display_name": "Wooseung Nam",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Taehun Kim",
+          "display_name": "Taehun Kim",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kyunghan Lee",
+          "display_name": "Kyunghan Lee",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "AppFlow: Memory Scheduling for Cold Launch of Large Apps on Mobile and Vehicle Systems",
+      "authors": [
+        {
+          "name": "Xiaochen Li",
+          "display_name": "Xiaochen Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Sicong Liu",
+          "display_name": "Sicong Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bin Guo",
+          "display_name": "Bin Guo",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yu Ouyang",
+          "display_name": "Yu Ouyang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fengmin Wu",
+          "display_name": "Fengmin Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yuan Xu",
+          "display_name": "Yuan Xu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhiwen Yu",
+          "display_name": "Zhiwen Yu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2603.17259",
+      "url_source": "semanticscholar",
+      "pdf_url": "https://arxiv.org/pdf/2603.17259",
+      "pdf_source": "arxiv-derived",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts",
+      "authors": [
+        {
+          "name": "Shen Wang",
+          "display_name": "Shen Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Guosheng Wang",
+          "display_name": "Guosheng Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Donghui Dai",
+          "display_name": "Donghui Dai",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lei Yang",
+          "display_name": "Lei Yang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "PassiveOFDM: Flexible OFDM Backscatter with Commercial Compatibility",
+      "authors": [
+        {
+          "name": "Caihui Du",
+          "display_name": "Caihui Du",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jihong Yu",
+          "display_name": "Jihong Yu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Rongrong Zhang",
+          "display_name": "Rongrong Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Haipeng Yao",
+          "display_name": "Haipeng Yao",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Wall-Street: An Intelligent Vehicular Surface for Reliable mmWave Handover",
+      "authors": [
+        {
+          "name": "Kun Woo Cho",
+          "display_name": "Kun Woo Cho",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Prasanthi Maddala",
+          "display_name": "Prasanthi Maddala",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ivan Seskar",
+          "display_name": "Ivan Seskar",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Kyle Jamieson",
+          "display_name": "Kyle Jamieson",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "A3TP: Automated, Accurate, and Adaptive UAV Task Planning for Large-Scale Power Transmission Networks Inspection",
+      "authors": [
+        {
+          "name": "Qiyong Fu",
+          "display_name": "Qiyong Fu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Feng Lyu",
+          "display_name": "Feng Lyu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mingliu Liu",
+          "display_name": "Mingliu Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Hao Wu",
+          "display_name": "Hao Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jieyu Zhou",
+          "display_name": "Jieyu Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lijuan He",
+          "display_name": "Lijuan He",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Fan Wu",
+          "display_name": "Fan Wu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinli Sun",
+          "display_name": "Jinli Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Manjia Liu",
+          "display_name": "Manjia Liu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "IoT-Brain: Grounding LLMs for Semantic-Spatial Sensor Scheduling",
+      "authors": [
+        {
+          "name": "Zhaomeng Zhou",
+          "display_name": "Zhaomeng Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lan Zhang",
+          "display_name": "Lan Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junyang Wang",
+          "display_name": "Junyang Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mu Yuan",
+          "display_name": "Mu Yuan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Junda Lin",
+          "display_name": "Junda Lin",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinke Song",
+          "display_name": "Jinke Song",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2604.08033",
+      "url_source": "semanticscholar",
+      "pdf_url": "https://arxiv.org/pdf/2604.08033",
+      "pdf_source": "arxiv-derived",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Cellulars Go Underground: Practical Obstacles and Effective Mitigation",
+      "authors": [
+        {
+          "name": "Hongyi Wang",
+          "display_name": "Hongyi Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiaxing Qiu",
+          "display_name": "Jiaxing Qiu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhenhua Li",
+          "display_name": "Zhenhua Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Liangyi Gong",
+          "display_name": "Liangyi Gong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Feng Qian",
+          "display_name": "Feng Qian",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yang Li",
+          "display_name": "Yang Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiakun Du",
+          "display_name": "Jiakun Du",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zichen Zhang",
+          "display_name": "Zichen Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jiawei Zhen",
+          "display_name": "Jiawei Zhen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yunhao Liu",
+          "display_name": "Yunhao Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Daliang Sun",
+          "display_name": "Daliang Sun",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiang Li",
+          "display_name": "Xiang Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yumeng Liang",
+          "display_name": "Yumeng Liang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jie Wu",
+          "display_name": "Jie Wu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Breaking Coordinate Overfitting: Geometry-Aware WiFi Sensing for Cross-Layout 3D Pose Estimation",
+      "authors": [
+        {
+          "name": "Songming Jia",
+          "display_name": "Songming Jia",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yan Lu",
+          "display_name": "Yan Lu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Bin Liu",
+          "display_name": "Bin Liu",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiang Zhang",
+          "display_name": "Xiang Zhang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Peng Zhao",
+          "display_name": "Peng Zhao",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xinmeng Tang",
+          "display_name": "Xinmeng Tang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yelin Wei",
+          "display_name": "Yelin Wei",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Jinyang Huang",
+          "display_name": "Jinyang Huang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Huan Yan",
+          "display_name": "Huan Yan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zhi Liu",
+          "display_name": "Zhi Liu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2601.12252",
+      "url_source": "semanticscholar",
+      "pdf_url": "https://arxiv.org/pdf/2601.12252",
+      "pdf_source": "arxiv-derived",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "RF-Tactrix: Fingerprint-Inspired Battery-Free, Wireless Force Sensing And Localization on 2D Surfaces",
+      "authors": [
+        {
+          "name": "Yuzheng Dong",
+          "display_name": "Yuzheng Dong",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Yan Liang",
+          "display_name": "Yan Liang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xuan Li",
+          "display_name": "Xuan Li",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaojiang Chen",
+          "display_name": "Xiaojiang Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ju Wang",
+          "display_name": "Ju Wang",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "ATM-SLAM: Adaptive Temporal Memory Visual SLAM in Severe Rainy Conditions",
+      "authors": [
+        {
+          "name": "Baodong Chen",
+          "display_name": "Baodong Chen",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Wei Wang",
+          "display_name": "Wei Wang",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Lang Wei",
+          "display_name": "Lang Wei",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Zijian Wan",
+          "display_name": "Zijian Wan",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Chiyu Zhou",
+          "display_name": "Chiyu Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Ting Zhu",
+          "display_name": "Ting Zhu",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": null,
+      "url_source": null,
+      "pdf_url": null,
+      "pdf_source": null,
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    },
+    {
+      "title": "Exploring the Feasibility of Full-Body Muscle Activation Sensing with Insole Pressure Sensors",
+      "authors": [
+        {
+          "name": "Hao Zhou",
+          "display_name": "Hao Zhou",
+          "pid": null,
+          "orcid": null
+        },
+        {
+          "name": "Mahanth Gowda",
+          "display_name": "Mahanth Gowda",
+          "pid": null,
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2026,
+      "published_year": null,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/2602.10442",
+      "url_source": "semanticscholar",
+      "pdf_url": "https://arxiv.org/pdf/2602.10442",
+      "pdf_source": "arxiv-derived",
+      "arxiv_id": null,
+      "pages": null,
+      "source": "mobicom-web",
+      "dblp_paper_key": null
+    }
+  ]
+}

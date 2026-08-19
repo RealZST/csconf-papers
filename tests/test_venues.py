@@ -82,3 +82,25 @@ def test_asplos_expands_using_discovered_volumes(venues):
         "conf/asplos/asplos2025-2",
         "conf/asplos/asplos2025-3",
     ]
+
+
+def test_new_venues_map_to_their_dblp_keys(venues):
+    assert expand(venues, "SIGCOMM", 2025, volume_lookup=None) == [
+        Fetch(toc_key="conf/sigcomm/sigcomm2025", volume=None)
+    ]
+    assert expand(venues, "MobiCom", 2025, volume_lookup=None) == [
+        Fetch(toc_key="conf/mobicom/mobicom2025", volume=None)
+    ]
+    assert expand(venues, "MLSys", 2026, volume_lookup=None) == [
+        Fetch(toc_key="conf/mlsys/mlsys2026", volume=None)
+    ]
+
+
+def test_sigcomm_has_no_2026_because_nothing_is_published(venues):
+    """Its DBLP TOC 404s and its own site carries no program or papers page, so
+    an entry would only produce an empty file and a misleading README cell."""
+    from csconf.venues import status_of
+
+    assert status_of(venues, "SIGCOMM", 2026) is None
+    assert status_of(venues, "MobiCom", 2026) == "pending"
+    assert status_of(venues, "MLSys", 2026) == "pending"
