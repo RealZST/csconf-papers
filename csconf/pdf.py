@@ -28,6 +28,18 @@ _USENIX_PRESENTATION = re.compile(
     r"^https://www\.usenix\.org/conference/([^/]+)/presentation/(.+?)/?$"
 )
 _ARXIV_ABS = re.compile(r"^https://arxiv\.org/abs/(.+?)(?:v\d+)?/?$")
+# MLSys keeps the abstract page and the PDF under the same hash, in sibling
+# directories: hash/<h>-Abstract-Conference.html and file/<h>-Paper-Conference.pdf.
+_MLSYS_ABSTRACT = re.compile(
+    r"^(https://proceedings\.mlsys\.org/paper_files/paper/\d+)/hash/"
+    r"([0-9a-f]+)-Abstract-(\w+)\.html$"
+)
+
+# DBLP records MLSys with OpenReview forum links rather than DOIs, so without
+# this rule that whole edition has no PDF at all. openreview.net answers
+# automated requests with 403 exactly as dl.acm.org does: constructible for a
+# reader, not fetchable by a script, so it is not HEAD-checked either.
+_OPENREVIEW_FORUM = re.compile(r"^https://openreview\.net/forum\?id=([\w-]+)")
 
 # Only ACM DOIs build a PDF address. Other publishers use different paths, and
 # applying this one blindly just produces a link that 404s — worse than none.
@@ -42,7 +54,7 @@ DEFAULT_VERIFY_BUDGET = 800
 
 # Sources that need a HEAD check: the derived ones. Addresses we were handed
 # outright do not.
-_DERIVED = {"usenix-derived", "arxiv-derived"}
+_DERIVED = {"usenix-derived", "arxiv-derived", "mlsys-derived"}
 
 
 def looks_like_pdf(url: str) -> bool:
@@ -78,6 +90,22 @@ def derive(paper: Paper) -> Tuple[Optional[str], Optional[str]]:
         return (
             "https://www.usenix.org/system/files/{}-{}.pdf".format(conference, slug),
             "usenix-derived",
+        )
+
+    mlsys = _MLSYS_ABSTRACT.match(url)
+    if mlsys:
+        return (
+            "{}/file/{}-Paper-{}.pdf".format(
+                mlsys.group(1), mlsys.group(2), mlsys.group(3)
+            ),
+            "mlsys-derived",
+        )
+
+    openreview = _OPENREVIEW_FORUM.match(url)
+    if openreview:
+        return (
+            "https://openreview.net/pdf?id={}".format(openreview.group(1)),
+            "openreview",
         )
 
     arxiv = _ARXIV_ABS.match(url)

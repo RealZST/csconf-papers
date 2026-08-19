@@ -60,3 +60,26 @@ VLDB:
   vol_for_year: {2025: 18, 2026: 19}
   note_template: "This file is all of PVLDB vol {vol}. The VLDB {year} research track is really the papers accepted before this volume's cutoff plus rollovers from the previous volume, a distinction DBLP metadata does not record."
   status: {2025: indexed, 2026: partial}
+
+SIGCOMM:
+  type: conf
+  key: "conf/sigcomm/sigcomm{year}"
+  # conf/sigcomm/sigcomm2025pd is the posters-and-demos companion, a separate
+  # DBLP key, so it never enters this listing. 2026 has no accepted list
+  # anywhere yet — its site carries no program or papers page.
+  status: {2025: indexed}
+
+MobiCom:
+  type: conf
+  key: "conf/mobicom/mobicom{year}"
+  fallback_url: "https://www.sigmobile.org/mobicom/{year}/accepted.html"
+  status: {2025: indexed, 2026: pending}
+
+MLSys:
+  type: conf
+  key: "conf/mlsys/mlsys{year}"
+  # Unlike the other fallbacks this one is a published proceedings, not an
+  # acceptance announcement: every entry has an abstract page, and the PDF
+  # follows from it.
+  fallback_url: "https://proceedings.mlsys.org/paper_files/paper/{year}"
+  status: {2025: indexed, 2026: pending}

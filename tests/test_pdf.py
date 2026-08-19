@@ -183,3 +183,35 @@ def test_spent_budget_does_not_block_derivations_that_need_no_request():
 
     assert filled[0].pdf_url == "https://www.vldb.org/pvldb/vol19/p1-x.pdf"
     assert stats["filled"] == 1
+
+
+def test_mlsys_abstract_page_derives_its_pdf():
+    """MLSys proceedings put the abstract and the PDF under the same hash, so
+    the PDF address follows from the abstract link with two substitutions.
+    Verified live: hash/<h>-Abstract-Conference.html has a sibling
+    file/<h>-Paper-Conference.pdf returning 200 application/pdf."""
+    paper = _paper(
+        url="https://proceedings.mlsys.org/paper_files/paper/2026/hash/"
+        "03dbc11a22e79cd38bea53cf518c2371-Abstract-Conference.html"
+    )
+
+    assert pdf.derive(paper) == (
+        "https://proceedings.mlsys.org/paper_files/paper/2026/file/"
+        "03dbc11a22e79cd38bea53cf518c2371-Paper-Conference.pdf",
+        "mlsys-derived",
+    )
+    assert pdf.needs_verification("mlsys-derived") is True
+
+
+def test_openreview_forum_derives_its_pdf():
+    """DBLP records MLSys 2025 with OpenReview forum links rather than DOIs, so
+    without this rule that whole edition has no PDF at all. openreview.net
+    answers automated requests with 403 the way dl.acm.org does, so the address
+    is constructible but not fetchable — hence no HEAD check."""
+    paper = _paper(url="https://openreview.net/forum?id=wYzc2UnQKt")
+
+    assert pdf.derive(paper) == (
+        "https://openreview.net/pdf?id=wYzc2UnQKt",
+        "openreview",
+    )
+    assert pdf.needs_verification("openreview") is False

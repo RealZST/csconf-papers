@@ -146,3 +146,58 @@ def test_commented_out_usenix_article_is_ignored():
     papers = parse_usenix_sessions(html, venue="OSDI", year=2026)
 
     assert [p.title for p in papers] == ["Live Paper"]
+
+
+def test_mlsys_proceedings_yields_titles_authors_and_abstract_links():
+    """MLSys publishes its own proceedings, so unlike the SOSP and OSDI
+    fallbacks this page carries a link per paper — and the affiliations are not
+    inline, so the author span splits on commas alone."""
+    from csconf.fallback import parse_mlsys_proceedings
+
+    papers = parse_mlsys_proceedings(
+        _read("mlsys-proceedings-2026.html"), venue="MLSys", year=2026
+    )
+
+    assert len(papers) == 4
+    assert papers[0].title == "ProfInfer: An eBPF-based Fine-Grained LLM Inference Profiler"
+    assert [a.name for a in papers[0].authors][:3] == [
+        "Bohua Zou",
+        "Debayan Roy",
+        "Dhimankumar Yogesh Airao",
+    ]
+    assert papers[0].url == (
+        "https://proceedings.mlsys.org/paper_files/paper/2026/hash/"
+        "03dbc11a22e79cd38bea53cf518c2371-Abstract-Conference.html"
+    )
+    assert all(p.source == "mlsys-web" for p in papers)
+
+
+def test_mobicom_navigation_items_are_not_papers():
+    """The page's navigation is <li> too, so an entry is recognised by its shape
+    — a <b> title plus a pauthors block. Without that check, "Author Info
+    Summarized Camera-Ready Deadlines" enters the corpus as a paper."""
+    from csconf.fallback import parse_mobicom_accepted
+
+    papers = parse_mobicom_accepted(
+        _read("mobicom-2026-accepted.html"), venue="MobiCom", year=2026
+    )
+
+    assert len(papers) == 3
+    assert not any("Camera-Ready" in p.title for p in papers)
+    assert papers[0].title == (
+        "InstMeter: An Instruction-Level Method to Predict Energy and Latency of "
+        "DL Model Inference on MCUs"
+    )
+    assert [a.name for a in papers[0].authors] == ["Hao Liu", "Qing Wang", "Marco Zuniga"]
+
+
+def test_mobicom_titles_lose_their_trailing_nbsp():
+    """The markup ends a title with a literal non-breaking space, which is not
+    whitespace to str.strip() and would survive into the JSON."""
+    from csconf.fallback import parse_mobicom_accepted
+
+    papers = parse_mobicom_accepted(
+        _read("mobicom-2026-accepted.html"), venue="MobiCom", year=2026
+    )
+
+    assert not any(p.title.endswith((" ", " ")) for p in papers)

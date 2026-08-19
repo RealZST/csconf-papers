@@ -12,6 +12,15 @@
     "checked": "2026-08-12",
     "url": null
   },
+  "appflow memory scheduling for cold launch of large apps on mobile and vehicle systems": {
+    "checked": "2026-08-13",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2603.17259"
+  },
+  "atm slam adaptive temporal memory visual slam in severe rainy conditions": {
+    "checked": "2026-08-13",
+    "url": null
+  },
   "batched in back characterizing and optimizing offline llm inference in production with acdc": {
     "checked": "2026-08-12",
     "url": null
@@ -23,6 +32,11 @@
   "borges a low latency distributed shared log on a cxl memory ssd hybrid": {
     "checked": "2026-08-12",
     "url": null
+  },
+  "breaking coordinate overfitting geometry aware wifi sensing for cross layout 3d pose estimation": {
+    "checked": "2026-08-13",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2601.12252"
   },
   "bug finding and proofs for platform configurations and hardware based on reference manuals": {
     "checked": "2026-08-12",
@@ -53,6 +67,10 @@
     "checked": "2026-08-12",
     "url": null
   },
+  "detecting liquid food adulteration with mobile hyperspectral analysis based on rgb camera": {
+    "checked": "2026-08-13",
+    "url": null
+  },
   "diflow a system for micro serving text to image diffusion workflows": {
     "checked": "2026-08-12",
     "url": null
@@ -68,6 +86,11 @@
   "efficient gpu multitasking with morphable kernels": {
     "checked": "2026-08-12",
     "url": null
+  },
+  "exploring the feasibility of full body muscle activation sensing with insole pressure sensors": {
+    "checked": "2026-08-13",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2602.10442"
   },
   "flux unleashing linux as a high performance application kernel": {
     "checked": "2026-08-12",
@@ -88,6 +111,16 @@
   "information and control in agent native filesystems": {
     "checked": "2026-08-12",
     "url": null
+  },
+  "instmeter an instruction level method to predict energy and latency of dl model inference on mcus": {
+    "checked": "2026-08-13",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2603.04134"
+  },
+  "iot brain grounding llms for semantic spatial sensor scheduling": {
+    "checked": "2026-08-13",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2604.08033"
   },
   "it s the kernel s fault custom page fault handling with bpf_fault": {
     "checked": "2026-08-12",
@@ -114,11 +147,20 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "mana towards efficient mobile ad detection via multimodal agentic ui navigation": {
+    "checked": "2026-08-13",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2603.20351"
+  },
   "mcon building an elastic cloud for android applications with framework consolidation": {
     "checked": "2026-08-13",
     "url": null
   },
   "meshrt compile time governed wafer scale runtime for low latency high throughput inference": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "metascatter enabling high order underwater backscatter via piezoelectric metasurface": {
     "checked": "2026-08-13",
     "url": null
   },
@@ -134,7 +176,15 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "orbweaver a geometric optics based ris for omnidirectional 3d beam steering": {
+    "checked": "2026-08-13",
+    "url": null
+  },
   "oscar resilient privacy budgeting across untrusted web domains": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "passiveofdm flexible ofdm backscatter with commercial compatibility": {
     "checked": "2026-08-13",
     "url": null
   },
@@ -148,6 +198,10 @@
     "url": null
   },
   "qprof fleetwide transitive cost profiling of warehouse scale services": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "rf tactrix fingerprint inspired battery free wireless force sensing and localization on 2d surfaces": {
     "checked": "2026-08-13",
     "url": null
   },
@@ -183,6 +237,10 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "spatially selective radar backscatter communication": {
+    "checked": "2026-08-13",
+    "url": null
+  },
   "starfishos revisiting single system image on cxl with state partitioned microkernel": {
     "checked": "2026-08-13",
     "url": null
@@ -198,6 +256,15 @@
   "sysx a unified analytics engine for secure multiparty computation": {
     "checked": "2026-08-13",
     "url": null
+  },
+  "tactoc enabling task adaptive communication system with a task describable encoder": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "take me home wi fi drone a drone based wireless system for wilderness search and rescue": {
+    "checked": "2026-08-13",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2604.09115"
   },
   "tamias feedback guided systematic concurrency exploration for transparent distributed system fuzzing": {
     "checked": "2026-08-13",
@@ -223,6 +290,14 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "unlocking practical cardiac monitoring capabilities on true wireless stereo earbuds": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "v droid advancing mobile gui agent through generative verifiers": {
+    "checked": "2026-08-13",
+    "url": null
+  },
   "validating a production cloud object store with lightweight formal methods": {
     "checked": "2026-08-13",
     "url": null
@@ -240,6 +315,10 @@
     "url": null
   },
   "wavel a fast and efficient compilation system for wafer scale accelerators": {
+    "checked": "2026-08-13",
+    "url": null
+  },
+  "when mobile tof meets micro vibration multi point khz frequency sensing using laser speckle": {
     "checked": "2026-08-13",
     "url": null
   },

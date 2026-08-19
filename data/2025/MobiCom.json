@@ -1,0 +1,4368 @@
+{
+  "meta": {
+    "venue": "MobiCom",
+    "year": 2025,
+    "source_keys": [
+      "conf/mobicom/mobicom2025"
+    ],
+    "paper_count": 77,
+    "note": null,
+    "updated": "2026-08-13"
+  },
+  "papers": [
+    {
+      "title": "PolarVisor: Clutter-free, Electronics-free Fiducial Markers for mmWave Radars Printed on Paper",
+      "authors": [
+        {
+          "name": "Junbo Zhang 0001",
+          "display_name": "Junbo Zhang",
+          "pid": "75/8471-1",
+          "orcid": "0000-0003-4821-6559"
+        },
+        {
+          "name": "Yiwen Song",
+          "display_name": "Yiwen Song",
+          "pid": "170/4082",
+          "orcid": "0000-0002-9243-9955"
+        },
+        {
+          "name": "Swarun Kumar",
+          "display_name": "Swarun Kumar",
+          "pid": "44/8737",
+          "orcid": "0000-0002-5398-5347"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723456",
+      "url": "https://doi.org/10.1145/3680207.3723456",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723456",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "1-16",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/0001SK25"
+    },
+    {
+      "title": "MoleSen: From Macro Sensing to Micro Molecular-level Taste Sensing",
+      "authors": [
+        {
+          "name": "Denghui Song",
+          "display_name": "Denghui Song",
+          "pid": "387/3732",
+          "orcid": "0009-0009-3784-4235"
+        },
+        {
+          "name": "Anfu Zhou",
+          "display_name": "Anfu Zhou",
+          "pid": "32/5505",
+          "orcid": "0000-0002-8785-3350"
+        },
+        {
+          "name": "Huadong Ma",
+          "display_name": "Huadong Ma",
+          "pid": "04/6217",
+          "orcid": "0000-0002-7199-5047"
+        },
+        {
+          "name": "Jie Xiong 0001",
+          "display_name": "Jie Xiong",
+          "pid": "75/198-1",
+          "orcid": "0000-0002-5396-4554"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723457",
+      "url": "https://doi.org/10.1145/3680207.3723457",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723457",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "17-32",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/SongZM025"
+    },
+    {
+      "title": "Towards Intelligent LiDAR with Adaptive Focus",
+      "authors": [
+        {
+          "name": "Xuan Huang 0001",
+          "display_name": "Xuan Huang",
+          "pid": "57/4206-1",
+          "orcid": "0000-0002-0637-1983"
+        },
+        {
+          "name": "Chen Bian",
+          "display_name": "Chen Bian",
+          "pid": "247/5882",
+          "orcid": "0009-0006-1854-1659"
+        },
+        {
+          "name": "Jun Huang 0001",
+          "display_name": "Jun Huang",
+          "pid": "51/5022-1",
+          "orcid": "0000-0002-6862-4122"
+        },
+        {
+          "name": "Guoliang Xing",
+          "display_name": "Guoliang Xing",
+          "pid": "63/4542",
+          "orcid": "0000-0003-1772-7751"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723458",
+      "url": "https://doi.org/10.1145/3680207.3723458",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723458",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "33-46",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/0001BHX25"
+    },
+    {
+      "title": "Poison to Cure: Privacy-preserving Wi-Fi Multi-User Sensing via Data Poisoning",
+      "authors": [
+        {
+          "name": "Jingzhi Hu",
+          "display_name": "Jingzhi Hu",
+          "pid": "174/3780",
+          "orcid": "0000-0002-1965-3576"
+        },
+        {
+          "name": "Xin Li 0070",
+          "display_name": "Xin Li",
+          "pid": "09/1365-70",
+          "orcid": "0000-0002-9244-6485"
+        },
+        {
+          "name": "Jin Gan",
+          "display_name": "Jin Gan",
+          "pid": "192/9897",
+          "orcid": "0000-0002-3258-0578"
+        },
+        {
+          "name": "Jun Luo 0001",
+          "display_name": "Jun Luo",
+          "pid": "42/2501-1",
+          "orcid": "0000-0002-7036-5158"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723459",
+      "url": "https://doi.org/10.1145/3680207.3723459",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723459",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "47-62",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Hu0G025"
+    },
+    {
+      "title": "Hedgehog: Pushing the Range Limits of Ultrasonic Microphone Jammers",
+      "authors": [
+        {
+          "name": "Shengyu Li",
+          "display_name": "Shengyu Li",
+          "pid": "132/7827",
+          "orcid": "0000-0001-6170-865X"
+        },
+        {
+          "name": "Mengchen Teng",
+          "display_name": "Mengchen Teng",
+          "pid": "424/2489",
+          "orcid": "0009-0007-0589-9691"
+        },
+        {
+          "name": "Boyu Li",
+          "display_name": "Boyu Li",
+          "pid": "25/5732",
+          "orcid": "0009-0006-5161-5613"
+        },
+        {
+          "name": "Songfan Li",
+          "display_name": "Songfan Li",
+          "pid": "181/4238",
+          "orcid": "0000-0002-4054-6513"
+        },
+        {
+          "name": "Xiandong Shao",
+          "display_name": "Xiandong Shao",
+          "pid": "319/0054",
+          "orcid": "0000-0002-4181-2932"
+        },
+        {
+          "name": "Chong Zhang 0017",
+          "display_name": "Chong Zhang",
+          "pid": "74/3128-17",
+          "orcid": "0000-0001-8857-0144"
+        },
+        {
+          "name": "Li Lu 0001",
+          "display_name": "Li Lu",
+          "pid": "49/2793-1",
+          "orcid": "0000-0002-4361-012X"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723460",
+      "url": "https://doi.org/10.1145/3680207.3723460",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723460",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "63-77",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/LiTLLSZ025"
+    },
+    {
+      "title": "Medusa: Scalable Multi-View Biometric Sensing in the Wild with Distributed MIMO Radars",
+      "authors": [
+        {
+          "name": "Yilong Li 0004",
+          "display_name": "Yilong Li",
+          "pid": "131/4721-4",
+          "orcid": "0000-0003-3806-0570"
+        },
+        {
+          "name": "Ramanujan K. Sheshadri",
+          "display_name": "Ramanujan K. Sheshadri",
+          "pid": "133/3868",
+          "orcid": "0000-0002-4439-6305"
+        },
+        {
+          "name": "Karthik Sundaresan",
+          "display_name": "Karthik Sundaresan",
+          "pid": "42/3793",
+          "orcid": "0000-0002-8089-4264"
+        },
+        {
+          "name": "Eugene Chai",
+          "display_name": "Eugene Chai",
+          "pid": "33/8356",
+          "orcid": "0009-0003-1505-7368"
+        },
+        {
+          "name": "Yijing Zeng",
+          "display_name": "Yijing Zeng",
+          "pid": "158/4697",
+          "orcid": "0000-0001-5244-5034"
+        },
+        {
+          "name": "Jayaram Raghuram",
+          "display_name": "Jayaram Raghuram",
+          "pid": "117/7273",
+          "orcid": "0000-0002-9473-3357"
+        },
+        {
+          "name": "Suman Banerjee 0001",
+          "display_name": "Suman Banerjee",
+          "pid": "345/5455-1",
+          "orcid": "0000-0002-5548-8862"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723461",
+      "url": "https://doi.org/10.1145/3680207.3723461",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723461",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "78-92",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/LiSSCZR025"
+    },
+    {
+      "title": "QuinID: Enabling FDMA-Based Fully Parallel RFID with Frequency-Selective Antenna",
+      "authors": [
+        {
+          "name": "Xin Na",
+          "display_name": "Xin Na",
+          "pid": "298/4995",
+          "orcid": "0000-0002-0986-5209"
+        },
+        {
+          "name": "Jia Zhang 0012",
+          "display_name": "Jia Zhang",
+          "pid": "80/2266-12",
+          "orcid": "0000-0002-9885-3436"
+        },
+        {
+          "name": "Jiacheng Zhang",
+          "display_name": "Jiacheng Zhang",
+          "pid": "147/7521",
+          "orcid": "0000-0001-8034-6420"
+        },
+        {
+          "name": "Xiuzhen Guo",
+          "display_name": "Xiuzhen Guo",
+          "pid": "188/8787",
+          "orcid": "0000-0002-8655-8130"
+        },
+        {
+          "name": "Yang Zou",
+          "display_name": "Yang Zou",
+          "pid": "03/7447",
+          "orcid": "0009-0000-5172-0540"
+        },
+        {
+          "name": "Meng Jin 0002",
+          "display_name": "Meng Jin",
+          "pid": "33/6937-2",
+          "orcid": "0000-0001-5960-4659"
+        },
+        {
+          "name": "Yimiao Sun",
+          "display_name": "Yimiao Sun",
+          "pid": "339/6521",
+          "orcid": "0000-0001-9384-5915"
+        },
+        {
+          "name": "Yunhao Liu 0001",
+          "display_name": "Yunhao Liu",
+          "pid": "27/2403",
+          "orcid": "0000-0001-8052-9200"
+        },
+        {
+          "name": "Yuan He 0004",
+          "display_name": "Yuan He",
+          "pid": "11/1735-4",
+          "orcid": "0000-0002-6676-4009"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723462",
+      "url": "https://doi.org/10.1145/3680207.3723462",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723462",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2504.03412",
+      "pages": "93-107",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Na0ZGZ0S0025"
+    },
+    {
+      "title": "B2LoRa: Boosting LoRa Transmission for Satellite-IoT Systems with Blind Coherent Combining",
+      "authors": [
+        {
+          "name": "Yimin Zhao",
+          "display_name": "Yimin Zhao",
+          "pid": "02/8119",
+          "orcid": "0009-0000-2543-1358"
+        },
+        {
+          "name": "Weibo Wang",
+          "display_name": "Weibo Wang",
+          "pid": "168/4558",
+          "orcid": "0009-0005-3731-5625"
+        },
+        {
+          "name": "Xiong Wang 0006",
+          "display_name": "Xiong Wang",
+          "pid": "89/4432-6",
+          "orcid": "0009-0003-8033-4958"
+        },
+        {
+          "name": "Linghe Kong",
+          "display_name": "Linghe Kong",
+          "pid": "23/7909",
+          "orcid": "0000-0001-9266-3044"
+        },
+        {
+          "name": "Jiadi Yu",
+          "display_name": "Jiadi Yu",
+          "pid": "85/3615",
+          "orcid": "0000-0002-0207-9643"
+        },
+        {
+          "name": "Yifei Zhu 0001",
+          "display_name": "Yifei Zhu",
+          "pid": "174/2169-1",
+          "orcid": "0000-0003-4352-6507"
+        },
+        {
+          "name": "Shiyuan Li",
+          "display_name": "Shiyuan Li",
+          "pid": "73/10608",
+          "orcid": "0000-0003-1120-2671"
+        },
+        {
+          "name": "Chong He",
+          "display_name": "Chong He",
+          "pid": "152/4449",
+          "orcid": "0000-0002-9796-5532"
+        },
+        {
+          "name": "Guihai Chen",
+          "display_name": "Guihai Chen",
+          "pid": "51/1742",
+          "orcid": "0000-0002-6934-1685"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723463",
+      "url": "https://doi.org/10.1145/3680207.3723463",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723463",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2505.24140",
+      "pages": "108-122",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/ZhaoW0KY0LHC25"
+    },
+    {
+      "title": "How to Update Your 5G vRAN",
+      "authors": [
+        {
+          "name": "Xin Zhe Khooi",
+          "display_name": "Xin Zhe Khooi",
+          "pid": "155/4219",
+          "orcid": "0009-0005-8048-8556"
+        },
+        {
+          "name": "Anuj Kalia",
+          "display_name": "Anuj Kalia",
+          "pid": "149/9171",
+          "orcid": "0009-0004-1586-655X"
+        },
+        {
+          "name": "Mun Choon Chan",
+          "display_name": "Mun Choon Chan",
+          "pid": "28/6329",
+          "orcid": "0000-0002-6563-275X"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723464",
+      "url": "https://doi.org/10.1145/3680207.3723464",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723464",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "123-138",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/KhooiKC25"
+    },
+    {
+      "title": "PassiveBLE: Towards Fully Commodity Compatible BLE Backscatter",
+      "authors": [
+        {
+          "name": "Huixin Dong",
+          "display_name": "Huixin Dong",
+          "pid": "218/4947",
+          "orcid": "0000-0002-5984-9194"
+        },
+        {
+          "name": "Yijie Wu",
+          "display_name": "Yijie Wu",
+          "pid": "186/7472",
+          "orcid": "0009-0004-3599-2545"
+        },
+        {
+          "name": "Feiyu Li",
+          "display_name": "Feiyu Li",
+          "pid": "127/4014",
+          "orcid": null
+        },
+        {
+          "name": "Wei Kuang",
+          "display_name": "Wei Kuang",
+          "pid": "16/7840",
+          "orcid": null
+        },
+        {
+          "name": "Yuan He",
+          "display_name": "Yuan He",
+          "pid": "11/1735",
+          "orcid": null
+        },
+        {
+          "name": "Qian Zhang 0001",
+          "display_name": "Qian Zhang",
+          "pid": "04/2024-1",
+          "orcid": "0000-0001-9205-1881"
+        },
+        {
+          "name": "Wei Wang 0050",
+          "display_name": "Wei Wang",
+          "pid": "35/7092-50",
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723465",
+      "url": "https://doi.org/10.1145/3680207.3723465",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723465",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2503.11490",
+      "pages": "139-153",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/DongWLKHZ025"
+    },
+    {
+      "title": "Bridge: Enabling BLE Direction Finding Feature Compatible with All Bluetooth Devices",
+      "authors": [
+        {
+          "name": "Runting Zhang",
+          "display_name": "Runting Zhang",
+          "pid": "302/4304",
+          "orcid": "0009-0002-2632-5981"
+        },
+        {
+          "name": "Yijie Li 0002",
+          "display_name": "Yijie Li",
+          "pid": "54/8054-2",
+          "orcid": "0000-0002-7129-6764"
+        },
+        {
+          "name": "Dian Ding",
+          "display_name": "Dian Ding",
+          "pid": "271/9812",
+          "orcid": "0000-0002-2190-0919"
+        },
+        {
+          "name": "Yi-Chao Chen 0001",
+          "display_name": "Yi-Chao Chen",
+          "pid": "91/699-1",
+          "orcid": "0000-0003-0782-4953"
+        },
+        {
+          "name": "Yida Wang 0007",
+          "display_name": "Yida Wang",
+          "pid": "17/1701-7",
+          "orcid": "0009-0009-3922-6123"
+        },
+        {
+          "name": "Dongyao Chen",
+          "display_name": "Dongyao Chen",
+          "pid": "153/5746",
+          "orcid": "0000-0002-5223-7304"
+        },
+        {
+          "name": "Jingxian Wang",
+          "display_name": "Jingxian Wang",
+          "pid": "153/8510",
+          "orcid": "0000-0002-4713-1425"
+        },
+        {
+          "name": "Jiadi Yu",
+          "display_name": "Jiadi Yu",
+          "pid": "85/3615",
+          "orcid": "0000-0002-0207-9643"
+        },
+        {
+          "name": "Ling Ma",
+          "display_name": "Ling Ma",
+          "pid": "00/1079",
+          "orcid": "0009-0003-9731-059X"
+        },
+        {
+          "name": "Guangtao Xue",
+          "display_name": "Guangtao Xue",
+          "pid": "79/1810",
+          "orcid": "0000-0002-1617-3593"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723466",
+      "url": "https://doi.org/10.1145/3680207.3723466",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723466",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "154-169",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Zhang0D00CWYMX25"
+    },
+    {
+      "title": "RF-Based 3D SLAM Rivaling Vision Approaches",
+      "authors": [
+        {
+          "name": "Haowen Lai",
+          "display_name": "Haowen Lai",
+          "pid": "297/3941",
+          "orcid": "0000-0001-8722-0820"
+        },
+        {
+          "name": "Zhiwei Zheng",
+          "display_name": "Zhiwei Zheng",
+          "pid": "176/8348",
+          "orcid": "0009-0009-9508-1803"
+        },
+        {
+          "name": "Mingmin Zhao",
+          "display_name": "Mingmin Zhao",
+          "pid": "150/3255",
+          "orcid": "0000-0001-5226-9085"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723467",
+      "url": "https://doi.org/10.1145/3680207.3723467",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723467",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "170-185",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/LaiZZ25"
+    },
+    {
+      "title": "Bluetooth-Enabled Transparent RF Sensing",
+      "authors": [
+        {
+          "name": "Rong Ding",
+          "display_name": "Rong Ding",
+          "pid": "59/373",
+          "orcid": "0000-0003-1514-435X"
+        },
+        {
+          "name": "Haiming Jin",
+          "display_name": "Haiming Jin",
+          "pid": "14/3177",
+          "orcid": "0000-0001-5178-7198"
+        },
+        {
+          "name": "Ningzhi Zhu",
+          "display_name": "Ningzhi Zhu",
+          "pid": "309/0399",
+          "orcid": "0009-0002-9430-7515"
+        },
+        {
+          "name": "Zijie Chen 0006",
+          "display_name": "Zijie Chen",
+          "pid": "135/0704-6",
+          "orcid": "0000-0003-2018-8883"
+        },
+        {
+          "name": "Yi Fu",
+          "display_name": "Yi Fu",
+          "pid": "86/4628",
+          "orcid": "0009-0008-6193-1227"
+        },
+        {
+          "name": "Fengyuan Zhu 0001",
+          "display_name": "Fengyuan Zhu",
+          "pid": "160/3973-1",
+          "orcid": "0000-0003-2932-0641"
+        },
+        {
+          "name": "Guiyun Fan",
+          "display_name": "Guiyun Fan",
+          "pid": "224/0821",
+          "orcid": "0000-0002-7007-6110"
+        },
+        {
+          "name": "Xiaohua Tian",
+          "display_name": "Xiaohua Tian",
+          "pid": "89/1428",
+          "orcid": "0000-0003-0716-3323"
+        },
+        {
+          "name": "Linghe Kong",
+          "display_name": "Linghe Kong",
+          "pid": "23/7909",
+          "orcid": "0000-0001-9266-3044"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723468",
+      "url": "https://doi.org/10.1145/3680207.3723468",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723468",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "186-200",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/DingJZCFZFTK25"
+    },
+    {
+      "title": "Automated Model-Based Fuzzing for 5G O-RAN",
+      "authors": [
+        {
+          "name": "Sixu Tan",
+          "display_name": "Sixu Tan",
+          "pid": "368/9410",
+          "orcid": "0009-0009-0694-1753"
+        },
+        {
+          "name": "Zeyu Li",
+          "display_name": "Zeyu Li",
+          "pid": "25/287",
+          "orcid": "0009-0008-8335-4619"
+        },
+        {
+          "name": "Zhutian Liu 0002",
+          "display_name": "Zhutian Liu",
+          "pid": "227/3761-2",
+          "orcid": "0009-0006-4076-6045"
+        },
+        {
+          "name": "Harsh Patel",
+          "display_name": "Harsh Patel",
+          "pid": "157/0189",
+          "orcid": "0009-0005-2562-7920"
+        },
+        {
+          "name": "Zhaowei Tan",
+          "display_name": "Zhaowei Tan",
+          "pid": "177/7011",
+          "orcid": "0000-0002-0118-7917"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723469",
+      "url": "https://doi.org/10.1145/3680207.3723469",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723469",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "201-215",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/TanL0PT25"
+    },
+    {
+      "title": "BoRa: LoRa over BLE",
+      "authors": [
+        {
+          "name": "Yeming Li",
+          "display_name": "Yeming Li",
+          "pid": "272/6317",
+          "orcid": "0000-0002-7267-3322"
+        },
+        {
+          "name": "Hailong Lin",
+          "display_name": "Hailong Lin",
+          "pid": "177/5531",
+          "orcid": "0009-0005-8358-3065"
+        },
+        {
+          "name": "Renjie Li",
+          "display_name": "Renjie Li",
+          "pid": "52/2401",
+          "orcid": "0009-0007-8897-0317"
+        },
+        {
+          "name": "Jiamei Lv",
+          "display_name": "Jiamei Lv",
+          "pid": "236/3110",
+          "orcid": "0000-0002-6673-722X"
+        },
+        {
+          "name": "Yi Gao 0001",
+          "display_name": "Yi Gao",
+          "pid": "38/4304-1",
+          "orcid": "0000-0001-7897-5965"
+        },
+        {
+          "name": "Wei Dong 0001",
+          "display_name": "Wei Dong",
+          "pid": "92/748-1",
+          "orcid": "0000-0003-0498-1494"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723470",
+      "url": "https://doi.org/10.1145/3680207.3723470",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723470",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "216-230",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/LiLLL0025"
+    },
+    {
+      "title": "SeRadar: Embracing Secondary Reflections for Human Sensing with mmWave Radar",
+      "authors": [
+        {
+          "name": "Danei Gong",
+          "display_name": "Danei Gong",
+          "pid": "365/8787",
+          "orcid": "0000-0002-1621-3831"
+        },
+        {
+          "name": "Naiyu Zheng",
+          "display_name": "Naiyu Zheng",
+          "pid": "348/1115",
+          "orcid": "0009-0003-3263-7284"
+        },
+        {
+          "name": "Binbin Xie",
+          "display_name": "Binbin Xie",
+          "pid": "172/5431",
+          "orcid": "0000-0001-8484-0362"
+        },
+        {
+          "name": "Jie Xiong 0001",
+          "display_name": "Jie Xiong",
+          "pid": "75/198-1",
+          "orcid": "0000-0002-5396-4554"
+        },
+        {
+          "name": "Shuai Wang 0008",
+          "display_name": "Shuai Wang",
+          "pid": "42/1503-8",
+          "orcid": "0000-0002-3609-2205"
+        },
+        {
+          "name": "Yuguang Fang",
+          "display_name": "Yuguang Fang",
+          "pid": "f/YuguangFang",
+          "orcid": "0000-0002-1079-3871"
+        },
+        {
+          "name": "Zhimeng Yin 0001",
+          "display_name": "Zhimeng Yin",
+          "pid": "130/9834-1",
+          "orcid": "0000-0002-3548-3335"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723471",
+      "url": "https://doi.org/10.1145/3680207.3723471",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723471",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "231-246",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/GongZX00F025"
+    },
+    {
+      "title": "GlucoSense: Non-Invasive Glucose Monitoring using Mobile Devices",
+      "authors": [
+        {
+          "name": "Neha Sharma",
+          "display_name": "Neha Sharma",
+          "pid": "25/9554",
+          "orcid": "0009-0009-3880-4198"
+        },
+        {
+          "name": "Mariam Bebawy",
+          "display_name": "Mariam Bebawy",
+          "pid": "422/3265",
+          "orcid": "0009-0004-1454-8744"
+        },
+        {
+          "name": "Yik Yu Ng",
+          "display_name": "Yik Yu Ng",
+          "pid": "424/2414",
+          "orcid": "0009-0002-2687-987X"
+        },
+        {
+          "name": "Mohamed Hefeeda",
+          "display_name": "Mohamed Hefeeda",
+          "pid": "h/MohamedHefeeda",
+          "orcid": "0000-0003-3261-4376"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723472",
+      "url": "https://doi.org/10.1145/3680207.3723472",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723472",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "247-266",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/SharmaBNH25"
+    },
+    {
+      "title": "NeVo: Advancing Volumetric Video Streaming with Neural Content Representation",
+      "authors": [
+        {
+          "name": "Nan Wu 0012",
+          "display_name": "Nan Wu",
+          "pid": "58/2484-12",
+          "orcid": "0000-0003-4875-2941"
+        },
+        {
+          "name": "Bo Chen 0025",
+          "display_name": "Bo Chen",
+          "pid": "89/5615-25",
+          "orcid": "0009-0006-3392-4834"
+        },
+        {
+          "name": "Ruizhi Cheng",
+          "display_name": "Ruizhi Cheng",
+          "pid": "312/6541",
+          "orcid": "0000-0002-3942-5167"
+        },
+        {
+          "name": "Klara Nahrstedt",
+          "display_name": "Klara Nahrstedt",
+          "pid": "45/3224",
+          "orcid": "0000-0001-6813-3043"
+        },
+        {
+          "name": "Bo Han 0001",
+          "display_name": "Bo Han",
+          "pid": "00/3507",
+          "orcid": "0000-0001-7042-3322"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723473",
+      "url": "https://doi.org/10.1145/3680207.3723473",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723473",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "267-282",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/00120CN025"
+    },
+    {
+      "title": "CGMM: Non-Invasive Continuous Glucose Monitoring in Wearables Using Metasurfaces",
+      "authors": [
+        {
+          "name": "Hao Pan 0003",
+          "display_name": "Hao Pan",
+          "pid": "02/3812-3",
+          "orcid": "0000-0002-2531-0107"
+        },
+        {
+          "name": "Yezhou Wang",
+          "display_name": "Yezhou Wang",
+          "pid": "132/3213",
+          "orcid": "0000-0003-0726-9398"
+        },
+        {
+          "name": "Jiting Liu",
+          "display_name": "Jiting Liu",
+          "pid": "377/0473",
+          "orcid": "0009-0005-4074-157X"
+        },
+        {
+          "name": "Ruichun Ma",
+          "display_name": "Ruichun Ma",
+          "pid": "305/4715",
+          "orcid": "0009-0001-0832-569X"
+        },
+        {
+          "name": "Lili Qiu",
+          "display_name": "Lili Qiu",
+          "pid": "54/4031",
+          "orcid": "0009-0003-8131-7439"
+        },
+        {
+          "name": "Yi-Chao Chen 0001",
+          "display_name": "Yi-Chao Chen",
+          "pid": "91/699-1",
+          "orcid": "0000-0003-0782-4953"
+        },
+        {
+          "name": "Guangtao Xue",
+          "display_name": "Guangtao Xue",
+          "pid": "79/1810",
+          "orcid": "0000-0002-1617-3593"
+        },
+        {
+          "name": "Ju Ren 0001",
+          "display_name": "Ju Ren",
+          "pid": "00/468-1",
+          "orcid": "0000-0003-2782-183X"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723474",
+      "url": "https://doi.org/10.1145/3680207.3723474",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723474",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "283-298",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/0003WLMQ0X025"
+    },
+    {
+      "title": "Wook: Enabling High-Throughput Wi-Fi Downlink with Ultra-Low Power",
+      "authors": [
+        {
+          "name": "Bingbing Wang",
+          "display_name": "Bingbing Wang",
+          "pid": "21/8079",
+          "orcid": "0000-0001-5165-6403"
+        },
+        {
+          "name": "Zeming Yang",
+          "display_name": "Zeming Yang",
+          "pid": "194/9837",
+          "orcid": "0009-0005-1492-1868"
+        },
+        {
+          "name": "Wenhui Li",
+          "display_name": "Wenhui Li",
+          "pid": "95/2212",
+          "orcid": "0009-0003-5582-850X"
+        },
+        {
+          "name": "Linling Zhong",
+          "display_name": "Linling Zhong",
+          "pid": "349/5280",
+          "orcid": "0009-0008-3433-8604"
+        },
+        {
+          "name": "Fengyuan Zhu 0001",
+          "display_name": "Fengyuan Zhu",
+          "pid": "160/3973-1",
+          "orcid": "0000-0003-2932-0641"
+        },
+        {
+          "name": "Jiazhen Lei",
+          "display_name": "Jiazhen Lei",
+          "pid": "419/2519",
+          "orcid": "0009-0002-7324-2150"
+        },
+        {
+          "name": "Jianyu Luo",
+          "display_name": "Jianyu Luo",
+          "pid": "99/8588",
+          "orcid": "0009-0005-0439-9527"
+        },
+        {
+          "name": "Meng Jin 0002",
+          "display_name": "Meng Jin",
+          "pid": "33/6937-2",
+          "orcid": "0000-0001-5960-4659"
+        },
+        {
+          "name": "Xiaohua Tian",
+          "display_name": "Xiaohua Tian",
+          "pid": "89/1428",
+          "orcid": "0000-0003-0716-3323"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723475",
+      "url": "https://doi.org/10.1145/3680207.3723475",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723475",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "299-313",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/WangYLZZLL0T25"
+    },
+    {
+      "title": "NanoScatter: Towards Ambient IoT",
+      "authors": [
+        {
+          "name": "Fengyuan Zhu 0001",
+          "display_name": "Fengyuan Zhu",
+          "pid": "160/3973-1",
+          "orcid": "0000-0003-2932-0641"
+        },
+        {
+          "name": "Jiaqi Shen",
+          "display_name": "Jiaqi Shen",
+          "pid": "204/1845",
+          "orcid": "0009-0008-2911-2360"
+        },
+        {
+          "name": "Wenhui Li",
+          "display_name": "Wenhui Li",
+          "pid": "95/2212",
+          "orcid": "0009-0003-5582-850X"
+        },
+        {
+          "name": "Jianyu Luo",
+          "display_name": "Jianyu Luo",
+          "pid": "99/8588",
+          "orcid": "0009-0005-0439-9527"
+        },
+        {
+          "name": "Renjie Zhao 0001",
+          "display_name": "Renjie Zhao",
+          "pid": "194/0429-1",
+          "orcid": "0000-0003-2539-8580"
+        },
+        {
+          "name": "Linling Zhong",
+          "display_name": "Linling Zhong",
+          "pid": "349/5280",
+          "orcid": "0009-0008-3433-8604"
+        },
+        {
+          "name": "Bingbing Wang",
+          "display_name": "Bingbing Wang",
+          "pid": "21/8079",
+          "orcid": "0000-0001-5165-6403"
+        },
+        {
+          "name": "Xiaohua Tian",
+          "display_name": "Xiaohua Tian",
+          "pid": "89/1428",
+          "orcid": "0000-0003-0716-3323"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723476",
+      "url": "https://doi.org/10.1145/3680207.3723476",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723476",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "314-328",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/ZhuSLL0ZWT25"
+    },
+    {
+      "title": "ESPIRO: Natural Pulmonary Function Monitoring via Earphone-Acquired Speech",
+      "authors": [
+        {
+          "name": "Yetong Cao",
+          "display_name": "Yetong Cao",
+          "pid": "271/9778",
+          "orcid": "0000-0003-1633-3259"
+        },
+        {
+          "name": "Dong Ma 0001",
+          "display_name": "Dong Ma",
+          "pid": "68/7912-1",
+          "orcid": "0000-0003-3824-234X"
+        },
+        {
+          "name": "Wentao Xie 0001",
+          "display_name": "Wentao Xie",
+          "pid": "182/4001-1",
+          "orcid": "0000-0002-7858-4419"
+        },
+        {
+          "name": "Qian Zhang 0001",
+          "display_name": "Qian Zhang",
+          "pid": "04/2024-1",
+          "orcid": "0000-0001-9205-1881"
+        },
+        {
+          "name": "Jun Luo 0001",
+          "display_name": "Jun Luo",
+          "pid": "42/2501-1",
+          "orcid": "0000-0002-7036-5158"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723477",
+      "url": "https://doi.org/10.1145/3680207.3723477",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723477",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "329-344",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/CaoM00025"
+    },
+    {
+      "title": "Making LoRa Sensing Coexist with Communication",
+      "authors": [
+        {
+          "name": "Binbin Xie",
+          "display_name": "Binbin Xie",
+          "pid": "172/5431",
+          "orcid": "0000-0001-8484-0362"
+        },
+        {
+          "name": "Minhao Cui",
+          "display_name": "Minhao Cui",
+          "pid": "230/6300",
+          "orcid": "0000-0002-1913-846X"
+        },
+        {
+          "name": "Deepak Ganesan",
+          "display_name": "Deepak Ganesan",
+          "pid": "g/DeepakGanesan",
+          "orcid": "0000-0003-2762-9194"
+        },
+        {
+          "name": "Jie Xiong 0001",
+          "display_name": "Jie Xiong",
+          "pid": "75/198-1",
+          "orcid": "0000-0002-5396-4554"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723478",
+      "url": "https://doi.org/10.1145/3680207.3723478",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723478",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "345-359",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/XieCG025"
+    },
+    {
+      "title": "ChirpEye: Passive Sensing and Profiling of FMCW Radars with a Resource-constrained Tag",
+      "authors": [
+        {
+          "name": "Mingyue Tang",
+          "display_name": "Mingyue Tang",
+          "pid": "264/5313",
+          "orcid": "0000-0003-1326-5553"
+        },
+        {
+          "name": "Jizheng He",
+          "display_name": "Jizheng He",
+          "pid": "346/2485",
+          "orcid": "0009-0004-4934-9649"
+        },
+        {
+          "name": "Ryu Okubo",
+          "display_name": "Ryu Okubo",
+          "pid": "294/2943",
+          "orcid": "0009-0001-7140-2870"
+        },
+        {
+          "name": "Dhruv Panchmia",
+          "display_name": "Dhruv Panchmia",
+          "pid": "394/2083",
+          "orcid": "0009-0003-8486-3275"
+        },
+        {
+          "name": "Elahe Soltanaghai",
+          "display_name": "Elahe Soltanaghai",
+          "pid": "180/7169",
+          "orcid": "0009-0006-5040-5438"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723479",
+      "url": "https://doi.org/10.1145/3680207.3723479",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723479",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "360-374",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/TangHOPS25"
+    },
+    {
+      "title": "From Signal-based to Impedance-based Sensing: A paradigm Shift for Plug-and-Play, Mobile, and Sensitive Battery-free Sensing",
+      "authors": [
+        {
+          "name": "Liyao Li",
+          "display_name": "Liyao Li",
+          "pid": "133/3737",
+          "orcid": "0000-0002-1055-2613"
+        },
+        {
+          "name": "Yun Wu",
+          "display_name": "Yun Wu",
+          "pid": "32/5387",
+          "orcid": "0009-0004-5589-4264"
+        },
+        {
+          "name": "Minsung Kim",
+          "display_name": "Minsung Kim",
+          "pid": "64/4985",
+          "orcid": "0000-0002-1376-4881"
+        },
+        {
+          "name": "Bozhao Shang",
+          "display_name": "Bozhao Shang",
+          "pid": "373/3779",
+          "orcid": "0009-0007-9975-1822"
+        },
+        {
+          "name": "Jie Xiong 0001",
+          "display_name": "Jie Xiong",
+          "pid": "75/198-1",
+          "orcid": "0000-0002-5396-4554"
+        },
+        {
+          "name": "Wenyao Xu",
+          "display_name": "Wenyao Xu",
+          "pid": "11/6689",
+          "orcid": "0000-0001-6444-9411"
+        },
+        {
+          "name": "Xiaojiang Chen",
+          "display_name": "Xiaojiang Chen",
+          "pid": "95/10521",
+          "orcid": "0000-0002-1180-6806"
+        },
+        {
+          "name": "Yaxiong Xie",
+          "display_name": "Yaxiong Xie",
+          "pid": "167/5888",
+          "orcid": "0000-0003-4258-6655"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723480",
+      "url": "https://doi.org/10.1145/3680207.3723480",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723480",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "375-390",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/LiWKSXXCX25"
+    },
+    {
+      "title": "When Device Delays Meet Data Heterogeneity in Federated AIoT Applications",
+      "authors": [
+        {
+          "name": "Haoming Wang 0002",
+          "display_name": "Haoming Wang",
+          "pid": "70/10132-2",
+          "orcid": "0009-0005-9052-0003"
+        },
+        {
+          "name": "Wei Gao 0006",
+          "display_name": "Wei Gao",
+          "pid": "28/2073-6",
+          "orcid": "0000-0003-2144-6960"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723481",
+      "url": "https://doi.org/10.1145/3680207.3723481",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723481",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "391-406",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/0002025"
+    },
+    {
+      "title": "WinSpy: Cross-window Side-channel Attacks on Android's Multi-window Mode",
+      "authors": [
+        {
+          "name": "Zeng Li",
+          "display_name": "Zeng Li",
+          "pid": "161/9526",
+          "orcid": "0009-0002-5160-0885"
+        },
+        {
+          "name": "Chuan Yan",
+          "display_name": "Chuan Yan",
+          "pid": "122/7526",
+          "orcid": "0000-0003-4855-1912"
+        },
+        {
+          "name": "Liuhuo Wan",
+          "display_name": "Liuhuo Wan",
+          "pid": "334/6847",
+          "orcid": "0009-0004-7090-1493"
+        },
+        {
+          "name": "Hui Zhuang",
+          "display_name": "Hui Zhuang",
+          "pid": "54/4930",
+          "orcid": "0009-0006-7503-1137"
+        },
+        {
+          "name": "Pengfei Hu 0001",
+          "display_name": "Pengfei Hu",
+          "pid": "71/9969-1",
+          "orcid": "0000-0002-7935-886X"
+        },
+        {
+          "name": "Guangdong Bai",
+          "display_name": "Guangdong Bai",
+          "pid": "86/9673",
+          "orcid": "0000-0002-6390-9890"
+        },
+        {
+          "name": "Yiran Shen 0001",
+          "display_name": "Yiran Shen",
+          "pid": "71/11188-1",
+          "orcid": "0000-0003-1385-1480"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723482",
+      "url": "https://doi.org/10.1145/3680207.3723482",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723482",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "407-421",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/LiYWZ0B025"
+    },
+    {
+      "title": "From Interference Mitigation to Toleration: Pathway to Practical Spatial Reuse in LPWANs",
+      "authors": [
+        {
+          "name": "Ruonan Li",
+          "display_name": "Ruonan Li",
+          "pid": "80/754",
+          "orcid": "0009-0004-5888-2613"
+        },
+        {
+          "name": "Ziyue Zhang",
+          "display_name": "Ziyue Zhang",
+          "pid": "202/8855",
+          "orcid": "0009-0007-3409-2889"
+        },
+        {
+          "name": "Xianjin Xia",
+          "display_name": "Xianjin Xia",
+          "pid": "148/4460",
+          "orcid": "0000-0001-9820-8480"
+        },
+        {
+          "name": "Ningning Hou",
+          "display_name": "Ningning Hou",
+          "pid": "272/6527",
+          "orcid": "0000-0002-0220-1274"
+        },
+        {
+          "name": "Wenchang Chai",
+          "display_name": "Wenchang Chai",
+          "pid": "415/4959",
+          "orcid": "0009-0000-3505-3100"
+        },
+        {
+          "name": "Shiming Yu",
+          "display_name": "Shiming Yu",
+          "pid": "158/5108",
+          "orcid": "0000-0002-7698-7396"
+        },
+        {
+          "name": "Yuanqing Zheng",
+          "display_name": "Yuanqing Zheng",
+          "pid": "08/9937",
+          "orcid": "0000-0003-3096-687X"
+        },
+        {
+          "name": "Tao Gu 0001",
+          "display_name": "Tao Gu",
+          "pid": "65/4916",
+          "orcid": "0000-0002-1350-6639"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723483",
+      "url": "https://doi.org/10.1145/3680207.3723483",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723483",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "422-437",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/LiZXHCYZ025"
+    },
+    {
+      "title": "AquaScan: A Sonar-based Underwater Sensing System for Human Activity Monitoring",
+      "authors": [
+        {
+          "name": "Haozheng Hou",
+          "display_name": "Haozheng Hou",
+          "pid": "324/8202",
+          "orcid": "0000-0001-7763-0527"
+        },
+        {
+          "name": "Bowen Zheng",
+          "display_name": "Bowen Zheng",
+          "pid": "02/9048",
+          "orcid": "0009-0007-7340-5649"
+        },
+        {
+          "name": "Sitong Cheng",
+          "display_name": "Sitong Cheng",
+          "pid": "252/5783",
+          "orcid": "0009-0006-6045-4612"
+        },
+        {
+          "name": "Xiaoguang Zhao",
+          "display_name": "Xiaoguang Zhao",
+          "pid": "50/5365",
+          "orcid": "0009-0005-4490-8787"
+        },
+        {
+          "name": "Peiheng Wu",
+          "display_name": "Peiheng Wu",
+          "pid": "96/8789",
+          "orcid": "0009-0005-9817-4547"
+        },
+        {
+          "name": "Lixing He",
+          "display_name": "Lixing He",
+          "pid": "274/6326",
+          "orcid": "0000-0002-2130-1385"
+        },
+        {
+          "name": "Yunqi Guo",
+          "display_name": "Yunqi Guo",
+          "pid": "178/3594",
+          "orcid": "0000-0002-1852-3825"
+        },
+        {
+          "name": "Guoliang Xing",
+          "display_name": "Guoliang Xing",
+          "pid": "63/4542",
+          "orcid": "0000-0003-1772-7751"
+        },
+        {
+          "name": "Zhenyu Yan 0002",
+          "display_name": "Zhenyu Yan",
+          "pid": "57/1273-2",
+          "orcid": "0000-0002-4433-5211"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723484",
+      "url": "https://doi.org/10.1145/3680207.3723484",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723484",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "438-452",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/HouZCZWHGX025"
+    },
+    {
+      "title": "L3GS: Layered 3D Gaussian Splats for Efficient 3D Scene Delivery",
+      "authors": [
+        {
+          "name": "Yi-Zhen Tsai",
+          "display_name": "Yi-Zhen Tsai",
+          "pid": "279/5637",
+          "orcid": "0009-0004-0391-7663"
+        },
+        {
+          "name": "Xuechen Zhang 0007",
+          "display_name": "Xuechen Zhang",
+          "pid": "382/7847",
+          "orcid": "0000-0002-0907-0027"
+        },
+        {
+          "name": "Zheng Li",
+          "display_name": "Zheng Li",
+          "pid": "10/1143",
+          "orcid": "0009-0007-9668-4564"
+        },
+        {
+          "name": "Jiasi Chen",
+          "display_name": "Jiasi Chen",
+          "pid": "35/9005",
+          "orcid": "0000-0001-9923-9027"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723485",
+      "url": "https://doi.org/10.1145/3680207.3723485",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723485",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2504.05517",
+      "pages": "453-467",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Tsai0LC25"
+    },
+    {
+      "title": "AutoIOT: LLM-Driven Automated Natural Language Programming for AIoT Applications",
+      "authors": [
+        {
+          "name": "Leming Shen",
+          "display_name": "Leming Shen",
+          "pid": "303/7402",
+          "orcid": "0000-0001-7661-6432"
+        },
+        {
+          "name": "Qiang Yang 0018",
+          "display_name": "Qiang Yang",
+          "pid": "82/6362-18",
+          "orcid": "0000-0002-5202-7892"
+        },
+        {
+          "name": "Yuanqing Zheng",
+          "display_name": "Yuanqing Zheng",
+          "pid": "08/9937",
+          "orcid": "0000-0003-3096-687X"
+        },
+        {
+          "name": "Mo Li 0001",
+          "display_name": "Mo Li",
+          "pid": "87/4982-1",
+          "orcid": "0000-0002-6047-9709"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723486",
+      "url": "https://doi.org/10.1145/3680207.3723486",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723486",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2503.05346",
+      "pages": "468-482",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Shen0Z025"
+    },
+    {
+      "title": "Confidant: Customizing Transformer-based LLMs via Collaborative Training on Mobile Devices",
+      "authors": [
+        {
+          "name": "Yuhao Chen 0005",
+          "display_name": "Yuhao Chen",
+          "pid": "34/10195-5",
+          "orcid": "0000-0002-9905-5823"
+        },
+        {
+          "name": "Yuxuan Yan",
+          "display_name": "Yuxuan Yan",
+          "pid": "225/8902",
+          "orcid": "0009-0004-4789-1645"
+        },
+        {
+          "name": "Shuowei Ge",
+          "display_name": "Shuowei Ge",
+          "pid": "424/2460",
+          "orcid": "0009-0003-6110-7645"
+        },
+        {
+          "name": "Yuyang Qin",
+          "display_name": "Yuyang Qin",
+          "pid": "408/3327",
+          "orcid": "0009-0002-4533-6467"
+        },
+        {
+          "name": "Yue Zheng",
+          "display_name": "Yue Zheng",
+          "pid": "47/3782",
+          "orcid": "0009-0003-0706-623X"
+        },
+        {
+          "name": "Qianqian Yang 0002",
+          "display_name": "Qianqian Yang",
+          "pid": "10/9659-2",
+          "orcid": "0000-0003-4747-9410"
+        },
+        {
+          "name": "Shibo He",
+          "display_name": "Shibo He",
+          "pid": "07/7178",
+          "orcid": "0000-0002-1505-6766"
+        },
+        {
+          "name": "Zhiguo Shi 0001",
+          "display_name": "Zhiguo Shi",
+          "pid": "34/520-1",
+          "orcid": "0000-0001-9160-048X"
+        },
+        {
+          "name": "Jiming Chen 0001",
+          "display_name": "Jiming Chen",
+          "pid": "55/2484-1",
+          "orcid": "0000-0003-3155-3145"
+        },
+        {
+          "name": "Yuanchao Shu",
+          "display_name": "Yuanchao Shu",
+          "pid": "64/10521",
+          "orcid": "0000-0002-9542-7095"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723487",
+      "url": "https://doi.org/10.1145/3680207.3723487",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723487",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "483-497",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/0005YGQZ0HS0S25"
+    },
+    {
+      "title": "mmTremor: Practical Tremor Monitoring for Parkinson's Disease and Essential Tremor in Daily Life",
+      "authors": [
+        {
+          "name": "Qingyong Hu",
+          "display_name": "Qingyong Hu",
+          "pid": "192/3850",
+          "orcid": "0000-0002-8719-7816"
+        },
+        {
+          "name": "Yuxuan Zhou",
+          "display_name": "Yuxuan Zhou",
+          "pid": "172/9870",
+          "orcid": "0000-0001-5091-4431"
+        },
+        {
+          "name": "Jinjian Wang",
+          "display_name": "Jinjian Wang",
+          "pid": "174/4193",
+          "orcid": "0009-0006-6741-9676"
+        },
+        {
+          "name": "Zirui Huang",
+          "display_name": "Zirui Huang",
+          "pid": "152/1812",
+          "orcid": "0000-0002-9235-6607"
+        },
+        {
+          "name": "Guihua Li",
+          "display_name": "Guihua Li",
+          "pid": "54/7266",
+          "orcid": "0000-0002-0149-7528"
+        },
+        {
+          "name": "Qianhui Xu",
+          "display_name": "Qianhui Xu",
+          "pid": "141/9167",
+          "orcid": "0000-0001-9677-2897"
+        },
+        {
+          "name": "Qian Zhang 0001",
+          "display_name": "Qian Zhang",
+          "pid": "04/2024-1",
+          "orcid": "0000-0001-9205-1881"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723488",
+      "url": "https://doi.org/10.1145/3680207.3723488",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723488",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "498-512",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/HuZWHLXZ25"
+    },
+    {
+      "title": "EasySpiro: Assessing Lung Function via Arbitrary Exhalations on Commodity Earphones",
+      "authors": [
+        {
+          "name": "Chi Xu",
+          "display_name": "Chi Xu",
+          "pid": "34/117",
+          "orcid": "0009-0000-7036-7148"
+        },
+        {
+          "name": "Wentao Xie 0001",
+          "display_name": "Wentao Xie",
+          "pid": "182/4001-1",
+          "orcid": "0000-0002-7858-4419"
+        },
+        {
+          "name": "Baichen Yang",
+          "display_name": "Baichen Yang",
+          "pid": "271/9958",
+          "orcid": "0000-0002-3031-2668"
+        },
+        {
+          "name": "Yizhen Zhang",
+          "display_name": "Yizhen Zhang",
+          "pid": "59/2147",
+          "orcid": "0009-0005-7530-9621"
+        },
+        {
+          "name": "Yanbin Gong",
+          "display_name": "Yanbin Gong",
+          "pid": "255/1003",
+          "orcid": "0000-0001-6044-4146"
+        },
+        {
+          "name": "Jin Zhang 0001",
+          "display_name": "Jin Zhang",
+          "pid": "43/6657-1",
+          "orcid": "0000-0002-2674-0918"
+        },
+        {
+          "name": "Wei Li",
+          "display_name": "Wei Li",
+          "pid": "64/6025",
+          "orcid": "0000-0003-3964-5546"
+        },
+        {
+          "name": "Shifang Yang",
+          "display_name": "Shifang Yang",
+          "pid": "191/2863",
+          "orcid": "0009-0005-7025-4473"
+        },
+        {
+          "name": "Qian Zhang 0001",
+          "display_name": "Qian Zhang",
+          "pid": "04/2024-1",
+          "orcid": "0000-0001-9205-1881"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723489",
+      "url": "https://doi.org/10.1145/3680207.3723489",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723489",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "513-528",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Xu0YZGZLY025"
+    },
+    {
+      "title": "HyperCam: Low-Power Onboard Computer Vision for IoT Cameras",
+      "authors": [
+        {
+          "name": "Chae Young Lee",
+          "display_name": "Chae Young Lee",
+          "pid": "227/2579",
+          "orcid": "0009-0005-5078-1233"
+        },
+        {
+          "name": "Pu (Luke) Yi 0001",
+          "display_name": "Pu (Luke) Yi",
+          "pid": "288/1540-1",
+          "orcid": "0000-0001-6669-6520"
+        },
+        {
+          "name": "Maxwell Fite",
+          "display_name": "Maxwell Fite",
+          "pid": "397/8844",
+          "orcid": "0000-0001-6791-9327"
+        },
+        {
+          "name": "Tejus Rao",
+          "display_name": "Tejus Rao",
+          "pid": "397/7377",
+          "orcid": "0009-0005-7023-2434"
+        },
+        {
+          "name": "Sara Achour",
+          "display_name": "Sara Achour",
+          "pid": "152/5845",
+          "orcid": "0000-0003-3444-1544"
+        },
+        {
+          "name": "Zerina Kapetanovic",
+          "display_name": "Zerina Kapetanovic",
+          "pid": "163/5008",
+          "orcid": "0000-0001-6240-5511"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723490",
+      "url": "https://doi.org/10.1145/3680207.3723490",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723490",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2501.10547",
+      "pages": "529-542",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Lee0FRAK25"
+    },
+    {
+      "title": "Modality Plug-and-Play: Runtime Modality Adaptation in LLM-Driven Autonomous Mobile Systems",
+      "authors": [
+        {
+          "name": "Kai Huang 0007",
+          "display_name": "Kai Huang",
+          "pid": "86/489-7",
+          "orcid": "0000-0003-2569-2309"
+        },
+        {
+          "name": "Xiangyu Yin 0002",
+          "display_name": "Xiangyu Yin",
+          "pid": "251/9982-2",
+          "orcid": "0000-0003-4583-3906"
+        },
+        {
+          "name": "Heng Huang 0001",
+          "display_name": "Heng Huang",
+          "pid": "03/281",
+          "orcid": "0000-0002-3483-8333"
+        },
+        {
+          "name": "Wei Gao 0006",
+          "display_name": "Wei Gao",
+          "pid": "28/2073-6",
+          "orcid": "0000-0003-2144-6960"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723491",
+      "url": "https://doi.org/10.1145/3680207.3723491",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723491",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "543-558",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Huang0H025"
+    },
+    {
+      "title": "5G-MAP: Demystifying the Performance Implications of Cloud-Based 5G Core Deployments",
+      "authors": [
+        {
+          "name": "Tolga O. Atalay",
+          "display_name": "Tolga O. Atalay",
+          "pid": "320/8614",
+          "orcid": "0000-0002-9195-4007"
+        },
+        {
+          "name": "Dragoslav Stojadinovic",
+          "display_name": "Dragoslav Stojadinovic",
+          "pid": "157/8347",
+          "orcid": "0000-0003-4435-1104"
+        },
+        {
+          "name": "Alireza Famili",
+          "display_name": "Alireza Famili",
+          "pid": "268/7156",
+          "orcid": "0000-0002-0617-5851"
+        },
+        {
+          "name": "Angelos Stavrou",
+          "display_name": "Angelos Stavrou",
+          "pid": "14/5349",
+          "orcid": "0000-0001-9888-0592"
+        },
+        {
+          "name": "Haining Wang 0001",
+          "display_name": "Haining Wang",
+          "pid": "81/4036-1",
+          "orcid": "0000-0002-9665-7511"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723492",
+      "url": "https://doi.org/10.1145/3680207.3723492",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723492",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "559-573",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/AtalaySFS025"
+    },
+    {
+      "title": "D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving",
+      "authors": [
+        {
+          "name": "Haodong Wang",
+          "display_name": "Haodong Wang",
+          "pid": "56/96",
+          "orcid": "0009-0001-8977-850X"
+        },
+        {
+          "name": "Qihua Zhou",
+          "display_name": "Qihua Zhou",
+          "pid": "213/0984",
+          "orcid": "0000-0003-0328-2894"
+        },
+        {
+          "name": "Zicong Hong",
+          "display_name": "Zicong Hong",
+          "pid": "239/5523",
+          "orcid": "0000-0001-5689-382X"
+        },
+        {
+          "name": "Song Guo 0001",
+          "display_name": "Song Guo",
+          "pid": "01/267-1",
+          "orcid": "0000-0001-9831-2202"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723493",
+      "url": "https://doi.org/10.1145/3680207.3723493",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723493",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2504.15299",
+      "pages": "574-588",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/WangZH025"
+    },
+    {
+      "title": "LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps",
+      "authors": [
+        {
+          "name": "Shanhui Zhao",
+          "display_name": "Shanhui Zhao",
+          "pid": "355/5428",
+          "orcid": "0009-0002-4205-0770"
+        },
+        {
+          "name": "Hao Wen 0004",
+          "display_name": "Hao Wen",
+          "pid": "57/77-4",
+          "orcid": "0009-0008-8450-7795"
+        },
+        {
+          "name": "Wenjie Du 0004",
+          "display_name": "Wenjie Du",
+          "pid": "96/5778-4",
+          "orcid": "0009-0004-4359-9217"
+        },
+        {
+          "name": "Cheng Liang 0006",
+          "display_name": "Cheng Liang",
+          "pid": "81/9078-6",
+          "orcid": "0009-0008-0508-7199"
+        },
+        {
+          "name": "Yunxin Liu 0001",
+          "display_name": "Yunxin Liu",
+          "pid": "55/3521-1",
+          "orcid": "0000-0001-7352-8955"
+        },
+        {
+          "name": "Xiaozhou Ye",
+          "display_name": "Xiaozhou Ye",
+          "pid": "183/5360",
+          "orcid": "0000-0002-4925-5907"
+        },
+        {
+          "name": "Ye Ouyang",
+          "display_name": "Ye Ouyang",
+          "pid": "51/7998",
+          "orcid": "0000-0002-6195-6415"
+        },
+        {
+          "name": "Yuanchun Li 0003",
+          "display_name": "Yuanchun Li",
+          "pid": "87/4523-3",
+          "orcid": "0000-0002-1591-2526"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723494",
+      "url": "https://doi.org/10.1145/3680207.3723494",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723494",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2505.10593",
+      "pages": "589-603",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/ZhaoW000YO025"
+    },
+    {
+      "title": "X-ResQ: Parallel Reverse Annealing for Quantum Maximum-Likelihood MIMO Detection with Flexible Parallelism",
+      "authors": [
+        {
+          "name": "Minsung Kim",
+          "display_name": "Minsung Kim",
+          "pid": "64/4985",
+          "orcid": "0000-0002-1376-4881"
+        },
+        {
+          "name": "Abhishek Kumar Singh 0004",
+          "display_name": "Abhishek Kumar Singh",
+          "pid": "139/0855-4",
+          "orcid": "0000-0003-2438-4400"
+        },
+        {
+          "name": "Davide Venturelli",
+          "display_name": "Davide Venturelli",
+          "pid": "149/1236",
+          "orcid": "0000-0003-0452-7603"
+        },
+        {
+          "name": "John Kaewell",
+          "display_name": "John Kaewell",
+          "pid": "257/5042",
+          "orcid": "0000-0001-9206-7752"
+        },
+        {
+          "name": "Kyle Jamieson",
+          "display_name": "Kyle Jamieson",
+          "pid": "j/KyleJamieson",
+          "orcid": "0000-0002-7940-2867"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723495",
+      "url": "https://doi.org/10.1145/3680207.3723495",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723495",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "604-619",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Kim0VKJ25"
+    },
+    {
+      "title": "NIRF: Detecting Cameras That Hide Behind Screen",
+      "authors": [
+        {
+          "name": "Hanting Ye",
+          "display_name": "Hanting Ye",
+          "pid": "230/2591",
+          "orcid": "0000-0001-7306-5743"
+        },
+        {
+          "name": "Niels van der Kolk",
+          "display_name": "Niels van der Kolk",
+          "pid": "424/2425",
+          "orcid": "0009-0000-3805-0415"
+        },
+        {
+          "name": "Qing Wang 0007",
+          "display_name": "Qing Wang",
+          "pid": "97/6505-7",
+          "orcid": "0000-0003-0950-1111"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3723496",
+      "url": "https://doi.org/10.1145/3680207.3723496",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3723496",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "620-634",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/YeK025"
+    },
+    {
+      "title": "GPSoil: Towards low-cost soil moisture sensing using GNSS signals",
+      "authors": [
+        {
+          "name": "Huixin Dong",
+          "display_name": "Huixin Dong",
+          "pid": "218/4947",
+          "orcid": "0000-0002-5984-9194"
+        },
+        {
+          "name": "Jingqi Lin",
+          "display_name": "Jingqi Lin",
+          "pid": "388/0973",
+          "orcid": "0009-0008-4110-6879"
+        },
+        {
+          "name": "Minhao Cui",
+          "display_name": "Minhao Cui",
+          "pid": "230/6300",
+          "orcid": "0000-0002-1913-846X"
+        },
+        {
+          "name": "Serene Zhang",
+          "display_name": "Serene Zhang",
+          "pid": "424/2558",
+          "orcid": "0009-0006-0530-4179"
+        },
+        {
+          "name": "Lili Qiu",
+          "display_name": "Lili Qiu",
+          "pid": "54/4031",
+          "orcid": "0009-0003-8131-7439"
+        },
+        {
+          "name": "Jie Xiong 0001",
+          "display_name": "Jie Xiong",
+          "pid": "75/198-1",
+          "orcid": "0000-0002-5396-4554"
+        },
+        {
+          "name": "Wei Wang 0050",
+          "display_name": "Wei Wang",
+          "pid": "35/7092-50",
+          "orcid": "0000-0002-2772-4856"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765236",
+      "url": "https://doi.org/10.1145/3680207.3765236",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765236",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "635-649",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/DongLCZQ0025"
+    },
+    {
+      "title": "Ghost Points Matter: Far-Range Vehicle Detection with a Single mmWave Radar in Tunnel",
+      "authors": [
+        {
+          "name": "Chenming He",
+          "display_name": "Chenming He",
+          "pid": "372/0765",
+          "orcid": "0009-0008-2330-3799"
+        },
+        {
+          "name": "Rui Xia",
+          "display_name": "Rui Xia",
+          "pid": "50/3262",
+          "orcid": "0009-0000-4115-2869"
+        },
+        {
+          "name": "Chengzhen Meng",
+          "display_name": "Chengzhen Meng",
+          "pid": "310/0339",
+          "orcid": "0009-0006-4285-1905"
+        },
+        {
+          "name": "Xiaoran Fan",
+          "display_name": "Xiaoran Fan",
+          "pid": "197/0141",
+          "orcid": "0000-0002-6368-9250"
+        },
+        {
+          "name": "Dequan Wang",
+          "display_name": "Dequan Wang",
+          "pid": "168/4711",
+          "orcid": "0000-0003-0877-4636"
+        },
+        {
+          "name": "Haojie Ren",
+          "display_name": "Haojie Ren",
+          "pid": "163/7656",
+          "orcid": "0000-0001-5741-6611"
+        },
+        {
+          "name": "Jianmin Ji",
+          "display_name": "Jianmin Ji",
+          "pid": "16/1844",
+          "orcid": "0000-0002-1515-0402"
+        },
+        {
+          "name": "Yanyong Zhang",
+          "display_name": "Yanyong Zhang",
+          "pid": "44/2799",
+          "orcid": "0000-0002-6314-2642"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765237",
+      "url": "https://doi.org/10.1145/3680207.3765237",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765237",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2509.06639",
+      "pages": "650-666",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/HeXMFWRJZ25"
+    },
+    {
+      "title": "FocusX: All-in-Focus Image Synthesis for Dynamic Scenes on Mobile Devices",
+      "authors": [
+        {
+          "name": "Jinrui Zhang",
+          "display_name": "Jinrui Zhang",
+          "pid": "23/7845",
+          "orcid": "0000-0001-9035-3050"
+        },
+        {
+          "name": "Pengkai Li",
+          "display_name": "Pengkai Li",
+          "pid": "376/3012",
+          "orcid": "0009-0005-4631-2258"
+        },
+        {
+          "name": "Fengzu Li",
+          "display_name": "Fengzu Li",
+          "pid": "400/4470",
+          "orcid": "0009-0007-7581-3566"
+        },
+        {
+          "name": "Deyu Zhang",
+          "display_name": "Deyu Zhang",
+          "pid": "21/7829",
+          "orcid": "0000-0003-0298-7868"
+        },
+        {
+          "name": "Wei Gao 0006",
+          "display_name": "Wei Gao",
+          "pid": "28/2073-6",
+          "orcid": "0000-0003-2144-6960"
+        },
+        {
+          "name": "Sheng Yue 0001",
+          "display_name": "Sheng Yue",
+          "pid": "236/3241-1",
+          "orcid": "0009-0001-3416-8181"
+        },
+        {
+          "name": "Yaoxue Zhang",
+          "display_name": "Yaoxue Zhang",
+          "pid": "99/4094",
+          "orcid": "0000-0001-6717-461X"
+        },
+        {
+          "name": "Ju Ren 0001",
+          "display_name": "Ju Ren",
+          "pid": "00/468-1",
+          "orcid": "0000-0003-2782-183X"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765238",
+      "url": "https://doi.org/10.1145/3680207.3765238",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765238",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "667-681",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/ZhangLLZGYZ025"
+    },
+    {
+      "title": "Experience Paper: Nationwide Human Behavior Sensing in Last-mile Delivery",
+      "authors": [
+        {
+          "name": "Zhiqing Hong",
+          "display_name": "Zhiqing Hong",
+          "pid": "248/4120",
+          "orcid": "0000-0003-3682-4290"
+        },
+        {
+          "name": "Weibing Wang",
+          "display_name": "Weibing Wang",
+          "pid": "39/4757",
+          "orcid": "0009-0005-4714-3142"
+        },
+        {
+          "name": "Anlan Yu",
+          "display_name": "Anlan Yu",
+          "pid": "192/7993",
+          "orcid": "0009-0008-7092-7502"
+        },
+        {
+          "name": "Shuxin Zhong",
+          "display_name": "Shuxin Zhong",
+          "pid": "203/9651",
+          "orcid": "0009-0006-1758-2870"
+        },
+        {
+          "name": "Haotian Wang 0008",
+          "display_name": "Haotian Wang",
+          "pid": "63/11345-8",
+          "orcid": "0000-0001-9783-6389"
+        },
+        {
+          "name": "Yi Ding 0011",
+          "display_name": "Yi Ding",
+          "pid": "89/5503-11",
+          "orcid": "0000-0002-1226-341X"
+        },
+        {
+          "name": "Tian He 0001",
+          "display_name": "Tian He",
+          "pid": "h/TianHe",
+          "orcid": "0000-0001-6062-2619"
+        },
+        {
+          "name": "Desheng Zhang 0002",
+          "display_name": "Desheng Zhang",
+          "pid": "15/8612-2",
+          "orcid": "0000-0001-9307-8736"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765239",
+      "url": "https://doi.org/10.1145/3680207.3765239",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765239",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "682-696",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/HongWYZ000025"
+    },
+    {
+      "title": "WDNN: Weighted Diffractive Neural Network for Physical-layer RF Signal Processing",
+      "authors": [
+        {
+          "name": "Yezhou Wang",
+          "display_name": "Yezhou Wang",
+          "pid": "132/3213",
+          "orcid": "0000-0003-0726-9398"
+        },
+        {
+          "name": "Yongjian Fu 0004",
+          "display_name": "Yongjian Fu",
+          "pid": "09/4381-4",
+          "orcid": "0000-0001-8481-2644"
+        },
+        {
+          "name": "Hao Pan 0003",
+          "display_name": "Hao Pan",
+          "pid": "02/3812-3",
+          "orcid": "0000-0002-2531-0107"
+        },
+        {
+          "name": "Qinyun Hu",
+          "display_name": "Qinyun Hu",
+          "pid": "356/0629",
+          "orcid": "0009-0006-7954-5813"
+        },
+        {
+          "name": "Lili Qiu",
+          "display_name": "Lili Qiu",
+          "pid": "54/4031",
+          "orcid": "0009-0003-8131-7439"
+        },
+        {
+          "name": "Yi-Chao Chen 0001",
+          "display_name": "Yi-Chao Chen",
+          "pid": "91/699-1",
+          "orcid": "0000-0003-0782-4953"
+        },
+        {
+          "name": "Guangtao Xue",
+          "display_name": "Guangtao Xue",
+          "pid": "79/1810",
+          "orcid": "0000-0002-1617-3593"
+        },
+        {
+          "name": "Ju Ren 0001",
+          "display_name": "Ju Ren",
+          "pid": "00/468-1",
+          "orcid": "0000-0003-2782-183X"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765240",
+      "url": "https://doi.org/10.1145/3680207.3765240",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765240",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "697-711",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Wang00HQ0X025"
+    },
+    {
+      "title": "LoRaSeek: Boosting Denoising Ability in Neural-enhanced LoRa Decoder via Hierarchical Feature Extraction",
+      "authors": [
+        {
+          "name": "Khang Nguyen",
+          "display_name": "Khang Nguyen",
+          "pid": "82/10435",
+          "orcid": "0009-0007-2856-4384"
+        },
+        {
+          "name": "Yidong Ren",
+          "display_name": "Yidong Ren",
+          "pid": "242/2020",
+          "orcid": "0000-0002-6568-9692"
+        },
+        {
+          "name": "Jialuo Du",
+          "display_name": "Jialuo Du",
+          "pid": "256/2074",
+          "orcid": "0009-0008-5187-5428"
+        },
+        {
+          "name": "Jingkai Lin",
+          "display_name": "Jingkai Lin",
+          "pid": "277/5882",
+          "orcid": "0009-0003-5465-2119"
+        },
+        {
+          "name": "Maolin Gan",
+          "display_name": "Maolin Gan",
+          "pid": "349/5094",
+          "orcid": "0009-0003-4930-3651"
+        },
+        {
+          "name": "Shigang Chen",
+          "display_name": "Shigang Chen",
+          "pid": "c/ShigangChen",
+          "orcid": "0000-0001-7867-7765"
+        },
+        {
+          "name": "Mi Zhang 0002",
+          "display_name": "Mi Zhang",
+          "pid": "84/2519-2",
+          "orcid": "0000-0001-7002-6757"
+        },
+        {
+          "name": "Chunyi Peng 0001",
+          "display_name": "Chunyi Peng",
+          "pid": "98/3313-1",
+          "orcid": "0000-0003-2945-4981"
+        },
+        {
+          "name": "Zhichao Cao 0001",
+          "display_name": "Zhichao Cao",
+          "pid": "05/7548-1",
+          "orcid": "0000-0002-8159-9072"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765241",
+      "url": "https://doi.org/10.1145/3680207.3765241",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765241",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "712-726",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/NguyenRDLGC00025"
+    },
+    {
+      "title": "OptSamp: Optimizing the Sampling Rate for LoRa Energy Efficiency Enhancement",
+      "authors": [
+        {
+          "name": "Shuai Tong",
+          "display_name": "Shuai Tong",
+          "pid": "220/9672",
+          "orcid": "0000-0002-5039-5229"
+        },
+        {
+          "name": "Qian Chen",
+          "display_name": "Qian Chen",
+          "pid": "11/1394",
+          "orcid": "0000-0002-5762-1524"
+        },
+        {
+          "name": "Jiliang Wang",
+          "display_name": "Jiliang Wang",
+          "pid": "75/3699",
+          "orcid": "0000-0003-1464-3245"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765242",
+      "url": "https://doi.org/10.1145/3680207.3765242",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765242",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "727-741",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/TongCW25"
+    },
+    {
+      "title": "Myo-Trainer: A Vision-based Muscle-Aware Motion Feedback System for In-Home Resistance Training",
+      "authors": [
+        {
+          "name": "Yuting He 0006",
+          "display_name": "Yuting He",
+          "pid": "167/1989-6",
+          "orcid": "0009-0003-1954-952X"
+        },
+        {
+          "name": "Xinyan Wang 0003",
+          "display_name": "Xinyan Wang",
+          "pid": "130/8876-3",
+          "orcid": "0000-0002-1053-8176"
+        },
+        {
+          "name": "Mu Yuan",
+          "display_name": "Mu Yuan",
+          "pid": "08/9064",
+          "orcid": "0000-0002-2624-8755"
+        },
+        {
+          "name": "Bufang Yang",
+          "display_name": "Bufang Yang",
+          "pid": "268/1416",
+          "orcid": "0000-0003-0032-2539"
+        },
+        {
+          "name": "Siyang Jiang",
+          "display_name": "Siyang Jiang",
+          "pid": "260/3679",
+          "orcid": "0000-0002-9926-6532"
+        },
+        {
+          "name": "Yihua Huang 0002",
+          "display_name": "Yihua Huang",
+          "pid": "50/4147-2",
+          "orcid": "0000-0002-2208-8280"
+        },
+        {
+          "name": "Doris Sau-Fung Yu",
+          "display_name": "Doris Sau-Fung Yu",
+          "pid": "156/9113",
+          "orcid": "0000-0002-9359-1748"
+        },
+        {
+          "name": "Guoliang Xing",
+          "display_name": "Guoliang Xing",
+          "pid": "63/4542",
+          "orcid": "0000-0003-1772-7751"
+        },
+        {
+          "name": "Hongkai Chen 0001",
+          "display_name": "Hongkai Chen",
+          "pid": "36/8493-1",
+          "orcid": "0000-0001-7206-6584"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765243",
+      "url": "https://doi.org/10.1145/3680207.3765243",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765243",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "742-757",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/He0YYJ0YX025"
+    },
+    {
+      "title": "Auto-UIT: Automating UAV Inspection Trajectory by Recognizing Pylon Structure from 3D Point Cloud",
+      "authors": [
+        {
+          "name": "Feng Lyu 0001",
+          "display_name": "Feng Lyu",
+          "pid": "214/2000-1",
+          "orcid": "0000-0002-2990-5415"
+        },
+        {
+          "name": "Lijuan He",
+          "display_name": "Lijuan He",
+          "pid": "99/10449",
+          "orcid": "0009-0001-9048-973X"
+        },
+        {
+          "name": "Mingliu Liu",
+          "display_name": "Mingliu Liu",
+          "pid": "160/6249",
+          "orcid": "0000-0002-4101-3938"
+        },
+        {
+          "name": "Sijing Duan",
+          "display_name": "Sijing Duan",
+          "pid": "217/1056",
+          "orcid": "0000-0003-3295-8822"
+        },
+        {
+          "name": "Hao Wu 0067",
+          "display_name": "Hao Wu",
+          "pid": "72/4250-67",
+          "orcid": "0000-0002-0980-9805"
+        },
+        {
+          "name": "Jieyu Zhou",
+          "display_name": "Jieyu Zhou",
+          "pid": "252/1594",
+          "orcid": "0009-0008-5712-510X"
+        },
+        {
+          "name": "Yi Ding 0011",
+          "display_name": "Yi Ding",
+          "pid": "89/5503-11",
+          "orcid": "0000-0002-1226-341X"
+        },
+        {
+          "name": "Zaixun Ling",
+          "display_name": "Zaixun Ling",
+          "pid": "348/3415",
+          "orcid": "0009-0007-7692-3978"
+        },
+        {
+          "name": "Yibo Cui",
+          "display_name": "Yibo Cui",
+          "pid": "245/6200",
+          "orcid": "0009-0003-6907-0736"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765244",
+      "url": "https://doi.org/10.1145/3680207.3765244",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765244",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "758-772",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/0001HLDWZ0LC25"
+    },
+    {
+      "title": "EdgeGaussian: Real-time Free-Viewpoint Video for Mobile VR via Edge-Client Collaborative Neural Rendering",
+      "authors": [
+        {
+          "name": "Zhihui Ke",
+          "display_name": "Zhihui Ke",
+          "pid": "276/4518",
+          "orcid": "0009-0002-4042-7044"
+        },
+        {
+          "name": "Xiaobo Zhou 0003",
+          "display_name": "Xiaobo Zhou",
+          "pid": "13/6395-3",
+          "orcid": "0000-0002-7772-458X"
+        },
+        {
+          "name": "Yuyang Liu",
+          "display_name": "Yuyang Liu",
+          "pid": "75/6589",
+          "orcid": "0009-0008-2706-3745"
+        },
+        {
+          "name": "Zhizhuo Pang",
+          "display_name": "Zhizhuo Pang",
+          "pid": "412/8388",
+          "orcid": "0009-0007-6982-041X"
+        },
+        {
+          "name": "Tie Qiu 0001",
+          "display_name": "Tie Qiu",
+          "pid": "53/9359",
+          "orcid": "0000-0003-2324-2523"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765245",
+      "url": "https://doi.org/10.1145/3680207.3765245",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765245",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "773-787",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Ke0LP025"
+    },
+    {
+      "title": "MetaGuardian: Enhancing Voice Assistant Security through Advanced Acoustic Metamaterials",
+      "authors": [
+        {
+          "name": "Zhiyuan Ning 0003",
+          "display_name": "Zhiyuan Ning",
+          "pid": "242/4683-3",
+          "orcid": "0009-0009-4416-2080"
+        },
+        {
+          "name": "Zheng Wang 0001",
+          "display_name": "Zheng Wang",
+          "pid": "w/ZhengWang1",
+          "orcid": "0000-0001-6157-0662"
+        },
+        {
+          "name": "Zhanyong Tang",
+          "display_name": "Zhanyong Tang",
+          "pid": "38/7487",
+          "orcid": "0000-0002-4333-2334"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765246",
+      "url": "https://doi.org/10.1145/3680207.3765246",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765246",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2508.09728",
+      "pages": "788-801",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Ning0T25"
+    },
+    {
+      "title": "AdaptQNet: Optimizing Quantized DNN on Microcontrollers via Adaptive Heterogeneous Processing Unit Utilization",
+      "authors": [
+        {
+          "name": "Yansong Sun",
+          "display_name": "Yansong Sun",
+          "pid": "24/10205",
+          "orcid": "0009-0005-5477-1059"
+        },
+        {
+          "name": "Jialuo He",
+          "display_name": "Jialuo He",
+          "pid": "364/0159",
+          "orcid": "0009-0004-6461-3866"
+        },
+        {
+          "name": "Dirk Kutscher",
+          "display_name": "Dirk Kutscher",
+          "pid": "04/5077",
+          "orcid": "0000-0002-9021-9916"
+        },
+        {
+          "name": "Huangxun Chen",
+          "display_name": "Huangxun Chen",
+          "pid": "202/8474",
+          "orcid": "0000-0002-0313-4421"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765247",
+      "url": "https://doi.org/10.1145/3680207.3765247",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765247",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "802-816",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/SunHKC25"
+    },
+    {
+      "title": "VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification",
+      "authors": [
+        {
+          "name": "Jungjae Lee",
+          "display_name": "Jungjae Lee",
+          "pid": "98/1437",
+          "orcid": "0009-0002-9235-5900"
+        },
+        {
+          "name": "Dongjae Lee",
+          "display_name": "Dongjae Lee",
+          "pid": "97/5095",
+          "orcid": "0009-0001-0073-5184"
+        },
+        {
+          "name": "Chihun Choi",
+          "display_name": "Chihun Choi",
+          "pid": "402/3785",
+          "orcid": "0009-0005-8806-6876"
+        },
+        {
+          "name": "Youngmin Im",
+          "display_name": "Youngmin Im",
+          "pid": "402/5071",
+          "orcid": "0009-0005-8652-0529"
+        },
+        {
+          "name": "Jaeyoung Wi",
+          "display_name": "Jaeyoung Wi",
+          "pid": "402/3877",
+          "orcid": "0009-0005-7382-9041"
+        },
+        {
+          "name": "Kihong Heo",
+          "display_name": "Kihong Heo",
+          "pid": "17/11515",
+          "orcid": "0000-0003-2671-0142"
+        },
+        {
+          "name": "Sangeun Oh",
+          "display_name": "Sangeun Oh",
+          "pid": "140/7997",
+          "orcid": "0000-0002-2294-6572"
+        },
+        {
+          "name": "Sunjae Lee",
+          "display_name": "Sunjae Lee",
+          "pid": "48/6642",
+          "orcid": "0000-0002-2755-5511"
+        },
+        {
+          "name": "Insik Shin",
+          "display_name": "Insik Shin",
+          "pid": "45/4154",
+          "orcid": "0000-0002-9128-2415"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765248",
+      "url": "https://doi.org/10.1145/3680207.3765248",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765248",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2503.18492",
+      "pages": "817-831",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/LeeLCIWHOLS25"
+    },
+    {
+      "title": "SpaceSched: A Constellation-Wide Scheduling System for Resolving Ground Track Congestion in Remote Sensing",
+      "authors": [
+        {
+          "name": "Zehua Sun",
+          "display_name": "Zehua Sun",
+          "pid": "164/7470",
+          "orcid": "0000-0002-8568-2121"
+        },
+        {
+          "name": "Tao Ni 0003",
+          "display_name": "Tao Ni",
+          "pid": "50/4043-3",
+          "orcid": "0000-0003-0671-3020"
+        },
+        {
+          "name": "Pengfei Hu 0001",
+          "display_name": "Pengfei Hu",
+          "pid": "71/9969-1",
+          "orcid": "0000-0002-7935-886X"
+        },
+        {
+          "name": "Tao Gu 0001",
+          "display_name": "Tao Gu",
+          "pid": "65/4916",
+          "orcid": "0000-0002-1350-6639"
+        },
+        {
+          "name": "Weitao Xu",
+          "display_name": "Weitao Xu",
+          "pid": "98/7731",
+          "orcid": "0000-0001-9741-5912"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765249",
+      "url": "https://doi.org/10.1145/3680207.3765249",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765249",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "832-847",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Sun000X25"
+    },
+    {
+      "title": "Multi-Antenna Quantum Receiver: A Leap Beyond Angle Estimation Constraints",
+      "authors": [
+        {
+          "name": "Zhaodian He",
+          "display_name": "Zhaodian He",
+          "pid": "424/2612",
+          "orcid": "0009-0008-4454-3986"
+        },
+        {
+          "name": "Fusang Zhang",
+          "display_name": "Fusang Zhang",
+          "pid": "68/10002",
+          "orcid": "0000-0002-2529-8021"
+        },
+        {
+          "name": "Junqi Ma 0002",
+          "display_name": "Junqi Ma",
+          "pid": "151/6862-2",
+          "orcid": "0000-0002-7096-1531"
+        },
+        {
+          "name": "Yuqi Su",
+          "display_name": "Yuqi Su",
+          "pid": "263/0629",
+          "orcid": "0009-0009-1461-8139"
+        },
+        {
+          "name": "Beihong Jin",
+          "display_name": "Beihong Jin",
+          "pid": "75/1099",
+          "orcid": "0000-0003-3683-4034"
+        },
+        {
+          "name": "Daqing Zhang 0001",
+          "display_name": "Daqing Zhang",
+          "pid": "83/1359-1",
+          "orcid": "0000-0002-6608-1267"
+        },
+        {
+          "name": "Yuechun Jiao",
+          "display_name": "Yuechun Jiao",
+          "pid": "358/8918",
+          "orcid": "0000-0002-8036-1062"
+        },
+        {
+          "name": "Lili Qiu",
+          "display_name": "Lili Qiu",
+          "pid": "54/4031",
+          "orcid": "0009-0003-8131-7439"
+        },
+        {
+          "name": "Jie Xiong 0001",
+          "display_name": "Jie Xiong",
+          "pid": "75/198-1",
+          "orcid": "0000-0002-5396-4554"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765250",
+      "url": "https://doi.org/10.1145/3680207.3765250",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765250",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "848-862",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/HeZ0SJ0JQ025"
+    },
+    {
+      "title": "Wireless Hearables With Programmable Speech AI Accelerators",
+      "authors": [
+        {
+          "name": "Malek Itani",
+          "display_name": "Malek Itani",
+          "pid": "332/4930",
+          "orcid": "0009-0002-7249-2641"
+        },
+        {
+          "name": "Tuochao Chen",
+          "display_name": "Tuochao Chen",
+          "pid": "273/7711",
+          "orcid": "0000-0002-8031-5066"
+        },
+        {
+          "name": "Arun Raghavan",
+          "display_name": "Arun Raghavan",
+          "pid": "61/4142",
+          "orcid": "0000-0001-5339-3352"
+        },
+        {
+          "name": "Gavriel Kohlberg",
+          "display_name": "Gavriel Kohlberg",
+          "pid": "402/4190",
+          "orcid": "0000-0002-7443-6646"
+        },
+        {
+          "name": "Shyamnath Gollakota",
+          "display_name": "Shyamnath Gollakota",
+          "pid": "63/3113",
+          "orcid": "0000-0002-9863-3054"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765251",
+      "url": "https://doi.org/10.1145/3680207.3765251",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765251",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2503.18698",
+      "pages": "863-877",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/ItaniCRKG25"
+    },
+    {
+      "title": "EOS: Energy-Optimized Super-Resolution on Mobile Devices for Live 360-Degree Videos",
+      "authors": [
+        {
+          "name": "Seonghoon Park 0001",
+          "display_name": "Seonghoon Park",
+          "pid": "243/0069",
+          "orcid": "0000-0002-7336-6295"
+        },
+        {
+          "name": "Minchan Kim",
+          "display_name": "Minchan Kim",
+          "pid": "173/3547",
+          "orcid": "0009-0008-4710-3812"
+        },
+        {
+          "name": "Hyejin Park",
+          "display_name": "Hyejin Park",
+          "pid": "79/7578",
+          "orcid": "0009-0006-3000-8638"
+        },
+        {
+          "name": "Jeho Lee",
+          "display_name": "Jeho Lee",
+          "pid": "46/7896",
+          "orcid": "0000-0002-9035-2602"
+        },
+        {
+          "name": "Jiwon Kim",
+          "display_name": "Jiwon Kim",
+          "pid": "24/1630",
+          "orcid": "0000-0002-5182-2667"
+        },
+        {
+          "name": "Hojung Cha",
+          "display_name": "Hojung Cha",
+          "pid": "46/4787",
+          "orcid": "0000-0002-9060-5091"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765252",
+      "url": "https://doi.org/10.1145/3680207.3765252",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765252",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "878-893",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/0001KPLKC25"
+    },
+    {
+      "title": "Cross-Technology Sensing: Leveraging LoRa Signals to Empower WiFi Sensing",
+      "authors": [
+        {
+          "name": "Binbin Xie",
+          "display_name": "Binbin Xie",
+          "pid": "172/5431",
+          "orcid": "0000-0001-8484-0362"
+        },
+        {
+          "name": "Weizheng Wang 0001",
+          "display_name": "Weizheng Wang",
+          "pid": "21/10857-1",
+          "orcid": "0000-0002-5879-585X"
+        },
+        {
+          "name": "Deepak Ganesan",
+          "display_name": "Deepak Ganesan",
+          "pid": "g/DeepakGanesan",
+          "orcid": "0000-0003-2762-9194"
+        },
+        {
+          "name": "Lili Qiu",
+          "display_name": "Lili Qiu",
+          "pid": "54/4031",
+          "orcid": "0009-0003-8131-7439"
+        },
+        {
+          "name": "Jie Xiong 0001",
+          "display_name": "Jie Xiong",
+          "pid": "75/198-1",
+          "orcid": "0000-0002-5396-4554"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765253",
+      "url": "https://doi.org/10.1145/3680207.3765253",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765253",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "894-908",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Xie0GQ025"
+    },
+    {
+      "title": "Formalization, Implementation, and Verification of the Bluetooth L2CAP State Machine",
+      "authors": [
+        {
+          "name": "Tan Khang Le",
+          "display_name": "Tan Khang Le",
+          "pid": "312/4873",
+          "orcid": "0009-0002-1703-4066"
+        },
+        {
+          "name": "Mohammad Omidvar Tehrani",
+          "display_name": "Mohammad Omidvar Tehrani",
+          "pid": "351/6692",
+          "orcid": "0009-0004-0078-0366"
+        },
+        {
+          "name": "Yuepeng Wang 0001",
+          "display_name": "Yuepeng Wang",
+          "pid": "133/3844",
+          "orcid": "0000-0003-3370-2431"
+        },
+        {
+          "name": "Jianliang Wu 0002",
+          "display_name": "Jianliang Wu",
+          "pid": "16/5608-2",
+          "orcid": "0000-0002-4254-7261"
+        },
+        {
+          "name": "Steven Y. Ko",
+          "display_name": "Steven Y. Ko",
+          "pid": "22/4235",
+          "orcid": "0000-0003-3771-0156"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765254",
+      "url": "https://doi.org/10.1145/3680207.3765254",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765254",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "909-922",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/LeTW0K25"
+    },
+    {
+      "title": "VI-Planning: Infrastructure-Assisted Real-Time Planning Optimization for Autonomous Driving",
+      "authors": [
+        {
+          "name": "Yang Lu",
+          "display_name": "Yang Lu",
+          "pid": "16/6317",
+          "orcid": "0009-0001-2610-5156"
+        },
+        {
+          "name": "Jie Wang",
+          "display_name": "Jie Wang",
+          "pid": "29/5259",
+          "orcid": "0009-0000-6716-1122"
+        },
+        {
+          "name": "Xiaoyun Dong",
+          "display_name": "Xiaoyun Dong",
+          "pid": "225/0885",
+          "orcid": "0000-0003-0552-6063"
+        },
+        {
+          "name": "Ziyao Huang 0001",
+          "display_name": "Ziyao Huang",
+          "pid": "239/4904-1",
+          "orcid": "0000-0002-9436-3720"
+        },
+        {
+          "name": "Bingyi Liu",
+          "display_name": "Bingyi Liu",
+          "pid": "138/4272",
+          "orcid": "0000-0001-8403-1776"
+        },
+        {
+          "name": "Jen-Ming Wu",
+          "display_name": "Jen-Ming Wu",
+          "pid": "54/5140",
+          "orcid": "0000-0002-8474-1281"
+        },
+        {
+          "name": "Jianping Wang 0001",
+          "display_name": "Jianping Wang",
+          "pid": "21/1550-1",
+          "orcid": "0000-0002-9318-1482"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765255",
+      "url": "https://doi.org/10.1145/3680207.3765255",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765255",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "923-937",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/LuWD0LW025"
+    },
+    {
+      "title": "UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving",
+      "authors": [
+        {
+          "name": "Hanqi Zhu",
+          "display_name": "Hanqi Zhu",
+          "pid": "181/4153",
+          "orcid": "0000-0001-5315-1839"
+        },
+        {
+          "name": "Wuyang Zhang",
+          "display_name": "Wuyang Zhang",
+          "pid": "194/1520",
+          "orcid": "0009-0003-1882-2467"
+        },
+        {
+          "name": "Xinran Zhang",
+          "display_name": "Xinran Zhang",
+          "pid": "115/6420",
+          "orcid": "0009-0002-1589-4222"
+        },
+        {
+          "name": "Ziyang Tao",
+          "display_name": "Ziyang Tao",
+          "pid": "299/7831",
+          "orcid": "0009-0001-4320-8683"
+        },
+        {
+          "name": "Xinrui Lin",
+          "display_name": "Xinrui Lin",
+          "pid": "325/1261",
+          "orcid": "0009-0008-6125-0341"
+        },
+        {
+          "name": "Yu Zhang 0086",
+          "display_name": "Yu Zhang",
+          "pid": "50/671-86",
+          "orcid": "0000-0001-6638-6442"
+        },
+        {
+          "name": "Jianmin Ji",
+          "display_name": "Jianmin Ji",
+          "pid": "16/1844",
+          "orcid": "0000-0002-1515-0402"
+        },
+        {
+          "name": "Yanyong Zhang",
+          "display_name": "Yanyong Zhang",
+          "pid": "44/2799",
+          "orcid": "0000-0001-9046-798X"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765256",
+      "url": "https://doi.org/10.1145/3680207.3765256",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765256",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2509.12207",
+      "pages": "938-952",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/ZhuZZTL0JZ25"
+    },
+    {
+      "title": "LLM-Assisted IoT Testing: Finding Conformance Bugs in Matter SDKs",
+      "authors": [
+        {
+          "name": "Xiaoyue Ma",
+          "display_name": "Xiaoyue Ma",
+          "pid": "98/8572",
+          "orcid": "0009-0003-3205-9605"
+        },
+        {
+          "name": "Junming Chen",
+          "display_name": "Junming Chen",
+          "pid": "18/8500",
+          "orcid": "0009-0006-6528-9433"
+        },
+        {
+          "name": "Lannan Luo",
+          "display_name": "Lannan Luo",
+          "pid": "153/5297",
+          "orcid": "0000-0003-2476-7831"
+        },
+        {
+          "name": "Qiang Zeng 0001",
+          "display_name": "Qiang Zeng",
+          "pid": "81/583-1",
+          "orcid": "0000-0001-9432-6017"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765257",
+      "url": "https://doi.org/10.1145/3680207.3765257",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765257",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "953-968",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/MaCL025"
+    },
+    {
+      "title": "WiLE-Audio: Wide-Coverage Low-Energy Audio via WiFi-BLE Cross-Technology Communication",
+      "authors": [
+        {
+          "name": "Lingang Li",
+          "display_name": "Lingang Li",
+          "pid": "252/1017",
+          "orcid": "0000-0002-4399-6392"
+        },
+        {
+          "name": "Zilong Liu",
+          "display_name": "Zilong Liu",
+          "pid": "154/3853",
+          "orcid": null
+        },
+        {
+          "name": "Yihao Zhang",
+          "display_name": "Yihao Zhang",
+          "pid": "42/1023",
+          "orcid": null
+        },
+        {
+          "name": "Siyuan Peng",
+          "display_name": "Siyuan Peng",
+          "pid": "162/8790",
+          "orcid": null
+        },
+        {
+          "name": "Zhirong Liu",
+          "display_name": "Zhirong Liu",
+          "pid": "60/8998",
+          "orcid": null
+        },
+        {
+          "name": "Yongrui Chen 0001",
+          "display_name": "Yongrui Chen",
+          "pid": "143/0948-1",
+          "orcid": "0000-0002-4618-8403"
+        },
+        {
+          "name": "Zhijun Li 0002",
+          "display_name": "Zhijun Li",
+          "pid": "89/6527-2",
+          "orcid": null
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765258",
+      "url": "https://doi.org/10.1145/3680207.3765258",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765258",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "969-983",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/LiLZPL0L25"
+    },
+    {
+      "title": "Elastic On-Device LLM Service",
+      "authors": [
+        {
+          "name": "Wangsong Yin",
+          "display_name": "Wangsong Yin",
+          "pid": "356/3416",
+          "orcid": "0009-0000-6242-4368"
+        },
+        {
+          "name": "Rongjie Yi",
+          "display_name": "Rongjie Yi",
+          "pid": "322/5853",
+          "orcid": "0009-0003-6040-9596"
+        },
+        {
+          "name": "Daliang Xu",
+          "display_name": "Daliang Xu",
+          "pid": "253/9200",
+          "orcid": "0000-0002-6775-0688"
+        },
+        {
+          "name": "Gang Huang 0001",
+          "display_name": "Gang Huang",
+          "pid": "11/539-1",
+          "orcid": "0000-0002-4686-3181"
+        },
+        {
+          "name": "Mengwei Xu 0001",
+          "display_name": "Mengwei Xu",
+          "pid": "143/0845-1",
+          "orcid": "0000-0001-6271-6993"
+        },
+        {
+          "name": "Xuanzhe Liu",
+          "display_name": "Xuanzhe Liu",
+          "pid": "08/2161",
+          "orcid": "0000-0002-7908-8484"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765259",
+      "url": "https://doi.org/10.1145/3680207.3765259",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765259",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2409.09071",
+      "pages": "984-999",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/YinYX00L25"
+    },
+    {
+      "title": "Uirapuru: Timely Video Analytics for High-Resolution Steerable Cameras on Edge Devices",
+      "authors": [
+        {
+          "name": "Guilherme Henrique Apostolo",
+          "display_name": "Guilherme Henrique Apostolo",
+          "pid": "252/0369",
+          "orcid": "0000-0001-7833-7752"
+        },
+        {
+          "name": "Pablo Bauszat",
+          "display_name": "Pablo Bauszat",
+          "pid": "24/9396",
+          "orcid": "0009-0005-8512-3089"
+        },
+        {
+          "name": "Vinod Nigade",
+          "display_name": "Vinod Nigade",
+          "pid": "198/6784",
+          "orcid": "0000-0001-9020-555X"
+        },
+        {
+          "name": "Henri E. Bal",
+          "display_name": "Henri E. Bal",
+          "pid": "b/HenriEBal",
+          "orcid": "0000-0001-9827-4461"
+        },
+        {
+          "name": "Lin Wang 0015",
+          "display_name": "Lin Wang",
+          "pid": "17/6729-15",
+          "orcid": "0000-0001-7181-6128"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765260",
+      "url": "https://doi.org/10.1145/3680207.3765260",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765260",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2509.01371",
+      "pages": "1000-1014",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/ApostoloBNB025"
+    },
+    {
+      "title": "Experience Paper: Adopting Activity Recognition in On-demand Food Delivery Business",
+      "authors": [
+        {
+          "name": "Huatao Xu",
+          "display_name": "Huatao Xu",
+          "pid": "228/5733",
+          "orcid": "0000-0002-8289-0910"
+        },
+        {
+          "name": "Yan Zhang 0049",
+          "display_name": "Yan Zhang",
+          "pid": "04/3348-49",
+          "orcid": "0000-0002-7904-0982"
+        },
+        {
+          "name": "Wei Gao",
+          "display_name": "Wei Gao",
+          "pid": "28/2073",
+          "orcid": "0009-0008-0534-1652"
+        },
+        {
+          "name": "Guobin Shen",
+          "display_name": "Guobin Shen",
+          "pid": "58/1441",
+          "orcid": null
+        },
+        {
+          "name": "Mo Li 0001",
+          "display_name": "Mo Li",
+          "pid": "87/4982-1",
+          "orcid": "0000-0002-6047-9709"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765261",
+      "url": "https://doi.org/10.1145/3680207.3765261",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765261",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2509.24303",
+      "pages": "1015-1028",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/XuZGS025"
+    },
+    {
+      "title": "RF-Rock: An Intermodulation-based RFID Unauthorized Identification Attack without Tag Activation",
+      "authors": [
+        {
+          "name": "Chen Gong",
+          "display_name": "Chen Gong",
+          "pid": "21/8587",
+          "orcid": "0000-0002-2888-2370"
+        },
+        {
+          "name": "Bo Liang 0003",
+          "display_name": "Bo Liang",
+          "pid": "83/2205-3",
+          "orcid": "0000-0001-7226-8178"
+        },
+        {
+          "name": "Purui Wang",
+          "display_name": "Purui Wang",
+          "pid": "211/0532",
+          "orcid": "0000-0002-5146-8557"
+        },
+        {
+          "name": "Xiaoyu Ji 0001",
+          "display_name": "Xiaoyu Ji",
+          "pid": "39/1697-1",
+          "orcid": "0000-0002-1101-0007"
+        },
+        {
+          "name": "Yin Chen 0001",
+          "display_name": "Yin Chen",
+          "pid": "32/6098-1",
+          "orcid": "0000-0002-2652-8941"
+        },
+        {
+          "name": "Chenren Xu",
+          "display_name": "Chenren Xu",
+          "pid": "94/8865",
+          "orcid": "0000-0001-9171-2596"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765262",
+      "url": "https://doi.org/10.1145/3680207.3765262",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765262",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "1029-1044",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Gong0W00X25"
+    },
+    {
+      "title": "μCeiver-Fi: Exploiting Spectrum Resources of Multi-Link Receiver for Fine-Granularity Wi-Fi Sensing",
+      "authors": [
+        {
+          "name": "Xin Li 0070",
+          "display_name": "Xin Li",
+          "pid": "09/1365-70",
+          "orcid": "0000-0002-9244-6485"
+        },
+        {
+          "name": "Yinghui He",
+          "display_name": "Yinghui He",
+          "pid": "144/8954",
+          "orcid": "0000-0002-5560-1327"
+        },
+        {
+          "name": "Jun Luo 0001",
+          "display_name": "Jun Luo",
+          "pid": "42/2501-1",
+          "orcid": "0000-0002-7036-5158"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765263",
+      "url": "https://doi.org/10.1145/3680207.3765263",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765263",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "1045-1059",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/0070H025"
+    },
+    {
+      "title": "Benchmarking Ultra-Low-Power μNPUs",
+      "authors": [
+        {
+          "name": "Josh Millar",
+          "display_name": "Josh Millar",
+          "pid": "372/5651",
+          "orcid": "0009-0002-2247-1594"
+        },
+        {
+          "name": "Yushan Huang",
+          "display_name": "Yushan Huang",
+          "pid": "17/9375",
+          "orcid": "0009-0009-4570-9455"
+        },
+        {
+          "name": "Sarab S. Sethi",
+          "display_name": "Sarab S. Sethi",
+          "pid": "234/8738",
+          "orcid": "0000-0002-5939-0432"
+        },
+        {
+          "name": "Hamed Haddadi 0001",
+          "display_name": "Hamed Haddadi",
+          "pid": "33/5454-1",
+          "orcid": "0000-0002-5895-8903"
+        },
+        {
+          "name": "Anil Madhavapeddy",
+          "display_name": "Anil Madhavapeddy",
+          "pid": "32/1528",
+          "orcid": "0000-0001-8954-2428"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765264",
+      "url": "https://doi.org/10.1145/3680207.3765264",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765264",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2503.22567",
+      "pages": "1060-1074",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/MillarHSHM25"
+    },
+    {
+      "title": "Scalable and Low Power Localization for Underwater Robots",
+      "authors": [
+        {
+          "name": "Sayed Saad Afzal",
+          "display_name": "Sayed Saad Afzal",
+          "pid": "235/1995",
+          "orcid": "0000-0001-7244-9542"
+        },
+        {
+          "name": "Jack Rademacher",
+          "display_name": "Jack Rademacher",
+          "pid": "336/8937",
+          "orcid": "0000-0002-3325-4352"
+        },
+        {
+          "name": "Weitung Chen",
+          "display_name": "Weitung Chen",
+          "pid": "353/0531",
+          "orcid": "0009-0006-1732-5217"
+        },
+        {
+          "name": "Purui Wang",
+          "display_name": "Purui Wang",
+          "pid": "211/0532",
+          "orcid": "0000-0002-5146-8557"
+        },
+        {
+          "name": "Fadel Adib",
+          "display_name": "Fadel Adib",
+          "pid": "51/9975",
+          "orcid": "0000-0003-2593-2069"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765265",
+      "url": "https://doi.org/10.1145/3680207.3765265",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765265",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "1075-1090",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/AfzalRCWA25"
+    },
+    {
+      "title": "DD-LIVM: Pioneering Cross-Domain Photovoltaic Defect Detection Using Large Infrared-Visible Model",
+      "authors": [
+        {
+          "name": "Yinan Zhu",
+          "display_name": "Yinan Zhu",
+          "pid": "229/9836",
+          "orcid": "0009-0009-8304-0844"
+        },
+        {
+          "name": "Meng Xue 0001",
+          "display_name": "Meng Xue",
+          "pid": "34/6611-1",
+          "orcid": "0000-0003-4745-6526"
+        },
+        {
+          "name": "Haiyan Hu 0003",
+          "display_name": "Haiyan Hu",
+          "pid": "57/476-3",
+          "orcid": "0000-0003-4862-5619"
+        },
+        {
+          "name": "Cong Zhang 0002",
+          "display_name": "Cong Zhang",
+          "pid": "18/2908-2",
+          "orcid": "0000-0002-9439-6725"
+        },
+        {
+          "name": "Xiaoyi Fan 0001",
+          "display_name": "Xiaoyi Fan",
+          "pid": "69/8331-1",
+          "orcid": "0000-0002-1706-5957"
+        },
+        {
+          "name": "Qian Zhang 0001",
+          "display_name": "Qian Zhang",
+          "pid": "04/2024-1",
+          "orcid": "0000-0001-9205-1881"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765266",
+      "url": "https://doi.org/10.1145/3680207.3765266",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765266",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "1091-1105",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Zhu0HZF025"
+    },
+    {
+      "title": "Vega: Fully Immersive Mobile Volumetric Video Streaming with 3D Gaussian Splatting",
+      "authors": [
+        {
+          "name": "Gunjoong Kim",
+          "display_name": "Gunjoong Kim",
+          "pid": "416/0701",
+          "orcid": "0009-0008-2584-8741"
+        },
+        {
+          "name": "Seonghoon Park 0001",
+          "display_name": "Seonghoon Park",
+          "pid": "243/0069",
+          "orcid": "0000-0002-7336-6295"
+        },
+        {
+          "name": "Jeho Lee",
+          "display_name": "Jeho Lee",
+          "pid": "46/7896",
+          "orcid": "0000-0002-9035-2602"
+        },
+        {
+          "name": "Chanyoung Jung",
+          "display_name": "Chanyoung Jung",
+          "pid": "232/3851",
+          "orcid": "0009-0002-7279-6397"
+        },
+        {
+          "name": "Hyungchol Jun",
+          "display_name": "Hyungchol Jun",
+          "pid": "332/5226",
+          "orcid": "0000-0001-9143-3933"
+        },
+        {
+          "name": "Hojung Cha",
+          "display_name": "Hojung Cha",
+          "pid": "46/4787",
+          "orcid": "0000-0002-9060-5091"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765267",
+      "url": "https://doi.org/10.1145/3680207.3765267",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765267",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "1106-1120",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/Kim0LJJC25"
+    },
+    {
+      "title": "Home-based Dry Eye Assessment via Blink Kinematics Using mmWave and Clinical Knowledge Distillation",
+      "authors": [
+        {
+          "name": "Meng Xue 0001",
+          "display_name": "Meng Xue",
+          "pid": "34/6611-1",
+          "orcid": "0000-0003-4745-6526"
+        },
+        {
+          "name": "Wentao Xie 0001",
+          "display_name": "Wentao Xie",
+          "pid": "182/4001-1",
+          "orcid": "0000-0002-7858-4419"
+        },
+        {
+          "name": "Zuohuizi Yi",
+          "display_name": "Zuohuizi Yi",
+          "pid": "424/2594",
+          "orcid": "0000-0002-1601-9457"
+        },
+        {
+          "name": "Zhilong Zhang",
+          "display_name": "Zhilong Zhang",
+          "pid": "06/8799",
+          "orcid": "0009-0008-8616-3420"
+        },
+        {
+          "name": "Shumao Wu",
+          "display_name": "Shumao Wu",
+          "pid": "424/2597",
+          "orcid": "0009-0005-8802-8255"
+        },
+        {
+          "name": "Yinan Zhu",
+          "display_name": "Yinan Zhu",
+          "pid": "229/9836",
+          "orcid": "0009-0009-8304-0844"
+        },
+        {
+          "name": "Qian Zhang 0001",
+          "display_name": "Qian Zhang",
+          "pid": "04/2024-1",
+          "orcid": "0000-0001-9205-1881"
+        },
+        {
+          "name": "Changzheng Chen",
+          "display_name": "Changzheng Chen",
+          "pid": "65/4484",
+          "orcid": "0000-0002-7281-552X"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765268",
+      "url": "https://doi.org/10.1145/3680207.3765268",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765268",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "1121-1135",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/00010YZWZ0C25"
+    },
+    {
+      "title": "DragonFly: Single mmWave Radar 3D Localization of Highly Dynamic Tags in GPS-Denied Environments",
+      "authors": [
+        {
+          "name": "Skanda Harisha",
+          "display_name": "Skanda Harisha",
+          "pid": "381/9413",
+          "orcid": "0000-0001-6073-1014"
+        },
+        {
+          "name": "Jimmy G. D. Hester",
+          "display_name": "Jimmy G. D. Hester",
+          "pid": "162/9690",
+          "orcid": "0000-0002-4580-012X"
+        },
+        {
+          "name": "Aline Eid",
+          "display_name": "Aline Eid",
+          "pid": "302/5246",
+          "orcid": "0000-0002-3444-5978"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765269",
+      "url": "https://doi.org/10.1145/3680207.3765269",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765269",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": "2507.04602",
+      "pages": "1136-1150",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/HarishaHE25"
+    },
+    {
+      "title": "Dual-Resonance Magnetoelectric Power and Data Links for Miniaturized Wireless Bio-Implants",
+      "authors": [
+        {
+          "name": "Wei Wang 0433",
+          "display_name": "Wei Wang",
+          "pid": "35/7092-433",
+          "orcid": "0009-0007-4555-564X"
+        },
+        {
+          "name": "Ellie C. Chen",
+          "display_name": "Ellie C. Chen",
+          "pid": "424/2447",
+          "orcid": "0009-0003-0240-0286"
+        },
+        {
+          "name": "Naveed H. Ahmed",
+          "display_name": "Naveed H. Ahmed",
+          "pid": "424/2589",
+          "orcid": "0009-0002-1798-6921"
+        },
+        {
+          "name": "Wonjune Kim",
+          "display_name": "Wonjune Kim",
+          "pid": "406/3407",
+          "orcid": "0000-0001-5136-0530"
+        },
+        {
+          "name": "Yiwei Zou",
+          "display_name": "Yiwei Zou",
+          "pid": "333/3791",
+          "orcid": "0009-0008-2949-5672"
+        },
+        {
+          "name": "Joshua E. Woods",
+          "display_name": "Joshua E. Woods",
+          "pid": "279/9627",
+          "orcid": "0000-0001-5069-4678"
+        },
+        {
+          "name": "Yumin Su",
+          "display_name": "Yumin Su",
+          "pid": "61/10181",
+          "orcid": "0009-0006-0295-4141"
+        },
+        {
+          "name": "Huan-Cheng Liao",
+          "display_name": "Huan-Cheng Liao",
+          "pid": "314/4784",
+          "orcid": "0009-0002-0054-9477"
+        },
+        {
+          "name": "Jacob T. Robinson",
+          "display_name": "Jacob T. Robinson",
+          "pid": "185/4111",
+          "orcid": "0000-0002-3509-3054"
+        },
+        {
+          "name": "Kaiyuan Yang 0001",
+          "display_name": "Kaiyuan Yang",
+          "pid": "81/11242",
+          "orcid": "0000-0001-7220-9389"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765271",
+      "url": "https://doi.org/10.1145/3680207.3765271",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765271",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "1151-1165",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/0433CAKZWSLR025"
+    },
+    {
+      "title": "LatentCSI: Real-Time Reconstruction of Physical Scenes from WiFi CSI via Latent Diffusion",
+      "authors": [
+        {
+          "name": "Eshan Ramesh",
+          "display_name": "Eshan Ramesh",
+          "pid": "410/1768",
+          "orcid": "0000-0001-9884-8453"
+        },
+        {
+          "name": "Takayuki Nishio",
+          "display_name": "Takayuki Nishio",
+          "pid": "28/10619",
+          "orcid": "0000-0003-1026-319X"
+        }
+      ],
+      "venue": "MobiCom",
+      "year": 2025,
+      "published_year": 2025,
+      "published_month": null,
+      "volume": null,
+      "issue": null,
+      "doi": "10.1145/3680207.3765601",
+      "url": "https://doi.org/10.1145/3680207.3765601",
+      "url_source": null,
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3680207.3765601",
+      "pdf_source": "publisher-doi",
+      "arxiv_id": null,
+      "pages": "1234-1236",
+      "source": "dblp",
+      "dblp_paper_key": "conf/mobicom/RameshN25"
+    }
+  ]
+}
