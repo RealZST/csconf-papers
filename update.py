@@ -28,13 +28,15 @@ def counts_on_disk() -> dict:
     still sat on disk intact — the file saying 136 papers and the matrix saying
     no data. Reading from disk makes that contradiction impossible; a failed
     fetch simply means no update this round.
+
+    The scan is shared with data/index.json so the matrix a reader sees and the
+    listing a consumer fetches are answers to the same question, read once.
     """
-    counts = {}
-    for path in sorted((ROOT / "data").glob("*/*.json")):
-        meta = json.loads(path.read_text(encoding="utf-8"))["meta"]
-        if meta["paper_count"]:
-            counts[(meta["venue"], meta["year"])] = meta["paper_count"]
-    return counts
+    return {
+        (entry["venue"], entry["year"]): entry["paper_count"]
+        for entry in store.scan_data_files(ROOT)
+        if entry["paper_count"]
+    }
 
 
 def cmd_render(args: argparse.Namespace) -> int:
@@ -73,6 +75,10 @@ def cmd_render(args: argparse.Namespace) -> int:
         render.render_readme(list(venues), YEARS, counts_on_disk(), updated),
         encoding="utf-8",
     )
+    # Last, so the checksums describe the files as they now stand. This is also
+    # the only way to repair a damaged index without pulling every paper from
+    # DBLP again, which is the whole point of an offline rebuild.
+    store.write_index(ROOT, updated)
     return 0
 
 
@@ -167,6 +173,12 @@ def cmd_enrich(args: argparse.Namespace) -> int:
                 file=sys.stderr,
             )
 
+    # Enrichment leaves every paper_count alone — rewrite_papers refuses to
+    # change one — but it does change the bytes, so the checksums in the index
+    # are stale until it is rebuilt here. A consumer skipping unchanged files on
+    # sha256 would otherwise never see a link that this step just filled in.
+    store.write_index(ROOT, today)
+
     print(
         "total: +{} links ({} queries), +{} pdfs ({} checks), {} preprints".format(
             totals["found"], totals["queried"], totals["filled"], totals["checked"],
@@ -204,6 +216,10 @@ def cmd_sync(args: argparse.Namespace) -> int:
 
     readme = render.render_readme(list(venues), YEARS, counts_on_disk(), updated)
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
+    # After the loop, not inside it: a venue that failed above kept the file it
+    # already had, and the index has to describe that file rather than the one
+    # this run hoped to write.
+    store.write_index(ROOT, updated)
 
     if failures:
         print("\n{} venue-years failed:".format(len(failures)), file=sys.stderr)
