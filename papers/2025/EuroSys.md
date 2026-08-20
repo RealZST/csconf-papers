@@ -1,6 +1,6 @@
 # EuroSys 2025
 
-85 papers · updated 2026-08-13
+85 papers · updated 2026-08-12
 
 - [A Hardware-Software Co-Design for Efficient Secure Containers](https://doi.org/10.1145/3689031.3717473) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3689031.3717473)
   Jiacheng Shi, Yang Yu, Jinyu Gu, Yubin Xia

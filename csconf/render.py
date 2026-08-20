@@ -112,6 +112,8 @@ def render_readme(
         "| Path | Contents |",
         "|---|---|",
         "| `data/{year}/{VENUE}.json` | The data, and the source of truth |",
+        "| `data/index.json` | Which of those files exist, with a count and a "
+        "checksum for each |",
         "| `papers/{year}/{VENUE}.md` | The same list, readable |",
         "| `venues.yaml` | The only file maintained by hand: how each venue maps "
         "to DBLP |",
@@ -192,6 +194,56 @@ def render_readme(
         "filling up rather than incomplete: PVLDB publishes a volume across "
         "monthly issues, ASPLOS across several volumes per year, and an edition "
         "DBLP has not indexed is carried from the conference site until it is.",
+        "",
+        "## Reading this from a script",
+        "",
+        "Fetch a file from "
+        "`raw.githubusercontent.com/RealZST/csconf-papers/main/{path}`. That "
+        "serves a file by path and cannot be asked what a directory holds, so "
+        "there is no way to discover a venue added since you last looked — "
+        "which is what `data/index.json` is for. Fetch it first, then fetch the "
+        "paths it names.",
+        "",
+        "```json",
+        "{",
+        '  "schema": 1,',
+        '  "generated": "2026-08-20",',
+        '  "paper_count": 2819,',
+        '  "files": [',
+        "    {",
+        '      "path": "data/2025/ASPLOS.json",',
+        '      "venue": "ASPLOS",',
+        '      "year": 2025,',
+        '      "paper_count": 179,',
+        '      "updated": "2026-08-12",',
+        '      "sha256": "…"',
+        "    }",
+        "  ]",
+        "}",
+        "```",
+        "",
+        "It is rebuilt from the files on disk by every command that writes one, "
+        "so it describes what is published rather than what a run meant to "
+        "publish. What that buys you:",
+        "",
+        "- **`paper_count`** is the number of papers in that file. Check it "
+        "against what you parsed. A truncated or partial import is otherwise "
+        "indistinguishable from a small conference.",
+        "- **`sha256`** is over the exact bytes served for that path, so you "
+        "can skip files that have not changed since your last run — typically "
+        "all but one or two of them.",
+        "- **`venue`** is the filename spelling, which is also `meta.venue` and "
+        "the venue's own: `EuroSys`, `MobiCom`, `MLSys`. It is one string that "
+        "is never transformed, so there is no mapping to build. Normalise it "
+        "for lookup if you must, but keep this form to display.",
+        "",
+        "Two things it does not promise. **`updated` is not a content "
+        "checksum**: it records when the list was collected from DBLP, and "
+        "filling in links refetches nothing, so links and PDF URLs can be added "
+        "to a file without that date moving. Use `sha256` to detect a change. "
+        "And a venue whose sync failed keeps its previous count and checksum, "
+        "so the index always agrees with this repository but may lag the "
+        "publisher until the next run.",
         "",
         "## Used by",
         "",
