@@ -83,8 +83,10 @@ def render_readme(
     lines = [
         "# csconf-papers",
         "",
-        "Accepted-paper lists for eight systems and database conferences, "
-        "rebuilt from DBLP on the first of every month.",
+        # Counted rather than written out: the sentence said "eight" for a while
+        # after the ninth venue landed.
+        "Accepted-paper lists for {} systems and database conferences, "
+        "rebuilt from DBLP on the first of every month.".format(len(venues)),
         "",
         "Each cell links to the readable listing for that edition. An em dash "
         "means no data yet, which is not the same as zero papers accepted.",
@@ -106,6 +108,17 @@ def render_readme(
     lines += [
         "",
         "Last updated: {}".format(updated),
+        "",
+        "## Read these lists in a reader",
+        "",
+        "[paper-viewer](https://github.com/tshi92/paper-viewer) syncs this "
+        "catalog and renders the papers inline for reading and annotation. It "
+        "discovers new venues through `data/index.json`, so an edition added "
+        "here shows up there on the next sync without any change on its side.",
+        "",
+        "![The paper-viewer conference catalog, filtered to OSDI 2026, each row "
+        "offering the PDF, the publisher page and a Scholar lookup]"
+        "(assets/paper-viewer-conferences.png)",
         "",
         "## Layout",
         "",
@@ -244,11 +257,6 @@ def render_readme(
         "And a venue whose sync failed keeps its previous count and checksum, "
         "so the index always agrees with this repository but may lag the "
         "publisher until the next run.",
-        "",
-        "## Used by",
-        "",
-        "[paper-viewer](https://github.com/tshi92/paper-viewer) syncs this "
-        "catalog and renders the papers inline for reading and annotation.",
         "",
         "## Sources",
         "",
