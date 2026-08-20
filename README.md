@@ -1,6 +1,6 @@
 # csconf-papers
 
-Accepted-paper lists for eight systems and database conferences, rebuilt from DBLP on the first of every month.
+Accepted-paper lists for 11 systems and database conferences, rebuilt from DBLP on the first of every month.
 
 Each cell links to the readable listing for that edition. An em dash means no data yet, which is not the same as zero papers accepted.
 
@@ -10,6 +10,12 @@ Each cell links to the readable listing for that edition. An em dash means no da
 | 2026 | [62](papers/2026/SOSP.md) | [136](papers/2026/OSDI.md) | — | [150](papers/2026/NSDI.md) | [138](papers/2026/EuroSys.md) | [155](papers/2026/ASPLOS.md) | [354](papers/2026/SIGMOD.md) | [135](papers/2026/VLDB.md) | — | [28](papers/2026/MobiCom.md) | [135](papers/2026/MLSys.md) |
 
 Last updated: 2026-08-20
+
+## Read these lists in a reader
+
+[paper-viewer](https://github.com/tshi92/paper-viewer) syncs this catalog and renders the papers inline for reading and annotation. It discovers new venues through `data/index.json`, so an edition added here shows up there on the next sync without any change on its side.
+
+![The paper-viewer conference catalog, filtered to OSDI 2026, each row offering the PDF, the publisher page and a Scholar lookup](assets/paper-viewer-conferences.png)
 
 ## Layout
 
@@ -97,10 +103,6 @@ It is rebuilt from the files on disk by every command that writes one, so it des
 - **`venue`** is the filename spelling, which is also `meta.venue` and the venue's own: `EuroSys`, `MobiCom`, `MLSys`. It is one string that is never transformed, so there is no mapping to build. Normalise it for lookup if you must, but keep this form to display.
 
 Two things it does not promise. **`updated` is not a content checksum**: it records when the list was collected from DBLP, and filling in links refetches nothing, so links and PDF URLs can be added to a file without that date moving. Use `sha256` to detect a change. And a venue whose sync failed keeps its previous count and checksum, so the index always agrees with this repository but may lag the publisher until the next run.
-
-## Used by
-
-[paper-viewer](https://github.com/tshi92/paper-viewer) syncs this catalog and renders the papers inline for reading and annotation.
 
 ## Sources
 
