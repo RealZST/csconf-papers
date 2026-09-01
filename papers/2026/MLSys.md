@@ -1,6 +1,6 @@
 # MLSys 2026
 
-135 papers · updated 2026-08-13
+135 papers · updated 2026-09-01
 
 - [A Lightweight High-Throughput Collective-Capable NoC for Large-Scale ML Accelerators](https://proceedings.mlsys.org/paper_files/paper/2026/hash/48fecef47b19fe501d27d338b6d52582-Abstract-Conference.html) · [PDF](https://proceedings.mlsys.org/paper_files/paper/2026/file/48fecef47b19fe501d27d338b6d52582-Paper-Conference.pdf)
   Luca Colagrande, Lorenzo Leone, Chen Wu, Tim Fischer, Raphael Roth, Luca Benini

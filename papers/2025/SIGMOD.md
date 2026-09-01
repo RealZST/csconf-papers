@@ -1,6 +1,6 @@
 # SIGMOD 2025
 
-251 papers · updated 2026-08-13
+251 papers · updated 2026-09-01
 
 - [A Cost-Effective LLM-based Approach to Identify Wildlife Trafficking in Online Marketplaces](https://doi.org/10.1145/3725256) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3725256) · [preprint](https://arxiv.org/abs/2504.21211)
   Juliana Silva Barbosa, Ulhas Gondhali, Gohar Petrossian, Kinshuk Sharma, Sunandan Chakraborty, Jennifer Jacquet, Juliana Freire

@@ -1,6 +1,6 @@
 # OSDI 2025
 
-53 papers · updated 2026-08-12
+53 papers · updated 2026-09-01
 
 - [Achieving Low-Latency Graph-Based Vector Search via Aligning Best-First Search Algorithm with SSD](https://www.usenix.org/conference/osdi25/presentation/guo) · [PDF](https://www.usenix.org/system/files/osdi25-guo.pdf)
   Hao Guo, Youyou Lu

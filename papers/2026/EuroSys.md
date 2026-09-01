@@ -1,6 +1,6 @@
 # EuroSys 2026
 
-138 papers · updated 2026-08-12
+138 papers · updated 2026-09-01
 
 - [2DIO: Configurable and Cache-Accurate Trace Generation for Storage Benchmarking](https://doi.org/10.1145/3767295.3769391) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3767295.3769391) · [preprint](https://arxiv.org/abs/2603.19971)
   Yirong Wang, Isaac Khor, Peter Desnoyers

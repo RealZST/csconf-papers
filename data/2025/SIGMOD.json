@@ -8,7 +8,7 @@
     ],
     "paper_count": 251,
     "note": null,
-    "updated": "2026-08-13"
+    "updated": "2026-09-01"
   },
   "papers": [
     {
@@ -736,7 +736,7 @@
           "name": "Lei Ma",
           "display_name": "Lei Ma",
           "pid": "20/6534",
-          "orcid": null
+          "orcid": "0000-0002-9252-2492"
         },
         {
           "name": "Lei Cao 0004",
@@ -748,13 +748,13 @@
           "name": "Peter M. VanNostrand",
           "display_name": "Peter M. VanNostrand",
           "pid": "247/9426",
-          "orcid": null
+          "orcid": "0000-0002-0285-6019"
         },
         {
           "name": "Dennis M. Hofmann",
           "display_name": "Dennis M. Hofmann",
           "pid": "328/6813",
-          "orcid": null
+          "orcid": "0000-0002-8102-3081"
         },
         {
           "name": "Yao Su 0003",
@@ -766,7 +766,7 @@
           "name": "Elke A. Rundensteiner",
           "display_name": "Elke A. Rundensteiner",
           "pid": "r/EARundensteiner",
-          "orcid": null
+          "orcid": "0000-0001-5375-9254"
         }
       ],
       "venue": "SIGMOD",
@@ -2566,19 +2566,19 @@
           "name": "Dennis M. Hofmann",
           "display_name": "Dennis M. Hofmann",
           "pid": "328/6813",
-          "orcid": null
+          "orcid": "0000-0002-8102-3081"
         },
         {
           "name": "Peter M. VanNostrand",
           "display_name": "Peter M. VanNostrand",
           "pid": "247/9426",
-          "orcid": null
+          "orcid": "0000-0002-0285-6019"
         },
         {
           "name": "Lei Ma",
           "display_name": "Lei Ma",
           "pid": "20/6534",
-          "orcid": null
+          "orcid": "0000-0002-9252-2492"
         },
         {
           "name": "Huayi Zhang",
@@ -2602,7 +2602,7 @@
           "name": "Elke A. Rundensteiner",
           "display_name": "Elke A. Rundensteiner",
           "pid": "r/EARundensteiner",
-          "orcid": null
+          "orcid": "0000-0001-5375-9254"
         }
       ],
       "venue": "SIGMOD",
@@ -3325,9 +3325,9 @@
           "orcid": "0000-0001-8082-7398"
         },
         {
-          "name": "Xiaoliang Xu",
+          "name": "Xiaoliang Xu 0001",
           "display_name": "Xiaoliang Xu",
-          "pid": "48/2710",
+          "pid": "48/2710-1",
           "orcid": "0000-0001-8040-6809"
         },
         {

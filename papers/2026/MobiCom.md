@@ -1,6 +1,6 @@
 # MobiCom 2026
 
-28 papers · updated 2026-08-13
+28 papers · updated 2026-09-01
 
 - ["Take Me Home, Wi-Fi Drone": A Drone-based Wireless System for Wilderness Search and Rescue](https://arxiv.org/abs/2604.09115) · arxiv.org · [PDF](https://arxiv.org/pdf/2604.09115)
   Weiying Hou, Luca Jiang-Tao Yu, Chenshu Wu
@@ -32,10 +32,10 @@
   Yizhe Zhao, Yongjian Fu, Zihao Feng, Hao Pan, Yongheng Deng, Yaoxue Zhang, Ju Ren
 - [MetaScatter: Enabling High-Order Underwater Backscatter via Piezoelectric Metasurface](https://scholar.google.com/scholar?q=MetaScatter%3A%20Enabling%20High-Order%20Underwater%20Backscatter%20via%20Piezoelectric%20Metasurface) · scholar.google.com
   Juan He, Jie Xiong, Wenhao Liu, Xuan Wang, Xiaoyan Wang, Na Chen, Chen Liu, Chunlong Fei, Chao Feng, Xiaojiang Chen
-- [Nexus: Efficient and Scalable Multi-Cell mmWave Baseband Processing with Heterogeneous Compute](https://scholar.google.com/scholar?q=Nexus%3A%20Efficient%20and%20Scalable%20Multi-Cell%20mmWave%20Baseband%20Processing%20with%20Heterogeneous%20Compute) · scholar.google.com
+- [Nexus: Efficient and Scalable Multi-Cell mmWave Baseband Processing with Heterogeneous Compute](https://arxiv.org/abs/2509.04625) · arxiv.org · [PDF](https://arxiv.org/pdf/2509.04625)
   Zhenzhou Qi, Chung-Hsuan Tung, Zhihui Gao, Tingjun Chen
 - [OrbWeaver : A Geometric Optics-Based RIS for Omnidirectional 3D Beam Steering](https://scholar.google.com/scholar?q=OrbWeaver%20%3A%20A%20Geometric%20Optics-Based%20RIS%20for%20Omnidirectional%203D%20Beam%20Steering) · scholar.google.com
-  Xuan Wang, Liyao Li, Runchuan Liu, Jiameng Bai, Kun Woo Cho, Chao Feng, Yuhui Ren, Xiaojiang Chen, Yaxiong Xie
+  Xuan Wang, Liyao Li, Runchuan Liu, Jiameng Bai, Chao Feng, Yuhui Ren, Xiaojiang Chen, Yaxiong Xie
 - [ORNet: OFDMA-Enabled mmWave Radar ISAC Networks](https://scholar.google.com/scholar?q=ORNet%3A%20OFDMA-Enabled%20mmWave%20Radar%20ISAC%20Networks) · scholar.google.com
   Zeming Yang, Linling Zhong, Wenhui Li, Yibin Deng, Jiazhen Lei, Fengyuan Zhu, Bingbing Wang, Haiming Jin, Xiaohua Tian
 - [PassiveOFDM: Flexible OFDM Backscatter with Commercial Compatibility](https://scholar.google.com/scholar?q=PassiveOFDM%3A%20Flexible%20OFDM%20Backscatter%20with%20Commercial%20Compatibility) · scholar.google.com

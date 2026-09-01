@@ -6,8 +6,8 @@
       "journals/pvldb/pvldb18"
     ],
     "paper_count": 483,
-    "note": "本文件为 PVLDB vol 18 全卷。VLDB 2025 研究 track 实际由本卷截止日前接收的论文加上一卷的 rollover 组成，DBLP 元数据无法区分。",
-    "updated": "2026-08-12"
+    "note": "This file is all of PVLDB vol 18. The VLDB 2025 research track is really the papers accepted before this volume's cutoff plus rollovers from the previous volume, a distinction DBLP metadata does not record.",
+    "updated": "2026-09-01"
   },
   "papers": [
     {
@@ -2449,7 +2449,7 @@
           "name": "Yihao Sun 0003",
           "display_name": "Yihao Sun",
           "pid": "227/7547-3",
-          "orcid": null
+          "orcid": "0000-0003-0946-2511"
         },
         {
           "name": "Sowmith Kunapaneni",
@@ -3065,7 +3065,7 @@
           "name": "Qideng Tang",
           "display_name": "Qideng Tang",
           "pid": "382/2318",
-          "orcid": null
+          "orcid": "0009-0005-6184-0665"
         },
         {
           "name": "Chaofan Dai",
@@ -8593,7 +8593,7 @@
           "name": "Raghavendra Ramesh",
           "display_name": "Raghavendra Ramesh",
           "pid": "08/3738",
-          "orcid": null
+          "orcid": "0000-0002-6289-9723"
         },
         {
           "name": "Aniket Kate",
@@ -9314,7 +9314,7 @@
           "orcid": null
         },
         {
-          "name": "Zeyan Li",
+          "name": "Zeyan Li 0001",
           "display_name": "Zeyan Li",
           "pid": "187/8216",
           "orcid": null
@@ -12924,9 +12924,9 @@
           "orcid": null
         },
         {
-          "name": "Gang Chen",
+          "name": "Gang Chen 0001",
           "display_name": "Gang Chen",
-          "pid": "67/6383",
+          "pid": "67/6383-1",
           "orcid": null
         }
       ],
@@ -16733,7 +16733,7 @@
           "name": "Gongyao Guo",
           "display_name": "Gongyao Guo",
           "pid": "385/3337",
-          "orcid": null
+          "orcid": "0009-0009-5600-2236"
         },
         {
           "name": "Chen Feng 0007",
@@ -24532,9 +24532,9 @@
           "orcid": "0000-0001-7321-9562"
         },
         {
-          "name": "Xiao Li",
+          "name": "Xiao Li 0029",
           "display_name": "Xiao Li",
-          "pid": "66/2069",
+          "pid": "66/2069-29",
           "orcid": null
         },
         {

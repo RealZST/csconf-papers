@@ -1,6 +1,6 @@
 # MobiCom 2025
 
-77 papers · updated 2026-08-13
+77 papers · updated 2026-09-01
 
 - [5G-MAP: Demystifying the Performance Implications of Cloud-Based 5G Core Deployments](https://doi.org/10.1145/3680207.3723492) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3680207.3723492)
   Tolga O. Atalay, Dragoslav Stojadinovic, Alireza Famili, Angelos Stavrou, Haining Wang

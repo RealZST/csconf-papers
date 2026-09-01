@@ -1,6 +1,6 @@
 # SOSP 2025
 
-66 papers · updated 2026-08-12
+66 papers · updated 2026-09-01
 
 - [Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market](https://doi.org/10.1145/3731569.3764815) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3731569.3764815)
   Yuxing Xiang, Xue Li, Kun Qian, Yufan Yang, Diwen Zhu, Wenyuan Yu, Ennan Zhai, Xuanzhe Liu, Xin Jin, Jingren Zhou

@@ -1,8 +1,8 @@
 # VLDB 2025
 
-483 papers · updated 2026-08-12
+483 papers · updated 2026-09-01
 
-> 本文件为 PVLDB vol 18 全卷。VLDB 2025 研究 track 实际由本卷截止日前接收的论文加上一卷的 rollover 组成，DBLP 元数据无法区分。
+> This file is all of PVLDB vol 18. The VLDB 2025 research track is really the papers accepted before this volume's cutoff plus rollovers from the previous volume, a distinction DBLP metadata does not record.
 
 - [A Comprehensive Study of Shapley Value in Data Analytics](https://www.vldb.org/pvldb/vol18/p3077-xie.pdf) · [PDF](https://www.vldb.org/pvldb/vol18/p3077-xie.pdf)
   Hong Lin, Shixin Wan, Zhongle Xie, Ke Chen, Meihui Zhang, Lidan Shou, Gang Chen

@@ -4,6 +4,10 @@
     "source": "semanticscholar",
     "url": "https://arxiv.org/abs/2605.15617"
   },
+  "a3tp automated accurate and adaptive uav task planning for large scale power transmission networks inspection": {
+    "checked": "2026-09-01",
+    "url": null
+  },
   "ahead of time analysis of shell program effects": {
     "checked": "2026-08-12",
     "url": null
@@ -44,6 +48,10 @@
   },
   "cardamom a multi gpu framework for tb scale encrypted inference": {
     "checked": "2026-08-12",
+    "url": null
+  },
+  "cellulars go underground practical obstacles and effective mitigation": {
+    "checked": "2026-09-01",
     "url": null
   },
   "cohort decentralized pir": {
@@ -168,6 +176,11 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "nexus efficient and scalable multi cell mmwave baseband processing with heterogeneous compute": {
+    "checked": "2026-09-01",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2509.04625"
+  },
   "observability driven tiered memory for colocated workloads": {
     "checked": "2026-08-13",
     "url": null
@@ -178,6 +191,10 @@
   },
   "orbweaver a geometric optics based ris for omnidirectional 3d beam steering": {
     "checked": "2026-08-13",
+    "url": null
+  },
+  "ornet ofdma enabled mmwave radar isac networks": {
+    "checked": "2026-09-01",
     "url": null
   },
   "oscar resilient privacy budgeting across untrusted web domains": {

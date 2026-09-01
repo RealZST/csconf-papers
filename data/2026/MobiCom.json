@@ -7,7 +7,7 @@
     ],
     "paper_count": 28,
     "note": null,
-    "updated": "2026-08-13"
+    "updated": "2026-09-01"
   },
   "papers": [
     {
@@ -809,10 +809,10 @@
       "volume": null,
       "issue": null,
       "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
+      "url": "https://arxiv.org/abs/2509.04625",
+      "url_source": "semanticscholar",
+      "pdf_url": "https://arxiv.org/pdf/2509.04625",
+      "pdf_source": "arxiv-derived",
       "arxiv_id": null,
       "pages": null,
       "source": "mobicom-web",
@@ -916,12 +916,6 @@
         {
           "name": "Jiameng Bai",
           "display_name": "Jiameng Bai",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Kun Woo Cho",
-          "display_name": "Kun Woo Cho",
           "pid": null,
           "orcid": null
         },

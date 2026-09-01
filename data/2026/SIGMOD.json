@@ -8,7 +8,7 @@
     ],
     "paper_count": 354,
     "note": null,
-    "updated": "2026-08-12"
+    "updated": "2026-09-01"
   },
   "papers": [
     {
@@ -5157,9 +5157,9 @@
           "orcid": "0000-0003-3240-2912"
         },
         {
-          "name": "Xiaoliang Xu",
+          "name": "Xiaoliang Xu 0001",
           "display_name": "Xiaoliang Xu",
-          "pid": "48/2710",
+          "pid": "48/2710-1",
           "orcid": "0000-0001-8040-6809"
         }
       ],
@@ -6666,7 +6666,7 @@
           "name": "Soulmaz Gheisari",
           "display_name": "Soulmaz Gheisari",
           "pid": "191/8790",
-          "orcid": null
+          "orcid": "0000-0001-8974-2841"
         },
         {
           "name": "Jaime Osvaldo Salas",
@@ -6684,7 +6684,7 @@
           "name": "George Konstantindis",
           "display_name": "George Konstantindis",
           "pid": "442/5444",
-          "orcid": null
+          "orcid": "0000-0002-3962-9303"
         }
       ],
       "venue": "SIGMOD",
@@ -6710,7 +6710,7 @@
           "name": "Wolfgang Gatterbauer",
           "display_name": "Wolfgang Gatterbauer",
           "pid": "36/5673",
-          "orcid": null
+          "orcid": "0000-0002-9614-0504"
         }
       ],
       "venue": "SIGMOD",
@@ -6754,7 +6754,7 @@
           "name": "Xin Huang 0001",
           "display_name": "Xin Huang",
           "pid": "98/5766-1",
-          "orcid": null
+          "orcid": "0000-0002-3650-0301"
         },
         {
           "name": "Jeffrey Xu Yu",
@@ -6810,7 +6810,7 @@
           "name": "Jianliang Xu",
           "display_name": "Jianliang Xu",
           "pid": "x/JianliangXu",
-          "orcid": null
+          "orcid": "0000-0001-9404-5848"
         },
         {
           "name": "Bingsheng He",
@@ -6898,31 +6898,31 @@
           "name": "Yuvaraj Chesetti",
           "display_name": "Yuvaraj Chesetti",
           "pid": "382/6931",
-          "orcid": null
+          "orcid": "0009-0003-8573-4299"
         },
         {
           "name": "Navid Eslami",
           "display_name": "Navid Eslami",
           "pid": "350/6669",
-          "orcid": null
+          "orcid": "0009-0001-3522-5846"
         },
         {
           "name": "Huanchen Zhang",
           "display_name": "Huanchen Zhang",
           "pid": "13/8730",
-          "orcid": null
+          "orcid": "0009-0001-4821-1558"
         },
         {
           "name": "Niv Dayan",
           "display_name": "Niv Dayan",
           "pid": "129/6927",
-          "orcid": null
+          "orcid": "0000-0003-0314-0167"
         },
         {
           "name": "Prashant Pandey 0001",
           "display_name": "Prashant Pandey",
           "pid": "64/6001-1",
-          "orcid": null
+          "orcid": "0000-0001-5576-0320"
         }
       ],
       "venue": "SIGMOD",
@@ -6960,7 +6960,7 @@
           "name": "Jiajun Li",
           "display_name": "Jiajun Li",
           "pid": "86/8514",
-          "orcid": null
+          "orcid": "0009-0008-4149-5165"
         },
         {
           "name": "Zhewei Wei",
@@ -7028,7 +7028,7 @@
           "name": "Wenjie Zhang 0001",
           "display_name": "Wenjie Zhang",
           "pid": "98/5684-1",
-          "orcid": null
+          "orcid": "0000-0001-6572-2600"
         }
       ],
       "venue": "SIGMOD",
@@ -7054,7 +7054,7 @@
           "name": "Shunit Agmon",
           "display_name": "Shunit Agmon",
           "pid": "221/1516",
-          "orcid": null
+          "orcid": "0000-0001-9605-4131"
         },
         {
           "name": "Jonathan Gal",
@@ -7084,13 +7084,13 @@
           "name": "Brit Youngmann",
           "display_name": "Brit Youngmann",
           "pid": "185/4349",
-          "orcid": null
+          "orcid": "0000-0002-0031-5550"
         },
         {
           "name": "Benny Kimelfeld",
           "display_name": "Benny Kimelfeld",
           "pid": "74/3195",
-          "orcid": null
+          "orcid": "0000-0002-7156-1572"
         }
       ],
       "venue": "SIGMOD",
@@ -7122,7 +7122,7 @@
           "name": "Matthew Lentz",
           "display_name": "Matthew Lentz",
           "pid": "143/5702",
-          "orcid": null
+          "orcid": "0000-0003-1034-2736"
         },
         {
           "name": "Nina Narodytska",
@@ -7140,7 +7140,7 @@
           "name": "Kexin Rong 0001",
           "display_name": "Kexin Rong",
           "pid": "192/4560",
-          "orcid": null
+          "orcid": "0000-0002-3282-5360"
         }
       ],
       "venue": "SIGMOD",
@@ -7172,7 +7172,7 @@
           "name": "Yurong Liu",
           "display_name": "Yurong Liu",
           "pid": "50/2415",
-          "orcid": null
+          "orcid": "0009-0007-9455-7254"
         },
         {
           "name": "Aécio S. R. Santos",
@@ -7190,7 +7190,7 @@
           "name": "Juliana Freire",
           "display_name": "Juliana Freire",
           "pid": "f/JulianaFreire",
-          "orcid": null
+          "orcid": "0000-0003-3915-7075"
         }
       ],
       "venue": "SIGMOD",
@@ -7216,7 +7216,7 @@
           "name": "Xinjun Yang",
           "display_name": "Xinjun Yang",
           "pid": "295/3640",
-          "orcid": null
+          "orcid": "0000-0001-8507-4444"
         },
         {
           "name": "Qingda Hu",
@@ -7246,7 +7246,7 @@
           "name": "Yuqi Zhou",
           "display_name": "Yuqi Zhou",
           "pid": "177/6742",
-          "orcid": null
+          "orcid": "0000-0002-4126-9685"
         },
         {
           "name": "Qiuru Lin",
@@ -7320,13 +7320,13 @@
           "name": "Xiangyu Ke",
           "display_name": "Xiangyu Ke",
           "pid": "194/2946",
-          "orcid": null
+          "orcid": "0000-0001-8082-7398"
         },
         {
           "name": "Ziquan Fang",
           "display_name": "Ziquan Fang",
           "pid": "241/7962",
-          "orcid": null
+          "orcid": "0009-0009-2034-5501"
         },
         {
           "name": "Tianyi Li 0005",
@@ -7370,7 +7370,7 @@
           "name": "Andrew Krapivin",
           "display_name": "Andrew Krapivin",
           "pid": "392/2515",
-          "orcid": null
+          "orcid": "0009-0003-0227-7660"
         },
         {
           "name": "Aaditya Rangarajan",
@@ -7400,7 +7400,7 @@
           "name": "Prashant Pandey 0001",
           "display_name": "Prashant Pandey",
           "pid": "64/6001-1",
-          "orcid": null
+          "orcid": "0000-0001-5576-0320"
         }
       ],
       "venue": "SIGMOD",
@@ -7456,13 +7456,13 @@
           "name": "Jianjun Zhao 0003",
           "display_name": "Jianjun Zhao",
           "pid": "71/6948-3",
-          "orcid": null
+          "orcid": "0009-0002-4008-1821"
         },
         {
           "name": "Ruipeng Wan",
           "display_name": "Ruipeng Wan",
           "pid": "437/2652",
-          "orcid": null
+          "orcid": "0009-0006-6189-7909"
         },
         {
           "name": "Xinyan Lei",
@@ -7530,19 +7530,19 @@
           "name": "Brit Youngmann",
           "display_name": "Brit Youngmann",
           "pid": "185/4349",
-          "orcid": null
+          "orcid": "0000-0002-0031-5550"
         },
         {
           "name": "Anna Fariha",
           "display_name": "Anna Fariha",
           "pid": "29/11192",
-          "orcid": null
+          "orcid": "0000-0002-5275-7844"
         },
         {
           "name": "Yuval Moskovitch",
           "display_name": "Yuval Moskovitch",
           "pid": "135/4661",
-          "orcid": null
+          "orcid": "0000-0002-0325-7392"
         }
       ],
       "venue": "SIGMOD",
@@ -7592,7 +7592,7 @@
           "name": "Panos Kalnis",
           "display_name": "Panos Kalnis",
           "pid": "97/3036",
-          "orcid": null
+          "orcid": "0000-0002-5060-1360"
         },
         {
           "name": "Essam Mansour 0001",
@@ -7636,7 +7636,7 @@
           "name": "Mahmoud Abo Khamis",
           "display_name": "Mahmoud Abo Khamis",
           "pid": "144/7839",
-          "orcid": null
+          "orcid": "0000-0003-3894-6494"
         },
         {
           "name": "Kyle Deeds",
@@ -7698,13 +7698,13 @@
           "name": "Baotong Lu",
           "display_name": "Baotong Lu",
           "pid": "256/1745",
-          "orcid": null
+          "orcid": "0000-0002-0230-1048"
         },
         {
           "name": "Hui Li",
           "display_name": "Hui Li",
           "pid": "66/3387",
-          "orcid": null
+          "orcid": "0009-0009-0772-6588"
         },
         {
           "name": "Qianxi Zhang",
@@ -7716,7 +7716,7 @@
           "name": "Qi Chen 0009",
           "display_name": "Qi Chen",
           "pid": "66/6320-9",
-          "orcid": null
+          "orcid": "0009-0006-7394-0185"
         },
         {
           "name": "James Cheng",
@@ -7810,13 +7810,13 @@
           "name": "Bowen Zhang 0012",
           "display_name": "Bowen Zhang",
           "pid": "85/7433-12",
-          "orcid": null
+          "orcid": "0000-0002-7526-8971"
         },
         {
           "name": "Shengan Zheng",
           "display_name": "Shengan Zheng",
           "pid": "178/7439",
-          "orcid": null
+          "orcid": "0000-0003-2485-760X"
         },
         {
           "name": "Shi Shu",
@@ -7834,7 +7834,7 @@
           "name": "Zhenlin Qi",
           "display_name": "Zhenlin Qi",
           "pid": "323/0852",
-          "orcid": null
+          "orcid": "0000-0001-8838-6064"
         },
         {
           "name": "Weiquan Huang",
@@ -7846,19 +7846,19 @@
           "name": "Jianguo Wang 0001",
           "display_name": "Jianguo Wang",
           "pid": "64/1071-1",
-          "orcid": null
+          "orcid": "0000-0002-3039-1175"
         },
         {
           "name": "Linpeng Huang",
           "display_name": "Linpeng Huang",
           "pid": "93/4039",
-          "orcid": null
+          "orcid": "0000-0002-1531-7962"
         },
         {
           "name": "Hong Mei 0001",
           "display_name": "Hong Mei",
           "pid": "14/2036",
-          "orcid": null
+          "orcid": "0000-0003-2380-3976"
         }
       ],
       "venue": "SIGMOD",
@@ -7884,13 +7884,13 @@
           "name": "Whanhee Cho",
           "display_name": "Whanhee Cho",
           "pid": "338/1661",
-          "orcid": null
+          "orcid": "0000-0003-2069-4508"
         },
         {
           "name": "Anna Fariha",
           "display_name": "Anna Fariha",
           "pid": "29/11192",
-          "orcid": null
+          "orcid": "0000-0002-5275-7844"
         }
       ],
       "venue": "SIGMOD",
@@ -7916,7 +7916,7 @@
           "name": "Siyi Wang",
           "display_name": "Siyi Wang",
           "pid": "84/10047",
-          "orcid": null
+          "orcid": "0009-0004-1853-9028"
         },
         {
           "name": "Qiyao Luo",
@@ -7928,7 +7928,7 @@
           "name": "Yihua Hu 0003",
           "display_name": "Yihua Hu",
           "pid": "45/8179-3",
-          "orcid": null
+          "orcid": "0009-0001-2948-8340"
         },
         {
           "name": "Lixu Wang",
@@ -7940,13 +7940,13 @@
           "name": "Quanqing Xu",
           "display_name": "Quanqing Xu",
           "pid": "29/4131",
-          "orcid": null
+          "orcid": "0000-0001-8989-9662"
         },
         {
           "name": "Chuanhui Yang",
           "display_name": "Chuanhui Yang",
           "pid": "328/5894",
-          "orcid": null
+          "orcid": "0009-0009-3530-6476"
         },
         {
           "name": "Zhan Qin",
@@ -7958,13 +7958,13 @@
           "name": "Kui Ren 0001",
           "display_name": "Kui Ren",
           "pid": "20/6179-1",
-          "orcid": null
+          "orcid": "0000-0002-1969-2591"
         },
         {
           "name": "Wei Dong 0007",
           "display_name": "Wei Dong",
           "pid": "92/748-7",
-          "orcid": null
+          "orcid": "0000-0002-0394-4125"
         }
       ],
       "venue": "SIGMOD",
@@ -8028,19 +8028,19 @@
           "name": "Haifeng Sun 0001",
           "display_name": "Haifeng Sun",
           "pid": "00/11044-1",
-          "orcid": null
+          "orcid": "0000-0003-3072-7422"
         },
         {
           "name": "Zirui Zhuang",
           "display_name": "Zirui Zhuang",
           "pid": "235/7014",
-          "orcid": null
+          "orcid": "0000-0003-3345-1732"
         },
         {
           "name": "Qi Qi 0001",
           "display_name": "Qi Qi",
           "pid": "80/6406-1",
-          "orcid": null
+          "orcid": "0000-0003-0829-4624"
         },
         {
           "name": "Guojun Chu",
@@ -8152,13 +8152,13 @@
           "name": "Wenjie Zhang 0001",
           "display_name": "Wenjie Zhang",
           "pid": "98/5684-1",
-          "orcid": null
+          "orcid": "0000-0001-6572-2600"
         },
         {
           "name": "Kai Wang 0037",
           "display_name": "Kai Wang",
           "pid": "78/2022-37",
-          "orcid": null
+          "orcid": "0000-0002-3123-2184"
         },
         {
           "name": "Xuemin Lin 0001",
@@ -8170,7 +8170,7 @@
           "name": "Ying Zhang 0001",
           "display_name": "Ying Zhang",
           "pid": "13/6769-1",
-          "orcid": null
+          "orcid": "0000-0002-2674-1638"
         },
         {
           "name": "Wei Ni 0001",
@@ -8202,25 +8202,25 @@
           "name": "Qiang Yue 0008",
           "display_name": "Qiang Yue",
           "pid": "69/2319-8",
-          "orcid": null
+          "orcid": "0009-0000-9011-1019"
         },
         {
           "name": "Mengzhao Wang 0001",
           "display_name": "Mengzhao Wang",
           "pid": "284/3282-1",
-          "orcid": null
+          "orcid": "0000-0003-3806-1012"
         },
         {
-          "name": "Xiaoliang Xu",
+          "name": "Xiaoliang Xu 0001",
           "display_name": "Xiaoliang Xu",
-          "pid": "48/2710",
-          "orcid": null
+          "pid": "48/2710-1",
+          "orcid": "0000-0001-8040-6809"
         },
         {
           "name": "Cheng Long 0001",
           "display_name": "Cheng Long",
           "pid": "58/10813-1",
-          "orcid": null
+          "orcid": "0000-0001-6806-8405"
         },
         {
           "name": "Yuxiang Wang 0001",
@@ -8258,7 +8258,7 @@
           "name": "Youran Sun",
           "display_name": "Youran Sun",
           "pid": "395/2778",
-          "orcid": null
+          "orcid": "0009-0005-1371-666X"
         },
         {
           "name": "Yingli Zhou",
@@ -8276,7 +8276,7 @@
           "name": "Cheng Chen 0008",
           "display_name": "Cheng Chen",
           "pid": "10/217-8",
-          "orcid": null
+          "orcid": "0000-0002-2622-4075"
         },
         {
           "name": "Yongmin Hu",
@@ -8288,7 +8288,7 @@
           "name": "Yingqian Hu",
           "display_name": "Yingqian Hu",
           "pid": "328/7021",
-          "orcid": null
+          "orcid": "0009-0006-1345-074X"
         }
       ],
       "venue": "SIGMOD",
@@ -8332,7 +8332,7 @@
           "name": "Jianguo Wang 0001",
           "display_name": "Jianguo Wang",
           "pid": "64/1071-1",
-          "orcid": null
+          "orcid": "0000-0002-3039-1175"
         }
       ],
       "venue": "SIGMOD",
@@ -8364,7 +8364,7 @@
           "name": "Feng Zhang 0007",
           "display_name": "Feng Zhang",
           "pid": "48/1294-7",
-          "orcid": null
+          "orcid": "0000-0003-1983-7321"
         },
         {
           "name": "Zheng Chen 0023",
@@ -8376,7 +8376,7 @@
           "name": "Yuxin Tang",
           "display_name": "Yuxin Tang",
           "pid": "86/2476",
-          "orcid": null
+          "orcid": "0009-0002-7479-4299"
         },
         {
           "name": "Jiawei Guan",
@@ -8394,7 +8394,7 @@
           "name": "Xiaoyong Du 0001",
           "display_name": "Xiaoyong Du",
           "pid": "47/3542-1",
-          "orcid": null
+          "orcid": "0000-0002-5757-9135"
         }
       ],
       "venue": "SIGMOD",
@@ -8470,7 +8470,7 @@
           "name": "Wenfei Fan",
           "display_name": "Wenfei Fan",
           "pid": "94/2372",
-          "orcid": null
+          "orcid": "0000-0001-5149-2656"
         },
         {
           "name": "Yixuan Luo",
@@ -8520,13 +8520,13 @@
           "name": "Jun-Peng Zhu",
           "display_name": "Jun-Peng Zhu",
           "pid": "381/6099",
-          "orcid": null
+          "orcid": "0009-0006-9053-0129"
         },
         {
           "name": "Peng Cai 0001",
           "display_name": "Peng Cai",
           "pid": "19/3952-1",
-          "orcid": null
+          "orcid": "0009-0006-7468-7695"
         },
         {
           "name": "Xuan Zhou 0001",
@@ -8538,13 +8538,13 @@
           "name": "Quanqing Xu",
           "display_name": "Quanqing Xu",
           "pid": "29/4131",
-          "orcid": null
+          "orcid": "0000-0001-8989-9662"
         },
         {
           "name": "Chuanhui Yang",
           "display_name": "Chuanhui Yang",
           "pid": "328/5894",
-          "orcid": null
+          "orcid": "0009-0009-3530-6476"
         }
       ],
       "venue": "SIGMOD",
@@ -8570,7 +8570,7 @@
           "name": "Binhong Li",
           "display_name": "Binhong Li",
           "pid": "136/2931",
-          "orcid": null
+          "orcid": "0009-0002-8976-5546"
         },
         {
           "name": "Xiao Yan 0002",
@@ -8620,7 +8620,7 @@
           "name": "Peng Cheng 0003",
           "display_name": "Peng Cheng",
           "pid": "76/185-3",
-          "orcid": null
+          "orcid": "0000-0002-9797-6944"
         },
         {
           "name": "Xiaoyao Zhong",
@@ -8638,7 +8638,7 @@
           "name": "Yongxin Tong",
           "display_name": "Yongxin Tong",
           "pid": "83/2548",
-          "orcid": null
+          "orcid": "0000-0002-5598-0312"
         },
         {
           "name": "Zhitao Shen",
@@ -8650,7 +8650,7 @@
           "name": "Jingkuan Song",
           "display_name": "Jingkuan Song",
           "pid": "70/10575",
-          "orcid": null
+          "orcid": "0000-0002-2549-8322"
         },
         {
           "name": "Heng Tao Shen",
@@ -8736,7 +8736,7 @@
           "name": "Wenzhi Chen",
           "display_name": "Wenzhi Chen",
           "pid": "70/2079",
-          "orcid": null
+          "orcid": "0000-0003-1674-4701"
         },
         {
           "name": "Fei Wu 0001",
@@ -8768,13 +8768,13 @@
           "name": "Mahdi Esmailoghli",
           "display_name": "Mahdi Esmailoghli",
           "pid": "238/4380",
-          "orcid": null
+          "orcid": "0009-0009-2148-6402"
         },
         {
           "name": "Matthias Weidlich 0001",
           "display_name": "Matthias Weidlich",
           "pid": "61/267",
-          "orcid": null
+          "orcid": "0000-0003-3325-7227"
         }
       ],
       "venue": "SIGMOD",
@@ -8800,7 +8800,7 @@
           "name": "Hera Koo",
           "display_name": "Hera Koo",
           "pid": "435/2682",
-          "orcid": null
+          "orcid": "0009-0005-9856-0608"
         },
         {
           "name": "Sungho Moon",
@@ -8830,7 +8830,7 @@
           "name": "Beomseok Nam",
           "display_name": "Beomseok Nam",
           "pid": "39/6491",
-          "orcid": null
+          "orcid": "0000-0001-5481-6070"
         }
       ],
       "venue": "SIGMOD",
@@ -8898,7 +8898,7 @@
           "name": "Jingqi Tang",
           "display_name": "Jingqi Tang",
           "pid": "384/1736",
-          "orcid": null
+          "orcid": "0009-0006-3300-9425"
         },
         {
           "name": "Yaochen Han",
@@ -8966,7 +8966,7 @@
           "name": "Dong Wen 0001",
           "display_name": "Dong Wen",
           "pid": "92/8453-1",
-          "orcid": null
+          "orcid": "0000-0002-0903-1503"
         },
         {
           "name": "Dian Ouyang",
@@ -9016,7 +9016,7 @@
           "name": "Jianliang Xu",
           "display_name": "Jianliang Xu",
           "pid": "x/JianliangXu",
-          "orcid": null
+          "orcid": "0000-0001-9404-5848"
         }
       ],
       "venue": "SIGMOD",
@@ -9054,7 +9054,7 @@
           "name": "Zhao Zhang 0009",
           "display_name": "Zhao Zhang",
           "pid": "87/6853-9",
-          "orcid": null
+          "orcid": "0000-0002-0862-1093"
         },
         {
           "name": "Yanqin Yang",
@@ -9104,7 +9104,7 @@
           "name": "Artem A. Nazarenko",
           "display_name": "Artem A. Nazarenko",
           "pid": "239/7041",
-          "orcid": null
+          "orcid": "0009-0009-8758-9383"
         },
         {
           "name": "Egor Kotenko",
@@ -9134,7 +9134,7 @@
           "name": "Valentin Malykh",
           "display_name": "Valentin Malykh",
           "pid": "186/6505",
-          "orcid": null
+          "orcid": "0000-0002-4508-2527"
         }
       ],
       "venue": "SIGMOD",
@@ -9216,7 +9216,7 @@
           "name": "Huanchen Zhang",
           "display_name": "Huanchen Zhang",
           "pid": "13/8730",
-          "orcid": null
+          "orcid": "0009-0001-4821-1558"
         }
       ],
       "venue": "SIGMOD",
@@ -9248,7 +9248,7 @@
           "name": "Lixi Zhou",
           "display_name": "Lixi Zhou",
           "pid": "276/7084",
-          "orcid": null
+          "orcid": "0000-0001-8481-3292"
         },
         {
           "name": "Lulu Xie",
@@ -9330,7 +9330,7 @@
           "name": "Zikang Liu",
           "display_name": "Zikang Liu",
           "pid": "297/1764",
-          "orcid": null
+          "orcid": "0009-0009-3986-2920"
         },
         {
           "name": "Linwei Li",
@@ -9354,7 +9354,7 @@
           "name": "Yinan Jing",
           "display_name": "Yinan Jing",
           "pid": "35/3128",
-          "orcid": null
+          "orcid": "0000-0002-1169-8032"
         },
         {
           "name": "Wen He",
@@ -9416,7 +9416,7 @@
           "name": "Rui Zhu 0003",
           "display_name": "Rui Zhu",
           "pid": "72/1974-3",
-          "orcid": null
+          "orcid": "0000-0002-7033-8643"
         },
         {
           "name": "Wenli Sun",
@@ -9478,7 +9478,7 @@
           "name": "Susik Yoon",
           "display_name": "Susik Yoon",
           "pid": "179/5307",
-          "orcid": null
+          "orcid": "0000-0001-5596-4972"
         }
       ],
       "venue": "SIGMOD",
@@ -9504,7 +9504,7 @@
           "name": "Yingjia Wang",
           "display_name": "Yingjia Wang",
           "pid": "168/1341",
-          "orcid": null
+          "orcid": "0009-0006-2890-7984"
         },
         {
           "name": "Caixin Gong",
@@ -9534,7 +9534,7 @@
           "name": "Huan Liu",
           "display_name": "Huan Liu",
           "pid": "92/309",
-          "orcid": null
+          "orcid": "0009-0001-1934-8715"
         },
         {
           "name": "Junzhi Shi",
@@ -9690,13 +9690,13 @@
           "name": "Chen Zhang 0013",
           "display_name": "Chen Zhang",
           "pid": "94/4084-13",
-          "orcid": null
+          "orcid": "0000-0002-3306-9317"
         },
         {
           "name": "Raymond Chi-Wing Wong",
           "display_name": "Raymond Chi-Wing Wong",
           "pid": "w/RaymondChiWingWong",
-          "orcid": null
+          "orcid": "0000-0001-7045-6503"
         }
       ],
       "venue": "SIGMOD",
@@ -9772,7 +9772,7 @@
           "name": "Laks V. S. Lakshmanan",
           "display_name": "Laks V. S. Lakshmanan",
           "pid": "l/LVSLakshmanan",
-          "orcid": null
+          "orcid": "0000-0002-9775-4241"
         },
         {
           "name": "Reynold Cheng",
@@ -9816,13 +9816,13 @@
           "name": "Hong-Bo Feng",
           "display_name": "Hong-Bo Feng",
           "pid": "442/5954",
-          "orcid": null
+          "orcid": "0009-0002-8547-7467"
         },
         {
           "name": "Kang Chen 0001",
           "display_name": "Kang Chen",
           "pid": "91/6670-1",
-          "orcid": null
+          "orcid": "0000-0002-8368-1109"
         }
       ],
       "venue": "SIGMOD",
@@ -9892,13 +9892,13 @@
           "name": "Yeasir Rayhan",
           "display_name": "Yeasir Rayhan",
           "pid": "249/4961",
-          "orcid": null
+          "orcid": "0000-0003-0326-2965"
         },
         {
           "name": "Walid G. Aref",
           "display_name": "Walid G. Aref",
           "pid": "a/WGAref",
-          "orcid": null
+          "orcid": "0000-0001-8169-7775"
         }
       ],
       "venue": "SIGMOD",
@@ -9936,7 +9936,7 @@
           "name": "Xiaofang Xia",
           "display_name": "Xiaofang Xia",
           "pid": "167/9029",
-          "orcid": null
+          "orcid": "0000-0002-2953-2313"
         },
         {
           "name": "Jiangtao Cui",
@@ -9948,7 +9948,7 @@
           "name": "Hui Li 0005",
           "display_name": "Hui Li",
           "pid": "l/HuiLi5",
-          "orcid": null
+          "orcid": "0000-0003-2382-6289"
         },
         {
           "name": "Liang Wang 0017",
@@ -9960,7 +9960,7 @@
           "name": "Feng Zhang 0007",
           "display_name": "Feng Zhang",
           "pid": "48/1294-7",
-          "orcid": null
+          "orcid": "0000-0003-1983-7321"
         }
       ],
       "venue": "SIGMOD",
@@ -9986,13 +9986,13 @@
           "name": "Duling Xu",
           "display_name": "Duling Xu",
           "pid": "409/3234",
-          "orcid": null
+          "orcid": "0009-0007-3090-5838"
         },
         {
           "name": "Tong Li 0014",
           "display_name": "Tong Li",
           "pid": "29/3826-14",
-          "orcid": null
+          "orcid": "0000-0002-6805-9565"
         },
         {
           "name": "Zegang Sun",
@@ -10010,7 +10010,7 @@
           "name": "Weixing Zhou",
           "display_name": "Weixing Zhou",
           "pid": "19/9456",
-          "orcid": null
+          "orcid": "0009-0000-9665-6052"
         },
         {
           "name": "Yanfeng Zhang 0001",
@@ -10022,13 +10022,13 @@
           "name": "Wei Lu 0015",
           "display_name": "Wei Lu",
           "pid": "98/6613-15",
-          "orcid": null
+          "orcid": "0000-0001-6769-2695"
         },
         {
           "name": "Xiaoyong Du 0001",
           "display_name": "Xiaoyong Du",
           "pid": "47/3542-1",
-          "orcid": null
+          "orcid": "0000-0002-5757-9135"
         }
       ],
       "venue": "SIGMOD",
@@ -10072,7 +10072,7 @@
           "name": "Thomas Neumann 0001",
           "display_name": "Thomas Neumann",
           "pid": "n/ThomasNeumann",
-          "orcid": null
+          "orcid": "0000-0001-5787-142X"
         }
       ],
       "venue": "SIGMOD",
@@ -10110,13 +10110,13 @@
           "name": "Fatma Özcan 0001",
           "display_name": "Fatma Özcan",
           "pid": "o/FatmaOzcan",
-          "orcid": null
+          "orcid": "0000-0002-4418-4724"
         },
         {
           "name": "Stephen Mussmann",
           "display_name": "Stephen Mussmann",
           "pid": "155/8913",
-          "orcid": null
+          "orcid": "0009-0000-5243-5944"
         },
         {
           "name": "Joy Arulraj",
@@ -10148,13 +10148,13 @@
           "name": "Shuainan Liu",
           "display_name": "Shuainan Liu",
           "pid": "348/9884",
-          "orcid": null
+          "orcid": "0009-0000-9477-2922"
         },
         {
           "name": "Tianxi Ji",
           "display_name": "Tianxi Ji",
           "pid": "178/5180",
-          "orcid": null
+          "orcid": "0000-0002-9083-5452"
         },
         {
           "name": "Zhongshuo Fang",
@@ -10166,13 +10166,13 @@
           "name": "Lu Wei 0001",
           "display_name": "Lu Wei",
           "pid": "12/2554-1",
-          "orcid": null
+          "orcid": "0000-0002-8065-0956"
         },
         {
           "name": "Pan Li 0001",
           "display_name": "Pan Li",
           "pid": "72/2643-1",
-          "orcid": null
+          "orcid": "0000-0001-6522-2446"
         }
       ],
       "venue": "SIGMOD",
@@ -10242,13 +10242,13 @@
           "name": "Mir Mahathir Mohammad",
           "display_name": "Mir Mahathir Mohammad",
           "pid": "279/3287",
-          "orcid": null
+          "orcid": "0009-0005-9314-7793"
         },
         {
           "name": "El Kindi Rezig",
           "display_name": "El Kindi Rezig",
           "pid": "96/8919",
-          "orcid": null
+          "orcid": "0000-0002-5187-3499"
         }
       ],
       "venue": "SIGMOD",
@@ -10312,7 +10312,7 @@
           "name": "Jie Liu 0048",
           "display_name": "Jie Liu",
           "pid": "03/2134-48",
-          "orcid": null
+          "orcid": "0000-0003-1983-5086"
         },
         {
           "name": "Barzan Mozafari",
@@ -10400,7 +10400,7 @@
           "name": "Haoxuan Xie",
           "display_name": "Haoxuan Xie",
           "pid": "350/5781",
-          "orcid": null
+          "orcid": "0009-0006-9642-428X"
         },
         {
           "name": "Junfeng Liu 0001",
@@ -10450,7 +10450,7 @@
           "name": "Shimin Chen",
           "display_name": "Shimin Chen",
           "pid": "c/ShiminChen",
-          "orcid": null
+          "orcid": "0009-0000-1043-6236"
         }
       ],
       "venue": "SIGMOD",
@@ -10482,7 +10482,7 @@
           "name": "Jianguo Wang 0001",
           "display_name": "Jianguo Wang",
           "pid": "64/1071-1",
-          "orcid": null
+          "orcid": "0000-0002-3039-1175"
         }
       ],
       "venue": "SIGMOD",
@@ -10552,13 +10552,13 @@
           "name": "Cong Fu 0001",
           "display_name": "Cong Fu",
           "pid": "45/3990-1",
-          "orcid": null
+          "orcid": "0000-0002-3624-6665"
         },
         {
           "name": "Jiahua Wu 0003",
           "display_name": "Jiahua Wu",
           "pid": "74/994-3",
-          "orcid": null
+          "orcid": "0009-0003-6699-081X"
         },
         {
           "name": "Haotian Wu",
@@ -10576,7 +10576,7 @@
           "name": "Xiangyu Ke",
           "display_name": "Xiangyu Ke",
           "pid": "194/2946",
-          "orcid": null
+          "orcid": "0000-0001-8082-7398"
         },
         {
           "name": "Yunjun Gao",
@@ -10588,13 +10588,13 @@
           "name": "Yabo Ni",
           "display_name": "Yabo Ni",
           "pid": "135/5047",
-          "orcid": null
+          "orcid": "0000-0002-7535-8125"
         },
         {
           "name": "Anxiang Zeng",
           "display_name": "Anxiang Zeng",
           "pid": "182/7262",
-          "orcid": null
+          "orcid": "0000-0003-3869-5357"
         }
       ],
       "venue": "SIGMOD",
@@ -10632,13 +10632,13 @@
           "name": "Yinan Jing",
           "display_name": "Yinan Jing",
           "pid": "35/3128",
-          "orcid": null
+          "orcid": "0000-0002-1169-8032"
         },
         {
           "name": "Wentao Wu 0001",
           "display_name": "Wentao Wu",
           "pid": "29/85",
-          "orcid": null
+          "orcid": "0009-0006-2454-7109"
         },
         {
           "name": "Zhenying He",
@@ -10682,13 +10682,13 @@
           "name": "Tianyou Gao",
           "display_name": "Tianyou Gao",
           "pid": "420/7940",
-          "orcid": null
+          "orcid": "0009-0000-6897-6876"
         },
         {
           "name": "Takayuki Ito 0001",
           "display_name": "Takayuki Ito",
           "pid": "24/1535-1",
-          "orcid": null
+          "orcid": "0000-0001-5093-3886"
         }
       ],
       "venue": "SIGMOD",
@@ -10720,7 +10720,7 @@
           "name": "Aditya Balasubramanian",
           "display_name": "Aditya Balasubramanian",
           "pid": "407/7443",
-          "orcid": null
+          "orcid": "0009-0005-8524-9490"
         },
         {
           "name": "Dee Bao",
@@ -10732,7 +10732,7 @@
           "name": "Natacha Crooks",
           "display_name": "Natacha Crooks",
           "pid": "161/0113",
-          "orcid": null
+          "orcid": "0000-0002-3567-801X"
         },
         {
           "name": "Heidi Howard",
@@ -10776,7 +10776,7 @@
           "name": "Han Han",
           "display_name": "Han Han",
           "pid": "45/11276",
-          "orcid": null
+          "orcid": "0009-0007-0539-9013"
         },
         {
           "name": "Beichuan Zhang 0001",
@@ -10788,7 +10788,7 @@
           "name": "Lei Cao 0004",
           "display_name": "Lei Cao",
           "pid": "17/6060-4",
-          "orcid": null
+          "orcid": "0000-0001-9909-8607"
         }
       ],
       "venue": "SIGMOD",
@@ -10832,13 +10832,13 @@
           "name": "Wei Dong 0007",
           "display_name": "Wei Dong",
           "pid": "92/748-7",
-          "orcid": null
+          "orcid": "0000-0002-0394-4125"
         },
         {
           "name": "Chenhao Ma 0001",
           "display_name": "Chenhao Ma",
           "pid": "251/5251",
-          "orcid": null
+          "orcid": "0000-0002-3243-8512"
         }
       ],
       "venue": "SIGMOD",
@@ -10864,7 +10864,7 @@
           "name": "Di Wu 0056",
           "display_name": "Di Wu",
           "pid": "52/328-56",
-          "orcid": null
+          "orcid": "0000-0002-7788-9202"
         },
         {
           "name": "Zetong Tang",
@@ -10876,13 +10876,13 @@
           "name": "Yi He 0007",
           "display_name": "Yi He",
           "pid": "65/425-7",
-          "orcid": null
+          "orcid": "0000-0002-5357-6623"
         },
         {
           "name": "Xin Luo 0001",
           "display_name": "Xin Luo",
           "pid": "53/5106-1",
-          "orcid": null
+          "orcid": "0000-0002-1348-5305"
         }
       ],
       "venue": "SIGMOD",
@@ -10908,13 +10908,13 @@
           "name": "Qihui Zhou",
           "display_name": "Qihui Zhou",
           "pid": "139/3200",
-          "orcid": null
+          "orcid": "0000-0002-8927-3325"
         },
         {
           "name": "Peiqi Yin",
           "display_name": "Peiqi Yin",
           "pid": "295/3306",
-          "orcid": null
+          "orcid": "0009-0008-4081-913X"
         },
         {
           "name": "Xiao Yan 0002",
@@ -10926,7 +10926,7 @@
           "name": "Changji Li",
           "display_name": "Changji Li",
           "pid": "208/5231",
-          "orcid": null
+          "orcid": "0000-0003-2768-1224"
         },
         {
           "name": "James Cheng",
@@ -10958,7 +10958,7 @@
           "name": "Ziquan Fang",
           "display_name": "Ziquan Fang",
           "pid": "241/7962",
-          "orcid": null
+          "orcid": "0009-0009-2034-5501"
         },
         {
           "name": "Wei Shao",
@@ -11040,7 +11040,7 @@
           "name": "Yarden Gabbay",
           "display_name": "Yarden Gabbay",
           "pid": "424/5393",
-          "orcid": null
+          "orcid": "0009-0005-4330-8990"
         },
         {
           "name": "Haoquan Guan",
@@ -11058,13 +11058,13 @@
           "name": "El Kindi Rezig",
           "display_name": "El Kindi Rezig",
           "pid": "96/8919",
-          "orcid": null
+          "orcid": "0000-0002-5187-3499"
         },
         {
           "name": "Brit Youngmann",
           "display_name": "Brit Youngmann",
           "pid": "185/4349",
-          "orcid": null
+          "orcid": "0000-0002-0031-5550"
         },
         {
           "name": "Babak Salimi",
@@ -11102,19 +11102,19 @@
           "name": "Tong Zhou 0003",
           "display_name": "Tong Zhou",
           "pid": "30/97-3",
-          "orcid": null
+          "orcid": "0000-0003-3486-036X"
         },
         {
           "name": "He Zhao 0011",
           "display_name": "He Zhao",
           "pid": "98/3487-11",
-          "orcid": null
+          "orcid": "0000-0003-2646-7306"
         },
         {
           "name": "Xiaofeng Li 0011",
           "display_name": "Xiaofeng Li",
           "pid": "49/6408-11",
-          "orcid": null
+          "orcid": "0000-0003-2091-6588"
         },
         {
           "name": "Jinlin Xu",
@@ -11208,7 +11208,7 @@
           "name": "Yu Yan",
           "display_name": "Yu Yan",
           "pid": "12/778",
-          "orcid": null
+          "orcid": "0000-0002-2078-3343"
         },
         {
           "name": "Jian Geng",
@@ -11232,7 +11232,7 @@
           "name": "Hongzhi Wang 0001",
           "display_name": "Hongzhi Wang",
           "pid": "81/940",
-          "orcid": null
+          "orcid": "0000-0002-7521-2871"
         }
       ],
       "venue": "SIGMOD",
@@ -11302,7 +11302,7 @@
           "name": "Zhuoxing Zhang",
           "display_name": "Zhuoxing Zhang",
           "pid": "223/8303",
-          "orcid": null
+          "orcid": "0000-0001-6736-4501"
         },
         {
           "name": "Lanting Fang",
@@ -11314,7 +11314,7 @@
           "name": "Sebastian Link",
           "display_name": "Sebastian Link",
           "pid": "l/SebastianLink",
-          "orcid": null
+          "orcid": "0000-0002-1816-2863"
         },
         {
           "name": "Wu Chen 0005",
@@ -11352,7 +11352,7 @@
           "name": "Chenghao Mo",
           "display_name": "Chenghao Mo",
           "pid": "376/6725",
-          "orcid": null
+          "orcid": "0009-0003-9860-6325"
         },
         {
           "name": "Ben Karsin",
@@ -11370,7 +11370,7 @@
           "name": "Minjia Zhang",
           "display_name": "Minjia Zhang",
           "pid": "58/9033",
-          "orcid": null
+          "orcid": "0000-0002-8165-166X"
         }
       ],
       "venue": "SIGMOD",
@@ -11414,7 +11414,7 @@
           "name": "Zi Huang",
           "display_name": "Zi Huang",
           "pid": "70/6862",
-          "orcid": null
+          "orcid": "0000-0002-9738-4949"
         },
         {
           "name": "Yuwei Peng",
@@ -11756,13 +11756,13 @@
           "name": "Rushabh Desai",
           "display_name": "Rushabh Desai",
           "pid": "376/0345",
-          "orcid": null
+          "orcid": "0009-0001-7406-8433"
         },
         {
           "name": "Jian He",
           "display_name": "Jian He",
           "pid": "24/6837",
-          "orcid": null
+          "orcid": "0009-0000-5088-4308"
         },
         {
           "name": "Yu Xiao",
@@ -11786,7 +11786,7 @@
           "name": "Pushkar Khadilkar",
           "display_name": "Pushkar Khadilkar",
           "pid": "222/5448",
-          "orcid": null
+          "orcid": "0009-0008-6625-1423"
         },
         {
           "name": "Xianshun Chen",
@@ -11804,7 +11804,7 @@
           "name": "Fatma Özcan 0001",
           "display_name": "Fatma Özcan",
           "pid": "o/FatmaOzcan",
-          "orcid": null
+          "orcid": "0000-0002-4418-4724"
         },
         {
           "name": "Alon Y. Halevy",
@@ -11842,7 +11842,7 @@
           "name": "Jingwen Pan",
           "display_name": "Jingwen Pan",
           "pid": "247/8508",
-          "orcid": null
+          "orcid": "0000-0002-3736-8808"
         },
         {
           "name": "James Cheney",
@@ -11880,25 +11880,25 @@
           "name": "Yuxuan Zhu 0003",
           "display_name": "Yuxuan Zhu",
           "pid": "146/0939-3",
-          "orcid": null
+          "orcid": "0009-0001-6738-8930"
         },
         {
           "name": "Tengjun Jin",
           "display_name": "Tengjun Jin",
           "pid": "376/6776",
-          "orcid": null
+          "orcid": "0009-0005-0353-4184"
         },
         {
           "name": "Chenghao Mo",
           "display_name": "Chenghao Mo",
           "pid": "376/6725",
-          "orcid": null
+          "orcid": "0009-0003-9860-6325"
         },
         {
           "name": "Daniel Kang 0001",
           "display_name": "Daniel Kang",
           "pid": "40/6300",
-          "orcid": null
+          "orcid": "0000-0001-9860-9938"
         }
       ],
       "venue": "SIGMOD",
@@ -11924,19 +11924,19 @@
           "name": "Buddhi W. Kothalawala",
           "display_name": "Buddhi W. Kothalawala",
           "pid": "256/3470",
-          "orcid": null
+          "orcid": "0000-0003-3023-2905"
         },
         {
           "name": "Henning Koehler",
           "display_name": "Henning Koehler",
           "pid": "13/2962",
-          "orcid": null
+          "orcid": "0000-0002-4688-920X"
         },
         {
           "name": "Muhammad Farhan",
           "display_name": "Muhammad Farhan",
           "pid": "62/10825",
-          "orcid": null
+          "orcid": "0000-0002-1239-2107"
         }
       ],
       "venue": "SIGMOD",
@@ -11962,7 +11962,7 @@
           "name": "Yihua Hu 0003",
           "display_name": "Yihua Hu",
           "pid": "45/8179-3",
-          "orcid": null
+          "orcid": "0009-0001-2948-8340"
         },
         {
           "name": "Kuncan Wang",
@@ -11974,7 +11974,7 @@
           "name": "Wei Dong 0007",
           "display_name": "Wei Dong",
           "pid": "92/748-7",
-          "orcid": null
+          "orcid": "0000-0002-0394-4125"
         }
       ],
       "venue": "SIGMOD",
@@ -12000,13 +12000,13 @@
           "name": "Rui Zhu 0003",
           "display_name": "Rui Zhu",
           "pid": "72/1974-3",
-          "orcid": null
+          "orcid": "0000-0002-7033-8643"
         },
         {
           "name": "Mingyuan Jiang",
           "display_name": "Mingyuan Jiang",
           "pid": "290/6705",
-          "orcid": null
+          "orcid": "0009-0003-4331-1669"
         },
         {
           "name": "Xiaochun Yang 0001",
@@ -12018,7 +12018,7 @@
           "name": "Baihua Zheng",
           "display_name": "Baihua Zheng",
           "pid": "93/4303",
-          "orcid": null
+          "orcid": "0000-0001-9792-9171"
         },
         {
           "name": "Bin Wang 0015",
@@ -12030,7 +12030,7 @@
           "name": "Tao Qiu",
           "display_name": "Tao Qiu",
           "pid": "69/8588",
-          "orcid": null
+          "orcid": "0000-0002-4406-5872"
         }
       ],
       "venue": "SIGMOD",
@@ -12062,7 +12062,7 @@
           "name": "Tingting Wang 0009",
           "display_name": "Tingting Wang",
           "pid": "75/4702-9",
-          "orcid": null
+          "orcid": "0000-0002-4912-7171"
         },
         {
           "name": "Zhifeng Bao",
@@ -12086,31 +12086,31 @@
           "name": "Ge Lee",
           "display_name": "Ge Lee",
           "pid": "375/0279",
-          "orcid": null
+          "orcid": "0009-0002-8790-1495"
         },
         {
           "name": "Feng Luo 0005",
           "display_name": "Feng Luo",
           "pid": "181/2672-5",
-          "orcid": null
+          "orcid": "0009-0005-0448-3462"
         },
         {
           "name": "Zi Huang",
           "display_name": "Zi Huang",
           "pid": "70/6862",
-          "orcid": null
+          "orcid": "0000-0002-9738-4949"
         },
         {
           "name": "Hailang Qiu",
           "display_name": "Hailang Qiu",
           "pid": "431/6662",
-          "orcid": null
+          "orcid": "0009-0008-4290-8056"
         },
         {
           "name": "Gang Hua 0007",
           "display_name": "Gang Hua",
           "pid": "414/1335",
-          "orcid": null
+          "orcid": "0009-0001-9140-0303"
         }
       ],
       "venue": "SIGMOD",
@@ -12142,19 +12142,19 @@
           "name": "Hongbin Zhang 0006",
           "display_name": "Hongbin Zhang",
           "pid": "57/1843-6",
-          "orcid": null
+          "orcid": "0009-0007-9145-3919"
         },
         {
           "name": "Zhitao Chen",
           "display_name": "Zhitao Chen",
           "pid": "18/5841",
-          "orcid": null
+          "orcid": "0009-0003-0385-8416"
         },
         {
           "name": "Jiangsu Du",
           "display_name": "Jiangsu Du",
           "pid": "250/0536",
-          "orcid": null
+          "orcid": "0000-0003-4707-9492"
         },
         {
           "name": "Zhiguang Chen 0001",
@@ -12192,7 +12192,7 @@
           "name": "Marco Bressan 0002",
           "display_name": "Marco Bressan",
           "pid": "b/MarcoBressan2",
-          "orcid": null
+          "orcid": "0000-0001-5211-2264"
         },
         {
           "name": "T.-H. Hubert Chan",
@@ -12204,7 +12204,7 @@
           "name": "Qipeng Kuang",
           "display_name": "Qipeng Kuang",
           "pid": "383/8444",
-          "orcid": null
+          "orcid": "0009-0007-2396-8312"
         },
         {
           "name": "Mauro Sozio",
@@ -12236,7 +12236,7 @@
           "name": "Duo Lu",
           "display_name": "Duo Lu",
           "pid": "163/6679",
-          "orcid": null
+          "orcid": "0009-0002-5901-3079"
         },
         {
           "name": "Helena Caminal",
@@ -12248,13 +12248,13 @@
           "name": "Manos Chatzakis",
           "display_name": "Manos Chatzakis",
           "pid": "308/9019",
-          "orcid": null
+          "orcid": "0000-0002-9616-6210"
         },
         {
           "name": "Yannis Papakonstantinou",
           "display_name": "Yannis Papakonstantinou",
           "pid": "p/YPapakonstantinou",
-          "orcid": null
+          "orcid": "0009-0007-6360-9496"
         },
         {
           "name": "Yannis Chronis",
@@ -12272,7 +12272,7 @@
           "name": "Fatma Özcan 0001",
           "display_name": "Fatma Özcan",
           "pid": "o/FatmaOzcan",
-          "orcid": null
+          "orcid": "0000-0002-4418-4724"
         }
       ],
       "venue": "SIGMOD",
@@ -12334,7 +12334,7 @@
           "name": "Qingyun Liu 0001",
           "display_name": "Qingyun Liu",
           "pid": "47/9461-1",
-          "orcid": null
+          "orcid": "0000-0003-4815-3463"
         }
       ],
       "venue": "SIGMOD",
@@ -12360,13 +12360,13 @@
           "name": "Jian Lin",
           "display_name": "Jian Lin",
           "pid": "46/6839",
-          "orcid": null
+          "orcid": "0009-0009-7101-848X"
         },
         {
           "name": "Siyue Wu",
           "display_name": "Siyue Wu",
           "pid": "293/8140",
-          "orcid": null
+          "orcid": "0009-0005-2932-2497"
         },
         {
           "name": "Dingming Wu 0001",
@@ -12404,7 +12404,7 @@
           "name": "Zizhong Meng",
           "display_name": "Zizhong Meng",
           "pid": "227/6807",
-          "orcid": null
+          "orcid": "0009-0007-2702-9304"
         },
         {
           "name": "Gao Cong",
@@ -12442,19 +12442,19 @@
           "name": "Mohammad Khalaji",
           "display_name": "Mohammad Khalaji",
           "pid": "369/0039",
-          "orcid": null
+          "orcid": "0009-0002-4437-0786"
         },
         {
           "name": "Trevor Brown 0001",
           "display_name": "Trevor Brown",
           "pid": "56/10586-1",
-          "orcid": null
+          "orcid": "0000-0002-0074-1031"
         },
         {
           "name": "Khuzaima Daudjee",
           "display_name": "Khuzaima Daudjee",
           "pid": "d/KhuzaimaDaudjee",
-          "orcid": null
+          "orcid": "0009-0002-7036-0397"
         }
       ],
       "venue": "SIGMOD",
@@ -12486,13 +12486,13 @@
           "name": "Jiayao Zhang 0006",
           "display_name": "Jiayao Zhang",
           "pid": "300/4578",
-          "orcid": null
+          "orcid": "0009-0006-2956-1006"
         },
         {
           "name": "Jiazheng Song",
           "display_name": "Jiazheng Song",
           "pid": "442/4567",
-          "orcid": null
+          "orcid": "0009-0001-4281-3689"
         },
         {
           "name": "Jinfei Liu",
@@ -12530,7 +12530,7 @@
           "name": "Qiuyang Mang",
           "display_name": "Qiuyang Mang",
           "pid": "354/8741",
-          "orcid": null
+          "orcid": "0009-0000-4462-8527"
         },
         {
           "name": "Runyuan He",
@@ -12542,7 +12542,7 @@
           "name": "Suyang Zhong",
           "display_name": "Suyang Zhong",
           "pid": "349/3811",
-          "orcid": null
+          "orcid": "0009-0003-0341-7362"
         },
         {
           "name": "Xiaoxuan Liu",
@@ -12554,13 +12554,13 @@
           "name": "Huanchen Zhang",
           "display_name": "Huanchen Zhang",
           "pid": "13/8730",
-          "orcid": null
+          "orcid": "0009-0001-4821-1558"
         },
         {
           "name": "Alvin Cheung",
           "display_name": "Alvin Cheung",
           "pid": "16/4915",
-          "orcid": null
+          "orcid": "0000-0001-6261-6263"
         }
       ],
       "venue": "SIGMOD",
@@ -12586,13 +12586,13 @@
           "name": "Wei Zhou 0053",
           "display_name": "Wei Zhou",
           "pid": "69/5011-53",
-          "orcid": null
+          "orcid": "0009-0000-8862-7753"
         },
         {
           "name": "Xuanhe Zhou",
           "display_name": "Xuanhe Zhou",
           "pid": "247/8418",
-          "orcid": null
+          "orcid": "0000-0002-2285-7836"
         },
         {
           "name": "Qikang He",
@@ -12616,13 +12616,13 @@
           "name": "Quanqing Xu",
           "display_name": "Quanqing Xu",
           "pid": "29/4131",
-          "orcid": null
+          "orcid": "0000-0001-8989-9662"
         },
         {
           "name": "Fan Wu 0006",
           "display_name": "Fan Wu",
           "pid": "07/6378-6",
-          "orcid": null
+          "orcid": "0000-0003-0965-9058"
         }
       ],
       "venue": "SIGMOD",
@@ -12648,37 +12648,37 @@
           "name": "Zheng Wu",
           "display_name": "Zheng Wu",
           "pid": "20/144",
-          "orcid": null
+          "orcid": "0009-0000-9207-1962"
         },
         {
           "name": "Yitong Song 0001",
           "display_name": "Yitong Song",
           "pid": "217/3419-1",
-          "orcid": null
+          "orcid": "0000-0002-4220-0145"
         },
         {
           "name": "Xuliang Zhu",
           "display_name": "Xuliang Zhu",
           "pid": "272/4234",
-          "orcid": null
+          "orcid": "0000-0003-0655-8809"
         },
         {
           "name": "Huiling Li",
           "display_name": "Huiling Li",
           "pid": "43/2961",
-          "orcid": null
+          "orcid": "0009-0002-2815-7598"
         },
         {
           "name": "Jianliang Xu",
           "display_name": "Jianliang Xu",
           "pid": "x/JianliangXu",
-          "orcid": null
+          "orcid": "0000-0001-9404-5848"
         },
         {
           "name": "Xin Huang 0001",
           "display_name": "Xin Huang",
           "pid": "98/5766-1",
-          "orcid": null
+          "orcid": "0000-0002-3650-0301"
         }
       ],
       "venue": "SIGMOD",
@@ -12704,13 +12704,13 @@
           "name": "Congcong Ge",
           "display_name": "Congcong Ge",
           "pid": "187/1611",
-          "orcid": null
+          "orcid": "0009-0001-4460-2738"
         },
         {
           "name": "Yachuan Liu",
           "display_name": "Yachuan Liu",
           "pid": "240/6174",
-          "orcid": null
+          "orcid": "0009-0004-7827-4877"
         },
         {
           "name": "Yixuan Tang",
@@ -12722,7 +12722,7 @@
           "name": "Yifan Zhu 0002",
           "display_name": "Yifan Zhu",
           "pid": "94/1593-2",
-          "orcid": null
+          "orcid": "0000-0003-4555-6232"
         },
         {
           "name": "Yaofeng Tu",
@@ -12798,7 +12798,7 @@
           "name": "Zhijie Zhang 0004",
           "display_name": "Zhijie Zhang",
           "pid": "66/5132-4",
-          "orcid": null
+          "orcid": "0009-0006-9936-776X"
         },
         {
           "name": "Sitao Yang",
@@ -12816,7 +12816,7 @@
           "name": "Qiang Zhou",
           "display_name": "Qiang Zhou",
           "pid": "43/3182",
-          "orcid": null
+          "orcid": "0009-0005-7627-4563"
         },
         {
           "name": "Chuntao Hong",
@@ -12898,7 +12898,7 @@
           "name": "Jiayi Wang 0002",
           "display_name": "Jiayi Wang",
           "pid": "28/4853-2",
-          "orcid": null
+          "orcid": "0000-0002-9700-9751"
         },
         {
           "name": "Guoliang Li 0001",
@@ -12930,7 +12930,7 @@
           "name": "Songyao Wang",
           "display_name": "Songyao Wang",
           "pid": "392/2322",
-          "orcid": null
+          "orcid": "0009-0001-4054-9853"
         },
         {
           "name": "Chaokun Wang",
@@ -12974,13 +12974,13 @@
           "name": "Pratanu Mandal",
           "display_name": "Pratanu Mandal",
           "pid": "380/9422",
-          "orcid": null
+          "orcid": "0009-0007-0529-2179"
         },
         {
           "name": "Abhinav Gorantla",
           "display_name": "Abhinav Gorantla",
           "pid": "387/3224",
-          "orcid": null
+          "orcid": "0009-0003-1242-5671"
         },
         {
           "name": "K. Selçuk Candan",
@@ -13018,7 +13018,7 @@
           "name": "Chengying Huan",
           "display_name": "Chengying Huan",
           "pid": "217/1295",
-          "orcid": null
+          "orcid": "0000-0002-3154-3580"
         },
         {
           "name": "Renjie Yao",
@@ -13030,7 +13030,7 @@
           "name": "Shaonan Ma",
           "display_name": "Shaonan Ma",
           "pid": "291/2449",
-          "orcid": null
+          "orcid": "0000-0001-5718-5657"
         },
         {
           "name": "Rong Gu 0001",
@@ -13042,19 +13042,19 @@
           "name": "Zhengyi Yang 0001",
           "display_name": "Zhengyi Yang",
           "pid": "73/908-1",
-          "orcid": null
+          "orcid": "0000-0003-1772-6863"
         },
         {
           "name": "Lizheng Chen",
           "display_name": "Lizheng Chen",
           "pid": "225/6777",
-          "orcid": null
+          "orcid": "0009-0005-5594-6850"
         },
         {
           "name": "Zhibin Wang 0002",
           "display_name": "Zhibin Wang",
           "pid": "67/1237-2",
-          "orcid": null
+          "orcid": "0000-0001-9204-4075"
         },
         {
           "name": "Mingxing Zhang",
@@ -13104,7 +13104,7 @@
           "name": "Zhibin Wang 0002",
           "display_name": "Zhibin Wang",
           "pid": "67/1237-2",
-          "orcid": null
+          "orcid": "0000-0001-9204-4075"
         },
         {
           "name": "Rui Ning",
@@ -13116,7 +13116,7 @@
           "name": "Chao Fang 0005",
           "display_name": "Chao Fang",
           "pid": "74/2770-5",
-          "orcid": null
+          "orcid": "0000-0003-3430-1189"
         },
         {
           "name": "Zhonghui Zhang",
@@ -13128,13 +13128,13 @@
           "name": "Xi Lin",
           "display_name": "Xi Lin",
           "pid": "43/489",
-          "orcid": null
+          "orcid": "0009-0006-2284-6842"
         },
         {
           "name": "Shaobo Ma",
           "display_name": "Shaobo Ma",
           "pid": "347/4857",
-          "orcid": null
+          "orcid": "0009-0001-6173-3983"
         },
         {
           "name": "Mo Zhou",
@@ -13146,19 +13146,19 @@
           "name": "Xue Li 0024",
           "display_name": "Xue Li",
           "pid": "181/2710-24",
-          "orcid": null
+          "orcid": "0000-0001-5713-7225"
         },
         {
           "name": "Zhongfeng Wang 0001",
           "display_name": "Zhongfeng Wang",
           "pid": "67/5020-1",
-          "orcid": null
+          "orcid": "0000-0002-7227-4786"
         },
         {
           "name": "Chengying Huan",
           "display_name": "Chengying Huan",
           "pid": "217/1295",
-          "orcid": null
+          "orcid": "0000-0002-3154-3580"
         },
         {
           "name": "Rong Gu 0001",
@@ -13214,7 +13214,7 @@
           "name": "Apostolos Koukouvinis",
           "display_name": "Apostolos Koukouvinis",
           "pid": "442/5996",
-          "orcid": null
+          "orcid": "0009-0002-4044-3992"
         },
         {
           "name": "George Katsogiannis-Meimarakis",
@@ -13258,25 +13258,25 @@
           "name": "Dechuang Chen",
           "display_name": "Dechuang Chen",
           "pid": "363/8925",
-          "orcid": null
+          "orcid": "0009-0003-8148-3883"
         },
         {
           "name": "Qintian Guo",
           "display_name": "Qintian Guo",
           "pid": "123/1816",
-          "orcid": null
+          "orcid": "0000-0001-9581-9817"
         },
         {
           "name": "Fangyuan Zhang 0001",
           "display_name": "Fangyuan Zhang",
           "pid": "201/5927-1",
-          "orcid": null
+          "orcid": "0009-0004-3253-4661"
         },
         {
           "name": "Sibo Wang 0001",
           "display_name": "Sibo Wang",
           "pid": "131/6529-1",
-          "orcid": null
+          "orcid": "0000-0003-1892-6971"
         }
       ],
       "venue": "SIGMOD",
@@ -13302,7 +13302,7 @@
           "name": "Victor Junqiu Wei",
           "display_name": "Victor Junqiu Wei",
           "pid": "199/6298",
-          "orcid": null
+          "orcid": "0000-0001-5548-7301"
         },
         {
           "name": "Min Xie",
@@ -13340,19 +13340,19 @@
           "name": "Jingxuan He",
           "display_name": "Jingxuan He",
           "pid": "180/8452",
-          "orcid": null
+          "orcid": "0000-0003-1036-2876"
         },
         {
           "name": "Changshuo Liu",
           "display_name": "Changshuo Liu",
           "pid": "242/6078",
-          "orcid": null
+          "orcid": "0009-0007-3879-9814"
         },
         {
           "name": "Shaofeng Cai",
           "display_name": "Shaofeng Cai",
           "pid": "228/6099",
-          "orcid": null
+          "orcid": "0000-0001-8605-076X"
         },
         {
           "name": "Xixian Han",
@@ -13364,7 +13364,7 @@
           "name": "Yanyan Shen",
           "display_name": "Yanyan Shen",
           "pid": "74/2905",
-          "orcid": null
+          "orcid": "0000-0001-8364-3674"
         },
         {
           "name": "Beng Chin Ooi",
@@ -13396,19 +13396,19 @@
           "name": "Sungwoo Park",
           "display_name": "Sungwoo Park",
           "pid": "37/179",
-          "orcid": null
+          "orcid": "0009-0008-3927-7935"
         },
         {
           "name": "Seohyeon Kim",
           "display_name": "Seohyeon Kim",
           "pid": "228/9507",
-          "orcid": null
+          "orcid": "0009-0005-7944-8469"
         },
         {
           "name": "Min-Soo Kim 0002",
           "display_name": "Min-Soo Kim",
           "pid": "k/MinSooKim2",
-          "orcid": null
+          "orcid": "0000-0002-7852-0853"
         }
       ],
       "venue": "SIGMOD",
@@ -13434,7 +13434,7 @@
           "name": "Suyang Zhong",
           "display_name": "Suyang Zhong",
           "pid": "349/3811",
-          "orcid": null
+          "orcid": "0009-0003-0341-7362"
         },
         {
           "name": "Mo Sha 0002",
@@ -13446,13 +13446,13 @@
           "name": "Sheng Wang 0011",
           "display_name": "Sheng Wang",
           "pid": "85/1868-11",
-          "orcid": null
+          "orcid": "0009-0007-1582-3316"
         },
         {
           "name": "Fangyuan Zhou",
           "display_name": "Fangyuan Zhou",
           "pid": "125/4757",
-          "orcid": null
+          "orcid": "0009-0001-7742-670X"
         },
         {
           "name": "Feifei Li 0001",
@@ -13464,7 +13464,7 @@
           "name": "Kian-Lee Tan",
           "display_name": "Kian-Lee Tan",
           "pid": "t/KianLeeTan",
-          "orcid": null
+          "orcid": "0000-0001-9315-4057"
         }
       ],
       "venue": "SIGMOD",
@@ -13490,7 +13490,7 @@
           "name": "Boyan Li 0001",
           "display_name": "Boyan Li",
           "pid": "26/3930-1",
-          "orcid": null
+          "orcid": "0009-0009-8391-4687"
         },
         {
           "name": "Chong Chen 0001",
@@ -13540,19 +13540,19 @@
           "name": "Zhaokun Xiang",
           "display_name": "Zhaokun Xiang",
           "pid": "442/5349",
-          "orcid": null
+          "orcid": "0009-0008-1341-2190"
         },
         {
           "name": "Suyang Zhong",
           "display_name": "Suyang Zhong",
           "pid": "349/3811",
-          "orcid": null
+          "orcid": "0009-0003-0341-7362"
         },
         {
           "name": "Manuel Rigger",
           "display_name": "Manuel Rigger",
           "pid": "133/8711",
-          "orcid": null
+          "orcid": "0000-0001-8303-2099"
         }
       ],
       "venue": "SIGMOD",
@@ -13578,25 +13578,25 @@
           "name": "Hyeonjun An",
           "display_name": "Hyeonjun An",
           "pid": "424/5448",
-          "orcid": null
+          "orcid": "0009-0007-9617-5583"
         },
         {
           "name": "Sihyun Kim",
           "display_name": "Sihyun Kim",
           "pid": "219/7142",
-          "orcid": null
+          "orcid": "0009-0005-3853-618X"
         },
         {
           "name": "Chaerim Lim",
           "display_name": "Chaerim Lim",
           "pid": "424/6074",
-          "orcid": null
+          "orcid": "0009-0007-0178-4766"
         },
         {
           "name": "Hyunjoon Kim",
           "display_name": "Hyunjoon Kim",
           "pid": "45/7699",
-          "orcid": null
+          "orcid": "0009-0007-4903-6572"
         },
         {
           "name": "Rathijit Sen",
@@ -13670,19 +13670,19 @@
           "name": "Junwen An",
           "display_name": "Junwen An",
           "pid": "367/4198",
-          "orcid": null
+          "orcid": "0009-0003-1768-7443"
         },
         {
           "name": "Kabilan Mahathevan",
           "display_name": "Kabilan Mahathevan",
           "pid": "404/6300",
-          "orcid": null
+          "orcid": "0009-0003-4980-4886"
         },
         {
           "name": "Manuel Rigger",
           "display_name": "Manuel Rigger",
           "pid": "133/8711",
-          "orcid": null
+          "orcid": "0000-0001-8303-2099"
         }
       ],
       "venue": "SIGMOD",
@@ -13708,13 +13708,13 @@
           "name": "Zhiang Wu 0003",
           "display_name": "Zhiang Wu",
           "pid": "357/3382",
-          "orcid": null
+          "orcid": "0009-0004-8647-1416"
         },
         {
           "name": "Wei Dong 0007",
           "display_name": "Wei Dong",
           "pid": "92/748-7",
-          "orcid": null
+          "orcid": "0000-0002-0394-4125"
         },
         {
           "name": "Xiao Hu 0005",
@@ -13758,13 +13758,13 @@
           "name": "Katia Papakonstantinopoulou",
           "display_name": "Katia Papakonstantinopoulou",
           "pid": "116/4764",
-          "orcid": null
+          "orcid": "0000-0002-4674-9303"
         },
         {
           "name": "Nikos Giatrakos",
           "display_name": "Nikos Giatrakos",
           "pid": "17/1242",
-          "orcid": null
+          "orcid": "0000-0002-8218-707X"
         },
         {
           "name": "Yannis Kotidis",
@@ -13796,19 +13796,19 @@
           "name": "Sergio Luiz Marques Filho",
           "display_name": "Sergio Luiz Marques Filho",
           "pid": "348/7774",
-          "orcid": null
+          "orcid": "0009-0003-2325-5639"
         },
         {
           "name": "Eduardo Cunha de Almeida",
           "display_name": "Eduardo Cunha de Almeida",
           "pid": "53/2190",
-          "orcid": null
+          "orcid": "0000-0002-6644-956X"
         },
         {
           "name": "Marco Antonio Zanata Alves",
           "display_name": "Marco Antonio Zanata Alves",
           "pid": "47/7939",
-          "orcid": null
+          "orcid": "0000-0003-2440-2664"
         }
       ],
       "venue": "SIGMOD",
@@ -13840,13 +13840,13 @@
           "name": "Xiaokui Xiao",
           "display_name": "Xiaokui Xiao",
           "pid": "33/1903",
-          "orcid": null
+          "orcid": "0000-0003-0914-4580"
         },
         {
           "name": "Yin Yang 0001",
           "display_name": "Yin Yang",
           "pid": "56/2998-1",
-          "orcid": null
+          "orcid": "0000-0002-0549-3882"
         }
       ],
       "venue": "SIGMOD",
@@ -13878,13 +13878,13 @@
           "name": "Shankui Ji",
           "display_name": "Shankui Ji",
           "pid": "402/3862",
-          "orcid": null
+          "orcid": "0009-0007-4778-1202"
         },
         {
           "name": "He Huang 0001",
           "display_name": "He Huang",
           "pid": "75/4947-1",
-          "orcid": null
+          "orcid": "0000-0003-2768-6607"
         },
         {
           "name": "Yu-E Sun",
@@ -13902,7 +13902,7 @@
           "name": "Guoju Gao",
           "display_name": "Guoju Gao",
           "pid": "183/8123",
-          "orcid": null
+          "orcid": "0000-0002-0104-8263"
         }
       ],
       "venue": "SIGMOD",
@@ -13934,7 +13934,7 @@
           "name": "Youran Sun",
           "display_name": "Youran Sun",
           "pid": "395/2778",
-          "orcid": null
+          "orcid": "0009-0005-1371-666X"
         },
         {
           "name": "Yixiang Fang",
@@ -13972,7 +13972,7 @@
           "name": "Haotian Liu",
           "display_name": "Haotian Liu",
           "pid": "66/10511",
-          "orcid": null
+          "orcid": "0000-0002-8784-8711"
         },
         {
           "name": "Yangshen Deng",
@@ -14022,13 +14022,13 @@
           "name": "Noppanat Wadlom",
           "display_name": "Noppanat Wadlom",
           "pid": "414/8370",
-          "orcid": null
+          "orcid": "0009-0007-0788-9489"
         },
         {
           "name": "Junyi Shen",
           "display_name": "Junyi Shen",
           "pid": "30/5987",
-          "orcid": null
+          "orcid": "0009-0007-0917-6095"
         },
         {
           "name": "Yao Lu 0028",
@@ -14066,25 +14066,25 @@
           "name": "Chengfei Liu",
           "display_name": "Chengfei Liu",
           "pid": "l/ChengfeiLiu",
-          "orcid": null
+          "orcid": "0000-0003-1675-1389"
         },
         {
           "name": "Rui Zhou 0001",
           "display_name": "Rui Zhou",
           "pid": "97/4357",
-          "orcid": null
+          "orcid": "0000-0001-6807-4362"
         },
         {
           "name": "Jiajie Xu 0001",
           "display_name": "Jiajie Xu",
           "pid": "20/1590",
-          "orcid": null
+          "orcid": "0000-0001-8227-8636"
         },
         {
           "name": "Jianxin Li 0002",
           "display_name": "Jianxin Li",
           "pid": "l/JianxinLi-2",
-          "orcid": null
+          "orcid": "0000-0001-5152-0055"
         }
       ],
       "venue": "SIGMOD",
@@ -14110,19 +14110,19 @@
           "name": "Mingxi Liu",
           "display_name": "Mingxi Liu",
           "pid": "123/5452",
-          "orcid": null
+          "orcid": "0009-0003-5894-0767"
         },
         {
           "name": "Zhengyuan Ding",
           "display_name": "Zhengyuan Ding",
           "pid": "442/4833",
-          "orcid": null
+          "orcid": "0009-0007-3609-6023"
         },
         {
           "name": "Chenyang Zhang",
           "display_name": "Chenyang Zhang",
           "pid": "06/8501",
-          "orcid": null
+          "orcid": "0009-0007-8265-8461"
         },
         {
           "name": "Qingfeng Pan",
@@ -14140,7 +14140,7 @@
           "name": "Zhao Zhang 0009",
           "display_name": "Zhao Zhang",
           "pid": "87/6853-9",
-          "orcid": null
+          "orcid": "0000-0002-0862-1093"
         },
         {
           "name": "Chen Xu 0001",
@@ -14152,7 +14152,7 @@
           "name": "Qingsong Ruan",
           "display_name": "Qingsong Ruan",
           "pid": "224/3907",
-          "orcid": null
+          "orcid": "0009-0008-5035-5658"
         }
       ],
       "venue": "SIGMOD",
@@ -14178,13 +14178,13 @@
           "name": "Gyanendra Shrestha",
           "display_name": "Gyanendra Shrestha",
           "pid": "144/1513",
-          "orcid": null
+          "orcid": "0000-0001-6911-1815"
         },
         {
           "name": "Anna Pyayt",
           "display_name": "Anna Pyayt",
           "pid": "07/10088",
-          "orcid": null
+          "orcid": "0000-0001-8432-6179"
         },
         {
           "name": "Michael N. Gubanov",
@@ -14228,7 +14228,7 @@
           "name": "Chenyang Zhang",
           "display_name": "Chenyang Zhang",
           "pid": "06/8501",
-          "orcid": null
+          "orcid": "0009-0007-8265-8461"
         },
         {
           "name": "Jiahe Zhi",
@@ -14246,7 +14246,7 @@
           "name": "Heng Long",
           "display_name": "Heng Long",
           "pid": "432/9188",
-          "orcid": null
+          "orcid": "0009-0007-9803-9884"
         }
       ],
       "venue": "SIGMOD",
@@ -14296,7 +14296,7 @@
           "name": "Xiaokui Xiao",
           "display_name": "Xiaokui Xiao",
           "pid": "33/1903",
-          "orcid": null
+          "orcid": "0000-0003-0914-4580"
         },
         {
           "name": "Bolong Zheng",
@@ -14308,7 +14308,7 @@
           "name": "Xiaofang Zhou 0001",
           "display_name": "Xiaofang Zhou",
           "pid": "z/XiaofangZhou",
-          "orcid": null
+          "orcid": "0000-0001-5878-3683"
         }
       ],
       "venue": "SIGMOD",
@@ -14334,13 +14334,13 @@
           "name": "Yunhao Mao",
           "display_name": "Yunhao Mao",
           "pid": "258/4669",
-          "orcid": null
+          "orcid": "0000-0002-0557-7496"
         },
         {
           "name": "Harunari Takata",
           "display_name": "Harunari Takata",
           "pid": "430/9919",
-          "orcid": null
+          "orcid": "0009-0008-2151-6440"
         },
         {
           "name": "Michail Bachras",
@@ -14352,19 +14352,19 @@
           "name": "Yuqiu Zhang",
           "display_name": "Yuqiu Zhang",
           "pid": "243/6677",
-          "orcid": null
+          "orcid": "0009-0005-4302-009X"
         },
         {
           "name": "Shiquan Zhang",
           "display_name": "Shiquan Zhang",
           "pid": "151/6081",
-          "orcid": null
+          "orcid": "0009-0009-7112-2463"
         },
         {
           "name": "Gengrui Zhang 0001",
           "display_name": "Gengrui Zhang",
           "pid": "228/4392-1",
-          "orcid": null
+          "orcid": "0000-0002-4112-9893"
         },
         {
           "name": "Hans-Arno Jacobsen",
@@ -14396,7 +14396,7 @@
           "name": "Chi Zhang 0073",
           "display_name": "Chi Zhang",
           "pid": "91/195-73",
-          "orcid": null
+          "orcid": "0000-0002-2848-6108"
         },
         {
           "name": "Jie Liang 0006",
@@ -14420,13 +14420,13 @@
           "name": "Linzhang Wang",
           "display_name": "Linzhang Wang",
           "pid": "63/829",
-          "orcid": null
+          "orcid": "0000-0003-4794-1652"
         },
         {
           "name": "Yu Jiang 0001",
           "display_name": "Yu Jiang",
           "pid": "21/4633-1",
-          "orcid": null
+          "orcid": "0000-0003-0955-503X"
         }
       ],
       "venue": "SIGMOD",
@@ -14452,37 +14452,37 @@
           "name": "Yushi Liu 0003",
           "display_name": "Yushi Liu",
           "pid": "86/7205-3",
-          "orcid": null
+          "orcid": "0000-0001-7227-5765"
         },
         {
           "name": "Yikang Ruan",
           "display_name": "Yikang Ruan",
           "pid": "442/4657",
-          "orcid": null
+          "orcid": "0009-0001-6337-9340"
         },
         {
           "name": "Letian Ruan",
           "display_name": "Letian Ruan",
           "pid": "434/0654",
-          "orcid": null
+          "orcid": "0009-0009-4866-2955"
         },
         {
           "name": "Zijun Li 0001",
           "display_name": "Zijun Li",
           "pid": "44/10301-1",
-          "orcid": null
+          "orcid": "0000-0003-4706-8451"
         },
         {
           "name": "Sen Gao",
           "display_name": "Sen Gao",
           "pid": "143/0374",
-          "orcid": null
+          "orcid": "0009-0000-2151-9969"
         },
         {
           "name": "Weihao Cui",
           "display_name": "Weihao Cui",
           "pid": "243/1639",
-          "orcid": null
+          "orcid": "0000-0002-6646-5260"
         },
         {
           "name": "Shixuan Sun",
@@ -14494,7 +14494,7 @@
           "name": "Quan Chen 0002",
           "display_name": "Quan Chen",
           "pid": "40/3858-2",
-          "orcid": null
+          "orcid": "0000-0001-5832-0347"
         },
         {
           "name": "Shuo Quan",
@@ -14550,7 +14550,7 @@
           "name": "Anas Dorbani",
           "display_name": "Anas Dorbani",
           "pid": "405/0084",
-          "orcid": null
+          "orcid": "0009-0001-9482-6705"
         },
         {
           "name": "Amine Mhedhbi",
@@ -14582,7 +14582,7 @@
           "name": "Nima Shahbazi",
           "display_name": "Nima Shahbazi",
           "pid": "40/4462",
-          "orcid": null
+          "orcid": "0000-0001-7016-3807"
         },
         {
           "name": "Stavros Sintos",
@@ -14594,7 +14594,7 @@
           "name": "Abolfazl Asudeh",
           "display_name": "Abolfazl Asudeh",
           "pid": "04/7892",
-          "orcid": null
+          "orcid": "0000-0002-5251-6186"
         }
       ],
       "venue": "SIGMOD",
@@ -14626,13 +14626,13 @@
           "name": "Yangfan Jiang 0001",
           "display_name": "Yangfan Jiang",
           "pid": "278/8831-1",
-          "orcid": null
+          "orcid": "0000-0002-4010-9831"
         },
         {
           "name": "Kian-Lee Tan",
           "display_name": "Kian-Lee Tan",
           "pid": "t/KianLeeTan",
-          "orcid": null
+          "orcid": "0000-0001-9315-4057"
         }
       ],
       "venue": "SIGMOD",
@@ -14664,7 +14664,7 @@
           "name": "Xinna Zhou",
           "display_name": "Xinna Zhou",
           "pid": "325/9711",
-          "orcid": null
+          "orcid": "0009-0009-6506-4885"
         },
         {
           "name": "Bo Zhang",
@@ -14676,7 +14676,7 @@
           "name": "Ahad N. Zehmakan",
           "display_name": "Ahad N. Zehmakan",
           "pid": "167/4131",
-          "orcid": null
+          "orcid": "0000-0002-8569-6347"
         },
         {
           "name": "Zhongzhi Zhang",
@@ -14708,13 +14708,13 @@
           "name": "Zhen Song 0004",
           "display_name": "Zhen Song",
           "pid": "53/750-4",
-          "orcid": null
+          "orcid": "0009-0004-8737-2727"
         },
         {
           "name": "Hao Li",
           "display_name": "Hao Li",
           "pid": "17/5705",
-          "orcid": null
+          "orcid": "0009-0000-7438-894X"
         },
         {
           "name": "Tianyi Li 0005",
@@ -14744,13 +14744,13 @@
           "name": "Christian S. Jensen",
           "display_name": "Christian S. Jensen",
           "pid": "j/ChristianSJensen",
-          "orcid": null
+          "orcid": "0000-0002-9697-7670"
         },
         {
           "name": "Lizhen Cui 0001",
           "display_name": "Lizhen Cui",
           "pid": "82/5713-1",
-          "orcid": null
+          "orcid": "0000-0002-8262-8883"
         },
         {
           "name": "Ge Yu 0001",
@@ -14788,19 +14788,19 @@
           "name": "Yu Liu 0040",
           "display_name": "Yu Liu",
           "pid": "97/2274-40",
-          "orcid": null
+          "orcid": "0000-0002-1964-9278"
         },
         {
           "name": "Guoyu Hu",
           "display_name": "Guoyu Hu",
           "pid": "195/2960",
-          "orcid": null
+          "orcid": "0009-0005-9463-2045"
         },
         {
           "name": "Zhongle Xie",
           "display_name": "Zhongle Xie",
           "pid": "169/3419",
-          "orcid": null
+          "orcid": "0000-0002-2924-6974"
         },
         {
           "name": "Ming Yang",
@@ -14844,13 +14844,13 @@
           "name": "Jinhui Lai",
           "display_name": "Jinhui Lai",
           "pid": "118/4587",
-          "orcid": null
+          "orcid": "0009-0008-9331-1655"
         },
         {
           "name": "Chi Zhang 0073",
           "display_name": "Chi Zhang",
           "pid": "91/195-73",
-          "orcid": null
+          "orcid": "0000-0002-2848-6108"
         },
         {
           "name": "Jie Liang 0006",
@@ -14862,7 +14862,7 @@
           "name": "Zihao Zeng",
           "display_name": "Zihao Zeng",
           "pid": "250/0673",
-          "orcid": null
+          "orcid": "0009-0008-5644-6366"
         },
         {
           "name": "Zhiyong Wu 0010",
@@ -14880,7 +14880,7 @@
           "name": "Chijin Zhou",
           "display_name": "Chijin Zhou",
           "pid": "228/5716",
-          "orcid": null
+          "orcid": "0000-0002-6446-247X"
         },
         {
           "name": "Shuai Ma 0001",
@@ -14892,13 +14892,13 @@
           "name": "Yu Jiang 0001",
           "display_name": "Yu Jiang",
           "pid": "21/4633-1",
-          "orcid": null
+          "orcid": "0000-0003-0955-503X"
         },
         {
           "name": "Zichen Xu 0001",
           "display_name": "Zichen Xu",
           "pid": "57/7992-1",
-          "orcid": null
+          "orcid": "0000-0001-9293-8028"
         }
       ],
       "venue": "SIGMOD",
@@ -14924,25 +14924,25 @@
           "name": "Daichi Amagata",
           "display_name": "Daichi Amagata",
           "pid": "131/1601",
-          "orcid": null
+          "orcid": "0000-0001-8571-4931"
         },
         {
           "name": "Panagiotis Simatis",
           "display_name": "Panagiotis Simatis",
           "pid": "337/3062",
-          "orcid": null
+          "orcid": "0000-0001-9088-7554"
         },
         {
           "name": "Panagiotis Bouros",
           "display_name": "Panagiotis Bouros",
           "pid": "38/4801",
-          "orcid": null
+          "orcid": "0000-0002-8846-4330"
         },
         {
           "name": "Nikos Mamoulis",
           "display_name": "Nikos Mamoulis",
           "pid": "34/6253",
-          "orcid": null
+          "orcid": "0000-0003-3423-4895"
         }
       ],
       "venue": "SIGMOD",
@@ -14974,7 +14974,7 @@
           "name": "Jinzhao Xiao",
           "display_name": "Jinzhao Xiao",
           "pid": "327/7238",
-          "orcid": null
+          "orcid": "0009-0005-6255-7773"
         },
         {
           "name": "Shaoxu Song",
@@ -15006,19 +15006,19 @@
           "name": "Cheng Huang",
           "display_name": "Cheng Huang",
           "pid": "83/5898",
-          "orcid": null
+          "orcid": "0009-0004-1922-663X"
         },
         {
           "name": "Johannes Langguth",
           "display_name": "Johannes Langguth",
           "pid": "14/7938",
-          "orcid": null
+          "orcid": "0000-0003-4200-511X"
         },
         {
           "name": "Xing Cai",
           "display_name": "Xing Cai",
           "pid": "58/788",
-          "orcid": null
+          "orcid": "0000-0003-3706-4414"
         },
         {
           "name": "Davide Mottin",
@@ -15030,7 +15030,7 @@
           "name": "Ira Assent",
           "display_name": "Ira Assent",
           "pid": "a/IraAssent",
-          "orcid": null
+          "orcid": "0000-0002-1091-9948"
         }
       ],
       "venue": "SIGMOD",
@@ -15080,7 +15080,7 @@
           "name": "Xiaofang Zhou 0001",
           "display_name": "Xiaofang Zhou",
           "pid": "z/XiaofangZhou",
-          "orcid": null
+          "orcid": "0000-0001-6343-1455"
         }
       ],
       "venue": "SIGMOD",
@@ -15106,19 +15106,19 @@
           "name": "Xingguang Chen",
           "display_name": "Xingguang Chen",
           "pid": "273/1396",
-          "orcid": null
+          "orcid": "0009-0004-4647-9691"
         },
         {
           "name": "Yimin Shi 0001",
           "display_name": "Yimin Shi",
           "pid": "57/3424-1",
-          "orcid": null
+          "orcid": "0000-0003-3375-4602"
         },
         {
           "name": "Xiaokui Xiao",
           "display_name": "Xiaokui Xiao",
           "pid": "33/1903",
-          "orcid": null
+          "orcid": "0000-0003-0914-4580"
         }
       ],
       "venue": "SIGMOD",
@@ -15144,7 +15144,7 @@
           "name": "Haitao Yuan 0002",
           "display_name": "Haitao Yuan",
           "pid": "267/9406-2",
-          "orcid": null
+          "orcid": "0000-0001-6721-065X"
         },
         {
           "name": "Gao Cong",
@@ -15176,7 +15176,7 @@
           "name": "Haochen Sun 0001",
           "display_name": "Haochen Sun",
           "pid": "238/3163-1",
-          "orcid": null
+          "orcid": "0000-0002-4147-0346"
         },
         {
           "name": "Xi He 0001",
@@ -15208,7 +15208,7 @@
           "name": "Peiqi Yin",
           "display_name": "Peiqi Yin",
           "pid": "295/3306",
-          "orcid": null
+          "orcid": "0009-0008-4081-913X"
         },
         {
           "name": "Xiao Yan 0002",
@@ -15220,19 +15220,19 @@
           "name": "Qihui Zhou",
           "display_name": "Qihui Zhou",
           "pid": "139/3200",
-          "orcid": null
+          "orcid": "0000-0002-8927-3325"
         },
         {
           "name": "Hui Li",
           "display_name": "Hui Li",
           "pid": "66/3387",
-          "orcid": null
+          "orcid": "0009-0009-0772-6588"
         },
         {
           "name": "Xiaolu Li 0002",
           "display_name": "Xiaolu Li",
           "pid": "30/2914-2",
-          "orcid": null
+          "orcid": "0000-0002-3582-0792"
         },
         {
           "name": "Meiling Wang",
@@ -15244,13 +15244,13 @@
           "name": "Lin Zhang 0059",
           "display_name": "Lin Zhang",
           "pid": "37/1629-59",
-          "orcid": null
+          "orcid": "0000-0001-8493-4705"
         },
         {
           "name": "Xin Yao 0008",
           "display_name": "Xin Yao",
           "pid": "202/9077-8",
-          "orcid": null
+          "orcid": "0000-0002-5780-7900"
         },
         {
           "name": "James Cheng",
@@ -15282,13 +15282,13 @@
           "name": "Alexander Baumstark",
           "display_name": "Alexander Baumstark",
           "pid": "228/9052",
-          "orcid": null
+          "orcid": "0000-0002-7162-7615"
         },
         {
           "name": "Kai-Uwe Sattler",
           "display_name": "Kai-Uwe Sattler",
           "pid": "s/KaiUweSattler",
-          "orcid": null
+          "orcid": "0000-0003-1608-7721"
         }
       ],
       "venue": "SIGMOD",
@@ -15352,7 +15352,7 @@
           "name": "Xiaochen Li",
           "display_name": "Xiaochen Li",
           "pid": "49/1510",
-          "orcid": null
+          "orcid": "0000-0002-3722-4783"
         },
         {
           "name": "Fengyu Gao",
@@ -15364,7 +15364,7 @@
           "name": "Xizixiang Wei",
           "display_name": "Xizixiang Wei",
           "pid": "245/3167",
-          "orcid": null
+          "orcid": "0000-0003-2561-3076"
         },
         {
           "name": "Tianhao Wang 0001",
@@ -15376,13 +15376,13 @@
           "name": "Cong Shen 0001",
           "display_name": "Cong Shen",
           "pid": "79/6027-1",
-          "orcid": null
+          "orcid": "0000-0002-3148-4453"
         },
         {
           "name": "Jing Yang 0002",
           "display_name": "Jing Yang",
           "pid": "62/5839-2",
-          "orcid": null
+          "orcid": "0000-0002-6009-864X"
         }
       ],
       "venue": "SIGMOD",
@@ -15408,7 +15408,7 @@
           "name": "Junyong Zhao",
           "display_name": "Junyong Zhao",
           "pid": "262/7157",
-          "orcid": null
+          "orcid": "0000-0001-5862-6127"
         },
         {
           "name": "Jia Yuan",
@@ -15420,19 +15420,19 @@
           "name": "Zui Chen",
           "display_name": "Zui Chen",
           "pid": "224/3204",
-          "orcid": null
+          "orcid": "0000-0001-6939-3189"
         },
         {
           "name": "Samuel Madden 0001",
           "display_name": "Samuel Madden",
           "pid": "m/SamuelMadden",
-          "orcid": null
+          "orcid": "0000-0002-7470-3265"
         },
         {
           "name": "Lei Cao 0004",
           "display_name": "Lei Cao",
           "pid": "17/6060-4",
-          "orcid": null
+          "orcid": "0000-0001-9909-8607"
         }
       ],
       "venue": "SIGMOD",
@@ -15470,13 +15470,13 @@
           "name": "Paul Boniol",
           "display_name": "Paul Boniol",
           "pid": "266/6112",
-          "orcid": null
+          "orcid": "0000-0001-8516-0123"
         },
         {
           "name": "John Paparrizos",
           "display_name": "John Paparrizos",
           "pid": "163/0545",
-          "orcid": null
+          "orcid": "0000-0002-7592-748X"
         }
       ],
       "venue": "SIGMOD",
@@ -15502,31 +15502,31 @@
           "name": "Eugenie Lai",
           "display_name": "Eugenie Lai",
           "pid": "385/4454",
-          "orcid": null
+          "orcid": "0009-0005-1349-1376"
         },
         {
           "name": "Inbal Croitoru",
           "display_name": "Inbal Croitoru",
           "pid": "407/8669",
-          "orcid": null
+          "orcid": "0009-0000-9122-3696"
         },
         {
           "name": "Brit Youngmann",
           "display_name": "Brit Youngmann",
           "pid": "185/4349",
-          "orcid": null
+          "orcid": "0000-0002-0031-5550"
         },
         {
           "name": "Sainyam Galhotra",
           "display_name": "Sainyam Galhotra",
           "pid": "136/7969",
-          "orcid": null
+          "orcid": "0000-0003-2529-4036"
         },
         {
           "name": "El Kindi Rezig",
           "display_name": "El Kindi Rezig",
           "pid": "96/8919",
-          "orcid": null
+          "orcid": "0000-0002-5187-3499"
         },
         {
           "name": "Michael J. Cafarella",
@@ -15558,7 +15558,7 @@
           "name": "Shuo Li",
           "display_name": "Shuo Li",
           "pid": "49/595",
-          "orcid": null
+          "orcid": "0009-0004-5339-8750"
         },
         {
           "name": "Xiaochun Yang 0001",
@@ -15570,7 +15570,7 @@
           "name": "Chunhui Shen",
           "display_name": "Chunhui Shen",
           "pid": "96/8212",
-          "orcid": null
+          "orcid": "0009-0009-9704-4272"
         },
         {
           "name": "Yutong Han",
@@ -15588,7 +15588,7 @@
           "name": "Lingdu Kong",
           "display_name": "Lingdu Kong",
           "pid": "344/7147",
-          "orcid": null
+          "orcid": "0000-0002-3657-8926"
         },
         {
           "name": "Bin Wang 0015",
@@ -15626,25 +15626,25 @@
           "name": "Jian Lin",
           "display_name": "Jian Lin",
           "pid": "46/6839",
-          "orcid": null
+          "orcid": "0000-0001-9130-7320"
         },
         {
           "name": "Jiazhi Mi",
           "display_name": "Jiazhi Mi",
           "pid": "301/6202",
-          "orcid": null
+          "orcid": "0009-0004-8260-6723"
         },
         {
           "name": "Zicong Hong",
           "display_name": "Zicong Hong",
           "pid": "239/5523",
-          "orcid": null
+          "orcid": "0000-0001-5689-382X"
         },
         {
           "name": "Haodong Wang",
           "display_name": "Haodong Wang",
           "pid": "56/96",
-          "orcid": null
+          "orcid": "0009-0001-8977-850X"
         },
         {
           "name": "Qianli Liu",
@@ -15656,19 +15656,19 @@
           "name": "Haoyue Zhang",
           "display_name": "Haoyue Zhang",
           "pid": "244/1782",
-          "orcid": null
+          "orcid": "0009-0002-8308-3827"
         },
         {
           "name": "Peng Li 0017",
           "display_name": "Peng Li",
           "pid": "83/6353-17",
-          "orcid": null
+          "orcid": "0000-0002-5303-0700"
         },
         {
           "name": "Song Guo 0001",
           "display_name": "Song Guo",
           "pid": "01/267-1",
-          "orcid": null
+          "orcid": "0000-0001-9831-2202"
         }
       ],
       "venue": "SIGMOD",
@@ -15694,25 +15694,25 @@
           "name": "Youyang Xia",
           "display_name": "Youyang Xia",
           "pid": "314/1371",
-          "orcid": null
+          "orcid": "0009-0000-9674-575X"
         },
         {
           "name": "Feng Zhang 0007",
           "display_name": "Feng Zhang",
           "pid": "48/1294-7",
-          "orcid": null
+          "orcid": "0000-0003-1983-7321"
         },
         {
           "name": "Junda Pan",
           "display_name": "Junda Pan",
           "pid": "400/4472",
-          "orcid": null
+          "orcid": "0009-0000-2070-8290"
         },
         {
           "name": "Yihao Liu 0008",
           "display_name": "Yihao Liu",
           "pid": "200/6534-8",
-          "orcid": null
+          "orcid": "0009-0004-4623-5240"
         },
         {
           "name": "Jiawei Guan",
@@ -15724,13 +15724,13 @@
           "name": "Huanchen Zhang",
           "display_name": "Huanchen Zhang",
           "pid": "13/8730",
-          "orcid": null
+          "orcid": "0009-0001-4821-1558"
         },
         {
           "name": "Xiaoyong Du 0001",
           "display_name": "Xiaoyong Du",
           "pid": "47/3542-1",
-          "orcid": null
+          "orcid": "0000-0002-5757-9135"
         }
       ],
       "venue": "SIGMOD",
@@ -15756,37 +15756,37 @@
           "name": "Xianyu Zhu",
           "display_name": "Xianyu Zhu",
           "pid": "271/6134",
-          "orcid": null
+          "orcid": "0009-0002-7907-8697"
         },
         {
           "name": "Qiyu Liu",
           "display_name": "Qiyu Liu",
           "pid": "209/2298",
-          "orcid": null
+          "orcid": "0000-0003-1475-2732"
         },
         {
           "name": "Guangyi Zhang 0001",
           "display_name": "Guangyi Zhang",
           "pid": "37/5580-1",
-          "orcid": null
+          "orcid": "0000-0002-1252-7489"
         },
         {
           "name": "Zhibing Sha",
           "display_name": "Zhibing Sha",
           "pid": "278/8993",
-          "orcid": null
+          "orcid": "0000-0001-7242-6287"
         },
         {
           "name": "Jianwei Liao 0001",
           "display_name": "Jianwei Liao",
           "pid": "87/4939",
-          "orcid": null
+          "orcid": "0000-0001-6149-6650"
         },
         {
-          "name": "Sha Hu",
+          "name": "Sha Hu 0002",
           "display_name": "Sha Hu",
-          "pid": "41/9056",
-          "orcid": null
+          "pid": "41/9056-2",
+          "orcid": "0000-0002-0487-3728"
         },
         {
           "name": "Lei Chen 0002",
@@ -15818,13 +15818,13 @@
           "name": "Leying Chen",
           "display_name": "Leying Chen",
           "pid": "287/9977",
-          "orcid": null
+          "orcid": "0009-0000-3477-9073"
         },
         {
           "name": "Shimin Chen",
           "display_name": "Shimin Chen",
           "pid": "c/ShiminChen",
-          "orcid": null
+          "orcid": "0009-0000-1043-6236"
         }
       ],
       "venue": "SIGMOD",
@@ -15850,13 +15850,13 @@
           "name": "Felix S. Campbell",
           "display_name": "Felix S. Campbell",
           "pid": "317/0684",
-          "orcid": null
+          "orcid": "0000-0003-3888-1491"
         },
         {
           "name": "Yuval Moskovitch",
           "display_name": "Yuval Moskovitch",
           "pid": "135/4661",
-          "orcid": null
+          "orcid": "0000-0002-0325-7392"
         }
       ],
       "venue": "SIGMOD",
@@ -15882,19 +15882,19 @@
           "name": "Tiancheng Zhu",
           "display_name": "Tiancheng Zhu",
           "pid": "339/5949",
-          "orcid": null
+          "orcid": "0009-0006-9902-947X"
         },
         {
           "name": "Jiabei Wang",
           "display_name": "Jiabei Wang",
           "pid": "262/5517",
-          "orcid": null
+          "orcid": "0000-0001-7248-4380"
         },
         {
           "name": "Yongbin Zhou",
           "display_name": "Yongbin Zhou",
           "pid": "03/4413",
-          "orcid": null
+          "orcid": "0000-0002-1337-0655"
         }
       ],
       "venue": "SIGMOD",
@@ -15920,19 +15920,19 @@
           "name": "Yuheng Zhang",
           "display_name": "Yuheng Zhang",
           "pid": "70/6340",
-          "orcid": null
+          "orcid": "0000-0002-3798-0140"
         },
         {
           "name": "Zhencan Peng",
           "display_name": "Zhencan Peng",
           "pid": "323/2277",
-          "orcid": null
+          "orcid": "0000-0003-4182-0075"
         },
         {
           "name": "Miao Qiao",
           "display_name": "Miao Qiao",
           "pid": "93/9883",
-          "orcid": null
+          "orcid": "0000-0001-8374-140X"
         },
         {
           "name": "Wei Zhang 0189",
@@ -15950,7 +15950,7 @@
           "name": "Dong Deng 0001",
           "display_name": "Dong Deng",
           "pid": "71/8700-1",
-          "orcid": null
+          "orcid": "0000-0002-4596-3850"
         }
       ],
       "venue": "SIGMOD",
@@ -15976,19 +15976,19 @@
           "name": "Zhao Lu",
           "display_name": "Zhao Lu",
           "pid": "87/5985",
-          "orcid": null
+          "orcid": "0000-0001-7558-4950"
         },
         {
           "name": "Dong Wen 0001",
           "display_name": "Dong Wen",
           "pid": "92/8453-1",
-          "orcid": null
+          "orcid": "0000-0002-0903-1503"
         },
         {
           "name": "Wentao Li 0001",
           "display_name": "Wentao Li",
           "pid": "60/8180-1",
-          "orcid": null
+          "orcid": "0000-0003-4941-8814"
         },
         {
           "name": "Xuemin Lin 0001",
@@ -16000,7 +16000,7 @@
           "name": "Wenjie Zhang 0001",
           "display_name": "Wenjie Zhang",
           "pid": "98/5684-1",
-          "orcid": null
+          "orcid": "0000-0001-6572-2600"
         }
       ],
       "venue": "SIGMOD",
@@ -16026,13 +16026,13 @@
           "name": "Atsuki Sato",
           "display_name": "Atsuki Sato",
           "pid": "348/9749",
-          "orcid": null
+          "orcid": "0009-0001-5366-4842"
         },
         {
           "name": "Martin Aumüller 0001",
           "display_name": "Martin Aumüller",
           "pid": "26/2051",
-          "orcid": null
+          "orcid": "0000-0002-7212-6476"
         },
         {
           "name": "Yusuke Matsui 0001",
@@ -16064,19 +16064,19 @@
           "name": "Kaixin Wang",
           "display_name": "Kaixin Wang",
           "pid": "66/9297",
-          "orcid": null
+          "orcid": "0000-0002-6650-2850"
         },
         {
           "name": "Kaiqiang Yu",
           "display_name": "Kaiqiang Yu",
           "pid": "242/8477",
-          "orcid": null
+          "orcid": "0000-0003-1153-2902"
         },
         {
           "name": "Cheng Long 0001",
           "display_name": "Cheng Long",
           "pid": "58/10813-1",
-          "orcid": null
+          "orcid": "0000-0001-6806-8405"
         }
       ],
       "venue": "SIGMOD",
@@ -16102,19 +16102,19 @@
           "name": "Shouqian Shi",
           "display_name": "Shouqian Shi",
           "pid": "237/7597",
-          "orcid": null
+          "orcid": "0000-0001-6039-6682"
         },
         {
           "name": "Diancheng Luo",
           "display_name": "Diancheng Luo",
           "pid": "442/4387",
-          "orcid": null
+          "orcid": "0009-0009-4606-8987"
         },
         {
           "name": "Jacques Liao",
           "display_name": "Jacques Liao",
           "pid": "442/4001",
-          "orcid": null
+          "orcid": "0009-0000-4745-1931"
         },
         {
           "name": "Yi Liu 0115",
@@ -16126,7 +16126,7 @@
           "name": "Xingsheng Zhao",
           "display_name": "Xingsheng Zhao",
           "pid": "241/0260",
-          "orcid": null
+          "orcid": "0009-0002-6011-3341"
         },
         {
           "name": "Matthew Fahrbach",
@@ -16164,13 +16164,13 @@
           "name": "Hexiang Pan",
           "display_name": "Hexiang Pan",
           "pid": "339/8942",
-          "orcid": null
+          "orcid": "0009-0004-6350-4887"
         },
         {
           "name": "Shaofeng Cai",
           "display_name": "Shaofeng Cai",
           "pid": "228/6099",
-          "orcid": null
+          "orcid": "0000-0001-8605-076X"
         },
         {
           "name": "Tien Tuan Anh Dinh",
@@ -16188,7 +16188,7 @@
           "name": "Yeow Meng Chee",
           "display_name": "Yeow Meng Chee",
           "pid": "c/YeowMengChee",
-          "orcid": null
+          "orcid": "0000-0001-7823-8068"
         },
         {
           "name": "Gang Chen 0001",
@@ -16226,31 +16226,31 @@
           "name": "Bangrui Xu",
           "display_name": "Bangrui Xu",
           "pid": "418/2429",
-          "orcid": null
+          "orcid": "0009-0006-4489-9048"
         },
         {
           "name": "Qihang Yao",
           "display_name": "Qihang Yao",
           "pid": "218/1615",
-          "orcid": null
+          "orcid": "0009-0003-0282-8629"
         },
         {
           "name": "Zirui Tang",
           "display_name": "Zirui Tang",
           "pid": "310/9673",
-          "orcid": null
+          "orcid": "0009-0003-3449-4248"
         },
         {
           "name": "Xuanhe Zhou",
           "display_name": "Xuanhe Zhou",
           "pid": "247/8418",
-          "orcid": null
+          "orcid": "0000-0002-2285-7836"
         },
         {
           "name": "Yeye He",
           "display_name": "Yeye He",
           "pid": "14/7259",
-          "orcid": null
+          "orcid": "0000-0003-2824-5299"
         },
         {
           "name": "Shihan Yu",
@@ -16268,7 +16268,7 @@
           "name": "Bin Wang 0065",
           "display_name": "Bin Wang",
           "pid": "13/1898-65",
-          "orcid": null
+          "orcid": "0000-0002-5625-2966"
         },
         {
           "name": "Guoliang Li 0001",
@@ -16312,13 +16312,13 @@
           "name": "Haojun Li",
           "display_name": "Haojun Li",
           "pid": "157/8603",
-          "orcid": null
+          "orcid": "0009-0003-7698-5336"
         },
         {
           "name": "John Paparrizos",
           "display_name": "John Paparrizos",
           "pid": "163/0545",
-          "orcid": null
+          "orcid": "0000-0002-7592-748X"
         }
       ],
       "venue": "SIGMOD",
@@ -16344,7 +16344,7 @@
           "name": "Zhanhao Zhao",
           "display_name": "Zhanhao Zhao",
           "pid": "183/4496",
-          "orcid": null
+          "orcid": "0000-0002-4044-7742"
         },
         {
           "name": "Haotian Gao",
@@ -16356,7 +16356,7 @@
           "name": "Naili Xing",
           "display_name": "Naili Xing",
           "pid": "299/1703",
-          "orcid": null
+          "orcid": "0000-0002-1125-5768"
         },
         {
           "name": "Lingze Zeng",
@@ -16368,7 +16368,7 @@
           "name": "Meihui Zhang 0001",
           "display_name": "Meihui Zhang",
           "pid": "08/7259",
-          "orcid": null
+          "orcid": "0000-0002-0752-9877"
         },
         {
           "name": "Gang Chen 0001",
@@ -16380,7 +16380,7 @@
           "name": "Manuel Rigger",
           "display_name": "Manuel Rigger",
           "pid": "133/8711",
-          "orcid": null
+          "orcid": "0000-0001-8303-2099"
         },
         {
           "name": "Beng Chin Ooi",
@@ -16412,19 +16412,19 @@
           "name": "Wenqian Zhang 0006",
           "display_name": "Wenqian Zhang",
           "pid": "137/6026-6",
-          "orcid": null
+          "orcid": "0009-0004-9999-9084"
         },
         {
           "name": "Zhengyi Yang 0001",
           "display_name": "Zhengyi Yang",
           "pid": "73/908-1",
-          "orcid": null
+          "orcid": "0000-0003-1772-6863"
         },
         {
           "name": "Dong Wen 0001",
           "display_name": "Dong Wen",
           "pid": "92/8453-1",
-          "orcid": null
+          "orcid": "0000-0002-0903-1503"
         },
         {
           "name": "Yi Ding",
@@ -16436,7 +16436,7 @@
           "name": "Wenjie Zhang 0001",
           "display_name": "Wenjie Zhang",
           "pid": "98/5684-1",
-          "orcid": null
+          "orcid": "0000-0001-6572-2600"
         },
         {
           "name": "Xuemin Lin 0001",
@@ -16468,49 +16468,49 @@
           "name": "Qi Lin",
           "display_name": "Qi Lin",
           "pid": "24/4675",
-          "orcid": null
+          "orcid": "0009-0006-5338-007X"
         },
         {
           "name": "Gangqi Huang",
           "display_name": "Gangqi Huang",
           "pid": "429/2136",
-          "orcid": null
+          "orcid": "0009-0004-2427-760X"
         },
         {
           "name": "Te Guo 0001",
           "display_name": "Te Guo",
           "pid": "308/7332-1",
-          "orcid": null
+          "orcid": "0009-0002-7642-2763"
         },
         {
           "name": "Chang Guo",
           "display_name": "Chang Guo",
           "pid": "168/6265",
-          "orcid": null
+          "orcid": "0009-0001-4561-9945"
         },
         {
           "name": "Viraj Thakkar",
           "display_name": "Viraj Thakkar",
           "pid": "378/9736",
-          "orcid": null
+          "orcid": "0000-0002-0317-1214"
         },
         {
           "name": "Zichen Zhu",
           "display_name": "Zichen Zhu",
           "pid": "149/1342",
-          "orcid": null
+          "orcid": "0000-0002-9197-4649"
         },
         {
           "name": "Jianguo Wang 0001",
           "display_name": "Jianguo Wang",
           "pid": "64/1071-1",
-          "orcid": null
+          "orcid": "0000-0002-3039-1175"
         },
         {
           "name": "Zhichao Cao 0002",
           "display_name": "Zhichao Cao",
           "pid": "05/7548-2",
-          "orcid": null
+          "orcid": "0000-0001-6950-1776"
         }
       ],
       "venue": "SIGMOD",
@@ -16536,7 +16536,7 @@
           "name": "Yi Zhang 0191",
           "display_name": "Yi Zhang",
           "pid": "64/6544-191",
-          "orcid": null
+          "orcid": "0000-0002-1845-0160"
         },
         {
           "name": "Deting Chen",
@@ -16548,7 +16548,7 @@
           "name": "Yu Huang 0013",
           "display_name": "Yu Huang",
           "pid": "39/6301-13",
-          "orcid": null
+          "orcid": "0000-0002-3927-1102"
         },
         {
           "name": "Chaoqiang Liu",
@@ -16560,13 +16560,13 @@
           "name": "Haifeng Liu 0003",
           "display_name": "Haifeng Liu",
           "pid": "84/33-3",
-          "orcid": null
+          "orcid": "0000-0003-3319-254X"
         },
         {
           "name": "Jianhui Yue",
           "display_name": "Jianhui Yue",
           "pid": "23/6331",
-          "orcid": null
+          "orcid": "0000-0002-1876-6931"
         },
         {
           "name": "Xiaofei Liao",
@@ -16616,7 +16616,7 @@
           "name": "Sharad Mehrotra",
           "display_name": "Sharad Mehrotra",
           "pid": "m/SharadMehrotra",
-          "orcid": null
+          "orcid": "0000-0003-1667-5435"
         }
       ],
       "venue": "SIGMOD",
@@ -16642,13 +16642,13 @@
           "name": "Baofu Han",
           "display_name": "Baofu Han",
           "pid": "301/7923",
-          "orcid": null
+          "orcid": "0009-0000-0614-9461"
         },
         {
           "name": "Guoyu Hu",
           "display_name": "Guoyu Hu",
           "pid": "195/2960",
-          "orcid": null
+          "orcid": "0009-0005-9463-2045"
         },
         {
           "name": "Bing Li",
@@ -16660,13 +16660,13 @@
           "name": "Xiaokui Xiao",
           "display_name": "Xiaokui Xiao",
           "pid": "33/1903",
-          "orcid": null
+          "orcid": "0000-0003-0914-4580"
         },
         {
           "name": "Zhanhao Zhao",
           "display_name": "Zhanhao Zhao",
           "pid": "183/4496",
-          "orcid": null
+          "orcid": "0000-0002-4044-7742"
         },
         {
           "name": "Beng Chin Ooi",
@@ -16704,13 +16704,13 @@
           "name": "Yuhang Chen",
           "display_name": "Yuhang Chen",
           "pid": "115/9413",
-          "orcid": null
+          "orcid": "0009-0007-2301-4244"
         },
         {
           "name": "Yuheng Cong",
           "display_name": "Yuheng Cong",
           "pid": "410/7391",
-          "orcid": null
+          "orcid": "0009-0004-7323-6791"
         },
         {
           "name": "Ziyu He",
@@ -16766,7 +16766,7 @@
           "name": "Zhiyue Li",
           "display_name": "Zhiyue Li",
           "pid": "291/2786",
-          "orcid": null
+          "orcid": "0000-0003-3207-3493"
         },
         {
           "name": "Guangyan Zhang",
@@ -16778,7 +16778,7 @@
           "name": "Ruochun Jin",
           "display_name": "Ruochun Jin",
           "pid": "197/9561",
-          "orcid": null
+          "orcid": "0009-0001-2763-0577"
         },
         {
           "name": "Bojun Li",
@@ -16796,7 +16796,7 @@
           "name": "Wenjing Yang 0002",
           "display_name": "Wenjing Yang",
           "pid": "48/3396-2",
-          "orcid": null
+          "orcid": "0000-0002-6997-0406"
         }
       ],
       "venue": "SIGMOD",
@@ -16866,25 +16866,25 @@
           "name": "Prajjwal Nijhara",
           "display_name": "Prajjwal Nijhara",
           "pid": "402/8615",
-          "orcid": null
+          "orcid": "0009-0002-9679-9971"
         },
         {
           "name": "Jainan Tandel",
           "display_name": "Jainan Tandel",
           "pid": "423/5008",
-          "orcid": null
+          "orcid": "0009-0009-9795-724X"
         },
         {
           "name": "Rohit Prajapati",
           "display_name": "Rohit Prajapati",
           "pid": "423/4883",
-          "orcid": null
+          "orcid": "0009-0008-9907-7898"
         },
         {
           "name": "Dip Sankar Banerjee",
           "display_name": "Dip Sankar Banerjee",
           "pid": "19/10955",
-          "orcid": null
+          "orcid": "0000-0002-0476-1224"
         }
       ],
       "venue": "SIGMOD",
@@ -16910,7 +16910,7 @@
           "name": "Liese Bekkers",
           "display_name": "Liese Bekkers",
           "pid": "393/4146",
-          "orcid": null
+          "orcid": "0000-0002-2725-2131"
         },
         {
           "name": "Frank Neven",
@@ -16922,13 +16922,13 @@
           "name": "Lorrens Pantelis",
           "display_name": "Lorrens Pantelis",
           "pid": "432/1782",
-          "orcid": null
+          "orcid": "0009-0004-4882-2326"
         },
         {
           "name": "Stijn Vansummeren",
           "display_name": "Stijn Vansummeren",
           "pid": "28/3797",
-          "orcid": null
+          "orcid": "0000-0001-7793-9049"
         }
       ],
       "venue": "SIGMOD",
@@ -16954,13 +16954,13 @@
           "name": "Guohui Guan",
           "display_name": "Guohui Guan",
           "pid": "261/5751",
-          "orcid": null
+          "orcid": "0009-0001-0818-994X"
         },
         {
           "name": "Chang Ge 0002",
           "display_name": "Chang Ge",
           "pid": "122/5424-2",
-          "orcid": null
+          "orcid": "0000-0001-8788-4379"
         }
       ],
       "venue": "SIGMOD",
@@ -16992,7 +16992,7 @@
           "name": "Kaiqiang Yu",
           "display_name": "Kaiqiang Yu",
           "pid": "242/8477",
-          "orcid": null
+          "orcid": "0000-0003-1153-2902"
         },
         {
           "name": "Shengxin Liu",
@@ -17004,7 +17004,7 @@
           "name": "Cheng Long 0001",
           "display_name": "Cheng Long",
           "pid": "58/10813-1",
-          "orcid": null
+          "orcid": "0000-0001-6806-8405"
         },
         {
           "name": "Xun Zhou 0001",
@@ -17036,31 +17036,31 @@
           "name": "Tianru Zhang",
           "display_name": "Tianru Zhang",
           "pid": "312/4901",
-          "orcid": null
+          "orcid": "0000-0001-9983-3755"
         },
         {
           "name": "Tarikul Islam Papon",
           "display_name": "Tarikul Islam Papon",
           "pid": "266/5847",
-          "orcid": null
+          "orcid": "0000-0002-0926-8316"
         },
         {
           "name": "Teona Bagashvili",
           "display_name": "Teona Bagashvili",
           "pid": "312/5725",
-          "orcid": null
+          "orcid": "0009-0007-5026-8557"
         },
         {
           "name": "Salman Toor",
           "display_name": "Salman Toor",
           "pid": "13/8188",
-          "orcid": null
+          "orcid": "0000-0003-0302-6276"
         },
         {
           "name": "Manos Athanassoulis",
           "display_name": "Manos Athanassoulis",
           "pid": "82/7402",
-          "orcid": null
+          "orcid": "0000-0003-1837-0010"
         }
       ],
       "venue": "SIGMOD",
@@ -17092,7 +17092,7 @@
           "name": "Meihao Fan",
           "display_name": "Meihao Fan",
           "pid": "363/7401",
-          "orcid": null
+          "orcid": "0000-0001-7597-5599"
         },
         {
           "name": "Ju Fan",
@@ -17122,13 +17122,13 @@
           "name": "Bin Wu 0003",
           "display_name": "Bin Wu",
           "pid": "98/4432-3",
-          "orcid": null
+          "orcid": "0000-0002-4743-1006"
         },
         {
           "name": "Wenchao Zhou",
           "display_name": "Wenchao Zhou",
           "pid": "72/1077",
-          "orcid": null
+          "orcid": "0009-0002-2689-6020"
         }
       ],
       "venue": "SIGMOD",
@@ -17154,7 +17154,7 @@
           "name": "Hengrui Zhang",
           "display_name": "Hengrui Zhang",
           "pid": "228/2533",
-          "orcid": null
+          "orcid": "0009-0004-2686-4525"
         },
         {
           "name": "Yulong Hui",
@@ -17166,13 +17166,13 @@
           "name": "Yihao Liu 0008",
           "display_name": "Yihao Liu",
           "pid": "200/6534-8",
-          "orcid": null
+          "orcid": "0009-0004-4623-5240"
         },
         {
           "name": "Huanchen Zhang",
           "display_name": "Huanchen Zhang",
           "pid": "13/8730",
-          "orcid": null
+          "orcid": "0009-0001-4821-1558"
         }
       ],
       "venue": "SIGMOD",
@@ -17198,7 +17198,7 @@
           "name": "Zizhao Mo",
           "display_name": "Zizhao Mo",
           "pid": "356/8799",
-          "orcid": null
+          "orcid": "0000-0002-3590-4400"
         },
         {
           "name": "Junlin Chen",
@@ -17216,7 +17216,7 @@
           "name": "ChengZhong Xu 0001",
           "display_name": "ChengZhong Xu",
           "pid": "181/2765-1",
-          "orcid": null
+          "orcid": "0000-0001-9480-0356"
         }
       ],
       "venue": "SIGMOD",
@@ -17242,13 +17242,13 @@
           "name": "Ge Lee",
           "display_name": "Ge Lee",
           "pid": "375/0279",
-          "orcid": null
+          "orcid": "0009-0002-8790-1495"
         },
         {
           "name": "Shixun Huang",
           "display_name": "Shixun Huang",
           "pid": "213/9136",
-          "orcid": null
+          "orcid": "0000-0002-1195-9917"
         },
         {
           "name": "Zhifeng Bao",
@@ -17260,19 +17260,19 @@
           "name": "Felix Naumann",
           "display_name": "Felix Naumann",
           "pid": "n/FelixNaumann",
-          "orcid": null
+          "orcid": "0000-0002-4483-1389"
         },
         {
           "name": "Shazia Sadiq",
           "display_name": "Shazia Sadiq",
           "pid": "s/SWSadiq",
-          "orcid": null
+          "orcid": "0000-0001-6739-4145"
         },
         {
           "name": "Yanchang Zhao",
           "display_name": "Yanchang Zhao",
           "pid": "24/2112",
-          "orcid": null
+          "orcid": "0000-0002-0209-3971"
         }
       ],
       "venue": "SIGMOD",
@@ -17298,19 +17298,19 @@
           "name": "Shuhao Liu 0001",
           "display_name": "Shuhao Liu",
           "pid": "129/1025-1",
-          "orcid": null
+          "orcid": "0000-0002-4892-0979"
         },
         {
           "name": "Wenfei Fan",
           "display_name": "Wenfei Fan",
           "pid": "94/2372",
-          "orcid": null
+          "orcid": "0000-0001-5149-2656"
         },
         {
           "name": "Yijia Xu",
           "display_name": "Yijia Xu",
           "pid": "97/445",
-          "orcid": null
+          "orcid": "0009-0002-0168-0012"
         }
       ],
       "venue": "SIGMOD",
@@ -17336,7 +17336,7 @@
           "name": "Jianzhe Yu",
           "display_name": "Jianzhe Yu",
           "pid": "212/4725",
-          "orcid": null
+          "orcid": "0009-0000-1418-1728"
         },
         {
           "name": "Feng Han",
@@ -17348,7 +17348,7 @@
           "name": "Qi Dong",
           "display_name": "Qi Dong",
           "pid": "59/3833",
-          "orcid": null
+          "orcid": "0009-0000-0498-499X"
         },
         {
           "name": "Qiyao Luo",
@@ -17360,7 +17360,7 @@
           "name": "Weiran Liu",
           "display_name": "Weiran Liu",
           "pid": "71/10355",
-          "orcid": null
+          "orcid": "0000-0002-1466-7418"
         },
         {
           "name": "Lin Qu",
@@ -17372,7 +17372,7 @@
           "name": "Ke Yi 0001",
           "display_name": "Ke Yi",
           "pid": "43/1219-1",
-          "orcid": null
+          "orcid": "0000-0002-2178-3716"
         }
       ],
       "venue": "SIGMOD",
@@ -17398,13 +17398,13 @@
           "name": "Xinyi Zhu",
           "display_name": "Xinyi Zhu",
           "pid": "159/9810",
-          "orcid": null
+          "orcid": "0009-0008-2805-9326"
         },
         {
           "name": "Haoyang Li 0002",
           "display_name": "Haoyang Li",
           "pid": "118/0004-2",
-          "orcid": null
+          "orcid": "0000-0003-3152-5929"
         },
         {
           "name": "Yongqi Zhang",
@@ -17442,7 +17442,7 @@
           "name": "Pratyoy Das",
           "display_name": "Pratyoy Das",
           "pid": "442/4376",
-          "orcid": null
+          "orcid": "0000-0001-8163-4918"
         },
         {
           "name": "Martin Boissier 0001",
@@ -17454,13 +17454,13 @@
           "name": "Kyoungmin Kim",
           "display_name": "Kyoungmin Kim",
           "pid": "45/2879",
-          "orcid": null
+          "orcid": "0000-0001-5703-4824"
         },
         {
           "name": "Sharad Mehrotra",
           "display_name": "Sharad Mehrotra",
           "pid": "m/SharadMehrotra",
-          "orcid": null
+          "orcid": "0000-0003-1667-5435"
         },
         {
           "name": "Tilmann Rabl",
@@ -17492,13 +17492,13 @@
           "name": "Junyoung Kim 0004",
           "display_name": "Junyoung Kim",
           "pid": "99/7290-4",
-          "orcid": null
+          "orcid": "0009-0008-5789-2026"
         },
         {
           "name": "Kenneth A. Ross",
           "display_name": "Kenneth A. Ross",
           "pid": "r/KARoss",
-          "orcid": null
+          "orcid": "0000-0001-9397-6990"
         }
       ],
       "venue": "SIGMOD",
@@ -17524,19 +17524,19 @@
           "name": "Sami Hadouaj",
           "display_name": "Sami Hadouaj",
           "pid": "379/7009",
-          "orcid": null
+          "orcid": "0009-0004-3407-307X"
         },
         {
           "name": "Ouael Ben Amara",
           "display_name": "Ouael Ben Amara",
           "pid": "317/7343",
-          "orcid": null
+          "orcid": "0000-0002-4324-8298"
         },
         {
           "name": "Niccolò Meneghetti",
           "display_name": "Niccolò Meneghetti",
           "pid": "136/1324",
-          "orcid": null
+          "orcid": "0000-0002-4107-1759"
         }
       ],
       "venue": "SIGMOD",
@@ -17580,19 +17580,19 @@
           "name": "Panagiotis Karras",
           "display_name": "Panagiotis Karras",
           "pid": "08/5342",
-          "orcid": null
+          "orcid": "0000-0003-0509-9129"
         },
         {
           "name": "Daichi Amagata",
           "display_name": "Daichi Amagata",
           "pid": "131/1601",
-          "orcid": null
+          "orcid": "0000-0001-8571-4931"
         },
         {
           "name": "Yuya Sasaki 0001",
           "display_name": "Yuya Sasaki",
           "pid": "37/3076-1",
-          "orcid": null
+          "orcid": "0000-0002-8548-3181"
         }
       ],
       "venue": "SIGMOD",
@@ -17618,25 +17618,25 @@
           "name": "Navid Eslami",
           "display_name": "Navid Eslami",
           "pid": "350/6669",
-          "orcid": null
+          "orcid": "0009-0001-3522-5846"
         },
         {
           "name": "Ioana O. Bercea",
           "display_name": "Ioana O. Bercea",
           "pid": "231/6342",
-          "orcid": null
+          "orcid": "0000-0001-8430-2441"
         },
         {
           "name": "Rasmus Pagh",
           "display_name": "Rasmus Pagh",
           "pid": "p/RasmusPagh",
-          "orcid": null
+          "orcid": "0000-0002-1516-9306"
         },
         {
           "name": "Niv Dayan",
           "display_name": "Niv Dayan",
           "pid": "129/6927",
-          "orcid": null
+          "orcid": "0000-0003-0314-0167"
         }
       ],
       "venue": "SIGMOD",
@@ -17662,7 +17662,7 @@
           "name": "Zhekai Jiang",
           "display_name": "Zhekai Jiang",
           "pid": "348/7755",
-          "orcid": null
+          "orcid": "0009-0001-0989-5926"
         },
         {
           "name": "Qichen Wang 0001",
@@ -17700,31 +17700,31 @@
           "name": "Jiuqi Wei",
           "display_name": "Jiuqi Wei",
           "pid": "353/5203",
-          "orcid": null
+          "orcid": "0000-0001-7300-4246"
         },
         {
           "name": "Zhenyu Liao 0001",
           "display_name": "Zhenyu Liao",
           "pid": "49/10218-1",
-          "orcid": null
+          "orcid": "0000-0002-1915-8559"
         },
         {
           "name": "Ruoyu Han",
           "display_name": "Ruoyu Han",
           "pid": "186/6677",
-          "orcid": null
+          "orcid": "0009-0004-1064-5563"
         },
         {
           "name": "Quanqing Xu",
           "display_name": "Quanqing Xu",
           "pid": "29/4131",
-          "orcid": null
+          "orcid": "0000-0001-8989-9662"
         },
         {
           "name": "Chuanhui Yang",
           "display_name": "Chuanhui Yang",
           "pid": "328/5894",
-          "orcid": null
+          "orcid": "0009-0009-3530-6476"
         },
         {
           "name": "Themis Palpanas",
@@ -17756,7 +17756,7 @@
           "name": "Anastasios Papadopoulos",
           "display_name": "Anastasios Papadopoulos",
           "pid": "64/9866",
-          "orcid": null
+          "orcid": "0009-0005-3057-4157"
         },
         {
           "name": "Apostolos Giannoulidis",
@@ -17768,13 +17768,13 @@
           "name": "Anastasios Gounaris",
           "display_name": "Anastasios Gounaris",
           "pid": "g/AGounaris",
-          "orcid": null
+          "orcid": "0000-0003-3976-7615"
         },
         {
           "name": "John Paparrizos",
           "display_name": "John Paparrizos",
           "pid": "163/0545",
-          "orcid": null
+          "orcid": "0000-0002-7592-748X"
         }
       ],
       "venue": "SIGMOD",
@@ -17797,16 +17797,16 @@
       "title": "Through the Lens of Hubness: A Revisit on Graph-Based Approximate Nearest Neighbor Search: [Experiments & Analysis]",
       "authors": [
         {
-          "name": "Xiaoliang Xu",
+          "name": "Xiaoliang Xu 0001",
           "display_name": "Xiaoliang Xu",
-          "pid": "48/2710",
-          "orcid": null
+          "pid": "48/2710-1",
+          "orcid": "0000-0001-8040-6809"
         },
         {
           "name": "Haonan Dai",
           "display_name": "Haonan Dai",
           "pid": "411/7800",
-          "orcid": null
+          "orcid": "0009-0000-7570-2320"
         },
         {
           "name": "Can Li",
@@ -17818,13 +17818,13 @@
           "name": "Mengzhao Wang 0001",
           "display_name": "Mengzhao Wang",
           "pid": "284/3282-1",
-          "orcid": null
+          "orcid": "0000-0003-3806-1012"
         },
         {
           "name": "Qiang Yue 0008",
           "display_name": "Qiang Yue",
           "pid": "69/2319-8",
-          "orcid": null
+          "orcid": "0009-0000-9011-1019"
         }
       ],
       "venue": "SIGMOD",
@@ -17850,13 +17850,13 @@
           "name": "Yuvaraj Chesetti",
           "display_name": "Yuvaraj Chesetti",
           "pid": "382/6931",
-          "orcid": null
+          "orcid": "0009-0003-8573-4299"
         },
         {
           "name": "Prashant Pandey 0001",
           "display_name": "Prashant Pandey",
           "pid": "64/6001-1",
-          "orcid": null
+          "orcid": "0000-0001-5576-0320"
         }
       ],
       "venue": "SIGMOD",
@@ -17882,7 +17882,7 @@
           "name": "Hui Li 0005",
           "display_name": "Hui Li",
           "pid": "l/HuiLi5",
-          "orcid": null
+          "orcid": "0000-0003-2382-6289"
         },
         {
           "name": "Hu Wang",
@@ -17926,25 +17926,25 @@
           "name": "Dongkwang Kim",
           "display_name": "Dongkwang Kim",
           "pid": "03/266",
-          "orcid": null
+          "orcid": "0009-0008-7936-0223"
         },
         {
           "name": "Keonwook Park",
           "display_name": "Keonwook Park",
           "pid": "442/5972",
-          "orcid": null
+          "orcid": "0009-0001-8497-4894"
         },
         {
           "name": "Cheolmin Choi",
           "display_name": "Cheolmin Choi",
           "pid": "88/5283",
-          "orcid": null
+          "orcid": "0009-0000-6415-5421"
         },
         {
           "name": "Hyungsoo Jung 0001",
           "display_name": "Hyungsoo Jung",
           "pid": "45/1270",
-          "orcid": null
+          "orcid": "0000-0002-5376-7200"
         }
       ],
       "venue": "SIGMOD",
@@ -17988,25 +17988,25 @@
           "name": "Hao Wang 0022",
           "display_name": "Hao Wang",
           "pid": "w/HaoWang-22",
-          "orcid": null
+          "orcid": "0000-0002-1444-2657"
         },
         {
           "name": "Jingxian Wang",
           "display_name": "Jingxian Wang",
           "pid": "153/8510",
-          "orcid": null
+          "orcid": "0000-0002-4713-1425"
         },
         {
           "name": "Wentao Wu 0001",
           "display_name": "Wentao Wu",
           "pid": "29/85",
-          "orcid": null
+          "orcid": "0009-0006-2454-7109"
         },
         {
           "name": "Qizhen Zhang 0001",
           "display_name": "Qizhen Zhang",
           "pid": "118/5486-1",
-          "orcid": null
+          "orcid": "0009-0009-4523-0735"
         }
       ],
       "venue": "SIGMOD",
@@ -18032,13 +18032,13 @@
           "name": "Xiang Zhang",
           "display_name": "Xiang Zhang",
           "pid": "91/4353",
-          "orcid": null
+          "orcid": "0009-0003-8816-034X"
         },
         {
           "name": "Chao Zhang 0034",
           "display_name": "Chao Zhang",
           "pid": "94/3019-34",
-          "orcid": null
+          "orcid": "0000-0002-8924-7629"
         },
         {
           "name": "Ju Fan",
@@ -18056,7 +18056,7 @@
           "name": "Xiaoyong Du 0001",
           "display_name": "Xiaoyong Du",
           "pid": "47/3542-1",
-          "orcid": null
+          "orcid": "0000-0002-5757-9135"
         }
       ],
       "venue": "SIGMOD",
@@ -18082,13 +18082,13 @@
           "name": "Nima Shahbazi",
           "display_name": "Nima Shahbazi",
           "pid": "40/4462",
-          "orcid": null
+          "orcid": "0000-0001-7016-3807"
         },
         {
           "name": "Aryan Esmailpour",
           "display_name": "Aryan Esmailpour",
           "pid": "387/9974",
-          "orcid": null
+          "orcid": "0009-0000-3798-9578"
         },
         {
           "name": "Stavros Sintos",
@@ -18120,13 +18120,13 @@
           "name": "Yipeng Liu",
           "display_name": "Yipeng Liu",
           "pid": "26/6297",
-          "orcid": null
+          "orcid": "0009-0008-0429-3011"
         },
         {
           "name": "Renfei Zhou",
           "display_name": "Renfei Zhou",
           "pid": "331/5499",
-          "orcid": null
+          "orcid": "0000-0002-0095-0626"
         },
         {
           "name": "Jiaqi Yan",
@@ -18138,7 +18138,7 @@
           "name": "Huanchen Zhang",
           "display_name": "Huanchen Zhang",
           "pid": "13/8730",
-          "orcid": null
+          "orcid": "0009-0001-4821-1558"
         }
       ],
       "venue": "SIGMOD",
@@ -18170,13 +18170,13 @@
           "name": "Navid Eslami",
           "display_name": "Navid Eslami",
           "pid": "350/6669",
-          "orcid": null
+          "orcid": "0009-0001-3522-5846"
         },
         {
           "name": "Niv Dayan",
           "display_name": "Niv Dayan",
           "pid": "129/6927",
-          "orcid": null
+          "orcid": "0000-0003-0314-0167"
         }
       ],
       "venue": "SIGMOD",
@@ -18202,13 +18202,13 @@
           "name": "Chuanyu Zong",
           "display_name": "Chuanyu Zong",
           "pid": "129/4078",
-          "orcid": null
+          "orcid": "0000-0002-6946-8651"
         },
         {
           "name": "Lingbiao Meng",
           "display_name": "Lingbiao Meng",
           "pid": "442/4765",
-          "orcid": null
+          "orcid": "0009-0005-4215-4715"
         },
         {
           "name": "Xiaochun Yang 0001",
@@ -18226,13 +18226,13 @@
           "name": "Tao Qiu",
           "display_name": "Tao Qiu",
           "pid": "69/8588",
-          "orcid": null
+          "orcid": "0000-0002-4406-5872"
         },
         {
           "name": "Rui Zhu 0003",
           "display_name": "Rui Zhu",
           "pid": "72/1974-3",
-          "orcid": null
+          "orcid": "0000-0002-7033-8643"
         }
       ],
       "venue": "SIGMOD",

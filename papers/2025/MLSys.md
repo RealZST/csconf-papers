@@ -1,6 +1,6 @@
 # MLSys 2025
 
-61 papers · updated 2026-08-13
+61 papers · updated 2026-09-01
 
 - [A Bring-Your-Own-Model Approach for ML-Driven Storage Placement in Warehouse-Scale Computers](https://openreview.net/forum?id=JuGWOSB68T) · [PDF](https://openreview.net/pdf?id=JuGWOSB68T)
   Chenxi Yang, Yan Li, Martin Maas, Mustafa Uysal, Ubaid Ullah Hafeez, Arif Merchant, Richard McDougall

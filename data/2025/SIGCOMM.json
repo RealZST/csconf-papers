@@ -7,7 +7,7 @@
     ],
     "paper_count": 88,
     "note": null,
-    "updated": "2026-08-13"
+    "updated": "2026-09-01"
   },
   "papers": [
     {
@@ -592,9 +592,9 @@
       "title": "ByteDance Jakiro: Enabling RDMA and TCP over Virtual Private Cloud",
       "authors": [
         {
-          "name": "Yirui Liu",
+          "name": "Yirui Liu 0001",
           "display_name": "Yirui Liu",
-          "pid": "200/9650",
+          "pid": "200/9650-1",
           "orcid": "0009-0002-5794-9682"
         },
         {
@@ -3844,9 +3844,9 @@
           "orcid": null
         },
         {
-          "name": "Jian Zhao",
+          "name": "Jian Zhao 0006",
           "display_name": "Jian Zhao",
-          "pid": "70/2932",
+          "pid": "70/2932-6",
           "orcid": "0009-0009-3351-786X"
         },
         {
@@ -6191,7 +6191,7 @@
           "name": "Tong Meng",
           "display_name": "Tong Meng",
           "pid": "117/3361",
-          "orcid": null
+          "orcid": "0009-0007-1039-0056"
         },
         {
           "name": "Xianhua Zeng",
@@ -6203,7 +6203,7 @@
           "name": "Wei Yang",
           "display_name": "Wei Yang",
           "pid": "03/1094",
-          "orcid": null
+          "orcid": "0009-0000-3488-3620"
         },
         {
           "name": "Changqing Yan",

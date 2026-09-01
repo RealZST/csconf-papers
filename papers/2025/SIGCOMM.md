@@ -1,6 +1,6 @@
 # SIGCOMM 2025
 
-88 papers · updated 2026-08-13
+88 papers · updated 2026-09-01
 
 - [ACE: Sending Burstiness Control for High-Quality Real-time Communication](https://doi.org/10.1145/3718958.3750520) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3718958.3750520)
   Xiangjie Huang, Jiayang Xu, Haiping Wang, Hebin Yu, Sandesh Dhawaskar Sathyanarayana, Shu Shi, Zili Meng

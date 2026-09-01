@@ -1,6 +1,6 @@
 # NSDI 2025
 
-83 papers · updated 2026-08-12
+83 papers · updated 2026-09-01
 
 - [A Layered Formal Methods Approach to Answering Queue-related Queries](https://www.usenix.org/conference/nsdi25/presentation/raghunathan) · [PDF](https://www.usenix.org/system/files/nsdi25-raghunathan.pdf)
   Divya Raghunathan, Maria Apostolaki, Aarti Gupta

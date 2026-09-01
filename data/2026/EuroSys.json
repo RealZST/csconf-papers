@@ -7,7 +7,7 @@
     ],
     "paper_count": 138,
     "note": null,
-    "updated": "2026-08-12"
+    "updated": "2026-09-01"
   },
   "papers": [
     {
@@ -1196,9 +1196,9 @@
           "orcid": "0009-0008-4775-0438"
         },
         {
-          "name": "Haiquan Chen",
+          "name": "Haiquan Chen 0002",
           "display_name": "Haiquan Chen",
-          "pid": "21/6636",
+          "pid": "21/6636-2",
           "orcid": "0009-0009-8336-8065"
         },
         {
@@ -3113,49 +3113,49 @@
           "name": "Junhao Hu",
           "display_name": "Junhao Hu",
           "pid": "05/3941",
-          "orcid": null
+          "orcid": "0009-0004-2085-4932"
         },
         {
           "name": "Hao Lin 0005",
           "display_name": "Hao Lin",
           "pid": "89/3472-5",
-          "orcid": null
+          "orcid": "0000-0002-9990-5090"
         },
         {
           "name": "Chunyang Zhu",
           "display_name": "Chunyang Zhu",
           "pid": "190/2770",
-          "orcid": null
+          "orcid": "0009-0002-1921-4423"
         },
         {
           "name": "Yueran Tang",
           "display_name": "Yueran Tang",
           "pid": "413/4442",
-          "orcid": null
+          "orcid": "0009-0007-8049-9233"
         },
         {
           "name": "Quanlu Zhang",
           "display_name": "Quanlu Zhang",
           "pid": "165/8284",
-          "orcid": null
+          "orcid": "0000-0003-0557-1104"
         },
         {
           "name": "Zhen Guo",
           "display_name": "Zhen Guo",
           "pid": "35/6453",
-          "orcid": null
+          "orcid": "0009-0008-7108-7365"
         },
         {
           "name": "Zhenhua Li 0001",
           "display_name": "Zhenhua Li",
           "pid": "61/1951-1",
-          "orcid": null
+          "orcid": "0000-0001-7286-122X"
         },
         {
           "name": "Shengen Yan",
           "display_name": "Shengen Yan",
           "pid": "117/6968",
-          "orcid": null
+          "orcid": "0009-0005-3858-7972"
         },
         {
           "name": "Zhenhua Zhu 0002",
@@ -3167,13 +3167,13 @@
           "name": "Guohao Dai 0001",
           "display_name": "Guohao Dai",
           "pid": "147/1470",
-          "orcid": null
+          "orcid": "0000-0003-0849-3252"
         },
         {
           "name": "Yu Wang 0002",
           "display_name": "Yu Wang",
           "pid": "w/YuWang2",
-          "orcid": null
+          "orcid": "0000-0001-6108-5157"
         }
       ],
       "venue": "EuroSys",

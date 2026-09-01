@@ -1,6 +1,6 @@
 # SIGMOD 2026
 
-354 papers · updated 2026-08-12
+354 papers · updated 2026-09-01
 
 - [100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models: [Experiments & Analysis]](https://doi.org/10.1145/3802002) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3802002) · [preprint](https://arxiv.org/abs/2603.15970)
   Yeounoh Chung, Rushabh Desai, Jian He, Yu Xiao, Thibaud Hottelier, Yves-Laurent Kom Samo, Pushkar Khadilkar, Xianshun Chen, Sam Idicula, Fatma Özcan, Alon Y. Halevy, Yannis Papakonstantinou
