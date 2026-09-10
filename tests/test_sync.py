@@ -2,9 +2,12 @@ from pathlib import Path
 
 import pytest
 
+from csconf import dblp
 from csconf.sync import MappingDrift, sync_venue_year
 
 FIXTURES = Path(__file__).parent / "fixtures"
+
+EMPTY_RESULT = '{"head": {"vars": []}, "results": {"bindings": []}}'
 
 
 class StubFetcher:
@@ -29,8 +32,8 @@ def test_sync_conference_writes_expected_count(tmp_path):
     }
     fetcher = StubFetcher(
         {
-            "https://dblp.org/db/conf/sosp/sosp2025.xml": (
-                FIXTURES / "dblp-conf-sosp-sosp2025.xml"
+            dblp.toc_query_url("conf/sosp/sosp2025"): (
+                FIXTURES / "sparql-conf-sosp-sosp2025.json"
             ).read_text(encoding="utf-8")
         }
     )
@@ -56,8 +59,8 @@ def test_sync_sigmod_filters_to_rounds(tmp_path):
     }
     fetcher = StubFetcher(
         {
-            "https://dblp.org/db/journals/pacmmod/pacmmod3.xml": (
-                FIXTURES / "dblp-journals-pacmmod-pacmmod3-trimmed.xml"
+            dblp.toc_query_url("journals/pacmmod/pacmmod3"): (
+                FIXTURES / "sparql-journals-pacmmod-pacmmod3-trimmed.json"
             ).read_text(encoding="utf-8")
         }
     )
@@ -82,8 +85,8 @@ def test_sync_vldb_fills_note_from_template(tmp_path):
     }
     fetcher = StubFetcher(
         {
-            "https://dblp.org/db/journals/pvldb/pvldb19.xml": (
-                FIXTURES / "dblp-journals-pvldb-pvldb19.xml"
+            dblp.toc_query_url("journals/pvldb/pvldb19"): (
+                FIXTURES / "sparql-journals-pvldb-pvldb19-trimmed.json"
             ).read_text(encoding="utf-8")
         }
     )
@@ -93,7 +96,7 @@ def test_sync_vldb_fills_note_from_template(tmp_path):
         fetcher=fetcher, updated="2026-08-12",
     )
 
-    assert result.paper_count == 135
+    assert result.paper_count == 30
     assert result.note == "All of PVLDB vol 19 (VLDB 2026)."
 
 
@@ -102,7 +105,7 @@ def test_indexed_venue_with_zero_papers_raises(tmp_path):
     venues = {
         "NSDI": {"type": "conf", "key": "conf/nsdi/nsdi{year}", "status": {2025: "indexed"}}
     }
-    fetcher = StubFetcher({"https://dblp.org/db/conf/nsdi/nsdi2025.xml": "<bht></bht>"})
+    fetcher = StubFetcher({dblp.toc_query_url("conf/nsdi/nsdi2025"): EMPTY_RESULT})
 
     with pytest.raises(MappingDrift):
         sync_venue_year(
@@ -117,7 +120,7 @@ def test_pending_venue_with_zero_papers_writes_nothing(tmp_path):
     venues = {
         "OSDI": {"type": "conf", "key": "conf/osdi/osdi{year}", "status": {2026: "pending"}}
     }
-    fetcher = StubFetcher({"https://dblp.org/db/conf/osdi/osdi2026.xml": "<bht></bht>"})
+    fetcher = StubFetcher({dblp.toc_query_url("conf/osdi/osdi2026"): EMPTY_RESULT})
 
     result = sync_venue_year(
         root=tmp_path, venues=venues, venue="OSDI", year=2026,
@@ -129,8 +132,9 @@ def test_pending_venue_with_zero_papers_writes_nothing(tmp_path):
     assert not (tmp_path / "papers" / "2026" / "OSDI.md").exists()
 
 
-def test_asplos_fetches_index_then_each_volume(tmp_path):
-    """Multi-volume venue: fetch the index to discover volumes, then each TOC."""
+def test_asplos_fetches_stream_tocs_then_each_volume(tmp_path):
+    """Multi-volume venue: query the stream's TOC pages to discover volumes,
+    then each volume's TOC."""
     venues = {
         "ASPLOS": {
             "type": "conf",
@@ -140,14 +144,14 @@ def test_asplos_fetches_index_then_each_volume(tmp_path):
             "status": {2025: "indexed"},
         }
     }
-    index_html = (FIXTURES / "dblp-conf-asplos-index-trimmed.html").read_text(encoding="utf-8")
-    sosp = (FIXTURES / "dblp-conf-sosp-sosp2025.xml").read_text(encoding="utf-8")
+    tocs = (FIXTURES / "sparql-conf-asplos-tocs-trimmed.json").read_text(encoding="utf-8")
+    sosp = (FIXTURES / "sparql-conf-sosp-sosp2025.json").read_text(encoding="utf-8")
     fetcher = StubFetcher(
         {
-            "https://dblp.org/db/conf/asplos/index.html": index_html,
-            "https://dblp.org/db/conf/asplos/asplos2025-1.xml": sosp,
-            "https://dblp.org/db/conf/asplos/asplos2025-2.xml": sosp,
-            "https://dblp.org/db/conf/asplos/asplos2025-3.xml": sosp,
+            dblp.stream_tocs_query_url("conf/asplos"): tocs,
+            dblp.toc_query_url("conf/asplos/asplos2025-1"): sosp,
+            dblp.toc_query_url("conf/asplos/asplos2025-2"): sosp,
+            dblp.toc_query_url("conf/asplos/asplos2025-3"): sosp,
         }
     )
 
@@ -156,7 +160,7 @@ def test_asplos_fetches_index_then_each_volume(tmp_path):
         fetcher=fetcher, updated="2026-08-12",
     )
 
-    assert fetcher.urls[0] == "https://dblp.org/db/conf/asplos/index.html"
+    assert fetcher.urls[0] == dblp.stream_tocs_query_url("conf/asplos")
     assert len(fetcher.urls) == 4
     assert result.source_keys == [
         "conf/asplos/asplos2025-1",
@@ -184,7 +188,7 @@ def test_partial_venue_with_zero_papers_also_writes_nothing(tmp_path):
     }
     # A volume with no N4 papers at all, so filtering necessarily empties it
     fetcher = StubFetcher(
-        {"https://dblp.org/db/journals/pacmmod/pacmmod3.xml": "<bht></bht>"}
+        {dblp.toc_query_url("journals/pacmmod/pacmmod3"): EMPTY_RESULT}
     )
 
     result = sync_venue_year(
@@ -198,8 +202,9 @@ def test_partial_venue_with_zero_papers_also_writes_nothing(tmp_path):
 
 
 def test_missing_toc_is_treated_as_no_data_for_pending_venue(tmp_path):
-    """OSDI/ATC 2026 happened but DBLP has not indexed them, so their TOCs 404.
-    For a pending venue that is the normal state and not a failure."""
+    """A pending venue whose fetch 404s writes nothing, exactly like an empty
+    result. The SPARQL endpoint answers an unknown TOC with zero rows rather
+    than a 404, but the transport can still produce one."""
     from csconf.http import NotFound
 
     class NotFoundFetcher:
@@ -232,7 +237,7 @@ def test_pending_venue_falls_back_to_official_site(tmp_path):
     }
     fetcher = StubFetcher(
         {
-            "https://dblp.org/db/conf/osdi/osdi2026.xml": "<bht></bht>",
+            dblp.toc_query_url("conf/osdi/osdi2026"): EMPTY_RESULT,
             "https://www.usenix.org/conference/osdi26/technical-sessions": (
                 FIXTURES / "usenix-osdi-2026-accepted.html"
             ).read_text(encoding="utf-8"),
@@ -248,6 +253,56 @@ def test_pending_venue_falls_back_to_official_site(tmp_path):
     assert {p.source for p in result.papers} == {"osdi-web"}
     assert (tmp_path / "data" / "2026" / "OSDI.json").exists()
     assert (tmp_path / "papers" / "2026" / "OSDI.md").exists()
+
+
+def test_dblp_failure_still_reaches_the_fallback_for_pending_venue(tmp_path):
+    """A DBLP-side failure must not take the conference-site fallback down with
+    it. When Anubis went up in front of dblp.org in September 2026, SOSP 2026
+    failed on the DBLP fetch and never reached the SIGOPS page that had its 62
+    papers all along."""
+    challenge = "<!doctype html><html><head><title>Making sure you're not a bot!</title></head></html>"
+    venues = {
+        "SOSP": {
+            "type": "conf",
+            "key": "conf/sosp/sosp{year}",
+            "fallback_url": "https://www.sigops.org/s/conferences/sosp/{year}/accepted.html",
+            "status": {2026: "pending"},
+        }
+    }
+    fetcher = StubFetcher(
+        {
+            dblp.toc_query_url("conf/sosp/sosp2026"): challenge,
+            "https://www.sigops.org/s/conferences/sosp/2026/accepted.html": (
+                FIXTURES / "sigops-sosp-2026-accepted.html"
+            ).read_text(encoding="utf-8"),
+        }
+    )
+
+    result = sync_venue_year(
+        root=tmp_path, venues=venues, venue="SOSP", year=2026,
+        fetcher=fetcher, updated="2026-08-12",
+    )
+
+    assert result.paper_count > 0
+    assert {p.source for p in result.papers} == {"sosp-web"}
+    assert (tmp_path / "data" / "2026" / "SOSP.json").exists()
+
+
+def test_dblp_failure_on_indexed_venue_stays_loud(tmp_path):
+    """An indexed venue has no site fallback to hide behind: DBLP's data IS the
+    data, and a broken fetch has to fail the venue rather than quietly keep
+    yesterday's file without saying why."""
+    challenge = "<!doctype html><html><head><title>Making sure you're not a bot!</title></head></html>"
+    venues = {
+        "NSDI": {"type": "conf", "key": "conf/nsdi/nsdi{year}", "status": {2025: "indexed"}}
+    }
+    fetcher = StubFetcher({dblp.toc_query_url("conf/nsdi/nsdi2025"): challenge})
+
+    with pytest.raises(dblp.BadResponse):
+        sync_venue_year(
+            root=tmp_path, venues=venues, venue="NSDI", year=2025,
+            fetcher=fetcher, updated="2026-08-12",
+        )
 
 
 def test_fallback_failure_leaves_venue_empty_instead_of_aborting(tmp_path):
@@ -266,8 +321,8 @@ def test_fallback_failure_leaves_venue_empty_instead_of_aborting(tmp_path):
 
     class FallbackNotFoundFetcher:
         def get(self, url):
-            if url.startswith("https://dblp.org/"):
-                return "<bht></bht>"
+            if url.startswith(dblp.SPARQL_ENDPOINT):
+                return EMPTY_RESULT
             raise NotFound("{} does not exist".format(url), 404)
 
     result = sync_venue_year(
@@ -288,10 +343,10 @@ def test_dblp_records_replace_web_records_without_duplicates():
 
     web = [Paper(title="LithOS: An OS for ML on GPUs", authors=[], venue="OSDI",
                  year=2026, source="osdi-web")]
-    dblp = [Paper(title="LithOS: An OS for ML on GPUs.", authors=[], venue="OSDI",
-                  year=2026, source="dblp")]
+    dblp_papers = [Paper(title="LithOS: An OS for ML on GPUs.", authors=[], venue="OSDI",
+                         year=2026, source="dblp")]
 
-    merged = merge_sources(web_papers=web, dblp_papers=dblp)
+    merged = merge_sources(web_papers=web, dblp_papers=dblp_papers)
 
     assert len(merged) == 1
     assert merged[0].source == "dblp"

@@ -6,12 +6,11 @@ import argparse
 import datetime as dt
 import json
 import sys
-import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import requests
 
-from csconf import enrich, http, pdf, preprint, render, store, venues as venues_mod
+from csconf import dblp, enrich, http, pdf, preprint, render, store, venues as venues_mod
 from csconf.models import Paper
 from csconf.sync import MappingDrift, sync_venue_year
 
@@ -209,7 +208,7 @@ def cmd_sync(args: argparse.Namespace) -> int:
                 store.ShrinkRejected,
                 http.RateLimited,
                 http.HttpError,
-                ET.ParseError,
+                dblp.BadResponse,
             ) as exc:
                 failures.append("{} {}: {}".format(venue, year, exc))
                 print("FAIL {} {}: {}".format(venue, year, exc), file=sys.stderr)
