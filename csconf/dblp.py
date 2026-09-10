@@ -114,7 +114,11 @@ def stream_tocs_query_url(index_key: str) -> str:
 
 
 def _query_url(query: str) -> str:
-    return SPARQL_ENDPOINT + "?" + urllib.parse.urlencode({"query": query})
+    # format=json pins the response format instead of leaning on the server's
+    # content-negotiation default, which answering JSON to a header-less GET is.
+    return SPARQL_ENDPOINT + "?" + urllib.parse.urlencode(
+        {"query": query, "format": "json"}
+    )
 
 
 def _bindings(json_text: str) -> List[Dict[str, Any]]:
