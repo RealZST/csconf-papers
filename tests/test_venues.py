@@ -56,24 +56,35 @@ def test_status_lookup(venues):
     assert status_of(venues, "NSDI", 2026) == "indexed"
 
 
-def test_discover_volumes_from_index_html():
+def _asplos_toc_text() -> str:
+    """The stream's TOC IRIs joined to one text, the way sync feeds them in."""
+    from csconf.dblp import parse_stream_tocs
+
+    return "\n".join(
+        parse_stream_tocs(
+            (FIXTURES / "sparql-conf-asplos-tocs-trimmed.json").read_text(encoding="utf-8")
+        )
+    )
+
+
+def test_discover_volumes_from_stream_tocs():
     from csconf.venues import discover_volumes
 
-    html = (FIXTURES / "dblp-conf-asplos-index-trimmed.html").read_text(encoding="utf-8")
+    text = _asplos_toc_text()
 
-    assert discover_volumes(html, "asplos", 2025) == [1, 2, 3]
-    assert discover_volumes(html, "asplos", 2024) == [1, 2, 3, 4]
-    assert discover_volumes(html, "asplos", 2026) == [1, 2]
-    assert discover_volumes(html, "asplos", 2030) == []
+    assert discover_volumes(text, "asplos", 2025) == [1, 2, 3]
+    assert discover_volumes(text, "asplos", 2024) == [1, 2, 3, 4]
+    assert discover_volumes(text, "asplos", 2026) == [1, 2]
+    assert discover_volumes(text, "asplos", 2030) == []
 
 
 def test_asplos_expands_using_discovered_volumes(venues):
-    html = (FIXTURES / "dblp-conf-asplos-index-trimmed.html").read_text(encoding="utf-8")
+    text = _asplos_toc_text()
     from csconf.venues import discover_volumes
 
     def lookup(index_key, year):
         assert index_key == "conf/asplos"
-        return discover_volumes(html, "asplos", year)
+        return discover_volumes(text, "asplos", year)
 
     fetches = expand(venues, "ASPLOS", 2025, volume_lookup=lookup)
 

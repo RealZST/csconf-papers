@@ -11,7 +11,7 @@ SIGMOD_2026_ROUNDS = [[3, 4], [3, 6], [4, 1], [4, 3]]
 
 def _pacmmod_vol3():
     return parse_toc(
-        (FIXTURES / "dblp-journals-pacmmod-pacmmod3-trimmed.xml").read_text(encoding="utf-8"),
+        (FIXTURES / "sparql-journals-pacmmod-pacmmod3-trimmed.json").read_text(encoding="utf-8"),
         venue="SIGMOD",
         year=2026,
     )

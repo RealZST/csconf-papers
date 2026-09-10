@@ -141,11 +141,3 @@ class Fetcher:
         raise RateLimited(
             "{} was refused {} times in a row (429/503)".format(url, self.max_retries)
         )
-
-
-def toc_url(toc_key: str) -> str:
-    return "https://dblp.org/db/{}.xml".format(toc_key)
-
-
-def index_url(index_key: str) -> str:
-    return "https://dblp.org/db/{}/index.html".format(index_key)

@@ -5,8 +5,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from csconf import fallback, http, render, store, venues as venues_mod
-from csconf.dblp import parse_toc
+from csconf import dblp, fallback, http, render, store, venues as venues_mod
 from csconf.models import Paper
 from csconf.rounds import filter_by_rounds
 
@@ -86,37 +85,56 @@ def sync_venue_year(
     allow_shrink: bool = False,
 ) -> SyncResult:
     config = venues[venue]
+    status = venues_mod.status_of(venues, venue, year)
 
     def volume_lookup(index_key: str, lookup_year: int) -> List[int]:
-        html = fetcher.get(http.index_url(index_key))
+        tocs = dblp.parse_stream_tocs(
+            fetcher.get(dblp.stream_tocs_query_url(index_key))
+        )
         slug = index_key.rsplit("/", 1)[-1]
-        return venues_mod.discover_volumes(html, slug, lookup_year)
+        return venues_mod.discover_volumes("\n".join(tocs), slug, lookup_year)
 
-    fetches = venues_mod.expand(venues, venue, year, volume_lookup=volume_lookup)
-
+    fetches: List[venues_mod.Fetch] = []
     papers: List[Paper] = []
     note: Optional[str] = None
-    for fetch in fetches:
-        try:
-            xml_text = fetcher.get(http.toc_url(fetch.toc_key))
-        except http.NotFound:
-            # The TOC does not exist yet. For a pending venue that is normal
-            # (the conference has happened, DBLP has not caught up). For an
-            # indexed one it falls through to MappingDrift below, as intended.
-            continue
-        parsed = parse_toc(xml_text, venue=venue, year=year)
+    try:
+        fetches = venues_mod.expand(venues, venue, year, volume_lookup=volume_lookup)
 
-        if config["type"] == "journal_rounds":
-            # Matched on (volume, issue) taken from the papers themselves, so
-            # the caller's volume is not needed here.
-            parsed = filter_by_rounds(parsed, rounds=config["rounds"][year])
-        if config["type"] == "journal_volume":
-            note = _note_for(config, year, fetch.volume)
+        for fetch in fetches:
+            try:
+                body = fetcher.get(dblp.toc_query_url(fetch.toc_key))
+            except http.NotFound:
+                # The TOC does not exist yet. For a pending venue that is normal
+                # (the conference has happened, DBLP has not caught up). For an
+                # indexed one it falls through to MappingDrift below, as intended.
+                continue
+            parsed = dblp.parse_toc(body, venue=venue, year=year)
 
-        papers.extend(parsed)
+            if config["type"] == "journal_rounds":
+                # Matched on (volume, issue) taken from the papers themselves, so
+                # the caller's volume is not needed here.
+                parsed = filter_by_rounds(parsed, rounds=config["rounds"][year])
+            if config["type"] == "journal_volume":
+                note = _note_for(config, year, fetch.volume)
+
+            papers.extend(parsed)
+    except (http.HttpError, http.RateLimited, dblp.BadResponse) as exc:
+        # A DBLP-side failure must not take the conference-site fallback down
+        # with it. When Anubis went up in front of dblp.org, SOSP 2026 failed
+        # on the DBLP fetch and never reached the SIGOPS page that had its 62
+        # papers all along. Only a pending venue gets this grace: for an
+        # indexed one the DBLP data IS the data, and a quiet fallback would
+        # replace it with the site's weaker listing.
+        if status != "pending" or not config.get("fallback_url"):
+            raise
+        print(
+            "  dblp {} {} failed ({}); trying the conference site "
+            "fallback".format(venue, year, exc),
+            file=sys.stderr,
+        )
+        papers = []
 
     source_keys = [f.toc_key for f in fetches]
-    status = venues_mod.status_of(venues, venue, year)
 
     if not papers and status == "pending" and config.get("fallback_url"):
         # The conference is over and the site has published the list, but DBLP
