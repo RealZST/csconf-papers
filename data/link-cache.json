@@ -25,6 +25,10 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "attacking mmwave imaging using metasurfaces based on intensity and time of flight manipulation": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "batched in back characterizing and optimizing offline llm inference in production with acdc": {
     "checked": "2026-08-12",
     "url": null
@@ -52,6 +56,10 @@
   },
   "cellulars go underground practical obstacles and effective mitigation": {
     "checked": "2026-09-01",
+    "url": null
+  },
+  "city scale radiance field reconstruction via mixture of radio experts": {
+    "checked": "2026-09-10",
     "url": null
   },
   "cohort decentralized pir": {
@@ -106,6 +114,10 @@
   },
   "gaze rearchitecting log structured filesystem for garbage collection on zoned namespace flash storage": {
     "checked": "2026-08-12",
+    "url": null
+  },
+  "golden sniffer low complexity 5g new radio signal interception exploiting gold sequences": {
+    "checked": "2026-09-10",
     "url": null
   },
   "guiding agentic gpu kernel optimization with data flow invariants": {
@@ -217,6 +229,11 @@
   "qprof fleetwide transitive cost profiling of warehouse scale services": {
     "checked": "2026-08-13",
     "url": null
+  },
+  "rf lego modularized signal processing deep learning co design for rf sensing via deep unrolling": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2604.10183"
   },
   "rf tactrix fingerprint inspired battery free wireless force sensing and localization on 2d surfaces": {
     "checked": "2026-08-13",
@@ -331,6 +348,11 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "wall street an intelligent vehicular surface for reliable mmwave handover": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2405.06754"
+  },
   "wavel a fast and efficient compilation system for wafer scale accelerators": {
     "checked": "2026-08-13",
     "url": null
@@ -338,6 +360,11 @@
   "when mobile tof meets micro vibration multi point khz frequency sensing using laser speckle": {
     "checked": "2026-08-13",
     "url": null
+  },
+  "wicompass oracle driven data scaling for mmwave human pose estimation": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2602.18726"
   },
   "xtra unifying cache coherence and concurrency control for distributed transactions in a cxl pod": {
     "checked": "2026-08-13",

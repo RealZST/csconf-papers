@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-01",
+  "generated": "2026-09-10",
   "paper_count": 2869,
   "files": [
     {
@@ -121,7 +121,7 @@
       "year": 2026,
       "paper_count": 28,
       "updated": "2026-09-01",
-      "sha256": "31eb27bdf1b6d961d1c63a292a51374d47489d4fb1a6ccfb29d95f7d0b9131e5"
+      "sha256": "f89920a25eb0b627e8dfb1fb447f1741474e3daf9ad0523d35a1b13a0c3560eb"
     },
     {
       "path": "data/2026/NSDI.json",

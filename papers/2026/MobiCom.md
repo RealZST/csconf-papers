@@ -40,7 +40,7 @@
   Zeming Yang, Linling Zhong, Wenhui Li, Yibin Deng, Jiazhen Lei, Fengyuan Zhu, Bingbing Wang, Haiming Jin, Xiaohua Tian
 - [PassiveOFDM: Flexible OFDM Backscatter with Commercial Compatibility](https://scholar.google.com/scholar?q=PassiveOFDM%3A%20Flexible%20OFDM%20Backscatter%20with%20Commercial%20Compatibility) · scholar.google.com
   Caihui Du, Jihong Yu, Rongrong Zhang, Haipeng Yao
-- [RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling](https://scholar.google.com/scholar?q=RF-LEGO%3A%20Modularized%20Signal%20Processing-Deep%20Learning%20Co-Design%20for%20RF%20Sensing%20via%20Deep%20Unrolling) · scholar.google.com
+- [RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling](https://arxiv.org/abs/2604.10183) · arxiv.org · [PDF](https://arxiv.org/pdf/2604.10183)
   Luca Jiang-Tao Yu, Chenshu Wu
 - [RF-Tactrix: Fingerprint-Inspired Battery-Free, Wireless Force Sensing And Localization on 2D Surfaces](https://scholar.google.com/scholar?q=RF-Tactrix%3A%20Fingerprint-Inspired%20Battery-Free%2C%20Wireless%20Force%20Sensing%20And%20Localization%20on%202D%20Surfaces) · scholar.google.com
   Yuzheng Dong, Yan Liang, Xuan Li, Xiaojiang Chen, Ju Wang
@@ -52,9 +52,9 @@
   Yongjian Fu, Ke Sun, Xinyu Zhang, Ruyao Wang, Xinyi Li, Hao Pan, Yaoxue Zhang, Ju Ren
 - [V-Droid: Advancing Mobile GUI Agent Through Generative Verifiers](https://scholar.google.com/scholar?q=V-Droid%3A%20Advancing%20Mobile%20GUI%20Agent%20Through%20Generative%20Verifiers) · scholar.google.com
   Gaole Dai, Shiqi Jiang, Ting Cao, Yuanchun Li, Yuqing Yang, Rui Tan, Mo Li, Lili Qiu
-- [Wall-Street: An Intelligent Vehicular Surface for Reliable mmWave Handover](https://scholar.google.com/scholar?q=Wall-Street%3A%20An%20Intelligent%20Vehicular%20Surface%20for%20Reliable%20mmWave%20Handover) · scholar.google.com
+- [Wall-Street: An Intelligent Vehicular Surface for Reliable mmWave Handover](https://arxiv.org/abs/2405.06754) · arxiv.org · [PDF](https://arxiv.org/pdf/2405.06754)
   Kun Woo Cho, Prasanthi Maddala, Ivan Seskar, Kyle Jamieson
 - [When Mobile ToF Meets Micro-Vibration: Multi-Point kHz-Frequency Sensing using Laser Speckle](https://scholar.google.com/scholar?q=When%20Mobile%20ToF%20Meets%20Micro-Vibration%3A%20Multi-Point%20kHz-Frequency%20Sensing%20using%20Laser%20Speckle) · scholar.google.com
   Shangcheng Jin, Zhiyuan Xie, Guoliang Xing, Zhenyu Yan
-- [WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation](https://scholar.google.com/scholar?q=WiCompass%3A%20Oracle-driven%20Data%20Scaling%20for%20mmWave%20Human%20Pose%20Estimation) · scholar.google.com
+- [WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation](https://arxiv.org/abs/2602.18726) · arxiv.org · [PDF](https://arxiv.org/pdf/2602.18726)
   Bo Liang, Chen Gong, Haobo Wang, Qirui Liu, Rungui Zhou, Fengzhi Shao, Yubo Wang, Wei Gao, Kaichen Zhou, Guolong Cui, Chenren Xu
