@@ -1,6 +1,6 @@
 # VLDB 2025
 
-483 papers · updated 2026-09-01
+483 papers · updated 2026-09-10
 
 > This file is all of PVLDB vol 18. The VLDB 2025 research track is really the papers accepted before this volume's cutoff plus rollovers from the previous volume, a distinction DBLP metadata does not record.
 

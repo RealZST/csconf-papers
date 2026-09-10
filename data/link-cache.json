@@ -4,12 +4,41 @@
     "source": "semanticscholar",
     "url": "https://arxiv.org/abs/2605.15617"
   },
+  "a first look at multimodal mobile application performance on xr and ai smart glasses": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "a scalable full stack system for high precision industrial vibration monitoring": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "a3tp automated accurate and adaptive uav task planning for large scale power transmission networks inspection": {
     "checked": "2026-09-01",
     "url": null
   },
+  "activesight enabling continuous wearable perception through algorithm hardware co designed multimodal semantic gating": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "adaptive segmented decentralized federated learning on tiny devices": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "agilelog a forkable shared log for agents on data streams": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2604.14590"
+  },
   "ahead of time analysis of shell program effects": {
     "checked": "2026-08-12",
+    "url": null
+  },
+  "ambientrider towards infrastructure independent ambient lora backscatter": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "anchor mitigating gpu shallow disruptions with decoupled memory": {
+    "checked": "2026-09-10",
     "url": null
   },
   "anchor mitigating shallow disruptions with decoupled memory": {
@@ -26,6 +55,10 @@
     "url": null
   },
   "attacking mmwave imaging using metasurfaces based on intensity and time of flight manipulation": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "ave guiding agentic gpu optimization using data flow invariants": {
     "checked": "2026-09-10",
     "url": null
   },
@@ -54,8 +87,25 @@
     "checked": "2026-08-12",
     "url": null
   },
+  "cellsecinspector safeguarding cellular networks via automated security analysis on specifications": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2512.24682"
+  },
   "cellulars go underground practical obstacles and effective mitigation": {
     "checked": "2026-09-01",
+    "url": null
+  },
+  "cerium a multi gpu framework for terabyte scale encrypted inference": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "cfmoe cache friendly mixture of experts model serving system on edge devices": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "chronos scalable and cost effective cloud based ran emulation system": {
+    "checked": "2026-09-10",
     "url": null
   },
   "city scale radiance field reconstruction via mixture of radio experts": {
@@ -74,14 +124,44 @@
     "checked": "2026-08-12",
     "url": null
   },
+  "crisp co designing pruning and scheduling for efficient moe inference on edge servers": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "cross band rf radiance field modeling via 3d gaussian splatting and propagation mixture of experts": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "cryptdough a unified analytics engine for secure multiparty computation": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2608.17529"
+  },
+  "d fault uncovering disaggregation faults in 5g ran": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "ddb source level interactive debugging for distributed applications": {
     "checked": "2026-08-12",
     "source": "semanticscholar",
     "url": "https://arxiv.org/abs/2607.06107"
   },
+  "deltaar redundancy aware object detection for mobile augmented reality": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "democratizing moe llm decoding via barrier free expert parallelism": {
     "checked": "2026-08-12",
     "url": null
+  },
+  "dera deep range low power wide area iot via ultra sensitive signal detection": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "designing deployment and field testing of c2stack for networked intelligent software defined uavs": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2608.28854"
   },
   "detecting liquid food adulteration with mobile hyperspectral analysis based on rgb camera": {
     "checked": "2026-08-13",
@@ -89,6 +169,10 @@
   },
   "diflow a system for micro serving text to image diffusion workflows": {
     "checked": "2026-08-12",
+    "url": null
+  },
+  "direct to cell satellite radio signal traceback at scale": {
+    "checked": "2026-09-10",
     "url": null
   },
   "disco distributed and scalable oblivious joins and oblivious primitives": {
@@ -99,8 +183,29 @@
     "checked": "2026-08-12",
     "url": null
   },
+  "dynafilter cloud driven dynamic filtering for satellite edge intelligence": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2607.10098"
+  },
+  "earlog opportunistic ear physiology sensing toward personalized hearing risk awareness": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "efficient gpu multitasking with morphable kernels": {
     "checked": "2026-08-12",
+    "url": null
+  },
+  "exomem os governed memory for local large llm inference on mobile edge devices": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "experience agentic security analysis of 5g protocol interactions": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "experience unveiling gnss rtk in the wild a 2 5 year nationwide study via last mile delivery": {
+    "checked": "2026-09-10",
     "url": null
   },
   "exploring the feasibility of full body muscle activation sensing with insole pressure sensors": {
@@ -112,16 +217,37 @@
     "checked": "2026-08-12",
     "url": null
   },
+  "from soil for soil self powered moisture sensing via natural electrical transients": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "gaze rearchitecting log structured filesystem for garbage collection on zoned namespace flash storage": {
     "checked": "2026-08-12",
+    "url": null
+  },
+  "general speech reconstruction for voice calls using smartphone s built in accelerometer": {
+    "checked": "2026-09-10",
     "url": null
   },
   "golden sniffer low complexity 5g new radio signal interception exploiting gold sequences": {
     "checked": "2026-09-10",
     "url": null
   },
+  "grade single frame generative radar depth estimation under visual degradation": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "group shared low rank approximation for mobile efficient pointwise convolutions in large kernel cnns": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2608.26069"
+  },
   "guiding agentic gpu kernel optimization with data flow invariants": {
     "checked": "2026-08-12",
+    "url": null
+  },
+  "hark breaking receiver power limits of lora": {
+    "checked": "2026-09-10",
     "url": null
   },
   "i3dp neuro symbolic inductive invariant inference for distributed protocols": {
@@ -145,6 +271,15 @@
   "it s the kernel s fault custom page fault handling with bpf_fault": {
     "checked": "2026-08-12",
     "url": null
+  },
+  "janus multi llm serving at production scale": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "leanstream a speculate and refine streaming framework for efficient on device llm inference": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2609.03079"
   },
   "linux agx an adaptive gpu extension to linux fair scheduling for physical ai and robotic systems": {
     "checked": "2026-08-13",
@@ -176,6 +311,10 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "mechanically programmable reflective metasurfaces a general low cost paradigm for high frequency wavefront control": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "meshrt compile time governed wafer scale runtime for low latency high throughput inference": {
     "checked": "2026-08-13",
     "url": null
@@ -184,14 +323,52 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "metavenom field programmable fully passive metasurfaces": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "metavision enhancing resolution for wi fi vision with hierarchical programmable metasurface": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "mmfhe mmwave sensing with end to end fully homomorphic encryption": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2603.22437"
+  },
+  "moiréskin ultra sensitive sensor actuator visuo tactile skin using moiré patterns": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "monitoring electrical transformer mechanics via crowdsourced imaging": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "morse multipath resilient one shot localization for ris via spatial spectral encoding": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "multi llm serving at production scale": {
     "checked": "2026-08-13",
     "url": null
+  },
+  "mzcache on device llm memory management under multitasking": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2609.01338"
   },
   "nexus efficient and scalable multi cell mmwave baseband processing with heterogeneous compute": {
     "checked": "2026-09-01",
     "source": "semanticscholar",
     "url": "https://arxiv.org/abs/2509.04625"
+  },
+  "nn live predicting runtime latency for concurrent dnn inference on mobile devices": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "npugen npu as kv generator for stable long context mobile llm inference": {
+    "checked": "2026-09-10",
+    "url": null
   },
   "observability driven tiered memory for colocated workloads": {
     "checked": "2026-08-13",
@@ -217,17 +394,46 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "pathclean breaking the multipath barrier for high fidelity mmwave human point clouds": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "paths plug and play tracking from heterogeneous streams to a shared token interface": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "pirateship append only ledgers for mostly trusted execution environments": {
     "checked": "2026-08-13",
     "source": "semanticscholar",
     "url": "https://arxiv.org/abs/2602.05346"
   },
+  "polarix monitoring multi component liquids via polarized light": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "prism efficient zeroth order fine tuning for on device llms": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "probefs hierarchical dna file systems via biochemical content addressability and parallelism": {
     "checked": "2026-08-13",
     "url": null
   },
+  "proxlink a lightweight decentralized synchronization framework for multi user xr": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "qprof fleetwide transitive cost profiling of warehouse scale services": {
     "checked": "2026-08-13",
+    "url": null
+  },
+  "radiosight predictive mmwave xr network optimization from dynamic neural radio fields": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2608.29504"
+  },
+  "radiostream a wideband multi antenna sdr platform": {
+    "checked": "2026-09-10",
     "url": null
   },
   "rf lego modularized signal processing deep learning co design for rf sensing via deep unrolling": {
@@ -237,6 +443,10 @@
   },
   "rf tactrix fingerprint inspired battery free wireless force sensing and localization on 2d surfaces": {
     "checked": "2026-08-13",
+    "url": null
+  },
+  "rollingpol single shot polarization imaging for underwater sensing": {
+    "checked": "2026-09-10",
     "url": null
   },
   "rpcshield defending microservices against cascading failures": {
@@ -259,6 +469,10 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "shape reconfigurable charger magnetic power pathway programming via computed morphing": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "sintr safe interactive transactions in the presence of byzantine clients": {
     "checked": "2026-08-13",
     "url": null
@@ -267,12 +481,29 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "skyshare constellation wide sky sharing for leo radio astronomy coexistence": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2609.00821"
+  },
   "smaran serving authenticated time travel queries": {
     "checked": "2026-08-13",
     "url": null
   },
+  "sockeye bug finding and proofs for platform configurations and hardware based on reference manuals": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "sparsity aware scheduling for efficient moe based llm serving on edge servers": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "spatially selective radar backscatter communication": {
     "checked": "2026-08-13",
+    "url": null
+  },
+  "spatialmind spatially aware on device embodied ai via viewpoint integration": {
+    "checked": "2026-09-10",
     "url": null
   },
   "starfishos revisiting single system image on cxl with state partitioned microkernel": {
@@ -283,8 +514,16 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "streamep straggler tolerant moe decoding without communication barriers": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "supporting agents on streaming data via a forkable shared log": {
     "checked": "2026-08-13",
+    "url": null
+  },
+  "swimhr wearable free heart rate monitoring for swimmers via water mediated ecg sensing": {
+    "checked": "2026-09-10",
     "url": null
   },
   "sysx a unified analytics engine for secure multiparty computation": {
@@ -308,20 +547,53 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "taming inference workloads at global scale foundation model serving in amazon bedrock": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "taming inference workloads at global scale foundation model serving in systemx": {
     "checked": "2026-08-13",
+    "url": null
+  },
+  "tap3d thermal assisted 3d human point clouds": {
+    "checked": "2026-09-10",
     "url": null
   },
   "tensordex a compact tensor centric storage system for modern ai models": {
     "checked": "2026-08-13",
     "url": null
   },
+  "tensorhub scalable and elastic weight transfer for llm rl training": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2604.09107"
+  },
   "testing custom control planes without the cluster": {
     "checked": "2026-08-13",
     "url": null
   },
+  "thor fine grained per ue baseband routing in vran": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "tierce observability driven tiered memory management for colocated workloads": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "tuliptender a mobile 3d parkinson s disease assessment system using a single camera": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "turning linux into a high performance library os with flux": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "tuxbot semantic aware online os tuning with llms": {
     "checked": "2026-08-13",
+    "url": null
+  },
+  "ultralego a modular ultra wideband phased array platform for wireless sensing and localization": {
+    "checked": "2026-09-10",
     "url": null
   },
   "unlocking practical cardiac monitoring capabilities on true wireless stereo earbuds": {
@@ -340,8 +612,20 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "vastrack anchoring nocturnal drift for physics informed blood pressure monitoring": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "ventrilo from mobile bowel sound to precision gastrointestinal diagnostic": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "verifying a high performance distributed transaction system using permissioned state machines": {
     "checked": "2026-08-13",
+    "url": null
+  },
+  "viposer sparse imu based human pose estimation with distilled vision foundation priors": {
+    "checked": "2026-09-10",
     "url": null
   },
   "volistorm a crash consistent i o cache with two kernels instead of two caches": {
@@ -357,6 +641,14 @@
     "checked": "2026-08-13",
     "url": null
   },
+  "welder compositional liveness verification of cluster control planes": {
+    "checked": "2026-09-10",
+    "url": null
+  },
+  "when butterfly meets photoacoustic effect": {
+    "checked": "2026-09-10",
+    "url": null
+  },
   "when mobile tof meets micro vibration multi point khz frequency sensing using laser speckle": {
     "checked": "2026-08-13",
     "url": null
@@ -365,6 +657,15 @@
     "checked": "2026-09-10",
     "source": "semanticscholar",
     "url": "https://arxiv.org/abs/2602.18726"
+  },
+  "wideband real time adaptive full duplex radios": {
+    "checked": "2026-09-10",
+    "source": "semanticscholar",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3603269.3610853"
+  },
+  "xrloc3d single uwb receiver array for real time 3d localization": {
+    "checked": "2026-09-10",
+    "url": null
   },
   "xtra unifying cache coherence and concurrency control for distributed transactions in a cxl pod": {
     "checked": "2026-08-13",
