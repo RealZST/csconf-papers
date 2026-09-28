@@ -3,10 +3,12 @@ from __future__ import annotations
 import json
 import re
 import sys
+import unicodedata
 import urllib.parse
-from typing import Any, Dict, List, Optional
+from dataclasses import dataclass
+from typing import Any, Dict, List, Optional, Set
 
-from csconf.models import Author, Paper
+from csconf.models import Author, Paper, display_name
 
 # In September 2026 dblp.org put its whole website — TOC XML exports, search
 # API, and both mirrors included — behind Anubis proof-of-work bot protection,
@@ -94,6 +96,34 @@ SELECT DISTINCT ?toc WHERE {{
          dblp:listedOnTocPage ?toc .
 }} ORDER BY ?toc"""
 
+# Every paper by one person, with each author signature. It feeds the coauthor
+# check for researchers whose name is shared at their own school. An
+# unsuffixed name can still be shared: DBLP files some signatures under a
+# disambiguation page ("Haoyu Zhang", pid 168/0332) typed AmbiguousCreator,
+# and ?ambiguous marks those. ?creator must stay required: left unbound, that
+# check would join every AmbiguousCreator in DBLP (all 1440 live rows had one).
+_PERSON_PAPERS_QUERY = """\
+PREFIX dblp: <https://dblp.org/rdf/schema#>
+SELECT ?title ?primary ?name ?creator ?ambiguous WHERE {{
+  ?paper dblp:authoredBy <https://dblp.org/pid/{pid}> ;
+         dblp:title ?title ;
+         dblp:hasSignature ?sig .
+  OPTIONAL {{ ?paper dblp:primaryDocumentPage ?primary }}
+  ?sig dblp:signatureDblpName ?name ;
+       dblp:signatureCreator ?creator .
+  OPTIONAL {{ ?creator a dblp:AmbiguousCreator . BIND(true AS ?ambiguous) }}
+}}"""
+
+# A CoRR record points at arXiv in one of two shapes. Older records link the
+# abs page; newer ones carry arXiv's DataCite DOI instead
+# (https://doi.org/10.48550/ARXIV.2601.19160) and mention no arxiv.org URL
+# anywhere, in primaryDocumentPage or elsewhere. Matching the abs page alone
+# found 13 of Xin Jin's (68/3340-8) 55 CoRR records in September 2026 and none
+# newer than 2021 — exactly the recent ones the attribution window needs.
+_ARXIV_ID = re.compile(
+    r"(?:arxiv\.org/abs/|10\.48550/arxiv\.)(\d{4}\.\d{4,5})", re.IGNORECASE
+)
+
 
 class BadResponse(Exception):
     """The endpoint answered 200 with something that is not a SPARQL result.
@@ -111,6 +141,10 @@ def toc_query_url(toc_key: str) -> str:
 
 def stream_tocs_query_url(index_key: str) -> str:
     return _query_url(_STREAM_TOCS_QUERY.format(index_key=index_key))
+
+
+def person_papers_query_url(pid: str) -> str:
+    return _query_url(_PERSON_PAPERS_QUERY.format(pid=pid))
 
 
 def _query_url(query: str) -> str:
@@ -259,3 +293,51 @@ def parse_toc(json_text: str, venue: str, year: int) -> List[Paper]:
 def parse_stream_tocs(json_text: str) -> List[str]:
     """The TOC page IRIs of a stream, for volume discovery."""
     return [_value(row, "toc") for row in _bindings(json_text)]
+
+
+def norm_name(name: str) -> str:
+    """Compare names across DBLP and arXiv: fold accents, then keep only
+    letters. So 'Yu-Liang Liu' == 'Yuliang Liu', DBLP's 'Robert Soulé' ==
+    arXiv's 'Robert Soule', and the 0001-style suffix goes with the digits."""
+    return re.sub(r"[^a-z]", "", unicodedata.normalize("NFKD", name).lower())
+
+
+@dataclass
+class PersonProfile:
+    arxiv_ids: Set[str]
+    # Normalized name -> joint papers, only for names DBLP gives to one person
+    # (no homonym suffix, not a disambiguation page). Papers are counted by
+    # title, so a CoRR preprint and its published version are one paper.
+    coauthors: Dict[str, int]
+
+
+def parse_person_profile(json_text: str, pid: str) -> PersonProfile:
+    rows = _bindings(json_text)
+    # A mistyped or merged pid matches no records, and strict mode would then
+    # quietly reject every paper of the researcher.
+    if not rows:
+        raise BadResponse("no DBLP records for pid {}".format(pid))
+    me = _PID_PREFIX + pid
+    arxiv_ids: Set[str] = set()
+    papers: Dict[str, Set[str]] = {}
+    homonyms: Set[str] = set()
+    for row in rows:
+        found = _ARXIV_ID.search(_value(row, "primary") or "")
+        if found:
+            arxiv_ids.add(found.group(1))
+        name = _value(row, "name")
+        key = norm_name(name)
+        # A name with no Latin letters normalizes to "", and counting that
+        # would make every such coauthor the same person.
+        if _value(row, "creator") == me or not key:
+            continue
+        suffixed = display_name(name) != name
+        if suffixed or _value(row, "ambiguous"):
+            homonyms.add(key)
+        title = Paper(title=_value(row, "title"), authors=[], venue="", year=0).merge_key()
+        papers.setdefault(title, set()).add(key)
+    coauthors: Dict[str, int] = {}
+    for names in papers.values():
+        for key in names - homonyms:
+            coauthors[key] = coauthors.get(key, 0) + 1
+    return PersonProfile(arxiv_ids=arxiv_ids, coauthors=coauthors)

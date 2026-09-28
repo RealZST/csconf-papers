@@ -128,8 +128,11 @@ def render_readme(
         "| `data/index.json` | Which of those files exist, with a count and a "
         "checksum for each |",
         "| `papers/{year}/{VENUE}.md` | The same list, readable |",
-        "| `venues.yaml` | The only file maintained by hand: how each venue maps "
-        "to DBLP |",
+        "| `data/researchers.json` | Recent arXiv papers of the people in "
+        "`researchers.yaml`, refreshed every other Monday |",
+        "| `venues.yaml` | Maintained by hand: how each venue maps to DBLP |",
+        "| `researchers.yaml` | Maintained by hand: the tracked researchers and "
+        "how their papers are recognised |",
         "| `data/*-cache.json` | Lookup results, so a monthly run re-asks about "
         "new papers only |",
         "",
