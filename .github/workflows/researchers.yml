@@ -1,0 +1,91 @@
+name: Update researcher papers
+
+on:
+  schedule:
+    # Every other Monday. cron cannot say "every two weeks", so this fires
+    # weekly and the gate job lets only even ISO weeks through.
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  # Its own job, outside the concurrency group below: an odd-week run that
+  # joined the group only to do nothing could still replace, and so cancel, a
+  # monthly paper-list sync waiting there.
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.week.outputs.run }}
+    steps:
+      # A manual run always proceeds.
+      - name: Gate on even ISO weeks
+        id: week
+        run: |
+          week=$((10#$(date -u +%V)))
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ $((week % 2)) -ne 0 ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  researchers:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    # Shares the group with the monthly paper-list sync so the two never push over
+    # each other.
+    concurrency:
+      group: update-paper-lists
+      cancel-in-progress: false
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest
+
+      # A researcher who fails keeps their previous papers, so whatever
+      # succeeded is still worth committing.
+      - name: Sync researchers from arXiv
+        id: sync
+        run: python update.py researchers
+        continue-on-error: true
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/researchers.json
+          git diff --staged --quiet || git commit -m "data: researchers sync $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Open issue on failure
+        if: steps.sync.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const run = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Researcher sync reported failures on ${new Date().toISOString().slice(0, 10)}`,
+              body: [
+                'At least one researcher failed to sync; their previous papers were kept.',
+                '',
+                `Run log: ${run}`,
+                '',
+                'Usually arXiv or DBLP rate limiting or a transient empty page — re-run the',
+                'workflow. A "no DBLP records for pid" error means a `dblp_pid` in',
+                '`researchers.yaml` is wrong or was merged.',
+              ].join('\n'),
+            })
