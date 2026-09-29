@@ -128,8 +128,11 @@ def render_readme(
         "| `data/index.json` | Which of those files exist, with a count and a "
         "checksum for each |",
         "| `papers/{year}/{VENUE}.md` | The same list, readable |",
-        "| `venues.yaml` | The only file maintained by hand: how each venue maps "
-        "to DBLP |",
+        "| `data/researchers.json` | Recent arXiv papers of the people in "
+        "`researchers.yaml`, refreshed every other Monday |",
+        "| `venues.yaml` | Maintained by hand: how each venue maps to DBLP |",
+        "| `researchers.yaml` | Maintained by hand: the tracked researchers and "
+        "how their papers are recognised |",
         "| `data/*-cache.json` | Lookup results, so a monthly run re-asks about "
         "new papers only |",
         "",
@@ -201,6 +204,10 @@ def render_readme(
         "- README counts are read from the files on disk, never from the run, "
         "so a failed fetch cannot empty a cell that still has data behind it",
         "",
+        "`data/researchers.json` has its own Action, every other Monday. A "
+        "researcher whose sync fails keeps the papers they had, and the run "
+        "opens an issue.",
+        "",
         "## Coverage",
         "",
         "Editions appear as their publishers release them. Some are still "
@@ -258,12 +265,21 @@ def render_readme(
         "so the index always agrees with this repository but may lag the "
         "publisher until the next run.",
         "",
+        "`data/researchers.json` is not in the index; fetch it by that path. It "
+        "holds papers first submitted in the last 91 days (three months), not "
+        "all time, so keep the papers you have already seen. Each paper's "
+        "`attribution` says how it was tied to the person: `name`, "
+        "`school`, `coauthor` or `school+coauthor`, following their `match` in "
+        "`researchers.yaml`.",
+        "",
         "## Sources",
         "",
         "Metadata from [DBLP](https://dblp.org). Preprint and link matching via "
         "the [Semantic Scholar](https://www.semanticscholar.org/product/api) "
         "Academic Graph API. Conference sites are used only for editions DBLP "
-        "has not indexed yet.",
+        "has not indexed yet. Researcher papers from the "
+        "[arXiv API](https://info.arxiv.org/help/api/) and arXiv's HTML "
+        "author blocks, with DBLP records for the coauthor check.",
     ]
 
     lines.append("")

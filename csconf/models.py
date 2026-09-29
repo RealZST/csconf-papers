@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
 
 # DBLP appends a four-digit suffix to tell apart different people who share a
@@ -124,3 +124,21 @@ class Paper:
         """
         lowered = self.title.lower()
         return _SPACE.sub(" ", _PUNCT.sub(" ", lowered)).strip()
+
+
+# How a tracked researcher is told apart from homonyms on arXiv; the meaning of
+# each mode is documented in researchers.yaml. Researcher lives here rather than
+# in researchers.py because attribution.py needs it and researchers.py imports
+# attribution — keeping it in this leaf module avoids an import cycle.
+MATCH_MODES = ("name", "school", "strict")
+
+
+@dataclass
+class Researcher:
+    slug: str
+    name: str
+    dblp_pid: str
+    affiliation: str
+    known_for: str
+    match: str
+    schools: List[str] = field(default_factory=list)

@@ -1,0 +1,86 @@
+# Researchers whose recent arXiv papers are tracked for paper-viewer's
+# Researchers page. Focus: LLM/AI systems (serving, training systems, efficient
+# inference, OS and infrastructure for AI, agent systems).
+#
+# match:
+#   name    the name is unique among DBLP authors; a cs paper under the name is theirs
+#   school  homonyms exist elsewhere; the arXiv HTML author block must name the school
+#   strict  a homonym works at the same school; school AND a known DBLP coauthor
+# schools: regular expressions tried against the HTML author block.
+#   Keep them in single quotes: in double quotes YAML turns \b into a backspace.
+researchers:
+  - slug: ion-stoica
+    name: Ion Stoica
+    dblp_pid: s/IonStoica
+    affiliation: UC Berkeley
+    known_for: Spark, Ray, vLLM · co-founded Databricks and Anyscale
+    match: name
+  - slug: matei-zaharia
+    name: Matei Zaharia
+    dblp_pid: 36/2133
+    affiliation: UC Berkeley
+    known_for: Created Apache Spark · Databricks CTO
+    match: name
+  - slug: christos-kozyrakis
+    name: Christos Kozyrakis
+    dblp_pid: k/ChristoforosEKozyrakis
+    affiliation: Stanford
+    known_for: Computer architecture and datacenter systems
+    match: name
+  - slug: tianqi-chen
+    name: Tianqi Chen
+    dblp_pid: 94/8023-1
+    affiliation: Carnegie Mellon
+    known_for: XGBoost, TVM, MXNet
+    match: school
+    schools: ['\bCMU\b', 'Carnegie Mellon']
+  - slug: zhihao-jia
+    name: Zhihao Jia
+    # A DBLP disambiguation page: several Zhihao Jias publish in cs, and DBLP
+    # has no pid for this one alone. A paper without an HTML author block is
+    # judged against this mixed profile.
+    dblp_pid: 129/3026
+    affiliation: Carnegie Mellon
+    known_for: FlexFlow, TASO, SpecInfer
+    match: school
+    schools: ['\bCMU\b', 'Carnegie Mellon']
+  - slug: song-han
+    name: Song Han
+    dblp_pid: 80/806-3
+    affiliation: MIT
+    known_for: Deep Compression, AWQ, SmoothQuant
+    match: school
+    schools: ['\bMIT\b', 'Massachusetts Institute of Technology']
+  - slug: arvind-krishnamurthy
+    name: Arvind Krishnamurthy
+    dblp_pid: k/AKrishnamurthy
+    affiliation: University of Washington
+    known_for: Networked and distributed systems
+    match: name
+  - slug: minlan-yu
+    name: Minlan Yu
+    dblp_pid: 89/6345
+    affiliation: Harvard
+    known_for: Datacenter networking
+    match: name
+  - slug: haibo-chen
+    name: Haibo Chen
+    dblp_pid: 31/6601-1
+    affiliation: Shanghai Jiao Tong University
+    known_for: Operating systems (IPADS) · HarmonyOS kernel
+    match: school
+    schools: ['\bSJTU\b', 'Shanghai Jiao ?[Tt]ong']
+  - slug: xin-jin
+    name: Xin Jin
+    dblp_pid: 68/3340-8
+    affiliation: Peking University
+    known_for: Programmable networks · NetCache
+    match: strict
+    schools: ['\bPKU\b', 'Peking University']
+  - slug: chuan-wu
+    name: Chuan Wu
+    dblp_pid: 34/3772-1
+    affiliation: The University of Hong Kong
+    known_for: Distributed machine learning systems
+    match: school
+    schools: ['\bHKU\b', '(?<!Chinese )(?<!City )(?<!Education )(?<!Open )(?<!Seng )University of Hong Kong']

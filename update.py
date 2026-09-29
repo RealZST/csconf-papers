@@ -11,6 +11,7 @@ from pathlib import Path
 import requests
 
 from csconf import dblp, enrich, http, pdf, preprint, render, store, venues as venues_mod
+from csconf import researchers as researchers_mod
 from csconf.models import Paper
 from csconf.sync import MappingDrift, sync_venue_year
 
@@ -228,6 +229,59 @@ def cmd_sync(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_researchers(args: argparse.Namespace) -> int:
+    """Refresh data/researchers.json with the tracked people's recent arXiv papers.
+
+    The file is written even when some researchers fail: those keep the papers
+    they already had, and the others should not wait for them.
+    """
+    researchers = researchers_mod.load_researchers(str(ROOT / "researchers.yaml"))
+    # Read before the network loop, so a corrupt file fails in seconds, not
+    # after half an hour of throttled requests whose results it would then lose.
+    path = ROOT / "data" / "researchers.json"
+    previous = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+    today = dt.date.today()
+    since = (today - dt.timedelta(days=researchers_mod.LOOKBACK_DAYS)).isoformat()
+    # Not enrich.build_session(): that one carries the Semantic Scholar API key
+    # when it is set, and the key must not be sent to arXiv or DBLP.
+    session = requests.Session()
+    session.headers["User-Agent"] = (
+        "csconf-papers/0.1 (+https://github.com/RealZST/csconf-papers)"
+    )
+    # arXiv asks API clients to leave at least 3 seconds between calls.
+    fetcher = http.Fetcher(session=session, throttle_seconds=3.0)
+
+    fresh = {}
+    failures = []
+    for researcher in researchers:
+        try:
+            synced = researchers_mod.sync_researcher(researcher, fetcher, since)
+        except (
+            ValueError,
+            http.HttpError,
+            http.RateLimited,
+            dblp.BadResponse,
+            requests.RequestException,
+        ) as exc:
+            failures.append("{}: {}".format(researcher.slug, exc))
+            print("FAIL {}: {}".format(researcher.slug, exc), file=sys.stderr)
+            continue
+        fresh[researcher.slug] = synced.papers
+        print("{}: {} papers ({} candidates, {} without HTML)".format(
+            researcher.slug, len(synced.papers), synced.candidates, synced.without_html,
+        ))
+
+    feed = researchers_mod.merge_feed(previous, researchers, fresh, today.isoformat())
+    path.write_text(json.dumps(feed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    if failures:
+        print("\n{} researchers failed:".format(len(failures)), file=sys.stderr)
+        for line in failures:
+            print("  - " + line, file=sys.stderr)
+        return 1
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -271,6 +325,11 @@ def main() -> int:
     )
     enrich_parser.add_argument("--today", help="override the cache check date")
     enrich_parser.set_defaults(func=cmd_enrich)
+
+    researchers_parser = sub.add_parser(
+        "researchers", help="refresh the tracked researchers' recent arXiv papers"
+    )
+    researchers_parser.set_defaults(func=cmd_researchers)
 
     args = parser.parse_args()
     return args.func(args)
