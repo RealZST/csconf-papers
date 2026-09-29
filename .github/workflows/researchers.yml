@@ -20,12 +20,15 @@ jobs:
     outputs:
       run: ${{ steps.week.outputs.run }}
     steps:
-      # A manual run always proceeds.
+      # A manual run always proceeds. A scheduled one also skips the 1st, when
+      # the monthly paper-list sync starts: queued behind this job, that sync
+      # would push from a commit main has moved past and be rejected.
       - name: Gate on even ISO weeks
         id: week
         run: |
           week=$((10#$(date -u +%V)))
-          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ $((week % 2)) -ne 0 ]; then
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] &&
+             { [ $((week % 2)) -ne 0 ] || [ "$(date -u +%d)" = "01" ]; }; then
             echo "run=false" >> "$GITHUB_OUTPUT"
           else
             echo "run=true" >> "$GITHUB_OUTPUT"
@@ -36,8 +39,8 @@ jobs:
     if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 45
-    # Shares the group with the monthly paper-list sync so the two never push over
-    # each other.
+    # Shares the group with the monthly paper-list sync so the two never run at
+    # once: both query DBLP.
     concurrency:
       group: update-paper-lists
       cancel-in-progress: false
@@ -67,6 +70,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/researchers.json
           git diff --staged --quiet || git commit -m "data: researchers sync $(date -u +%Y-%m-%d)"
+          # The checkout is the commit this run was triggered on, which main
+          # may have moved past (a re-run, or a run queued behind the monthly
+          # sync). Only this workflow writes data/researchers.json, so the
+          # rebase cannot conflict.
+          git pull --rebase origin main
           git push
 
       - name: Open issue on failure
@@ -84,8 +92,9 @@ jobs:
                 '',
                 `Run log: ${run}`,
                 '',
-                'Usually arXiv or DBLP rate limiting or a transient empty page — re-run the',
-                'workflow. A "no DBLP records for pid" error means a `dblp_pid` in',
+                'Usually arXiv or DBLP rate limiting or a transient empty page — start the',
+                'workflow again with "Run workflow" on the Actions tab. A "no DBLP records',
+                'for pid" error means a `dblp_pid` in',
                 '`researchers.yaml` is wrong or was merged.',
               ].join('\n'),
             })

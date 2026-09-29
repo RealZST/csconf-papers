@@ -297,6 +297,12 @@ def test_merge_keeps_the_papers_of_a_researcher_whose_sync_failed():
     assert [p["arxiv_id"] for p in _papers_of(feed, "b")] == ["2609.00002"]
 
 
+def test_merge_leaves_out_a_new_researcher_whose_first_sync_failed():
+    previous = _feed_file({"a": [_paper("2609.00001")]})
+    feed = merge_feed(previous, [_person("a"), _person("new")], {"a": []}, "2026-09-28")
+    assert [r["slug"] for r in feed["researchers"]] == ["a"]
+
+
 def test_merge_drops_a_researcher_gone_from_the_yaml():
     previous = _feed_file({"a": [_paper("2609.00001")], "gone": [_paper("2609.00002")]})
     feed = merge_feed(previous, [_person("a")], {}, "2026-09-28")
@@ -304,7 +310,7 @@ def test_merge_drops_a_researcher_gone_from_the_yaml():
 
 
 def test_merge_orders_researchers_as_the_yaml_and_papers_newest_first():
-    fresh = {"a": [
+    fresh = {"b": [], "a": [
         _paper("2608.00009", "2026-08-30"),
         _paper("2609.00001", "2026-09-02"),
         _paper("2609.00002", "2026-09-02"),

@@ -163,14 +163,17 @@ def merge_feed(
     A rolling window, not an archive: paper-viewer keeps every paper in its own
     database, so the file only has to cover LOOKBACK_DAYS. `fresh` holds only
     the researchers that synced, and they get exactly this run's papers; one
-    that failed keeps its previous papers. A researcher gone from
-    researchers.yaml goes from the file, and everything but the papers comes
-    from the yaml.
+    that failed keeps its previous papers. One that has never synced is left
+    out, so no reader mistakes it for someone with no recent papers. A
+    researcher gone from researchers.yaml goes from the file, and everything
+    but the papers comes from the yaml.
     """
     old = {item["slug"]: item["papers"] for item in (previous or {}).get("researchers", [])}
     items = []
     for researcher in researchers:
-        papers = fresh.get(researcher.slug, old.get(researcher.slug, []))
+        papers = fresh.get(researcher.slug, old.get(researcher.slug))
+        if papers is None:
+            continue
         items.append({
             "slug": researcher.slug,
             "name": researcher.name,

@@ -36,10 +36,14 @@ researchers:
     schools: ['\bCMU\b', 'Carnegie Mellon']
   - slug: zhihao-jia
     name: Zhihao Jia
+    # A DBLP disambiguation page: several Zhihao Jias publish in cs, and DBLP
+    # has no pid for this one alone. A paper without an HTML author block is
+    # judged against this mixed profile.
     dblp_pid: 129/3026
     affiliation: Carnegie Mellon
     known_for: FlexFlow, TASO, SpecInfer
-    match: name
+    match: school
+    schools: ['\bCMU\b', 'Carnegie Mellon']
   - slug: song-han
     name: Song Han
     dblp_pid: 80/806-3
