@@ -17,9 +17,10 @@ from csconf.attribution import author_position, decide, is_candidate
 from csconf.http import NotFound
 from csconf.models import MATCH_MODES, Researcher
 
-# The page shows about three months. The extra weeks cover one failed run of
-# the every-other-week job: the next run still reaches back over its window.
-LOOKBACK_DAYS = 120
+# The three months paper-viewer's Researchers page shows. A failed run needs no
+# margin: paper-viewer keeps every paper it has seen, so a paper only has to be
+# caught by one successful run while it is still inside the window.
+LOOKBACK_DAYS = 91
 
 
 def load_researchers(path: str) -> List[Researcher]:

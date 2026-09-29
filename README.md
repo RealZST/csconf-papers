@@ -108,9 +108,9 @@ It is rebuilt from the files on disk by every command that writes one, so it des
 
 Two things it does not promise. **`updated` is not a content checksum**: it records when the list was collected from DBLP, and filling in links refetches nothing, so links and PDF URLs can be added to a file without that date moving. Use `sha256` to detect a change. And a venue whose sync failed keeps its previous count and checksum, so the index always agrees with this repository but may lag the publisher until the next run.
 
-`data/researchers.json` is not in the index; fetch it by that path. It covers the last 120 days, not all time, so keep the papers you have already seen: one that leaves the file has aged out of the window. Each paper's `attribution` says how it was tied to the person: `name`, `school`, `coauthor` or `school+coauthor`, following their `match` in `researchers.yaml`.
+`data/researchers.json` is not in the index; fetch it by that path. It holds papers first submitted in the last 91 days (three months), not all time, so keep the papers you have already seen. Each paper's `attribution` says how it was tied to the person: `name`, `school`, `coauthor` or `school+coauthor`, following their `match` in `researchers.yaml`.
 
 ## Sources
 
-Metadata from [DBLP](https://dblp.org). Preprint and link matching via the [Semantic Scholar](https://www.semanticscholar.org/product/api) Academic Graph API. Conference sites are used only for editions DBLP has not indexed yet. Researcher papers from the [arXiv API](https://info.arxiv.org/help/api/) and arXiv's HTML author blocks, with DBLP for coauthors.
+Metadata from [DBLP](https://dblp.org). Preprint and link matching via the [Semantic Scholar](https://www.semanticscholar.org/product/api) Academic Graph API. Conference sites are used only for editions DBLP has not indexed yet. Researcher papers from the [arXiv API](https://info.arxiv.org/help/api/) and arXiv's HTML author blocks, with DBLP records for the coauthor check.
 

@@ -266,9 +266,9 @@ def render_readme(
         "publisher until the next run.",
         "",
         "`data/researchers.json` is not in the index; fetch it by that path. It "
-        "covers the last 120 days, not all time, so keep the papers you have "
-        "already seen: one that leaves the file has aged out of the window. Each "
-        "paper's `attribution` says how it was tied to the person: `name`, "
+        "holds papers first submitted in the last 91 days (three months), not "
+        "all time, so keep the papers you have already seen. Each paper's "
+        "`attribution` says how it was tied to the person: `name`, "
         "`school`, `coauthor` or `school+coauthor`, following their `match` in "
         "`researchers.yaml`.",
         "",
@@ -279,7 +279,7 @@ def render_readme(
         "Academic Graph API. Conference sites are used only for editions DBLP "
         "has not indexed yet. Researcher papers from the "
         "[arXiv API](https://info.arxiv.org/help/api/) and arXiv's HTML "
-        "author blocks, with DBLP for coauthors.",
+        "author blocks, with DBLP records for the coauthor check.",
     ]
 
     lines.append("")
