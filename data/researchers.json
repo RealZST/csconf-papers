@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-28",
+  "generated": "2026-09-29",
   "researchers": [
     {
       "slug": "ion-stoica",
@@ -252,98 +252,6 @@
           "primary_category": "cs.AI",
           "position": 8,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2606.26429",
-          "title": "DualEval: Joint Model-Item Calibration for Unified LLM Evaluation",
-          "abstract": "Current LLM evaluation relies on two complementary but often disconnected signals: static benchmarks with objective correctness labels and arena-style preference data that better reflect open-ended user interactions. We introduce DualEval, a latent model-item calibration framework that represents models and evaluation items in a shared space, jointly estimating model ability together with item difficulty and sharpness. We apply DualEval across four domains: coding, math, miscellaneous domain-knowledge tasks, and generic everyday user queries. Our evaluation uses 18 frontier LLMs, static benchmark labels, and reward-model scores validated against held-out human preferences for open-ended model responses. Empirically, our framework produces reliable and balanced model rankings, and its learned item-level profiles support downstream applications such as benchmark compression for sample-efficient evaluation and anomaly detection for contamination or outlier analysis. Overall, DualEval unifies static and arena-style evaluation through joint model-item calibration, producing model rankings and item-level diagnostics that support more sample-efficient, interpretable, and auditable evaluation pipelines.",
-          "authors": [
-            "Aaron J. Li",
-            "Hao Huang",
-            "Youngmin Park",
-            "Yitong Ma",
-            "Wei-Lin Chiang",
-            "Li Chen",
-            "Cho-Jui Hsieh",
-            "Bin Yu",
-            "Ion Stoica"
-          ],
-          "published": "2026-06-24",
-          "primary_category": "cs.LG",
-          "position": 9,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2606.21633",
-          "title": "HERALD: High-Throughput Block Diffusion LLM Serving via CPU-GPU Cooperative KV Cache Retrieval",
-          "abstract": "The KV cache dominates GPU memory in long-context LLM serving, crowding out batch capacity and leaving GPU compute idle. Offloading the cache to CPU DRAM restores capacity, but the limited PCIe bandwidth forces state-of-the-art offloading systems to pair it with sparse attention, fetching only a small critical subset of the cache to the GPU. These systems, however, follow the KV access pattern of autoregressive decoding, in which the critical set changes at every token: selection and fetching recur at every decoding step, and throughput remains capped by PCIe bandwidth rather than by either processor. Block diffusion LLMs(block dLLMs), which decode a block of B tokens over T denoising steps, exhibit a different KV access pattern that opens a new opportunity for offloading. Recent sparse block dLLM methods have shown that sparse inference separates into a selection phase that scans the full KV cache once per block and a denoising phase that reuses the selected small subset T times. This asymmetry aligns with the compute and memory asymmetry of a CPU-GPU system, making it advantageous to run selection on the CPU and denoising on the GPU: the critical KV cache then crosses PCIe only once per block, removing the interconnect as the bottleneck. We present HERALD, to our knowledge the first KV offloading system designed for block dLLMs. HERALD resolves the two obstacles of this mapping, the serialized dependency between the phases and the compute-bound B-query selection on the CPU, by overlapping the phases with a draft block, reducing the selection cost with a single [MASK] query, and executing both as a dual-stream pipeline over double-buffered sparse KV pools. On two production block dLLMs, HERALD sustains near-lossless accuracy at a 5% KV budget and reaches up to 2.28x the decode throughput of GPU-only serving, with gains that widen with context length.",
-          "authors": [
-            "Omin Kwon",
-            "Doyeon Kim",
-            "Jongseok Park",
-            "Seung Yul Lee",
-            "Ion Stoica",
-            "Jae W. Lee"
-          ],
-          "published": "2026-06-19",
-          "primary_category": "cs.LG",
-          "position": 5,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2606.19419",
-          "title": "Playful Agentic Robot Learning",
-          "abstract": "Current agentic robot systems can write executable Code-as-Policy programs, observe feedback, and revise behavior across multiple attempts, but they remain largely task-driven: reusable skills are acquired only after explicit instructions. We study Playful Agentic Robot Learning, where an embodied coding agent uses self-directed play as a continual skill-learning stage before downstream tasks arrive. We introduce RATs, Robotics Agent Teams designed for play-time skill acquisition. During play, RATs proposes novel yet learnable exploratory tasks, plans and executes robot-code policies, verifies intermediate progress, diagnoses failures, retries with dense, step-level feedback, and distills successful executions into a persistent code skill library. At test time, the agent reuses relevant skills from this frozen library to help solve new tasks. Experiments in LIBERO-PRO and MolmoSpaces show that play-learned skills improve held-out downstream tasks over no-play and random-play baselines, with 20.6 and 17.0 percentage-point gains over CaP-Agent0 on LIBERO-PRO and MolmoSpaces, respectively. Moreover, the learned skills can be plugged into other inference-time Code-as-Policy agents by simply retrieving them into the context, improving RoboSuite and real-world transfer by 8.9 and 8.8 points, respectively, without finetuning the underlying model.",
-          "authors": [
-            "Junyi Zhang",
-            "Jiaxin Ge",
-            "Hanjun Yoo",
-            "Letian Fu",
-            "Zihan Yang",
-            "Yaowei Liu",
-            "Raj Saravanan",
-            "Shaofeng Yin",
-            "Justin Yu",
-            "Dantong Niu",
-            "Zirui Wang",
-            "Roei Herzig",
-            "Ken Goldberg",
-            "Yutong Bai",
-            "David M. Chan",
-            "Ion Stoica",
-            "Angjoo Kanazawa",
-            "Jiahui Lei",
-            "Haiwen Feng",
-            "Trevor Darrell"
-          ],
-          "published": "2026-06-17",
-          "primary_category": "cs.RO",
-          "position": 16,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2606.01286",
-          "title": "BenchEvolver: Frontier Task Synthesis via Solution-Centric Evolution",
-          "abstract": "The rapid progress of frontier large language models has led to widespread benchmark saturation, limiting the ability of existing datasets to differentiate model capabilities or provide useful training signal. For instance, on LiveCodeBench, frontier models achieve over 99% Pass@1 on easy splits and exceed 90% Pass@1 on average across difficulty levels. Constructing new, challenging datasets typically requires substantial human effort, creating a bottleneck for progress. We introduce BenchEvolver, a solution-centric evolutionary framework that automatically transforms existing coding problems into harder variants. Rather than generating problems from scratch, BenchEvolver evolves reference solutions through structured transformations and derives corresponding statements and tests from the evolved solutions. This design grounds generation in executable semantics, enabling scalable construction of high-quality, diverse, and difficult tasks with verifiable correctness. Applying BenchEvolver to LiveCodeBench and SciCode, we obtain evolved tasks that are substantially harder while maintaining validity, reference correctness, and diversity. We further curate LiveCodeBench-Plus, a 91-problem benchmark combining evolved and difficult original LCB-v6 tasks, where frontier-model Pass@1 ranges from 27.5% to 62.6%, restoring clear discrimination among strong coding models. Importantly, evolved tasks remain challenging even for the model that generates them, enabling self-improvement. We further show that RL on evolved LCB tasks improves held-out coding performance: for gpt-oss-20b, seed+evolved training achieves +8.7 and +8.3 Pass@1 gains on LCB v6 Hard and LCB-Pro Easy, exceeding seed-only gains by 70.7% and 34.8%, respectively. Our results show that BenchEvolver can convert saturated benchmarks into frontier-level evaluation suites and reusable training signal.",
-          "authors": [
-            "Yangzhen Wu",
-            "Aaron J. Li",
-            "Wenjie Ma",
-            "Li Cao",
-            "Ziheng Zhou",
-            "Mert Cemri",
-            "Shu Liu",
-            "Yuran Xiu",
-            "Chenxiao Yan",
-            "Haikun Zhao",
-            "Bin Yu",
-            "Ion Stoica",
-            "Dawn Song"
-          ],
-          "published": "2026-05-31",
-          "primary_category": "cs.SE",
-          "position": 12,
-          "attribution": "name"
         }
       ]
     },
@@ -467,63 +375,6 @@
           "primary_category": "cs.LG",
           "position": 5,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2606.16458",
-          "title": "RHO: Your Coding Agent is Secretly a Roboticist",
-          "abstract": "Code-as-Policies (CaP) has shown that large language models (LLMs) can write code to solve robotics tasks by composing perception, planning, and control primitives. Recent CaP systems, however, rely on multi-turn code-generation loops at test time, which is often infeasible for real-time robot control. We introduce Robotics Harness Optimization (RHO), a novel paradigm in which tool-enabled coding agents, at training time, propose and search for interpretable, neurosymbolic multi-file policy repositories (Repositories-as-Policies) that compose these primitives rather than a single prompt, function, or file. RHO searches with reflective feedback from environment reward and execution rather than teleoperation demonstrations. It generalizes to perturbed pick-and-place settings like LIBERO-PRO, where OpenVLA scores 0.0% and $π_{0.5}$ averages 12.83%. Using the same low-level primitives, RHO reaches a 45.0% success rate, 2.5x higher than the strongest multi-turn agentic system, and 3.5x higher than $π_{0.5}$. On Robosuite, RHO sets a new state-of-the-art of 70.0%, exceeding the prior multi-turn record of 68.29% using single-turn execution with no corrective LLM code edits at deployment. When an LLM is used in the control loop, as on RAI's O3DE benchmark, RHO optimizes the deployed agent's multi-file harness of prompts, tools, and control code, improving held-out success from 23.5% to 44.3% with 20% less wall-clock time and 27% fewer tool calls.",
-          "authors": [
-            "Karim Elmaaroufi",
-            "Justin Svegliato",
-            "Sarunas Kalade",
-            "Graham Schelle",
-            "Sanjit A. Seshia",
-            "Matei Zaharia"
-          ],
-          "published": "2026-06-15",
-          "primary_category": "cs.RO",
-          "position": 6,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2606.05661",
-          "title": "Continual Learning Bench: Evaluating Frontier AI Systems in Real-World Stateful Environments",
-          "abstract": "Continual learning, the ability of AI systems to improve through sequential experience, has attracted substantial interest, but no high-quality benchmark exists to evaluate it. We introduce Continual Learning Bench (CL-Bench), the first difficult, expert-validated benchmark designed to measure whether LLM-based systems genuinely improve with experience. CL-Bench spans six diverse domains (software engineering, signal processing, disease outbreak forecasting, database querying, strategic game-playing, and demand forecasting), each validated by domain experts and designed so that tasks share a learnable latent structure (codebase layout, disease outbreak dynamics, opponent strategies) that a stateful system can discover online but a stateless one cannot. We evaluate frontier models across several agent architectures, from naive in-context learning (ICL) to dedicated memory systems, introducing a gain metric to isolate learning from prior capabilities. We find that these systems leave headroom for improved continual learning: agents frequently overfit to immediate observations or fail to reuse knowledge across instances, and dedicated memory systems do not fix this -- in fact, naive ICL outperforms systems dedicated to memory management. CL-Bench is the first benchmark to evaluate continual learning across diverse real-world domains with expert-validated tasks and isolate online learning from underlying model capability, showing a need for better continual learning systems.",
-          "authors": [
-            "Parth Asawa",
-            "Christopher M. Glaze",
-            "Gabriel Orlanski",
-            "Ramya Ramakrishnan",
-            "Benji Xu",
-            "Asim Biswal",
-            "Vincent Sunn Chen",
-            "Frederic Sala",
-            "Matei Zaharia",
-            "Joseph E. Gonzalez"
-          ],
-          "published": "2026-06-04",
-          "primary_category": "cs.AI",
-          "position": 9,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2606.28344",
-          "title": "PIXELRAG: Web Screenshots Beat Text for Retrieval-Augmented Generation",
-          "abstract": "Augmenting large language models (LLMs) with retrieved web text has become a dominant paradigm, yet the web is not natively textual: existing systems depend on complex parsing pipelines that linearize HTML and discard layout, visual structure, and formatting. We introduce PixelRAG, a new retrieval-augmented method that represents websites in their native visual form and performs retrieval and reading entirely in pixel space, enabling an end-to-end architecture that eliminates text abstraction. PixelRAG is, to our knowledge, the first pipeline to operate over a full Wikipedia corpus in this form, scaling to a datastore of 30 million screenshot images with an efficient visual retrieval index. Built on an existing visual embedding model (i.e., Qwen3-VL-Embedding), PixelRAG further fine-tunes this model on screenshot data with carefully curated contrastive training data. Retrieved screenshots are then fed directly as pixel inputs to a VLM, without intermediate text conversion. PixelRAG consistently outperforms both no-retrieval and text-based RAG baselines, most surprisingly on widely studied text-centric tasks such as NQ and SimpleQA. It also achieves strong gains on multimodal open-domain QA (e.g., MMSearch), benchmarks over noisy news corpora (e.g., LiveVQA), and agentic benchmarks (e.g., MoNaCo), improving accuracy by up to 18.1% over text-based baselines. Finally, pixel representations enable a new efficiency lever for RAG through image compression, achieving up to 3x token cost reduction at lower resolutions while maintaining accuracy. Our results challenge the necessity of text representations in web retrieval, suggesting that web RAG can operate directly in the web's native visual form while improving both performance and efficiency.",
-          "authors": [
-            "Yichuan Wang",
-            "Zhifei Li",
-            "Zirui Wang",
-            "Paul Teiletche",
-            "Lesheng Jin",
-            "Matei Zaharia",
-            "Joseph E. Gonzalez",
-            "Sewon Min"
-          ],
-          "published": "2026-06-01",
-          "primary_category": "cs.IR",
-          "position": 6,
-          "attribution": "name"
         }
       ]
     },
@@ -634,29 +485,6 @@
           "primary_category": "cs.RO",
           "position": 8,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2606.26383",
-          "title": "SOLAR: AI-Powered Speed-of-Light Performance Analysis",
-          "abstract": "How fast could a deep-learning model run on target hardware, and how far is today's implementation from that limit? These questions are central to software, hardware, and algorithm optimizations. Speed-of-Light (SOL) analysis answers them by computing a workload's theoretical minimum execution time on a given architecture. Yet deriving SOL bounds remains manual, error-prone, and disconnected from rapid model development. To close this gap, we introduce SOLAR, a framework that automatically derives validated SOL bounds from PyTorch and JAX source code. SOLAR leverages both generative and deterministic components in its flow: an LLM frontend translates any source programs into an executable Affine Loop IR, validated by output comparison; a deterministic flow lifts the IR into an einsum graph; and an analytical backend computes unfused, fused, and cache-aware SOL bounds. SOLAR provides comprehensive operator and language coverage, produces validated bounds with zero observed SOL violations, and offers multi-fidelity analysis that tightens bounds and surfaces optimization insights. We evaluate SOLAR across KernelBench, JAX/Flax models, and robotics workloads. These experiments demonstrate four use cases: headroom analysis at multiple fidelity levels, identifying optimization opportunities, cross-platform exploration, and inverse-roofline hardware provisioning.",
-          "authors": [
-            "Qijing Huang",
-            "Sana Damani",
-            "Zhifan Ye",
-            "Athinagoras Skiadopoulos",
-            "Siva Kumar Sastry Hari",
-            "Jason Clemons",
-            "Sahil Modi",
-            "Jingquan Wang",
-            "Aditya Kane",
-            "Edward C Lin",
-            "Humphrey Shi",
-            "Christos Kozyrakis"
-          ],
-          "published": "2026-06-24",
-          "primary_category": "cs.LG",
-          "position": 12,
-          "attribution": "name"
         }
       ]
     },
@@ -720,26 +548,7 @@
           "published": "2026-09-13",
           "primary_category": "cs.DC",
           "position": 12,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2606.06453",
-          "title": "Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents",
-          "abstract": "Sparse attention is becoming increasingly important for serving large language models (LLMs) as generation lengths continue to grow. However, deploying and evaluating new sparse attention algorithms at scale remains highly engineering-intensive, slowing both human researchers and AI agents in exploring the sparse attention design. To address this challenge, we present Vortex, a system that combines a Python-embedded frontend language atop a page-centric tensor abstraction for expressing a broad range of sparse attention algorithms, with an efficient backend tightly integrated into modern LLM serving stacks. Vortex enables rapid prototyping, deployment, and evaluation of sparse attention algorithms, effectively translating their theoretical efficiency gains into real-world throughput improvements. As a result, Vortex substantially accelerates the design and iteration of sparse attention algorithms. First, AI agents use Vortex to automatically generate and refine diverse algorithms, the best reaching up to $3.46\\times$ higher throughput than full attention while preserving accuracy. Second, Vortex extends sparse attention to emerging architectures and very large models that are otherwise hard to experiment with, reaching up to $4.7\\times$ higher throughput on the MLA-based GLM-4.7-Flash and $1.37\\times$ on the 229B-parameter MiniMax-M2.7 on NVIDIA B200 GPUs.",
-          "authors": [
-            "Zhuoming Chen",
-            "Xinrui Zhong",
-            "Qilong Feng",
-            "Ranajoy Sadhukhan",
-            "Yang Zhou",
-            "Michael Qizhe Shieh",
-            "Zhihao Jia",
-            "Beidi Chen"
-          ],
-          "published": "2026-06-04",
-          "primary_category": "cs.AI",
-          "position": 7,
-          "attribution": "name"
+          "attribution": "school"
         }
       ]
     },
@@ -749,6 +558,20 @@
       "affiliation": "MIT",
       "known_for": "Deep Compression, AWQ, SmoothQuant",
       "papers": [
+        {
+          "arxiv_id": "2609.35362",
+          "title": "d-OPD: Future-Aware On-Policy Distillation for Block Diffusion Language Models",
+          "abstract": "Large language models (LLMs) typically generate text autoregressively (AR), predicting one token at a time. Block diffusion language models (dLLMs) instead generate blocks sequentially while denoising multiple tokens in parallel within each block, offering a promising way to accelerate generation. Rather than training such models from scratch, recent work adapts strong pretrained AR models into block dLLMs through distillation. On-policy distillation (OPD) has been widely used for LLM training because it supervises the student on states generated by its current policy, rather than only on fixed offline trajectories. By training on the states the student actually visits, it reduces the mismatch between training and generation and can provide more relevant supervision as the student evolves. Recent work has extended this idea to AR-to-block-diffusion conversion. However, this setting introduces a fundamental mismatch in supervision: the block-diffusion student and the causal AR teacher condition on different information at the same training state. The student predicts from the entire partially denoised block, including visible future context, whereas the standard AR teacher target is defined only from the causal prefix. As a result, the teacher distribution used for distillation is not fully aligned with the information available to the student. We therefore introduce d-OPD, a future-aware on-policy distillation method that corrects the AR teacher distribution to better align with the student-visible state by incorporating visible future information within each block, providing supervision that better matches the information used by the student. Across Qwen3 models from 0.6B to 8B, d-OPD improves the six-benchmark average by up to $4.0$ points over OPDLM and reduces training time by $1.35$-$1.58\\times$. The code is available at https://github.com/mit-han-lab/d-OPD.",
+          "authors": [
+            "Ruitao Liu",
+            "Qinghao Hu",
+            "Song Han"
+          ],
+          "published": "2026-09-28",
+          "primary_category": "cs.LG",
+          "position": 3,
+          "attribution": "school"
+        },
         {
           "arxiv_id": "2609.20519",
           "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
@@ -849,38 +672,6 @@
           "primary_category": "cs.LG",
           "position": 9,
           "attribution": "school"
-        },
-        {
-          "arxiv_id": "2606.04511",
-          "title": "SparDA: Sparse Decoupled Attention for Efficient Long-Context LLM Inference",
-          "abstract": "Sparse attention reduces compute and memory bandwidth for long-context LLM inference. However, two key challenges remain: (1) KV cache capacity still grows with sequence length, and offloading to CPU memory introduces a PCIe transfer bottleneck; (2) the sparse selection step itself retains $O(T^2)$ complexity and can dominate attention cost at long contexts. We propose SparDA, a decoupled sparse attention architecture that introduces a fourth per-layer projection, the Forecast, alongside Query, Key, and Value. The Forecast predicts the KV blocks needed by the next layer, enabling lookahead selection that overlaps CPU-to-GPU prefetch with current-layer execution. Because Forecast is decoupled from the attention query, our GQA implementation uses one Forecast head per GQA group, reducing selection overhead versus the original multi-head selector. SparDA adds $<$0.5% parameters and trains only the Forecast projections by matching the original selector's attention distribution. On two sparse-pretrained 8B models, SparDA matches or slightly improves accuracy and delivers up to 1.25$\\times$ prefill speedup and 1.7$\\times$ decode speedup over the sparse-attention offload baseline. By enabling larger feasible batch sizes on a single GPU, SparDA further reaches up to 5.3$\\times$ higher decode throughput than the non-offload sparse baseline. Our source code is available at https://github.com/NVlabs/SparDA.",
-          "authors": [
-            "Yaosheng Fu",
-            "Guangxuan Xiao",
-            "Xin Dong",
-            "Song Han",
-            "Oreste Villa"
-          ],
-          "published": "2026-06-03",
-          "primary_category": "cs.CL",
-          "position": 4,
-          "attribution": "school"
-        },
-        {
-          "arxiv_id": "2606.02553",
-          "title": "LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation",
-          "abstract": "Autoregressive (AR) video diffusion enables variable-length synthesis, but long-horizon generation often suffers from accumulated errors and identity drift. For efficiency, existing methods commonly adopt sliding-window attention during generation. This creates an irreversible generation trajectory: once the active window accumulates appearance errors, subsequent generations can only condition on this degraded trajectory and drift further away. We address this limitation by formulating long video generation as a retrieval-augmented generation (RAG) problem. Rather than relying solely on the recent window, we treat previously generated latents as a dynamic, searchable history. We propose LongLive-RAG, a general retrieval framework for AR video generation. At each new block, LongLive-RAG uses a query embedding to retrieve relevant historical latents. This lightweight retrieval step adds only a small overhead relative to generation and lets the generator condition on non-local context instead of only the recent window. To make retrieval more discriminative, we introduce the Window Temporal Delta Loss that suppresses redundant local similarity and encourages embeddings to capture meaningful temporal changes. Together, these components help reduce error accumulation caused by sliding-window attention. Experiments across multiple AR backbones and generation lengths show improved long-video quality and the best average VBench-Long rank. To our knowledge, among open-ended AR long video generation methods, LongLive-RAG is the first to formulate self-generated latent history as content-addressable retrieval memory. Code is available at https://github.com/qixinhu11/LongLive-RAG.",
-          "authors": [
-            "Qixin Hu",
-            "Shuai Yang",
-            "Wei Huang",
-            "Song Han",
-            "Yukang Chen"
-          ],
-          "published": "2026-06-01",
-          "primary_category": "cs.CV",
-          "position": 4,
-          "attribution": "school"
         }
       ]
     },
@@ -904,24 +695,6 @@
           "published": "2026-09-15",
           "primary_category": "cs.MA",
           "position": 4,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2606.30560",
-          "title": "TraceLab: Characterizing Coding Agent Workloads for LLM Serving",
-          "abstract": "Coding agents are rapidly becoming a major application of agentic LLMs, but serving them efficiently remains challenging. Progress on this challenge requires understanding real workload patterns, yet the data needed for such analysis is largely absent. Existing public traces and benchmarks do not capture real, day-to-day coding-agent usage across multiple agents and model families for serving-system analysis. To help fill this gap, we collect and release a trace of roughly 4,300 coding-agent sessions, containing about 350,000 LLM steps and 430,000 tool calls from our own day-to-day use of Claude Code and Codex. Our analysis shows that coding-agent workloads feature long autonomous loops, long contexts with short outputs, diverse and heavily-tailed tool calls, and high but imperfect prefix cache hit rates. These findings point to concrete opportunities for optimizing serving, including lower-overhead tool calling, append-length-aware prefill, semantic-aware tool-latency prediction, and improved KV-cache management around human-paced gaps. We release the dataset, trace collection pipeline, and analysis code at https://github.com/uw-syfi/TraceLab.git the project website is https://tracelab.cs.washington.edu.",
-          "authors": [
-            "Kan Zhu",
-            "Mathew Jacob",
-            "Chenxi Ma",
-            "Yi Pan",
-            "Stephanie Wang",
-            "Arvind Krishnamurthy",
-            "Baris Kasikci"
-          ],
-          "published": "2026-06-29",
-          "primary_category": "cs.LG",
-          "position": 6,
           "attribution": "name"
         }
       ]
@@ -1065,55 +838,6 @@
           "primary_category": "cs.LG",
           "position": 8,
           "attribution": "school"
-        },
-        {
-          "arxiv_id": "2606.23001",
-          "title": "EnerInfer: Energy-Aware On-Device LLM Inference",
-          "abstract": "On-device LLM inference is increasingly attractive for privacy-preserving, reliable, and cost-effective deployment, yet its energy and thermal costs remain a critical bottleneck. Existing systems primarily optimize for decoding speed, implicitly assuming that faster execution is always preferable. We show instead that on-device LLM inference often has exploitable configuration slack: modestly lowering NPU and memory frequencies preserves quality of experience (QoE) while substantially improving energy efficiency and reducing heat. Realizing this opportunity in production is challenging. The most energy-efficient NPU/DDR setting varies with the model, inference engine, platform, and runtime conditions, with no stable ranking across configurations. Commercial devices further lack component-level power sensing, and shell temperature evolves with request arrivals, response lengths, and thermal history. To address these challenges, we propose EnerInfer, the first on-device LLM inference framework that jointly manages energy efficiency, throughput, and thermal comfort for LLM workloads. EnerInfer replaces per-model profiling and sensor-heavy control with disaggregated, model-structure-aware prediction and ranking-driven online feedback. It predicts throughput and power for unseen LLMs across NPU/DDR frequency settings, selects QoE-satisfying efficient configurations under runtime interference, and uses lightweight limited-horizon thermal prediction to dynamically switch between energy-optimized and thermally constrained inference. Evaluations on real-world LLMs show that EnerInfer improves energy efficiency by up to 65%, 12%, and 24% on phones, a laptop, and a development board, respectively, without QoE violation.",
-          "authors": [
-            "Bohua Zou",
-            "Nian Liu",
-            "Binqi Sun",
-            "Matteo Mascherin",
-            "Debayan Roy",
-            "Yutao Liu",
-            "Yu Peng",
-            "Ning Jia",
-            "Haibo Chen"
-          ],
-          "published": "2026-06-22",
-          "primary_category": "cs.SE",
-          "position": 9,
-          "attribution": "school"
-        },
-        {
-          "arxiv_id": "2606.16332",
-          "title": "SMEPilot: Characterizing and Optimizing LLM Inference with Scalable Matrix Extensions",
-          "abstract": "Modern CPUs increasingly integrate matrix extensions, such as Arm Scalable Matrix Extension (SME), that provide high-throughput matrix execution within the CPU. For LLM inference, however, these units are not a universal replacement for conventional CPU cores: prefill, decode, attention, and KV-cache operations expose different arithmetic intensities, vector behavior, and layout requirements, while SME units and CPU cores still compete for shared memory bandwidth. This paper studies this mismatch through a roofline-based characterization of SME-enabled CPUs and uses the resulting model to guide operator-level execution choices. We present SMEPilot, an LLM inference engine that selects CPU-only, SME-only, or cooperative SME+CPU execution for each operator shape. SMEPilot partitions matrix work across SME and CPU cores at tile granularity, overlaps SME-suitable matrix stages with CPU-suitable vector stages in attention, and maintains layout state so packed tensor representations are reused rather than repeatedly rebuilt on critical paths. Across Llama-3.2-3B, Qwen3-4B, and Qwen3-30BA3B on phone, PC, and server platforms, SMEPilot improves end-to-end inference performance by up to 3.94$\\times$.",
-          "authors": [
-            "Feiyang Chen",
-            "Haibo Chen"
-          ],
-          "published": "2026-06-15",
-          "primary_category": "cs.DC",
-          "position": 2,
-          "attribution": "school"
-        },
-        {
-          "arxiv_id": "2606.15376",
-          "title": "CoAgent: Concurrency Control for Multi-Agent Systems",
-          "abstract": "Multi-agent LLM systems -- coding agents, devops agents, document agents -- now routinely run several agents in parallel against the same git tree, Kubernetes cluster, or document. As soon as two of them mutate shared state, they enter the regime classical concurrency control has studied for decades, but classical mechanisms fit LLM agents poorly. A single agent transaction spans minutes of inference, read sets are broad and opaque rather than statically inferable, and the live state agents act on admits neither fork nor buffer, so writes take effect the moment they execute. Locks block long inference intervals; OCC abort-and-retry discards minutes of work on every conflict. This paper builds concurrency control on a capability classical transactions lack: the LLM inside each agent can judge whether a conflicting write invalidates its plan, and can repair exactly the operations that depended on it. Control therefore turns advisory: the runtime informs, the agent repairs. Our protocol, MTPO (Monotonic Trajectory Pre-Order), fixes a serialization order at launch, serves each read the order-filtered value, and applies writes speculatively in place; a one-way notification asks an affected reader to re-judge and patch its plan, while the framework mechanically undoes and reorders misplaced writes through the saga-style inverse each tool registers in advance. At quiescence the run is serializable in the pre-decided order. We realize MTPO as CoAgent, toolcall middleware whose privileged ToolSmith grows footprint-declared, undoable tools online. On ten contended workloads, CoAgent stays within 5\\% of serial correctness at a $1.4\\times$ speedup and near-serial token cost, where 2PL and OCC surrender nearly all concurrency gains; on a bash-only target system, it grows a 25-tool library online and lifts the task pass rate from 45/71 to 63/71 at $0.80\\times$ the time and $0.86\\times$ the cost.",
-          "authors": [
-            "Hongtao Lyu",
-            "Dingyan Zhang",
-            "Mingyu Wu",
-            "Xingda Wei",
-            "Haibo Chen"
-          ],
-          "published": "2026-06-13",
-          "primary_category": "cs.DC",
-          "position": 5,
-          "attribution": "school"
         }
       ]
     },
@@ -1151,6 +875,22 @@
       "affiliation": "The University of Hong Kong",
       "known_for": "Distributed machine learning systems",
       "papers": [
+        {
+          "arxiv_id": "2609.35517",
+          "title": "Reward-Aligned Reweighting for On-Policy Distillation",
+          "abstract": "On-policy distillation (OPD) trains a student language model with dense feedback from a stronger teacher on student-generated trajectories. Yet standard OPD weights token-level distillation terms uniformly, implicitly treating local teacher preference as a proxy for correction utility. A decision's task value, however, depends on how the student completes the subsequent reasoning. This mismatch can cause imitation to suppress viable student strategies or reinforce paths the student cannot reliably execute. Verified trajectory outcomes provide complementary evidence about continuation quality, but do not directly identify the utility of individual decisions. We introduce Reward-Aligned Reweighting for On-Policy Distillation (R$^{2}$-OPD), which uses outcome agreement and the magnitude of teacher--student disagreement to continuously reallocate teacher supervision. It gives reward-aligned corrections greater relative influence while retaining dense feedback, moving beyond uniform imitation and hard filtering. Our analysis formalizes the mismatch between local teacher preference and student continuation value and establishes sufficient conditions for reallocation to improve first-order task progress over uniform OPD. Across seven mathematical reasoning benchmarks, R$^{2}$-OPD achieves the highest average accuracy among the compared training methods in both cross-size and same-size distillation. It outperforms standard OPD on all seven benchmarks, with average gains of 3.5 and 2.4 percentage points for 1.7B and 4B students, respectively. An extension to code generation yields an average gain of 1.6 percentage points over standard OPD. These results highlight outcome-guided supervision allocation as an effective way to translate dense teacher feedback into stronger student performance across model scales and task domains.",
+          "authors": [
+            "Haofeng Xu",
+            "Junwei Su",
+            "Lansong Diao",
+            "Wenchao Zhou",
+            "Chuan Wu"
+          ],
+          "published": "2026-09-28",
+          "primary_category": "cs.LG",
+          "position": 5,
+          "attribution": "school"
+        },
         {
           "arxiv_id": "2608.15224",
           "title": "Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach",
@@ -1203,28 +943,6 @@
           "published": "2026-07-02",
           "primary_category": "cs.SE",
           "position": 5,
-          "attribution": "school"
-        },
-        {
-          "arxiv_id": "2607.01083",
-          "title": "Staleness-Learning Rate Scaling Laws for Asynchronous RLHF",
-          "abstract": "High-throughput RLHF systems often decouple rollout generation from policy optimization, leading to the use of stale rollouts during learner updates. In this work, we study the effect of such staleness in asynchronous GRPO. We make the behavior policy explicit in the GRPO surrogate objective and distinguish between the surrogate-gradient mapping used by the learner and the true total derivative of a distribution-dependent population objective. Under assumptions of local boundedness, distributional smoothness, and behavior-policy smoothness, we show that stale rollouts introduce a per-step surrogate-gradient bias of order O(S * eta), where S denotes the maximum rollout lag and eta denotes the learning rate. We further derive a conditional collapse-time scaling law: when within-cycle drift remains below a batch-level clipping radius, collapse is governed primarily by cumulative learner drift T * eta; when the stale-rollout constraint is active, stability instead depends explicitly on S * eta. This yields a two-constraint stability condition eta << min{R_batch / (S * G_upd), R_crit / (T * G_upd)}, explaining why the maximum stable learning rate may appear weakly dependent on staleness in the horizon-limited regime.",
-          "authors": [
-            "Jingwei Song",
-            "Haofeng Xu",
-            "Jie Xiao",
-            "Chengke Bao",
-            "Jingwei Shi",
-            "Pengbin Feng",
-            "Weixun Wang",
-            "Yuhang Han",
-            "Chuan Wu",
-            "Linfeng Zhang",
-            "Bill Shi"
-          ],
-          "published": "2026-07-01",
-          "primary_category": "cs.LG",
-          "position": 9,
           "attribution": "school"
         }
       ]
