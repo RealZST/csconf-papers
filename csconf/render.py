@@ -204,6 +204,10 @@ def render_readme(
         "- README counts are read from the files on disk, never from the run, "
         "so a failed fetch cannot empty a cell that still has data behind it",
         "",
+        "`data/researchers.json` has its own Action, every other Monday. A "
+        "researcher whose sync fails keeps the papers they had, and the run "
+        "opens an issue.",
+        "",
         "## Coverage",
         "",
         "Editions appear as their publishers release them. Some are still "
@@ -261,12 +265,21 @@ def render_readme(
         "so the index always agrees with this repository but may lag the "
         "publisher until the next run.",
         "",
+        "`data/researchers.json` is not in the index; fetch it by that path. It "
+        "covers the last 120 days, not all time, so keep the papers you have "
+        "already seen: one that leaves the file has aged out of the window. Each "
+        "paper's `attribution` says how it was tied to the person: `name`, "
+        "`school`, `coauthor` or `school+coauthor`, following their `match` in "
+        "`researchers.yaml`.",
+        "",
         "## Sources",
         "",
         "Metadata from [DBLP](https://dblp.org). Preprint and link matching via "
         "the [Semantic Scholar](https://www.semanticscholar.org/product/api) "
         "Academic Graph API. Conference sites are used only for editions DBLP "
-        "has not indexed yet.",
+        "has not indexed yet. Researcher papers from the "
+        "[arXiv API](https://info.arxiv.org/help/api/) and arXiv's HTML "
+        "author blocks, with DBLP for coauthors.",
     ]
 
     lines.append("")
