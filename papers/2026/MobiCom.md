@@ -1,6 +1,6 @@
 # MobiCom 2026
 
-87 papers · updated 2026-09-10
+87 papers · updated 2026-10-01
 
 - ["Take Me Home, Wi-Fi Drone": A Drone-based Wireless System for Wilderness Search and Rescue](https://arxiv.org/abs/2604.09115) · arxiv.org · [PDF](https://arxiv.org/pdf/2604.09115)
   Weiying Hou, Luca Jiang-Tao Yu, Chenshu Wu
@@ -45,7 +45,7 @@
 - [DeRa: Deep-Range Low-Power Wide Area IoT via Ultra-sensitive Signal Detection](https://scholar.google.com/scholar?q=DeRa%3A%20Deep-Range%20Low-Power%20Wide%20Area%20IoT%20via%20Ultra-sensitive%20Signal%20Detection) · scholar.google.com
   Jialuo Du, Jingkai Lin, Zhichao Cao
 - [Designing, Deployment and Field Testing of C2Stack for Networked Intelligent Software-Defined UAVs](https://arxiv.org/abs/2608.28854) · arxiv.org · [PDF](https://arxiv.org/pdf/2608.28854)
-  Maxwell McManus, Josh, Zhang, Sidharth Santhinivas, Yuqing Cui, Prem Sagar Pattanshetty Vasanth Kumar, Chenzhi Zhao, Nicholas Mastronarde, George Sklivanitis, Dimitris A. Pados, Elizabeth S. Bentley, Zhangyu Guan, Sidharth Santhi Nivas, Yuqing Cui, Zhaoxi Zhang
+  Maxwell McManus, Josh, Zhang, Sidharth Santhinivas, Yuqing Cui, Prem Sagar Pattanshetty Vasanth Kumar, Chenzhi Zhao, Nicholas Mastronarde, George Sklivanitis, Dimitris A. Pados, Elizabeth S. Bentley, Zhangyu Guan
 - [Detecting Liquid Food Adulteration with Mobile Hyperspectral Analysis based on RGB Camera](https://scholar.google.com/scholar?q=Detecting%20Liquid%20Food%20Adulteration%20with%20Mobile%20Hyperspectral%20Analysis%20based%20on%20RGB%20Camera) · scholar.google.com
   Zimo Liao, Qianyi Huang, Lei Yang
 - [Direct-to-Cell Satellite Radio Signal Traceback at Scale](https://scholar.google.com/scholar?q=Direct-to-Cell%20Satellite%20Radio%20Signal%20Traceback%20at%20Scale) · scholar.google.com
@@ -113,7 +113,7 @@
 - [PassiveOFDM: Flexible OFDM Backscatter with Commercial Compatibility](https://scholar.google.com/scholar?q=PassiveOFDM%3A%20Flexible%20OFDM%20Backscatter%20with%20Commercial%20Compatibility) · scholar.google.com
   Caihui Du, Jihong Yu, Rongrong Zhang, Haipeng Yao
 - [PathClean: Breaking the Multipath Barrier for High-Fidelity mmWave Human Point Clouds](https://scholar.google.com/scholar?q=PathClean%3A%20Breaking%20the%20Multipath%20Barrier%20for%20High-Fidelity%20mmWave%20Human%20Point%20Clouds) · scholar.google.com
-  Duo Zhang, Zhehui Yin, Xusheng Zhang, Hongliu Yang, Junzhe Wang, Zhaoxin Chang, Fusang Zhang, Daqing Zhang, Junzhe
+  Duo Zhang, Zhehui Yin, Xusheng Zhang, Hongliu Yang, Junzhe Wang, Zhaoxin Chang, Fusang Zhang, Daqing Zhang
 - [PATHS: Plug-and-Play Tracking from Heterogeneous Streams to a Shared Token Interface](https://scholar.google.com/scholar?q=PATHS%3A%20Plug-and-Play%20Tracking%20from%20Heterogeneous%20Streams%20to%20a%20Shared%20Token%20Interface) · scholar.google.com
   Mengning Li, Wenye Wang
 - [Polarix: Monitoring Multi-Component Liquids via Polarized Light](https://scholar.google.com/scholar?q=Polarix%3A%20Monitoring%20Multi-Component%20Liquids%20via%20Polarized%20Light) · scholar.google.com
@@ -125,7 +125,7 @@
 - [RadioSight: Predictive mmWave XR Network Optimization from Dynamic Neural Radio Fields](https://arxiv.org/abs/2608.29504) · arxiv.org · [PDF](https://arxiv.org/pdf/2608.29504)
   Lihao Zhang, Paul Kudyba, Zhenlin An, Haijian Sun
 - [RadioStream: A Wideband Multi-Antenna SDR Platform](https://scholar.google.com/scholar?q=RadioStream%3A%20A%20Wideband%20Multi-Antenna%20SDR%20Platform) · scholar.google.com
-  Adel Heidari, Jeeva Keshav Sattianarayanin, Rohith Reddy Vennam, Aaron Tartz, Agrim Gupta, Kishore Rajendran, Raviteja Devara, Lakshman Bhaskaran, Dinesh Bharadia, Radha Krishna Ganti, Kishore Rajendran
+  Adel Heidari, Jeeva Keshav Sattianarayanin, Rohith Reddy Vennam, Aaron Tartz, Agrim Gupta, Kishore Rajendran, Raviteja Devara, Lakshman Bhaskaran, Dinesh Bharadia, Radha Krishna Ganti
 - [RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling](https://arxiv.org/abs/2604.10183) · arxiv.org · [PDF](https://arxiv.org/pdf/2604.10183)
   Luca Jiang-Tao Yu, Chenshu Wu
 - [RF-Tactrix: Fingerprint-Inspired Battery-Free, Wireless Force Sensing And Localization on 2D Surfaces](https://scholar.google.com/scholar?q=RF-Tactrix%3A%20Fingerprint-Inspired%20Battery-Free%2C%20Wireless%20Force%20Sensing%20And%20Localization%20on%202D%20Surfaces) · scholar.google.com
@@ -151,7 +151,7 @@
 - [Thor: Fine-grained Per-UE Baseband Routing in vRAN](https://scholar.google.com/scholar?q=Thor%3A%20Fine-grained%20Per-UE%20Baseband%20Routing%20in%20vRAN) · scholar.google.com
   Xin Zhe Khooi, Satis Kumar Permal, Dong Hyeok Kim, Robert Schmidt, Min Suk Kang, Mun Choon Chan, Mun Choon Chan, Satis Kumar Permal
 - [TulipTender: A Mobile 3D Parkinson's Disease Assessment System Using a Single Camera](https://scholar.google.com/scholar?q=TulipTender%3A%20A%20Mobile%203D%20Parkinson%27s%20Disease%20Assessment%20System%20Using%20a%20Single%20Camera) · scholar.google.com
-  Meng Xue, Yizhen Zhang, HY Wong, Yanni Yang, GHF Chan, YF Cheung, Nancy Y lp, Qian Zhang, Meng Xue
+  Meng Xue, Yizhen Zhang, HY Wong, Yanni Yang, GHF Chan, YF Cheung, Nancy Y lp, Qian Zhang
 - [UltraLEGO: A Modular Ultra-Wideband Phased Array Platform for Wireless Sensing and Localization](https://scholar.google.com/scholar?q=UltraLEGO%3A%20A%20Modular%20Ultra-Wideband%20Phased%20Array%20Platform%20for%20Wireless%20Sensing%20and%20Localization) · scholar.google.com
   Fangwei Zhang, Yimeng Liu, Franklin Wu, Yi Ding, Zhichao Cao, Ruofeng Liu
 - [Unlocking Practical Cardiac Monitoring Capabilities on True Wireless Stereo Earbuds](https://scholar.google.com/scholar?q=Unlocking%20Practical%20Cardiac%20Monitoring%20Capabilities%20on%20True%20Wireless%20Stereo%20Earbuds) · scholar.google.com

@@ -70,6 +70,11 @@
     "checked": "2026-08-12",
     "url": null
   },
+  "big bird resilient privacy budgeting across untrusted web domains": {
+    "checked": "2026-10-01",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2506.05290"
+  },
   "borges a low latency distributed shared log on a cxl memory ssd hybrid": {
     "checked": "2026-08-12",
     "url": null
@@ -182,6 +187,11 @@
   "disk based lsms an unexpectedly good index for partly coherent cxl memory": {
     "checked": "2026-08-12",
     "url": null
+  },
+  "don t let ai agents yolo your files information and control in agent native filesystems": {
+    "checked": "2026-10-01",
+    "source": "semanticscholar",
+    "url": "https://arxiv.org/abs/2604.13536"
   },
   "dynafilter cloud driven dynamic filtering for satellite edge intelligence": {
     "checked": "2026-09-10",

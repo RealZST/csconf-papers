@@ -8,7 +8,7 @@
     ],
     "paper_count": 354,
     "note": null,
-    "updated": "2026-09-10"
+    "updated": "2026-10-01"
   },
   "papers": [
     {
@@ -2309,9 +2309,9 @@
           "orcid": "0009-0003-1743-055X"
         },
         {
-          "name": "Saravam Maheshwari",
-          "display_name": "Saravam Maheshwari",
-          "pid": "421/5273",
+          "name": "Sarvam Maheshwari",
+          "display_name": "Sarvam Maheshwari",
+          "pid": "435/9575",
           "orcid": "0009-0005-4133-6357"
         },
         {
@@ -3309,9 +3309,9 @@
           "orcid": "0009-0000-4593-4120"
         },
         {
-          "name": "Jie Tao",
+          "name": "Jie Tao 0003",
           "display_name": "Jie Tao",
-          "pid": "06/2926",
+          "pid": "06/2926-3",
           "orcid": "0009-0007-0892-6026"
         },
         {
@@ -8719,9 +8719,9 @@
           "orcid": "0000-0001-6993-0001"
         },
         {
-          "name": "George Konstantindis",
-          "display_name": "George Konstantindis",
-          "pid": "442/5444",
+          "name": "George Konstantinidis 0001",
+          "display_name": "George Konstantinidis",
+          "pid": "07/1548",
           "orcid": "0000-0002-3962-9303"
         }
       ],
@@ -11979,9 +11979,9 @@
           "orcid": "0009-0004-7323-6791"
         },
         {
-          "name": "Ziyu He",
+          "name": "Ziyu He 0002",
           "display_name": "Ziyu He",
-          "pid": "220/5740",
+          "pid": "220/5740-2",
           "orcid": "0009-0004-5800-6808"
         },
         {
@@ -13586,19 +13586,19 @@
           "name": "Shreya Shankar",
           "display_name": "Shreya Shankar",
           "pid": "215/5341",
-          "orcid": null
+          "orcid": "0000-0002-0919-9672"
         },
         {
           "name": "Sepanta Zeighami",
           "display_name": "Sepanta Zeighami",
           "pid": "181/5821",
-          "orcid": null
+          "orcid": "0000-0002-9789-7197"
         },
         {
           "name": "Aditya G. Parameswaran",
           "display_name": "Aditya G. Parameswaran",
           "pid": "40/7459",
-          "orcid": null
+          "orcid": "0000-0002-4538-4752"
         }
       ],
       "venue": "SIGMOD",
@@ -14464,7 +14464,7 @@
           "name": "Zhengheng Wang",
           "display_name": "Zhengheng Wang",
           "pid": "328/6721",
-          "orcid": null
+          "orcid": "0009-0006-0694-184X"
         },
         {
           "name": "Huan Liu",
@@ -16295,9 +16295,9 @@
           "orcid": "0000-0003-3240-2912"
         },
         {
-          "name": "Jiahui Wang",
+          "name": "Jiahui Wang 0020",
           "display_name": "Jiahui Wang",
-          "pid": "07/3313",
+          "pid": "07/3313-20",
           "orcid": "0009-0002-5409-2812"
         }
       ],

@@ -1,6 +1,6 @@
 # SIGMOD 2026
 
-354 papers · updated 2026-09-10
+354 papers · updated 2026-10-01
 
 - [100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models: [Experiments & Analysis]](https://doi.org/10.1145/3802002) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3802002) · [preprint](https://arxiv.org/abs/2603.15970)
   Yeounoh Chung, Rushabh Desai, Jian He, Yu Xiao, Thibaud Hottelier, Yves-Laurent Kom Samo, Pushkar Khadilkar, Xianshun Chen, Sam Idicula, Fatma Özcan, Alon Y. Halevy, Yannis Papakonstantinou
@@ -15,7 +15,7 @@
 - [A Fast, Mergeable, and LDP Compatible Sketch for Counting the Number of Distinct Values in Fully Dynamic Tables](https://doi.org/10.1145/3749157) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3749157)
   Zhicheng Li, Pinghui Wang, Zeli Lin, Bichun Chen, Dongdong Xie
 - [A Game Theory Approach for Negotiating in Data Marketplaces](https://doi.org/10.1145/3786616) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3786616)
-  Soulmaz Gheisari, Jaime Osvaldo Salas, Luis-Daniel Ibáñez, George Konstantindis
+  Soulmaz Gheisari, Jaime Osvaldo Salas, Luis-Daniel Ibáñez, George Konstantinidis
 - [A General Framework for Per-record Differential Privacy](https://doi.org/10.1145/3769752) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3769752) · [preprint](https://arxiv.org/abs/2511.19015)
   Xinghe Chen, Dajun Sun, Quanqing Xu, Wei Dong
 - [A Principled Solution to the Disjunction Problem of Diagrammatic Query Representations](https://doi.org/10.1145/3786617) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3786617) · [preprint](https://arxiv.org/abs/2412.08583)
@@ -563,7 +563,7 @@
 - [Reliable and Private Utility Signaling for Data Markets](https://doi.org/10.1145/3769821) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3769821) · [preprint](https://arxiv.org/abs/2511.07975)
   Li Peng, Jiayao Zhang, Yihang Wu, Weiran Liu, Jinfei Liu, Zheng Yan, Kui Ren, Lei Zhang, Lin Qu
 - [Reliable Answers for Recurring Questions: Boosting Text-to-SQL Accuracy with Template Constrained Decoding](https://doi.org/10.1145/3769822) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3769822) · [preprint](https://arxiv.org/abs/2604.28028)
-  Smit Jivani, Saravam Maheshwari, Sunita Sarawagi
+  Smit Jivani, Sarvam Maheshwari, Sunita Sarawagi
 - [Reqo: A Comprehensive Learning-Based Cost Model for Robust and Explainable Query Optimization](https://doi.org/10.1145/3786689) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3786689) · [preprint](https://arxiv.org/abs/2501.17414)
   Baoming Chang, Amin Kamali, Verena Kantere
 - [ReStore: A Reinforcement Learning Approach for Data Migration in Multi-Tiered Storage](https://doi.org/10.1145/3802104) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3802104)

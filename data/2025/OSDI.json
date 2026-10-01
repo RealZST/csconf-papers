@@ -7,7 +7,7 @@
     ],
     "paper_count": 53,
     "note": null,
-    "updated": "2026-09-10"
+    "updated": "2026-10-01"
   },
   "papers": [
     {
@@ -1000,9 +1000,9 @@
       "title": "Stripeless Data Placement for Erasure-Coded In-Memory Storage",
       "authors": [
         {
-          "name": "Jian Gao",
+          "name": "Jian Gao 0039",
           "display_name": "Jian Gao",
-          "pid": "02/563",
+          "pid": "02/563-39",
           "orcid": null
         },
         {
@@ -2386,9 +2386,9 @@
       "title": "Scalio: Scaling up DPU-based JBOF Key-value Store with NVMe-oF Target Offload",
       "authors": [
         {
-          "name": "Xun Sun",
+          "name": "Xun Sun 0001",
           "display_name": "Xun Sun",
-          "pid": "50/8086",
+          "pid": "50/8086-1",
           "orcid": null
         },
         {

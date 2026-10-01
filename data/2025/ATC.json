@@ -7,7 +7,7 @@
     ],
     "paper_count": 100,
     "note": null,
-    "updated": "2026-09-10"
+    "updated": "2026-10-01"
   },
   "papers": [
     {
@@ -4666,9 +4666,9 @@
       "title": "PluS: Highly Efficient and Expandable ML Compiler with Pluggable Graph Schedules",
       "authors": [
         {
-          "name": "Ruofan Wu",
+          "name": "Ruofan Wu 0001",
           "display_name": "Ruofan Wu",
-          "pid": "182/7027",
+          "pid": "182/7027-1",
           "orcid": null
         },
         {
@@ -4894,9 +4894,9 @@
           "orcid": null
         },
         {
-          "name": "Ennan Zhai",
+          "name": "Ennan Zhai 0001",
           "display_name": "Ennan Zhai",
-          "pid": "23/7560",
+          "pid": "23/7560-1",
           "orcid": null
         },
         {

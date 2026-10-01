@@ -7,7 +7,7 @@
     ],
     "paper_count": 483,
     "note": "This file is all of PVLDB vol 18. The VLDB 2025 research track is really the papers accepted before this volume's cutoff plus rollovers from the previous volume, a distinction DBLP metadata does not record.",
-    "updated": "2026-09-10"
+    "updated": "2026-10-01"
   },
   "papers": [
     {
@@ -1999,7 +1999,7 @@
           "name": "Sharad Mehrotra",
           "display_name": "Sharad Mehrotra",
           "pid": "m/SharadMehrotra",
-          "orcid": null
+          "orcid": "0000-0003-1667-5435"
         },
         {
           "name": "Felix Naumann",
@@ -3631,7 +3631,7 @@
           "name": "Dan Suciu",
           "display_name": "Dan Suciu",
           "pid": "s/DanSuciu",
-          "orcid": null
+          "orcid": "0000-0002-4144-0868"
         }
       ],
       "venue": "VLDB",
@@ -4333,7 +4333,7 @@
           "name": "Ioana O. Bercea",
           "display_name": "Ioana O. Bercea",
           "pid": "231/6342",
-          "orcid": null
+          "orcid": "0000-0001-8430-2441"
         },
         {
           "name": "Niv Dayan",
@@ -8729,7 +8729,7 @@
           "name": "Spyros Blanas",
           "display_name": "Spyros Blanas",
           "pid": "65/5338",
-          "orcid": null
+          "orcid": "0009-0004-2703-7177"
         }
       ],
       "venue": "VLDB",
@@ -9001,7 +9001,7 @@
           "name": "Yinjun Wu",
           "display_name": "Yinjun Wu",
           "pid": "169/1054",
-          "orcid": null
+          "orcid": "0000-0002-9770-5765"
         },
         {
           "name": "Wentao Zhang 0001",
@@ -11061,7 +11061,7 @@
           "name": "Yongjoo Park",
           "display_name": "Yongjoo Park",
           "pid": "79/583",
-          "orcid": null
+          "orcid": "0000-0003-3786-6214"
         },
         {
           "name": "Ribhav Sahu",
@@ -11167,7 +11167,7 @@
           "name": "Spyros Blanas",
           "display_name": "Spyros Blanas",
           "pid": "65/5338",
-          "orcid": null
+          "orcid": "0009-0004-2703-7177"
         },
         {
           "name": "Nicolas Bruno",
@@ -11329,7 +11329,7 @@
           "name": "Yongjoo Park",
           "display_name": "Yongjoo Park",
           "pid": "79/583",
-          "orcid": null
+          "orcid": "0000-0003-3786-6214"
         },
         {
           "name": "Jianjun Chen 0001",
@@ -11424,9 +11424,9 @@
           "orcid": null
         },
         {
-          "name": "Hongyan Liu",
+          "name": "Hongyan Liu 0002",
           "display_name": "Hongyan Liu",
-          "pid": "28/374",
+          "pid": "28/374-2",
           "orcid": null
         },
         {
@@ -11436,9 +11436,9 @@
           "orcid": null
         },
         {
-          "name": "Jun He",
+          "name": "Jun He 0008",
           "display_name": "Jun He",
-          "pid": "75/5705",
+          "pid": "75/5705-8",
           "orcid": null
         }
       ],
@@ -12001,7 +12001,7 @@
           "name": "Ibrahim Sabek",
           "display_name": "Ibrahim Sabek",
           "pid": "16/8981",
-          "orcid": null
+          "orcid": "0009-0006-2102-5241"
         }
       ],
       "venue": "VLDB",
@@ -12095,7 +12095,7 @@
           "name": "Pu Jiao",
           "display_name": "Pu Jiao",
           "pid": "337/3134",
-          "orcid": null
+          "orcid": "0000-0001-6829-1463"
         },
         {
           "name": "Kai Zhao 0008",
@@ -12561,7 +12561,7 @@
           "name": "Ibrahim Sabek",
           "display_name": "Ibrahim Sabek",
           "pid": "16/8981",
-          "orcid": null
+          "orcid": "0009-0006-2102-5241"
         }
       ],
       "venue": "VLDB",
@@ -13949,7 +13949,7 @@
           "name": "Sajad Faghfoor Maghrebi",
           "display_name": "Sajad Faghfoor Maghrebi",
           "pid": "415/9515",
-          "orcid": null
+          "orcid": "0009-0009-0882-4999"
         },
         {
           "name": "Niv Dayan",
@@ -13981,7 +13981,7 @@
           "name": "Neha Makhija",
           "display_name": "Neha Makhija",
           "pid": "284/8638",
-          "orcid": null
+          "orcid": "0000-0003-0221-6836"
         },
         {
           "name": "Wolfgang Gatterbauer",
@@ -16160,9 +16160,9 @@
           "orcid": null
         },
         {
-          "name": "Bing Tong",
+          "name": "Bing Tong 0001",
           "display_name": "Bing Tong",
-          "pid": "329/7221",
+          "pid": "329/7221-1",
           "orcid": "0009-0008-1466-0209"
         },
         {
@@ -16226,9 +16226,9 @@
           "orcid": null
         },
         {
-          "name": "Yan Zhou",
+          "name": "Yan Zhou 0021",
           "display_name": "Yan Zhou",
-          "pid": "60/5157",
+          "pid": "60/5157-21",
           "orcid": null
         },
         {
@@ -17438,15 +17438,15 @@
           "orcid": null
         },
         {
-          "name": "Chen Zhang 0013",
+          "name": "Chen Zhang 0010",
           "display_name": "Chen Zhang",
-          "pid": "94/4084-13",
+          "pid": "94/4084-10",
           "orcid": null
         },
         {
-          "name": "Yan Zhou",
+          "name": "Yan Zhou 0021",
           "display_name": "Yan Zhou",
-          "pid": "60/5157",
+          "pid": "60/5157-21",
           "orcid": null
         },
         {
@@ -18345,7 +18345,7 @@
           "name": "Daniele Bonetta",
           "display_name": "Daniele Bonetta",
           "pid": "51/8686",
-          "orcid": null
+          "orcid": "0000-0001-7633-4224"
         }
       ],
       "venue": "VLDB",
@@ -18930,21 +18930,21 @@
       "title": "GalaxyWeaver: Autonomous Table-to-Graph Conversion and Schema Optimization with Large Language Models",
       "authors": [
         {
-          "name": "Bing Tong",
+          "name": "Bing Tong 0001",
           "display_name": "Bing Tong",
-          "pid": "329/7221",
+          "pid": "329/7221-1",
           "orcid": "0009-0008-1466-0209"
         },
         {
-          "name": "Yan Zhou",
+          "name": "Yan Zhou 0021",
           "display_name": "Yan Zhou",
-          "pid": "60/5157",
+          "pid": "60/5157-21",
           "orcid": null
         },
         {
-          "name": "Chen Zhang 0013",
+          "name": "Chen Zhang 0010",
           "display_name": "Chen Zhang",
-          "pid": "94/4084-13",
+          "pid": "94/4084-10",
           "orcid": null
         },
         {
@@ -23757,7 +23757,7 @@
           "name": "Ibrahim Sabek",
           "display_name": "Ibrahim Sabek",
           "pid": "16/8981",
-          "orcid": null
+          "orcid": "0009-0006-2102-5241"
         }
       ],
       "venue": "VLDB",
@@ -25209,7 +25209,7 @@
           "name": "Zhutao Zhuang",
           "display_name": "Zhutao Zhuang",
           "pid": "335/2225",
-          "orcid": null
+          "orcid": "0009-0001-5283-6788"
         },
         {
           "name": "Zhiguang Chen 0001",

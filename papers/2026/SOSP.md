@@ -1,6 +1,6 @@
 # SOSP 2026
 
-62 papers · updated 2026-09-10
+62 papers · updated 2026-10-01
 
 - [A Few GPUs, A Whole Lotta Scale: Faithful LLM Training Emulation with CrystalLLM](https://arxiv.org/abs/2605.15617) · arxiv.org · [PDF](https://arxiv.org/pdf/2605.15617)
   Shaoke Xi, ChonLam Lao, Boyi Jia, Jiaqi Gao, Zhipeng Zhang, Jiamin Cao, Brian Sutioso, Erci Xu, Minlan Yu, Kui Ren, Yong Li, Zhengping Qian, Ennan Zhai, Jingren Zhou
@@ -16,7 +16,7 @@
   Leping Yang, Xue Li, Kun Qian, Erci Xu, Mingzhen Han, Haoran Zhu, Tao He, Zuolong Yin, Ennan Zhai, Wenyuan Yu, Jingren Zhou, Guangtao Xue
 - [Beyond Utilization: Energy-Conscious GPU Sharing for Inference Serving](https://scholar.google.com/scholar?q=Beyond%20Utilization%3A%20Energy-Conscious%20GPU%20Sharing%20for%20Inference%20Serving) · scholar.google.com
   Prasoon Sinha, Dimitrios Liakopoulos, Nathan Lemma, Neeraja J. Yadwadkar
-- [Big Bird: Resilient Privacy Budgeting Across Untrusted Web Domains](https://scholar.google.com/scholar?q=Big%20Bird%3A%20Resilient%20Privacy%20Budgeting%20Across%20Untrusted%20Web%20Domains) · scholar.google.com
+- [Big Bird: Resilient Privacy Budgeting Across Untrusted Web Domains](https://arxiv.org/abs/2506.05290) · arxiv.org · [PDF](https://arxiv.org/pdf/2506.05290)
   Pierre Tholoniat, Alison Caulfield, Giorgio Cavicchioli, Mark Chen, Benjamin Case, Asaf Cidon, Roxana Geambasu, Mathias Lécuyer, Martin Thomson
 - [Borges: A Low-Latency Distributed Shared Log on a CXL Memory/SSD Hybrid](https://scholar.google.com/scholar?q=Borges%3A%20A%20Low-Latency%20Distributed%20Shared%20Log%20on%20a%20CXL%20Memory/SSD%20Hybrid) · scholar.google.com
   Haowei Chen, Yiming Xiang, Zhipeng Jia, Yan Sun, Nam Sung Kim, Emmett Witchel
@@ -36,7 +36,7 @@
   Apostolos Mavrogiannakis, Xian Wang, Ioannis Demertzis, Dimitrios Papadopoulos, Minos Garofalakis
 - [Disk-Based LSMs: An Unexpectedly Good Index for Partly Coherent CXL Memory](https://scholar.google.com/scholar?q=Disk-Based%20LSMs%3A%20An%20Unexpectedly%20Good%20Index%20for%20Partly%20Coherent%20CXL%20Memory) · scholar.google.com
   Kiran Hombal, Jiyu Hu, Marcos K. Aguilera, Ramnatthan Alagappan, Aishwarya Ganesan
-- [Don't Let AI Agents YOLO Your Files: Information and Control in Agent-Native Filesystems](https://scholar.google.com/scholar?q=Don%27t%20Let%20AI%20Agents%20YOLO%20Your%20Files%3A%20Information%20and%20Control%20in%20Agent-Native%20Filesystems) · scholar.google.com
+- [Don't Let AI Agents YOLO Your Files: Information and Control in Agent-Native Filesystems](https://arxiv.org/abs/2604.13536) · arxiv.org · [PDF](https://arxiv.org/pdf/2604.13536)
   Shawn, Zhong, Junxuan Liao, Jing Liu, Mai Zheng, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau
 - [Efficient GPU Multitasking with Morphable Kernels](https://scholar.google.com/scholar?q=Efficient%20GPU%20Multitasking%20with%20Morphable%20Kernels) · scholar.google.com
   Tingxu Ren, Ruwen Fan, Hao Guo, Minhui Xie, Shiwei Gao, Jiwu Shu, Youyou Lu

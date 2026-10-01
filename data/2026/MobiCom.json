@@ -7,7 +7,7 @@
     ],
     "paper_count": 87,
     "note": null,
-    "updated": "2026-09-10"
+    "updated": "2026-10-01"
   },
   "papers": [
     {
@@ -2202,24 +2202,6 @@
           "display_name": "Zhangyu Guan",
           "pid": null,
           "orcid": null
-        },
-        {
-          "name": "Sidharth Santhi Nivas",
-          "display_name": "Sidharth Santhi Nivas",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Yuqing Cui",
-          "display_name": "Yuqing Cui",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Zhaoxi Zhang",
-          "display_name": "Zhaoxi Zhang",
-          "pid": null,
-          "orcid": null
         }
       ],
       "venue": "MobiCom",
@@ -2354,12 +2336,6 @@
         {
           "name": "Qian Zhang",
           "display_name": "Qian Zhang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Meng Xue",
-          "display_name": "Meng Xue",
           "pid": null,
           "orcid": null
         }
@@ -2608,12 +2584,6 @@
         {
           "name": "Radha Krishna Ganti",
           "display_name": "Radha Krishna Ganti",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Kishore Rajendran",
-          "display_name": "Kishore Rajendran",
           "pid": null,
           "orcid": null
         }
@@ -4102,12 +4072,6 @@
         {
           "name": "Daqing Zhang",
           "display_name": "Daqing Zhang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Junzhe",
-          "display_name": "Junzhe",
           "pid": null,
           "orcid": null
         }

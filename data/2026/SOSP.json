@@ -7,7 +7,7 @@
     ],
     "paper_count": 62,
     "note": null,
-    "updated": "2026-09-10"
+    "updated": "2026-10-01"
   },
   "papers": [
     {
@@ -575,10 +575,10 @@
       "volume": null,
       "issue": null,
       "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
+      "url": "https://arxiv.org/abs/2506.05290",
+      "url_source": "semanticscholar",
+      "pdf_url": "https://arxiv.org/pdf/2506.05290",
+      "pdf_source": "arxiv-derived",
       "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
@@ -1165,10 +1165,10 @@
       "volume": null,
       "issue": null,
       "doi": null,
-      "url": null,
-      "url_source": null,
-      "pdf_url": null,
-      "pdf_source": null,
+      "url": "https://arxiv.org/abs/2604.13536",
+      "url_source": "semanticscholar",
+      "pdf_url": "https://arxiv.org/pdf/2604.13536",
+      "pdf_source": "arxiv-derived",
       "arxiv_id": null,
       "pages": null,
       "source": "sosp-web",
