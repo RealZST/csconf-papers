@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-29",
+  "generated": "2026-10-12",
   "researchers": [
     {
       "slug": "ion-stoica",
@@ -8,6 +8,64 @@
       "affiliation": "UC Berkeley",
       "known_for": "Spark, Ray, vLLM · co-founded Databricks and Anyscale",
       "papers": [
+        {
+          "arxiv_id": "2610.02967",
+          "title": "Post-Training Frontier Text-to-Image Models by Composing Preference and Rubric Rewards",
+          "abstract": "Recent text-to-image generation models have achieved remarkable visual quality, but improving them through post-training remains challenging because no single reward signal captures the full range of human preference. In this work, we develop a simple and effective post-training recipe for open-domain text-to-image generation based on the composition of complementary reward signals. Our reward system consists of two main components: a preference reward, trained on large-scale human preference data using a Bradley-Terry objective to capture overall human aesthetic and perceptual preferences, and rubric-based rewards, which explicitly evaluate prompt faithfulness and other desirable properties while providing safeguards against reward hacking. A key challenge is how to combine these heterogeneous reward signals. We show that a naive weighted average leads to suboptimal optimization behavior, and propose a simple reward composition strategy that more effectively balances preference optimization with rubric satisfaction. In the Arena text-to-image leaderboard (https://arena.ai/), our RL-trained Flux2dev achieves an Elo rating 69 points above the base model, and our post-trained Ideogram-4 surpasses every open-source model on the leaderboard, reaching an Elo of 1223.5. (Claims of state-of-the-art performance are based on the Arena leaderboard snapshot as of September 4, 2026.) Our results suggest that effective rewards for frontier generative-model training require broad coverage of user intent and robustness to exploitation under optimization. To support reproducible research, we release Arena-T2I-Training, a 1K subset of training data that recovers some gains of full-scale training, providing a resource that we hope will facilitate future work on post-training for text-to-image models.",
+          "authors": [
+            "Yuanhao Ban",
+            "I-Hung Hsu",
+            "Anastasios Angelopoulos",
+            "Wei-Lin Chiang",
+            "Ion Stoica",
+            "Cho-Jui Hsieh"
+          ],
+          "published": "2026-10-02",
+          "primary_category": "cs.CV",
+          "position": 5,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2610.02569",
+          "title": "Pincer: Resource Authorization for Agents using a Digital Twin",
+          "abstract": "Coding agents have become increasingly long-horizon, autonomous, reliant on general-purpose shell and maintain their own persistent memory for self-improvement. While these capabilities have made the agents powerful, they have also made them harder to defend against external adversaries. Defenses that restrict this architecture --- typed tools, information-flow control, or policy prediction engines --- give up too much functionality to be adopted. Agents deployed today (e.g. Claude, Codex) rely on a combination of user-mediated and automode sandboxing as their primary defense. In user-mediated sandboxing, user-maintained policies decay over time and repeated permission requests cause user fatigue, while auto mode's tool-call classifiers learn no user-specific policy and are not meant to defend against adversarial setups. Pincer is a new defense that operates at the resource layer and works alongside existing defenses at the tool-call layer like the auto mode. At the core of Pincer lies a digital twin, an isolated-context model that automatically learns and enforces dynamic user-specific least-privilege policies. The digital twin keeps continually learning the user's preferences allowing it to act as the user's proxy for the agent's permission requests. To emulate the learning phase, we propose a new usercentric dataset with examples following a multi-day transcript of user-agent interaction. Our evaluation shows that Pincer performs strongly on both security and utility in comparison to several baselines which includes variants of LLM judges and adaptations of Conseca (HotOS '25). We highlight attack types where Pincer's design leads to a significant security improvement compared to all other baselines, while outperforming the baselines even for other types of attacks.",
+          "authors": [
+            "Mayank Rathee",
+            "Alexander Stepanov",
+            "Shalin Madabhavi",
+            "Jinhao Zhu",
+            "Raluca Ada Popa",
+            "Ion Stoica"
+          ],
+          "published": "2026-10-01",
+          "primary_category": "cs.CR",
+          "position": 6,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2609.38166",
+          "title": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
+          "abstract": "Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substantially reduce the cost of long-context processing, repeatedly reading and updating that state remains a major inference bottleneck. Quantization offers a natural way to reduce this cost, but can significantly degrade model quality, due to the accumulation of rounding errors and the presence of outlier rows and columns in the state. To address these challenges, we propose LeapQuant, a training-free method that achieves near-lossless performance under 8-bit recurrent-state quantization. First, to mitigate error accumulation, we propose per-window quantization, which leaps over a window of tokens and quantizes the state only once at its end. Within a window, outputs are computed from the fixed low-bit state together with high-precision buffered updates. Second, to reduce the error introduced by each quantization, LeapQuant retains the state's largest outliers as a few high-precision Compensator Tokens, which share the update path of real tokens. We then smooth the remaining residual before quantization to further reduce the error. Comprehensive experiments across the Qwen, Kimi, and GLM model families show that LeapQuant substantially reduces memory and compute costs during inference. With accuracy comparable to the FP32 baseline, it achieves average speedups of 2.05--3.70$\\times$ at the kernel level and 1.47$\\times$ for end-to-end inference on NVIDIA B200, RTX PRO 6000, and RTX 5090 GPUs.",
+          "authors": [
+            "Yi Pan",
+            "Haocheng Xi",
+            "Kan Zhu",
+            "Xingyang Li",
+            "Yibo Wu",
+            "Mayank Mishra",
+            "Hongtao Zhang",
+            "William X. Zheng",
+            "Baris Kasikci",
+            "Song Han",
+            "Kurt Keutzer",
+            "Rishabh Iyer",
+            "Ion Stoica"
+          ],
+          "published": "2026-09-29",
+          "primary_category": "cs.LG",
+          "position": 13,
+          "attribution": "name"
+        },
         {
           "arxiv_id": "2609.27040",
           "title": "EMA: Elastic and Performance Transparent Memory Across GPUs",
@@ -212,46 +270,6 @@
           "primary_category": "cs.CR",
           "position": 3,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2607.05391",
-          "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
-          "abstract": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness, we introduce LLM-as-a-Verifier, a general-purpose verification framework that provides fine-grained feedback for agentic tasks without requiring additional training. Unlike standard LM judges that prompt LLMs to produce discrete scores for candidate solutions, LLM-as-a-Verifier computes the expectation over the distribution of scoring token logits to generate continuous scores. This probabilistic formulation enables verification to scale along multiple dimensions: (1) score granularity, (2) repeated evaluation, and (3) criteria decomposition. In particular, we show that scaling the scoring granularity leads to better separation between positive and negative solutions, resulting in more calibrated comparisons. Moreover, scaling repeated evaluation and criteria decomposition consistently lead to additional gains in verification accuracy through variance and complexity reduction. We further introduce a cost-efficient ranking algorithm for selecting the best solution among candidates using the verifier's continuous scores. LLM-as-a-Verifier achieves state-of-the-art performance on Terminal-Bench V2 (86.5%), SWE-Bench Verified (78.2%), RoboRewardBench (87.4%), and MedAgentBench (73.3%). Beyond verification, the fine-grained signals from LLM-as-a-Verifier can also serve as a proxy for estimating task progress. We build an extension for Claude Code, enabling developers to monitor and improve their own agentic systems. Finally, we show that LLM-as-a-Verifier can provide dense feedback for RL, improving the sample efficiency of SAC and GRPO on robotics and mathematical reasoning benchmarks.",
-          "authors": [
-            "Jacky Kwok",
-            "Shulu Li",
-            "Pranav Atreya",
-            "Yuejiang Liu",
-            "Yixing Jiang",
-            "Chelsea Finn",
-            "Marco Pavone",
-            "Ion Stoica",
-            "Azalia Mirhoseini"
-          ],
-          "published": "2026-07-06",
-          "primary_category": "cs.AI",
-          "position": 8,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2606.31711",
-          "title": "Arena-T2I Hard: Benchmarking and Improving Faithfulness with Dependency-Aware Checklist",
-          "abstract": "Faithfulness -- how precisely a generated image aligns with its prompt -- is increasingly central to the real-world utility of text-to-image (T2I) models. Existing faithfulness benchmarks, however, rely on simple atomic instructions, on which top-tier systems already achieve near-perfect scores. As T2I models enter creative workflows, users issue multi-faceted requests combining intricate spatial relationships, stylistic constraints, and complex text rendering. In this setting, a single binary VLM-judge score no longer captures which specific constraints the model fails to satisfy. We introduce Arena-T2I Hard, a 310-prompt stress benchmark drawn from real arena T2I logs, with approximately 30 decomposed yes/no constraints per prompt spanning six categories, including text rendering. The strongest closed-source system we evaluate reaches 0.855 with a 33~pp performance gap across 11 systems, demonstrating substantial discriminative power. Moreover, high public-arena rankings fail to predict faithfulness, confirming that holistic Bradley-Terry (BT) preference scores prioritize aesthetics over fine-grained prompt adherence. We propose a dependency-aware checklist reward that decomposes each prompt into a DAG of yes/no questions and zeroes descendants of failed parents, turning faithfulness into a per-constraint training signal. Combined with a BT aesthetic reward via group-decoupled normalization (GDPO), which standardizes each reward within its rollout group so neither collapses, the recipe attains a strictly better faithfulness-aesthetics trade-off on SD3.5-Medium and FLUX.1-dev under MMRB2 pairwise comparisons than every single-reward, naive weighted-sum, or 4-reward BT-ensemble baseline.",
-          "authors": [
-            "Yuanhao Ban",
-            "Tong Xie",
-            "Sohyun An",
-            "Yunqi Hong",
-            "Evan Frick",
-            "I-Hung Hsu",
-            "Wei-Lin Chiang",
-            "Ion Stoica",
-            "Cho-Jui Hsieh"
-          ],
-          "published": "2026-06-30",
-          "primary_category": "cs.AI",
-          "position": 8,
-          "attribution": "name"
         }
       ]
     },
@@ -261,6 +279,24 @@
       "affiliation": "UC Berkeley",
       "known_for": "Created Apache Spark · Databricks CTO",
       "papers": [
+        {
+          "arxiv_id": "2610.12176",
+          "title": "Recursive Self-Improvement through Multi-Agent Self-Supervision",
+          "abstract": "Recursive self-improvement (RSI) of a model on non-verifiable tasks, such as open-ended research, faces a supervision bottleneck when its outputs exceed what even human experts can reliably assess, leaving the model itself (optimizee) as the best available optimizer and evaluator. However, a single model instance struggles to critique and improve its own complex reasoning under this homogeneous loop. To address this, we propose Multi-Agent Self-Supervision (MASS), an RSI method that alternates between evolutionary workflow optimization and supervised fine-tuning on self-generated trajectories. Guided by early findings that multi-agent topologies excel at complex reasoning, MASS prompts a single base model to iteratively propose, execute, and self-evaluate multi-agent workflows. Through an evolutionary search constrained by structural guardrails, the model optimizes these computational-graph-like orchestrations, discovering the most effective distinct roles and information routing for a given task. Over two MASS cycles with Qwen3.6-27B, the model achieves 1.2-1.6x higher performance per output tokens on four open-ended public benchmarks. Because the improved model subsequently acts as a better optimizer and evaluator, this alternating framework enables a continuous, recursive bootstrapping of the model's capabilities. Moreover, multi-agent traces are also more training-efficient: a student trained on them outperforms a single-agent student trained on 1.4x more training tokens. These findings suggest that jointly learning orchestration and bounded subagent execution from multi-agent trajectories can provide an effective signal for RSI.",
+          "authors": [
+            "Hyunin Lee",
+            "Jinglue Xu",
+            "Jeffrey Seely",
+            "Donghyun Lee",
+            "Somayeh Sojoudi",
+            "Matei Zaharia",
+            "Yujin Tang"
+          ],
+          "published": "2026-10-08",
+          "primary_category": "cs.AI",
+          "position": 6,
+          "attribution": "name"
+        },
         {
           "arxiv_id": "2609.18112",
           "title": "Token Latency Fairness: Performance Isolation for Multi-Tenant LLM Serving",
@@ -385,6 +421,38 @@
       "known_for": "Computer architecture and datacenter systems",
       "papers": [
         {
+          "arxiv_id": "2610.00671",
+          "title": "MegaFlux: Skew-Resilient MoE Megakernels via Pipelined Expert Replication",
+          "abstract": "Mixture-of-experts (MoE) megakernels fuse expert-parallel communication with expert computation. However, under fixed expert placement, routing skew creates GPU stragglers: overloaded GPUs determine layer latency while others sit idle. Replicating hot experts can shift work to underloaded GPUs, but dynamic replicas introduce additional work: replicas must receive expert weights to execute and, during training, their partial weight gradients must be reduced at the expert owners. We present MegaFlux, which makes expert replication a runtime decision and pipelines the communication induced by replication within persistent MoE execution. An on-device planner jointly selects replica locations and assigns tile-aligned token blocks under a per-GPU replica budget, leaving router outputs unchanged. The forward and backward megakernels realize pipelined expert replication: replicas begin computation as their required weights arrive, while backward overlaps replica-gradient reduction with ongoing expert computation. MegaFlux extends TensorRT-LLM's CuTeDSL MegaMoE forward kernel and introduces a new backward MoE megakernel. Across 147 configurations per direction on eight NVIDIA B200 GPUs, MegaFlux achieves geometric-mean speedups of $1.45\\times$ for forward and $1.28\\times$ for backward over the same megakernels with fixed placement, peaking at $2.14\\times$ and $2.64\\times$. In ablations, pipelining hides $56$--$76$% of replica-weight transfer cost in forward and $91$--$100$% of combined weight-transfer and replica-gradient-reduction cost in backward, yielding up to $13.2$% and $26.7$% additional layer-latency reductions over the same replication plans with these operations executed separately. Integrated into vLLM for DeepSeek-V4-Pro prefill, MegaFlux delivers $1.13$--$1.26\\times$ median end-to-end speedups over fixed placement.",
+          "authors": [
+            "Jianzhu Yao",
+            "Siva Kumar Sastry Hari",
+            "Vignesh Balaji",
+            "Sana Damani",
+            "Insu Jang",
+            "Pramod Viswanath",
+            "Christos Kozyrakis"
+          ],
+          "published": "2026-09-30",
+          "primary_category": "cs.DC",
+          "position": 7,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2609.36954",
+          "title": "Purlin: Separating Orchestration from the Datapath of Collectives",
+          "abstract": "Distributed inference depends on GPU collective communication that must keep pace with evolving hardware and specialized workloads. However, existing collective implementations often couple semantics, orchestration (where and when data moves), and the datapath (how data moves). This coupling makes it costly to adopt new hardware mechanisms and customize communication for applications. We present Purlin, a scale-up communication framework that separates these concerns. At the top of Purlin, we specify collectives as a naming of an input and output layout and a copy or reduction operation. In the middle, we introduce a shared orchestration protocol, Stage, Notify, And Consume (SNAC), which derives coordination from these specifications. Below SNAC sits a hardware-specific datapath we call Atom, which implements two key data movement primitives for collectives: copy and reduce. This separation lets us customize collectives and adopt new hardware mechanisms while reusing orchestration via SNAC. We evaluate Purlin on A100, H200, and B200 GPUs. Across seven collectives, Purlin achieves latency speedups of up to 5.14x and bandwidth improvements of up to 4.50x over baselines. Integrated into SGLang, Purlin improves offline LLM serving throughput and interactivity by 1.13x on average and up to 1.37x over baselines. For online LLM inference, Purlin improves interactivity by 1.26x on average and up to 2.85x, with the largest gain occurring under overload. For diffusion image generation, Purlin reduces end-to-end latency by up to 1.13x.",
+          "authors": [
+            "Osayamen Jonathan Aimuyo",
+            "Swapnil Gandhi",
+            "Christos Kozyrakis"
+          ],
+          "published": "2026-09-29",
+          "primary_category": "cs.DC",
+          "position": 3,
+          "attribution": "name"
+        },
+        {
           "arxiv_id": "2609.13592",
           "title": "BOOST: Concurrent Access to Host Memory and HBM to Accelerate LLM Inference",
           "abstract": "GPU memory bandwidth and capacity limit throughput in large language model (LLM) inference. The GPU memory system consists of a primary tier of high-bandwidth memory (HBM) and a secondary tier of host memory connected via CPU-to-GPU interconnect. Current serving systems treat the tiers hierarchically: they serve exclusively from HBM when data fits, and otherwise prefetch data from host memory to HBM before use. In both cases, the host memory bandwidth is never well utilized. Prefetching expands capacity by utilizing host memory, but consumes HBM bandwidth for writes, reducing the bandwidth available for demand loads. We observe that fully utilizing both host and HBM bandwidth requires each wave of GPU threadblocks to access both tiers concurrently and in proportion to their bandwidth ratio. Existing bandwidth-proportional placement strategies fail to provide concurrency because they are not aware of GPU waves, and the large 2MB GPU page size. This paper presents BOOST, the first runtime system that provides concurrent and proportional access to both GPU memory tiers, extracting the combined bandwidth of host memory and HBM for LLM inference without kernel changes. The key insight in BOOST is to use kernel access patterns to make page allocation and runtime data management wave-aware. For static model weights, BOOST applies modulo-based page placement that eliminates access-ratio variance; for dynamically provisioned attention key-value (KV) pairs, it makes the free KV page pool wave-aware. We integrate BOOST into vLLM and evaluate on a Grace Hopper system. At iso-batch size, BOOST improves Time-per-Output-Token (TPOT) by 4.3% over HBM-only serving, whereas prefetching degrades TPOT by 6%. In high-throughput serving, BOOST improves throughput by 31% on average, outperforming prefetching by 15%.",
@@ -448,42 +516,6 @@
           "published": "2026-08-07",
           "primary_category": "cs.DC",
           "position": 6,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2607.04489",
-          "title": "Eiger: An Efficient Library for GPU-based Data Analytics",
-          "abstract": "GPUs have become an increasingly attractive platform for accelerating analytical workloads due to their massive parallelism and high memory bandwidth. Recent studies show that in systems with fast CPU-GPU interconnects and networks, query processing within the GPU, rather than data movement, is the dominant bottleneck. This highlights the need for more efficient relational operators on GPUs than the widely used library, cuDF. While offering rich functionality, cuDF commits to a single, statically chosen implementation for most operators and barely uses runtime information about the data, limiting performance across diverse workloads and GPUs. We present Eiger, a high-performance library for GPU-based data analytics that improves single-GPU query processing through runtime workload adaptivity. Adaptivity in Eiger rests on two principles. First, Eiger provides multiple implementation variants and tunable knobs for most operators, covering not only joins and group-bys but also expensive yet often overlooked operations, such as expression evaluation, string processing, and multi-key sorting, for which it contributes new optimization techniques. Second, Eiger profiles intermediate data during query execution using lightweight statistics, such as value ranges and HyperLogLog++ sketches, and uses them to select implementations, tune knobs, and compress data on the fly, overcoming the limitations of traditional static query optimization. The breadth of operators and variants also enables a more comprehensive performance analysis, covering more operations and workloads than previous work. We evaluate Eiger with operator microbenchmarks on two GPU architectures and the complete TPC-H benchmark (up to scale factor 100). Across the 22 queries, Eiger reduces total runtime by up to 1.8x compared to the state-of-the-art cuDF library; for individual queries, Eiger achieves up to 6.1x better performance.",
-          "authors": [
-            "Bowen Wu",
-            "Marko Kabić",
-            "Sven Hepkema",
-            "Vasilis Mageirakos",
-            "Christos Kozyrakis",
-            "Gustavo Alonso"
-          ],
-          "published": "2026-07-05",
-          "primary_category": "cs.DB",
-          "position": 5,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2607.01088",
-          "title": "ROSA: A Robotics Foundation Model Serving System for Robot Factories",
-          "abstract": "Robotics foundation models (RFMs) are making general-purpose robots increasingly practical for factory deployments. While RFM serving systems are central to this vision, existing systems are largely shaped by a single-robot, single-model assumption: inference is treated as an edge-computing problem handled by an on-robot or dedicated nearby GPU, and the serving objective is to minimize the latency of a single action model. In this paper, we propose ROSA, an RFM serving system for robot factories designed around three key principles. First, ROSA adopts shared GPU-pool serving, allowing a fleet of robots to access powerful server-class GPUs over the network in order to improve inference performance, battery duration, and GPU utilization. Second, ROSA provides a robotics-aware programming abstraction and system design that supports multi-model pipelines, per-task performance requirements, and failure handling. Third, ROSA uses factory-objective-driven scheduling to maximize SLO-qualified factory productivity rather than minimizing individual request latency. We implement ROSA on top of Ray Serve for distributed orchestration, with vLLM, PyTorch, and JAX as model-serving backends, and evaluate it on both real robots and synthetic large-scale workloads. The results show that ROSA improves factory productivity by up to 12.06x over conventional dedicated serving systems.",
-          "authors": [
-            "Wenqi Jiang",
-            "Jason Clemons",
-            "Rowland O'Flaherty",
-            "Hugo Hadfield",
-            "Alperen Degirmenci",
-            "Shuran Song",
-            "Yashraj Narang",
-            "Christos Kozyrakis"
-          ],
-          "published": "2026-07-01",
-          "primary_category": "cs.RO",
-          "position": 8,
           "attribution": "name"
         }
       ]
@@ -558,6 +590,189 @@
       "affiliation": "MIT",
       "known_for": "Deep Compression, AWQ, SmoothQuant",
       "papers": [
+        {
+          "arxiv_id": "2610.13632",
+          "title": "Humanize Olympiad Agents: A Multi-Session Workflow for Olympiad Problem Solving with Solve, Review, Wiki, Verify",
+          "abstract": "Large language model (LLM) agents are rapidly improving on long-horizon scientific and olympiad tasks. Recent systems have produced a Lean-formalized resolution of the Navier--Stokes problem and autonomous solutions to four open questions in the Erdős Conjectures database. Yet neither system releases both its underlying model and complete inference stack. More broadly, a single agent session remains brittle on difficult problems: early errors can propagate, missing domain knowledge can stall progress, and apparent success can mask a misinterpretation or weakening of the original task. We introduce HOA (Humanize Olympiads Agent), an open, flow-level framework that coordinates multiple agent sessions through three complementary feedback channels. First, an independent reviewer evaluates each candidate and provides actionable feedback. Second, a structured wiki supplies task-specific knowledge that may be missing or unreliable in model pretraining. Third, a verifier checks generated Lean proofs against trusted challenge statements. With GPT-5.6 Sol, HOA achieves perfect scores on the IMO, IPhO, and IOI 2026, near-full marks on the IChO 2026 problem set, and solves all 672 problems (100%) on PutnamBench. On the Lean-Eval leaderboard, HOA ranks first, solving 251 of 304 problems (82.6%). We further evaluate HOA with open models. Using Kimi-K3, HOA achieves full scores on the IMO, IPhO, and IOI, and a gold-level score of 97.1% on the IChO. These results closely match the closed-source GPT-5.6 Sol + /Goal baseline on the IMO and IPhO, while exceeding it on the IChO and IOI, demonstrating that systematic feedback can help bridge substantial differences in base-model capability.",
+          "authors": [
+            "Zhengyang Zhang",
+            "Jing Xiong",
+            "Hongzhou Lin",
+            "Juihui Chung",
+            "Zijian Zhang",
+            "Song Han",
+            "Sihao Liu",
+            "Ligeng Zhu"
+          ],
+          "published": "2026-10-09",
+          "primary_category": "cs.AI",
+          "position": 6,
+          "attribution": "school"
+        },
+        {
+          "arxiv_id": "2610.13494",
+          "title": "Humanize MLE Agents: Multi-Agent Session Alternation Beyond Single-Agent Limits",
+          "abstract": "Existing LLM-based agent approaches for long-horizon machine learning engineering (MLE) often use context engineering, implemented through custom harnesses that manage tools, skills, and accumulated experience. However, we find that as single-session execution lengthens, the agent's reasoning intensity declines alongside slowing progress, summarized as long-horizon deceleration, and the benefits of these custom harnesses vanish as the underlying model improves, summarized as harness staleness. These findings suggest that their benefits may not persist across versions, which motivates a workflow-level approach in which agents build on one another's work across sessions. We model these alternating agent sessions as a context-reset semi-Markov decision process (CR-SMDP) and establish sufficient conditions for alternation to exceed single-agent reference limits, derive an explicit experiment-budget bound, and characterize when session caps preserve this advantage. Guided by this analysis, we introduce Humanize MLE Agents (HMA), which alternates two agents on a shared workspace, limits each session to at most k experiments and resets the context between sessions, without additional task-specific harness or prior knowledge supplements. Across 75 Kaggle tasks in MLE-bench, HMA reaches a state-of-the-art any-medal rate of 78.2%, exceeding the strongest open-source baseline by 8.0 points with a quarter of its time budget. Moreover, among six configurations spanning five heterogeneous agent pairs, HMA improves any-medal rate over the constituent baselines by 6.4 points on average, demonstrating cross-pair generality. A supplementary case on kernel optimization reaches 878 cycles, within 1.6% of the community leaderboard leader, demonstrating applicability beyond MLE.",
+          "authors": [
+            "Changye Li",
+            "Zijian Zhang",
+            "Muheng Li",
+            "Yiduo Pang",
+            "Tingjun Wu",
+            "Menghan Li",
+            "Yitong Liu",
+            "Hongkai Guo",
+            "Mengchi Chen",
+            "Chenyu He",
+            "Kaisheng Ma",
+            "Wei Xu",
+            "Song Han",
+            "Sihao Liu",
+            "Ligeng Zhu"
+          ],
+          "published": "2026-10-09",
+          "primary_category": "cs.AI",
+          "position": 13,
+          "attribution": "school"
+        },
+        {
+          "arxiv_id": "2610.10528",
+          "title": "Long-WAM: Scaling the Context of World-Action Models",
+          "abstract": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentric videos without action labels, then preserve this history-to-future structure during world-action adaptation. On RoboCasa GR-1, increasing context from 0.0 to 19.2 seconds raises success from 63.3% to 78.7%, whereas a bidirectionally pretrained initialization shows no net gain; robot-domain AR pretraining further raises peak success on GR-1 and LIBERO-Long. Long-WAM also achieves the best results among compared methods on LIBERO-Long, RoboTwin 2.0, and DOMINO. Streaming observation encoding, asynchronous execution, and hardware-specific acceleration enable deployment on RTX 5090, DGX Spark, and Jetson AGX Thor without dropping future prediction; on RTX 5090, each action chunk, including future-video latent prediction, takes 107.4 ms. Real-time deployment on Unitree G1 and YAM supports dynamic and long-horizon manipulation, including 95% success on dynamic cup stacking, where Pi0.5 and Fast-WAM succeed in none of 20 trials. As a memory-informed executor, Long-WAM also complements higher-level planning in composite tasks.",
+          "authors": [
+            "Wei Huang",
+            "Bohan Zhang",
+            "Chenzhi Liu",
+            "Isabella Liu",
+            "Shuai Yang",
+            "Weian Mao",
+            "Luozhou Wang",
+            "Yicheng Xiao",
+            "Weifeng Lin",
+            "Qixin Hu",
+            "Bryan Chu",
+            "Sifei Liu",
+            "Linxi Fan",
+            "Xiaojuan Qi",
+            "Song Han",
+            "Yukang Chen"
+          ],
+          "published": "2026-10-07",
+          "primary_category": "cs.RO",
+          "position": 15,
+          "attribution": "school"
+        },
+        {
+          "arxiv_id": "2610.08900",
+          "title": "Humanize: Judgement Engineering for Agentic Coding",
+          "abstract": "Agentic coding makes code generation cheap, but reliable completion remains difficult: the agent that writes the code is a weak judge of whether it is done. We present Humanize, a multi-agent orchestration workflow for agentic coding built around judgement engineering: explicit, mechanically enforced decisions at the boundaries between planning, implementation, review, and learning. A human approves a plan contract, a builder agent implements it in rounds, and a reviewer agent from another vendor decides completion; deterministic hooks, not a model, route work between these roles and enforce 72 mechanical gates. Viewed as a Markov chain over repository states, alternating builder and reviewer samples jointly from two models, so a defect survives only if both miss it. We study Humanize through its deployment, 118 public postmortems of real loops, and its applications. Over 68 versions in 108 days, it gathered 1,468 GitHub stars. Applications include a 567-file gem5 build-system migration under upstream review; Kernel Design Agents, which extend the loop with a kernel knowledge base and profiling feedback and placed in the top three of all three Full-Agent tracks of the MLSys 2026 FlashInfer contest; and, through Humanize Olympiad Agents (HOA), full scores in IOI 2026, IMO 2026, IPhO 2026, and IBO 2024, 418.5/437 in IChO 2026 (gold-medal). Humanize also achieves 672/672 on PutnamBench and ranks first (251/303) on Lean-Eval's leaderboard even competiting with professional mathematicians. The postmortems show that independent review catches unsupported builder claims, but stopping remains a key weakness. In reports that separate rounds by phase, two thirds of rounds occurred after implementation was accepted. This evidence is observational, not a controlled comparison of workflows.",
+          "authors": [
+            "Sihao Liu",
+            "Ligeng Zhu",
+            "Zijian Zhang",
+            "Dongyun Zou",
+            "Zhengyang Zhang",
+            "Changye Li",
+            "Song Bian",
+            "Song Han",
+            "Tony Nowatzki"
+          ],
+          "published": "2026-10-06",
+          "primary_category": "cs.AI",
+          "position": 8,
+          "attribution": "school"
+        },
+        {
+          "arxiv_id": "2609.40358",
+          "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
+          "abstract": "Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. Existing approaches commonly assume that natural language is insufficient to represent the physical knowledge required for reliable generation, and therefore introduce additional visual, latent, numerical, or planning-based signals. We revisit this assumption and introduce Physis-Lang, a self-evolving framework that treats physical language as a shared and optimizable representation across data curation, model training, and video generation. Physis-Lang represents physical processes through language that describes their relevant entities, causes, interactions, governing principles, temporal evolution, and effects. To improve this representation, we construct PhysCapBench, which decomposes physical processes into atomic assertions and evaluates captions using recall and precision. An agentic loop iteratively analyzes assertion-level errors and refines the instruction used to produce physical captions. Physis-Lang further converts model deficiencies into textual descriptions and uses language-guided retrieval to identify visually diverse videos that cover missing physical processes. Experiments on four widely used physical video benchmarks with Wan and Cosmos backbones demonstrate consistent improvements in physical plausibility. Notably, starting from open-source Cosmos3-Nano backbones, our Physis-Lang-enhanced models surpass the leading proprietary Veo 3.1 model.",
+          "authors": [
+            "Liming Lu",
+            "Xianzheng Ma",
+            "Wenkun He",
+            "Guanqi Zhan",
+            "Yilin Zhao",
+            "Junyu Chen",
+            "Mengyao Xu",
+            "Jiaojiao Fan",
+            "Wenhang Ge",
+            "Yuchao Gu",
+            "Yunze Liu",
+            "Boyi Li",
+            "Zhen Dong",
+            "Victor Prisacariu",
+            "Ming-Yu Liu",
+            "Song Han",
+            "Han Cai"
+          ],
+          "published": "2026-09-30",
+          "primary_category": "cs.CV",
+          "position": 16,
+          "attribution": "school"
+        },
+        {
+          "arxiv_id": "2609.38166",
+          "title": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
+          "abstract": "Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substantially reduce the cost of long-context processing, repeatedly reading and updating that state remains a major inference bottleneck. Quantization offers a natural way to reduce this cost, but can significantly degrade model quality, due to the accumulation of rounding errors and the presence of outlier rows and columns in the state. To address these challenges, we propose LeapQuant, a training-free method that achieves near-lossless performance under 8-bit recurrent-state quantization. First, to mitigate error accumulation, we propose per-window quantization, which leaps over a window of tokens and quantizes the state only once at its end. Within a window, outputs are computed from the fixed low-bit state together with high-precision buffered updates. Second, to reduce the error introduced by each quantization, LeapQuant retains the state's largest outliers as a few high-precision Compensator Tokens, which share the update path of real tokens. We then smooth the remaining residual before quantization to further reduce the error. Comprehensive experiments across the Qwen, Kimi, and GLM model families show that LeapQuant substantially reduces memory and compute costs during inference. With accuracy comparable to the FP32 baseline, it achieves average speedups of 2.05--3.70$\\times$ at the kernel level and 1.47$\\times$ for end-to-end inference on NVIDIA B200, RTX PRO 6000, and RTX 5090 GPUs.",
+          "authors": [
+            "Yi Pan",
+            "Haocheng Xi",
+            "Kan Zhu",
+            "Xingyang Li",
+            "Yibo Wu",
+            "Mayank Mishra",
+            "Hongtao Zhang",
+            "William X. Zheng",
+            "Baris Kasikci",
+            "Song Han",
+            "Kurt Keutzer",
+            "Rishabh Iyer",
+            "Ion Stoica"
+          ],
+          "published": "2026-09-29",
+          "primary_category": "cs.LG",
+          "position": 10,
+          "attribution": "school"
+        },
+        {
+          "arxiv_id": "2609.38154",
+          "title": "LongLive-Plug: Once-for-All Distillation for Video Generation",
+          "abstract": "Video diffusion models are increasingly developed into specialized models for diverse downstream tasks, and this development often includes a distillation stage, for example to accelerate sampling or to improve long-video generation. This stage is typically repeated for every specialized model. We introduce LongLive-Plug, a once-for-all distillation framework that learns reusable capabilities as LoRAs on a base model for training-free, plug-and-play deployment to compatible downstream models. These capabilities include single-pass classifier-free guidance, few-step sampling, and long-context error correction for autoregressive generation. The adapters remain reusable even when downstream models add conditioning branches, expand output channels. Despite training at a fixed guidance scale, our dedicated CFG LoRA provides text guidance control through its inference weight. Combining it with a few-step LoRA simultaneously preserves few-step generation and CFG controllability on downstream tasks. We verify training-free deployment on 54 downstream models across three backbone families and eight task categories, including world modeling, robotics, editing, and multimodal generation. The approach may support additional compatible models. Each capability can thus be distilled once per backbone family and reused without per-target retraining.",
+          "authors": [
+            "Shuai Yang",
+            "Luozhou Wang",
+            "Wei Huang",
+            "ZhiFei Chen",
+            "Bohan Zhang",
+            "Xiao Fu",
+            "Qianli Ma",
+            "Chen-Hsuan Lin",
+            "Weian Mao",
+            "Bryan Chu",
+            "Song Han",
+            "Yukang Chen"
+          ],
+          "published": "2026-09-29",
+          "primary_category": "cs.CV",
+          "position": 11,
+          "attribution": "coauthor"
+        },
+        {
+          "arxiv_id": "2609.37852",
+          "title": "Delta-Matching: Closing the Final Gap of Native 8-bit Training for LLMs",
+          "abstract": "Reliable FP8 attention remains a barrier to fully native 8-bit large language model training. We derive how forward-backward inconsistencies produce stale delta and empirically show how it distorts training dynamics. Our stale-delta hybrid runs show a modest loss gap at 569M parameters but substantial loss increases and downstream degradation at 1.67B and 5.29B. QK normalization, NoPE (no positional encoding), and lower-learning-rate context extension mitigate or delay degradation without eliminating it. This pattern suggests accumulated optimization error that smaller models and short runs can conceal. We propose Delta-Matching, proving that it restores the softmax gradient's zero-row-sum invariant under the stated numerical assumptions. It enables native block-scaled FP8 in every forward and backward attention-core matmul without architectural changes, smaller global batches, or auxiliary forward outputs. Across tested architectures, scales, and training stages, Delta-Matching matches BF16/FP32 mixed-precision training loss and overall downstream performance. We will release our implementation, trained models, and data recipes.",
+          "authors": [
+            "Haozhan Tang",
+            "Hao Kang",
+            "Han Cai",
+            "Song Han",
+            "Chenyan Xiong"
+          ],
+          "published": "2026-09-29",
+          "primary_category": "cs.LG",
+          "position": 4,
+          "attribution": "school"
+        },
         {
           "arxiv_id": "2609.35362",
           "title": "d-OPD: Future-Aware On-Policy Distillation for Block Diffusion Language Models",
@@ -650,28 +865,6 @@
           "primary_category": "cs.AI",
           "position": 6,
           "attribution": "school"
-        },
-        {
-          "arxiv_id": "2607.05711",
-          "title": "FourTune: Towards Fully 4-Bit Efficient Post-Training for Diffusion Models",
-          "abstract": "Diffusion models have become a dominant paradigm for high-quality generative modeling, while post-training is essential for adapting them to diverse downstream applications. However, post-training of large diffusion models is still challenging due to the prohibitive memory footprints and slow training speed, which existing parameter-efficient fine-tuning methods only partially address. To overcome these limitations, we propose FourTune, an efficient post-training framework for diffusion models based on an end-to-end W4A4G4 paradigm. FourTune introduces a triple-branch hybrid pipeline that augments the standard LoRA architecture with a frozen numerical stabilizer to isolate quantization-sensitive outliers, enabling stable training under native 4-bit computation. In addition, FourTune employs hardware-efficient block-wise quantization and customized fused kernels to support efficient quantized backpropagation and reduce memory bandwidth overhead. Across customization, reinforcement learning, and distillation tasks, FourTune matches the quality of full-precision fine-tuning. On FLUX.1-dev (12B), FourTune reduces memory overhead by 2.25$\\times$ and increases end-to-end training throughput by 2.27$\\times$ compared to BF16 LoRA.",
-          "authors": [
-            "Bowen Xue",
-            "Zihan Min",
-            "Xingyang Li",
-            "Zhekai Zhang",
-            "Haocheng Xi",
-            "Lvmin Zhang",
-            "Maneesh Agrawala",
-            "Jun-Yan Zhu",
-            "Song Han",
-            "Yujun Lin",
-            "Muyang Li"
-          ],
-          "published": "2026-07-07",
-          "primary_category": "cs.LG",
-          "position": 9,
-          "attribution": "school"
         }
       ]
     },
@@ -705,6 +898,25 @@
       "affiliation": "Harvard",
       "known_for": "Datacenter networking",
       "papers": [
+        {
+          "arxiv_id": "2609.38723",
+          "title": "Towards Efficient HPC Systems for Agents: Challenges and Opportunities",
+          "abstract": "Coding agents have become real users of high-performance computing (HPC) systems, yet today's HPC abstractions, interfaces, and policies remain designed for human-driven workflows. In our measurement, users running coding agents are only 19.5% of the observed population, but account for 55.8% of job submissions, 29.1% of CPU core-hours, and 42.7% of GPU-hours. Agents are not simply faster humans. They issue commands at 20.8x the human rate, decompose work into fine-grained explore-modify-execute loops, and pursue open-ended goals through trial-and-error campaigns that continue through nights and weekends. These behaviors strain abstractions built for human timescales, surfacing as control-plane pressure on the scheduler, metadata-intensive I/O on bandwidth-provisioned filesystems, repeated rediscovery of what earlier sessions already learned, and new prompt-injection and policy-enforcement surfaces. Neither banning agents nor treating them as ordinary users is sustainable. We instead argue for co-design, that facilities should treat agents as first-class principals where agents become facility-aware tenants. We outline the resulting challenges and opportunities in compute, storage, agent memory, and safety.",
+          "authors": [
+            "Yunjia Zheng",
+            "Bintang Dwi Marthen",
+            "Zachary Pan",
+            "Minghao Li",
+            "Raminder Singh",
+            "Manasvita Joshi",
+            "Minlan Yu",
+            "Juncheng Yang"
+          ],
+          "published": "2026-09-30",
+          "primary_category": "cs.DC",
+          "position": 7,
+          "attribution": "name"
+        },
         {
           "arxiv_id": "2609.28870",
           "title": "When Fancy Eviction Fails: Rethinking Cache Replacement For LLM Prefix Reuse",
@@ -798,46 +1010,6 @@
           "primary_category": "cs.OS",
           "position": 6,
           "attribution": "school"
-        },
-        {
-          "arxiv_id": "2607.08565",
-          "title": "SMetric: Rethink LLM Scheduling for Serving Agents with Balanced Session-centric Scheduling",
-          "abstract": "LLM scheduling is critical to serving, yet how well existing designs fit agentic serving--where agents, not humans, issue the requests--remains unclear. Agents shift the workload in two ways: they consume many more tokens than humans, so the cluster must provide high throughput (TPS) at low latency; and their requests reuse far more KV\\$ than chat. Existing schedulers still trade off load balance against KV\\$ reuse: cache-aware schedulers may crowd requests onto the few instances caching the KV\\$, leaving the rest idle, while balanced schedulers may lose the opportunity for reuse, which is costly at a high reuse ratio. We thus present two key insights: (1) with a global-tier KV\\$ store, pursuing load balance need not compromise KV\\$ reuse, though the slower global tier must be used with care; and (2) given the agent's intra-session locality, routing requests by their sessions can balance the load with high KV\\$ reuse. A key challenge in realizing session-centric scheduling is that the scheduler must identify a request's session statelessly, which is difficult for model providers serving arbitrary agents. SMetric addresses this with differential scheduling based on two indicators derived from the request itself, the session turn and the local KV\\$ hit: it schedules first-turn requests for load balance, and sticks follow-ups to the instance with the highest local hit for high KV\\$ reuse. As sessions differ widely in size, SMetric sticks a follow-up only if the instance can serve it within its SLO, and otherwise migrates the session to the least-loaded instance to prevent many long sessions from eventually imbalancing the load. Evaluated on real-world traces, SMetric improves the peak TPS by 9-15% under prefill-decode colocation with a provisioned global tier and the peak prefill TPS by 9% under disaggregation over state-of-the-art schedulers, also with lower latency.",
-          "authors": [
-            "Jiahao Wang",
-            "Kaizhan Lin",
-            "Kaixi Zhang",
-            "Jinbo Han",
-            "Xingda Wei",
-            "Sijie Shen",
-            "Chenguang Fang",
-            "Wenyuan Yu",
-            "Rong Chen",
-            "Haibo Chen"
-          ],
-          "published": "2026-07-09",
-          "primary_category": "cs.DC",
-          "position": 10,
-          "attribution": "school"
-        },
-        {
-          "arxiv_id": "2607.00760",
-          "title": "MosaicKV: Serving Long-Context LLM with Dynamic Two-D KV Cache Compression",
-          "abstract": "Long-context LLM services now sustain prompts with hundreds of thousands to millions of tokens, making the key-value (KV) cache a first-order serving cost. Because the cache grows linearly with context length, it can exhaust GPU memory, force smaller batches, and reduce serving throughput. Prior KV cache compression techniques typically target only the sequence dimension or only the channel dimension, which leaves limited headroom as context windows scale. Compressing both dimensions promises higher memory reduction, but applying the two forms of compression directly leads to significant accuracy loss. This paper introduces MosaicKV, a dynamic two-D (dimensional) KV cache compression system for extremely long-context serving. MosaicKV uses dynamic two-D compression to address the accuracy challenge, exploiting the non-uniform importance distribution of elements within the KV cache. Instead of applying one compression pattern globally, MosaicKV identifies important elements for each KV vector and selects compression strategies at the granularity of KV cache segments. To address the performance challenge, where fine-grained sparsity and compression management overhead can offset the gains from compression, MosaicKV introduces compressed KV cache management. This mechanism uses underutilized GPU and CPU resources to maintain compressed KV caches and accelerate attention computation. Evaluation on an H800 GPU with multiple LLMs shows that MosaicKV delivers up to 16x attention speedup, 4.8x lower decode latency, and 7.3x higher throughput than the uncompressed baseline. At the same time, it reduces memory usage by 3x and incurs only 1.76% average accuracy loss on LongBench and RULER.",
-          "authors": [
-            "Sheng Qiang",
-            "Ruiwei Chen",
-            "Yinpeng Wu",
-            "Jinyu Gu",
-            "Zhichao Hua",
-            "Yubin Xia",
-            "Binyu Zang",
-            "Haibo Chen"
-          ],
-          "published": "2026-07-01",
-          "primary_category": "cs.LG",
-          "position": 8,
-          "attribution": "school"
         }
       ]
     },
@@ -847,6 +1019,24 @@
       "affiliation": "Peking University",
       "known_for": "Programmable networks · NetCache",
       "papers": [
+        {
+          "arxiv_id": "2610.01967",
+          "title": "FastCI: Efficient GPU-Intensive CI for LLM Training Frameworks",
+          "abstract": "As large language models (LLMs) keep growing in size and complexity, their training frameworks evolve at a rapid pace as well. Therefore, continuous integration (CI) is critical for maintaining the quality and stability of these frameworks. However, unlike traditional software, CI for LLM training frameworks relies on GPU-intensive tests, which usually involve complete model training or evaluation. This leads CI itself to become a new bottleneck for fast-paced development. In this paper, we introduce FastCI, a framework that improves the efficiency of CI for LLM training frameworks. FastCI leverages runtime evidence to select affected tests and prune tests that execute changed code in equivalent contexts. Then FastCI prioritizes high-risk tests to expose potential failures earlier, and optimizes test workloads along dimensions outside the intended validation scope of each test. Evaluated on the CI workload of our LLM training framework, FastCI reduces the CI latency by 77.5% and the GPU resource usage by 63.9%, while improving the modified code coverage retention by 3.2%, compared with the currently deployed CI pipelines. FastCI has now been integrated into the CI pipelines of our LLM training framework at ByteDance.",
+          "authors": [
+            "Tianshuo Qiao",
+            "Naiqian Zheng",
+            "Xiaopeng Liu",
+            "Shuguang Wang",
+            "Diandian Gu",
+            "Xuanzhe Liu",
+            "Xin Jin"
+          ],
+          "published": "2026-10-01",
+          "primary_category": "cs.LG",
+          "position": 7,
+          "attribution": "school+coauthor"
+        },
         {
           "arxiv_id": "2607.18002",
           "title": "ExpertPlex: A High-Goodput Disaggregated Serving System for MoE LLMs with Adaptive Persistent Kernels",
@@ -875,6 +1065,21 @@
       "affiliation": "The University of Hong Kong",
       "known_for": "Distributed machine learning systems",
       "papers": [
+        {
+          "arxiv_id": "2610.10273",
+          "title": "A Closed-Loop Non-Asymptotic Convergence Analysis of PPO with Learned Critics and Clipping",
+          "abstract": "Despite its widespread use, Proximal Policy Optimization with clipping (PPO-Clip) remains difficult to tune, and the interactions among critic learning, clipping, and rollout reuse remain incompletely understood. We develop a \\emph{non-asymptotic} analysis of PPO-Clip as a \\emph{closed-loop actor--critic} system. It captures actor--critic coupling, nonsmooth probability-ratio clipping, finite-batch reuse, and predictable early stopping under explicit coverage and critic regularity assumptions, using raw GAE and Monte Carlo critic targets. Our synchronous and asynchronous guarantees jointly characterize policy stationarity and the tracking accuracy of the learned critic, with explicit dependence on algorithmic parameters. A sufficient coupling condition gives optimization, critic tracking, clipping, and finite-batch errors a common amplification bound. The asynchronous result also requires a delay-dependent critic stepsize restriction; violating these conditions does not establish divergence. For finite layered MDPs with tabular critics, a uniform bound on the actual clipped-gradient class replaces complete-trajectory counting. A verified growing-horizon family has polynomial sample complexity, and a two-time-scale schedule gives $O(T^{-2/5})$ stationarity and critic-tracking bounds with explicit fresh-rollout accounting. These results together advance our understanding about PPO and provide theoretical guidance in tuning.",
+          "authors": [
+            "Junwei Su",
+            "Mengfan Liu",
+            "Yanyong Zhang",
+            "Chuan Wu"
+          ],
+          "published": "2026-10-07",
+          "primary_category": "cs.LG",
+          "position": 4,
+          "attribution": "school"
+        },
         {
           "arxiv_id": "2609.35517",
           "title": "Reward-Aligned Reweighting for On-Policy Distillation",
@@ -927,22 +1132,6 @@
           "published": "2026-07-13",
           "primary_category": "cs.CL",
           "position": 12,
-          "attribution": "school"
-        },
-        {
-          "arxiv_id": "2607.02333",
-          "title": "Guiding Human Validation of LLM-Generated Code via Verifiable Literate Programming",
-          "abstract": "Vibe coding democratizes software development by allowing users to generate code via natural-language (NL) interaction with large language models (LLMs). However, the code is reliable only when it faithfully implements the user's intent, which is difficult and labor-intensive for users to validate. Existing validation methods either rely on LLM-assisted automated testing, which suffers from prompt ambiguity and model fallibility, or involve users only in partial software artifacts such as prompts and test cases, which may overlook corner cases and program details. Motivated by a bug study of LLM-generated code, we find that detailed human feedback is essential, as failures often stem from underspecified requirements or subtle semantic deviations. This paper presents verifiable literate programming (VLP), a human-in-the-loop framework designed to make the review/validation process of LLM-generated code accessible to users at all programming levels. At its core, VLP proposes unambiguous NL-based documentation as a readable intermediate layer between prompts and code. The documentation demonstrates concrete program semantics and enables users to provide feedback on potential intent-code mismatches. It supports human-involved, end-to-end repair and validation via three techniques: (i) an NL-style literate language with unambiguous syntax and mostly deterministic code-to-documentation translation, (ii) LLM-based fine-grained mismatch detection that uses trace links between prompts and documentation to focus users' review effort on suspicious documentation lines, and (iii) a verification module that leverages user-validated documentation to derive API-usage checks and formal properties, which are then verified against the generated code using model checking. Our evaluation shows that VLP improves code pass@1 from 28.7%-73.2% to 65.4%-93.5% with reasonable user effort.",
-          "authors": [
-            "Ziqi Yuan",
-            "Wenhao Lu",
-            "Hao Wu",
-            "Dunhong Jin",
-            "Chuan Wu"
-          ],
-          "published": "2026-07-02",
-          "primary_category": "cs.SE",
-          "position": 5,
           "attribution": "school"
         }
       ]
