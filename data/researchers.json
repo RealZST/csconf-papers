@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-12",
+  "generated": "2026-10-26",
   "researchers": [
     {
       "slug": "ion-stoica",
@@ -8,6 +8,140 @@
       "affiliation": "UC Berkeley",
       "known_for": "Spark, Ray, vLLM · co-founded Databricks and Anyscale",
       "papers": [
+        {
+          "arxiv_id": "2610.26754",
+          "title": "TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning",
+          "abstract": "Expert human readers process large inputs (e.g., code repositories and long documents) by skimming to closely read only what matters. On the other hand, language models process all input tokens through each model layer, resulting in significant processing costs for long-context inputs. We introduce TokenGate, a small, drop-in component that extends existing trained models to enable end-to-end learnable token pruning over long-context inputs for fast and memory-efficient prefill. To enable end-to-end learning despite the non-differentiable top-K operator for token pruning, we introduce token-gated attention, a mechanism inspired by Mixture-of-Experts that re-weights attention logits using token importance scores. Across diverse tasks, TokenGate achieves $1.4$-$11.3\\times$ faster time-to-first token (TTFT) and $1.5$-$3.4\\times$ lower peak memory at no accuracy degradation for prefill in transformers. Compared to the best-performing prior methods for token-pruning, TokenGate gives up to $6.4\\times$ faster prefill and $2\\times$ lower peak memory. TokenGate natively extends both standard transformers (e.g., Qwen3) and hybrid-attention models (e.g., Qwen3.5) with simple lightweight adaptation comparable to standard parameter-efficient fine-tuning. We make our code available at: https://github.com/tokengate-models/TokenGate.",
+          "authors": [
+            "Liana Patel",
+            "Rishabh Ranjan",
+            "Ion Stoica",
+            "Matei Zaharia",
+            "Carlos Guestrin"
+          ],
+          "published": "2026-10-19",
+          "primary_category": "cs.CL",
+          "position": 3,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2610.24355",
+          "title": "Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud, Heterogeneous LLM Inference Fleets",
+          "abstract": "Deploying a large language model (LLM) requires choosing the right accelerator, parallelization strategy, engine configuration, and replica count amongst ~140 other variables across clouds, regions, and markets. These decisions are intertwined, and the best cluster-wide plan continually changes as jobs contend for shared capacity on shifting workloads. We present Koi, a self-calibrating cluster planner for heterogeneous, multi-cloud fleets. Koi uses a Recursive Language Model (RLM) hierarchy to propose hypotheses and reason over deployment while deterministic components predict serving behavior, score candidates, and control placement. It represents inference behavior as a fixed causal graph linking decisions (e.g., accelerator, parallelism), runtime mediators (e.g., KV-cache pressure, communication overhead), and outcomes (e.g., latency, throughput). Each deployment strengthens or weakens scoped causal relationships, building a comprehensive playbook for inference that the planner employs to guide future decisions. Job-wise configurations are composed into cluster-wide plans and evaluated against serving objectives, resource constraints, SLO risks, and cost. Across benchmarks, Koi achieves 1.18x greater goodput than the strongest baseline while reducing $/token by 20% in a real heterogeneous cluster. Ablations isolate the contribution of Koi's architecture: a pure language model attains a composite score of 35.3, the same model equipped with Koi's deterministic tools reaches 51.6, and the full Koi planner reaches 70.8.",
+          "authors": [
+            "Mankeerat Sidhu",
+            "Gangmuk Lim",
+            "Hetarth Chopra",
+            "Maximillian Eisenberg",
+            "Quan Hao Ng",
+            "Aryan Gosaliya",
+            "Shu Liu",
+            "Luka Govedič",
+            "Jiaxin Shan",
+            "Hongkuan Zhou",
+            "Vikram Sharma Mailthody",
+            "P. Brighten Godfrey",
+            "Ion Stoica"
+          ],
+          "published": "2026-10-17",
+          "primary_category": "cs.DC",
+          "position": 13,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2610.24304",
+          "title": "CME-SpectrumBench: Can LLMs Analyze Condensed Matter Spectral Data?",
+          "abstract": "Large Language Models (LLMs) are presently well assessed by expert-level mathematics and physics benchmarks which focus on theoretical, symbolic reasoning. However, we lack experimental benchmarks that evaluate data analysis in frontier research problems, a capability that future domain-specific foundation models must have. To this end, we present CME-SpectrumBench, an expert-designed benchmark consisting of 190 questions that measures how reliably frontier LLMs analyze research-level spectral scientific data in condensed matter experiments (CME). Using simulated CME spectral data, we prompt models to identify structures from 2D intensity arrays in the face of noise and limited instrumental resolution, a test of dense context reasoning. Models are scored by how accurately their numerical answers approach the ground truth. Under direct query, scores generally pale in comparison to handwritten code due to clear failure modes: models can find simple features but struggle to trace patterns or compute derived quantities, and performance typically degrades with increased data resolution and noise/convolution levels. LLM performance becomes comparable to handwritten code by allowing tool use (access to a Python interpreter) with/without ReAct prompting, in effect mapping questions onto agentic code generation problems. Our findings show that frontier models can serve as research assistants by interfacing with data through code, but still face difficulties processing information directly from large datasets - a key barrier future foundation models must overcome. The code and data are publicly available at https://huggingface.co/datasets/jingene/CMESpectrumBench.",
+          "authors": [
+            "Jin Gene Wong",
+            "Anjney Midha",
+            "Joseph Mathew Tennyson",
+            "Wei-Lin Chiang",
+            "Ion Stoica",
+            "Zhi-Xun Shen"
+          ],
+          "published": "2026-10-16",
+          "primary_category": "cs.AI",
+          "position": 5,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2610.22732",
+          "title": "TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents",
+          "abstract": "Advances in frontier coding agents have sharply increased the token costs of AI-assisted software engineering. Their token efficiency is typically evaluated on isolated tasks, whereas real-world developers use them to continuously build, update, and maintain large-scale projects. This mismatch motivates us to evaluate agents over sequences of realistic coding tasks, where we find that agents exhibit recurring environment-dependent token costs that existing methods struggle to reduce. To minimize these costs, we introduce TokenEconomizer, an external controller that cuts environment-specific token costs over a sequence of tasks. These cuts come from determining (i) which operational micro-skills to inject, (ii) which persistently irrelevant tools to prune, and (iii) when to intervene in unproductive failure loops. Across Claude Code, Codex, and GitHub Copilot CLI paired with frontier models, TokenEconomizer reduces the average token cost by 18.4-30.9% with comparable task success. Savings hold in every repository under every tested agent-model setting and generalize to diverse domains such as sequential web development and security auditing, where costs fall by 6.4-21.2% depending on task structure. Our work establishes adaptive black-box cost control as a promising direction for reducing token costs of coding agents in realistic settings.",
+          "authors": [
+            "Aaron J. Li",
+            "Weijia Xu",
+            "Chandan Singh",
+            "Zixiao Chen",
+            "Jeevana Priya Inala",
+            "Charlotte Siska",
+            "Acar Tamersoy",
+            "Bin Yu",
+            "Ion Stoica",
+            "Michel Galley",
+            "Jianfeng Gao"
+          ],
+          "published": "2026-10-15",
+          "primary_category": "cs.CL",
+          "position": 9,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2610.17895",
+          "title": "Interaction-as-a-Judge",
+          "abstract": "Coding agents are tasked with producing sophisticated interactive applications such as websites, desktop applications, and games. While humans assess these applications interactively, current automated LLM evaluations primarily focus on code analysis and unit tests. This mismatch can cause LLM judges to miss failures that are immediately apparent to human users. We study Interaction-as-a-Judge, an evaluation paradigm where computer-use agents (CUAs) directly interact with an application. We demonstrate that Interaction-as-a-Judge can improve both evaluation and generation of interactive applications. To this end, we collect and release two complementary datasets: $6,858$ pairs of applications with human preferences and corresponding agent traces, and $222$ applications with human-verified requirement labels. Relative to standard non-interactive approaches, we find that Interaction-as-a-Judge improves evaluation in terms of predicting human preferences ($65.6\\% \\to 69.1\\%$) and requirement verification ($77.0\\% \\to 81.6\\%$). We also observe scaling benefits: across both preference alignment and requirement verification, higher-quality interactions improve performance. Finally, through both inference- and training-time experiments, we demonstrate that Interaction-as-a-Judge can also improve the quality of generated artifacts. At inference time, Interaction-as-a-Judge repairs $75.5\\%$ of broken requirements within five attempts, compared to $55.4\\%$ for code-only self-feedback. At training time, using Interaction-as-a-Judge as a reward signal improves win-rate over the base model by $6.7$pp while reducing both generated code length by $35.7\\%$ and build failure rates by $7.2$pp compared to a code-only reward signal.",
+          "authors": [
+            "Wayne Chi",
+            "I-Hung Hsu",
+            "Li Chen",
+            "Wei-Lin Chiang",
+            "Ion Stoica",
+            "Anastasios Nikolas Angelopoulos",
+            "Ameet Talwalkar",
+            "Chris Donahue",
+            "Cho-Jui Hsieh"
+          ],
+          "published": "2026-10-13",
+          "primary_category": "cs.LG",
+          "position": 5,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2610.17184",
+          "title": "DuoDiscover: Scaling Autonomous Discovery Beyond the Evaluation Bottleneck",
+          "abstract": "Evaluation has been central to advances in AI, and it is equally critical to autonomous discovery. Yet scaling autonomous discovery to real-world engineering challenges faces a fundamental bottleneck: the cost of evaluating progress. In real settings, a single true evaluation, such as a full benchmark or serving trace, can take hours, so a search can afford only a handful of true evaluations. We present DuoDiscover, a search system that jointly discovers what to optimize and how to evaluate progress efficiently, through three mechanisms. First, each worker in a fleet of coding agents co-discovers an optimization target and a fast, tailored proxy evaluator, which we call a yardstick. The agent then hill-climbs the yardstick rather than the true evaluation. Second, since search can exploit gaps between a yardstick and the true objective, fidelity tests continually recheck each yardstick's ranking and invalidate any that drift. Third, the fleet is bottom-up, with no central decomposition of the problem. A lightweight orchestrator spawns and terminates agents, briefs running ones, and seeds new agents with others' confirmed work. DuoDiscover enables autonomous optimization from software to chip architecture. We demonstrate DuoDiscover on two repository-level benchmarks and four GPU and TPU kernel suites covering hundreds of kernels. On SWE-fficiency, it doubles the average speedup of human experts. On SOL-Exec, it ranks first on 121 of 235 kernels and in the top three on 212. On the heavily optimized vLLM and SQLite engines, DuoDiscover achieves 1.92$\\times$ and 1.38$\\times$ gains over the base code. On a CPU microarchitecture optimization task with evaluations of up to 28 hours, DuoDiscover surpasses both AlphaEvolve-based ArchAgent v2 and the best human design, with 1.65$\\times$ ArchAgent v2's gain in 16.7 days versus more than 40 days, advancing the frontier of autonomous chip design.",
+          "authors": [
+            "Shubham Agarwal",
+            "Akshat Gupta",
+            "Mike Heddes",
+            "Dilara Soylu",
+            "Rui Meng",
+            "Patrick Tser Jern Kon",
+            "Jiefeng Chen",
+            "Mert Cemri",
+            "Shu Liu",
+            "Abe Gonzalez",
+            "Akanksha Jain",
+            "Bhavana Dalvi Mishra",
+            "Linfeng Song",
+            "Vilobh Meshram",
+            "Xiangru Tang",
+            "Jinsung Yoon",
+            "Aditya Parameswaran",
+            "Ion Stoica",
+            "Vahab Mirrokni",
+            "Burak Gokturk",
+            "Parthasarathy Ranganathan",
+            "Tomas Pfister",
+            "Nanyun Peng",
+            "Chun-Liang Li"
+          ],
+          "published": "2026-10-12",
+          "primary_category": "cs.CL",
+          "position": 18,
+          "attribution": "name"
+        },
         {
           "arxiv_id": "2610.02967",
           "title": "Post-Training Frontier Text-to-Image Models by Composing Preference and Rubric Rewards",
@@ -232,44 +366,6 @@
           "primary_category": "cs.NI",
           "position": 3,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2607.16387",
-          "title": "Fantastic Adaptive Taxonomies and How to Use Them",
-          "abstract": "An agent system's execution traces record how it fails, and procedures that improve such a system without changing model weights (trajectory selection, prompt and workflow optimization, runtime monitoring) read these traces for feedback. Yet raw traces are a poor medium for accumulating that feedback: long, instance-specific, and lacking a stable vocabulary for recurring failures. We argue that an agent system should instead maintain an explicit representation of how it fails, induced from its own behavior and reusable wherever failure feedback is needed. AdaMAST builds this representation by converting a target system's traces into a compact, evidence-grounded failure taxonomy: named failure codes organized along three fixed axes (system-level, role-specific, and domain-specific), with every name, definition, and evidence pattern induced from the traces; no code is hand-authored, no trace human-annotated. The taxonomy is not merely a post-hoc diagnostic but a shared feedback interface, improving agents in three ways. In agent-system search, taxonomy-coded diagnoses of failed candidates outperform free-form reflection on all five benchmarks we test. At runtime, taxonomy feedback raises SWE-agent's resolution on SWE-bench Verified Mini from 60% with free-text reflection to 70%, and improves Claude Code from 64.0% to 70.7% as a runtime skill. In trajectory selection, AdaMAST-Judge, a verifier built on the induced codes, improves best-of-5 accuracy on Terminal-Bench 2.0 by 8-15 points over Pass@1. The vocabulary itself is compact (an order-of-magnitude compression that preserves trace distinctions), human-faithful (matching expert failure annotations more closely than a hand-crafted reference vocabulary), and adaptive (taxonomies induced for different domains share few codes). Adaptive failure taxonomies close the loop between the traces agents produce and the procedures that improve them.",
-          "authors": [
-            "Mert Cemri",
-            "Andrei Cojocaru",
-            "Melissa Pan",
-            "Shu Liu",
-            "Shubham Agarwal",
-            "Alexander Krentsel",
-            "Jay Tang",
-            "Kannan Ramchandran",
-            "Joseph E. Gonzalez",
-            "Matei Zaharia",
-            "Alex Dimakis",
-            "Ion Stoica"
-          ],
-          "published": "2026-07-17",
-          "primary_category": "cs.SE",
-          "position": 12,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2607.12316",
-          "title": "Antiproof: Synthesizing Vulnerability Detectors and Proofs of Exploitability",
-          "abstract": "Discovering vulnerabilities before attackers exploit them requires high recall and reliable automatic validation, but existing approaches struggle to achieve both without prohibitive cost. We present Antiproof, an end-to-end vulnerability discovery system that combines neuro-symbolic detector synthesis for high-recall discovery with proof-of-exploitability oracles for automatic validation. Antiproof learns and iteratively refines static detectors from vulnerability datasets, then validates candidates by verifying whether executable proofs demonstrate concrete attacker capabilities. Evaluated on BountyBench and our curated KEVBench dataset, Antiproof detects 64 of 66 vulnerabilities, improving recall by more than 60 percentage points over static-analysis and neuro-symbolic baselines. In a scan of 50 widely deployed systems, Antiproof uncovered several hundred previously unknown vulnerabilities. We are responsibly disclosing all confirmed zero-days and have received 12 CVE assignments to date, including remote code execution vulnerabilities in Ray, SGLang, vLLM, and LiteLLM that could allow attackers to take over LLM training and inference systems.",
-          "authors": [
-            "Alon Shakevsky",
-            "Corban Villa",
-            "Ion Stoica",
-            "Raluca Ada Popa"
-          ],
-          "published": "2026-07-14",
-          "primary_category": "cs.CR",
-          "position": 3,
-          "attribution": "name"
         }
       ]
     },
@@ -279,6 +375,58 @@
       "affiliation": "UC Berkeley",
       "known_for": "Created Apache Spark · Databricks CTO",
       "papers": [
+        {
+          "arxiv_id": "2610.27273",
+          "title": "FLINT: Fixed-budget Late Interaction",
+          "abstract": "Multi-vector retrieval models such as ColBERT often outperform single-vector models of comparable scale by matching queries and documents at the token level. However, retaining a vector for every token substantially increases storage requirements and slows retrieval compared to single-vector bi-encoders, limiting their scalability. We introduce FLINT (Fixed-budget Late INTeraction), an architecture that uses attention-based pooling to represent each query and document with a fixed number of embedding vectors. Unlike architectures that pool only document representations while retaining token-level queries, FLINT applies pooling symmetrically to both sides, limiting document storage and the number of vector comparisons needed during retrieval. FLINT achieves comparable ranking effectiveness to the closest baselines on BEIR and outperforms them on several benchmarks with longer and more complex queries, including BrowseComp+, CRUMB, and TREC Tip-of-the-Tongue 2025. We demonstrate that FLINT's effectiveness-efficiency benefits extend across encoder architectures, testing it on two separate backbones (BERT and ModernBERT). On long-query corpora, FLINT delivers 1.5-2.8 times faster end-to-end retrieval than ConstBERT, the closest baseline. FLINT also reduces index size by 5.3-9.3 times relative to token-level late-interaction models such as ColBERTv2.",
+          "authors": [
+            "Himank Handa",
+            "Negar Arabzadeh",
+            "Matei Zaharia"
+          ],
+          "published": "2026-10-19",
+          "primary_category": "cs.IR",
+          "position": 3,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2610.26754",
+          "title": "TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning",
+          "abstract": "Expert human readers process large inputs (e.g., code repositories and long documents) by skimming to closely read only what matters. On the other hand, language models process all input tokens through each model layer, resulting in significant processing costs for long-context inputs. We introduce TokenGate, a small, drop-in component that extends existing trained models to enable end-to-end learnable token pruning over long-context inputs for fast and memory-efficient prefill. To enable end-to-end learning despite the non-differentiable top-K operator for token pruning, we introduce token-gated attention, a mechanism inspired by Mixture-of-Experts that re-weights attention logits using token importance scores. Across diverse tasks, TokenGate achieves $1.4$-$11.3\\times$ faster time-to-first token (TTFT) and $1.5$-$3.4\\times$ lower peak memory at no accuracy degradation for prefill in transformers. Compared to the best-performing prior methods for token-pruning, TokenGate gives up to $6.4\\times$ faster prefill and $2\\times$ lower peak memory. TokenGate natively extends both standard transformers (e.g., Qwen3) and hybrid-attention models (e.g., Qwen3.5) with simple lightweight adaptation comparable to standard parameter-efficient fine-tuning. We make our code available at: https://github.com/tokengate-models/TokenGate.",
+          "authors": [
+            "Liana Patel",
+            "Rishabh Ranjan",
+            "Ion Stoica",
+            "Matei Zaharia",
+            "Carlos Guestrin"
+          ],
+          "published": "2026-10-19",
+          "primary_category": "cs.CL",
+          "position": 4,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2610.20563",
+          "title": "Scaling Discovery Requires Forgetting",
+          "abstract": "Automated research with LLM agents has shown promising results in various domains. Through iterative refinement and scored verifiers, LLM agents are capable of discovering new ideas. There are different ways to scale automated research: let one agent iterate for longer, run several agents in parallel, or further let the parallel agents communicate and build on one another's candidates. However, we find that all three strategies eventually plateau as the agents accumulate history. Each agent becomes anchored to its own past attempts, making fewer and smaller edits. Beyond this point, additional budget brings little further improvement. In this paper, we show that the key to scaling discovery further is to forget. Periodically discarding the search state, including every agent's session and the candidate history, and restarting from the best candidate found so far, unblocks the search and pushes the same budget further. We implement forgetting in a team of agents with communication and evaluate it on four tasks spanning heuristic programming, kernel optimization and model training. The results show up to 15% improvement compared to parallel agents, and up to 39% compared to a single agent. Our results suggest that, for open-ended discovery, what an agent is allowed to remember matters as much as how much compute it is given.",
+          "authors": [
+            "Shangyin Tan",
+            "Ben Zhou",
+            "Lakshya A Agrawal",
+            "Jialin Zhang",
+            "Yilin Chen",
+            "Qiuyang Mang",
+            "Donghyun Lee",
+            "Dennis Jacob",
+            "Koushik Sen",
+            "Alex Dimakis",
+            "Matei Zaharia"
+          ],
+          "published": "2026-10-14",
+          "primary_category": "cs.AI",
+          "position": 11,
+          "attribution": "name"
+        },
         {
           "arxiv_id": "2610.12176",
           "title": "Recursive Self-Improvement through Multi-Agent Self-Supervision",
@@ -371,46 +519,6 @@
           "primary_category": "cs.DC",
           "position": 9,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2607.16387",
-          "title": "Fantastic Adaptive Taxonomies and How to Use Them",
-          "abstract": "An agent system's execution traces record how it fails, and procedures that improve such a system without changing model weights (trajectory selection, prompt and workflow optimization, runtime monitoring) read these traces for feedback. Yet raw traces are a poor medium for accumulating that feedback: long, instance-specific, and lacking a stable vocabulary for recurring failures. We argue that an agent system should instead maintain an explicit representation of how it fails, induced from its own behavior and reusable wherever failure feedback is needed. AdaMAST builds this representation by converting a target system's traces into a compact, evidence-grounded failure taxonomy: named failure codes organized along three fixed axes (system-level, role-specific, and domain-specific), with every name, definition, and evidence pattern induced from the traces; no code is hand-authored, no trace human-annotated. The taxonomy is not merely a post-hoc diagnostic but a shared feedback interface, improving agents in three ways. In agent-system search, taxonomy-coded diagnoses of failed candidates outperform free-form reflection on all five benchmarks we test. At runtime, taxonomy feedback raises SWE-agent's resolution on SWE-bench Verified Mini from 60% with free-text reflection to 70%, and improves Claude Code from 64.0% to 70.7% as a runtime skill. In trajectory selection, AdaMAST-Judge, a verifier built on the induced codes, improves best-of-5 accuracy on Terminal-Bench 2.0 by 8-15 points over Pass@1. The vocabulary itself is compact (an order-of-magnitude compression that preserves trace distinctions), human-faithful (matching expert failure annotations more closely than a hand-crafted reference vocabulary), and adaptive (taxonomies induced for different domains share few codes). Adaptive failure taxonomies close the loop between the traces agents produce and the procedures that improve them.",
-          "authors": [
-            "Mert Cemri",
-            "Andrei Cojocaru",
-            "Melissa Pan",
-            "Shu Liu",
-            "Shubham Agarwal",
-            "Alexander Krentsel",
-            "Jay Tang",
-            "Kannan Ramchandran",
-            "Joseph E. Gonzalez",
-            "Matei Zaharia",
-            "Alex Dimakis",
-            "Ion Stoica"
-          ],
-          "published": "2026-07-17",
-          "primary_category": "cs.SE",
-          "position": 10,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2607.15524",
-          "title": "Recursive Harness Self-Improvement",
-          "abstract": "Under model--harness co-evolution, harnesses are not merely inference-time scaffolds but data-generating components whose execution traces can shape future foundation models. This motivates harness-in-the-loop learning: optimizing harnesses for both immediate agent performance and the quality of traces used for future model training. However, continually updating provider-built scaffolds is costly and labor-intensive. We therefore investigate whether optimizing user-constructed harnesses in a task-specific manner can improve execution-trace quality while remaining computationally lightweight and requiring only a few update iterations. To this end, we introduce Recursive Harness Self-Improvement (RHI), which represents the harness as a prompt-level specification of the agent loop and iteratively refines it using pairwise feedback over its own revision history. Across 30 synthetic machine-learning research tasks spanning quantitative finance, robotics, and pharmacy, a few RHI iterations suffice to substantially raise the performance ceiling of low-reasoning-effort agents, exceeding the corresponding maximum-reasoning-effort setting while reducing inference cost by up to 60%. We show that these gains arise primarily from improved task-specific context management through more effective inter-agent information flow rather than longer reasoning traces. Finally, we formalize this behavior as an information-theoretic hypothesis for RHI's implicit optimization objective, suggesting RHI as a practical algorithm for continual learning within the paradigm of model--harness co-evolution.",
-          "authors": [
-            "Hyunin Lee",
-            "Jinglue Xu",
-            "Jeffrey Seely",
-            "Donghyun Lee",
-            "Matei Zaharia",
-            "Yujin Tang"
-          ],
-          "published": "2026-07-17",
-          "primary_category": "cs.LG",
-          "position": 5,
-          "attribution": "name"
         }
       ]
     },
@@ -441,7 +549,7 @@
         {
           "arxiv_id": "2609.36954",
           "title": "Purlin: Separating Orchestration from the Datapath of Collectives",
-          "abstract": "Distributed inference depends on GPU collective communication that must keep pace with evolving hardware and specialized workloads. However, existing collective implementations often couple semantics, orchestration (where and when data moves), and the datapath (how data moves). This coupling makes it costly to adopt new hardware mechanisms and customize communication for applications. We present Purlin, a scale-up communication framework that separates these concerns. At the top of Purlin, we specify collectives as a naming of an input and output layout and a copy or reduction operation. In the middle, we introduce a shared orchestration protocol, Stage, Notify, And Consume (SNAC), which derives coordination from these specifications. Below SNAC sits a hardware-specific datapath we call Atom, which implements two key data movement primitives for collectives: copy and reduce. This separation lets us customize collectives and adopt new hardware mechanisms while reusing orchestration via SNAC. We evaluate Purlin on A100, H200, and B200 GPUs. Across seven collectives, Purlin achieves latency speedups of up to 5.14x and bandwidth improvements of up to 4.50x over baselines. Integrated into SGLang, Purlin improves offline LLM serving throughput and interactivity by 1.13x on average and up to 1.37x over baselines. For online LLM inference, Purlin improves interactivity by 1.26x on average and up to 2.85x, with the largest gain occurring under overload. For diffusion image generation, Purlin reduces end-to-end latency by up to 1.13x.",
+          "abstract": "Distributed inference depends on GPU collective communication that must keep pace with evolving hardware and specialized workloads. However, existing works often couple the semantics, orchestration (where and when data moves), and datapath (how data moves) of collective communication. This coupling makes it costly to adopt new hardware mechanisms and customize communication for applications. We present Purlin, a scale-up communication framework that separates these concerns. At the top of Purlin, we specify collectives as a naming of an input and output layout and a copy or reduction operation. In the middle, we introduce a shared orchestration protocol, Stage, Notify, And Consume (SNAC), which derives coordination from these specifications. Below SNAC sits a hardware-specific datapath we call Atom, which implements two key data movement primitives for collectives: copy and reduce. This separation lets us customize collectives and adopt new hardware mechanisms while reusing orchestration via SNAC. We evaluate Purlin on A100, H200, and B200 GPUs. Across seven collectives, Purlin achieves latency speedups of up to 5.14x and bandwidth improvements of up to 4.50x over baselines. Integrated into SGLang, Purlin improves offline LLM serving throughput and interactivity by 1.13x on average and up to 1.37x over baselines. For online LLM inference, Purlin improves interactivity by 1.26x on average and up to 2.85x, with the largest gain occurring under overload. For diffusion image generation, Purlin reduces end-to-end latency by up to 1.13x.",
           "authors": [
             "Osayamen Jonathan Aimuyo",
             "Swapnil Gandhi",
@@ -590,6 +698,36 @@
       "affiliation": "MIT",
       "known_for": "Deep Compression, AWQ, SmoothQuant",
       "papers": [
+        {
+          "arxiv_id": "2610.19495",
+          "title": "Robota-Embed: Unified VLA Embeddings for Robot In-Context Learning and Evolution",
+          "abstract": "Retrieving useful context for a robot requires matching its task, execution stage, and the continuation that should follow. We introduce Robota-Embed, to our knowledge the first vision-language-action (VLA) embedding model to jointly encode all three modalities in both current-state queries and recorded future continuations. Predictive retrieval training aligns these endpoints, enabling historical continuations to serve as context at inference time. We construct a multi-source corpus of 1,695,684 cleaned training anchors and introduce Robota-Embed-Bench, with 4,000 queries and a shared 8,000-entry gallery. Robota-Embed achieves 47.33% clip-level and 81.77% episode-level R@1, exceeding action-free Gemini Embedding 2 by 22.09 and 33.47 percentage points. Controlled retrieval studies show that removing native action degrades retrieval more than removing vision. We study two complementary applications. Embed2ICL uses retrieved experience for training-free and training-based policy conditioning, increasing success from 47.0% to 56.3% in DROID-Sim and from 86.4% to 92.8% on the LIBERO difficult subset, while improving task progress on real robots. Embed2Evolve uses execution feedback to grow task-local memory and refine context use around a frozen GPT-6 Astra policy. Across five ManiSkill tasks, it achieves 68% success, compared with 24% for GPT-6 Astra Direct and 33% for a harness independently evolved with Omni-Embed-Nemotron-3B under the same protocol. Relative to the latter, it uses approximately 79.5% fewer policy tokens per test rollout, counting both successes and failures. These results show that a unified, action-aware retrieval space can support robot in-context learning and task-local context evolution.",
+          "authors": [
+            "Yunze Liu",
+            "Jing Wang",
+            "Shenrui Wu",
+            "Wenkun He",
+            "Guanqi Zhan",
+            "Xianzheng Ma",
+            "Junyu Chen",
+            "Wenhang Ge",
+            "Haozhan Tang",
+            "Yuchao Gu",
+            "Zhuoyang Zhang",
+            "Zekai Wang",
+            "Dantong Niu",
+            "Zhen Dong",
+            "Yuke Zhu",
+            "Trevor Darrell",
+            "Linxi \"Jim\" Fan",
+            "Song Han",
+            "Han Cai"
+          ],
+          "published": "2026-10-14",
+          "primary_category": "cs.RO",
+          "position": 18,
+          "attribution": "school"
+        },
         {
           "arxiv_id": "2610.13632",
           "title": "Humanize Olympiad Agents: A Multi-Session Workflow for Olympiad Problem Solving with Solve, Review, Wiki, Verify",
@@ -875,6 +1013,24 @@
       "known_for": "Networked and distributed systems",
       "papers": [
         {
+          "arxiv_id": "2610.22673",
+          "title": "The Case for TPU-Accelerated Analytical Query Processing",
+          "abstract": "Large-scale analytical query processing requires computing substrates capable of immense distributed scale-out. Tensor Processing Units (TPUs) perfectly embody this extreme-scale architecture, offering massive computational density and highly scalable optical pod-level interconnects. Despite these advantages, TPUs have so far remained largely unexplored for analytical database workloads. In this paper, we present the first comprehensive case for TPU-accelerated analytical query processing by running all the TPC-H queries entirely on the TPUs. We introduce Native TPU Accelerator (NTA) for analytical query processing, which provides hardware-conscious algorithm design and optimizations in JAX/XLA. By exposing the TPU's structural mechanics, we demonstrate how dynamic, memory-bound database operations can be rewritten into deterministic JAX programs. We engineer a suite of novel execution strategies that leverage both the TPU's TensorCore and SparseCore to trade sparse, unpredictable memory accesses for dense, hardware-aligned ones. At the core of NTA, a compiler uses catalog statistics to assign guarded static capacities and a hardware-calibrated local cost model to select a TPU-native implementation for each relational operator before JIT compilation. We evaluate our system using the TPC-H benchmark. Taking full advantage of TPU slices and JAX distributed computing, we seamlessly scale our execution environment to run TPC-H benchmark up to Scale Factor 1000 (SF1000). Evaluated against a rigorous CPU ground truth (DuckDB), our native TPU accelerator achieves state-of-the-art performance, achieving a 7.0x single-device speedup over DuckDB at SF100 and a 68.6x speedup with 16 TPUs at SF1000 (1TB). The results establish TPUs not merely as dense neural compute hardware, but as a highly competitive, massively scalable substrate for the next generation of analytical query processing.",
+          "authors": [
+            "Yeounoh Chung",
+            "Jaehyun Ha",
+            "Helena Caminal",
+            "Fatma Ozcan",
+            "Aditya K Kamath",
+            "Arvind Krishnamurthy",
+            "Henry M. Levy"
+          ],
+          "published": "2026-10-15",
+          "primary_category": "cs.DB",
+          "position": 6,
+          "attribution": "name"
+        },
+        {
           "arxiv_id": "2609.17527",
           "title": "Agentic Societies Need a Social Harness",
           "abstract": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes with existing harnesses and messaging primitives, and that faulty or malicious agents can stall collaboration, influence outcomes, and pursue other harmful goals by exploiting vulnerabilities in communication (``speech''). We argue that agentic societies need a \\emph{social harness} for inter-agent interactions, in addition to each agent's \\emph{personal harness}, which manages its private context and communication with its principal. We propose a layered architecture for social harnesses which (i) prevents classes of failures outright, (ii) enables agents to detect invalid messages at runtime, and (iii) supports post-facto investigation and consequences, and highlight directions for future research to realize these capabilities.",
@@ -898,6 +1054,25 @@
       "affiliation": "Harvard",
       "known_for": "Datacenter networking",
       "papers": [
+        {
+          "arxiv_id": "2610.28355",
+          "title": "Beyond the Point Mass: Acceptance-Derived Weights and Distributional Losses for Speculative Decoding",
+          "abstract": "In speculative decoding, a lightweight draft model proposes tokens that the target model verifies in parallel, speeding up generation without changing the target distribution. D-PACE (Wu et al., 2026) trains such drafters with a loss that weights each position by its contribution to the expected accepted length. Both its weights and its cross-entropy (CE) loss use only the draft's probability of the recorded target token, treating the target as a point mass. Under rejection sampling, however, a sampled draft token is accepted with probability equal to the overlap of the draft and target distributions, one minus their total variation (TV). We derive D-PAL (Dynamic Position-wise Acceptance Loss) from the exact expected accepted length, using this overlap as the acceptance signal. This yields overlap-based position weights with log acceptance (LA) as the per-position loss, and the objective reduces to D-PACE for a point-mass target. Since the weights are detached, any per-position loss can replace LA in practice. We show that forward KL divergence and Rényi divergence of order 1/2 match or exceed LA, and that Rényi-1/2 provably bounds the true acceptance rate from above and below. Replacing CE with Rényi-1/2 improves acceptance length under both D-PACE's weights and ours. On six benchmarks with a Qwen3-4B target, D-PAL raises mean acceptance length over D-PACE from 4.50 to 4.57 at T=0 and from 4.20 to 4.28 at T=1, and consistently achieves higher throughput at both temperatures.",
+          "authors": [
+            "Tianyu Wu",
+            "Zhuohan Wang",
+            "Jonathan Geuter",
+            "Yu Yao",
+            "Weifan Jiang",
+            "Chengxi Zhang",
+            "Ju Li",
+            "Minlan Yu"
+          ],
+          "published": "2026-10-20",
+          "primary_category": "cs.LG",
+          "position": 8,
+          "attribution": "name"
+        },
         {
           "arxiv_id": "2609.38723",
           "title": "Towards Efficient HPC Systems for Agents: Challenges and Opportunities",
@@ -1020,6 +1195,24 @@
       "known_for": "Programmable networks · NetCache",
       "papers": [
         {
+          "arxiv_id": "2610.16592",
+          "title": "Prorsa: Unleashing the Potential of Prefill-Decode Disaggregation in Agentic Reinforcement Learning",
+          "abstract": "Agentic reinforcement learning (RL) is commonly used to enhance the capabilities of large language models (LLMs) in solving complex multi-turn tasks. During rollout, agentic RL exhibits a workload pattern distinct from that of traditional RL: multi-turn interactions repeatedly introduce prefill requests, causing prefill and decode workloads to coexist throughout rollout. This workload makes prefill-decode (PD) disaggregation, a design widely used for online LLM serving, promising for speeding up agentic RL rollout. This paper shows that PD disaggregation can improve rollout efficiency by (a) mitigating interference among data-parallel attention modules, (b) enabling stage-specific parallelism, and (c) reducing end-to-end trajectory completion time. However, a fixed prefill-decode allocation may fail to sustain these benefits as workload composition varies across tasks and over time. We therefore present Prorsa, an agentic RL framework for prediction-guided prefill-decode resource allocation. Prorsa observes the lifecycle of every trajectory to forecast short-horizon prefill and decode demand. These forecasts then guide worker allocation decisions and trigger role switching of rollout engines, aligning prefill and decode capacity with anticipated workload demand. Across synchronous and asynchronous agentic RL settings, Prorsa achieves end-to-end rollout speedups of 1.11x-4.05x over prefill-decode colocation.",
+          "authors": [
+            "Chiheng Lou",
+            "Xiangwei Deng",
+            "Bangjun Xiao",
+            "Xiaodong Ji",
+            "Yikai Zhao",
+            "Xin Jin",
+            "Hailin Zhang"
+          ],
+          "published": "2026-10-12",
+          "primary_category": "cs.DC",
+          "position": 6,
+          "attribution": "school+coauthor"
+        },
+        {
           "arxiv_id": "2610.01967",
           "title": "FastCI: Efficient GPU-Intensive CI for LLM Training Frameworks",
           "abstract": "As large language models (LLMs) keep growing in size and complexity, their training frameworks evolve at a rapid pace as well. Therefore, continuous integration (CI) is critical for maintaining the quality and stability of these frameworks. However, unlike traditional software, CI for LLM training frameworks relies on GPU-intensive tests, which usually involve complete model training or evaluation. This leads CI itself to become a new bottleneck for fast-paced development. In this paper, we introduce FastCI, a framework that improves the efficiency of CI for LLM training frameworks. FastCI leverages runtime evidence to select affected tests and prune tests that execute changed code in equivalent contexts. Then FastCI prioritizes high-risk tests to expose potential failures earlier, and optimizes test workloads along dimensions outside the intended validation scope of each test. Evaluated on the CI workload of our LLM training framework, FastCI reduces the CI latency by 77.5% and the GPU resource usage by 63.9%, while improving the modified code coverage retention by 3.2%, compared with the currently deployed CI pipelines. FastCI has now been integrated into the CI pipelines of our LLM training framework at ByteDance.",
@@ -1036,26 +1229,6 @@
           "primary_category": "cs.LG",
           "position": 7,
           "attribution": "school+coauthor"
-        },
-        {
-          "arxiv_id": "2607.18002",
-          "title": "ExpertPlex: A High-Goodput Disaggregated Serving System for MoE LLMs with Adaptive Persistent Kernels",
-          "abstract": "LLMs scale Mixture-of-Experts (MoE) parameters for superior intelligence, but massive weights and dynamic computation impede efficient serving. Existing instance-level prefill-decode disaggregation isolates the phases on separate full-model replicas. As MoE weights grow, each instance may span tens to hundreds of GPUs, making resource allocation increasingly coarse. Configured prefill-to-decode ratios thus often mismatch demand, overprovisioning one phase while overloading the other. Prefill-decode colocation avoids this duplication, but existing Green Context solutions partition each GPU by phase and fix phase resources during a kernel. They cannot track resource changes across operations or layerwise variation in routed expert load, causing head-of-line blocking or idle reserved resources. Partitioning every GPU also leaves each phase with fewer local resources, forces wider parallelism and more communication, and lets prefill and decode traffic interfere on the shared network. We present ExpertPlex, which shares massive MoE experts across phases while disaggregating lightweight attention modules. Expert sharing eliminates over 95% of duplicate model weights and multiplexes dynamically sparse computation, while attention disaggregation reduces attention communication cost. ExpertPlex further uses (1) adaptive persistent kernels to schedule dynamic expert computation at tile granularity for efficient, isolated execution; (2) attention-initiated MoE communication to avoid network interference and enable cross-phase communication-computation overlap; and (3) a tile-to-cluster model to optimize these mechanisms for maximum goodput. Experiments serving MiniMax-M2.7 and GLM-5.1-FP8 show that ExpertPlex improves goodput by up to 2.01$\\times$ over instance-level prefill-decode disaggregation and 1.66$\\times$ over prefill-decode colocation.",
-          "authors": [
-            "Bingyang Wu",
-            "Chao Jin",
-            "Zili Zhang",
-            "Xinming Wei",
-            "Yinmin Zhong",
-            "Ruidong Zhu",
-            "Chengxu Yang",
-            "Xin Jin",
-            "Yuliang Liu"
-          ],
-          "published": "2026-07-20",
-          "primary_category": "cs.DC",
-          "position": 8,
-          "attribution": "school+coauthor"
         }
       ]
     },
@@ -1065,6 +1238,26 @@
       "affiliation": "The University of Hong Kong",
       "known_for": "Distributed machine learning systems",
       "papers": [
+        {
+          "arxiv_id": "2610.21640",
+          "title": "ReFlow: Replay-Driven Decoupling for Efficient RL Post-Training",
+          "abstract": "Reinforcement learning (RL) has been a critical paradigm for improving large language model (LLM) reasoning and agentic capabilities, but its efficiency remains a major bottleneck. Existing RL systems commonly rely on asynchronous execution to overlap rollout generation with policy optimization for enhanced efficiency. However, this approach faces inherent limitations: mild policy staleness offers only limited training efficiency gains, whereas aggressive asynchrony can degrade model quality and yields diminishing efficiency gains. The dynamic nature of LLM RL and multi-turn agentic workloads further challenges RL system design, as resource demands shift over time, making static resource allocation and generation strategy inefficient. This paper presents ReFlow, a system-algorithm co-designed RL framework for efficient LLM post-training. Its key insight is that, unlike existing RL frameworks which consume each trajectory only once, experience replay of recent trajectories enables effective sample reuse, thereby amortizing the high cost of rollout generation without incurring excessive policy staleness. To fully exploit this opportunity, ReFlow adopts a decoupled and adaptive architecture with three key designs: a dual replay data cycle supports efficient experience reuse while balancing training throughput and optimization stability; an elastic resource pool enables dynamic resource placement to accommodate evolving RL workloads; an adaptive scheduler coordinates generation strategies and resource allocation to improve resource utilization and boost generation throughput. Experiments across representative single-turn reasoning and multi-turn agentic RL tasks show that ReFlow improves training throughput by up to $2.06\\times$ over state-of-the-art synchronous and asynchronous RL systems, while maintaining comparable or better model performance.",
+          "authors": [
+            "Yukun Tian",
+            "Junwei Su",
+            "Haofeng Xu",
+            "Lansong Diao",
+            "Zhengping Qian",
+            "Weibo Zhao",
+            "Wenchao Zhou",
+            "Ruiting Zhou",
+            "Chuan Wu"
+          ],
+          "published": "2026-10-15",
+          "primary_category": "cs.LG",
+          "position": 9,
+          "attribution": "school"
+        },
         {
           "arxiv_id": "2610.10273",
           "title": "A Closed-Loop Non-Asymptotic Convergence Analysis of PPO with Learned Critics and Clipping",
@@ -1109,29 +1302,6 @@
           "published": "2026-08-15",
           "primary_category": "cs.LG",
           "position": 4,
-          "attribution": "school"
-        },
-        {
-          "arxiv_id": "2609.17536",
-          "title": "Think Before You Comfort: Reflective Cognitive Alignment for Protocol-Grounded Elderly Stimulation Agents",
-          "abstract": "Cognitive Stimulation Therapy (CST) offers non-pharmacological support for elders with cognitive impairment, yet scalability remains constrained by reliance on trained facilitators and severe data scarcity, particularly for privacy-sensitive, low-resource languages such as Cantonese. While Large Language Models (LLMs) show promise for automated companionship, they often struggle to balance empathetic engagement with adherence to cognitive stimulation guidelines. We propose a framework addressing these challenges along two complementary axes. First, STaR-CS (Style-Transfer and Role-Conditioned Cognitive Stimulation) synthesizes multi-party dialogues through facilitator style modeling and structured skeleton extraction, mitigating data barriers. Building upon this corpus, the Reflective Cognitive Alignment (RCA) framework models stimulation interactions as a sequential decision process, integrating Protocol-Constrained Chain-of-Cognition (PC-CoC) for structured reasoning and Inference-Time Value Alignment (IVA) for principled response selection based on safety and engagement goals. Evaluations across six backbone LLMs and two independent judges show that RCA consistently improves protocol adherence, safety, and group facilitation over standard prompting baselines. Our code is available at https://github.com/jiangjyjy/RCA_Agent.",
-          "authors": [
-            "Jiyue Jiang",
-            "Ziyi Li",
-            "He Hu",
-            "Sheng Wang",
-            "Yuhan Chen",
-            "Yanyu Chen",
-            "Jingqi Zhou",
-            "Pengan Chen",
-            "Fei Ma",
-            "Irwin King",
-            "Yu Li",
-            "Chuan Wu"
-          ],
-          "published": "2026-07-13",
-          "primary_category": "cs.CL",
-          "position": 12,
           "attribution": "school"
         }
       ]
