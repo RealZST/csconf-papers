@@ -7,7 +7,7 @@
     ],
     "paper_count": 66,
     "note": null,
-    "updated": "2026-10-01"
+    "updated": "2026-11-01"
   },
   "papers": [
     {
@@ -1034,9 +1034,9 @@
           "orcid": null
         },
         {
-          "name": "Lei Wang",
+          "name": "Lei Wang 0301",
           "display_name": "Lei Wang",
-          "pid": "181/2817",
+          "pid": "181/2817-301",
           "orcid": null
         },
         {
@@ -1272,9 +1272,9 @@
           "orcid": "0009-0005-9535-5350"
         },
         {
-          "name": "Chen Zhang 0001",
+          "name": "Chen Zhang 0073",
           "display_name": "Chen Zhang",
-          "pid": "94/4084-1",
+          "pid": "94/4084-73",
           "orcid": "0000-0001-9045-9269"
         },
         {
@@ -4074,9 +4074,9 @@
       "title": "Jenga: Effective Memory Management for Serving LLM with Heterogeneity",
       "authors": [
         {
-          "name": "Chen Zhang 0001",
+          "name": "Chen Zhang 0073",
           "display_name": "Chen Zhang",
-          "pid": "94/4084-1",
+          "pid": "94/4084-73",
           "orcid": "0000-0001-9045-9269"
         },
         {

@@ -7,7 +7,7 @@
     ],
     "paper_count": 483,
     "note": "This file is all of PVLDB vol 18. The VLDB 2025 research track is really the papers accepted before this volume's cutoff plus rollovers from the previous volume, a distinction DBLP metadata does not record.",
-    "updated": "2026-10-01"
+    "updated": "2026-11-01"
   },
   "papers": [
     {
@@ -1660,9 +1660,9 @@
       "title": "LEGO-GraphRAG: Modularizing Graph-based Retrieval-Augmented Generation for Design Space Exploration",
       "authors": [
         {
-          "name": "Yukun Cao",
+          "name": "Yukun Cao 0001",
           "display_name": "Yukun Cao",
-          "pid": "96/5464",
+          "pid": "96/5464-1",
           "orcid": null
         },
         {
@@ -2684,9 +2684,9 @@
           "orcid": null
         },
         {
-          "name": "Yong Zhang 0002",
+          "name": "Yong Zhang 0004",
           "display_name": "Yong Zhang",
-          "pid": "66/4615-2",
+          "pid": "66/4615-4",
           "orcid": null
         },
         {
@@ -3169,7 +3169,7 @@
           "name": "Graham Cormode",
           "display_name": "Graham Cormode",
           "pid": "c/GrahamCormode",
-          "orcid": null
+          "orcid": "0000-0002-0698-0922"
         },
         {
           "name": "Shripad Gade",
@@ -4885,7 +4885,7 @@
           "name": "Riccardo Tommasini 0001",
           "display_name": "Riccardo Tommasini",
           "pid": "169/8184",
-          "orcid": null
+          "orcid": "0000-0003-3404-5250"
         },
         {
           "name": "Angela Bonifati",
@@ -5537,7 +5537,7 @@
           "name": "Shabnam Ghasemirad",
           "display_name": "Shabnam Ghasemirad",
           "pid": "336/5101",
-          "orcid": null
+          "orcid": "0000-0002-4193-5123"
         },
         {
           "name": "Si Liu 0003",
@@ -7353,7 +7353,7 @@
           "name": "Hongyao Zhao",
           "display_name": "Hongyao Zhao",
           "pid": "336/5205",
-          "orcid": null
+          "orcid": "0000-0001-8239-045X"
         },
         {
           "name": "Wei Lu 0015",
@@ -8383,7 +8383,7 @@
           "name": "Jinwoo Hwang",
           "display_name": "Jinwoo Hwang",
           "pid": "67/4710",
-          "orcid": null
+          "orcid": "0009-0008-8498-2502"
         },
         {
           "name": "Daeun Kim",
@@ -9951,7 +9951,7 @@
           "name": "Riccardo Tommasini 0001",
           "display_name": "Riccardo Tommasini",
           "pid": "169/8184",
-          "orcid": null
+          "orcid": "0000-0003-3404-5250"
         },
         {
           "name": "Georgia Troullinou",
@@ -10539,7 +10539,7 @@
           "name": "Riccardo Tommasini 0001",
           "display_name": "Riccardo Tommasini",
           "pid": "169/8184",
-          "orcid": null
+          "orcid": "0000-0003-3404-5250"
         }
       ],
       "venue": "VLDB",
@@ -10671,7 +10671,7 @@
           "name": "Akshay Mehta",
           "display_name": "Akshay Mehta",
           "pid": "345/0655",
-          "orcid": null
+          "orcid": "0009-0008-4733-4135"
         },
         {
           "name": "Deepti Raghavan",
@@ -11936,9 +11936,9 @@
       "title": "A Single Machine System for Querying Big Graphs with PRAM",
       "authors": [
         {
-          "name": "Yang Liu",
+          "name": "Yang Liu 0500",
           "display_name": "Yang Liu",
-          "pid": "51/3710",
+          "pid": "51/3710-500",
           "orcid": "0009-0009-5149-5879"
         },
         {
@@ -14573,7 +14573,7 @@
           "name": "Lei Huang",
           "display_name": "Lei Huang",
           "pid": "18/1763",
-          "orcid": null
+          "orcid": "0009-0009-1774-7999"
         },
         {
           "name": "Yanfei Lei",
@@ -16241,7 +16241,7 @@
           "name": "Jia Li 0009",
           "display_name": "Jia Li",
           "pid": "23/6950-9",
-          "orcid": null
+          "orcid": "0000-0002-3148-6897"
         },
         {
           "name": "Lei Zou 0001",
@@ -16786,9 +16786,9 @@
       "title": "SQLStorm: Taking Database Benchmarking into the LLM Era",
       "authors": [
         {
-          "name": "Tobias Schmidt",
+          "name": "Tobias Schmidt 0006",
           "display_name": "Tobias Schmidt",
-          "pid": "67/6944",
+          "pid": "67/6944-6",
           "orcid": null
         },
         {
@@ -17215,7 +17215,7 @@
           "name": "Ali Khan",
           "display_name": "Ali Khan",
           "pid": "29/4613",
-          "orcid": null
+          "orcid": "0000-0002-0938-451X"
         },
         {
           "name": "Sanjukta Bhowmick",
@@ -17435,7 +17435,7 @@
           "name": "Jia Li 0014",
           "display_name": "Jia Li",
           "pid": "23/6950-14",
-          "orcid": null
+          "orcid": "0000-0002-3148-6897"
         },
         {
           "name": "Chen Zhang 0010",
@@ -18719,7 +18719,7 @@
           "name": "Jia Li 0009",
           "display_name": "Jia Li",
           "pid": "23/6950-9",
-          "orcid": null
+          "orcid": "0000-0002-3148-6897"
         }
       ],
       "venue": "VLDB",
@@ -18957,7 +18957,7 @@
           "name": "Jia Li 0014",
           "display_name": "Jia Li",
           "pid": "23/6950-14",
-          "orcid": null
+          "orcid": "0000-0002-3148-6897"
         },
         {
           "name": "Lei Chen 0002",
@@ -19801,7 +19801,7 @@
           "name": "Alex Aiken",
           "display_name": "Alex Aiken",
           "pid": "a/AAiken",
-          "orcid": null
+          "orcid": "0000-0002-3723-9555"
         },
         {
           "name": "Guangyan Zhang",
@@ -19972,9 +19972,9 @@
           "orcid": null
         },
         {
-          "name": "Yong Zhang 0002",
+          "name": "Yong Zhang 0004",
           "display_name": "Yong Zhang",
-          "pid": "66/4615-2",
+          "pid": "66/4615-4",
           "orcid": null
         }
       ],
@@ -21249,7 +21249,7 @@
           "name": "Pengpeng Qiao",
           "display_name": "Pengpeng Qiao",
           "pid": "218/2702",
-          "orcid": null
+          "orcid": "0000-0002-2428-8737"
         },
         {
           "name": "Shang Liu 0001",

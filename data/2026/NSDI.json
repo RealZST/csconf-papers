@@ -7,7 +7,7 @@
     ],
     "paper_count": 150,
     "note": null,
-    "updated": "2026-10-01"
+    "updated": "2026-11-01"
   },
   "papers": [
     {
@@ -756,9 +756,9 @@
           "orcid": null
         },
         {
-          "name": "Zihao Feng",
+          "name": "Zihao Feng 0001",
           "display_name": "Zihao Feng",
-          "pid": "157/9892",
+          "pid": "157/9892-1",
           "orcid": null
         },
         {
@@ -898,7 +898,7 @@
           "orcid": null
         },
         {
-          "name": "Jianshan Zhang",
+          "name": "Jianshan Zhang 0001",
           "display_name": "Jianshan Zhang",
           "pid": "234/7991",
           "orcid": null
@@ -4026,9 +4026,9 @@
           "orcid": null
         },
         {
-          "name": "Xiang Li 0067",
+          "name": "Xiang Li 0238",
           "display_name": "Xiang Li",
-          "pid": "40/1491-67",
+          "pid": "40/1491-238",
           "orcid": null
         },
         {
@@ -6852,9 +6852,9 @@
           "orcid": null
         },
         {
-          "name": "Guo Chen",
+          "name": "Guo Chen 0001",
           "display_name": "Guo Chen",
-          "pid": "24/858",
+          "pid": "24/858-1",
           "orcid": null
         }
       ],

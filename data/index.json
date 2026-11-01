@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-01",
+  "generated": "2026-11-01",
   "paper_count": 3188,
   "files": [
     {
@@ -8,160 +8,160 @@
       "venue": "ASPLOS",
       "year": 2025,
       "paper_count": 179,
-      "updated": "2026-10-01",
-      "sha256": "8734ffe204bca3ad4af3434b50558737c1f2297fd82c9bba901b611cc3cb75c5"
+      "updated": "2026-11-01",
+      "sha256": "4e16eeae7744f48617c3db584a27df7fd18b60291609c5fa681f4eca076e71a4"
     },
     {
       "path": "data/2025/ATC.json",
       "venue": "ATC",
       "year": 2025,
       "paper_count": 100,
-      "updated": "2026-10-01",
-      "sha256": "c20b990544dd050a851afe1bfe66c9a0f497106a07e577b6afdac3f60f7a24e2"
+      "updated": "2026-11-01",
+      "sha256": "de713f0f5755a7e15b09363a0699c82ed71a0fd8facd54dec1b110d33e9e7ced"
     },
     {
       "path": "data/2025/EuroSys.json",
       "venue": "EuroSys",
       "year": 2025,
       "paper_count": 85,
-      "updated": "2026-10-01",
-      "sha256": "7040891dd689914fb795595d0172e008cb2514f70541bcd6f4067e08ddd3ccec"
+      "updated": "2026-11-01",
+      "sha256": "f6798ef5e9aa7d1f48db069e4383b83ddbceb2cdf2ede506373795f28ca21a5e"
     },
     {
       "path": "data/2025/MLSys.json",
       "venue": "MLSys",
       "year": 2025,
       "paper_count": 61,
-      "updated": "2026-10-01",
-      "sha256": "a2b8183340b1ad2139c0a96c1334f99372876a9bff3054f6993a67345b03e77b"
+      "updated": "2026-11-01",
+      "sha256": "176f64d827c871bb0cad9c425bb87901ade40e580db5dbe53f1e270e51c8e30f"
     },
     {
       "path": "data/2025/MobiCom.json",
       "venue": "MobiCom",
       "year": 2025,
       "paper_count": 77,
-      "updated": "2026-10-01",
-      "sha256": "541906b2a807c51c765024d3c7f56a5cd33acad7a94aeb0e85f32d642cb2246e"
+      "updated": "2026-11-01",
+      "sha256": "22f83e6b20af6201ad28c4509dfc3c162452183bc9e88e1cb8b34f21e4a320f7"
     },
     {
       "path": "data/2025/NSDI.json",
       "venue": "NSDI",
       "year": 2025,
       "paper_count": 83,
-      "updated": "2026-10-01",
-      "sha256": "d5bee1d252cc626c1c36ce8e9f7bde01d3a8288c7878e2f3902f42f9f9297ab1"
+      "updated": "2026-11-01",
+      "sha256": "9be7e184f3d5865efddd2aba6184c77795df5fb453cab8a0a917c683d5405ce7"
     },
     {
       "path": "data/2025/OSDI.json",
       "venue": "OSDI",
       "year": 2025,
       "paper_count": 53,
-      "updated": "2026-10-01",
-      "sha256": "ba7b46c0bfe0f6a19fdb811fa12528ef08aefb2a7801fd63b80d3510def7ca2d"
+      "updated": "2026-11-01",
+      "sha256": "9e168a72ad0be2b5a91c4a8634b6540efeb0380cac465de42ccb0162d227bc0e"
     },
     {
       "path": "data/2025/SIGCOMM.json",
       "venue": "SIGCOMM",
       "year": 2025,
       "paper_count": 88,
-      "updated": "2026-10-01",
-      "sha256": "621f116230d44ef8630f5c158d955ebb5f355e6eacb86faf879b8eeb54fc5c9c"
+      "updated": "2026-11-01",
+      "sha256": "b8519685feafd6c3607c22cab948d09ae46cacc85b087ef67d447651a6772911"
     },
     {
       "path": "data/2025/SIGMOD.json",
       "venue": "SIGMOD",
       "year": 2025,
       "paper_count": 251,
-      "updated": "2026-10-01",
-      "sha256": "c656b3d7119feea02e2b5221f7e6c053617cbd3902a05878a2b5ae6937c1e58a"
+      "updated": "2026-11-01",
+      "sha256": "8f6fd48dc11144d8ac9d7b9fb08b78826e71b51599b281f5039a7213f5ee8af4"
     },
     {
       "path": "data/2025/SOSP.json",
       "venue": "SOSP",
       "year": 2025,
       "paper_count": 66,
-      "updated": "2026-10-01",
-      "sha256": "19333741aaa3882ef14aaacff96185a2f7424dc2bb9e36e655f43211a45bbfa8"
+      "updated": "2026-11-01",
+      "sha256": "403c2fe13df4f8aa508bb0776b5b1e1396534bd09dd8d7d9fddc7c0c06ff5646"
     },
     {
       "path": "data/2025/VLDB.json",
       "venue": "VLDB",
       "year": 2025,
       "paper_count": 483,
-      "updated": "2026-10-01",
-      "sha256": "cf7b9bc4c430d7fdad1c172ffa05f1656dd49fa01e18216d1e02527cbb58df06"
+      "updated": "2026-11-01",
+      "sha256": "2222a369768636fdd22aa72e4a9b8307f3f77dbac292c4315d3947b62349a77a"
     },
     {
       "path": "data/2026/ASPLOS.json",
       "venue": "ASPLOS",
       "year": 2026,
       "paper_count": 155,
-      "updated": "2026-10-01",
-      "sha256": "344f0b61402c44981124c81c87272705a005b05f82c489375859434b8b1fe644"
+      "updated": "2026-11-01",
+      "sha256": "a7ad80019743c4c2d65346f9061c430459d10c32564b7c69bb40ea1dd4b7f8d3"
     },
     {
       "path": "data/2026/EuroSys.json",
       "venue": "EuroSys",
       "year": 2026,
       "paper_count": 138,
-      "updated": "2026-10-01",
-      "sha256": "c2d7cc1924319e8e26a6a4f5a4e91f76ca247b3b1695e4c3490eaf10fed4f76b"
+      "updated": "2026-11-01",
+      "sha256": "ed535ef1fa0a963c7518695698a134c457c60060f118ba5068a19ff995124b90"
     },
     {
       "path": "data/2026/MLSys.json",
       "venue": "MLSys",
       "year": 2026,
       "paper_count": 135,
-      "updated": "2026-10-01",
-      "sha256": "84ff6b73fa06e5e332a5747f4142b95aef1c52c0c11746fd65b2e6255b9bd7cd"
+      "updated": "2026-11-01",
+      "sha256": "1afbd618371f80b3c8ea4c00c8aab82a3aba696a2a644fde692c5b4a33a69c9d"
     },
     {
       "path": "data/2026/MobiCom.json",
       "venue": "MobiCom",
       "year": 2026,
       "paper_count": 87,
-      "updated": "2026-10-01",
-      "sha256": "46916477c3dd3ec0096b8ef713f4e7ac9a84c6f913b740a1640f0b83cc5707df"
+      "updated": "2026-11-01",
+      "sha256": "974ee7c735c7a1421c6aad4633aa5bedc00ba9763ec93e37b6f1a3dd681e741e"
     },
     {
       "path": "data/2026/NSDI.json",
       "venue": "NSDI",
       "year": 2026,
       "paper_count": 150,
-      "updated": "2026-10-01",
-      "sha256": "905653e42a82bf48673c584d5c676ceab3a783a305060586758bd7df029e39b6"
+      "updated": "2026-11-01",
+      "sha256": "f975a1557be0ad00985216f67340cab784a30167369782daca865e73a3250337"
     },
     {
       "path": "data/2026/OSDI.json",
       "venue": "OSDI",
       "year": 2026,
       "paper_count": 136,
-      "updated": "2026-08-12",
-      "sha256": "f99966a114c05b6db09408757fa26e196794e1e3c5a1ce6b41599fbcf5969a96"
+      "updated": "2026-11-01",
+      "sha256": "7074646da123f984a9ce6f89dc55a526eb3753f635868a0a03dccd700fb93883"
     },
     {
       "path": "data/2026/SIGMOD.json",
       "venue": "SIGMOD",
       "year": 2026,
       "paper_count": 354,
-      "updated": "2026-10-01",
-      "sha256": "d7944f5dd482efb7c1335d5536d8b8c6421dc485f95c9d6846c8a99ad469d8b0"
+      "updated": "2026-11-01",
+      "sha256": "7fbc1350a46de0a7a022c0c0fa3ee3340cca179d22351262981a24df04b0bd66"
     },
     {
       "path": "data/2026/SOSP.json",
       "venue": "SOSP",
       "year": 2026,
       "paper_count": 62,
-      "updated": "2026-10-01",
-      "sha256": "6925b1d03fc43ce9df80d5546aaa2612025c35e328b6185961ccd6010bac6f35"
+      "updated": "2026-11-01",
+      "sha256": "1bb923f286c05ce694a5dc5bc730e3cf110f3f72d2ebe8ee241727efa02a9e66"
     },
     {
       "path": "data/2026/VLDB.json",
       "venue": "VLDB",
       "year": 2026,
       "paper_count": 445,
-      "updated": "2026-10-01",
-      "sha256": "881c9f542d9ce953c9e7199875d4db81607edacc186e1913016588b151566100"
+      "updated": "2026-11-01",
+      "sha256": "98775a6adc1219a5660df960e149803c82cc9850b4357faeab40c643ffeb588f"
     }
   ]
 }

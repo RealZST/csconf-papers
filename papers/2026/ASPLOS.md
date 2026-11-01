@@ -1,6 +1,6 @@
 # ASPLOS 2026
 
-155 papers · updated 2026-10-01
+155 papers · updated 2026-11-01
 
 - [A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context LLMs](https://doi.org/10.1145/3779212.3790119) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3779212.3790119) · [preprint](https://arxiv.org/abs/2502.09921)
   Hongsun Jang, Jaeyong Song, Changmin Shin, Si Ung Noh, Jaewon Jung, Jisung Park, Jinho Lee
@@ -245,7 +245,7 @@
 - [SLAWS: Spatial Locality Analysis and Workload Orchestration for Sparse Matrix Multiplication](https://doi.org/10.1145/3779212.3790222) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3779212.3790222)
   Guoyu Li, Zheng Guan, Beichen Zhang, Jun Yu, Kun Wang
 - [SNIP: An Adaptive Mixed Precision Framework for Subbyte Large Language Model Training](https://doi.org/10.1145/3779212.3790223) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3779212.3790223) · [preprint](https://arxiv.org/abs/2602.01410)
-  Yunjie Pan, Yongyi Yang, Hanmei Yang, Scott Mahlke
+  Yunjie Pan, Yongyi Yang, Hanmei Yang, Scott A. Mahlke
 - [SpeContext:  Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs](https://doi.org/10.1145/3779212.3790224) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3779212.3790224) · [preprint](https://arxiv.org/abs/2512.00722)
   Jiaming Xu, Jiayi Pan, Hanzhen Wang, Yongkang Zhou, Jiancai Ye, Yu Wang, Guohao Dai
 - [SpecProto: A Parallelizing Compiler for Speculative Decoding of Large Protocol Buffers Data](https://doi.org/10.1145/3779212.3790225) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3779212.3790225)

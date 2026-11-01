@@ -1,6 +1,6 @@
 # VLDB 2026
 
-445 papers · updated 2026-10-01
+445 papers · updated 2026-11-01
 
 > This file is all of PVLDB vol 19. The VLDB 2026 research track is really the papers accepted before this volume's cutoff plus rollovers from the previous volume, a distinction DBLP metadata does not record.
 
@@ -237,7 +237,7 @@
 - [Developing and Benchmarking Verification Algorithms to Improve Text-to-SQL Generation](https://www.vldb.org/pvldb/vol19/p3732-alrashed.pdf) · [PDF](https://www.vldb.org/pvldb/vol19/p3732-alrashed.pdf)
   Tarfah Alrashed, Madhup Sukoon, David R. Karger, Natasha F. Noy
 - [DeXOR: Enabling XOR in Decimal Space for Streaming Lossless Compression of Floating-point Data](https://www.vldb.org/pvldb/vol19/p849-li.pdf) · [PDF](https://www.vldb.org/pvldb/vol19/p849-li.pdf)
-  Chuanyi Lv, Huan Li, Dingyu Yang, Zhonele Xie, Lu Chen, Christian S. Jensen
+  Chuanyi Lv, Huan Li, Dingyu Yang, Zhongle Xie, Lu Chen, Christian S. Jensen
 - [Dial: A Knowledge-Grounded Dialect-Specific NL2SQL System](https://www.vldb.org/pvldb/vol19/p3718-zhou.pdf) · [PDF](https://www.vldb.org/pvldb/vol19/p3718-zhou.pdf)
   Xiang Zhang, Le Zhou, Hongming Xu, Wei Zhou, Xuanhe Zhou, Guoliang Li, Yuyu Luo, Changdong Liu, Guorun Chen, Jiang Liao, Fan Wu
 - [DialectEvo: Bridging SQL Dialects with Execution-Guided Knowledge Refinement](https://www.vldb.org/pvldb/vol19/p4850-ma.pdf) · [PDF](https://www.vldb.org/pvldb/vol19/p4850-ma.pdf)

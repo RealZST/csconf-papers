@@ -8,7 +8,7 @@
     ],
     "paper_count": 155,
     "note": null,
-    "updated": "2026-10-01"
+    "updated": "2026-11-01"
   },
   "papers": [
     {
@@ -1683,9 +1683,9 @@
           "orcid": "0009-0004-6925-8824"
         },
         {
-          "name": "Dawoon Jeong",
+          "name": "Dawoon Jeong 0001",
           "display_name": "Dawoon Jeong",
-          "pid": "231/4317",
+          "pid": "231/4317-1",
           "orcid": "0009-0002-7442-7771"
         },
         {
@@ -3975,9 +3975,9 @@
           "orcid": "0009-0005-6877-1658"
         },
         {
-          "name": "Ruizhi Zhu",
+          "name": "Ruizhi Zhu 0002",
           "display_name": "Ruizhi Zhu",
-          "pid": "358/0223",
+          "pid": "358/0223-2",
           "orcid": "0009-0008-3270-9547"
         },
         {
@@ -5177,9 +5177,9 @@
           "orcid": "0009-0002-2817-7839"
         },
         {
-          "name": "Scott Mahlke",
-          "display_name": "Scott Mahlke",
-          "pid": "429/0057",
+          "name": "Scott A. Mahlke",
+          "display_name": "Scott A. Mahlke",
+          "pid": "m/SAMahlke",
           "orcid": "0000-0002-0438-0616"
         }
       ],
@@ -5437,9 +5437,9 @@
       "title": "Toasty: Speeding Up Network I/O with Cache-Warm Buffers",
       "authors": [
         {
-          "name": "Preeti",
+          "name": "Preeti 0002",
           "display_name": "Preeti",
-          "pid": "130/5095",
+          "pid": "130/5095-2",
           "orcid": "0009-0009-8245-843X"
         },
         {
@@ -7117,9 +7117,9 @@
           "orcid": "0009-0009-8953-8619"
         },
         {
-          "name": "Sijia Chen",
+          "name": "Sijia Chen 0001",
           "display_name": "Sijia Chen",
-          "pid": "60/2243",
+          "pid": "60/2243-1",
           "orcid": "0009-0007-0862-7923"
         },
         {
@@ -8437,9 +8437,9 @@
       "title": "SwiftSpec: Disaggregated Speculative Decoding and Fused Kernels for Low-Latency LLM Inference",
       "authors": [
         {
-          "name": "Ziyi Zhang",
+          "name": "Ziyi Zhang 0002",
           "display_name": "Ziyi Zhang",
-          "pid": "40/9956",
+          "pid": "40/9956-2",
           "orcid": "0009-0004-4336-6341"
         },
         {

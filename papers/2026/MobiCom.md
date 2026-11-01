@@ -1,6 +1,6 @@
 # MobiCom 2026
 
-87 papers · updated 2026-10-01
+87 papers · updated 2026-11-01
 
 - ["Take Me Home, Wi-Fi Drone": A Drone-based Wireless System for Wilderness Search and Rescue](https://arxiv.org/abs/2604.09115) · arxiv.org · [PDF](https://arxiv.org/pdf/2604.09115)
   Weiying Hou, Luca Jiang-Tao Yu, Chenshu Wu
@@ -13,7 +13,7 @@
 - [ActiveSight: Enabling Continuous Wearable Perception through Algorithm-Hardware Co-Designed Multimodal Semantic Gating](https://scholar.google.com/scholar?q=ActiveSight%3A%20Enabling%20Continuous%20Wearable%20Perception%20through%20Algorithm-Hardware%20Co-Designed%20Multimodal%20Semantic%20Gating) · scholar.google.com
   Zhihao Ren, Xiaoyu Fang, Sohom Sen, Tao Han, Nirwan Ansari
 - [Adaptive Segmented Decentralized Federated Learning on Tiny Devices](https://scholar.google.com/scholar?q=Adaptive%20Segmented%20Decentralized%20Federated%20Learning%20on%20Tiny%20Devices) · scholar.google.com
-  Navidreza Asadi, Lars Wulfert, Chi Xia, Halil İbrahim Bengu, Hendrik Wöhrle, Wolfgang Kellerer, Navidreza Asadi
+  Navidreza Asadi, Lars Wulfert, Chi Xia, Halil İbrahim Bengu, Hendrik Wöhrle, Wolfgang Kellerer
 - [AmbientRider: Towards Infrastructure-Independent Ambient LoRa Backscatter](https://scholar.google.com/scholar?q=AmbientRider%3A%20Towards%20Infrastructure-Independent%20Ambient%20LoRa%20Backscatter) · scholar.google.com
   Huixin Dong, Lingyun Jin, Renyi Zhi, Zhenkai Peng, Qian Zhang, Wei Wang
 - [AppFlow: Memory Scheduling for Cold Launch of Large Apps on Mobile and Vehicle Systems](https://arxiv.org/abs/2603.17259) · arxiv.org · [PDF](https://arxiv.org/pdf/2603.17259)
@@ -35,7 +35,7 @@
 - [City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts](https://scholar.google.com/scholar?q=City-Scale%20Radiance-Field%20Reconstruction%20via%20Mixture%20of%20Radio%20Experts) · scholar.google.com
   Shen Wang, Guosheng Wang, Donghui Dai, Lei Yang
 - [CRISP: Co-designing Pruning and Scheduling for Efficient MoE Inference on Edge Servers](https://scholar.google.com/scholar?q=CRISP%3A%20Co-designing%20Pruning%20and%20Scheduling%20for%20Efficient%20MoE%20Inference%20on%20Edge%20Servers) · scholar.google.com
-  Congwei Zhang, Youming Tao, Yifei Zou, Yu Yang, Ruirui Zhang, Xiaoyu Zhang, Falko Dressler, Xiuzhen Cheng, Dongxiao Yu, Congwei Zhang
+  Congwei Zhang, Youming Tao, Yifei Zou, Yu Yang, Ruirui Zhang, Xiaoyu Zhang, Falko Dressler, Xiuzhen Cheng, Dongxiao Yu
 - [Cross-Band RF Radiance Field Modeling via 3D Gaussian Splatting and Propagation Mixture-of-Experts](https://scholar.google.com/scholar?q=Cross-Band%20RF%20Radiance%20Field%20Modeling%20via%203D%20Gaussian%20Splatting%20and%20Propagation%20Mixture-of-Experts) · scholar.google.com
   Zechen Li, Hao Pan, Yu Lu, Yiheng Bian, Yongjian Fu, Yezhou Wang, Lanqing Yang, Guangtao Xue
 - [D-Fault: Uncovering Disaggregation Faults in 5G RAN](https://scholar.google.com/scholar?q=D-Fault%3A%20Uncovering%20Disaggregation%20Faults%20in%205G%20RAN) · scholar.google.com
@@ -59,13 +59,13 @@
 - [Experience: Agentic Security Analysis of 5G Protocol Interactions](https://scholar.google.com/scholar?q=Experience%3A%20Agentic%20Security%20Analysis%20of%205G%20Protocol%20Interactions) · scholar.google.com
   Minghao Tang, Yuanjie Li, Hewu Li, Jiale Liu, Xi Long, Jiahao Li, Yimei Chen, Wei Liu, Qian Wu, Zeqi Lai, Jun Liu
 - [Experience: Unveiling GNSS-RTK in the Wild: A 2.5-Year Nationwide Study via Last-Mile Delivery](https://scholar.google.com/scholar?q=Experience%3A%20Unveiling%20GNSS-RTK%20in%20the%20Wild%3A%20A%202.5-Year%20Nationwide%20Study%20via%20Last-Mile%20Delivery) · scholar.google.com
-  Anlan Yu, Zhiqing Hong, Jinkun Li, Shuting Pan, Haotian Wang, Yi Ding, Daqing Zhang, Shuting Pan
+  Anlan Yu, Zhiqing Hong, Jinkun Li, Shuting Pan, Haotian Wang, Yi Ding, Daqing Zhang
 - [Exploring the Feasibility of Full-Body Muscle Activation Sensing with Insole Pressure Sensors](https://arxiv.org/abs/2602.10442) · arxiv.org · [PDF](https://arxiv.org/pdf/2602.10442)
   Hao Zhou, Mahanth Gowda
 - [From Soil, For Soil: Self-Powered Moisture Sensing via Natural Electrical Transients](https://scholar.google.com/scholar?q=From%20Soil%2C%20For%20Soil%3A%20Self-Powered%20Moisture%20Sensing%20via%20Natural%20Electrical%20Transients) · scholar.google.com
   Chang Huang, Ziyang Liu, Hao Tang, Yizhou Li, Minhao Cui, Guobiao Hu, Kaishun Wu
 - [General Speech Reconstruction for Voice Calls Using Smartphone's Built-in Accelerometer](https://scholar.google.com/scholar?q=General%20Speech%20Reconstruction%20for%20Voice%20Calls%20Using%20Smartphone%27s%20Built-in%20Accelerometer) · scholar.google.com
-  Guodong Liu, Lei Wang, Xingwei Wang, Qianran Qiao, Cheng Peng, Jie Xiong, Haipeng Dai, Guihai Chen, Guodong Liu, Xingwei Wang
+  Guodong Liu, Lei Wang, Xingwei Wang, Qianran Qiao, Cheng Peng, Jie Xiong, Haipeng Dai, Guihai Chen, Xingwei Wang
 - [Golden Sniffer: Low-Complexity 5G New Radio Signal Interception Exploiting Gold Sequences](https://scholar.google.com/scholar?q=Golden%20Sniffer%3A%20Low-Complexity%205G%20New%20Radio%20Signal%20Interception%20Exploiting%20Gold%20Sequences) · scholar.google.com
   Ivan Palamà, Stefano Mangione, Alessandra Dino, Giulia Focarelli, Giuseppe Bianchi
 - [GRADE: Single-Frame Generative Radar Depth Estimation Under Visual Degradation](https://scholar.google.com/scholar?q=GRADE%3A%20Single-Frame%20Generative%20Radar%20Depth%20Estimation%20Under%20Visual%20Degradation) · scholar.google.com
@@ -73,7 +73,7 @@
 - [Group-Shared Low-Rank Approximation for Mobile-Efficient Pointwise Convolutions in Large-Kernel CNNs](https://arxiv.org/abs/2608.26069) · arxiv.org · [PDF](https://arxiv.org/pdf/2608.26069)
   Hao Luo, Yiting Yang, Wenyi Zhao, Man Jiang, Zhijun Lin, Ghulam Mohiuddin, Ting Jiang, Kunming Luo, Zihao Zhang, Qingsen Yan, Guoqing Wang, Wei Dong, Peng Wang
 - [Hark: Breaking Receiver Power Limits of LoRa](https://scholar.google.com/scholar?q=Hark%3A%20Breaking%20Receiver%20Power%20Limits%20of%20LoRa) · scholar.google.com
-  Amalinda Gamage, Pramuka Sooriya Patabandige, Spanddhana Sara, Ambuj Varshney, Amalinda Gamage, Sooriya Patabandige Pramuka, Sarah Spanddhana
+  Amalinda Gamage, Pramuka Sooriya Patabandige, Spanddhana Sara, Ambuj Varshney
 - [InstMeter: An Instruction-Level Method to Predict Energy and Latency of DL Model Inference on MCUs](https://arxiv.org/abs/2603.04134) · arxiv.org · [PDF](https://arxiv.org/pdf/2603.04134)
   Hao Liu, Qing Wang, Marco Zuniga
 - [IoT-Brain: Grounding LLMs for Semantic-Spatial Sensor Scheduling](https://arxiv.org/abs/2604.08033) · arxiv.org · [PDF](https://arxiv.org/pdf/2604.08033)
@@ -87,15 +87,15 @@
 - [MetaScatter: Enabling High-Order Underwater Backscatter via Piezoelectric Metasurface](https://scholar.google.com/scholar?q=MetaScatter%3A%20Enabling%20High-Order%20Underwater%20Backscatter%20via%20Piezoelectric%20Metasurface) · scholar.google.com
   Juan He, Jie Xiong, Wenhao Liu, Xuan Wang, Xiaoyan Wang, Na Chen, Chen Liu, Chunlong Fei, Chao Feng, Xiaojiang Chen
 - [MetaVenom: Field Programmable Fully Passive Metasurfaces](https://scholar.google.com/scholar?q=MetaVenom%3A%20Field%20Programmable%20Fully%20Passive%20Metasurfaces) · scholar.google.com
-  Baicheng Chen, Justin Chen, Wuqiong Zhao, Kai Zheng, Xinyu Zhang, Kai Zheng
+  Baicheng Chen, Justin Chen, Wuqiong Zhao, Kai Zheng, Xinyu Zhang
 - [MetaVision: Enhancing Resolution for Wi-Fi Vision with Hierarchical Programmable Metasurface](https://scholar.google.com/scholar?q=MetaVision%3A%20Enhancing%20Resolution%20for%20Wi-Fi%20Vision%20with%20Hierarchical%20Programmable%20Metasurface) · scholar.google.com
-  Long Fan, Yinghui He, Lei Xie, Xin Li, Fu Xiao, Jun Luo, Xin Li
+  Long Fan, Yinghui He, Lei Xie, Xin Li, Fu Xiao, Jun Luo
 - [mmFHE: mmWave Sensing with End-to-End Fully Homomorphic Encryption](https://arxiv.org/abs/2603.22437) · arxiv.org · [PDF](https://arxiv.org/pdf/2603.22437)
-  Tanvir Ahmed, Yixuan Gao, Adnan Armouti, Rajalakshmi Nandakumar, Tanvir Ahmed
+  Tanvir Ahmed, Yixuan Gao, Adnan Armouti, Rajalakshmi Nandakumar
 - [MoiréSkin: Ultra-Sensitive Sensor–Actuator Visuo-Tactile Skin using Moiré Patterns](https://scholar.google.com/scholar?q=Moir%C3%A9Skin%3A%20Ultra-Sensitive%20Sensor%E2%80%93Actuator%20Visuo-Tactile%20Skin%20using%20Moir%C3%A9%20Patterns) · scholar.google.com
   Linzhen Zhu, Liuxi Xing, Runqiu Wang, Ke Sun
 - [Monitoring Electrical Transformer Mechanics via Crowdsourced Imaging](https://scholar.google.com/scholar?q=Monitoring%20Electrical%20Transformer%20Mechanics%20via%20Crowdsourced%20Imaging) · scholar.google.com
-  Shihan Zhao, Yunan Lu, Lingang Li, Donghui Dai, Lei Yang, Shihan Zhao
+  Shihan Zhao, Yunan Lu, Lingang Li, Donghui Dai, Lei Yang
 - [MORSE: Multipath Resilient One-Shot Localization for RIS via Spatial Spectral Encoding](https://scholar.google.com/scholar?q=MORSE%3A%20Multipath%20Resilient%20One-Shot%20Localization%20for%20RIS%20via%20Spatial%20Spectral%20Encoding) · scholar.google.com
   Qiufeng Rui, Ruiyi Shen, Jurui Qi, Jacob Drewniak, Gabriel Rebeiz, Upamanyu Madhow, Yasaman Ghasempour
 - [mzCache: On-Device LLM Memory Management under Multitasking](https://arxiv.org/abs/2609.01338) · arxiv.org · [PDF](https://arxiv.org/pdf/2609.01338)
@@ -135,7 +135,7 @@
 - [Shape-Reconfigurable Charger: Magnetic Power Pathway Programming via Computed Morphing](https://scholar.google.com/scholar?q=Shape-Reconfigurable%20Charger%3A%20Magnetic%20Power%20Pathway%20Programming%20via%20Computed%20Morphing) · scholar.google.com
   Xiang Cui, Yuxuan Sun, Hao Zhou, Mujun Li, Xiang-Yang Li
 - [SkyShare: Constellation-wide Sky Sharing for LEO-Radio Astronomy Coexistence](https://arxiv.org/abs/2609.00821) · arxiv.org · [PDF](https://arxiv.org/pdf/2609.00821)
-  Farzad Mehri, Dara Ron, Nishanth Sastry, Satyaki Roy, Vijay K Shah, Vijay Shah
+  Farzad Mehri, Dara Ron, Nishanth Sastry, Satyaki Roy, Vijay K Shah
 - [Sparsity-Aware Scheduling for Efficient MoE-Based LLM Serving on Edge Servers](https://scholar.google.com/scholar?q=Sparsity-Aware%20Scheduling%20for%20Efficient%20MoE-Based%20LLM%20Serving%20on%20Edge%20Servers) · scholar.google.com
   Yan Zhuang, Chen Gong, Zhenzhe Zheng, Jiale Lei, Xiaoyao Huang, Jie Wu, Fan Wu, Guihai Chen
 - [Spatially Selective Radar Backscatter Communication](https://scholar.google.com/scholar?q=Spatially%20Selective%20Radar%20Backscatter%20Communication) · scholar.google.com
@@ -149,7 +149,7 @@
 - [TAP3D: Thermal-Assisted 3D Human Point Clouds](https://scholar.google.com/scholar?q=TAP3D%3A%20Thermal-Assisted%203D%20Human%20Point%20Clouds) · scholar.google.com
   Xie Zhang, Chengxiao Li, Liu Xuan, Chenshu Wu
 - [Thor: Fine-grained Per-UE Baseband Routing in vRAN](https://scholar.google.com/scholar?q=Thor%3A%20Fine-grained%20Per-UE%20Baseband%20Routing%20in%20vRAN) · scholar.google.com
-  Xin Zhe Khooi, Satis Kumar Permal, Dong Hyeok Kim, Robert Schmidt, Min Suk Kang, Mun Choon Chan, Mun Choon Chan, Satis Kumar Permal
+  Xin Zhe Khooi, Satis Kumar Permal, Dong Hyeok Kim, Robert Schmidt, Min Suk Kang, Mun Choon Chan
 - [TulipTender: A Mobile 3D Parkinson's Disease Assessment System Using a Single Camera](https://scholar.google.com/scholar?q=TulipTender%3A%20A%20Mobile%203D%20Parkinson%27s%20Disease%20Assessment%20System%20Using%20a%20Single%20Camera) · scholar.google.com
   Meng Xue, Yizhen Zhang, HY Wong, Yanni Yang, GHF Chan, YF Cheung, Nancy Y lp, Qian Zhang
 - [UltraLEGO: A Modular Ultra-Wideband Phased Array Platform for Wireless Sensing and Localization](https://scholar.google.com/scholar?q=UltraLEGO%3A%20A%20Modular%20Ultra-Wideband%20Phased%20Array%20Platform%20for%20Wireless%20Sensing%20and%20Localization) · scholar.google.com

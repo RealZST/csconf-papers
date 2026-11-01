@@ -7,7 +7,7 @@
     ],
     "paper_count": 87,
     "note": null,
-    "updated": "2026-10-01"
+    "updated": "2026-11-01"
   },
   "papers": [
     {
@@ -1688,12 +1688,6 @@
           "display_name": "Xinyu Zhang",
           "pid": null,
           "orcid": null
-        },
-        {
-          "name": "Kai Zheng",
-          "display_name": "Kai Zheng",
-          "pid": null,
-          "orcid": null
         }
       ],
       "venue": "MobiCom",
@@ -1812,12 +1806,6 @@
           "display_name": "Lei Yang",
           "pid": null,
           "orcid": null
-        },
-        {
-          "name": "Shihan Zhao",
-          "display_name": "Shihan Zhao",
-          "pid": null,
-          "orcid": null
         }
       ],
       "venue": "MobiCom",
@@ -1860,24 +1848,6 @@
         {
           "name": "Ambuj Varshney",
           "display_name": "Ambuj Varshney",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Amalinda Gamage",
-          "display_name": "Amalinda Gamage",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Sooriya Patabandige Pramuka",
-          "display_name": "Sooriya Patabandige Pramuka",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Sarah Spanddhana",
-          "display_name": "Sarah Spanddhana",
           "pid": null,
           "orcid": null
         }
@@ -1940,12 +1910,6 @@
         {
           "name": "Daqing Zhang",
           "display_name": "Daqing Zhang",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Shuting Pan",
-          "display_name": "Shuting Pan",
           "pid": null,
           "orcid": null
         }
@@ -2256,18 +2220,6 @@
         {
           "name": "Mun Choon Chan",
           "display_name": "Mun Choon Chan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Mun Choon Chan",
-          "display_name": "Mun Choon Chan",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Satis Kumar Permal",
-          "display_name": "Satis Kumar Permal",
           "pid": null,
           "orcid": null
         }
@@ -3772,12 +3724,6 @@
           "display_name": "Dongxiao Yu",
           "pid": null,
           "orcid": null
-        },
-        {
-          "name": "Congwei Zhang",
-          "display_name": "Congwei Zhang",
-          "pid": null,
-          "orcid": null
         }
       ],
       "venue": "MobiCom",
@@ -4210,12 +4156,6 @@
         {
           "name": "Jun Luo",
           "display_name": "Jun Luo",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Xin Li",
-          "display_name": "Xin Li",
           "pid": null,
           "orcid": null
         }
@@ -4658,12 +4598,6 @@
           "display_name": "Rajalakshmi Nandakumar",
           "pid": null,
           "orcid": null
-        },
-        {
-          "name": "Tanvir Ahmed",
-          "display_name": "Tanvir Ahmed",
-          "pid": null,
-          "orcid": null
         }
       ],
       "venue": "MobiCom",
@@ -4712,12 +4646,6 @@
         {
           "name": "Vijay K Shah",
           "display_name": "Vijay K Shah",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Vijay Shah",
-          "display_name": "Vijay Shah",
           "pid": null,
           "orcid": null
         }
@@ -4870,12 +4798,6 @@
           "display_name": "Wolfgang Kellerer",
           "pid": null,
           "orcid": null
-        },
-        {
-          "name": "Navidreza Asadi",
-          "display_name": "Navidreza Asadi",
-          "pid": null,
-          "orcid": null
         }
       ],
       "venue": "MobiCom",
@@ -5018,12 +4940,6 @@
         {
           "name": "Guihai Chen",
           "display_name": "Guihai Chen",
-          "pid": null,
-          "orcid": null
-        },
-        {
-          "name": "Guodong Liu",
-          "display_name": "Guodong Liu",
           "pid": null,
           "orcid": null
         },

@@ -1,6 +1,6 @@
 # SOSP 2026
 
-62 papers · updated 2026-10-01
+62 papers · updated 2026-11-01
 
 - [A Few GPUs, A Whole Lotta Scale: Faithful LLM Training Emulation with CrystalLLM](https://arxiv.org/abs/2605.15617) · arxiv.org · [PDF](https://arxiv.org/pdf/2605.15617)
   Shaoke Xi, ChonLam Lao, Boyi Jia, Jiaqi Gao, Zhipeng Zhang, Jiamin Cao, Brian Sutioso, Erci Xu, Minlan Yu, Kui Ren, Yong Li, Zhengping Qian, Ennan Zhai, Jingren Zhou

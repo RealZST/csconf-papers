@@ -9,7 +9,7 @@
     ],
     "paper_count": 179,
     "note": null,
-    "updated": "2026-10-01"
+    "updated": "2026-11-01"
   },
   "papers": [
     {
@@ -5158,9 +5158,9 @@
       "title": "Klotski: Efficient Mixture-of-Expert Inference via Expert-Aware Multi-Batch Pipeline",
       "authors": [
         {
-          "name": "Zhiyuan Fang",
+          "name": "Zhiyuan Fang 0002",
           "display_name": "Zhiyuan Fang",
-          "pid": "75/4027",
+          "pid": "75/4027-2",
           "orcid": "0009-0003-9655-658X"
         },
         {
@@ -7536,9 +7536,9 @@
           "orcid": "0000-0002-4786-2551"
         },
         {
-          "name": "Sen Zhang",
+          "name": "Sen Zhang 0012",
           "display_name": "Sen Zhang",
-          "pid": "57/6221",
+          "pid": "57/6221-12",
           "orcid": "0009-0007-6494-8502"
         },
         {
@@ -9048,9 +9048,9 @@
           "orcid": "0009-0006-5916-5477"
         },
         {
-          "name": "Youhui Zhang",
+          "name": "Youhui Zhang 0001",
           "display_name": "Youhui Zhang",
-          "pid": "00/5995",
+          "pid": "00/5995-1",
           "orcid": "0000-0003-2333-3580"
         }
       ],
@@ -9628,9 +9628,9 @@
           "orcid": "0009-0004-3781-1269"
         },
         {
-          "name": "Hui Yu",
+          "name": "Hui Yu 0029",
           "display_name": "Hui Yu",
-          "pid": "26/6190",
+          "pid": "26/6190-29",
           "orcid": "0000-0002-6559-6111"
         },
         {

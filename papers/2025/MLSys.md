@@ -1,6 +1,6 @@
 # MLSys 2025
 
-61 papers · updated 2026-10-01
+61 papers · updated 2026-11-01
 
 - [A Bring-Your-Own-Model Approach for ML-Driven Storage Placement in Warehouse-Scale Computers](https://openreview.net/forum?id=JuGWOSB68T) · [PDF](https://openreview.net/pdf?id=JuGWOSB68T)
   Chenxi Yang, Yan Li, Martin Maas, Mustafa Uysal, Ubaid Ullah Hafeez, Arif Merchant, Richard McDougall
@@ -123,4 +123,4 @@
 - [XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models](https://openreview.net/forum?id=rjQfX0YgDl) · [PDF](https://openreview.net/pdf?id=rjQfX0YgDl)
   Yixin Dong, Charlie F. Ruan, Yaxing Cai, Ziyi Xu, Yilong Zhao, Ruihang Lai, Tianqi Chen
 - [Youmu: Efficient Columnar Data Pipeline for LLM Training](https://openreview.net/forum?id=I2LF8QHaua) · [PDF](https://openreview.net/pdf?id=I2LF8QHaua)
-  Tianle Zhong, Jiechen Zhao, Qiang Su, Geoffrey Fox
+  Tianle Zhong, Jiechen Zhao, Qiang Su, Geoffrey C. Fox

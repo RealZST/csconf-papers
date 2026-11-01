@@ -8,7 +8,7 @@
     ],
     "paper_count": 354,
     "note": null,
-    "updated": "2026-10-01"
+    "updated": "2026-11-01"
   },
   "papers": [
     {
@@ -3459,9 +3459,9 @@
           "orcid": "0000-0002-0230-1048"
         },
         {
-          "name": "Yue Zhang",
+          "name": "Yue Zhang 0150",
           "display_name": "Yue Zhang",
-          "pid": "47/722",
+          "pid": "47/722-150",
           "orcid": "0009-0009-5199-7799"
         },
         {
@@ -4629,9 +4629,9 @@
           "orcid": "0000-0002-7189-983X"
         },
         {
-          "name": "Rui Li",
+          "name": "Rui Li 0125",
           "display_name": "Rui Li",
-          "pid": "96/4282",
+          "pid": "96/4282-125",
           "orcid": "0000-0002-3708-0257"
         },
         {
@@ -6799,9 +6799,9 @@
           "orcid": "0000-0003-4736-2837"
         },
         {
-          "name": "Sangmin Jung",
+          "name": "Sangmin Jung 0001",
           "display_name": "Sangmin Jung",
-          "pid": "368/3656",
+          "pid": "368/3656-1",
           "orcid": "0009-0008-3642-3634"
         },
         {
@@ -11737,9 +11737,9 @@
           "orcid": "0000-0002-0230-1048"
         },
         {
-          "name": "Yue Zhang",
+          "name": "Yue Zhang 0150",
           "display_name": "Yue Zhang",
-          "pid": "47/722",
+          "pid": "47/722-150",
           "orcid": "0009-0009-5199-7799"
         },
         {
@@ -17885,9 +17885,9 @@
           "orcid": "0000-0003-3816-8450"
         },
         {
-          "name": "Chrisitian S. Jensen",
-          "display_name": "Chrisitian S. Jensen",
-          "pid": "442/4811",
+          "name": "Christian S. Jensen",
+          "display_name": "Christian S. Jensen",
+          "pid": "j/ChristianSJensen",
           "orcid": "0000-0002-9697-7670"
         }
       ],

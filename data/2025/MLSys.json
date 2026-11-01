@@ -7,7 +7,7 @@
     ],
     "paper_count": 61,
     "note": null,
-    "updated": "2026-10-01"
+    "updated": "2026-11-01"
   },
   "papers": [
     {
@@ -3070,9 +3070,9 @@
           "orcid": null
         },
         {
-          "name": "Jun Wu",
+          "name": "Jun Wu 0030",
           "display_name": "Jun Wu",
-          "pid": "20/3894",
+          "pid": "20/3894-30",
           "orcid": null
         },
         {
@@ -3580,9 +3580,9 @@
           "orcid": null
         },
         {
-          "name": "Geoffrey Fox",
-          "display_name": "Geoffrey Fox",
-          "pid": "328/2670",
+          "name": "Geoffrey C. Fox",
+          "display_name": "Geoffrey C. Fox",
+          "pid": "f/GeoffreyFox",
           "orcid": null
         }
       ],

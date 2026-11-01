@@ -1,6 +1,6 @@
 # SIGMOD 2026
 
-354 papers · updated 2026-10-01
+354 papers · updated 2026-11-01
 
 - [100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models: [Experiments & Analysis]](https://doi.org/10.1145/3802002) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3802002) · [preprint](https://arxiv.org/abs/2603.15970)
   Yeounoh Chung, Rushabh Desai, Jian He, Yu Xiao, Thibaud Hottelier, Yves-Laurent Kom Samo, Pushkar Khadilkar, Xianshun Chen, Sam Idicula, Fatma Özcan, Alon Y. Halevy, Yannis Papakonstantinou
@@ -109,7 +109,7 @@
 - [Beyond Maximum Common Subgraph: A Framework Maximizing Shared Computation for Multi-Query Subgraph Matching](https://doi.org/10.1145/3802022) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3802022)
   Zhijie Zhang, Sitao Yang, Weiguo Zheng, Qiang Zhou, Chuntao Hong
 - [Beyond Relational: Semantic-Aware Multi-Modal Analytics with LLM-Native Query Optimization](https://doi.org/10.1145/3786628) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3786628) · [preprint](https://arxiv.org/abs/2511.19830)
-  Junhao Zhu, Lu Chen, Xiangyu Ke, Ziquan Fang, Tianyi Li, Yunjun Gao, Chrisitian S. Jensen
+  Junhao Zhu, Lu Chen, Xiangyu Ke, Ziquan Fang, Tianyi Li, Yunjun Gao, Christian S. Jensen
 - [Beyond Vector Search: Querying With and Without Predicates](https://doi.org/10.1145/3769765) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3769765)
   Jiadong Xie, Jeffrey Xu Yu, Siyi Teng, Yingfan Liu
 - [Bound-Tightened Densest Subgraph Discovery on GPU](https://doi.org/10.1145/3802023) · [PDF](https://dl.acm.org/doi/pdf/10.1145/3802023)

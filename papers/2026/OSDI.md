@@ -1,15 +1,15 @@
 # OSDI 2026
 
-136 papers · updated 2026-08-12
+136 papers · updated 2026-11-01
 
 - [A Compilation-Based Under-Constrained Execution Engine](https://www.usenix.org/conference/osdi26/presentation/yin) · [PDF](https://www.usenix.org/system/files/osdi26-yin.pdf)
   Mingjun Yin, Zhaorui Li, Ju Chen, Haochen Zeng, Chengyu Song
 - [Accelerating Confidential Databases with Crypto-Free Mappings](https://www.usenix.org/conference/osdi26/presentation/huang-wenxuan) · [PDF](https://www.usenix.org/system/files/osdi26-huang-wenxuan.pdf)
   Wenxuan Huang, Zhanbo Wang, Mingyu Li
-- [Achieving Cloud-Grade SLOs for Local Mixture-of-Experts Inference through CPU–GPU Hybrid Design](https://www.usenix.org/conference/osdi26/presentation/wang-wenxin) · [PDF](https://www.usenix.org/system/files/osdi26-wang-wenxin.pdf)
+- [Achieving Cloud-Grade SLOs for Local Mixture-of-Experts Inference through CPU-GPU Hybrid Design](https://www.usenix.org/conference/osdi26/presentation/wang-wenxin) · [PDF](https://www.usenix.org/system/files/osdi26-wang-wenxin.pdf)
   Wenxin Wang, Yule Hou, Yu Ji, Peng Qu, Youhui Zhang
 - [Acumen: A Platform for Encrypted and Accountable Collaborative Editing](https://www.usenix.org/conference/osdi26/presentation/cottone) · [PDF](https://www.usenix.org/system/files/osdi26-cottone.pdf)
-  Ryan Cottone, Darya Kaviani, Conor Power, Will Giorza, Evelyn Koo, Natacha Crooks, Raluca Popa
+  Ryan Cottone, Darya Kaviani, Conor Power, Will Giorza, Evelyn Koo, Natacha Crooks, Raluca Ada Popa
 - [ADAngel: Accelerating Arbitrary-Precision Quantized LLMs with Adaptive Computing Mapping](https://www.usenix.org/conference/osdi26/presentation/liu-yao) · [PDF](https://www.usenix.org/system/files/osdi26-liu-yao.pdf)
   Yao Liu, Wenjie Wang, Yifei Feng, Bo Peng, Jianguo Yao, Haibing Guan
 - [Aletheia: Automated Detection of Data Integrity Violations in Microservices](https://www.usenix.org/conference/osdi26/presentation/ferreira) · [PDF](https://www.usenix.org/system/files/osdi26-ferreira.pdf)
@@ -43,7 +43,7 @@
 - [DeLFS: A Decentralized Log-Structured File System for Manycores](https://www.usenix.org/conference/osdi26/presentation/ahn) · [PDF](https://www.usenix.org/system/files/osdi26-ahn.pdf)
   Taehwan Ahn, Chanhyeong Yu, Sangjin Lee, Yongseok Son
 - [Diagnosing Performance Issues in Application-Defined Resources](https://www.usenix.org/conference/osdi26/presentation/hu-yigong) · [PDF](https://www.usenix.org/system/files/osdi26-hu-yigong.pdf)
-  Yigong Hu, You-Liang Huang, Haodong Zheng, Yicheng Liu, Dedong Xie, Baris Kasikci
+  Yigong Hu, Youliang Huang, Haodong Zheng, Yicheng Liu, Dedong Xie, Baris Kasikci
 - [Disentangling Graph Dependencies for Efficient Billion-Scale GPU Vector Search](https://www.usenix.org/conference/osdi26/presentation/zhao) · [PDF](https://www.usenix.org/system/files/osdi26-zhao.pdf)
   Haoru Zhao, Jingkai He, Jingyao Zeng, Mingkai Dong, Dong Du
 - [Distributed Speculative Execution for Resilient Cloud Applications](https://www.usenix.org/conference/osdi26/presentation/li-tianyu) · [PDF](https://www.usenix.org/system/files/osdi26-li-tianyu.pdf)
@@ -63,7 +63,7 @@
 - [ECO: An AI-Driven Code Efficiency Optimizer for Warehouse Scale Computers (Operational Systems)](https://www.usenix.org/conference/osdi26/presentation/lin-hannah) · [PDF](https://www.usenix.org/system/files/osdi26-lin-hannah.pdf)
   Hannah Lin, Martin Maas, Maximilian Roquemore, Arman Hasanzadeh, Fred Lewis, Yusuf Simonson, Ameya Shringi, Hongwen Dai, Patrick Musau, Tzu-Wei Yang, Amir Yazdanbakhsh, Deniz Altinbüken, Florin Papa, Maggie Nolan Edmonds, Aditya Patil, Don Schwarz, Satish Chandra, Chris Kennelly, Milad Hashemi, Parthasarathy Ranganathan
 - [Efficient and Scalable Synchronization via Generalized Cache Coherence](https://www.usenix.org/conference/osdi26/presentation/yu-yanpeng) · [PDF](https://www.usenix.org/system/files/osdi26-yu-yanpeng.pdf)
-  Yanpeng Yu, Seung-seob Lee, Lin Zhong, Anurag Khandelwal
+  Yanpeng Yu, Seung-Seob Lee, Lin Zhong, Anurag Khandelwal
 - [Efficient GPU-Centric Evolving Graph Processing at Scale](https://www.usenix.org/conference/osdi26/presentation/zhang-yunmo) · [PDF](https://www.usenix.org/system/files/osdi26-zhang-yunmo.pdf)
   Yunmo Zhang, Jiacheng Huang, Xizhe Yin, Junqiao Qiu, Hong Xu, Chun Jason Xue
 - [Efficient LLM Serving on Commodity GPU Clusters with Data-Reduced Cross-Instance Orchestration](https://www.usenix.org/conference/osdi26/presentation/du) · [PDF](https://www.usenix.org/system/files/osdi26-du.pdf)
@@ -73,11 +73,11 @@
 - [Espresso: Constructing Cost-Efficient CXL JBOF via Inter-SSD Computing Resource Sharing](https://www.usenix.org/conference/osdi26/presentation/yi) · [PDF](https://www.usenix.org/system/files/osdi26-yi.pdf)
   Shushu Yi, Yuda An, Li Peng, Xiurui Pan, Qiao Li, Jieming Yin, Guangyan Zhang, Wenfei Wu, Chenxi Wang, Diyu Zhou, Zhenlin Wang, Xiaolin Wang, Yingwei Luo, Ke Zhou, Jie Zhang
 - [Extracting Database Access-Control Policies from Web Applications](https://www.usenix.org/conference/osdi26/presentation/zhang-wen) · [PDF](https://www.usenix.org/system/files/osdi26-zhang-wen.pdf)
-  Wen Zhang, Dev Bali, Jamison Kerney, Aurojit Panda, Scott Shenker
+  Wen Zhang, Jamison Kerney, Aurojit Panda, Scott Shenker
 - [FARLock: Asymmetric RDMA Locking Made Fair](https://www.usenix.org/conference/osdi26/presentation/hu-yuehao) · [PDF](https://www.usenix.org/system/files/osdi26-hu-yuehao.pdf)
   Yuehao Hu, Jiatang Zhou, Tianzheng Wang, Keval Vora
 - [Finding NEMO: Nimble and Expressive Memory Observability](https://www.usenix.org/conference/osdi26/presentation/li-shihang) · [PDF](https://www.usenix.org/system/files/osdi26-li-shihang.pdf)
-  Shihang Li, Matthew Giordano, Tushar Garg, Rohan Kadekodi, Daniel S. Berger, Baris Kasikci, Thomas Anderson, Simon Peter
+  Shihang Li, Matthew Giordano, Tushar Garg, Rohan Kadekodi, Daniel S. Berger, Baris Kasikci, Thomas E. Anderson, Simon Peter
 - [FORGE: Mitigating Synchronization Amplification for Memory-Disaggregated Caching Systems](https://www.usenix.org/conference/osdi26/presentation/yang-zhijun) · [PDF](https://www.usenix.org/system/files/osdi26-yang-zhijun.pdf)
   Zhijun Yang, Yu Hua, Ming Zhang, Menglei Chen, Yixiao Wang
 - [GraCE: Unlocking CUDA Graphs with Compiler Support for ML Workloads](https://www.usenix.org/conference/osdi26/presentation/ghosh) · [PDF](https://www.usenix.org/system/files/osdi26-ghosh.pdf)
@@ -93,9 +93,9 @@
 - [High Fidelity Models for Large Scale Stateful Services (Operational Systems)](https://www.usenix.org/conference/osdi26/presentation/jaber) · [PDF](https://www.usenix.org/system/files/osdi26-jaber.pdf)
   Nouraldin Jaber, Dongyun Jin, Bernhard Kragl, Enrico Magnago, Gustavo Petri, Thorsten Tarrach, Serdar Tasiran
 - [hS: Speculative Script Reordering at Subprocess Granularity](https://www.usenix.org/conference/osdi26/presentation/liargkovas) · [PDF](https://www.usenix.org/system/files/osdi26-liargkovas.pdf)
-  Georgios Liargkovas, Di Jin, Tianyu (Ezri) Zhu, Dan Liu, A. Bolun Thompson, Anirudh Narsipur, Seong-Heon Jung, Siddhartha Prasad, Diomidis Spinellis, Michael Greenberg, Konstantinos Kallas, Nikos Vasilakis
+  Georgios Liargkovas, Di Jin, Tianyu (Ezri) Zhu, Dan Liu, Aaron Bolun Thompson, Anirudh Narsipur, Seong-Heon Jung, Siddhartha Arjun Prasad, Diomidis Spinellis, Michael Greenberg, Konstantinos Kallas, Nikos Vasilakis
 - [Ichnaea: A Framework for Precise Tracking of Memory Objects](https://www.usenix.org/conference/osdi26/presentation/haque) · [PDF](https://www.usenix.org/system/files/osdi26-haque.pdf)
-  Samad Haque, Sibin Mohan, Aaron Paulos, Partha Pal
+  Samad Haque, Sibin Mohan, Aaron Paulos, Partha P. Pal
 - [iLand: An Instruction-Level Dynamic Binary Instrumentation Framework for iOS](https://www.usenix.org/conference/osdi26/presentation/xie-kaitao) · [PDF](https://www.usenix.org/system/files/osdi26-xie-kaitao.pdf)
   Kaitao Xie, Yizhuo Wang, Xiaolong Bai
 - [Incr: Faster Re-Execution via Bolt-On Incrementalization](https://www.usenix.org/conference/osdi26/presentation/xie-yizheng) · [PDF](https://www.usenix.org/system/files/osdi26-xie-yizheng.pdf)
@@ -115,7 +115,7 @@
 - [Kareus: Joint Reduction of Dynamic and Static Energy in Large Model Training](https://www.usenix.org/conference/osdi26/presentation/wu-ruofan) · [PDF](https://www.usenix.org/system/files/osdi26-wu-ruofan.pdf)
   Ruofan Wu, Jae-Won Chung, Mosharaf Chowdhury
 - [kSTEP: Characterization and Deterministic Testing of Linux CPU Scheduler Bugs](https://www.usenix.org/conference/osdi26/presentation/cao) · [PDF](https://www.usenix.org/system/files/osdi26-cao.pdf)
-  Tingjia Cao, Shawn (Wanxiang) Zhong, Caeden Whitaker, Ke Han, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau
+  Tingjia Cao, Shawn Zhong, Caeden Whitaker, Ke Han, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau
 - [Learning-Augmented Heuristics: Simple Yet Smart, Robust and Interpretable Cache Eviction](https://www.usenix.org/conference/osdi26/presentation/xia) · [PDF](https://www.usenix.org/system/files/osdi26-xia.pdf)
   Haocheng Xia, William Nixon, Bintang Dwi Marthen, Pranav Bhandari, Juncheng Yang
 - [LifeLine: An Object-Page Lifetime Alignment GC Enabling Minimal Memory Copying for Mobile Devices](https://www.usenix.org/conference/osdi26/presentation/huang-jiacheng) · [PDF](https://www.usenix.org/system/files/osdi26-huang-jiacheng.pdf)
@@ -125,7 +125,7 @@
 - [MAC: Metadata Acceleration for Sustainable Performance in Big-Data Systems with CXL DRAM](https://www.usenix.org/conference/osdi26/presentation/lee) · [PDF](https://www.usenix.org/system/files/osdi26-lee.pdf)
   Dusol Lee, Yan Sun, Houxiang Ji, Vinit Gupta, Austin Antony Cruz, Inhyuk Choi, Nam Sung Kim, Jihong Kim
 - [MDK: Rethinking the Data Center Memory Reclamation Problem](https://www.usenix.org/conference/osdi26/presentation/patel) · [PDF](https://www.usenix.org/system/files/osdi26-patel.pdf)
-  Shaurya Patel, Suli Yang, Yawen Wang, Kan Wu, Alexandra (Sasha) Fedorova, Margo Seltzer, Kimberly Keeton
+  Shaurya Patel, Suli Yang, Yawen Wang, Kan Wu, Alexandra (Sasha) Fedorova, Margo I. Seltzer, Kimberly Keeton
 - [MEGALON: Efficient Data Sharing for Partly Coherent CXL Memory](https://www.usenix.org/conference/osdi26/presentation/hu-jiyu) · [PDF](https://www.usenix.org/system/files/osdi26-hu-jiyu.pdf)
   Jiyu Hu, Seokjoo Cho, Landon Johnson, Kiran Hombal, Shreesha Gopalakrishna Bhat, Marcos K. Aguilera, Ramnatthan Alagappan, Aishwarya Ganesan
 - [Merlin: An Efficient Adaptive Cache Eviction Algorithm via Fine-Grained Characterization](https://www.usenix.org/conference/osdi26/presentation/li-liujia) · [PDF](https://www.usenix.org/system/files/osdi26-li-liujia.pdf)
@@ -211,13 +211,13 @@
 - [Stop Pretending to Be Busy: A Case for Serverless Paradigms in Co-Located Batch Workloads (Operational Systems)](https://www.usenix.org/conference/osdi26/presentation/chai) · [PDF](https://www.usenix.org/system/files/osdi26-chai.pdf)
   Xiaohu Chai, Jianfeng Tan, Congsi Yuan, Bowen Yang, Hao Dai, Tongkai Yang, Chao Huang, Dong Du, Yu Chen
 - [Strata: Hierarchical Context Caching for Long Context Language Model Serving](https://www.usenix.org/conference/osdi26/presentation/xie-zhiqiang) · [PDF](https://www.usenix.org/system/files/osdi26-xie-zhiqiang.pdf)
-  Zhiqiang Xie, Ziyi Xu, Mark Zhao, Yuwei An, Vikram Sharma Mailthody, Scott Mahlke, Michael Garland, Christos Kozyrakis
+  Zhiqiang Xie, Ziyi Xu, Mark Zhao, Yuwei An, Vikram Sharma Mailthody, Scott A. Mahlke, Michael Garland, Christos Kozyrakis
 - [StriaTrace: Efficient Tracing and Diagnosis for Online LLM Inference (Operational Systems)](https://www.usenix.org/conference/osdi26/presentation/wu-haonan) · [PDF](https://www.usenix.org/system/files/osdi26-wu-haonan.pdf)
   Haonan Wu, Yanqing Chen, Kun Qian, Xue Li, Jingbo Xu, Erci Xu, Ennan Zhai, Wenyuan Yu, Guangtao Xue, Jingren Zhou
 - [Surviving the Impossible Trinity: Revisiting CPU Scheduling Problem on Modern COTS Mobile Devices (Operational Systems)](https://www.usenix.org/conference/osdi26/presentation/xiao) · [PDF](https://www.usenix.org/system/files/osdi26-xiao.pdf)
   Jun Xiao, Qinhui Gu, Ligeng Chen, Lizhi Sun, Zicheng Wang, Yinggang Guo, Lu Liu, Hao Wu, Borui Li
 - [Svalinn: Overload Control in Large-Scale Servers with Multiple Resource Bottlenecks](https://www.usenix.org/conference/osdi26/presentation/pardeshi) · [PDF](https://www.usenix.org/system/files/osdi26-pardeshi.pdf)
-  Bhaskar Subhash Pardeshi, Peidi Song, Ahmed Saeed
+  Bhaskar Pardeshi, Peidi Song, Ahmed Saeed
 - [Syncopate: Efficient Multi-GPU AI Kernels via Automatic Chunk-Centric Compute-Communication Overlap](https://www.usenix.org/conference/osdi26/presentation/qiang) · [PDF](https://www.usenix.org/system/files/osdi26-qiang.pdf)
   Xinwei Qiang, Yue Guan, Zhengding Hu, Keren Zhou, Yufei Ding, Adnan Aziz
 - [Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training (Operational Systems)](https://www.usenix.org/conference/osdi26/presentation/chen-luofan) · [PDF](https://www.usenix.org/system/files/osdi26-chen-luofan.pdf)
@@ -233,7 +233,7 @@
 - [TileLoom: Automatic Dataflow Planning for Tile-Based Languages on Spatial Dataflow Accelerators](https://www.usenix.org/conference/osdi26/presentation/li-wei) · [PDF](https://www.usenix.org/system/files/osdi26-li-wei.pdf)
   Wei Li, Zhenyu Bai, Heru Wang, Pranav Dangi, Zhiqiang Zhang, Cheng Tan, Huiying Lan, Weng-Fai Wong, Tulika Mitra
 - [Timelock Drive: Isolated Time-Based Defense for Storage Systems](https://www.usenix.org/conference/osdi26/presentation/rosenblum) · [PDF](https://www.usenix.org/system/files/osdi26-rosenblum.pdf)
-  Jonah Rosenblum, Juechu Dong, Peter Chen, Satish Narayanasamy
+  Jonah Rosenblum, Juechu Dong, Peter M. Chen, Satish Narayanasamy
 - [TrainMover: An Interruption-Resilient Runtime for ML Training](https://www.usenix.org/conference/osdi26/presentation/lao) · [PDF](https://www.usenix.org/system/files/osdi26-lao.pdf)
   ChonLam Lao, Jiaqi Gao, Jiamin Cao, Zhipeng Zhang, Pengcheng Zhang, Jiangfei Duan, Zhilong Zheng, Yu Guan, Yichi Xu, Yong Li, Zhengping Qian, Aditya Akella, Minlan Yu, Ennan Zhai, Dennis Cai, Jingren Zhou
 - [TypeCraft: A Lightweight Data Type Profiler with High Resolution](https://www.usenix.org/conference/osdi26/presentation/li-zecheng) · [PDF](https://www.usenix.org/system/files/osdi26-li-zecheng.pdf)
@@ -255,7 +255,7 @@
 - [Virtualizing eBPF with Late-Binding](https://www.usenix.org/conference/osdi26/presentation/zhang-jing) · [PDF](https://www.usenix.org/system/files/osdi26-zhang-jing.pdf)
   Jing Zhang, Xiaguannan Song, Dong Du, Yubin Xia, Binyu Zang, Haibo Chen
 - [VTC: DNN Compilation with Virtual Tensors for Data Movement Elimination](https://www.usenix.org/conference/osdi26/presentation/hu-muyan) · [PDF](https://www.usenix.org/system/files/osdi26-hu-muyan.pdf)
-  Muyan Hu, Ahan Gupta, Jiachen Yuan, Vima Gupta, Taeksang Kim, Xin Xu, Janardhan Kulkarni, Ofer Dekel, Vikram Adve, Charith Mendis
+  Muyan Hu, Ahan Gupta, Jiachen Yuan, Vima Gupta, Taeksang Kim, Xin Xu, Janardhan Kulkarni, Ofer Dekel, Vikram S. Adve, Charith Mendis
 - [Weave: Efficient Co-Scheduling for Disaggregated RL Post-Training](https://www.usenix.org/conference/osdi26/presentation/wu-tianyuan) · [PDF](https://www.usenix.org/system/files/osdi26-wu-tianyuan.pdf)
   Tianyuan Wu, Lunxi Cao, Yining Wei, Wei Gao, Yuheng Zhao, Dakai An, Shaopan Xiong, Zhiqiang Lv, Ju Huang, Siran Yang, Yinghao Yu, Jiamang Wang, Lin Qu, Wei Wang
 - [What Are You (M)Waiting For: The Hidden Cost of Idle in the Hyperscale Cloud (Operational Systems)](https://www.usenix.org/conference/osdi26/presentation/wang-yun) · [PDF](https://www.usenix.org/system/files/osdi26-wang-yun.pdf)
@@ -267,9 +267,9 @@
 - [WiseCode: Breaking the Scalability Barriers of Wide-Stripe Vector Codes](https://www.usenix.org/conference/osdi26/presentation/cai) · [PDF](https://www.usenix.org/system/files/osdi26-cai.pdf)
   Sijie Cai, Guangyan Zhang, Xiao Niu
 - [WriteGuards: Distributed Storage Support for Strongly Consistent Caches](https://www.usenix.org/conference/osdi26/presentation/mao-ziming-writeguards) · [PDF](https://www.usenix.org/system/files/osdi26-mao-ziming-writeguards.pdf)
-  Ziming Mao, Atul Adya, Jonathan Ellithorpe, Rishabh Iyer, Matei Zaharia, Scott Shenker, Ion Stoica
+  Ziming Mao, Atul Adya, Jonathan D. Ellithorpe, Rishabh Iyer, Matei Zaharia, Scott Shenker, Ion Stoica
 - [Xkernel: Principled Performance Tunability of Operating System Kernels](https://www.usenix.org/conference/osdi26/presentation/chen-zhongjie) · [PDF](https://www.usenix.org/system/files/osdi26-chen-zhongjie.pdf)
-  Zhongjie Chen, Wentao Zhang, Yulong Tang, Ran Shu, Fengyuan Ren, Tianyin Xu, Jing Liu
+  Zhongjie Chen, Wentao Zhang, Yulong Tang, Ran Shu, Fengyuan Ren, Tianyin Xu, Jing Lin
 - [μShell: A Microkernel-based FPGA Shell Architecture](https://www.usenix.org/conference/osdi26/presentation/chen-jiyang) · [PDF](https://www.usenix.org/system/files/osdi26-chen-jiyang.pdf)
   Jiyang Chen, Anubhav Panda, Harshavardhan Unnibhavi, Atsushi Koshiba, Pramod Bhatotia
 - [μUSB: Practical and Safe USB Driver Reuse for Arm TrustZone](https://www.usenix.org/conference/osdi26/presentation/zhang-xuankai) · [PDF](https://www.usenix.org/system/files/osdi26-zhang-xuankai.pdf)

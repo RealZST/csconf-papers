@@ -7,7 +7,7 @@
     ],
     "paper_count": 88,
     "note": null,
-    "updated": "2026-10-01"
+    "updated": "2026-11-01"
   },
   "papers": [
     {
@@ -274,9 +274,9 @@
           "orcid": null
         },
         {
-          "name": "Xianlong Zeng",
+          "name": "Xianlong Zeng 0003",
           "display_name": "Xianlong Zeng",
-          "pid": "239/1317",
+          "pid": "239/1317-3",
           "orcid": null
         },
         {
@@ -1027,7 +1027,7 @@
           "name": "Hao Wu 0097",
           "display_name": "Hao Wu",
           "pid": "72/4250-97",
-          "orcid": null
+          "orcid": "0000-0001-7575-5756"
         },
         {
           "name": "Yizhan Han",
@@ -4278,7 +4278,7 @@
           "orcid": "0000-0002-6308-5502"
         },
         {
-          "name": "Thomas C. Schmidt",
+          "name": "Thomas C. Schmidt 0001",
           "display_name": "Thomas C. Schmidt",
           "pid": "s/TCSchmidt",
           "orcid": "0000-0002-0956-7885"
@@ -5208,10 +5208,10 @@
       "title": "PtCAM: Scalable High-Speed Name Prefix Lookup using TCAM",
       "authors": [
         {
-          "name": "Tian Song",
+          "name": "Tian Song 0004",
           "display_name": "Tian Song",
-          "pid": "46/550",
-          "orcid": null
+          "pid": "46/550-4",
+          "orcid": "0000-0003-3275-6593"
         },
         {
           "name": "Tianlong Li",
@@ -6019,7 +6019,7 @@
           "name": "Gongwei Wu",
           "display_name": "Gongwei Wu",
           "pid": "417/1549",
-          "orcid": null
+          "orcid": "0009-0000-4906-1400"
         },
         {
           "name": "Jiaqi Gao",
@@ -6563,7 +6563,7 @@
           "name": "Gongwei Wu",
           "display_name": "Gongwei Wu",
           "pid": "417/1549",
-          "orcid": null
+          "orcid": "0009-0000-4906-1400"
         },
         {
           "name": "Jianfeng Xu",

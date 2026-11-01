@@ -7,7 +7,7 @@
     ],
     "paper_count": 445,
     "note": "This file is all of PVLDB vol 19. The VLDB 2026 research track is really the papers accepted before this volume's cutoff plus rollovers from the previous volume, a distinction DBLP metadata does not record.",
-    "updated": "2026-10-01"
+    "updated": "2026-11-01"
   },
   "papers": [
     {
@@ -2762,15 +2762,15 @@
           "orcid": null
         },
         {
-          "name": "Yong Zhang",
+          "name": "Yong Zhang 0004",
           "display_name": "Yong Zhang",
-          "pid": "66/4615",
+          "pid": "66/4615-4",
           "orcid": null
         },
         {
-          "name": "Jiannan Wang",
+          "name": "Jiannan Wang 0001",
           "display_name": "Jiannan Wang",
-          "pid": "39/7183",
+          "pid": "39/7183-1",
           "orcid": null
         }
       ],
@@ -11966,9 +11966,9 @@
           "orcid": null
         },
         {
-          "name": "Zhonele Xie",
-          "display_name": "Zhonele Xie",
-          "pid": "433/4051",
+          "name": "Zhongle Xie",
+          "display_name": "Zhongle Xie",
+          "pid": "169/3419",
           "orcid": null
         },
         {
@@ -14660,9 +14660,9 @@
       "title": "QueryBrew: System-Agnostic SQL-to-SQL Query Optimization",
       "authors": [
         {
-          "name": "Tobias Schmidt",
+          "name": "Tobias Schmidt 0006",
           "display_name": "Tobias Schmidt",
-          "pid": "67/6944",
+          "pid": "67/6944-6",
           "orcid": null
         },
         {
@@ -14704,9 +14704,9 @@
       "title": "Accelerating String-Heavy Queries with LLM Token Tables",
       "authors": [
         {
-          "name": "Tobias Schmidt",
+          "name": "Tobias Schmidt 0006",
           "display_name": "Tobias Schmidt",
-          "pid": "67/6944",
+          "pid": "67/6944-6",
           "orcid": null
         },
         {
@@ -20464,9 +20464,9 @@
           "orcid": null
         },
         {
-          "name": "Tuo Shi",
+          "name": "Tuo Shi 0002",
           "display_name": "Tuo Shi",
-          "pid": "23/4850",
+          "pid": "23/4850-2",
           "orcid": null
         },
         {
@@ -23096,9 +23096,9 @@
           "orcid": null
         },
         {
-          "name": "Jiachi Zhang",
+          "name": "Jiachi Zhang 0002",
           "display_name": "Jiachi Zhang",
-          "pid": "442/4435",
+          "pid": "182/7320-2",
           "orcid": null
         },
         {
@@ -23150,9 +23150,9 @@
           "orcid": null
         },
         {
-          "name": "Liang Lin",
+          "name": "Liang Lin 0003",
           "display_name": "Liang Lin",
-          "pid": "84/7019",
+          "pid": "84/7019-3",
           "orcid": null
         }
       ],
