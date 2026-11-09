@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-26",
+  "generated": "2026-11-09",
   "researchers": [
     {
       "slug": "ion-stoica",
@@ -8,6 +8,38 @@
       "affiliation": "UC Berkeley",
       "known_for": "Spark, Ray, vLLM · co-founded Databricks and Anyscale",
       "papers": [
+        {
+          "arxiv_id": "2611.00463",
+          "title": "Exo: An Architecture for Self-Improving Systems at Runtime",
+          "abstract": "Agent harnesses govern how language models act in an environment; designing their policies by hand is difficult, while automated techniques require representative datasets and costly executions. We present Exo, an agent runtime architecture for safe learning during ongoing work that collapses the optimization loop into task execution, allowing agents to revise both their harness and their strategies for further improvement. A minimal protected mechanism layer preserves execution history and governs policy activation while the harness evolves through inspectable code changes. On long-running objectives in an open-world game, Exo reduces model cost by 12-53% relative to Codex and Pi in standalone runs and 45-82% in transfer runs, while matching task completion rates. Compared with the same starting policy without the ability to edit policy, Exo reduces held-out model cost by 35-61% on AppWorld and SREGym with comparable correctness, cutting AppWorld's mean task time by 13% and SREGym's median diagnosis time by 35%. On Continual Learning Bench coding tasks, model cost including learning falls by 14%, with both policies resolving every issue.",
+          "authors": [
+            "Alexander Krentsel",
+            "Sylvia Ratnasamy",
+            "Ion Stoica",
+            "Martin Casado",
+            "Ankur Goyal"
+          ],
+          "published": "2026-10-30",
+          "primary_category": "cs.AI",
+          "position": 3,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2610.36848",
+          "title": "Evolving Agent Teams",
+          "abstract": "The rapid progress of software engineering agents drives interest in applying them to open-ended problems such as GPU kernel optimization. However, we find that existing coding agents converge to local optima on real-world, expert-written kernels (e.g., FlashInfer). We introduce Evolving Agent Teams, a multi-agent framework that escapes such local optima. It features (1) a central supervisor that diagnoses each local optimum and restructures a team of agents; and (2) a persistent file system that comprises a learning document, an evolution history, and per-team artifacts, grounding restructuring with accumulated experience. Under a matched token budget, Evolving Agent Teams consistently outperforms strong coding-agent baselines. With an extended token budget, Evolving Agent Teams generates a CUDA kernel that reaches 1.2x mean speedup over the production FlashInfer MLA paged decode kernel from scratch and wins on 36 of 47 production workloads from FlashInfer-Bench (0.86-0.99x on the remaining 11). It also demonstrates superior performance on tasks such as KDA prefill on AMD MI350X (3.01x over vLLM) and NVIDIA B200 (3.44x over FlashKDA), MoE expert-offload serving on Apple silicon (30.3 tokens/s decode for Qwen3.8-Flash-Next in MLX 4-bit on a 48 GB M4 Pro), and RoboDojo robot manipulation (62.1 on held-out seeds vs. 55.3 for the best leaderboard entry). Code is available at https://github.com/caoshiyi/EAT.",
+          "authors": [
+            "Shiyi Cao",
+            "Ziming Mao",
+            "Dacheng Li",
+            "Joseph E. Gonzalez",
+            "Ion Stoica"
+          ],
+          "published": "2026-10-27",
+          "primary_category": "cs.AI",
+          "position": 5,
+          "attribution": "name"
+        },
         {
           "arxiv_id": "2610.26754",
           "title": "TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning",
@@ -325,47 +357,6 @@
           "primary_category": "cs.DC",
           "position": 11,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2608.04450",
-          "title": "CommBench: Can LLMs Write Correct and Efficient GPU Communication Code?",
-          "abstract": "Training and serving large language models (LLMs) rely heavily on high-performance GPU communication, yet implementing efficient GPU communication primitives requires deep expertise in GPU architectures, networking hardware, and distributed communication patterns, making them particularly challenging for code generation models. We present CommBench, a comprehensive benchmark for GPU communication programming, consisting of over 100 expert-curated tasks spanning point-to-point communication, collective operations, expert-parallel communication, compute--communication fusion, and communication utility functions, with reference implementations either written by GPU communication experts or distilled from production codebases. We further introduce a cheat-resistant evaluation framework that automatically compiles, executes, and validates generated code on multi-GPU systems, and a unified metric that jointly measures functional correctness and communication performance. Evaluating leading frontier and open-source code generation models on both intra-node NVLink and inter-node RDMA platforms reveals that even the strongest model, GPT-5.5, correctly implements and achieves competitive performance on only 30.7\\% of the benchmark tasks. Our results expose a substantial gap between current LLMs and expert-written GPU communication code, establishing CommBench as a challenging benchmark for advancing AI-assisted systems programming.",
-          "authors": [
-            "Shuang Ma",
-            "Yuyi Li",
-            "Yihan Zhang",
-            "Hezhi Xie",
-            "Danyang Chen",
-            "Shuyang Ji",
-            "Ziming Mao",
-            "Cheng Ji",
-            "Ansha Prashanth",
-            "Wenting Yang",
-            "Yiran Wang",
-            "Chihan Cui",
-            "Pei Yu Lin",
-            "Ion Stoica",
-            "Yang Zhou"
-          ],
-          "published": "2026-08-05",
-          "primary_category": "cs.DC",
-          "position": 14,
-          "attribution": "name"
-        },
-        {
-          "arxiv_id": "2607.24692",
-          "title": "Denial of Deadline: Network-Driven Accuracy Collapse in Distributed Inference Pipelines",
-          "abstract": "Inference systems increasingly combine a fast path that returns predictions within the application's latency deadline together with a higher-accuracy slow path that runs higher-compute methods on stronger, remote hardware, so its results can be returned on time and combined with the fast path predictions. Across several application domains, we abstract this inference architecture as a fast path, a slow path, and a coordination layer with two functions: a router that invokes the slow path and a merger that decides whether to incorporate its returned predictions. In this work, we show that this new coordination layer exposes a new attack surface: shaped workload attacks, e.g., Yo-Yo bursts, can exploit contention at shared resources along the slow path to push benign users' slow-path predictions past their latency deadlines. The merger then discards those predictions, while the fast path continues to return timely outputs. We refer to the resulting loss of slow-path accuracy benefits as accuracy collapse. We demonstrate accuracy collapse in a two-tier edge-cloud multi-object tracking pipeline in autonomous driving. In simulation, approximately 4,000 burst-shaped requests increase benign p99 latency from 92ms to 2s, nearly eliminating the benefit of the slow path's cloud inference, reducing object tracking quality by 7.0 HOTA points on average. We further find that accuracy degradation can significantly vary (2.0-18.7 HOTA points), depending on the video intervals that are targeted in the attack, and that certain rare classes (e.g., stop signs) lose nearly half of their pre-attack prediction accuracy. These results show that workload attacks can degrade prediction quality without needing either access to model weights or victim data, and motivate research on attacks and defenses for routing, merging, scheduling, and resource isolation in these emerging inference pipeline architectures.",
-          "authors": [
-            "Jhonatan Tavori",
-            "Gur-Eyal Sela",
-            "Ion Stoica",
-            "Gil Zussman"
-          ],
-          "published": "2026-07-27",
-          "primary_category": "cs.NI",
-          "position": 3,
-          "attribution": "name"
         }
       ]
     },
@@ -375,6 +366,48 @@
       "affiliation": "UC Berkeley",
       "known_for": "Created Apache Spark · Databricks CTO",
       "papers": [
+        {
+          "arxiv_id": "2610.37651",
+          "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+          "abstract": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitations, stochastic execution, or noisy judges. We argue that such failures may not provide useful learning signal, and may even be harmful; and thus it is essential to curate which tasks are provided to the prompt optimizer for better performance. We introduce GEPA-Curator, a framework that augments the prompt optimizer to select which agent experiences should shape prompt optimization. In particular, GEPA-Curator consists of two components: task curation, which filters out tasks that are likely to provide noisy or unreliable learning signals, and prior success retrieval, which selectively retrieves past successful trajectories for a task and provides them as additional context to the prompt optimizer. We evaluate GEPA-Curator on GoBrowse, ALFWorld, AppWorld, and $τ$-bench, using both Gemini 3.1 Pro and Claude Opus 5 as optimizer models. GEPA-Curator matches or exceeds the mean performance of both baselines, with gains of up to 20.7% over GEPA and 21.2% over ACE.",
+          "authors": [
+            "Zack Yu",
+            "Nicholas Lee",
+            "Minjae Lee",
+            "Lakshya Agarwal",
+            "Luca Manolache",
+            "Wonjun Kang",
+            "Matei Zaharia",
+            "Michael W. Mahoney",
+            "Kurt Keutzer",
+            "Sehoon Kim",
+            "Amir Gholami"
+          ],
+          "published": "2026-10-27",
+          "primary_category": "cs.CL",
+          "position": 7,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2610.36774",
+          "title": "Batching the Reflective Optimization Loop: Parallel Proposals Make GEPA Faster and Better",
+          "abstract": "Reflective text optimization makes agentic systems better, but the optimization loop is itself a resource-hungry workload whose sequential structure leaves parallel evaluation capacity idle. We extend the open-source GEPA optimizer to propose and evaluate a batch of candidates on each optimization step instead of one candidate at a time. In our sweep on two tasks, most batched runs finished in half the wall-clock time or less, and the fastest in about a quarter to a third. Batched settings also achieved higher held-out test scores, from 68.9% to 72.1% on LiveBench-Math (with $2\\times2$) and from 49.0% to 60.0% on HoVer (with $8\\times1$). A simple runtime model explains the measured speedups under a finite worker pool, and batched settings also spend their metric-call and dollar budgets more efficiently. We frame the axes along which a reflective optimization step can scale in parallel, a first look at allocating a fixed optimization budget across them.",
+          "authors": [
+            "Jialin Zhang",
+            "Lakshya A Agrawal",
+            "Shangyin Tan",
+            "Donghyun Lee",
+            "Lutfi Eren Erdogan",
+            "Dan Klein",
+            "Koushik Sen",
+            "Alex Dimakis",
+            "Matei Zaharia"
+          ],
+          "published": "2026-10-27",
+          "primary_category": "cs.AI",
+          "position": 9,
+          "attribution": "name"
+        },
         {
           "arxiv_id": "2610.27273",
           "title": "FLINT: Fixed-budget Late Interaction",
@@ -529,6 +562,49 @@
       "known_for": "Computer architecture and datacenter systems",
       "papers": [
         {
+          "arxiv_id": "2611.04104",
+          "title": "ModelBlaster: Closing the Performance Gap through Learning-Augmented Agents Across Models, Kernels and Hardware Backends",
+          "abstract": "Optimizing accelerator code across hardware architectures is difficult. ML compilers search predefined spaces of schedules and micro-kernels, while LLM-guided optimization can explore alternative algorithms, operator decompositions, and hardware-specific techniques. However, existing LLM agents typically target a single programming interface, toolchain, or accelerator family, focus on kernel-level optimization without model-level transforms, and offer limited reuse of experience across hardware targets. We present ModelBlaster, a Memory-Augmented In-Context Reinforcement Learning (MAIC-RL) framework for optimizing data-parallel kernels and whole models across heterogeneous SIMD and SIMT accelerators. Its mutable policy is a persistent knowledge base updated at inference time by Actor-Critic Textual Gradient Descent (AC-TGD). The knowledge base maps performance states to actions, outcomes, and constraints, enabling experience reuse across kernels, models, and hardware targets. A model-level optimizer uses kernel-level knowledge to inform whole-model decisions. The same optimization loop and knowledge schema support CUDA on NVIDIA GPUs, OpenCL on Qualcomm GPUs, and RVV intrinsics on RISC-V vector cores, with only lowering and measurement layers specific to each target. Compared with PyTorch, ModelBlaster achieves geometric-mean speedups of 1.85x, 5.58x, and 5.18x on KernelBench Levels 1, 2, and 3, and 1.69x on SOL-ExecBench Levels 1 and 2 on a B200 GPU. On Qualcomm Adreno GPUs, it achieves 5.8x over the vendor SDK and 1.7x over Apache TVM; on RISC-V vector cores, it achieves 2.7x over ExecuTorch with XNNPACK across 70 KernelBench problems.",
+          "authors": [
+            "Shengjun Kris Dong",
+            "Dima Nikiforov",
+            "Sahil Modi",
+            "Sana Damani",
+            "Edward C Lin",
+            "Siva Kumar Sastry Hari",
+            "Christos Kozyrakis"
+          ],
+          "published": "2026-11-03",
+          "primary_category": "cs.LG",
+          "position": 7,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2611.03103",
+          "title": "VLALagBench: Understanding When and Why VLA Inference Latency Matters",
+          "abstract": "Vision-language-action (VLA) models offer a promising path toward general-purpose robot manipulation. While inference latency can affect task success in a constantly evolving physical world, the relationship between latency and task success rate remains poorly understood. In this paper, we introduce VLALagBench, a comprehensive benchmark for studying VLA inference latency sensitivity across task types, object speeds, execution modes (synchronous and asynchronous), and VLA policies. Using VLALagBench, we find that even a modest inference latency of 100 ms can nearly halve task success on moving targets, with sensitivity varying substantially across tasks and policies. These differences reflect task-specific requirements for precision and continuous motion. By overlapping inference with action execution, asynchronous execution can recover some of the lost success at the cost of more frequent inference requests. Building on these findings, we develop an empirical model that predicts task success from limited calibration data, achieving root-mean-square prediction errors of only 5.7-7.8% across various VLA policies. Given an inference system's latency and per-robot throughput, these predictions guide the selection of system-specific VLA algorithm configurations to maximize task success. We believe VLALagBench and these findings provide a solid foundation for future robotics algorithm-system co-design.",
+          "authors": [
+            "Qi Wen",
+            "Borui Xu",
+            "Hussein Amro",
+            "Hongshi Tan",
+            "Hanmin Lin",
+            "Chaoyi Ruan",
+            "Shanghao Liu",
+            "Gang Yang",
+            "Yuejiang Liu",
+            "Jiafei Duan",
+            "Bingsheng He",
+            "Jason Clemons",
+            "Christos Kozyrakis",
+            "Wenqi Jiang"
+          ],
+          "published": "2026-11-02",
+          "primary_category": "cs.RO",
+          "position": 13,
+          "attribution": "name"
+        },
+        {
           "arxiv_id": "2610.00671",
           "title": "MegaFlux: Skew-Resilient MoE Megakernels via Pipelined Expert Replication",
           "abstract": "Mixture-of-experts (MoE) megakernels fuse expert-parallel communication with expert computation. However, under fixed expert placement, routing skew creates GPU stragglers: overloaded GPUs determine layer latency while others sit idle. Replicating hot experts can shift work to underloaded GPUs, but dynamic replicas introduce additional work: replicas must receive expert weights to execute and, during training, their partial weight gradients must be reduced at the expert owners. We present MegaFlux, which makes expert replication a runtime decision and pipelines the communication induced by replication within persistent MoE execution. An on-device planner jointly selects replica locations and assigns tile-aligned token blocks under a per-GPU replica budget, leaving router outputs unchanged. The forward and backward megakernels realize pipelined expert replication: replicas begin computation as their required weights arrive, while backward overlaps replica-gradient reduction with ongoing expert computation. MegaFlux extends TensorRT-LLM's CuTeDSL MegaMoE forward kernel and introduces a new backward MoE megakernel. Across 147 configurations per direction on eight NVIDIA B200 GPUs, MegaFlux achieves geometric-mean speedups of $1.45\\times$ for forward and $1.28\\times$ for backward over the same megakernels with fixed placement, peaking at $2.14\\times$ and $2.64\\times$. In ablations, pipelining hides $56$--$76$% of replica-weight transfer cost in forward and $91$--$100$% of combined weight-transfer and replica-gradient-reduction cost in backward, yielding up to $13.2$% and $26.7$% additional layer-latency reductions over the same replication plans with these operations executed separately. Integrated into vLLM for DeepSeek-V4-Pro prefill, MegaFlux delivers $1.13$--$1.26\\times$ median end-to-end speedups over fixed placement.",
@@ -608,23 +684,6 @@
           "primary_category": "cs.DB",
           "position": 3,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2608.07009",
-          "title": "HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management",
-          "abstract": "Top-k sparse attention makes long-context LLM decoding cheap to compute: each step reads only a few thousand selected KV entries rather than the full context. Serving systems, however, typically keep the entire KV cache in GPU HBM so that every position stays selectable, so a request's memory bill still grows with its full context length--decoding hits a capacity wall long before it runs out of compute, and a context whose KV cache exceeds HBM cannot be served at all. We present HiSparse, an exact, indexer-agnostic hierarchical KV cache for sparse-attention serving. HiSparse keeps each request's full KV history in host memory and bounds its decode footprint with a small, fixed-size GPU cache; a fused CUDA kernel resolves each layer's selections--hit detection, LRU replacement, and host-to-device fetches--inside the decode CUDA graph; and, for models that share selections across layers, exact layer-wise prefetching hides roughly half of the remaining miss overhead. Because only KV placement changes, model outputs are unchanged. HiSparse is merged into upstream SGLang and evaluated across three sparse-attention families (DSA, NSA, and Quest) on H200, B200, and GH200 platforms: it improves peak generation throughput by up to 4.7x on long-context workloads while preserving comparable per-token latency and reducing time-to-first-token at high load--and a no-IO oracle shows the resolution mechanism itself adds no measurable per-token cost, leaving host-device IO as the only price of bounded residency.",
-          "authors": [
-            "Zhiqiang Xie",
-            "Zhangheng Huang",
-            "Tingwei Huang",
-            "Ziyi Xu",
-            "Ruiyang Ma",
-            "Christos Kozyrakis"
-          ],
-          "published": "2026-08-07",
-          "primary_category": "cs.DC",
-          "position": 6,
-          "attribution": "name"
         }
       ]
     },
@@ -668,6 +727,23 @@
       "known_for": "FlexFlow, TASO, SpecInfer",
       "papers": [
         {
+          "arxiv_id": "2611.03517",
+          "title": "Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization",
+          "abstract": "LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff. Scripted agents fix what the model does at each step, via a learned policy, an optimization menu, or fixed roles, and are sample-efficient where the recipe applies and stall where it does not. Open-ended agents let a self-directed model mutate a population of kernels and pay for the freedom in trials: thousands of evaluations, repeated edits, and wrong candidates. Both respond to hard targets by equipping the agent with more: parsed profiler output, disassembly analysis, retrieval over documentation and libraries, and stores of lessons. We argue that both lack direction, a hypothesis about where the remaining gap is, and that a short question asked at the right moment supplies it without narrowing what the agent may do next. We present KernelSeek, a question-driven agent that makes an existing CUDA kernel faster with no operator-specific knowledge and no faster implementation to imitate: a general-purpose coding agent, a minimal harness that enforces a verifiable goal, and questions at decision points, first from a human, then from a bank the agent applies to itself. On the same task, evaluator, hardware, and week, a tool-rich autonomous agent built in the prevailing style plateaued at 0.50x FlashAttention-3 after 133 model-driven steps; KernelSeek reached 1.13x. It then produced dependency-free FlashAttention forward kernels for Hopper and Blackwell, single CUDA files with no CUTLASS, CuTe, cuBLAS, or cuDNN, correct on all 182 scenarios per architecture and 1.16x FlashAttention-3 and 1.46x FlashAttention-4 (geometric mean). Across 162 human messages and 11.5K agent tool calls, every large gain followed a question that moved the agent to a different layer of the system or rejected a claimed limit, never one that supplied information. We release the kernels, harness, question bank, and all traces.",
+          "authors": [
+            "Gabriele Oliaro",
+            "Jaeseong Lee",
+            "Zhaoyuan Su",
+            "Sreeram Vennam",
+            "Zhihao Jia",
+            "Samyam Rajbhandari"
+          ],
+          "published": "2026-11-02",
+          "primary_category": "cs.LG",
+          "position": 5,
+          "attribution": "coauthor"
+        },
+        {
           "arxiv_id": "2609.14237",
           "title": "OpWeave: Flexible Operator Disaggregation for Heterogeneous LLM Serving",
           "abstract": "LLM serving systems increasingly disaggregate inference into finer-grained stages, with recent approaches separating attention from FFN or MoE execution during decode. This operator-level disaggregated serving (ODS) can improve hardware matching and enable independent scaling, particularly across heterogeneous devices. However, existing systems fix operator boundaries and lack a unified characterization of when disaggregation reduces serving cost. We present OpWeave, an end-to-end framework for heterogeneous ODS. OpWeave provides an analytical cost model that bounds the gains of homogeneous and heterogeneous ODS over colocated serving. It jointly optimizes operator partitioning and deployment configuration through a regularity-aware planner that keeps the search tractable even for hybrid-attention models. A vLLM-based runtime executes the synthesized plans with flexible operator stages across heterogeneous device groups. In our evaluation, OpWeave reduces serving cost by up to $1.78\\times$ on homogeneous and $1.89\\times$ on heterogeneous GPU clusters relative to the best feasible baseline, while meeting latency SLOs.",
@@ -698,6 +774,41 @@
       "affiliation": "MIT",
       "known_for": "Deep Compression, AWQ, SmoothQuant",
       "papers": [
+        {
+          "arxiv_id": "2611.01022",
+          "title": "Jet-QSparse: Accelerating Agentic LLM Inference with 4-Bit Sparse Attention",
+          "abstract": "Long-horizon reasoning and agentic workloads strain KV-cache capacity and decode attention throughput. We present Jet-QSparse, a training-free method that combines compact NVFP4 cache storage with native FP4 query-key computation on Blackwell tensor cores. A dense scan scores the full key history and selects 128-token blocks for sparse FP16 value aggregation with FP32 accumulation, preserving higher precision in the output-forming step while enabling contiguous tile loads. Calibrated key centering and at most two BF16 pages per sequence and layer address quantization error; FP8 prefill uses a temporary arena while the persistent cache is packed directly from BF16 activations. Across four hybrid LLMs, a budget of 128 blocks per KV head shows no detected accuracy loss on the evaluated mathematical reasoning, coding, and agentic benchmarks, although some smaller budgets incur losses. With 64 blocks, Qwen3.8-27B achieves a $1.94\\times$ end-to-end decode speedup over dense BF16 at 128K context and batch size 16 on one GB300, and the measured Qwen KV pools provide $2.58$-$2.76\\times$ BF16's token capacity.",
+          "authors": [
+            "Haozhan Tang",
+            "Hao Kang",
+            "Meng Lu",
+            "Yecheng Wu",
+            "Zerui Wang",
+            "Seokho Han",
+            "Haocheng Xi",
+            "Shuo Yang",
+            "Song Han",
+            "Han Cai"
+          ],
+          "published": "2026-10-31",
+          "primary_category": "cs.LG",
+          "position": 9,
+          "attribution": "coauthor"
+        },
+        {
+          "arxiv_id": "2610.38681",
+          "title": "Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models",
+          "abstract": "Self-distillation offers a way to improve reasoning models when a suitable external teacher is unavailable. However, common approaches rely on privileged information to construct a stronger self-teacher, limiting their use when only unlabeled prompts are available. In this paper, we introduce Weakening-Induced On-Policy Self-Distillation (WISD), which instead constructs a weaker counterpart of the original model and uses the contrast between the two as a training signal without requiring privileged information. We explore two ways to construct the weaker model: low-bit quantization and magnitude pruning. We evaluate WISD across diverse architectures and scales on mathematical and coding reasoning tasks. Across these benchmarks, quantization and pruning improve average accuracy over the original models by 4.0 and 5.5 percentage points, respectively, achieving state-of-the-art performance even without privileged information. Notably, pruning raises Qwen3.5-4B's accuracy from 57.7% to 70.5% on HMMT 2025 and from 39.1% to 56.7% on LiveCodeBench v6. Quantization raises Qwen3.6-35B-A3B's accuracy from 68.5% to 74.6% and from 61.8% to 69.5% on the same benchmarks, respectively. These results establish WISD as a novel and effective self-distillation framework for large reasoning models.",
+          "authors": [
+            "Yecheng Wu",
+            "Song Han",
+            "Han Cai"
+          ],
+          "published": "2026-10-28",
+          "primary_category": "cs.AI",
+          "position": 2,
+          "attribution": "school"
+        },
         {
           "arxiv_id": "2610.19495",
           "title": "Robota-Embed: Unified VLA Embeddings for Robot In-Context Learning and Evolution",
@@ -898,7 +1009,7 @@
         {
           "arxiv_id": "2609.37852",
           "title": "Delta-Matching: Closing the Final Gap of Native 8-bit Training for LLMs",
-          "abstract": "Reliable FP8 attention remains a barrier to fully native 8-bit large language model training. We derive how forward-backward inconsistencies produce stale delta and empirically show how it distorts training dynamics. Our stale-delta hybrid runs show a modest loss gap at 569M parameters but substantial loss increases and downstream degradation at 1.67B and 5.29B. QK normalization, NoPE (no positional encoding), and lower-learning-rate context extension mitigate or delay degradation without eliminating it. This pattern suggests accumulated optimization error that smaller models and short runs can conceal. We propose Delta-Matching, proving that it restores the softmax gradient's zero-row-sum invariant under the stated numerical assumptions. It enables native block-scaled FP8 in every forward and backward attention-core matmul without architectural changes, smaller global batches, or auxiliary forward outputs. Across tested architectures, scales, and training stages, Delta-Matching matches BF16/FP32 mixed-precision training loss and overall downstream performance. We will release our implementation, trained models, and data recipes.",
+          "abstract": "Reliable FP8 attention remains a barrier to fully native 8-bit large language model training. We derive how forward-backward inconsistencies produce stale delta and empirically show how it distorts training dynamics. Our stale-delta hybrid runs show a modest loss gap at 569M parameters but substantial loss increases and downstream degradation at 1.67B and 5.29B. QK normalization, NoPE (no positional encoding), and lower-learning-rate context extension mitigate or delay degradation without eliminating it. This pattern suggests accumulated optimization error that smaller models and short runs can conceal. We propose Delta-Matching, proving that it restores the softmax gradient's zero-row-sum invariant under the stated numerical assumptions. It enables native block-scaled FP8 in every forward and backward attention-core matmul without architectural changes, smaller global batches, or auxiliary forward outputs. Across tested architectures, scales, and training stages, Delta-Matching matches BF16/FP32 mixed-precision training loss and overall downstream performance. We will release our implementation, trained models, and data recipes (https://jet-ai-projects.github.io/delta-matching).",
           "authors": [
             "Haozhan Tang",
             "Hao Kang",
@@ -1033,7 +1144,7 @@
         {
           "arxiv_id": "2609.17527",
           "title": "Agentic Societies Need a Social Harness",
-          "abstract": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes with existing harnesses and messaging primitives, and that faulty or malicious agents can stall collaboration, influence outcomes, and pursue other harmful goals by exploiting vulnerabilities in communication (``speech''). We argue that agentic societies need a \\emph{social harness} for inter-agent interactions, in addition to each agent's \\emph{personal harness}, which manages its private context and communication with its principal. We propose a layered architecture for social harnesses which (i) prevents classes of failures outright, (ii) enables agents to detect invalid messages at runtime, and (iii) supports post-facto investigation and consequences, and highlight directions for future research to realize these capabilities.",
+          "abstract": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries on behalf of different principals. We show experimentally that in such societies even honest, competent agents often fail to reach satisfactory outcomes when using current harnesses and messaging primitives; and faulty or malicious agents can completely stall progress, influence outcomes, and pursue harmful goals by exploiting communication vulnerabilities. We argue that agentic societies need a \\emph{social harness}. Unlike a \\emph{personal harness}, which manages private context and communication with the principal, a social harness manages interactions with other agents. We propose a layered architecture for social harnesses which (i) prevents classes of communication failures outright, (ii) enables agents to detect invalid messages, and (iii) supports post-facto investigation and consequences.",
           "authors": [
             "Tapan Chugh",
             "Vidushi Singh",
@@ -1142,24 +1253,6 @@
           "primary_category": "cs.LG",
           "position": 8,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2608.01707",
-          "title": "On Topology's Role in ML Training Performance",
-          "abstract": "Modern machine learning training workloads run on large-scale networks of compute accelerators. The networks commonly deployed in these systems are typically variations of two basic topologies: the fat-tree Clos and the torus. In this paper, we derive analytical results the elucidate how the choice of topology shapes achievable performance for the small set of collective communication operations that underlies modern machine learning workloads. We also consider how these results change when we include additional factors such as network failures and job placement strategies. Overall, we find that one topology does not dominate in all cases, but that the Clos achieves better collective completion time in most cases and provides benefits in resilience and flexibility.",
-          "authors": [
-            "Sarah McClure",
-            "Tegan Wilson",
-            "Brad Karp",
-            "Michael Mitzenmacher",
-            "Sylvia Ratnasamy",
-            "Scott Shenker",
-            "Minlan Yu"
-          ],
-          "published": "2026-08-03",
-          "primary_category": "cs.NI",
-          "position": 7,
-          "attribution": "name"
         }
       ]
     },
@@ -1170,20 +1263,24 @@
       "known_for": "Operating systems (IPADS) · HarmonyOS kernel",
       "papers": [
         {
-          "arxiv_id": "2609.25018",
-          "title": "OSFoundry: Building and Evolving Operating Systems with Specification-Guided Agents",
-          "abstract": "Operating systems must evolve continuously. Yet their development remains code-centric and largely manual: even a localized change can require recovering implicit assumptions, coordinating multiple subsystems, and repeatedly building, booting, testing, and debugging the complete system. General-purpose coding agents automate individual edits, but their prompt-centric workflows repeatedly reconstruct task boundaries and OS semantics from scattered context, limiting their reliability for sustained OS evolution. This paper presents OSFoundry, an OS-specialized agent harness that makes design intent persistent throughout OS development. Its key insight is to separate stable intent from diverse implementation. Instead of relying on free-form natural-language prompts to convey design intent, OSFoundry uses SysSpec*, a shared development blueprint comprising a task-bounding Plan and an OS-specific Specification: the Plan bounds what a change should achieve, while the Specification records the interfaces, modular dependencies, and concurrency semantics that its implementation must preserve. Agents implement and validate code against this same blueprint, refining both SysSpec* and the implementation when execution or review exposes a mismatch. We evaluate OSFoundry along three ways. First, OSFoundry generates SpecOS from SysSpec*; the resulting complete OS boots and passes all 70 functional tests. Second, specification patches evolve SpecOS with a GUI and three performance optimizations that improve performance by up to 4.41x. Third, across 11 recent Linux-kernel bug-fix tasks, OSFoundry achieves 1.8x the accuracy of Codex using GPT-5.5. These results show that persistent specifications can shift OS construction and evolution from repeated manual kernel engineering toward specification-guided development.",
+          "arxiv_id": "2610.35999",
+          "title": "safeL4: Rethinking Safe-Language-Based Single Address Space Microkernels",
+          "abstract": "Microkernels provide good features such as high security, safety, and flexibility, but their reliance on hardware-based isolation leads to heavy performance overhead, limiting their widespread adoption. Although constructing single-address-space microkernels based on safe language-based isolation is a promising approach to addressing the performance issue, this approach still faces challenges in maintaining the principle of minimality and enforcing capability-based, fine-grained access control over system resources. We propose safeL4, an approach to constructing microkernels based on safe languages. It guarantees minimality through low-level abstractions for unsafe operations, and implements a capability system based on the safe language's object capabilities to achieve fine-grained access control over all operations on system resources. We implement a prototype system in Rust, and our evaluation results show that the primitives provided by safeL4 are, on average, 1.9$\\times$ faster than those of seL4.",
           "authors": [
-            "Hengbin Zhang",
-            "Qingyuan Liu",
-            "Mo Zou",
-            "Dong Du",
-            "Yubin Xia",
-            "Haibo Chen"
+            "Zheyuan Xu",
+            "Xiaobei Zhang",
+            "Zihan Li",
+            "Zekai Nie",
+            "Guangtao Zhu",
+            "Zhuang Lu",
+            "Qianying Zhang",
+            "Shijun Zhao",
+            "Haibo Chen",
+            "Rui Hou"
           ],
-          "published": "2026-08-08",
+          "published": "2026-10-26",
           "primary_category": "cs.OS",
-          "position": 6,
+          "position": 9,
           "attribution": "school"
         }
       ]
