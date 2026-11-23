@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-11-09",
+  "generated": "2026-11-23",
   "researchers": [
     {
       "slug": "ion-stoica",
@@ -8,6 +8,90 @@
       "affiliation": "UC Berkeley",
       "known_for": "Spark, Ray, vLLM · co-founded Databricks and Anyscale",
       "papers": [
+        {
+          "arxiv_id": "2611.24892",
+          "title": "On Evaluating User Simulators for Interactive Agents",
+          "abstract": "User simulators offer a scalable way to evaluate interactive agents, but how to assess their quality remains underexplored. In particular, it is unclear whether existing user simulator evaluation frameworks reliably detect meaningful failures in simulated user behavior. This uncertainty makes it difficult to interpret simulator evaluation. To understand what a high benchmark score tells us about simulator quality, we (meta-)evaluate the metrics themselves. To instantiate this meta-evaluation, we deliberately perturb simulated replays to induce failures such as altered goals, omitted constraints, premature stopping, and acceptance of broken work, then test whether the metrics penalize these failures. Evaluation methods from three prior studies detect only 5-6 of the 10 perturbations; their combined scores even favor populations instructed to accept broken work over unmodified controls. Motivated by these gaps, we propose a new evaluation suite that combines utility of user simulators for evaluating agents and two measures of fidelity to real users: population-level fidelity assesses collective interaction patterns, while trace-level fidelity assesses the preservation of individual users' goals, constraints, and persona. Under the same detection criterion, our evaluation suite detects all 10 perturbations. Evaluating six user simulators on 351 real multi-turn sessions in which 348 distinct users across 23 languages and agents work together to create and refine artifacts such as full-stack web apps, games, design assets, and automated workflows, we find that population-level measures can miss when a simulated user pursues the wrong goal, ignores a constraint, or behaves out of character, highlighting the need to assess fidelity at comprehensive granularities.",
+          "authors": [
+            "Hengguang Zhou",
+            "I-Hung Hsu",
+            "Li Chen",
+            "Priyanshi Shrivastava",
+            "Anastasios Angelopoulos",
+            "Wei-Lin Chiang",
+            "Ion Stoica",
+            "Cho-Jui Hsieh"
+          ],
+          "published": "2026-11-18",
+          "primary_category": "cs.LG",
+          "position": 7,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2611.12304",
+          "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+          "abstract": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limitations lead to load imbalance between prefill and decode nodes and eviction of KV caches that agents will reuse. We present Evolving Infra, an agent-adaptive serving framework that adapts compute allocation to agent workloads and KV cache management to agent context management at runtime. We decouple compute allocation from key--value (KV) cache management, allowing nodes to switch efficiently between prefill and decode. Building on this design, an online planner matches the PD split to workload composition, while an agent-aware distributed KV manager guides cache eviction and transfer with signals from agent context management. Across coding, math, and computer-use tasks with GLM-5.2 and Kimi K2.6 on up to 256 GB300 GPUs, Evolving Infra reduces mean end-to-end request latency and P95 TTFT by up to 4.1x and 14x over Dynamo, NVIDIA's production framework. We open-source the system implementation of Evolving Infra at https://github.com/mit-han-lab/EvolvingInfra.",
+          "authors": [
+            "Hao Kang",
+            "Weili Xu",
+            "Ziyang Li",
+            "Zheng Du",
+            "Hanchen Li",
+            "Tian Xia",
+            "Song Bian",
+            "Tushar Krishna",
+            "Huizi Mao",
+            "Ion Stoica",
+            "Song Han"
+          ],
+          "published": "2026-11-09",
+          "primary_category": "cs.DC",
+          "position": 10,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2611.12122",
+          "title": "System Optimizations for Cost-Efficient Agent Harnesses",
+          "abstract": "AI agent harnesses play the critical role of providing LLMs with an interface to a computing environment. Recent studies show that AI agents' task-execution accuracy depends mostly on the LLM used, while harness-side variances such as system prompts or tools have minimal impact. Rather, such harness-side variances show a larger impact on the cost of agent executions, achieving cost reductions up to 2.6 times on the same model and task. To further explore these harness-side cost optimization opportunities, we analyze the cost accumulation patterns across various agent traces and identify system opportunities to reduce token use and LLM calls without modifying the model or affecting task accuracy. Based on this analysis, we design Agency, a harness interposition platform that provides a unified abstraction and allows easy and portable implementation of harness-side system optimizations on existing off-the-shelf harnesses such as Claude Code or OpenAI Codex. Using Agency, we implement proof-of-concept optimization techniques based on our analysis and achieve cost reductions up to 35% across various real-world benchmarks on existing harnesses without compromising accuracy.",
+          "authors": [
+            "Jongseok Park",
+            "Jiaxiang Yu",
+            "Eric Zhou",
+            "Tony Hong",
+            "Sunga Kim",
+            "Yusuf Afifi",
+            "Ian Wong",
+            "Ion Stoica",
+            "Alvin Cheung"
+          ],
+          "published": "2026-11-09",
+          "primary_category": "cs.AI",
+          "position": 8,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2611.10219",
+          "title": "Multi-GPU MoE Inference with Adaptive Expert Offloading",
+          "abstract": "Modern Mixture-of-Experts (MoE) inference is constrained by GPU memory. This constraint is mitigated by expert offloading, which stores part of the model's weight in host memory and executes on demand. Though MoE architecture has computation sparsity, more GPUs are needed for serving increasingly larger frontier models. However, existing expert offloading systems overlook this need and fail to scale performance with additional GPUs. We present AdaOffload, a general and efficient multi-GPU hybrid expert execution framework that effectively handles heterogeneous hardware and workloads. We co-design GPU-CPU parallelism and GPU-CPU co-execution for decode and prefill with online workload observation that adapts to different hardware, workload, and batch size heterogeneity. We evaluated AdaOffload on five different platforms with varying GPU capability (L4, Pro6000, B200), number of GPUs, CPU capability, and NUMA topology on three different frontier open-weight models (284B to 753B). AdaOffload achieves $1.9\\times$ to $15.5\\times$ throughput speedups across different models over state-of-the-art systems.",
+          "authors": [
+            "William X. Zheng",
+            "Zhongjie Chen",
+            "Shuo Yang",
+            "Ziming Mao",
+            "Xiaoze Fan",
+            "Yi Pan",
+            "Kunjun Li",
+            "Hanfei Yu",
+            "Chenfeng Xu",
+            "Yang Zhou",
+            "Rishabh Iyer",
+            "Ion Stoica"
+          ],
+          "published": "2026-11-06",
+          "primary_category": "cs.AI",
+          "position": 12,
+          "attribution": "name"
+        },
         {
           "arxiv_id": "2611.00463",
           "title": "Exo: An Architecture for Self-Improving Systems at Runtime",
@@ -335,28 +419,6 @@
           "primary_category": "cs.DB",
           "position": 5,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2608.16157",
-          "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
-          "abstract": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
-          "authors": [
-            "Shuo Yang",
-            "Xiaoze Fan",
-            "Melissa Pan",
-            "Haocheng Xi",
-            "Zhe Wang",
-            "Shanlin Sun",
-            "Kurt Keutzer",
-            "Song Han",
-            "Matei Zaharia",
-            "Chenfeng Xu",
-            "Ion Stoica"
-          ],
-          "published": "2026-08-17",
-          "primary_category": "cs.DC",
-          "position": 11,
-          "attribution": "name"
         }
       ]
     },
@@ -530,28 +592,6 @@
           "primary_category": "cs.DB",
           "position": 6,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2608.16157",
-          "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
-          "abstract": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
-          "authors": [
-            "Shuo Yang",
-            "Xiaoze Fan",
-            "Melissa Pan",
-            "Haocheng Xi",
-            "Zhe Wang",
-            "Shanlin Sun",
-            "Kurt Keutzer",
-            "Song Han",
-            "Matei Zaharia",
-            "Chenfeng Xu",
-            "Ion Stoica"
-          ],
-          "published": "2026-08-17",
-          "primary_category": "cs.DC",
-          "position": 9,
-          "attribution": "name"
         }
       ]
     },
@@ -561,6 +601,37 @@
       "affiliation": "Stanford",
       "known_for": "Computer architecture and datacenter systems",
       "papers": [
+        {
+          "arxiv_id": "2611.18754",
+          "title": "KernelArmor: End-to-End Agentic System for Establishing Memory and Thread Safety for CUDA",
+          "abstract": "Optimized CUDA kernels can pass testing while retaining subtle memory and concurrency bugs. We present KernelArmor, an agentic framework that combines LLM-generated annotations with an extended SMT verifier to establish memory and thread safety under explicit contracts. KernelArmor can reason about kernels with advanced CUDA features, such as tensor cores, packed accesses, warp synchronization, asynchronous copies, and library calls, returning source-level diagnostics to guide verification and repair. Across 740 instances containing 1,370 production-grade CUDA kernels, it reports potential bugs in 78.6% of instances and establishes safety for 11.4%, outperforming the evaluated state-of-the-art tools in detection coverage, identifying 100% of cuCatch memory-safety bugs and all in-scope cuHadron races. Integrated into an agentic optimization loop, KernelArmor produces verified kernels in all 77 trajectories while retaining 99% of the unconstrained geometric-mean speedup.",
+          "authors": [
+            "Bodhisatwa Chatterjee",
+            "Mohamed Tarek Ibn Zaid",
+            "Sana Damani",
+            "Siva Kumar Sastry Hari",
+            "Christos Kozyrakis"
+          ],
+          "published": "2026-11-11",
+          "primary_category": "cs.OS",
+          "position": 5,
+          "attribution": "name"
+        },
+        {
+          "arxiv_id": "2611.14776",
+          "title": "SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads",
+          "abstract": "Large language model (LLM) inference demands ever more memory capacity for larger models and batch sizes. High-Bandwidth Flash (HBF) replaces the DRAM dies of HBM with NAND flash and provides up to 16x the capacity at comparable read bandwidth. However, HBF can incur a read latency of nearly 20$μ$s, 20x that of HBM, so on-demand HBF accesses slow inference by up to 12.8x. Conventional cache-line prefetchers require 20x more in-flight tracking state to cover this latency. Tensor-streaming designs, such as H3, follow virtual-address order as opposed to kernel-demand order, and therefore need hundreds of megabytes of buffering. We propose SlipStream, a software-hardware co-designed prefetcher that turns prefetching into a demand-paced producer-consumer pipeline. In software, SlipStream profiles the repeatable weight-page demand order of data-independent LLM kernels and inserts a staging warp that replays this order with non-blocking STAGE instructions. In hardware, the staging warp acts as the producer and the work warps as consumers. Our key insight is to retire each STAGE tracking entry only when demand first accesses the page, as opposed to when the page returns from HBF. Demand thus paces staging and bounds how far staging leads consumption. SlipStream tracks 4 KB pages instead of cache lines and allocates buffer slots only when pages return, which decouples the buffer size from outstanding traffic. Across seven dense models spanning 16-800 GB, SlipStream with a 40 MB staging buffer achieves 92.4% of the performance of an ideal HBF with HBM-like latency. H3 achieves only 43.1%, even with a 320 MB buffer. The buffer sizing of SlipStream is independent of HBF latency and workload. SlipStream with 16 MB buffer, 20x smaller than that of H3, performs within 4% of SlipStream-40MB. SlipStream also supports Mixture-of-Experts models and reaches 91.2% of ideal performance (40 MB buffer).",
+          "authors": [
+            "Anish Saxena",
+            "Hritvik Taneja",
+            "Christos Kozyrakis",
+            "Aamer Jaleel"
+          ],
+          "published": "2026-11-10",
+          "primary_category": "cs.AR",
+          "position": 3,
+          "attribution": "name"
+        },
         {
           "arxiv_id": "2611.04104",
           "title": "ModelBlaster: Closing the Performance Gap through Learning-Augmented Agents Across Models, Kernels and Hardware Backends",
@@ -668,22 +739,6 @@
           "primary_category": "cs.AI",
           "position": 3,
           "attribution": "name"
-        },
-        {
-          "arxiv_id": "2608.13696",
-          "title": "Over the Memory Wall, Into the Instruction Wall: The New Bottleneck in GPU Data Processing",
-          "abstract": "Datacenter GPUs have seen an order-of-magnitude increase in memory bandwidth with the adoption of newer generations of HBM. Meanwhile, GPU database systems are gaining traction, many building on cuDF, an open-source library of GPU relational operators. Previously, query performance was bound by memory bandwidth, but the increase in memory bandwidth has not resulted in a proportional speedup of cuDF kernels. To investigate why performance has not kept up, we built Valk, a performance analysis tool that combines data from multiple profilers. We profile cuDF running TPC-H in-memory on two extremes of hardware capability, the L4 and GH200 GPUs. The GH200 has 13.4$\\times$ the memory bandwidth and 2.5$\\times$ the instruction throughput of the L4, yet is only 5.2$\\times$ faster in running TPC-H. Our analysis shows that when memory bandwidth is increased, kernels become compute bound. From our analysis, we make three recommendations to fully utilize the GPUs' potential for relational workloads when the memory wall is removed: kernels need to 1) make more efficient use of caches, and 2) increase occupancy and/or instruction level parallelism, and 3) execute fewer instructions per memory access.",
-          "authors": [
-            "Sven Hepkema",
-            "Bowen Wu",
-            "Christos Kozyrakis",
-            "Yannis Chronis",
-            "Gustavo Alonso"
-          ],
-          "published": "2026-08-13",
-          "primary_category": "cs.DB",
-          "position": 3,
-          "attribution": "name"
         }
       ]
     },
@@ -692,33 +747,7 @@
       "name": "Tianqi Chen",
       "affiliation": "Carnegie Mellon",
       "known_for": "XGBoost, TVM, MXNet",
-      "papers": [
-        {
-          "arxiv_id": "2608.12629",
-          "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
-          "abstract": "GPU kernel agents and GPU programming languages have advanced separately, leaving expert kernels difficult to reproduce. Agents usually treat the compiler as a fixed black box and receive only errors, correctness outcomes, and timing, while existing DSLs either hide critical scheduling decisions or expose them through difficult layout abstractions. We present CAKE, a compiler-agent co-design in which agents author CAKE IR, a typed, hardware-explicit schedule representation. CAKE exposes warp roles, memory movement, synchronization, and pipelines while supporting verification, cost modeling, and localized diagnostics. The harness itself evolves: recurring failures become verifier rules, IR primitives, model calibrations, and reusable optimization tactics. In matched implementation-hidden Flash-KMeans clean starts on B200, the best CAKE IR candidate at an 80-million-token budget runs at 1.144x the tuned FlashML baseline, compared with 0.928x for direct CUDA/PTX. Beyond this benchmark, agent-generated Kimi Delta Attention achieves a 2.05x geometric-mean speedup over official FlashKDA and passes end-to-end serving validation. Dispatcher-backed KNN and KMeans improve performance by 1.42x to 2.12x across more than 400 shapes, and four kernel changes are available as upstream PRs. CAKE targets NVIDIA GPUs from Ampere through Blackwell and separates single-shape evolution from library generalization and dispatch.",
-          "authors": [
-            "Zihao Ye",
-            "Yingyi Huang",
-            "Hongyi Jin",
-            "Bohan Hou",
-            "Junru Shao",
-            "Zhongming Yu",
-            "Jinqi Chen",
-            "Meghan Cowan",
-            "Shiyi Cao",
-            "Shanli Xing",
-            "Hanfeng Chen",
-            "Vinod Grover",
-            "Tianqi Chen",
-            "Luis Ceze"
-          ],
-          "published": "2026-08-12",
-          "primary_category": "cs.LG",
-          "position": 13,
-          "attribution": "school"
-        }
-      ]
+      "papers": []
     },
     {
       "slug": "zhihao-jia",
@@ -741,6 +770,25 @@
           "published": "2026-11-02",
           "primary_category": "cs.LG",
           "position": 5,
+          "attribution": "coauthor"
+        },
+        {
+          "arxiv_id": "2610.23935",
+          "title": "Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding",
+          "abstract": "Speculative decoding accelerates large language model inference through parallel verification of tokens proposed by a drafter. Diffusion drafters further parallelize proposal generation, but greater proposal capacity or higher mean accepted tokens (MAT) need not yield higher throughput. Because verification accepts only a consecutive prefix, early rejections can render later correct predictions ineffective, limiting MAT gains, while even higher MAT may not improve throughput if per-round latency increases. We introduce DScout, which uses two complementary factorizations to guide diffusion drafter training and inference for higher throughput. For training, DScout factorizes position-wise loss into inclusion, weighting, and prediction loss. This guides the design and combination of mixed-horizon training, intra-block unmasking, and acceptance-weighted loss to align supervision with prefix acceptance and improve MAT. For inference, DScout factorizes throughput as the ratio of MAT to per-round latency, guiding target-conditioning depth, drafter depth, and inference block size selection to identify a high-throughput configuration for each workload. Across six benchmarks, DScout achieves $3.84\\times$ and $4.14\\times$ mean speedups over autoregressive decoding on Qwen3-4B and Qwen3-8B, respectively, improving mean speedup over the state-of-the-art baseline by 9.1% and 7.1%. Across models and concurrency settings, our inference configuration policy provides up to 9.75% additional mean speedup over DScout's fixed configuration.",
+          "authors": [
+            "Jiakun Fan",
+            "Min Xiao",
+            "Qiang Wang",
+            "Neiwen Ling",
+            "Zhichao Liu",
+            "Zhihao Jia",
+            "Dimitrios S. Nikolopoulos",
+            "Zijun Wei"
+          ],
+          "published": "2026-10-07",
+          "primary_category": "cs.LG",
+          "position": 6,
           "attribution": "coauthor"
         },
         {
@@ -774,6 +822,94 @@
       "affiliation": "MIT",
       "known_for": "Deep Compression, AWQ, SmoothQuant",
       "papers": [
+        {
+          "arxiv_id": "2611.26619",
+          "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+          "abstract": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their residency across GPU and host memory. The Transparent Cache Pool redistributes physical pages among cache components behind fixed virtual addresses, preserving cache layouts and backend interfaces. The Cache Streamer uses computation intervals provided by bounded-state layers to prefetch the next global-attention layer's prefix into GPU slots shared across global-attention layers, reducing GPU residency while overlapping layer-wise transfers with computation. Generated KV remains resident. The Request Scheduler selects resident or streamed execution and triggers capacity adjustments according to request size and queue state. Together, they let HBM released by streaming accommodate other cache components and additional requests. Implemented in SGLang and evaluated on GB300 and GH200 across seven model/platform configurations, TideCache completes up to 2.04x as many agent turns, reduces overall P50 per-token latency by 20--59%, and improves agent P50 TTFT by 1.40--3.05x compared with SGLang with HiCache.",
+          "authors": [
+            "Jinbin Luo",
+            "Xiaozhe Yao",
+            "Shang Yang",
+            "Zhijian Liu",
+            "Song Han",
+            "Qinghao Hu"
+          ],
+          "published": "2026-11-19",
+          "primary_category": "cs.DC",
+          "position": 5,
+          "attribution": "coauthor"
+        },
+        {
+          "arxiv_id": "2611.25717",
+          "title": "VR-SparseQuant: Accurate FP4 Quantization with 2:4 Sparsity on Vera Rubin",
+          "abstract": "In recent years, GPUs have incorporated increasingly specialized support for low-precision computation, from Hopper's FP8 to Blackwell's FP4 Tensor Cores. Precision formats have evolved alongside this hardware, from MXFP4 and NVFP4 on Blackwell to E2M1 FP4 with direct UE5M3 block scaling on Vera Rubin, which we term as $\\boldsymbol{VRFP4}$. These advances help serve larger language models at lower cost, but four-bit activation quantization can substantially degrade model quality. We introduce VR-SparseQuant, which uses Vera Rubin's elementwise 2:4 sparsity to recover accuracy while retaining native FP4 execution. By allowing two sparse streams to overlap, we use the same FP4 value budget as dense quantization to refine activations with larger errors. Offline scale-ratio calibration avoids runtime search, while a shared-weight GEMM accumulates both streams efficiently. On Nemotron-3-Nano-30B-A3B, VR-SparseQuant reduces WikiText-2 perplexity from $\\boldsymbol{6.85}$ to $\\boldsymbol{5.57}$ versus dense RTN W4A4. Including activation preparation, our native Rubin kernels for VRFP4 achieve up to $\\boldsymbol{3.1\\times}$ GEMM and $\\boldsymbol{2.7\\times}$ MoE speedup over BF16. To the best of our knowledge, this is the first study of adaptive activation quantization using Vera Rubin's elementwise 2:4 structured sparse FP4 instructions.",
+          "authors": [
+            "Samir Khaki",
+            "Wei-Chen Wang",
+            "Song Han",
+            "Ryan Hanrui Wang"
+          ],
+          "published": "2026-11-19",
+          "primary_category": "cs.CL",
+          "position": 3,
+          "attribution": "coauthor"
+        },
+        {
+          "arxiv_id": "2611.23388",
+          "title": "QDA: Closed-Loop LLM Quantization Design with Agents",
+          "abstract": "Post-training quantization is the standard way to serve large language models at low cost. However, the best quantization recipe differs across models and precisions. As a result, experts must redesign it for every new model, which is time-consuming and often sub-optimal. Fortunately, an LLM agent can take over this design by refining the recipe over rounds of building and evaluating candidates, so that more rounds lead to better recipes. However, evaluating one quantized reasoning model takes tens of GPU-hours, and combining methods from different codebases means porting each to the new architecture by hand. We present QDA, a system in which an agent designs the recipe for each model and precision. To make evaluation fast, QDA scores each candidate in minutes by its output KL divergence from the original model on reasoning traces that the agent never sees, and checks promising ones with long generations to catch failures such as repetition loops. To make building fast, QDA provides a library of public PTQ methods that are compatible with one another and with new model architectures. Across four reasoning models, QDA improves accuracy over the strongest public recipe by 0.9, 1.4 and 2.2 percentage points on average at W4A16, W4A8 and W3A16, using 64 GPU-hours per search. On the 320B-parameter MoE model GLM-5.3-Flash at NVFP4 W4A4, it recovers 98.3% of the FP8 model's accuracy, against 96.9% for the best vendor checkpoint. Every QDA checkpoint also runs on existing serving kernels with no inference overhead. We will release the library, the evaluator and the harness.",
+          "authors": [
+            "Xingyang Li",
+            "Tianlang Zhao",
+            "Song Han",
+            "Ligeng Zhu"
+          ],
+          "published": "2026-11-17",
+          "primary_category": "cs.LG",
+          "position": 3,
+          "attribution": "coauthor"
+        },
+        {
+          "arxiv_id": "2611.18562",
+          "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+          "abstract": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B reasoning model can be trained to use real robots natively through reinforcement learning, entirely in simulation and without demonstrations. Like a computer-use agent (CUA), the model observes the environment, reasons in a chain of thought, and generates the next end-effector pose, without any harness. We build a Post-training Engine for Agentic Robotics (PEAR) and use it to train the model on simulated robot tasks at scale with robot-use reinforcement learning (RURL), mirroring how frontier models acquire computer use. We find that the skills acquired in simulation generalize well beyond the training tasks: they transfer to an unseen robot, to the real world, and to novel instructions. After training on LIBERO and RoboDojo in simulation, the model succeeds in 60% of our trials on a real dual-arm robot, whereas the base model succeeds in none. On LIBERO, training raises the success rate from 1.6% to 74.4%, approaching GPT-6 Astra and GPT-6.1 Sol at maximum reasoning effort. Compared with $π_{0.5}$, a vision-language-action model fine-tuned on demonstrations, our model is substantially more robust to changes in the task itself. On LIBERO-Pro, $π_{0.5}$ succeeds in only 0.75% of episodes when assigned a new task in a familiar scene whereas our model succeeds in 57.4%. Finally, the model retains its general capabilities, with no measurable degradation on nine reasoning, coding and vision benchmarks. These results highlight robot-use reinforcement learning as a promising component of foundation-model post-training.",
+          "authors": [
+            "Jiaming Tang",
+            "Zhuoyang Zhang",
+            "Junxian Guo",
+            "Fangzhou Zhao",
+            "Yilong Zhao",
+            "Zekai Li",
+            "Xingyang Li",
+            "Yuyang Zhao",
+            "Song Bian",
+            "Zhijian Liu",
+            "Song Han"
+          ],
+          "published": "2026-11-13",
+          "primary_category": "cs.RO",
+          "position": 11,
+          "attribution": "school"
+        },
+        {
+          "arxiv_id": "2611.13457",
+          "title": "Deep Personalization: Continuous Context Observation for Local Proactive Agents",
+          "abstract": "As AI agents become increasingly capable, users must still recognize when and how to ask for help, leaving many opportunities for useful support unrealized. Proactive agents hold the promise to close this gap, but effective proactivity requires understanding users' real-time activities and personalizing intervention timing so that assistance is offered when it is likely to be helpful rather than disruptive. We introduce deep personalization, a closed-loop process that connects continuous context observation with continual agent adaptation: an agent observes user activity, selectively retains long-term context, and adapts intervention decisions from implicit feedback. We initiate deep personalization in Coco, a proactive desktop agent, by having a separate Observer Agent that monitors desktop activity, maintains compact long-term user modeling context, and learns when assistance is desirable from implicit signals such as engagement, dismissal, explicit requests, and repeated work patterns. We further develop efficient on-device strategies to enable the Observer Agent to run on local AI compute platforms without streaming raw activity data off-device. For evaluation at scale without collecting sensitive real-user activity, we introduce a data-synthesis pipeline that transforms existing computer-use trajectories into OSWorld-Persona, a benchmark with persona-conditioned intervention labels. On OSWorld-Persona, deep personalization improves macro F1 across three model backbones from 0.12-0.19 under direct prompting to 0.35-0.48 after adaptation, a 2.4-3.0x relative gain. In a week-long user study, we observe that Coco improves its macro-averaged F1 score from 0.199 to 0.515. These results suggest that on-device deep personalization can make proactive agents more timely and increasingly aligned with each user's everyday work.",
+          "authors": [
+            "Yijia Shao",
+            "Song Bian",
+            "Junxian Guo",
+            "Jindong Jiang",
+            "Zhen Dong",
+            "Huizi Mao",
+            "Diyi Yang",
+            "Song Han"
+          ],
+          "published": "2026-11-10",
+          "primary_category": "cs.LG",
+          "position": 8,
+          "attribution": "school"
+        },
         {
           "arxiv_id": "2611.01022",
           "title": "Jet-QSparse: Accelerating Agentic LLM Inference with 4-Bit Sparse Attention",
@@ -1206,7 +1342,7 @@
         {
           "arxiv_id": "2609.28870",
           "title": "When Fancy Eviction Fails: Rethinking Cache Replacement For LLM Prefix Reuse",
-          "abstract": "Long-running LLM applications repeatedly send growing context, making prefix caching critical for reducing prefill cost. Yet prefix-cache behavior under agentic workloads remains poorly understood. We study production traces from two companies and evaluate 14 eviction algorithms across HBM-constrained and large memory-pool settings. Despite a large gap to Belady, sophisticated policies designed for traditional caches provide little benefit over LRU. The reason is structural: prefix reuse is dominated by the regular pacing of active sessions, making recency unusually predictive. Prefix caching nevertheless introduces new challenges, including heavy-tailed session footprints and highly variable miss costs as attention computation grows with sequence length. We introduce the compute-savings ratio and two offline oracles to quantify these effects. Our results show that effective prefix-cache management should retain recency as its foundation while selectively adding quick demotion for one-hit prefixes, compute-aware partial eviction for expensive misses, and capacity-dependent eviction granularity. We will release the traces and simulator to support future research.",
+          "abstract": "Long-running LLM applications and autonomous agents repeatedly send growing context, making prefix caching critical for reducing prefill cost. This raises a fundamental question: do decades of traditional cache-management techniques transfer directly to agentic and conversational LLM serving? We analyze production traces comprising over 20 billion processed tokens and evaluate 14 eviction algorithms across capacity-constrained HBM and large memory-pool settings. We find that simple Least Recently Used (LRU) is surprisingly robust, offering competitive performance against sophisticated traditional policies, though substantial headroom to Belady's optimum remains. The reason is structural: prefix reuse is dominated by the steady pacing of active sessions, making recency an unusually strong predictor for eviction. Nevertheless, prefix caching diverges from traditional workloads in ways that recency ignores, notably the prevalence of single-turn requests, extreme session footprint skew, and highly non-uniform miss costs because attention computation scales with token depth. To close the gap to optimality, we establish several design principles for prefix-cache management: keeping recency as the baseline while incorporating quick demotion to filter one-hit prompts, compute-aware eviction to prioritize expensive misses, and capacity-adaptive eviction granularity. Our traces and simulator are publicly available.",
           "authors": [
             "Yiyu Liu",
             "Minlan Yu",
@@ -1384,21 +1520,6 @@
           "published": "2026-09-28",
           "primary_category": "cs.LG",
           "position": 5,
-          "attribution": "school"
-        },
-        {
-          "arxiv_id": "2608.15224",
-          "title": "Structuring Semantic Embeddings for Principle Evaluation: A Prototype-Guided Contrastive Learning Approach",
-          "abstract": "Reliable post-hoc evaluation asks whether already generated text satisfies a target criterion after generation. In this paper we study a focused frozen-embedding setting using principle-evaluation proxy tasks: toxicity detection, fine-grained emotion categorization, and ordinal review rating. General-purpose text embeddings are widely deployed for such tasks, but broad semantic similarity can place semantically similar yet task-distinct examples in overlapping regions of the representation space. We introduce Prototype-Guided Contrastive Learning (PGCL), a prototype-guided geometric regularization module built on top of frozen text embeddings. The module combines a semantic stream, a prototype-anchor attention stream, supervised contrastive learning, offset-based prototype-margin regularization, and stream regularization to produce a compact task-adapted representation without updating the base encoder. Controlled experiments show that PGCL improves over raw frozen embeddings on all three datasets and gives the clearest direct-baseline margin on AmazonReviews, while remaining competitive with strong direct frozen metric-learning baselines on GoEmotions and ToxicComment. We also add supervised residual-adapter, encoder-LoRA, full fine-tuning, objective ablation, sensitivity, and fully logged few-shot LLM protocol diagnostics to define the boundary of the claim. The theoretical analysis is revised as a sufficient-condition account for prototype-margin behavior under explicit assumptions in the prototype-mapping space, rather than as an unconditional training or final-embedding separation guarantee.",
-          "authors": [
-            "Che Shen",
-            "Junwei Su",
-            "Lingpeng Kong",
-            "Chuan Wu"
-          ],
-          "published": "2026-08-15",
-          "primary_category": "cs.LG",
-          "position": 4,
           "attribution": "school"
         }
       ]
